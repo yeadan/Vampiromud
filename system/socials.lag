@@ -1,0 +1,919 @@
+#SOCIAL
+Name	miembro~
+CharNoArg 
+                                     &R .oOOOOooo..
+&O                                  ..e &RoOOOOOOOOOOOOo.
+              &O                 ..elll &ROOOOOOOOOOOOOOO
+                      &O    ..ellllllll &ROOOOOOOOOOOOOO'
+  &W    +,,.      &O     .elllllllllllllll &ROOOOOOOOOOO*'
+  &W    .+,,+,&O+Eeeeellllllllllllllllllll &R'*OOO**''
+  &W    .,+,,.&OLlllllllllllllllllllllle*
+  &W     .++++&Ollllll++lllllllllle*'
+  &W    + ','++&Ollllllllllle*'
+  &W    ,.'++ +&Ollllllle          &PTodo esto es tuyo.
+  &W    ''+'' +eee@@el
+  &W    ,+'+''+%@@@@@@@.
+  &W    '+,'.+%%@@@@@@@*
+  &W     '+,.@@@@@@@@@@*
+  &W     ++'+'+@@@@@@@@'
+  &W     '+'+  "@@@@@"~
+CharAuto	    .
+                                     &R .oOOOOooo..
+&O                                  ..e &RoOOOOOOOOOOOOo.
+              &O                 ..elll &ROOOOOOOOOOOOOOO
+                      &O    ..ellllllll &ROOOOOOOOOOOOOO'
+  &W    +,,.     &O      .elllllllllllllll &ROOOOOOOOOOO*'
+  &W    .+,,+,&O+eeeellllllllllllllllllll &R'*OOO**''
+  &W    .,+,,.&Olllllllllllllllllllllle*
+  &W     .++++&Ollllll++lllllllllle*'
+  &W    + ','++&Ollllllllllle*'     
+  &W    ,.'++ +&Ollllllle`          &PTodo esto es tuyo.
+  &W    ''+'' +eee@@el
+  &W    ,+'+''+%@@@@@@@.
+  &W    '+,'.+%%@@@@@@@*
+  &W     '+,.@@@@@@@@@@*
+  &W     ++'+'+@@@@@@@@'
+  &W     '+'+  "@@@@@"~
+OthersAuto	.
+                                     &R .oOOOOooo..
+&O                                  ..e &RoOOOOOOOOOOOOo.
+              &O                 ..elll &ROOOOOOOOOOOOOOO
+                      &O    ..ellllllll &ROOOOOOOOOOOOOO'
+  &W    +,,.       &O    .elllllllllllllll &ROOOOOOOOOOO*'
+  &W    .+,,+,&O+Eeeeellllllllllllllllllll &R'*OOO**''
+  &W    .,+,,.&OLlllllllllllllllllllllle*
+  &W    .++++&Ollllll++lllllllllle*'
+  &W    + ','++&Ollllllllllle*'
+  &W    ,.'++ +&Ollllllle          &PTodo esto es de $N.
+  &W    ''+'' +eee@@el
+  &W    ,+'+''+%@@@@@@@.
+  &W    '+,'.+%%@@@@@@@*
+  &W     '+,.@@@@@@@@@@*
+  &W     ++'+'+@@@@@@@@'
+  &W     '+'+  "@@@@@"~
+End                
+
+#SOCIAL
+Name	        encular~
+CharNoArg	Encular a quien, cachond@ que eres un/una cachond@..~
+CharFound	^zEnculas ^xsalvajemente el ano de $N~
+OthersFound	$n ^z&ENCULA SALVAJEMENTE^x el pobre esfinter de $N~
+VictFound	$n se te acerca sigilosamente y te deja el ano mas rojo que la bandera de japon.~
+CharAuto	Haces una contorsion para metertela por el culo pero no llegas~
+OthersAuto	$n intenta metersela por el culo... tal vez esta confundido~
+End
+
+#SOCIAL
+Name        acusar~
+CharNoArg   Acusar a quien?~
+CharFound   Miras acusadoramente a $N.~
+OthersFound $n mira acusadoramente a $N.~
+VictFound   $n te mira acusadoramente.~
+CharAuto    Te estas acusando! Has sido una maaaala persona.~
+OthersAuto  $n se esta acusando!. No tiene la conciencia tranquila...~
+End
+
+#SOCIAL
+Name	    animar~
+CharNoArg   Animar a quien?~
+CharFound   Animas a $N.~
+OthersFound $n anima a $N.~
+VictFound   $n te anima.~
+CharAuto    Te animas a ti mismo. Vamos! Puedes hacerlo mejor!~
+OthersAuto  $n se esta animando a si mismo... estara bajo de moral.~
+End
+
+#SOCIAL
+Name        lengua~
+CharNoArg   Sacas tu lengua... pareces Mick Jagger.~
+OthersNoArg $n saca la lengua.~
+CharFound   Le sacas la lengua a $N.~
+OthersFound $n le saca la lengua a $N.~
+VictFound   $n te saca la lengua.~
+CharAuto    Te haces un nudo en la lengua... Ainch!!~
+OthersAuto  $n se hace un nudo en la lengua!~
+End
+
+#SOCIAL
+Name        bostezar~
+CharNoArg   OOOOUUUAAAAAAAAHM!!! Debes tener suenyo.~
+OthersNoArg $n bosteza. Debe tener suenyo.~
+End
+
+#SOCIAL
+Name        humillarse~
+CharNoArg   Te arrastras por el suelo.~
+OthersNoArg $n se arrastra por el suelo.~
+CharFound  Te humillas ante $N.~
+OthersFound $n se humilla ante $N.~
+VictFound   $n se arrastra por el suelo ante ti..~
+CharAuto    Por que?~
+End
+
+#SOCIAL
+Name        grunyir~
+CharNoArg   Grrrrrrrrrrr...~
+OthersNoArg $n grunye.~
+CharFound   Grunyes a $N.~
+OthersFound $n grunye a $N. Mejor largate antes de que empiecen a darse pinyos.~
+VictFound   $n te grunye.~
+CharAuto    Te estas grunyiendo... que miedo te das!.~
+OthersAuto  $n se esta grunyiendo!~
+End
+
+#SOCIAL
+Name        murmurar~
+CharNoArg   Murmuras.~
+OthersNoArg $n murmura.~
+CharFound   Murmuras algo sobre $N.~
+OthersFound $n murmura algo sobre $N.~
+VictFound   $n murmura algo sobre ti.~
+CharAuto    Murmurar sobre ti?~
+End
+
+#SOCIAL
+Name        palmear~
+CharNoArg   Palmear a quien?~
+CharFound   Palmeas a $N en el culo.~
+OthersFound $n le palmea el culo a $N.~
+VictFound   $n te palmea el culo.~
+CharAuto    Te estas palmeando el culo.~
+OthersAuto  $n se esta palmeando el culo.~
+End
+
+#SOCIAL
+Name        senyalar~
+CharNoArg   Senyalar a quien?~
+CharFound   Senyalas a $N acusadoramente.~
+OthersFound $n senyala acusadoramente a $N.~
+VictFound   $n te senyala acusadoramente.~
+CharAuto    Te senyalas a ti, orgullosamente.~
+OthersAuto  $n se senyala el pecho orgullosamente.~
+End
+
+#SOCIAL
+Name        estornudar~
+CharNoArg   Jeeeeessuuuss.~
+OthersNoArg Atchis! $n estornuda.~
+End
+
+#SOCIAL
+Name        lloriquear~
+CharNoArg   Lloriqueas como un ninyo.~
+OthersNoArg $n lloriquea en una esquina.~
+End
+
+#SOCIAL
+Name        cubito~
+CharNoArg   A quien quieres putear con un cubito de hielo?~
+CharFound   Le metes a $N un cubito de hielo en la espalda. Te ries con los saltitos que da intentando sacarselo.~
+OthersFound $n le mete un cubito en la espalda a $N.~
+VictFound   $n te mete un cubito de hielo en la espalda. MAMOOOOOON!!!~
+CharAuto    Tanta calor tienes?
+End
+
+#SOCIAL
+Name        escupir~
+CharNoArg   Escupes en el suelo.~
+OthersNoArg $n escupe en el suelo..~
+CharFound   Le escupes a $N en en ojo!~
+OthersFound $n le escupe a $N en todo el ojo!~
+VictFound   $n te escupe en un ojo!!: Sera &<@@@>#@/%!!~
+CharAuto    Te cubres de lapo verde... que bien.~
+OthersAuto  $n se subre de lapo verde... que asco.~
+End
+
+#SOCIAL
+Name        peta~
+CharNoArg   Te curras un peta y te lo fumas tranquilamente.~
+OthersNoArg $n se curra un peta y se lo fuma tranquilamente.~
+CharFound   Le rulas un peta a $N~
+OthersFound $n le rula un peta a $N.~
+VictFound   $n te rula un peta. Que buen rollo!~
+CharAuto    Pasalo a la penya!~
+OthersAuto  No hay manera de que $n rule ese peta que se acaba de currar.~
+End
+
+#SOCIAL
+Name        abofetear~
+CharNoArg   A quien le quieres girar la cara?~
+CharFound   Le sueltas un guantazo a $N en toda la cara!~
+OthersFound $n le arrea un guantazo a $N en toda la cara!~
+VictFound   $n te arrea un guantazo en gtoda la cara!~
+CharAuto    Eso! Pegate! Eres masoca?~
+OthersAuto  $n se esta abofeteando la cara. Seguro que se encuentra bien?~
+End
+
+#SOCIAL
+Name        buitre~
+CharNoArg   GRRRRNYEC!! GRRRRNYEC!!~
+CharFound   Te abalanzas sobre $N, AL ATAKEEEEERL!!!~
+OthersFound $n se abalanza sobre $N como un buitre carronyero.~
+VictFound   $n se abalanza sobre ti como un buitre carronyero.~
+CharAuto    Te autobuitreas (ya me diras como).~
+End
+
+#SOCIAL
+Name        ligar~
+CharNoArg   A quien quieres tirarle los trastos?~
+CharFound   Le tiras los trastos a $N.~
+OthersFound $n le tira los trastos a $N.~
+VictFound   $n te tira los trastos... esta intentando ligar contigo.~
+CharAuto    Con quien quieres ligar? Con tu subconsciente?~
+End
+
+#SOCIAL
+Name        rallar~
+CharNoArg   A quien le quieres comer la olla?.~
+CharFound   Le sueltas un rollo mortal a $N. Bla bla bla bla...~
+OthersFound $n esta rallando a $N... y de que manera!~
+VictFound   $n te esta rallando ya... Que dolro de cabeza!~
+CharAuto    Tu debes ser masoca... alla tu.~
+End
+
+#SOCIAL
+Name        estremecer~
+CharNoArg   Te estremeces. Ouch!~
+OthersNoArg $n se estremece.~
+CharFound   Te estremeces ante $N.~
+OthersFound $n se estremece ante $N.~
+VictFound   $n es estremece ante ti.~
+CharAuto    Tanto miedo te das?
+End
+
+#SOCIAL
+Name        silbar~
+CharNoArg   Silbas una melodia.~
+OthersNoArg $n silba distraidamente.~
+CharFound   Silbas al ver a $N.~
+OthersFound $n silba al ver a $N.~
+VictFound   $n silba al verte pasar.~
+CharAuto    Silbas una melodia.~
+OthersAuto  $n silba distraidamente.~
+End
+
+#SOCIAL
+Name        cosquillas~
+CharNoArg   A quien le quieres hacer cosquillas?.~
+CharFound   Le haces cosquillas a $N.~
+OthersFound $n le hace cosquillas a $N.~
+VictFound   $n te hace cosquillas.~
+CharAuto    Te haces cosquillas. Que diver!~
+OthersAuto  $n se parte de risa haciendose cosquillas.~
+End
+
+#SOCIAL
+Name        suspirar~
+CharNoArg   Suspiras.~
+OthersNoArg $n suspira profundamente.~
+CharFound   Suspiras al pensar en $N.~
+OthersFound $n suspira pensando en $N.~
+VictFound   $n suspira cuando piensa en ti.~
+CharAuto    Te suspiras en solitario.~
+OthersAuto  $n se suspira en solitario.~
+End
+
+#SOCIAL
+Name        mifija~
+CharNoArg   Miras fijamente el cielo.~
+OthersNoArg $n mira fijamente el cielo.~
+CharFound   Miras fijamente a $N, completamente perdido en sus ojos.~
+OthersFound $n mira fijamente a $N.~
+VictFound   $n te mira fijamente. No puede apartar la mirada de tus ojos.~
+CharAuto    Vale ya sabemos que te quieres mucho.~
+End
+
+#SOCIAL
+Name        temblar~
+CharNoArg   Brrrrrrrrrrrr.~
+OthersNoArg $n tiembla como una hoja.~
+CharFound   Tiemblas al pensar en luchar con $N.~
+OthersFound $n tiembla al pensar en luchar con $N.~
+VictFound   $n tiembla al pensar en luchar contigo.Que suicida!.~
+CharAuto    Tiemblas al ver tu cara?.~
+End
+
+#SOCIAL
+Name        acariciar~
+CharNoArg   A quien quieres acariciar?~
+CharFound   Acaricias suavemente a  $N.~
+OthersFound $n acarivia suavemente a $N.~
+VictFound   $n te acaricia suavemente.~
+CharAuto    Te acaricias suavemente. Tu te quieres mucho, no?~
+OthersAuto  $n se acaricia suavemente. Se debe querer mucho.~
+End
+
+#SOCIAL
+Name        dospiedras~
+CharNoArg   Coges dos piedras... nos abes que hacer con ellas.~
+OthersNoArg $n coge dos piedras... que va a hacer?~
+CharFound   Le das dosp iedras a $M para que se la machaque.~
+OthersFound $n le da dos piedras a $N para que se la machaque.~
+VictFound   $n te da dos piedras para que te la machaques.~
+CharAuto    Eso seria muuuuuuuuuuuy doloroso.~
+End
+
+#SOCIAL
+Name        reverencia~
+CharNoArg   Haces una reverencia.~
+OthersNoArg $n hace una reverencia.~
+CharFound   Le haces a $M una reverencia.~
+OthersFound $n le hace una reverencia a $N.~
+VictFound   $n te hace una reverencia.~
+CharAuto    Hacerte a ti una reverencia? Para que?~
+End
+
+#SOCIAL
+Name        consolar~
+CharNoArg   A quien quieres consolar?~
+CharFound   Consuelas a $M.~
+OthersFound $n consuela a $N.~
+VictFound   $n te consuela.~
+CharAuto    Te consuelas pensando que vendran tiempos mejores.~
+OthersAuto  $n se consuela pensando que vendran tiempos mejores.~
+End
+
+#SOCIAL
+Name        adicto~
+CharNoArg   Te levantas y reconoces ante todos que padeces una adiccion a los muds.'~
+OthersNoArg $n se levanta y dice 'Si, es verdad, yo juego a muds.'~
+CharFound   Le dices a $M que es como una droga.~
+OthersFound $n dice a $N que es como una droga.~
+VictFound   $n te dice que te necesita mas que nada en el mundo.~
+CharAuto    Te levantas y reconoces ante todos que padeces una adiccion a los muds.'~
+OthersAuto  $n se levanta y dice 'Si, es verdad, yo juego a muds.'~
+End
+
+#SOCIAL
+Name        adorar~
+CharNoArg   Buscas a alguien para adoras!.~
+OthersNoArg $n esta buscando adorar a alguien!~
+CharFound   Adoras a $N.~
+OthersFound $n adora a $N.~
+VictFound   $n te adora.~
+CharAuto    Anda ya! Deja de adorarte... ni que fueses Kurt Cobain!~
+OthersAuto  $n se adora...~
+End
+
+#SOCIAL
+Name        otravez~
+CharNoArg   No! otra vez no!~
+OthersNoArg $n se pega en la cabeza... lo ha vuelto a hacer!~
+CharFound   Le dices a $N de hacerlo otra vez! Debes haber disfrutado mucho, eh?.~
+OthersFound $n mira a $N con ganas de hacerlo otra vez.~
+VictFound   $n te mira con cara obsesiva y te pide hacerlo una vez mas!~
+CharAuto    Otra vez??.~
+OthersAuto  $n lo ha hecho otra vez!~
+End
+
+#SOCIAL
+Name        deacuerdo~
+CharNoArg   No sabes porque, pero estas de acuerdo.~
+OthersNoArg Si senyor, $n esta de acuerdo con todo.~
+CharFound   Estas de acuerdo con $M.~
+OthersFound $n esta de acuerdo con $N.~
+VictFound   $n esta de acuerdo contigo.~
+CharAuto    Te das la razon en todo.~
+OthersAuto  $n se da la razon en todo.~
+End
+
+#SOCIAL
+Name        ejem~
+CharNoArg   EJEM.~
+OthersNoArg $n tose queriendo hacerse notar.~
+CharFound   Toses diciendole a $N que estas aqui.~
+OthersFound $n tose hacia $N para hacer notar su presencia.~
+VictFound   Ejem Ejem, parece que no le estas prestando atencion a $n.~
+CharAuto    EJEM EJEM.~
+OthersAuto  $n se pone a toserse ... se le habra ido la olla?.~
+End
+
+#SOCIAL
+Name        perdon~
+CharNoArg   Pides perdon a todo el mundo.~
+OthersNoArg $n pide perdon por su estupidez.~
+CharFound   Le pides perdon a $M.~
+OthersFound $n le pide perdon a $N.~
+VictFound   $n te pide perdon.~
+CharAuto    Te pides perdon por ser tan pardo.~
+OthersAuto  $n se pide perdon por ser tan pardo.~
+End
+
+#SOCIAL
+Name        aplaudir~
+CharNoArg   Clap, clap, clap.~
+OthersNoArg $n aplaude la actuacion de todos.~
+CharFound   Aplaudes su actuacion.~
+OthersFound $n aplaude con entusiasmo la actuacion de $N.~
+VictFound   $n te aplaude con entusiasmo. Debes haber hecho algo bien!~
+CharAuto    Aplaudes tu actuacion.~
+OthersAuto  $n se dedica un aplauso, que modestia.~
+End
+
+#SOCIAL
+Name        balbucear~
+CharNoArg   Empiezas a balbucear como si fueras idiota.~
+OthersNoArg $n empieza a balbucear intentando decir algo.~
+CharFound   Empiezas a balbucear al intentar hablar con $N.~
+OthersFound $n balbucear al intentar hablar con $N.~
+VictFound   $n intenta decirte algo pero solo consigue balbucear.~
+CharAuto    Empiezas a balbucear hablando contigo.~
+OthersAuto  $n empieza a balbucear intentando decirse algo.~
+End
+
+#SOCIAL
+Name        babear~
+CharNoArg   Estas babeando sobre todos.~
+OthersNoArg $n babea sobre todo el mundo.~
+CharFound   Babeas sobre $N.~
+OthersFound $n empieza a babear al ver a $N.~
+VictFound   Aunque intenta disimularlo, $n esta babeando con solo verte.~
+CharAuto    Babes sobre ti! Egs!~
+OthersAuto  $n esta babeando encima suyo.~
+End
+
+#SOCIAL
+Name        bah~
+CharNoArg   Bah! Me da igual!.~
+OthersNoArg $n dice 'Bah!' y sigue con lo suyo.~
+CharFound   Te da igual lo que haga $N... tu a lo tuyo.~
+OthersFound $n pasa completamente de lo que haga $N.~
+VictFound   $n paaasa de ti.~
+CharAuto    Bah! Me da igual!.~
+OthersAuto  $n dice 'Bah!' y sigue con lo suyo.~
+End
+
+#SOCIAL
+Name        ladrar~
+CharNoArg   Guau! Guau!~
+OthersNoArg $n ladra como un perro.~
+CharFound   Ladras a $M.~
+OthersFound $n ladra a $N.~
+VictFound   $n te ladra.~
+CharAuto    Guau! Guau!~
+OthersAuto  Guau! Guau! $n se esta ladrando!~
+End
+
+#SOCIAL
+Name        volvere~
+CharNoArg   Anuncias que volveras mas tarde.~
+OthersNoArg $n anuncia que volvera mas tarde.~
+CharFound   Le dices a $M que no se vaya que ahora vienes.~
+OthersFound $n le dice a $N que ahora vendra.~
+VictFound   $n te dice que no te vayas, ahora vendra.~
+CharAuto    Sayonara, baby.~
+OthersAuto  'Sayonara, baby', $n se cree Terminator!.~
+End
+
+#SOCIAL
+Name        cerveza~
+CharNoArg   Que mejor para la sed que una cerveza helada!.~
+OthersNoArg $n se bebe una cerveza helada.~
+CharFound   Le tiras una cerveza bien fria a $N.~
+OthersFound $n le tira una cerveza bien fria a $N.~
+VictFound   $n te tira una cerveza bien fria!.~
+CharAuto    Te pones a beber una cerveza helada delante de todos.~
+OthersAuto  $n se pone a beber una cerveza helada... que envidia.~
+End
+
+#SOCIAL
+Name        decapitar~
+CharNoArg   Buscas alguna cabeza que cortar.~
+OthersNoArg $n busca cabezas que cortar.~
+CharFound   Sonries maliciosamente a $N y empunyas tu arma.~
+OthersFound $n sonrie maliciosamente a $N mientras empunya su arma!~
+VictFound   $n te sonrie maliciosamente mientras empunya su arma...~
+CharAuto    No estoy seguro de que es lo realmente quieres hacer.~
+OthersAuto  $n esta tan desesperado que se esta intentando decapitar!~
+End
+
+#SOCIAL
+Name        besomano~
+CharNoArg   A quien quieres besar?~
+CharFound   Le das un beso en la mano a $M.~
+OthersFound $n besa la mano de $N.~
+VictFound   $n te besa la mano. No es como uno de verdad eh?~
+CharAuto    Te besas tu propia mano.~
+OthersAuto  $n se esta besando su propia mano.~
+End
+
+#SOCIAL
+Name        vomitar~
+CharNoArg   Vomitas... Dios! 'Tropezones' por todas partes!.~
+OthersNoArg $n vomita. BUEGS!!!~
+CharFound   Vomitas sobre $M!~
+OthersFound $n vomita sobre $N. Mejor vete, podria seguir contigo!~
+VictFound   $n vomita sobre ti hasta la primera papilla!~
+CharAuto    Te vomitas encima (tan mal vas?).~
+OthersAuto  $n se vomita encima. BUEGS!.~
+End
+
+#SOCIAL
+Name        confundir~
+CharNoArg   Te estas confundiendo.~
+OthersNoArg $n se esta confundiendo.~
+CharFound   Intentas confundir a $M.~
+OthersFound $n confunde a $N, $N no sabe que hacer.~
+VictFound   $n te esta confundiendo, que haras ahora?~
+CharAuto    Te estas confundiendo.~
+OthersAuto  $n se esta confundiendo.~
+End
+
+#SOCIAL
+Name        snariz~
+CharNoArg   Te suenas ruidosamente la nariz.~
+OthersNoArg $n se esta sonando la nariz..~
+CharFound   Te suenas la nariz en su camisa.~
+OthersFound $n se suena la nariz en la camisa de $N.~
+VictFound   $n se nueva la nariz en tu camisa.~
+CharAuto    Te suenas la nariz en tu propia camisa... donde habras dejado los clinex?.~
+OthersAuto  $n Se suena la nariz en su propia camisa.~
+End
+
+#SOCIAL
+Name        bocina~
+CharNoArg   MOOOOOOOOOOOOOOOOOOOOOK!!!!!.~
+OthersNoArg MOOOOK! MOOOOK! $n acaba de llegar con su camion.~
+CharFound   MOOOOOOOK! Adviertes a $M que se aparte o le atropellas con el camion!~
+OthersFound MOOOOOK! $n casi atropella a $N con su camion!~
+VictFound   MOOOOOK! Que susto! $n te advierte que te apartes o te atropella con el camion!~
+CharAuto    MOOOOOOOOOOOOOOOOOOOOOK!!!!!.~
+OthersAuto  MOOOOOOOOOK! $n grita 'Vivan los camioneros!'.~
+End
+
+#SOCIAL
+Name        botar~
+CharNoArg   BOIINNNNNNGG!~
+OthersNoArg $n empieza a botar... parece una pelota!~
+CharFound   Empieza a botar alrededor de $N!~
+OthersFound $n bota alrededor de $N!~
+VictFound   $n bota a tu alrededor! BOIINNNNNNGG!~
+CharAuto    BOIINNNNNNGG!~
+OthersAuto  $n empieza a botar... parece una pelota!~
+End
+
+
+#SOCIAL
+Name        eruptar~
+CharNoArg   BUUUUURRRRP! Eruptas.~
+OthersNoArg $n erupta ruidosamente.~
+CharFound   Le eruptas en la cara a $M.~
+OthersFound $n le erupta en la cara a $N.~
+VictFound   $n te erupta en la cara... que asco!.~
+CharAuto    BUUUUURRRRP! Eruptas.~
+OthersAuto  $n erupta ruidosamente.~
+End
+
+#SOCIAL
+Name        despedir~
+CharNoArg   Te despides de todos.~
+OthersNoArg $n se despide de todos.~
+CharFound   Le dices adios a $N.~
+OthersFound $n le dice adios a $N.~
+VictFound   $n te dice adios.~
+CharAuto    Porque te despides de ti?. Te vas a suicidar?~
+OthersAuto  $n se dice adios. Estara pensando en el suicidio?~
+End
+
+#SOCIAL
+Name        desternillarse~
+CharNoArg   Te ries como un loco.~
+OthersNoArg $n se desternilla de risa.~
+CharFound   Te desternillas de risa de $N.~
+OthersFound $n se desternilla de risa de $N.~
+VictFound   $n se desternilla de risa de ti.~
+CharAuto    Te ries como un loco.~
+OthersAuto  $n se desternilla de risa.~
+End
+
+#SOCIAL
+Name        gallina~
+CharNoArg   KOKOKOKOKOKOOK! Gallina! Gallina!.~
+OthersNoArg $n esta buscando algun gallina.~
+CharFound   $N es un gallina!~
+OthersFound $n le dice a $N: 'gallina! gallina!'~
+VictFound   $n te esta acusando de gallina~
+CharAuto    Pero como puedes ser tan gallinita... porque no te pones el wimpy a tope?~
+OthersAuto  $n admite que su cobardia no tiene limites.~
+End
+
+#SOCIAL
+Name        kinder~
+CharNoArg   Chocolate! Quiero chocolate!.~
+OthersNoArg $n esta sufriendo el mono de comer chocolate.~
+CharFound   Le das un kinder bueno a $N. Que dulce!~
+OthersFound $n le da a $N un kinder bueno.~
+VictFound   $n te da un knder bueno. Que dulce!~
+CharAuto    Te regalas otro kinder bueno, Mmmmm.~
+OthersAuto  $n se come otro kinder bueno... la envidia te corroe :)=.~
+End
+
+#SOCIAL
+Name        nirvana~
+CharNoArg   Empiezas a escuchar Nirvana.~
+OthersNoArg $n si que sabe de musica! Esta escuchando Nirvana!~
+CharFound   Le regalas a $M un CD de Nirvana.~
+OthersFound $n le regala un CD de Nirvana a $N.~
+VictFound   $n te ha regaaldo un CD de Nirvana! WOW!~
+CharAuto    Empiezas a escuchar Nirvana.~
+OthersAuto  $n si que sabe de musica! Esta escuchando Nirvana!~
+End
+
+#SOCIAL
+Name        fumar~
+CharNoArg   Enciendes un cigarrilo y empiezas a fumar.~
+OthersNoArg $n enciende un cigarrillo y se pone a fumar.~
+CharFound   Le das y le enciendes un cigarrilo a $M.~
+OthersFound $n le da y le enciende un cigarrilo a $N.~
+VictFound   $n te da y te enciende un cigarrilo.... Fumas?~
+CharAuto    Enciendes un cigarrilo y empiezas a fumar~
+OthersAuto  $n enciende un cigarrillo y se pone a fumar.~
+End
+
+#SOCIAL
+Name        llorar~
+CharNoArg   Buaaaaaaaaaaaaaa...~
+OthersNoArg $n rompe a llorar.~
+CharFound   Rompes a llorar en el hombro de $M.~
+OthersFound $n llora en el hombro de $N.~
+VictFound   $n rompe a llorar en tu hombro.~
+CharAuto    Buaaaaaaaaaaaaaa...~
+OthersAuto  $n rompe a llorar.~
+End
+
+#SOCIAL
+Name        maldecir~
+CharNoArg   Maldices tu mala suerte.~
+OthersNoArg $n maldice: @*&^%@*&!~
+CharFound   Maldices a $M.~
+OthersFound $n maldice a $N.~
+VictFound   $n te maldice.~
+CharAuto    Maldices tu mala suerte.~
+OthersAuto  $n maldice: @*&^%@*&!~
+End
+
+#SOCIAL
+Name        bailar~
+CharNoArg   Empiezas a bailar.~
+OthersNoArg $n empieza a bailar.~
+CharFound   Arrastras a $M en un romantico vals.~
+OthersFound $n arrastra a $N en un romantico vals.~
+VictFound   $n te arrastra en un romantico vals.~
+CharAuto    Te agarras los hombros y empiezas a bailar alrededor tuyo.~
+OthersAuto  $n se agarra los hombros y empieza a bailar a su alrededor.~
+End
+
+#SOCIAL
+Name        eeps~
+CharNoArg   Eeeps!~
+OthersNoArg $n dice 'eeps!'~
+CharFound   Miras a $N y dices 'Eeps!'~
+OthersFound $n mira a $N y dice 'Eeps'!~
+VictFound   $n te mira y te dice 'Eeps'!~
+CharAuto    Eeps!!~
+End
+
+#SOCIAL
+Name        abrazar~
+CharNoArg   Te sientes como un Teletubbie y quieres abrazar a alguien.~
+OthersNoArg $n esta buscando a alguien para abrazar.~
+CharFound   Abrazas carinyosamente a $M.~
+OthersFound $n abraza carinyosamente a $N.~
+VictFound   $n te abraza carinyosamente.~
+CharAuto    Unaaaaa abraassaaaaadaaaaa!!~
+OthersAuto  $n se abraza carinyosamente (...).~
+End
+
+#SOCIAL
+Name        grin~
+CharNoArg   Sonries maliciosamente *grin*.~
+OthersNoArg $n sonrie maliciosamente *grin*.~
+CharFound   Sonries maliciosamente a $M *grin*.~
+OthersFound $n sonrie maliciosamente a $N.~
+VictFound   $n te sonrie maliciosamente *grin*.~
+CharAuto    Te sonries maliciosamente *grin*.~
+OthersAuto  $n se sonrie malicisamente *grin*.~
+End
+
+#SOCIAL
+Name        fake~
+CharNoArg   Reportas: 12874/13103 hp 9238/10230 mana 2483/3451 mv 2.31E13 xp.~
+OthersNoArg $n reporta: 12874/13103 hp 9238/10230 mana 2483/3451 mv 2.31E13 xp.~
+CharFound   Reportas: 12874/13103 hp 9238/10230 mana 2483/3451 mv 2.31E13 xp.~
+OthersFound $n reporta: 12874/13103 hp 9238/10230 mana 2483/3451 mv 2.31E13 xp.~
+VictFound   $n reporta: 12874/13103 hp 9238/10230 mana 2483/3451 mv 2.31E13 xp.~
+CharAuto    Reportas: 12874/13103 hp 9238/10230 mana 2483/3451 mv 2.31E13 xp.~
+OthersAuto  $n reporta: 12874/13103 hp 9238/10230 mana 2483/3451 mv 2.31E13 xp.~
+End
+
+#SOCIAL
+Name        flirtear~
+CharNoArg   Wink wink!~
+OthersNoArg $n flirtea -- huh?~
+CharFound   flirteas con $M.~
+OthersFound $n flirtea con $N.~
+VictFound   $n se muestra interesante y empieza a flirtear contigo.~
+CharAuto    Flirteas contigo... crees que servira para algo?~
+OthersAuto  $n flirtea -- huh?.~
+End
+
+#SOCIAL
+Name        frances~
+CharNoArg   Besar a quien?~
+CharFound   Le das a $N un largo y apasionado beso tornillero.~
+OthersFound $n le da un largo y apasionado beso a $N.~
+VictFound   $n te da un largo y apasionado beso tornillero.~
+CharAuto    Te abrazas e intentas besarte... Uhm, algo dificil no?.~
+OthersAuto  $n se abraza e intenta besarse... Crees que lo conseguira?~
+End
+
+
+#SOCIAL
+Name        celos~
+CharNoArg   Sientes celos.~
+OthersNoArg $n siente celos.~
+CharFound   Sientes celos de $N.~
+OthersFound $n siente celos de $N.~
+VictFound   $n siente celos de ti.~
+CharAuto    Sientes celos.~
+OthersAuto  $n siente celos.~
+End
+
+#SOCIAL
+Name        besar~
+CharNoArg   A quien quieres besar?~
+OthersNoArg $n busca a alguien para besar.~
+CharFound   Besas a  $M.~
+OthersFound $n besa a $N.~
+VictFound   $n te da un beso.~
+CharAuto    Ahhh la soledad :(.~
+OthersAuto  $n se intenta besar...~
+End
+
+#SOCIAL
+Name        lag~
+CharNoArg   LAAAAAAAAAAAAAAAAAAAAAAGGGGG!!!!!!.~
+OthersNoArg $n se mueve despacio por el lag.~
+CharFound   Le dices a $N que el lag te esta matando.~
+OthersFound $n le dice a $N que tiene lag.~
+VictFound   $n te dice que tiene lag.~
+CharAuto    LAAAAAAAAAAAAAAAAAAAAAAAGGGGG!!!!!.~
+OthersAuto  $n se mueve muy despacio por el lag.~
+End
+
+#SOCIAL
+Name        lalala~
+CharNoArg   la la la.~
+OthersNoArg $n dice  'la la la'~
+CharFound   Le dices a $N 'la la la'.~
+OthersFound $n dice a $N 'la la la'.~
+VictFound   $n te dice 'la la la'.~
+CharAuto    la la la.~
+End
+
+#SOCIAL
+Name        reir~
+CharNoArg   Te partes de risa.~
+OthersNoArg $n se parte de risa.~
+CharFound   Te ries de $N.~
+OthersFound $n se rie de $N.~
+VictFound   $n se esta riendo de ti. Hmmmmph.~
+CharAuto    Te ries de ti mismo.~
+OthersAuto  $n se rie de si mismo. Hagamos todos lo mismo!~
+End
+
+#SOCIAL
+Name        amar~
+CharNoArg   Amas a todo el mundo.~
+OthersNoArg $n ama a todo el mundo.~
+CharFound   Le espresas tus verdaderos sentimientos a $N.~
+OthersFound $n parece que ama a $N.~
+VictFound   $n te confiesa que te quiere con locura.~
+CharAuto    Lo tuyo si que es autoestima!~
+OthersAuto  $n se ama con locura... cuanta autoestima, no?~
+End
+
+#SOCIAL
+Name        masaje~
+CharNoArg   Dar un masaje a quien?~
+CharFound   Masajeas gentilmente los hombros de $N.~
+OthersFound $n le da un masaje a $N.~
+VictFound   $n gentilmente masajea tus hombros. Ahhhhhhhhhh ...~
+CharAuto    Practicas yoga e intentas darte un masaje.~
+OthersAuto  $n practica yoga intentando darse un masaje.~
+End
+
+#SOCIAL
+Name       polla~
+CharNoArg Te sacas tu pedazo de POLLA para que todos vean su tamanyo.~
+OthersNoArg &P$n &gse saca la POLLA para que la admiren todos.~
+CharFound te sacas la POLLA y golpeas con la punta la frente de $N~
+OthersFound $n le muestra el tamanyo de su POLLA a $N que parece estar asombrado...~
+VictFound $n te muestra el tamanyo de su POLLA te quedas estupefacto...~
+CharAuto  Miras el tamanyo de tu POLLA con gran satisfacccion xD~
+OthersAuto $n se mira la POLLA tiernamente, haaa como la quiere...~
+End
+
+#SOCIAL
+Name        maullar~
+CharNoArg   Miaaaaauuuu.~
+OthersNoArg $n maulla como un gatito.~
+CharFound   Maullas a $M.~
+OthersFound $n maulla a $N.~
+VictFound   $n te maulla.~
+CharAuto    Miaaaaaauuuu.~
+OthersAuto  $n maulla como un gatito.~
+End
+
+#SOCIAL
+Name        cuernos~
+CharNoArg   A quien quieres ponerle los cuernos?~
+CharFound   Le pones los cuernos a $M.~
+OthersFound $n le pone los cuernos a $N.~
+VictFound   $n te pone los cuernos.~
+CharAuto    Te pones los cuernos!~
+OthersAuto  $n se pone los cuernos?.~
+End
+
+#SOCIAL
+Name        muhaha~
+CharNoArg   Ries diabolicamente. MUHAHAHAHAHAHA!.~
+OthersNoArg $n rie diabolicamente. MUHAHAHAHAHAHA!..~
+CharFound   Te ries de $M diabolicamente. MUHAHAHAHAHAHA!..~
+OthersFound $n se rie de $N diabolicamente. MUHAHAHAHAHAHA!..~
+VictFound   $n se rie de ti diabolicamente. MUHAHAHAHAHAHA!..~
+CharAuto    Reirte de ti mismo?~
+End
+
+#SOCIAL
+Name        ooo~
+CharNoArg   OoOOooOOooOOoo.~
+OthersNoArg $n dice 'ooOOooOOooOOoo'.~
+CharFound   Le dices 'ooOOooOOooOOoo'.~
+OthersFound $n dice 'ooOOooOOooOOoo'.~
+VictFound   $n te dice 'ooOOooOOooOOoo'.~
+CharAuto    OoOOooOOooOOoo.~
+OthersAuto  $n dice 'ooOOooOOooOOoo'.~
+End
+
+#SOCIAL
+Name        golpear~
+CharNoArg   Golpear a quien?~
+CharFound   Golpeas a $M amistosamente.~
+OthersFound $n golpea a $N amistosamente.~
+VictFound   $n te golpea amistosamente.  OUCH!~
+CharAuto    Te golpeas en las costillas. OUCH!.~
+OthersAuto  $n se golpea en las costillas. Eso debe doler.~
+End
+
+#SOCIAL
+Name        lamer~
+CharNoArg   Te relames los labios y sonries.~
+OthersNoArg $n se relame los labios y sonrie.~
+CharFound   Lames a $M.~
+OthersFound $n lame a $N.~
+VictFound   $n te lame.~
+CharAuto    Lamerte a ti mismo?.~
+End
+
+
+#SOCIAL
+Name        sonrojar~
+CharNoArg   Te sonrojas.~
+OthersNoArg $n se sonroja. Como se le han subido los colores!.~
+CharFound   Te sonrojas al mirar a $N.~
+OthersFound $n se sonroja al mirar a $N.~
+VictFound   $n se sonroja con solo verte.~
+CharAuto    Sonrojarte? de ti?~
+End
+
+#SOCIAL
+Name        sonreir~
+CharNoArg   Sonries.~
+OthersNoArg $n sonrie.~
+CharFound   Sonries a $M.~
+OthersFound $n sonrie a $N.~
+VictFound   $n te sonrie.~
+CharAuto    Sonries.~
+OthersAuto  $n sonrie~
+End
+
+#SOCIAL
+Name        bolanieve~
+CharNoArg   A quien le quieres tirar una bola de nieve?~
+CharFound   Tiras una bola de nieve a la cara de $N.~
+OthersFound $n tira una bola de nieve a $N.~
+VictFound   $n te tira una bola de nieve a la cara.~
+CharAuto    Y luego te quitaras tu toda esa nieve?~
+End
+
+#SOCIAL
+Name        besotierno~
+CharNoArg   Disfrutaras mas si encuentras a alguien a quien besar.~
+CharFound   Le das a $M un suave y tierno beso.~
+OthersFound $n le da a $N un suave y tierno beso.~
+VictFound   $n te da un suave y tierno beso.~
+CharAuto    Disfrutaras mas si encuentras a alguien a quien besar.~
+End
+
+#END
