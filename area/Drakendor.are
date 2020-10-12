@@ -1,0 +1,189 @@
+#AREA   Territorio DRaKeNDoR~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 1
+#PROPIETARIO Inconquistable~
+#PUNTOS 0 0 0 0 0
+#AUTHOR SaNgUiNaRi~
+
+#RANGES
+0 256 0 256
+$
+
+#RESETMSG El orgullo drakendor corre por tu sangre...~
+
+#FLAGS
+0
+
+#ECONOMY 0 10063018
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#0
+
+
+#OBJECTS
+#35000
+sello drakendor~
+El SeLlO dE DrAkEnDoR~
+El SeLlO dE DrAkEnDoR esta en el suelo, parece tener un brillo oscuro...~
+~
+9 2621763 2097153
+25 25 0 0
+40 12457 26
+A
+13 250
+A
+12 250
+A
+18 25
+A
+19 25
+A
+23 -25
+A
+24 -25
+
+#35199
+inmortal tablon~
+El tablon de los inmortales~
+El tablon de los inmortales.~
+~
+12 0 0
+0 0 0 0
+1 10 1
+#0
+
+
+#ROOMS
+#35000
+Territorio DraKeNDoR~
+Estas en los territorios de la familia drakkendor, desde aqui puedes
+observar el amplio valle que se extiende ante ti
+yomo los dragones revolotean por ahi.
+~
+0 3441680 1
+D0
+~
+~
+0 -1 35001
+D2
+~
+~
+0 -1 35003
+D3
+~
+~
+0 -1 35004
+D4
+~
+~
+0 -1 21001
+S
+#35001
+Un pasillo~
+Estas en el pasillo de entrada a la casa de la familia Drakendor, hacia
+el este esta la morgue de la familia.
+~
+0 3441680 1
+D1
+~
+~
+0 -1 35002
+D2
+~
+~
+0 -1 35000
+S
+#35002
+La sala de despiece~
+Estas en la sala de despiece, aqui puedes ver todo tipo de artilugios
+para torturar y despedazar cuerpos, los cuerpos de los guerreros caidos
+son usados para fabricar comida para dragones. El hedor del lugar es
+insoportable.
+~
+0 3441680 1
+D3
+~
+~
+0 -1 35001
+S
+#35003
+Sala de curacion de la familia DraKeNDoR~
+Esta es la sala de curacion de los DRaKeNDoR, aqui es donde vienen los
+valerosos miembros de la familia a descansar y recuperarse de sus
+heridas de batalla.
+~
+0 3441680 1
+D0
+~
+~
+0 -1 35000
+S
+#35004
+Un pasillo~
+Estas en un pasillo dentro del territorio Drakendor, desde aqui
+puedes escuchar a los guerreros entrenandose, y el alegre barullo
+del mercado.
+~
+0 3441680 1
+D0
+~
+~
+0 -1 35006
+D1
+~
+~
+0 -1 35000
+D3
+~
+~
+0 -1 35005
+S
+#35005
+Un pasillo~
+Estas en un pasillo dentro del territorio Drakendor, desde aqui
+puedes escuchar a los guerreros entrenandose, y el alegre barullo
+del mercado.
+~
+0 3441680 1
+D1
+~
+~
+0 -1 35004
+S
+#35006
+Una sala de taquillas~
+Estas en la sala de taquillas de la familia Drakendor, la peste
+a calzoncillos sucios te hace vomitar.
+~
+0 3146768 1
+D2
+~
+~
+0 -1 35004
+S
+#0
+
+
+#RESETS
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

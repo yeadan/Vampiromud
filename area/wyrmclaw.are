@@ -1,0 +1,358 @@
+#AREA   Territorio WyRMCLaW~
+
+
+
+#VERSION 1
+
+#REVISADA 0
+#CONQUISTABLE 1
+#PROPIETARIO Inconquistable~
+#AUTHOR Lasher~
+
+#RANGES
+0 256 0 256
+$
+
+#RESETMSG Lasher te dice telepaticamente 'Amos amos que nos los comemooooooooos!!!~
+
+#FLAGS
+0
+
+#ECONOMY 0 42300000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#25000
+lameth curata oscuro~
+Lameth el Oscuro~
+Lameth espera pacientemente nuevos heridos que atender
+~
+Mide algo asi como 2'10, lleva el pelo largo y tan grasiento como Kurt
+Cobain y la cara totalmente masacrada de cicatrices rituales y telaraas
+tatuadas. Chiquillo de Ashur, es un 4 generacion. Te encuentras frente
+a uno de los magos mas poderosos de la estirpe junto con Amis.
+~
+81&2 369107624 0 C
+6 0 -5 10d10+8000 5d1+90
+0 0
+112 112 1
+25 0 25 25 0 25 25
+0 0 0 0 0
+0 1 0 0 1 1 3
+0 0 5 0 2048 0 170131729&1 4099
+#25001
+marijuana marihuana maria questmaster~
+MaRiJuaNa la QuestMaster~
+Una bella mujer cuyo peinado recuerda una bonita planta de MaRiHuaNa te observa on detenimiento.
+~
+La bella MaRiJuaNa es una de las mas prestigiosas CazaRecompensas del Mundo de 
+Tinieblas pero algo cansada de realizar misiones, decidio montarse el
+xollito por su cuenta y montar una agencia de
+cazarecompensas en el seno de la familia Wyrmclaw.
+~
+-1929377725 12591804 0 C
+65 -300 -300 31000d1+1 2800d1+2
+100000 0
+112 112 2
+24 24 24 24 24 24 24
+-99 -99 -99 -99 -99
+0 4 117 225 1 1 5
+0 0 8 0 4194303 0 0 0
+> entry_prog 100~
+if ispc($n)
+'Bienvenido $n, no te apetece ir de caza hoy?
+endif
+~
+|
+#25002
+ToPo el herrero~
+el herrero~
+El herrero de la familia Wyrmclaw es conocido por su buena mano y su desorden.
+~
+~
+2051 4194344 0 C
+50 0 -300 1d1+30000 1d1+1000
+0 0
+112 112 0
+18 18 18 18 13 13 18
+0 0 0 0 0
+2 22 0 0 1 1 5
+0 0 2047 0 3156992 0 32 3
+#25003
+panoramix~
+PaNoRaMiX el Druida~
+PaNoRaMiX, el druida galo, esta aqui esperado a que le compres.
+~
+Mira que viejo que es el jodio
+~
+2115 4194344 0 C
+50 0 0 1d1+30000 4d5+100
+1000000 0
+112 112 1
+18 18 18 18 13 13 18
+0 0 0 0 0
+1 0 0 0 1 1 6
+0 0 2047 0 3156992 0 48 3
+#25004
+#21140
+usurera~
+la usurera~
+Aqui tienes a la usurera del clan Wyrmclaw.
+~
+Joder que buena esta la jodida!
+~
+73 8192 200 C
+67 -100 -90 7000d1+500 100d1+23
+200000 0
+112 112 0
+8 8 8 8 8 8 8
+0 0 0 0 0
+88 6 0 0 1 1 3
+0 0 65545 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#25000
+fuente sangre~
+Una fuente de la cual emana sangre~
+Hay una fuente de la que emana sangre sin parar en medio de la habitacion...~
+~
+27 1073741824 0
+50 50 0 0
+1 120000000 1220000
+E
+muerte agonia~
+La Muerte nos llega tarde o temprano, no importa quien seas, que hagas
+o donde te escondas...~
+#25001
+pergamino wyrmclaw sagrado~
+Un pergamino sagrado~
+Un pergamino con sagrado de los Wyrmclaw esta tirado en el suelo.~
+~
+2 8192 1
+115 -1 94 21
+1 300000 1
+'sanctuary' 'frenzy' 'bless'
+> get_prog 100~
+if ispc($n)
+if clan($n) == wyrmclaw
+mpechoat $n &wUn enorme escalofrio te recorre el cuerpo
+endif
+if clan($n) != wyrmclaw
+mpforce $n deja wyrmclaw
+mpechoat $n Sientes una enorme molestia por todo tu cuerpo.
+endif
+endif
+~
+|
+#25002
+tobillera wyrmclaw~
+La tobillera de la familia WyRMCLaW~
+La tobillera de los WyRMCLaW esta tirada por aqui.~
+~
+9 2621763 2097153
+25 25 0 0
+40 12457 26
+A
+13 250
+A
+12 250
+A
+18 25
+A
+19 25
+A
+23 -25
+A
+24 -25
+> wear_prog 100~
+if ispc($n)
+if clan($n) == wyrmclaw
+mpechoat $n &wUn enorme escalofrio te recorre el cuerpo
+endif
+if clan($n) != wyrmclaw
+mpforce $n desvestir wyrmclaw
+mpechoat $n Sientes una enorme molestia por todo tu cuerpo.
+endif
+endif
+~
+|
+#0
+
+
+#ROOMS
+#25000
+La Sala del Consejo~
+Te encuentras en una gran sala cubierta totalmente por las tinieblas.
+Ves grandes estantes en las paredes donde extranyos objetos de una
+apariencia muy antigua destellan en ocasiones con intensidad. Observas
+muchos cuadros e imagenes de vampiros muy poderosos y antiguos. Una
+enorme mesa descansa en mitad de esta sala rodeada por varios asientos.
+Al fondo ves una sucia chimenea ennegrecida por las constantes llamas y
+completamente tapada por el polvo. Crees ver una extranya apertura detras
+de esta...
+~
+0 3408901 2
+D0
+Hacia el Curandero
+~
+~
+0 -1 25001
+D1
+~
+~
+0 -1 25003
+D2
+~
+~
+0 -1 25002
+D3
+~
+~
+0 -1 25006
+D4
+La salida hacia la Ciudad
+~
+~
+0 -1 21001
+S
+#25001
+Oscuras Catacumbas~
+Tras bajar unas interminables escaleras, llegas a una sala abobedada
+donda crees distinguir varios ataudes alineados en el suelo. Notas
+moho y humedad por todos lados. No crees que nadia haya entrado ahi
+en muchos "anyos"... siglos quizas. Sin embargo, una persistente
+sensacion de intranquilidad te rodea. Algo realmente peligroso podria
+hallarse en esos ataudes.
+~
+0 3408897 2
+D2
+Hacia la Sala del Consejo
+~
+~
+0 -1 25000
+S
+#25002
+La Morgue de los Wyrmclaw~
+Estas en la morgue de la familia Wyrmclaw, aqui es donde van a parar
+los cuerpos de los miembros de la familia que caen abatidos en combate.
+Hay un peculiar edor a pudredumbre por toda la habitacion.
+Puedes ver frascos de formon alcohol y demas conservantes para los preciosos
+cadaveres que se alojan entre estas cuatro paredes.
+~
+0 3146752 0
+D0
+Hacia el Curandero
+~
+~
+0 -1 25000
+D1
+~
+~
+0 1 25007
+S
+#25003
+En un pasillo~
+Te encuentras en uno de los pasillos del refugio de la familia
+Wyrmclaw. Al norte podras visitar la Herreria, donde el
+herrero repara todo tipo de objetos por un modico precio.
+Al sur puedes ver la Oficina del Cazarecompensas.
+~
+0 3146752 0
+D0
+~
+~
+0 -1 25004
+D2
+~
+~
+0 -1 25005
+D3
+~
+~
+0 -1 25000
+S
+#25004
+La Herreria de ToPo~
+Estas en la herreria de ToPo, esta todo bastante destartalado, aunque este
+herrero no es muy ordenado, es uno de los mejores herreros del Mundo de
+Tinieblas, y su fama ha sobrepasado los muros del refugio de la familia
+Wyrmclaw, eguro que pone remedio a tus objetos danyados.
+~
+0 3146752 0
+D2
+~
+~
+0 -1 25003
+S
+#25005
+La Oficina del CazaRecompensas.~
+Has entrado a la Oficina del CazaRecompensas de la familia Wyrmclaw.
+Aqui es donde vienen los mas valerosos miembros de esta familia, a
+hacerle algun trabajito a la Cazarecompensas MaRiJuaNa una de las mas
+prestigiosas del Mundo de Tinieblas.
+~
+0 3146752 0
+D0
+~
+~
+0 -1 25003
+S
+#25006
+La Tienda de PaNoRaMiX~
+Has entrado en la tienda del druida PaNoRaMiX, el vendedor de la
+familia Wyrmclaw. Aqui es donde podras encontrar valiosos objetos
+para ayudarte a conseguir tus objetivos.
+~
+0 3146752 0
+D1
+~
+~
+0 -1 25000
+S
+#25007
+El Vestuario~
+Entras en el vestuario de los WyRMCLaW. Ves una serie de taquillas
+sobre unos bancos de madera al fondo de la sala, un cuarto oscuro
+donde el LasheR da por culo a los novatos a la derecha y las duchas
+donde los WyRMCLaW tiran el jabon a la izquierda. La unica salida 
+es por donde has entrado.
+~
+0 3146752 0
+D3
+~
+~
+0 -1 25002
+S
+#0
+
+
+#RESETS
+M 0 25000 1 25001
+O 0 25000 1 25000
+M 0 25001 1 25005
+M 0 25002 1 25004
+M 0 25003 1 25006
+G 1 25001 1
+S
+
+
+#SHOPS
+ 25002    0  0  0  0  0   120  90         0 23    ; el herrero
+ 25003    2  5 10  0  0   120  80         6  5    ; PaNoRaMiX el Druida
+0
+
+
+#REPAIRS
+ 25002    5  9 15         150   1         0 23    ; el herrero
+0
+
+
+#SPECIALS
+M  25001 spec_questmaster
+S
+
+
+#$

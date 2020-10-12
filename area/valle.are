@@ -1,0 +1,35 @@
+#AREA   El Valle de las sombras~
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 1
+#PROPIETARIO Territorio virgen~
+#AUTHOR SaNgUiNaRi~
+
+
+#MOBILES
+#0
+
+
+#OBJECTS
+#0
+
+
+#ROOMS
+#9000
+Hermit's hut~
+Estas en el interior del utero de alguien?????
+~
+0 9 0
+D1
+~
+~
+0 -1 9501
+D2
+~
+~
+0 -1 9504
+S
+#0
+
+#$

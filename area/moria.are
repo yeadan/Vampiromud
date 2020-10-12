@@ -1,0 +1,2201 @@
+#AREA   Las Minas de Moria~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO Beythor~
+#PUNTOS 1980 1854 69 2000 0
+#AUTHOR Brainstorm~
+
+#RANGES
+50 75 0 256
+$
+
+#RESETMSG El ulular del aire que corre entre los tuneles te dice que aun hay mucha vida aqui dentro~
+
+#FLAGS
+4 15
+
+#ECONOMY 0 5764397
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#12500
+Kraken~
+El Kraken~
+El Kraken de la laguna de Moria
+~
+Por lo que puedes ver debe ser algun tipo de pulpo
+enorme, aunque tan solo unos peligrosos tentaculos
+salen del agua.~
+67 -1073709016 -1000 C
+60 -50 -200 6d100+5000 1d6+100
+10 0
+112 109 0
+25 10 10 20 20 5 5
+0 0 0 0 0
+81 0 0 0 1 1 2
+0 0 9216 0 16 5 128 524288
+#12501
+Orco~
+Un orco~
+Un orco solitario.
+~
+Ves un orco despistado que patrulla el primer
+nivel en solitario. Pero va bien armado.~
+67 40 0 C
+52 -100 -100 2d100+4800 1d5+100
+3000 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+53 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#12502
+Orco Centinela~
+Un orco~
+Un orco de patrulla.
+~
+Ves un orco despistado que patrulla el segundo
+nivel.~
+67 40 0 C
+62 -100 -200 10d100+5500 2d3+106
+7000 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+53 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#12503
+Enano de Piedra~
+Un enano de piedra~
+Una estatua de Piedra que representa a un enano malhumorado.
+~
+Este guerrero enano parece el vigilante que han dejado aqui para que controle el
+puesto. Tiene una fuerte armadura y parece peligroso.~
+67 268435516 0 C
+70 -150 -300 15d100+7500 6d20+150
+2000 0
+112 112 1
+25 15 15 20 20 10 10
+0 0 0 0 0
+2 0 0 0 5 4 3
+0 0 2015 2098192 0 0 32 0
+#12504
+BALROG~
+BALROG~
+El balrog llameante
+~
+Es un demonio de fuego. Muy pocas criaturas hay tan poderosas
+como el. Yo de ti me alejaria lo mas deprisa posible...
+si es que puedes todavia...~
+67 33556520 0 C
+72 -300 -300 20d100+12000 10d6+220
+30000 0
+112 109 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+31 0 0 0 1 1 7
+70 70 419792005 2098185 1 2 67108870 2097664
+#12505
+Poder Moria~
+El Poder de Moria~
+~
+~
+2115 65538 0 C
+85 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#12506
+Guerrero orco~
+Un guerrero orco~
+Un guerrero orco de aspecto fiero
+~
+Este orco parece bastante mas fornido y eficaz que los de arriba,
+asi que ten cuidado. Esos dientes parecen venenosos.~
+67 40 0 C
+66 0 -100 5d2+8122 8d10+123
+8000 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 0 0 0 0 0 0
+#12507
+Uruk-Hai~
+Un orco uruk-hai~
+Un poderoso guerrero Uruk-Hai
+~
+Es uno de los orcos mas fuertes que hayas visto nunca.
+En bastante mas grande que los normales. Sauron los ha debido
+crear para mejorar la raza orca.~
+67 40 0 C
+68 0 0 10d100+8000 0d0+200
+15000 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+0 0 0 0 0 0 0 0
+#12508
+Orco Sanguinario~
+Un orco sanguinario~
+Un orco sanguinario haciendo de las suyas
+~
+Ves un orco cubierto de sangre y mirada extraviada.~
+67 40 0 C
+64 -100 -100 10d100+5100 5d100+160
+5000 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+53 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#12509
+Troll de las Cavernas~
+Un Troll de las Cavernas~
+Un enorme troll de las cavernas
+~
+Estas ante un rocoso troll de las cavernas. Has visto que brazos??~
+67 4194304 -1000 C
+68 -50 -200 20d100+5000 1d2+200
+10000 0
+112 109 0
+25 10 10 20 20 5 5
+0 0 0 0 0
+8 0 0 0 1 1 3
+0 0 1735 1048832 16 0 0 524289
+#0
+
+
+#OBJECTS
+#12500
+cimitarra orca~
+Una cimitarra orca~
+Una serrada hoja curva, de aspecto herrumbroso.~
+~
+5 67108914 8193 80
+10 10 5 1
+50 7000 700
+A
+18 2
+A
+19 3
+A
+13 30
+A
+3 -3
+#12501
+Latigo de Fuego~
+Un latigo de fuego~
+Este arma es muy poderosa, y no podra llevarla cualquiera.~
+un latigo de fuego~
+5 163891 8193 130
+10 10 6 4
+1 1000000 100000
+A
+18 8
+A
+19 18
+A
+13 100
+A
+23 -60
+A
+24 -40
+A
+1 5
+#12502
+Coraza de Sauron~
+Una Coraza de Sauron~
+Esta coraza fue forjada por el propio Sauron en las profundidades
+
+del Monte del Destino de Mordor.~
+~
+9 524578 9 110
+0 -80 0 0
+1 30000 3000
+A
+18 5
+A
+19 5
+A
+5 2
+A
+13 80
+A
+2 3
+A
+12 60
+#12503
+Martillo de guerra~
+Un Martillo de Guerra~
+Un gran martillo de Guerra, forjado en un metal desconocido.~
+~
+5 84224 32769 130
+12 8 10 8
+10 10000 1000
+A
+18 6
+A
+19 4
+A
+1 3
+#12504
+espadon orco~
+Un espadon orco~
+Una enorme espada de hoja curvada y herrumbrosa~
+el espadon~
+5 2100 8193 110
+10 10 2 1
+50 10000 1000
+A
+18 8
+A
+19 5
+A
+3 1
+A
+23 -50
+#12505
+cuchillo de operar~
+Un bisturi enooorme~
+Una afilada hoja, que haria las delicias de Zack el Destripador.~
+~
+5 67108962 8193 100
+12 0 0 2
+50 170000 17000
+A
+18 5
+A
+19 4
+A
+13 50
+#12506
+Cinturon orco~
+Un cinturon orco~
+Es un cinturon recio de cuero basto y poco trabajado, con remaches
+
+metalicos.~
+~
+9 98 2049 80
+0 -40 0 0
+1 3000 3000
+A
+18 5
+A
+13 50
+A
+19 4
+A
+4 -3
+#12507
+Cinturon de piedra~
+Un cinturon de piedra~
+Es un cinturon recio de dura piedra. Te protegera bien.~
+~
+9 98 2049 90
+0 -80 0 0
+1 30000 3000
+A
+18 6
+A
+2 3
+A
+19 4
+A
+13 50
+A
+56 65
+#12508
+Capa Oscura~
+Una capa de la oscuridad~
+Una capa negra como la noche. Muy ligera y resistente.~
+~
+9 98 1025 100
+0 -50 0 0
+1 30000 3000
+A
+14 100
+A
+12 80
+A
+13 100
+A
+3 3
+A
+4 3
+A
+17 -40
+A
+18 3
+A
+19 3
+A
+24 -50
+#12509
+Capa de los Trolls~
+Una capa de los Trolls~
+Una capa negra como la noche. La confeccionaron los Trolls de las
+
+cavernas, y se las apropiaron los orcos. Muy ligera y resistente.~
+~
+9 98 1025 100
+0 -50 0 0
+1 30000 3000
+A
+13 30
+A
+19 5
+A
+2 3
+#12510
+Maza Troll~
+Una maza de combate troll~
+Una enorme maza llena de pinchos.~
+~
+5 2402 8193 100
+12 7 10 8
+10 5000 500
+A
+18 4
+A
+19 6
+A
+1 3
+A
+3 -3
+#12511
+Botas Troll~
+Un par de botas de troll~
+Son apestosas, huelen peor que el pescado podrido.
+
+Pero si tienes constipado te protegeran muy bien.~
+~
+9 98 65 90
+0 -60 0 0
+1 3000 3000
+A
+14 80
+A
+12 -100
+A
+13 80
+A
+23 -30
+A
+24 -30
+A
+18 4
+A
+19 3
+A
+25 -5
+#0
+
+
+#ROOMS
+#12500
+La Laguna~
+Ves una laguna de aguas estancadas y calmadas. Pero algo te dice que
+no deberias fiarte y estar preparado.
+~
+0 4 6
+D0
+Puedes caminar por entre las aguas no demasiado profundas.~
+~
+0 0 12501
+D1
+Puedes caminar entre las aguas poco profundas.~
+~
+0 0 12504
+D2
+~
+~
+0 0 12014
+D3
+Puedes caminar entre las aguas poco profundas.~
+~
+0 0 12503
+S
+#12501
+Las Puertas de Moria~
+Te encuentras ante una inmensa pared de roca. Puedes ver una inscripcion
+en la parte derecha. Tal vez puedas entrar por aqui.
+~
+0 1024 2
+D1
+Puedes caminar entre las aguas poco profundas.~
+~
+0 0 12505
+D2
+~
+~
+0 0 12500
+D3
+Puedes caminar entre las aguas poco profundas.
+~
+~
+0 0 12502
+> speech_prog amigo~
+mpforce poder 'Ya puedes adentrarte en estas minas
+mptransfer $n 12506~
+|
+S
+#12502
+La Laguna~
+Ves una laguna de aguas estancadas y calmadas. Pero algo te dice que
+no deberias fiarte y estar preparado.
+~
+0 0 6
+D1
+Puedes caminar entre las aguas poco profundas.~
+~
+0 0 12501
+D2
+Puedes caminar entre las aguas poco profundas.~
+~
+0 0 12503
+S
+#12503
+La Laguna~
+Ves una laguna de aguas estancadas y calmadas. Pero algo te dice que
+no deberias fiarte y estar preparado.
+~
+0 0 6
+D0
+Puedes caminar entre las aguas poco profundas.
+~
+~
+0 0 12502
+D1
+Puedes caminar entre las aguas poco profundas.~
+~
+0 0 12500
+S
+#12504
+La Laguna~
+Ves una laguna de aguas estancadas y calmadas. Pero algo te dice que
+no deberias fiarte y estar preparado.
+~
+0 0 6
+D0
+Puedes caminar entre las aguas poco profundas.~
+~
+0 0 12505
+D3
+Puedes caminar entre las aguas poco profundas.~
+~
+0 0 12500
+S
+#12505
+La Laguna~
+Ves una laguna de aguas estancadas y calmadas. Pero algo te dice que
+no deberias fiarte y estar preparado.
+~
+0 0 6
+D2
+Puedes caminar entre las aguas poco profundas.~
+~
+0 0 12504
+D3
+Puedes caminar entre las aguas poco profundas.
+~
+~
+0 0 12501
+S
+#12506
+La Entrada.~
+Has logrado entrar en las minas de Khazad Dum. Los enanos construyeron 
+estos tuneles hace mucho tiempo, en su afanosa busqueda del mithril.
+~
+0 1057025 0
+D0
+~
+~
+0 0 12507
+D2
+Las Puertas de Moria se cierran tras de ti.~
+~
+33 0 12501
+S
+#12507
+Tunel en el primer nivel~
+Estas en un oscuro pasaje, poco iluminado. Ritmicos tambores resuenan 
+de fondo haciendo la atmosfera mas opresiva.
+~
+0 257 0
+D0
+Otro tunel.~
+~
+0 0 12508
+D2
+Un oscuro pasaje con poco oxigeno.~
+~
+0 0 12506
+S
+#12508
+Tunel en el primer nivel~
+El aire se espesa a medida que avanzas. La temperatura va subiendo y sigue
+estando todo muy oscuro. Lejanos ruidos te ponen la piel de gallina.
+~
+0 257 0
+D0
+El tunel continua por aqui.~
+~
+0 0 12509
+D2
+~
+~
+0 0 12507
+S
+#12509
+Bifurcacion~
+Aqui el tunel se bifurca a este y oeste. Tu luz oscila pero no te ayuda
+a decidirte por el camino mas apropiado.
+~
+0 257 0
+D1
+Otro tunel oscuro y asfixiante.~
+~
+0 0 12516
+D2
+~
+~
+0 0 12508
+D3
+Otro tunel asqueroso.~
+~
+0 0 12510
+S
+#12510
+Sala de columnas~
+Has llegado a una sala subterranea. El aire sigue siendo espeso, y la luz
+que llevas te revela unas columnas bellamente decoradas con filigranas.
+Pero al fijarte mejor ves que han sido vilmente mutiladas por manos orcas.
+~
+0 257 0
+D1
+~
+~
+0 0 12509
+D7
+Salida noroeste de la sala de columnas.~
+~
+0 0 12511
+S
+#12511
+Pasillo maloliente.~
+Este pasillo te conduce a otro pasadizo. El olor es asqueroso. Alguien ha
+dejado basuras y restos de comida tirados por aqui. Empiezas a darte cuenta
+de que esto no va a ser un viaje agradable.
+~
+0 257 0
+D3
+Tunel estrecho.~
+~
+0 0 12512
+D8
+~
+~
+0 0 12510
+S
+#12512
+Cruce de tuneles~
+Te has encontrado un problema. Aqui los tuneles se entrecruzan. Puedes 
+incluso ascender, lo cual parece sospechoso en una mina.
+~
+0 257 0
+D0
+Tunel maloliente.~
+~
+0 0 12514
+D1
+~
+~
+0 0 12511
+D2
+Tunel oscuro.~
+~
+0 0 12513
+D4
+Tunel ascendente.~
+~
+0 0 12590
+S
+#12513
+Sala cerrada~
+Estas en una estancia sin mas puertas. El aire, como de costumbre es pesado.
+Las paredes son lisas y bien trabajadas, aunque no ves decoracion de ningun
+tipo. A que estaba destinada nunca lo sabras.
+~
+0 257 0
+D0
+~
+~
+0 0 12512
+S
+#12514
+Antecamara~
+Esta habitacion es una antecamara. Hay un hueco al norte que indica que 
+hubo unas puertas ahi, pero ya no estan.
+~
+0 257 0
+D0
+Un hueco en unas puertas sin hojas.~
+~
+0 0 12515
+D2
+~
+~
+0 0 12512
+S
+#12515
+Camara~
+Estas en una Camara. En tiempos pasados albergo una sala de recepciones.
+Aun hay restos de muebles desvencijados y medio podridos. De la pared cuelgan
+los restos de algun tapiz.
+~
+0 1 0
+D2
+~
+~
+0 0 12514
+E
+tapiz~
+Durin protegera a nuestros hermanos hasta el final de los dias...~
+S
+#12516
+Tunel~
+Este tunel parece que empieza a serpentear adentrandose en las tripas de
+la mina. Sigues escuchando ruidos metalicos.
+~
+0 257 0
+D0
+Un tunel oscuro.~
+~
+0 0 12517
+D3
+~
+~
+0 0 12509
+S
+#12517
+Escaleras~
+Ves unas escaleras gastadas que hacen el tunel ligeramente ascendente
+pero no lo suficiente como para que suponga un cambio de nivel.
+~
+0 257 0
+D1
+Escaleras gastadas.~
+~
+0 0 12518
+D2
+~
+~
+0 0 12516
+S
+#12518
+Una curva en los tuneles.~
+El pasillo describe aqui una curva, impidiendote ver lo que hay mas alla.
+~
+0 257 0
+D2
+~
+~
+0 0 12519
+D3
+~
+~
+0 0 12517
+S
+#12519
+Curva en los Tuneles.~
+Aqui el camino gira de nuevo. No hay nada de interes, por lo que puedes seguir
+tu camino.
+~
+0 257 0
+D0
+Un pasadizo curvado, te hace perder la orientacion.~
+~
+0 0 12518
+D1
+Tunel oscuro.~
+~
+0 0 12520
+S
+#12520
+Bifurcacion.~
+Aqui el camino se divide en dos La direccion norte presenta un suelo 
+quebradizo, en muy mal estado. Hacia el este parece mas transitable.
+~
+0 257 0
+D0
+Suelo peligroso, deslizante e inestable. Yo no iria por ahi.~
+~
+0 0 12521
+D1
+~
+~
+0 0 12522
+D3
+~
+~
+0 0 12519
+S
+#12521
+Agujero!!!!!!~
+Te has arriesgado demasiado. El suelo se rompe a tus pies, dejandote metido
+en un buen aprieto. Ni volando podras salir de aqui. Al menos conservas tu
+equipo.
+~
+0 2097285 0
+S
+#12522
+Tunel Oscuro.~
+El camino gira de nuevo. Como esto siga asi vas a perder el sentido de la
+orientacion.
+~
+0 257 0
+D2
+~
+~
+0 0 12523
+D3
+Camino revirado entre tuneles.~
+~
+0 0 12520
+S
+#12523
+Rampa de suave pendiente.~
+Aqui el camino toma un poco de pendiente hacia abajo, pero
+nada preocupante, salvo el humedo musgo que podria hacerte
+resbalar.
+~
+0 5 0
+D0
+Camino de suave pendiente ascedente cubierto de musgo.~
+~
+0 0 12522
+D1
+Rampa ligera descendente y cubierta de musgo.~
+~
+0 0 12524
+S
+#12524
+Bifurcacion.~
+Has llegado a una bifurcacion. Un desvencijado letrero
+esta tan borroso que no puedes saber que indica.
+La salida sur desciende por unos gastados escalones.
+Al este el tunel sigue aunque no ves adonde.
+~
+0 257 0
+D1
+El tunel continua en la penumbra asfixiante.~
+~
+0 0 12527
+D2
+Unos escalones descienden al sur.~
+~
+0 0 12525
+D3
+~
+~
+0 0 12523
+S
+#12525
+Escalera desgastada.~
+Los escalones esgastados y humedos son resbaladizos pero
+no parece que vayas a caer. Hay una barandilla para agarrarte.
+Ves que el tramo de escalera gira al este.
+~
+0 257 0
+D0
+~
+~
+0 0 12524
+D1
+Los escalones giran al este.~
+~
+0 0 12526
+S
+#12526
+Sala de los Cristales.~
+Los escalones descienden hasta esta bonita estancia.
+Despues de la oscuridad del tunel es una bendicion.
+Las paredes estan recubiertas de cristales que fulguran
+con luz propia. Los enanos hicieron un buen trabajo.
+~
+0 0 0
+D3
+~
+~
+0 0 12525
+S
+#12527
+Sala Vacia~
+Has llegado a un amplio espacio, que puedes considerar una sala.
+Pero no hay nada, ni siquiera restos de muebles. Por ambas salidas
+continua el tunel oscuro. Sigues oyendo lejanos retumbares.
+~
+0 1 0
+D0
+Comunica la Sala Vacia con el tunel.~
+~
+0 0 12528
+D3
+~
+~
+0 0 12524
+S
+#12528
+Sala de las Grietas~
+Aqui el suelo se halla fuertemente agrietado.
+Debes poner cuidado donde pisas, pues un paso en falso te
+puede mandar a los insondables abismos. Quedan jirones de
+tapices, otrora magnificos, colgando inertes de las paredes.
+~
+0 0 0
+D0
+Comunica la sala de las grietas con una plataforma.~
+~
+0 0 12529
+D2
+~
+~
+0 0 12527
+S
+#12529
+Plataforma~
+Parece que has llegado al fin del tunel. Te encuentras
+sobre una plataforma, que se asoma a un abismo del que no puedes
+ver el fondo. Arrojas una piedra para comprobar si la oyes
+golpear el fondo, pero no escuchas nada. Tal vez no debiste hacerlo....
+Ves una pasarela que desciende. Si aguanta tu peso podras llegar a un
+nivel inferior.
+~
+0 0 0
+D2
+~
+~
+0 0 12528
+D5
+La pasarela es muy antigua, pero se encuentra en buenas condiciones.~
+~
+0 0 12530
+S
+#12530
+Entrada al Segundo Nivel~
+Te encuentras en el segundo nivel de galerias. Aunque
+parezca increible, el aire es menos denso y humedo, y
+la sensacion de ahogo mejora con respecto al primer nivel.
+Puedes oir el lejano rumor de agua cayendo.
+~
+0 0 0
+D0
+Esta salida comunica dos salas mas iluminadas.~
+~
+0 0 12531
+D4
+~
+~
+0 0 12529
+S
+#12531
+Corredor Iluminado~
+No sabes muy bien de donde, pero en este amplio
+pasillo hay luz. Por supuesto no es de origen natural,
+pero los enanos eran habilidosos artesanos.
+Puede que tengan algo que ver esos cristales que
+cuelgan del techo.
+~
+0 0 0
+D1
+El rumor de agua esta cerca.~
+~
+0 0 12532
+D2
+~
+~
+0 0 12530
+S
+#12532
+Armeria~
+Estas en un salon que antiguamente debio ser una armeria,
+o al menos eso deduces tras ver los paneles para armas, y
+las fraguas de reparacion. Todo esta en pesimo estado, y nada
+te resulta de utilidad. Que lastima, pues un arma enana podria
+ser excelente. Tal vez mas adelante.
+~
+0 0 0
+D1
+Hacia el este hay una Gran Camara, a la que se llega por una antesala.~
+~
+0 0 12533
+D3
+~
+~
+0 0 12531
+S
+#12533
+Antesala~
+Esta es la antesala de la Gran Camara. Al norte puedes
+ver trazos de las magnificas columnatas, talladas directamente
+sobre la roca por los artesanos enanos.
+~
+0 1 0
+D0
+Hacia el Norte accedes a la Gran Camara de columnas.~
+~
+0 0 12534
+D3
+~
+~
+0 0 12532
+S
+#12534
+La Gran Camara~
+Estas en el interior de una enorme estancia. Las columnas talladas en la
+roca tienen preciosas figuras que parecen animadas. Amplios espacios
+entre las columnas permiten moverse con tranquilidad. Pero hay que
+tener cuidado, tambien caben muchos enemigos. Lejos, hacia el norte,
+puedes oir el rumor de agua cayendo.
+~
+0 1 0
+D0
+En todas direcciones columnas y mas columnas.~
+~
+0 0 12535
+D1
+En todas direcciones columnas y mas columnas.~
+~
+0 0 12538
+D2
+~
+~
+0 0 12533
+D3
+En todas direcciones columnas y mas columnas.~
+~
+0 0 12537
+S
+#12535
+La Gran Camara~
+Estas en el interior de una enorme estancia. Las columnas talladas en la
+roca tienen preciosas figuras que parecen animadas. Amplios espacios
+entre las columnas permiten moverse con tranquilidad. Pero hay que
+tener cuidado, tambien caben muchos enemigos. Lejos, hacia el norte,
+puedes oir el rumor de agua cayendo.
+~
+0 1 0
+D1
+En todas direcciones columnas y mas columnas.~
+~
+0 0 12539
+D2
+En todas direcciones columnas y mas columnas.~
+~
+0 0 12534
+D3
+En todas direcciones columnas y mas columnas.~
+~
+0 0 12536
+S
+#12536
+La Gran Camara~
+Estas en el interior de una enorme estancia. Las columnas talladas en la
+roca tienen preciosas figuras que parecen animadas. Amplios espacios
+entre las columnas permiten moverse con tranquilidad. Pero hay que
+tener cuidado, tambien caben muchos enemigos. Lejos, hacia el norte,
+puedes oir el rumor de agua cayendo.
+~
+0 1 0
+D1
+~
+~
+0 0 12535
+D2
+En todas direcciones columnas y mas columnas.~
+~
+0 0 12537
+S
+#12537
+La Gran Camara~
+Estas en el interior de una enorme estancia. Las columnas talladas en la
+roca tienen preciosas figuras que parecen animadas. Amplios espacios
+entre las columnas permiten moverse con tranquilidad. Pero hay que
+tener cuidado, tambien caben muchos enemigos. Lejos, hacia el norte,
+puedes oir el rumor de agua cayendo.
+~
+0 1 0
+D0
+~
+~
+0 0 12536
+D1
+~
+~
+0 0 12534
+S
+#12538
+La Gran Camara~
+Estas en el interior de una enorme estancia. Las columnas talladas en la
+roca tienen preciosas figuras que parecen animadas. Amplios espacios
+entre las columnas permiten moverse con tranquilidad. Pero hay que
+tener cuidado, tambien caben muchos enemigos. Lejos, hacia el norte,
+puedes oir el rumor de agua cayendo.
+~
+0 1 0
+D0
+En todas direcciones columnas y mas columnas.~
+~
+0 0 12539
+D3
+~
+~
+0 0 12534
+S
+#12539
+La Gran Camara~
+Estas en el interior de una enorme estancia. Las columnas talladas en la
+roca tienen preciosas figuras que parecen animadas. Amplios espacios
+entre las columnas permiten moverse con tranquilidad. Pero hay que
+tener cuidado, tambien caben muchos enemigos. Lejos, hacia el este,
+puedes oir el rumor de agua cayendo.
+~
+0 1 0
+D0
+En todas direcciones columnas y mas columnas.~
+~
+0 0 12540
+D1
+En todas direcciones columnas y mas columnas.~
+~
+0 0 12542
+D2
+~
+~
+0 0 12538
+D3
+~
+~
+0 0 12535
+S
+#12540
+La Gran Camara~
+Estas en el interior de una enorme estancia. Las columnas talladas en la
+roca tienen preciosas figuras que parecen animadas. Amplios espacios
+entre las columnas permiten moverse con tranquilidad. Pero hay que
+tener cuidado, tambien caben muchos enemigos. Lejos, hacia el sureste,
+puedes oir el rumor de agua cayendo.
+~
+0 1 0
+D1
+En todas direcciones columnas y mas columnas.~
+~
+0 0 12541
+D2
+~
+~
+0 0 12539
+S
+#12541
+La Gran Camara~
+Estas en el interior de una enorme estancia. Las columnas talladas en la
+roca tienen preciosas figuras que parecen animadas. Amplios espacios
+entre las columnas permiten moverse con tranquilidad. Pero hay que
+tener cuidado, tambien caben muchos enemigos. Lejos, hacia el sureste,
+puedes oir el rumor de agua cayendo.
+~
+0 1 0
+D2
+En todas direcciones columnas y mas columnas.~
+~
+0 0 12542
+D3
+~
+~
+0 0 12540
+S
+#12542
+La Gran Camara~
+Estas en el interior de una enorme estancia. Las columnas talladas en la
+roca tienen preciosas figuras que parecen animadas. Amplios espacios
+entre las columnas permiten moverse con tranquilidad. Pero hay que
+tener cuidado, tambien caben muchos enemigos. Hacia el este,
+puedes oir el rumor de agua cayendo.
+~
+0 1 0
+D0
+~
+~
+0 0 12541
+D1
+~
+~
+0 0 12543
+D3
+~
+~
+0 0 12539
+S
+#12543
+Catarata~
+Te hallas ante una catarata, que brota con fuerte corriente
+de aguas cristalinas de alguna abertura oculat an el roca.
+El sonido es melodioso, y arrullador. Estara fria el agua?
+~
+0 1 0
+D3
+~
+~
+0 0 12542
+D9
+El agua que cae de la altura te impide ver gran cosa.~
+~
+2048 0 12544
+S
+#12544
+Dentro de la catarata.~
+El agua esta helada, pero viene bien refrescarse despues
+de la dureza del camino.
+~
+0 1 0
+D6
+~
+~
+0 0 12543
+D8
+El agua te impide ver con claridad.~
+~
+0 0 12545
+S
+#12545
+Sala del Fuego~
+Estas en una sala cuyas paredes reflejan tonos rojizos. Es
+una preciosidad, y te quedarias horas mirando la belleza de
+las vetas de rubi. Las columnas destellan como las llamas
+de una chimenea, creando un conjunto muy calido.
+~
+0 0 0
+D2
+~
+~
+0 0 12548
+D3
+~
+~
+0 0 12546
+D7
+~
+~
+0 0 12544
+S
+#12546
+Sala del Fuego~
+Estas en una sala cuyas paredes reflejan tonos rojizos. Es
+una preciosidad, y te quedarias horas mirando la belleza de
+las vetas de rubi. Las columnas destellan como las llamas
+de una chimenea, creando un conjunto muy calido.
+~
+0 0 0
+D1
+Puedes pasar entre las llameantes columnas.~
+~
+0 0 12545
+D2
+~
+~
+0 0 12547
+S
+#12547
+Sala del Fuego~
+Estas en una sala cuyas paredes reflejan tonos rojizos. Es
+una preciosidad, y te quedarias horas mirando la belleza de
+las vetas de rubi. Las columnas destellan como las llamas
+de una chimenea, creando un conjunto muy calido.
+~
+0 0 0
+D0
+Puedes pasar entre las llameantes columnas.~
+~
+0 0 12546
+D1
+~
+~
+0 0 12548
+D2
+~
+~
+0 0 12549
+S
+#12548
+Sala del Fuego.~
+Estas en una sala cuyas paredes reflejan tonos rojizos. Es
+una preciosidad, y te quedarias horas mirando la belleza de
+las vetas de rubi. Las columnas destellan como las llamas
+de una chimenea, creando un conjunto muy calido.
+~
+0 0 0
+D0
+Puedes pasar entre las llameantes columnas.~
+~
+0 0 12545
+D3
+Puedes caminar entre las llameantes columnas.~
+~
+0 0 12547
+S
+#12549
+Tunel calido~
+La proximidad de la sala del Fuego al norte, da a este pasillo
+una calidad e intimidad perfectas. Es agradable, despues de tanta
+oscuridad.
+~
+0 0 0
+D0
+Puedes vovler a la Sala del Fuego~
+~
+0 0 12547
+D3
+~
+~
+0 0 12550
+S
+#12550
+Escalinata~
+Estas en una escalinata de marmol gris, finamente pulido.
+Hacia el este tienes un pasadizo a la Sala del Fuego, y
+hacia el oeste llegas a un tunel descendiente.
+Aqui mismo, en el rellano, ves la entrada a una sala.
+~
+0 1 0
+D1
+Escalinata entre un pasadizo y un tunel.~
+~
+0 0 12549
+D2
+~
+~
+0 0 12592
+D3
+~
+~
+0 0 12551
+S
+#12551
+Tunel hacia el Tercer nivel~
+Si desciendes por aqui hacia abajo, llegaras al Tercer
+Nivel de las Minas. El peligro se siente muy fuerte
+en esa direccion. Hacia el este, tienes la Sala del Fuego
+y las cataratas.
+~
+0 5 0
+D1
+Tunel bidireccional. Por un lado el tunel, por el
+otro escalinatas de marmol gris.~
+~
+0 0 12550
+D5
+~
+~
+0 0 12552
+S
+#12552
+Entrada al Tercer Nivel~
+Por aqui, al sur esta el peligroso nivel subterraneo.
+Las decoraciones de las paredes y las columnas cada vez
+es mas bonita, a medida que te adentras en el corazon de
+Khazad Dum.
+~
+0 5 0
+D2
+~
+~
+0 0 12553
+D4
+Tunel que comunica dos niveles de las minas.~
+~
+0 0 12551
+S
+#12553
+Recodo~
+Aqui el tunel gira. Si vas al norte encontraras el camino
+hacia el segundo nivel. Por el este te adentras en el tercero.
+~
+0 0 0
+D0
+Tunel del tercer nivel.~
+~
+0 0 12552
+D1
+~
+~
+0 0 12554
+S
+#12554
+Paso estrecho~
+Has llegado a un paso con un abismo insondable a tus
+pies. Un paso en falso y no lo cuentas. Avanza despacio,
+y desea no tener un encuentro con enemigos aqui.
+~
+0 0 0
+D1
+~
+~
+0 0 12555
+D3
+El paso da lugar a un pasillo mas comodo.~
+~
+0 0 12553
+S
+#12555
+Bifurcacion~
+Un letrero dice:
+Hacia el este fortuna y gloria.
+Hacia el sur: muerte digna.
+Hacia el oeste: el rabo entre las piernas.
+~
+0 0 0
+D1
+~
+~
+0 0 12556
+D2
+~
+~
+0 0 12566
+D3
+Hacia el oeste el camino es un paso peligroso.
+Las demas vias tampoco seducen demasiado.~
+~
+0 0 12554
+S
+#12556
+Entrada a la Mina~
+Puedes ver unos carriles de vagoneta, que debian usar
+los mineros enanos para transportar el oro y el mithril.
+Sin embargo, no ves ninguno de dichos vehiculos.
+Hay fuertes maderos sujetando paredes y techos, y parece
+suficiente para hacer el paso seguro.
+~
+0 8197 0
+D1
+~
+~
+0 0 12557
+D3
+Puedes caminar entre los carriles abandonados.~
+~
+0 0 12555
+S
+#12557
+La Mina~
+Este tunel conduce al norte a la gran sala de trabajo.
+Hace mucho tiempo que nadie trabaja en ella, por lo que no
+puedes oir el tintinear de los yunques.
+Debia haber muchas riquezas aqui abajo.
+~
+0 1 0
+D0
+~
+~
+0 0 12558
+D3
+~
+~
+0 0 12556
+S
+#12558
+Gran Sala de Trabajo~
+Estas en los talleres de los enanos.
+El mineral que extraian mas adelante, se transformaba
+aqui en preciosos objetos de bella factura.
+Echas un vistazo con la esperanza de hallar alguno,
+pero no tienes suerte.
+~
+0 1 0
+D0
+~
+~
+0 0 12559
+D1
+~
+~
+0 0 12561
+D2
+~
+~
+0 0 12557
+S
+#12559
+Gran Sala de Trabajo~
+Estas en los talleres de los enanos.
+El mineral que extraian mas adelante, se transformaba
+aqui en preciosos objetos de bella factura.
+Echas un vistazo con la esperanza de hallar alguno,
+pero no tienes suerte.
+~
+0 1 0
+D1
+~
+~
+0 0 12560
+D2
+~
+~
+0 0 12558
+S
+#12560
+Gran Sala de Trabajo~
+Estas en los talleres de los enanos.
+El mineral que extraian mas adelante, se transformaba
+aqui en preciosos objetos de bella factura.
+Echas un vistazo con la esperanza de hallar alguno,
+pero no tienes suerte.
+~
+0 1 0
+D2
+~
+~
+0 0 12561
+D3
+~
+~
+0 0 12559
+S
+#12561
+Gran Sala de Trabajo~
+Estas en los talleres de los enanos.
+El mineral que extraian mas adelante, se transformaba
+aqui en preciosos objetos de bella factura.
+Echas un vistazo con la esperanza de hallar alguno,
+pero no tienes suerte.
+~
+0 1 0
+D0
+Materiales de forja varios desperdigados te impiden
+ver mas alla.~
+~
+0 0 12560
+D1
+~
+~
+0 0 12562
+D3
+Los grandes yunques te impiden ver mas alla.~
+~
+0 0 12558
+S
+#12562
+Union de Carriles.~
+Estas sobre la union de dos camino de carriles.
+Tienes uno hacia el este y uno que desciende levemente hacia
+el sureste. Podrias encontrar alguna veta aun con oro o algo
+mas interesante.
+~
+0 1 0
+D1
+~
+~
+0 0 12563
+D3
+Pasarela entre los talleres y las vetas de mineral.~
+~
+0 0 12561
+D8
+~
+~
+0 0 12564
+S
+#12563
+Fin del Tunel.~
+Los enanos dejaron de excavar aqui. Puede que se agotara
+el mineral o que encontraran algon que no les gusto, pero
+lo que es seguro es que cegaron el tunel hace mucho tiempo.
+~
+0 1 0
+D3
+Carriles y mas carriles~
+~
+0 0 12562
+S
+#12564
+Tunel de exacavacion~
+Por aqui los enanos cavaron afanosamente durante decadas.
+No obstante, no parece que quede nada de valor.
+Puedes regresar al noroeste o continuar al sur.
+~
+0 1 0
+D2
+~
+~
+0 0 12565
+D7
+Carriles y mas carriles de vagon.~
+~
+0 0 12562 3 0 0
+S
+#12565
+Fin del tunel~
+Aqui los enanos dejaron de excavar. El tunel no esta cegado
+a proposito. Simplemente abandonaron el tunel. Hay muchas
+grietas en el suelo. Lo mas probable es que se agotara la
+veta.
+~
+0 1 0
+D0
+Carriles de vagoneta por los que se puede caminar.
+No hay trafico.~
+~
+0 0 12564
+D5
+Tal vez puedas deslizarte por una grieta hacia abajo.~
+~
+16779264 0 12585 4 0 0
+S
+#12566
+Travesia Dorada~
+Aqui las paredes tienen una bella decoracion dorada.
+No es oro, pero el efecto esta conseguido. Preciosos
+tapices lucian en estas paredes, pero ya solo quedan
+los colgantes y los jirones. Debio ser esplendorosa.
+~
+0 1 0
+D0
+Camino liso y sin problemas.~
+~
+0 0 12555
+D2
+~
+~
+0 0 12567
+S
+#12567
+Travesia Dorada~
+Centro de la travesia de las paredes doradas.
+Nada nuevo que no hubieras visto antes.
+~
+0 1 0
+D0
+Reflejos dorados reverberan en la luz que portas.~
+~
+0 0 12566
+D2
+~
+~
+0 0 12568
+S
+#12568
+Travesia Dorada~
+Pasear por estas magnificas estancias te hace pensar en lo
+maravillosas que debieron ser cuando los enanos tenian aqui
+su reino dorado.
+~
+0 1 0
+D0
+Reflejos dorados reverberan con la luz que portas.~
+~
+0 0 12567
+D8
+~
+~
+0 0 12569
+S
+#12569
+Descenso a los Abismos~
+El camino comienza una pronunciada cuesta.
+Fuerte calor viene de mas adelante, hacia el este.
+Hacia el noroeste vuelves a la Travesia Dorada.
+~
+0 1 0
+D1
+~
+~
+0 0 12570
+D7
+Paso despejado.~
+~
+0 0 12568
+S
+#12570
+Otra bifurcacion~
+Aqui el camino vuelve a dividirse.
+Puedes descender por la rampa al suroeste, con una pronunciada
+pendiente y llegar al Cuarto Nivel de las Minas de Moria.
+O puedes continuar explorando este nivel si sigues por el camino
+al norte.
+~
+0 1 0
+D0
+~
+~
+0 0 12571
+D3
+Camino de techos altos sin peligro alguno.~
+~
+0 0 12569
+D5
+~
+~
+0 0 12575
+S
+#12571
+Sala Verde~
+Estas en una sala que refleja brillos de alegre color
+verde en las paredes. Posiblemente alguna tecnica de
+trabajo con esmeraldas, perdida hace eras.
+Se comunica con otra sala al norte.
+~
+0 1 0
+D2
+Camino entre salas, despejado.~
+~
+0 0 12570
+D6
+~
+~
+0 0 12572
+S
+#12572
+Sala Azul~
+Esta sala es como la Verde, pero con reflejos de
+topacio y amatistas. Realmente los enanos eran los
+mejores decoradores del mundo.
+~
+0 1 0
+D1
+~
+~
+0 0 12573
+D9
+Paso de techo bajo entre dos salas.~
+~
+0 0 12571 2 0 0
+S
+#12573
+Sala de los Diamantes~
+El brillo de paredes y columnas es aqui de duros y acerados
+tonos diamantados. Echas un vistazo a la pared pero no encuentras
+nada extraible que llevarte de recuerdo.
+Al sur hay otra sala mas, pero el techo del pasadizo parece
+altamente inestable desde aqui. Tendras la suficiente codicia?
+~
+0 1 0
+D2
+Ves hacia el sur un techo inestable, muy peligroso.~
+~
+0 0 12574
+D3
+Tunel entre salas.~
+~
+0 0 12572 2 0 0
+S
+#12574
+Agujero!!!!~
+Tu codicia te ha llevado a este tunel. El techo se derrumba tras
+de ti, dejandote incomunicado. No podras salir de aqui ni cavando,
+debido a las incontables toneladas de roca caida.
+~
+0 5 0
+S
+#12575
+Sala de acceso al Cuarto Nivel~
+Esta sala con forma triangular es la sala de control del acceso
+a este Cuarto Nivel. Es aire es muy pesado, y hace muchisimo
+calor.
+Los retumbares ritmicos resuenan con mas fuerza en estas estancias,
+aumentando la sensacion de peligro.
+~
+0 5 0
+D3
+~
+~
+0 0 12576
+D4
+Rampa de conexion entre dos niveles de Moria.~
+~
+0 0 12570
+D9
+~
+~
+0 0 12577
+S
+#12576
+Sala de acceso al Cuarto Nivel~
+Esta sala con forma triangular es la sala de control del acceso
+a este Cuarto Nivel. Es aire es muy pesado, y hace muchisimo
+calor.
+Los retumbares ritmicos resuenan con mas fuerza en estas estancias,
+aumentando la sensacion de peligro.
+~
+0 1 0
+D1
+Columnas estrategicamente situadas soportan la boveda
+del techo. Toneladas y mas toneladas de roca de ingenieria
+de los enanos.~
+~
+0 0 12575
+D2
+~
+~
+0 0 12577
+D3
+~
+~
+0 0 12578
+S
+#12577
+Sala de acceso al Cuarto Nivel~
+Esta sala con forma triangular es la sala de control del acceso
+a este Cuarto Nivel. Es aire es muy pesado, y hace muchisimo
+calor.
+Los retumbares ritmicos resuenan con mas fuerza en estas estancias,
+aumentando la sensacion de peligro.
+~
+0 1 0
+D0
+Toneladas de roca sostenidas por bellas columnas de granito.~
+~
+0 0 12576
+D6
+~
+~
+0 0 12575
+S
+#12578
+Sala ruinosa~
+Esta sala esta llena de escombros. El calor es inimaginable
+y te cuesta pensar que alguna criatura pueda vivir en estas
+profundidades. Pero si la hay debe ser muy peligrosa.
+~
+0 1 0
+D1
+Pasadizo lleno de escombros entre dos grandes salas.~
+~
+0 0 12576 2 0 0
+D2
+~
+~
+0 0 12582
+D3
+~
+~
+0 0 12579
+S
+#12579
+Sala ruinosa~
+Esta sala esta llena de escombros. El calor es inimaginable
+y te cuesta pensar que alguna criatura pueda vivir en estas
+profundidades. Pero si la hay debe ser muy peligrosa.
+~
+0 1 0
+D1
+Escombros por todas partes.~
+~
+0 0 12578
+D2
+~
+~
+0 0 12581
+D3
+~
+~
+0 0 12580
+S
+#12580
+Almacen abandonado~
+Aqui se almacenaba algo, pero su proposito se pierde ya en
+la noche de los tiempos. No puedes encontrar nada de interes
+o que te pueda ser util, aparte de la salida para volver a la
+sala en ruinas.
+~
+0 8193 0
+D1
+~
+~
+0 0 12579
+S
+#12581
+Sala ruinosa~
+Esta sala esta llena de escombros. El calor es inimaginable
+y te cuesta pensar que alguna criatura pueda vivir en estas
+profundidades. Pero si la hay debe ser muy peligrosa.
+~
+0 1 0
+D0
+Escombros y mas escombros entre poderosas columnas.~
+~
+0 0 12579
+D1
+~
+~
+0 0 12582
+S
+#12582
+Sala ruinosa~
+Esta sala esta llena de escombros. El calor es inimaginable
+y te cuesta pensar que alguna criatura pueda vivir en estas
+profundidades. Pero si la hay debe ser muy peligrosa.
+~
+0 1 0
+D0
+~
+~
+0 0 12578
+D2
+~
+~
+0 0 12583
+D3
+Las columnas sobresalen entre los escombros de la sala.~
+~
+0 0 12581
+S
+#12583
+Pasadizo extremo~
+Este pasadizo debe ser la antesala del infierno. Te has
+visto en situaciones malas, peores y esta.
+Tienes valor para ir al sur o vienes ya huyendo de alli?
+~
+0 1 0
+D0
+Paso anodino. No parece haber trampas.~
+~
+0 0 12582 2 0 0
+D2
+~
+~
+0 0 12584
+S
+#12584
+Antesala del eterno sufrimiento~
+Estas estancias eran antiguamente un bello salon de baile, donde
+los reyes enanos convocaban serias y dignas fiestas.
+Pero ahora el calor es tan fuerte y los martilleos que retumban
+en tus oidos tan intenso, que apenas si puedes pensar en dar un 
+paso mas. Todo te pesa. Podras combatir por tu vida?
+~
+0 1 0
+D0
+Paso entre estancias. El calor es demasiado fuerte.~
+~
+0 0 12583
+D3
+~
+~
+0 0 12585
+S
+#12585
+Sala del eterno sufrimiento~
+Estas estancias eran antiguamente un bello salon de baile, donde
+los reyes enanos convocaban serias y dignas fiestas.
+Pero ahora el calor es tan fuerte y los martilleos que retumban
+en tus oidos tan intenso, que apenas si puedes pensar en dar un 
+paso mas. Todo te pesa. Podras combatir por tu vida?
+~
+0 1 0
+D1
+Demasiado calor para mirar o pensar.
+~
+~
+0 0 12584
+D2
+~
+~
+0 0 12587
+D3
+~
+~
+0 0 12586
+S
+#12586
+Sala del eterno sufrimiento~
+Estas estancias eran antiguamente un bello salon de baile, donde
+los reyes enanos convocaban serias y dignas fiestas.
+Pero ahora el calor es tan fuerte y los martilleos que retumban
+en tus oidos tan intenso, que apenas si puedes pensar en dar un 
+paso mas. Todo te pesa. Podras combatir por tu vida?
+~
+0 1 0
+D1
+Demasiado calor para mirar o pensar.
+~
+~
+0 0 12585
+D2
+~
+~
+0 0 12588
+S
+#12587
+Sala del eterno sufrimiento~
+Estas estancias eran antiguamente un bello salon de baile, donde
+los reyes enanos convocaban serias y dignas fiestas.
+Pero ahora el calor es tan fuerte y los martilleos que retumban
+en tus oidos tan intenso, que apenas si puedes pensar en dar un 
+paso mas. Todo te pesa. Podras combatir por tu vida?
+~
+0 1 0
+D0
+Demasiado calor para mirar o pensar.
+~
+~
+0 0 12585
+D3
+~
+~
+0 0 12588
+S
+#12588
+Sala del eterno sufrimiento~
+Estas estancias eran antiguamente un bello salon de baile, donde
+los reyes enanos convocaban serias y dignas fiestas.
+Pero ahora el calor es tan fuerte y los martilleos que retumban
+en tus oidos tan intenso, que apenas si puedes pensar en dar un 
+paso mas.
+Hacia el oeste sientes una sensacion de horror tan intenso que no puedes
+evitar temblar como una hoja. Jamas habias percibido algo parecido.
+~
+0 1048581 0
+D0
+Demasiado calor para pensar o mirar.
+~
+~
+0 0 12586
+D1
+~
+~
+0 0 12587
+D3
+~
+~
+0 0 12589
+S
+#12589
+Estancias del Balrog~
+Por los Dioses!!!!!!
+Has llegado a lo mas profundo de las Minas de Moria.
+Estas ante un horrible demonio de fuego, que emana poder
+y terror. Todo tu equipo pesa toneladas y desearias no haber 
+llegado hasta aqui. PREPARATE A MORIR!!!
+~
+0 3186689 0
+D1
+El calor y el horror es demasiado intenso para pensar con claridad.~
+~
+0 0 12588
+S
+#12590
+Pasadizo sobre un abismo~
+Ves una pasarela de madera que atraviesa una enorme grieta en
+el suelo. La duda se presenta sobre si sera capaz de aguantar tu peso.
+~
+0 1 0
+D3
+Ves una pasarela bamboleante, de
+aspecto poco fiable.~
+~
+0 0 12591
+D5
+~
+~
+0 0 12512
+S
+#12591
+Camara del Vigia~
+Esta Sala es realemente sorprendente.
+Desde aqui, unas estrechas ventanas te
+dejan ver el exterior. Parece que los
+enanos las tallaron para vigilar, pues desde
+aqui puedes ver la laguna que rodea la entrada
+a las minas.
+~
+0 2098176 0
+D1
+~
+~
+0 0 12590
+S
+#12592
+Sala de Almacenamiento~
+Este parece ser un antiguo almacen. Apenas si quedan unos restos
+de quincalla inservible. Revisas bien todo, pero tu gozo en un pozo.
+Si viniste a las minas a hacerte rico, este no es el lugar adecuado.
+~
+0 1 0
+D0
+Una puerta sin hojas que podras atravesar sin problemas.~
+~
+0 0 12550
+S
+#0
+
+
+#RESETS
+M 0 12505 1 12501
+M 0 12500 1 12502
+M 0 12501 16 12507
+E 0 12500 0 16
+M 0 12501 16 12507
+E 0 12500 0 16
+M 0 12501 16 12507
+E 0 12500 0 16
+M 0 12501 16 12509
+E 0 12500 0 16
+M 0 12501 16 12509
+E 0 12500 0 16
+M 0 12501 16 12510
+E 0 12500 0 16
+M 0 12501 16 12510
+E 0 12500 0 16
+M 0 12501 16 12511
+E 0 12500 0 16
+M 0 12501 16 12512
+E 0 12500 0 16
+M 0 12501 16 12512
+E 0 12500 0 16
+M 0 12501 16 12514
+E 0 12500 0 16
+M 0 12501 16 12516
+E 0 12500 0 16
+M 0 12501 16 12516
+E 0 12500 0 16
+M 0 12501 16 12517
+E 0 12500 0 16
+M 0 12501 16 12519
+E 0 12500 0 16
+M 0 12501 16 12524
+E 0 12500 0 16
+M 0 12502 14 12530
+E 0 12500 0 16
+M 0 12502 14 12530
+E 0 12500 0 16
+M 0 12508 5 12531
+E 0 12505 0 16
+E 0 12506 0 13
+M 0 12502 14 12532
+E 0 12500 0 16
+M 0 12502 14 12532
+E 0 12500 0 16
+M 0 12502 14 12533
+E 0 12500 0 16
+M 0 12508 5 12534
+E 0 12505 0 16
+E 0 12506 0 13
+M 0 12508 5 12534
+E 0 12506 0 13
+E 0 12506 0 13
+M 0 12502 14 12536
+E 0 12500 0 16
+M 0 12502 14 12537
+E 0 12500 0 16
+M 0 12502 14 12537
+E 0 12500 0 16
+M 0 12502 14 12537
+E 0 12500 0 16
+M 0 12502 14 12537
+E 0 12500 0 16
+M 0 12502 14 12541
+E 0 12506 0 13
+E 0 12500 0 16
+M 0 12502 14 12541
+E 0 12506 0 13
+E 0 12506 0 13
+M 0 12502 14 12542
+E 0 12500 0 16
+M 0 12502 14 12542
+E 0 12500 0 16
+M 0 12508 5 12546
+E 0 12505 0 16
+E 0 12506 0 13
+M 0 12508 5 12550
+E 0 12505 0 16
+E 0 12506 0 13
+M 0 12506 13 12553
+E 0 12500 0 16
+M 0 12506 13 12553
+E 0 12500 0 16
+M 0 12506 13 12555
+E 0 12500 0 16
+M 0 12506 13 12555
+E 0 12500 0 16
+M 0 12506 13 12557
+E 0 12500 0 16
+M 0 12506 13 12559
+E 0 12500 0 16
+M 0 12506 13 12559
+E 0 12500 0 16
+M 0 12506 13 12559
+E 0 12500 0 16
+M 0 12506 13 12564
+E 0 12500 0 16
+M 0 12506 13 12564
+E 0 12500 0 16
+M 0 12506 13 12569
+E 0 12500 0 16
+M 0 12506 13 12571
+E 0 12500 0 16
+M 0 12506 13 12572
+E 0 12500 0 16
+M 0 12507 10 12576
+E 0 12500 0 16
+E 0 12506 0 13
+M 0 12507 10 12577
+E 0 12500 0 16
+E 0 12506 0 13
+M 0 12507 10 12579
+E 0 12504 0 16
+E 0 12506 0 13
+M 0 12507 10 12581
+E 0 12504 0 16
+M 0 12507 10 12581
+E 0 12504 0 16
+E 0 12506 0 13
+M 0 12507 10 12583
+E 0 12504 0 16
+M 0 12507 10 12585
+E 0 12504 0 16
+E 0 12509 0 12
+M 0 12509 1 12586
+E 0 12509 0 12
+E 0 12510 0 16
+E 0 12511 0 8
+M 0 12507 10 12587
+E 0 12504 0 16
+E 0 12509 0 12
+M 0 12507 10 12588
+E 0 12504 0 16
+E 0 12509 0 12
+M 0 12507 10 12588
+E 0 12504 0 16
+E 0 12507 0 13
+M 0 12504 1 12589
+E 0 12502 0 5
+E 0 12501 0 16
+M 0 12503 1 12591
+E 0 12503 0 16
+E 0 12508 0 12
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

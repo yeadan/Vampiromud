@@ -1,0 +1,1347 @@
+#AREA   Poblado Enano~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO Beythor~
+#PUNTOS 1262 1875 1974 2000 0
+#AUTHOR AlDuS~
+
+#RANGES
+10 35 0 256
+$
+
+#RESETMSG ~
+
+#FLAGS
+0
+
+#ECONOMY 0 6335908
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#6500
+enano guardia~
+el guardia enano~
+Un Guardia Enano esta aqui.
+~
+El guarda parece fuerte y temerario.
+
+~
+3 8 500 S
+20 0 -2 0d20+0 2d4+0
+10000 40000
+112 112 1
+#6501
+enano trabajador~
+un trabajador enano~
+Un trabajador enano esta trabajando aqui.
+~
+Parece cansado, y azotado por el trabajo.
+~
+65 0 900 S
+12 4 1 12d12+120 1d7+7
+3500 6000
+112 112 1
+#6502
+duende~
+el duende~
+Un duende esta esperando tu primer movimiento.
+~
+Un negro petro transparente duende.
+
+~
+3 40 -900 S
+29 -5 -10 29d29+290 4d6+15
+50000 125000
+112 112 1
+#6503
+tendero~
+el tendero~
+El tendero de Hide & Tooth esta aqui, esperandote pacientemente.
+~
+El tendero es muy rotundo, pero parece una buena persona.
+
+~
+3 40 900 C
+35 2 2 6d10+990 2d9+20
+100000 80000
+112 112 1
+16 13 13 14 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+3 0 0 3 3072 0 64 1
+#6504
+panadero granito~
+el panadero~
+Granito, el panadero, esta aqui esperando clientes.
+~
+Granito esta cubierto de harina y sal.  Se sacude las manos y se
+acerca a ti con una sonrisa.
+~
+3 40 900 C
+35 2 2 7d10+990 2d9+19
+20000 80000
+112 112 1
+16 13 13 15 13 13 13
+0 0 0 0 0
+2 3 0 0 5 4 0
+3 0 0 3 3072 0 0 1
+#6505
+lagarto~
+el lagarto gigante~
+Un lagarto gigante esta aqui.
+~
+Esta terrible criatura, esta bien adaptada a su habitat subterraneo.
+Parece muy poderosa.
+
+~
+65 8 100 S
+18 7 2 10d20+500 4d4+5
+1200 25000
+112 112 1
+#6506
+gigante~
+el gigante~
+Un gigante esta aqui.
+~
+El gigante mide sobre unos 8 pies de altura, conbrazos de hierro
+y realmente, parece muy fuerte.
+~
+65 0 0 S
+16 5 1 4d20+300 3d7+5
+2000 24000
+112 112 1
+#6507
+enano minero~
+un enano minero~
+Un enano minero esta aqui.
+~
+El minero esta muy cansado, y muy sucio, tiene incluso sus musculos
+agarrotados.
+~
+3 0 0 S
+8 14 7 8d8+100 2d9+9
+40 1000
+112 112 1
+#6508
+enano lider~
+el lider de la mina~
+El lider de la mina esta aqui
+~
+El lider de la mina es muy grande y fuerte.
+~
+3 0 0 S
+21 0 -8 5d3+400 3d9+3
+20000 52000
+112 112 1
+#6509
+enano doctor~
+el doctor enano~
+El doctor enano esta aqui.
+~
+Es un curandero muy entrenado, con manos de hierro.
+
+~
+3 136 1000 S
+9 15 4 9d9+99 3d4+12
+1500 15000
+112 112 1
+#6510
+enano peon~
+el peon enano~
+Un peon enano esta aqui.
+~
+~
+3 0 500 S
+3 16 6 5d3+33 2d4+3
+75 400
+112 112 1
+#6511
+enano~
+el enano~
+Un sonriente enano esta aqui.
+~
+~
+3 0 500 S
+9 10 2 9d9+99 3d4+1
+1250 6000
+112 112 1
+#6512
+enano hijo~
+el niño no deseado~
+Un hijo no deseado esta aqui, sientes lastima por el.
+~
+~
+65 0 250 S
+9 12 3 3d4+125 3d5+5
+50 5000
+112 112 1
+#6513
+enano hija~
+la niña no deseada~
+Una hija no deseada esta aqui, sientes lastima por ella.
+~
+~
+65 0 250 S
+10 11 2 3d4+135 3d5+7
+50 5000
+112 112 2
+#6514
+enano guarda~
+el guarda de las barracas~
+El guarda de las barracas esta aqui.
+~
+~
+3 0 100 S
+16 5 1 16d16+160 3d6+8
+3000 18000
+112 112 1
+#6515
+hombre~
+el hombre~
+Un hombre esta esperando aqui, parece nervioso.
+~
+~
+3 0 300 S
+15 12 7 6d8+180 3d7+5
+6969 20000
+112 112 1
+#6516
+guardian~
+el guardian del laberinto~
+El Guardian del Laberinto esta aqui.
+~
+El parece muy enfadado.
+
+~
+35 128 -1000 S
+29 0 -9 25d29+290 4d8+15
+80000 200000
+112 112 1
+#6517
+serpiente~
+la serpiente gigante~
+Hay una serpiente gigante aqui.
+~
+~
+35 0 -1000 S
+15 7 2 3d7+432 3d7+6
+3000 30000
+112 112 1
+#0
+
+
+#OBJECTS
+#6502
+llave verde~
+una llave verde oscura~
+Una llave verde oscura esta en el suelo.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6504
+enano martillo~
+el martillo enano~
+Un martillo enano esta tirado aqui.~
+~
+5 0 8193
+0 3 6 8
+3 5500 550
+A
+18 2
+#6505
+malla plata~
+malla enana de plata~
+Una malla de plata enana esta aqui tirada.~
+~
+9 0 9
+8 0 0 0
+4 4500 450
+#6506
+vara negra larga~
+una larga vara negra~
+Una larga vara negra esa aqui.~
+~
+4 0 16385
+12 10 10 -1
+3 100 10
+'cure critical'
+#6507
+larga vara blanca~
+una larga vara blanca~
+Una larga vara blanca esta aqui.~
+~
+1 0 16385
+0 0 100 0
+3 0 0
+A
+20 -1
+#6508
+garrote enano~
+un garrote enano~
+Un enano garrote echo de piedra esta tirado en el suelo.~
+~
+5 0 8193
+0 2 6 8
+8 3000 300
+A
+13 10
+A
+19 2
+#6509
+hacha enana~
+un hacha enana a dos manos~
+Un hacha enana a dos manos esta aqui.~
+~
+5 0 8193
+0 2 7 1
+5 5000 500
+A
+18 2
+A
+1 2
+#6510
+casco enano~
+un casco enano~
+Un casco enano ha sido olvidado aqui.~
+~
+9 0 17
+8 0 0 0
+4 2500 250
+A
+4 2
+#6511
+anillo oro enano~
+un anillo de oro enano~
+Un bonito anillo de oro esta aqui.~
+~
+8 64 3
+0 0 0 0
+1 15000 1500
+A
+18 1
+A
+19 1
+A
+13 5
+#6512
+guantes enanos~
+guantes enanos~
+Unos guantes enanos estan caidos aqui.~
+~
+9 0 129
+4 0 0 0
+2 4000 400
+A
+1 1
+A
+2 1
+#6513
+nota~
+una nota~
+Una arrugada nota esta aqui.~
+~
+12 0 1
+0 0 0 0
+1 0 0
+E
+carta nota ~
+Parece una carta de amor hacia la reina. Desafortunadamente, no logras
+entender nada de lo que tiene escrito.
+
+~
+#6514
+llave castillo~
+llave del castillo~
+La llave del castillo esta aqui.~
+~
+18 0 1
+0 0 0 0
+1 10 1
+#6516
+mina llave~
+llave de la mina~
+La llave de la mina esta aqui.~
+~
+18 0 1
+0 0 0 0
+1 10 1
+#6517
+carbon pila~
+pequeña pila de carbon~
+Una pequeña pila de carbon yace en el suelo.~
+~
+13 0 16385
+0 0 0 0
+100 0 0
+#6518
+pico minero~
+un pico minero~
+Un enano pico minero ha sido olvidado aqui.~
+~
+5 256 8193
+0 2 3 11
+1 300 30
+A
+13 20
+A
+18 2
+A
+19 2
+#6519
+pildoras~
+una caja de pildoras anti-baby~
+Una caja de pildoras anti-baby esta aqui.~
+~
+26 0 1
+20 -1 -1 -1
+1 300 30
+'change sex' 'NONE' 'NONE'
+E
+birth control pills pill~
+They are in a circular container, and there are numbers corresponding
+to the day that they are to be taken.  You can tell they haven't been
+used for a while.
+~
+#0
+
+
+#ROOMS
+#6500
+Camino al Poblado Enano~
+Caminas bajo la sombra de las colinas por un camino que te lleva a las
+afueras del Poblado Enano. La colina sobresale por tu oeste y un pequeño
+camino lleva hacia su cresta en esa direccion. Hay aqui abajo un tunel 
+que se adentra en la colina, acortando la distancia entre ambos puntos, 
+y puedes ver al norte el Poblado Enano.
+~
+0 0 2
+D0
+The path continues.
+~
+~
+0 -1 6501
+D3
+~
+~
+0 0 3502
+D5
+The pitter patter of little feet echos from within the tunnel.
+~
+~
+0 -1 6601
+S
+#6501
+Camino cerca de la Montaña~
+Estas cerca de la base de una gran Montaña. Un denso bosque no deja ir en
+muchas direcciones, pero el camino sigue hacia el norte, sombriento, 
+ascendiendo hacia la montaña.
+~
+0 0 4
+D0
+The path continues up the mountain.
+~
+~
+0 -1 6502
+D2
+The path heads toward the main city.
+~
+~
+0 -1 6500
+S
+#6502
+Camino hacia la Montaña~
+Estas a medio camino hacia la cima de la Montaña, facilmente ves la colina
+con el cruce de caminos al suroeste, en cambio, la cima de la Montaña esta
+muy cerca hacia el norte.
+~
+0 0 5
+D0
+The top of the mountain is easily seen from here.
+~
+~
+0 -1 6503
+D2
+The base of the mountain is near.
+~
+~
+0 -1 6501
+S
+#6503
+Cima de la Montaña~
+Estas en la cima de la montaña. Lejos al sur puedes ver las murallas de
+la ciudad de Darkhaven, y baja un camino hacia la base de la montaña en 
+esa direccion. Al este y al oeste, ves grandes puertas construidas en las 
+rocas de la cima de la montaña.
+~
+0 0 4
+D1
+An entrance to the mountain which seems to lead underground.
+~
+~
+0 -1 6540
+D2
+The path leads down the mountain to the main city.
+~
+~
+0 -1 6502
+D3
+There is an entrance to the mountain.
+~
+~
+0 -1 6505
+S
+#6504
+A lo largo del extrecho camino~
+Este estrecho camino esta lejano al poblado enano. Esta menos transitado
+que los otros y continua hacia el norte y se abre hacia el sur.
+~
+0 8 0
+D0
+~
+~
+0 -1 6506
+D2
+~
+~
+0 -1 6540
+S
+#6505
+Una puerta en la Montaña~
+Estas en un largo tunel que lleva al interior de la Montaña. Una gran
+puerta pintada de verde oscuro da entrada a la montaña, estando bloqueada
+por ambos lados.
+~
+0 0 2
+D1
+~
+~
+0 -1 6503
+D3
+~
+door~
+39 6502 6513
+S
+#6506
+Curva en el estrecho camino~
+El camino se estrecha y curva hacia el este. Los arboles se echan encima
+del camino ensombreciendolo por completo. El camino continua hacia el sur
+y hacia el este.
+~
+0 8 0
+D1
+~
+~
+0 -1 6507
+D2
+~
+~
+0 -1 6504
+E
+arbol arboles~
+En los frondosos arboles puede estar la salida.
+~
+S
+#6507
+Curva en el estrecho camino~
+El camino continua estrechandose y curva hacia el norte o hacia el 
+oeste. Grander arboles se echan sobre el camino llenando el camino
+de sombras. El camino continua hacia el norte y el oeste.
+~
+0 8 0
+D0
+~
+~
+0 -1 6508
+D3
+~
+~
+0 -1 6506
+S
+#6508
+Sobre el estrecho camino~
+El camino lleva hacia el norte y hacia el sur. Hacia el norte y el este
+puedes ver una alta estructura, y el estrecho camino sigue hacia la 
+montaña por el sur.
+~
+0 8 0
+D0
+~
+~
+0 -1 6509
+D2
+~
+~
+0 -1 6507
+S
+#6509
+La puerta del Reino~
+El camino se vuelve abrupto aqui. Un pequeño castillo esta en pie en
+el este, y un puesto de guardia en el oeste. El camino sigue hacia la 
+montaña por el sur.
+~
+0 8 0
+D1
+~
+door~
+39 6502 6510
+D2
+~
+~
+0 -1 6508
+D3
+~
+~
+0 -1 6522
+S
+#6510
+Camino al Castillo.~
+Estas en el camino que lleva al castillo hacia el norte. Hay una
+puerta en el muro del oeste.
+~
+0 8 0
+D0
+~
+~
+0 -1 6511
+D3
+~
+door~
+39 6502 6509
+S
+#6511
+Aun en el camino del Castillo.~
+Aun estas en el camino del Castillo, o volviendo al poblado, dondequiera
+que vayas. El camino continua hacia el norte y el sur.
+~
+0 8 0
+D0
+~
+~
+0 -1 6512
+D2
+~
+~
+0 -1 6510
+S
+#6512
+Puerta del Castillo~
+Aqui esta la puerta este del Castillo. El castillo esta elegantemente
+construido y parace muy robusto, una señal dice:
+
+              ******************************************
+              *  BIENVENIDOS AL CASTILLO  STRANGELOVE  *
+              *     Aqui, no conocemos el celibato     *
+              ******************************************
+~
+0 8 0
+D1
+~
+door~
+39 6514 6525
+D2
+~
+~
+0 -1 6511
+S
+#6513
+Dentro de la entrada~
+Todo aqui es muy humedo y recubierto de musgo. El camino continua hacia
+el oeste y hacia el norte, dejando la puerta al este.
+~
+0 8 0
+D0
+The little underground path continues to the north.
+~
+~
+0 -1 6514
+D1
+The path leads outside the entrance.
+~
+door~
+39 6502 6505
+D3
+This looks like an entrance to some type of store room.
+~
+~
+0 -1 6526
+S
+#6514
+Camino~
+Estas en un camino del Poblado Enano que lleva hacia el norte a las 
+tiendas y hacia el sur hasta una esquina del area.
+~
+0 8 0
+D0
+~
+~
+0 -1 6515
+D2
+~
+~
+0 -1 6513
+S
+#6515
+Curva en el camino~
+Estas en el camino que lleva a la tienda Hide & Tooth al oeste, el camino
+continua hacia el sur.
+~
+0 8 0
+D2
+~
+~
+0 -1 6514
+D3
+The Hide & Tooth shop is seen to the west.
+~
+~
+0 -1 6516
+S
+#6516
+La Tienda Hide & Tooth ~
+Estas en la tienda Hide & Tooth. Aqui podras comprar las mejores armas
+y armaduras enanas. El camino continua hacia el norte y hacia el este.
+~
+0 8 0
+D0
+~
+~
+0 -1 6517
+D1
+~
+~
+0 -1 6515
+S
+#6517
+Camino hacia el norte de la tienda~
+Estas en el camino que lleva hacia el norte de la tienda the Hide & 
+Tooth . El camino continua hacia el norte, y hacia el oeste esta la
+pasteleria Granite Head's.
+~
+0 8 0
+D0
+~
+~
+0 -1 6518
+D2
+~
+~
+0 -1 6516
+D3
+~
+~
+0 -1 6535
+S
+#6518
+Norte de las tiendas~
+El camino lleva hacia a las barracas por el este. Al sur, puedes
+ver las tiendas.
+~
+0 8 0
+D1
+~
+~
+0 -1 6519
+D2
+~
+~
+0 -1 6517
+S
+#6519
+Camino del Hospital~
+Aqui el camino lleva al norte hacia el hospital. Continua hacia el 
+este hacia las barracas, y tambien puedes seguirlo hacia el oeste.
+
+~
+0 8 0
+D0
+~
+~
+0 -1 6534
+D1
+~
+~
+0 -1 6520
+D3
+~
+~
+0 -1 6518
+S
+#6520
+Camino cerca de las Barracas~
+El camino continua hacia el oeste, y al este hacia las barracas.
+~
+0 8 0
+D1
+~
+~
+0 -1 6521
+D3
+~
+~
+0 -1 6519
+S
+#6521
+Entrada a las Barracas~
+Hacia el sur, ves la entrada a las barracas, el camino continua
+hacia el oeste.
+~
+0 8 0
+D2
+~
+door~
+3 -1 6523
+D3
+~
+~
+0 -1 6520
+S
+#6522
+Caseta de Guardia~
+Estas en la caseta de Guardia justo al oeste de la entrada del castillo.
+No encuentras nada interesante por aquí.
+~
+0 8 0
+D1
+~
+~
+0 -1 6509
+S
+#6523
+Habitacion de las Barracas~
+Esta es la primera de las dos grandes habitaciones de las barracas.
+Las Barracas continuan hacia el sur, y dejarás la habitación si vas
+hacia el norte.
+~
+0 8 0
+D0
+~
+door~
+3 -1 6521
+D2
+~
+~
+0 -1 6524
+S
+#6524
+Al fondo de las Barracas~
+Estas en el fondo de las barracas. Hay dispuestas muchas camas, pero 
+estas son demasiado pequeñas como para poder usarlas.
+~
+0 8 0
+D0
+~
+~
+0 -1 6523
+S
+#6525
+Dentro del Castillo Strangelove~
+Estas dentro del Castillo. Tiene aspecto tubular y muy desarrollado.
+Hay un conjunto de escaleras que conducen arriba, y la puerta que
+lleva fuera del castillo al oeste.
+~
+0 8 0
+D3
+~
+door~
+39 6514 6512
+D4
+~
+~
+0 -1 6528
+S
+#6526
+Un almacén~
+Ves una increible capa de polvo en el suelo. Es probable que nadie
+haya estado aqui en mucho tiempo.
+~
+0 9 0
+D1
+A lighted area that looks like a well worn path.
+~
+~
+0 -1 6513
+D5
+~
+trapdoor~
+3 0 6527
+E
+suelo polvo~
+Limpiando un poco el suelo, ves una puerta secreta!
+~
+S
+#6527
+Bodega~
+Esta habitacion huele mucho a vino, un agradable vino, por lo que supones
+que esta habitacion es la bodega.
+~
+0 9 0
+D4
+~
+~
+3 -1 6526
+S
+#6528
+Escaleras del Castillo.~
+Las escalras continuan serpenteantes hacia arriba y hacia abajo.
+~
+0 8 0
+D4
+~
+~
+0 -1 6529
+D5
+~
+~
+0 -1 6525
+S
+#6529
+Escaleras.~
+Todavia estas en las escaleras. Las escaleras continuan arriba y abajo.
+~
+0 8 0
+D4
+~
+~
+0 -1 6530
+D5
+~
+~
+0 -1 6528
+S
+#6530
+Arriba de las Escaleras~
+Estas arriba de las escaleras. Hay una salida hacia el este, y las 
+escaleras bajan abajo.
+~
+0 8 0
+D1
+~
+~
+0 -1 6531
+D5
+~
+~
+0 -1 6529
+S
+#6531
+Sala de Espera de la Reina~
+Esta es la sala de espera. Aqui literalmente los hombres esperan a la
+reina. Saben que la reina quiere conocer gente nueva, en el sentido
+biblico claro. La habitacion de la reina esta al norte, y ves las 
+escaleras al oeste.
+~
+0 8 0
+D0
+~
+door~
+35 6502 6532
+D3
+~
+~
+0 -1 6530
+S
+#6532
+Habitacion~
+Esta es la habitacion de la reina. La cama esta desecha y con
+una pila de ropa sucia en una esquina.
+Una nota esta escrita en el espejo:
+
+     Estoy fuera buscando mis pildoras.
+     Porque no echas un profundo sueño mientras esperas.
+~
+0 8 0
+D2
+~
+door~
+35 6502 6531
+S
+#6534
+Hospital~
+Estas dentro del Hospital. Huele a alcohol y esparadrapo y
+ves sangre cubriendo todas las paredes.
+~
+0 8 0
+D2
+~
+~
+0 -1 6519
+S
+#6535
+Pasteleria Granite Head's ~
+El aroma aqui dentro de esquisito. Tambien puedes probar como los 
+pasteles se deshacen en tu boca.
+~
+0 8 0
+D1
+~
+~
+0 -1 6517
+S
+#6540
+Oscuro camino en las puertas de la Montaña~
+Aqui el camino se mezcla con la sombra, pero se vislumbra una puerta 
+que cubre la anchura del tunel que lleva hacia la montaña. Unos sonidos
+y risas se filtran por la puerta. El camino va hacia el norte y oeste,
+pero tambien puedes atravesar la puerta.
+~
+0 8 0
+D0
+~
+~
+0 -1 6504
+D1
+~
+door~
+39 6502 6541
+D3
+~
+~
+0 -1 6503
+S
+#6541
+Entrada a la mina~
+Este pequeño camino baja hacia la mina, en cambio otro camino se dirige
+hacia el oeste.
+~
+0 8 0
+D3
+~
+door~
+39 6502 6540
+D5
+~
+~
+0 -1 6542
+S
+#6542
+Dentro de la mina~
+Hay multitud de excavaciones en las rocosas paredes de esta mina.
+De ellas aparecen cansados multitud de trabajadores golpeando las
+rocas con sus picos esperando encontrar alli lo que andaban buscando.
+Un camino sigue arriba y abajo.
+~
+0 9 0
+D4
+~
+~
+0 -1 6541
+D5
+~
+~
+0 -1 6554
+S
+#6543
+Camino en la mina~
+Estas dentro de la mina, y te sientes muy incomodo. El camino continua
+hacia el este y el oeste.
+~
+0 9 0
+D1
+~
+~
+0 -1 6544
+D3
+~
+~
+0 -1 6554
+S
+#6544
+Cruze de la mina~
+Estas en un cruce de caminos dentro de la mina. Hay una puerta en 
+el norte, y el camino continua en el resto de direcciones.
+~
+0 9 0
+D0
+~
+door~
+39 6502 6546
+D1
+~
+~
+0 -1 6545
+D2
+~
+~
+0 -1 6551
+D3
+~
+~
+0 -1 6543
+S
+#6545
+Almacen de Carbón~
+Te encuantras dentro del almacen, donde se almacenan los materiales
+encontrados en esta mina. La habitacion es muy desordenada y esta
+realmente oscura y sucia.
+~
+0 9 0
+D3
+~
+~
+0 -1 6544
+S
+#6546
+Laberinto de la mina~
+Has entrado al laberino de las minas. Al este puedes ver unas
+inscripciones, y puedes salir por el sur.
+~
+0 9 0
+D1
+~
+~
+0 -1 6547
+D2
+~
+door~
+39 6502 6544
+S
+#6547
+Inscripcion del laberinto~
+Estas dentro del laberinto, pero no mucho mas lejos de este punto
+te encontraras sin duda perdido.
+~
+0 9 0
+D0
+~
+~
+0 -1 6548
+D3
+~
+~
+0 -1 6546
+S
+#6548
+Laberinto~
+Estas en un laberinto.
+~
+0 9 0
+D0
+~
+~
+0 -1 6549
+D2
+~
+~
+0 -1 6547
+S
+#6549
+Laberinto~
+Estas en un laberinto.
+~
+0 9 0
+D0
+~
+~
+0 -1 6550
+D3
+~
+~
+0 -1 6548
+S
+#6550
+Laberinto ~
+Estas en un laberinto.
+~
+0 9 0
+D2
+~
+~
+0 -1 6549
+D3
+~
+~
+0 -1 6552
+S
+#6551
+Habitacion de equipamiento~
+Estas en la habitacion que contiene el equipo de trabajo de
+los enanos mineros. Es muy pequenya, y te das cuenta de que
+no hay muchos mineros usando su equipo en este momento.
+~
+0 9 0
+D0
+~
+~
+0 -1 6544
+S
+#6552
+Laberinto Solucionado~
+Has llegado al fin del laberinto. Puedes contar tus ultimos movimientos
+a algun minero que todavia no ha encontrado la manera de salir de aqui.
+Te encuentras ante un lugar muy desolador.
+Hay una senyal en el muro:
+ 
+    Aquel que entra, planea una muerte inminente.
+    Especialmente, si pertenece al sequito de la Reina.
+~
+0 9 0
+D1
+~
+~
+0 -1 6550
+D3
+~
+~
+0 -1 6553
+S
+#6553
+La caseta del Guardian~
+Has entrado a la caseta del guardian del laberinto. Hay cuadros de la
+reina con dardos incrustados en ellos. Pintadas con sangre en la pared
+dicen 'La reina debe sufrir'. Todo aqui es muy tetrico.
+~
+0 9 0
+D1
+~
+~
+0 -1 6552
+S
+#6554
+Fondo de la mina~
+Estas en lo mas profundo de la mina. Aqui el aire es casi inrespirable.
+La mina continua hacia arriba y hacia el este.
+~
+0 9 0
+D1
+~
+~
+0 -1 6543
+D4
+~
+~
+0 -1 6542
+S
+#0
+
+
+#RESETS
+M 0 6501 6 6501
+M 0 6501 6 6502
+O 0 6507 2 6503
+M 0 6501 6 6503
+M 0 6500 4 6505
+E 1 6504 10 16
+E 1 6505 10 5
+G 1 6502 10
+M 0 6500 4 6505
+E 1 6504 10 16
+E 1 6505 10 5
+O 0 6507 2 6505
+D 0 6505 3 2
+M 0 6506 2 6508
+M 0 6500 6 6509
+E 1 6509 10 16
+E 1 6510 10 6
+E 1 6511 10 1
+M 0 6500 6 6509
+E 1 6512 10 9
+E 1 6509 10 16
+E 1 6505 10 5
+D 0 6509 1 2
+D 0 6510 3 2
+M 0 6500 2 6512
+E 1 6508 10 16
+M 0 6500 2 6512
+E 1 6508 10 16
+D 0 6512 1 2
+O 0 6507 2 6513
+D 0 6513 1 2
+M 0 6505 1 6515
+M 0 6503 1 6516
+G 1 6504 10
+G 1 6505 10
+G 1 6510 10
+G 1 6511 10
+G 1 6512 10
+E 1 6504 10 16
+M 0 6505 1 6520
+M 0 6514 4 6521
+E 1 6509 10 16
+M 0 6514 4 6521
+E 1 6509 10 16
+M 0 6500 4 6521
+M 0 6500 4 6521
+M 0 6500 4 6521
+D 0 6521 2 1
+M 0 6511 8 6523
+M 0 6511 8 6523
+E 1 6504 10 16
+E 1 6514 10 17
+M 0 6511 8 6523
+M 0 6511 8 6523
+D 0 6523 0 1
+M 0 6511 8 6524
+O 0 6513 1 6524
+M 0 6502 2 6524
+M 0 6511 8 6524
+D 0 6525 3 2
+D 0 6526 5 1
+M 0 6502 1 6527
+G 1 6502 10
+D 0 6527 4 1
+M 0 6512 3 6528
+M 0 6512 3 6529
+M 0 6513 3 6529
+M 0 6513 3 6530
+M 0 6515 4 6531
+M 0 6515 4 6531
+D 0 6531 0 1
+O 0 6516 1 6532
+D 0 6532 2 1
+O 0 6506 1 6534
+M 0 6510 4 6534
+M 0 6510 4 6534
+M 0 6509 1 6534
+E 1 6506 10 17
+M 0 6504 1 6535
+E 1 6504 10 16
+M 0 6500 4 6540
+E 1 6504 10 16
+E 1 6505 10 5
+G 1 6502 10
+M 0 6500 4 6540
+E 1 6504 10 16
+E 1 6505 10 5
+O 0 6507 1 6540
+D 0 6540 1 2
+D 0 6541 3 2
+M 0 6507 4 6542
+E 1 6508 10 16
+M 0 6507 4 6543
+E 1 6508 10 16
+M 0 6507 4 6543
+E 1 6508 10 16
+M 0 6508 4 6543
+E 1 6512 10 9
+E 1 6508 10 16
+D 0 6544 0 2
+O 0 6517 6 6545
+D 0 6546 2 2
+M 0 6517 2 6548
+M 0 6517 2 6549
+O 0 6518 3 6551
+M 0 6516 1 6553
+S
+
+
+#SHOPS
+ 6503    0  0  0  0  0   150  50         0 23    ; el tendero
+ 6504    0  0  0  0  0   150  50         0 23    ; el panadero
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

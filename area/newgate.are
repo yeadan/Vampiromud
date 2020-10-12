@@ -1,0 +1,1775 @@
+#AREA   Puerta Espectral~
+
+
+
+#VERSION 1
+
+#REVISADA 0
+#CONQUISTABLE 1
+#PROPIETARIO Inconquistable~
+#AUTHOR SiGo~
+
+#RANGES
+0 60 0 90
+$
+
+#RESETMSG Las campanas suenan a tu alrededor, alguien ha pasado la Puerta Espectral...~
+
+#FLAGS
+0
+
+#ECONOMY 0 45004900
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#100
+Samylla receptionista mujer~
+Samylla~
+La Recepcionista de Vampiro Edad Oscura espera ansiosa que hacer por ti.
+~
+Es una mujer, eso es obvio, no seria correcto usar el adjetivo hombre
+viendo como es. Te atrae tanto como la mierda atraeria a  las  moscas
+viendo su magnifica figura y sus  atractivos  ojos,  lo  que  mas  te
+impresiona de su cara es que, es completamente  blanca,  y reluciente
+tambien. Sus ojos son negros, frios no tiene una pupila  distinguible
+en el iris. Te cautiva tanto, es tan....tan...
+Por un momento despiertas de tu suenyo de embriagada belleza y te das
+cuenta de que estas ante un Vampiro!!! A que clase de mundo has ido a
+parar???!!!
+~
+3 4194984 0 C
+80 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+smile $n
+decir Bienvenido a la camara de recepcion de Vampiro Edad Oscura, $n.
+decir Aun debes de entrar en el actual juego, pero...
+mpechoat $n Porfavor tomate el tiempo necesario para leer las descripciones..
+mpechoat $n -usa newcharlar para hablar con los inmortales o jugadores de nivel superior, ellos podran ayudarte-
+mpechoat $n - escribe "new <mensaje.> para usar el canal.
+mpechoat $n  Porfavor, mira alrededor -- escribe 'mirar <objeto>. (mirar busto)
+mpechoat $n ...me gustaria que vieras todos los tapices que encontraras a tu paso.
+mpechoat $n ...ellos te  indicaran la direccion hacia nuestro Edad Oscura.
+~
+|
+#101
+gusano bicho mob~
+Un gusano~
+Un gusano se arrastra como puede sobre su hinchado estomago.
+~
+~
+2097155 4260362 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog entrado~
+mpoload 10311 1
+dar ojo 0.$n
+mpforce 0.$n vestir ojo
+mpoload 123 1
+dar burlap 0.$n
+mea $n A burlap sack is delivered into your hands, type LOOK SACK to use.
+mea $n Familiar, yet somehow different, your being has changed...
+~
+> act_prog p ha llegado~
+mpechoat $n tus ojos deben de hacer una rapida mirada a los tapices.
+mpforce 0.$n mirar tapiz
+~
+> all_greet_prog 100~
+if race($n) == Halfling
+mpechoat $nTus ojos deben de hacer una rapida mirada a los tapices.
+mpforce 0.$n mirar tapiz
+endif
+~
+> act_prog p se va hacia abajo~
+sonreir~
+|
+#102
+Xouwasi enano dwarf hombre profesor~
+Xouwasi~
+El profesor de estadisticas esta sentado esperando tu futuro.
+~
+Los ojos de este hombre hablan sobre volumenes,de conocimiento y amistad
+Muchos  enanos  disfrutan  con  la  presencia de desconocidos, pero este
+parece  que es un gran profesor de nuevos  aventureros  dentro  de  Edad
+Oscura. Su cara esta recorrida por  arrugas,  castigadas por el sol y el
+clima. Su aspecto es el de un gran  senyor, un  maestro  entre  maestros
+Realmente parece la imagen de el mayor Sabio de todos los tiempos.
+
+~
+1073741827 4194984 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 5 0 0 5 5 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+reverencia $n
+decir Pareces ser un visitante, $n.
+mpechoat $n -  Escribe 'mirar <objeto>' o bien 'mirar <nombre> para ver lo que aqui hay
+mpechoat $n - Escribe 'equipo' o 'eq' para ver lo que estas vistiendo.
+mpechoat $n ...  para ver lo que estas cargando pero no llevas puesto escribe 'inventario' o 'inv'.
+mpechoat $n ...  para ver tus stats escribe 'ficha' o 'vieja'.
+decir Escribe 'mirar arbol'...
+~
+|
+#103
+serpiente~
+una serpiente~
+Una serpiente se arrastra sigilosamente hacia tus pies!
+~
+Una pequenya serpiente negra te observa con sus malvados ojos, esperando el
+momento oportuno para atacarte!
+~
+35 520 0 C
+1 -5 75 1d1+25 0d0+0
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 6 0 0 396405 396405 0
+0 0 66593 0 0 0 0 0
+> fight_prog 50~
+mpechoat $n La serpiente dice 'lavare tus entranyas con mi lengua!
+mpechoaround $n La serpiente lavara las entranyas de $n con su lengua!
+~
+> death_prog 100~
+mpoload 108 1
+mpechoat $n Un trozo de carne se desprende del cuerpo sin vida de la serpiente.
+~
+|
+#104
+dragon bebe~
+un bebe dragon~
+Un bebe dragon te mira con ojos curiosos.
+~
+~
+3 0 0 C
+2 0 75 20d0+0 0d0+0
+1000 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 3420515 3420515 0
+0 0 65671 0 0 0 0 0
+> rand_prog 7~
+mpe El bebe dragon tiene un momento de lucidez ( y tratandose de un bebe es todo un logro).
+mpe sabe por que estas aqui y va a actuar condescendientemente.
+decir $n eres un cabron hijo puta!!!
+sac corpse
+sac escudo
+sac bucket
+~
+> death_prog 100~
+mpoload 112 1
+mpecho $I grunye por un momento sangrando refunfuyando y se colapsa .
+mpecho A loud crack can be heard in the shadows against the southern wall.
+mpecho Un nuevo bebe dragon nace de un pequenyo huevo.
+mpmload 104
+mpechoat $n Recuerda...
+mpechoat $n No puedes pasar de nivel 1 hasta que no hayas
+mpechoat $n llegado a la puerta y entrado en el juego actual..
+~
+|
+#105
+mob acccion~
+Accion Mob~
+An Act Mob is here, but can not be seen by Pre-Auths.
+~
+~
+1075838979 66058 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpoload 113 1
+mpoload 114 1
+mpat 120 dar armadura Quercusi
+mpat 120 dar llave Quercusi
+mpoload 116 1
+mpoload 117 1
+mpat 123 mppurge
+mpat 123 dejar caja
+mpat 123 poner pendiente caja
+mpat 123 cerrar caja
+~
+> rand_prog 2~
+mpat 199 dejar todo
+~
+|
+#106
+Quercusi Q hombre~
+Quercusi~
+Un pequenyo y anciano hombre se mece en su confortable sillita mecedora..
+~
+Este hombre parece que ha estado en Vampiro Edad Oscura hace cientos de anyos.
+Sus ojos te observan con detenimiento, parece que puede ver tu alma con esos
+ojos completamente negros, curioso...
+~
+1073741827 4194952 0 C
+80 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+25 13 13 25 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+sonreir $n
+' Hola, $n, bienvenido a mi humilde hogar.
+mpoload 113 1
+mpoload 114 1
+mpechoat $n No tendras alguno de estos objetos no?
+mpechoat $n ... un arma del cofre en el interior del arbol.
+mpechoat $n ... un escudo de escamas de bebe de dragon de la cueva.
+mpechoat $n ... un anillo del final de tu camino.
+mpechoat $n ... un trozo de carne de una serpiente y un cubo de agua.
+mpechoat $n Si te has dejado alguno de esos objetos, o
+if ispkill($n)
+  mpechoat $n si simplemente quieres volver a elejir de nuevo tu camino
+else
+  mpechoat $n si simplemente quieres volver a elejir de nuevo tu camino
+endif
+mpechoat $n dame tu anillo (escribe 'dar anillo hombre').
+~
+> give_prog anillo luz luminoso~
+mpechoat $n Ahora te devolvere con Xouwasi en el arbol.
+mpechoaround $n $n desaparece en un flash magico.
+mptransfer 0.$n 103
+mpat 103 mpforce 0.$n sur
+mpjunk luminoso
+~
+> give_prog anillo sombras oscuro~
+mpechoat $n Ahora te devolvere con Xouwasi en el arbol.
+mpechoaround $n $n desaparece en un flash magico.
+mptransfer 0.$n 103
+mpat 103 mpforce 0.$n sur
+mpjunk sombras
+~
+> rand_prog 2~
+mpat 199 dejar todo
+mpat 199 coger armadura
+mpat 199 coger armadura
+mpat 199 coger llave
+mpat 199 coger llave
+mpat 199 coger llave
+mpat 199 coger llave
+mpat 199 coger armadura
+mpat 199 coger armadura
+mpat 199 mppurge
+~
+> act_prog p hacia el norte.~
+mpat 119 mpechoat $n ....Quercusi te sigue hasta la puerta.
+mpat 119 mpechoat $n ....Espera $n casi me olvidaba...
+mpat 119 dar llave $n
+mpat 119 dar armadura $n
+mpat 119 mpechoat $n ....Con esta llave podras pasar por la Puerta que hay
+mpat 119 mpechoat $n ....al noreste de aqui. Usa esta armadura te ayudara.
+cerrar norte~
+|
+#107
+mob mobiii act~
+Act Mob~
+An Act Mob is here, but can not be seen by Pre-Auths.
+~
+~
+2097155 66058 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#199
+spacermob~
+a newly created spacermob~
+Some god abandoned a newly created spacermob here.
+~
+~
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#101
+fuente agua magica~
+una fuente magica~
+Una fuente magica expulsa agua en la esquina de la habitacion.~
+~
+25 64 0
+100000 100000 0 0
+5000 10 1
+#104
+cofre baul~
+un cofre de armas~
+Un cofre para las armas descansa apoyado sobre la pared norte.~
+~
+15 0 0
+1000 0 0 0
+1 0 0
+E
+cofre~
+Este cofre ha sido dejado aqui para hacerte el camino mas facil
+examina su contenido, es muy util.
+~
+> exa_prog 100~
+if class ($n) == Mago
+or class ($n) == Ladron
+or class ($n) == Assamita
+or class ($n) == Hada
+or class ($n) == Baali
+or class ($n) == Tremere
+or class ($n) == Capadocio 
+or class ($n) == Nosferatu
+or class ($n) == Gangrel
+mpoload 125 1
+poner 'amenazador granito filo' cofre
+mpforce $n coger granito cofre
+mpforce $n vestir granito
+else
+if class ($n) == Clerigo
+or class ($n) == Licantropo
+mpoload 126 1
+poner 'maza  adamantium' cofre
+mpforce $n coger adamantium cofre
+mpforce $n vestir maza
+else
+if class ($n) == Guerrero
+or class ($n) == Cruzado
+or class ($n) == Malkavian
+mpoload 127 1
+poner 'metal dura espada espadon' cofre
+mpforce $n coger espadon cofre
+mpforce $n vestir espadon
+else
+mpoload 125 1
+poner 'amenazador granito filo' cofre
+mpforce $n coger granito cofre
+mpforce $n vestir granito
+endif
+endif
+endif
+~
+|
+#105
+arma~
+Un afilada arma espera ser recogida para el combate.~
+Ves una afilada daga seguro que corta un mazo.~
+~
+5 64 8192
+12 1 6 11
+2 0 0
+E
+daga~
+Esta daga te hara la vida un pokito mas facil ayudandote a desmembrar
+a tus oponentes en combate.~
+A
+18 1
+A
+19 2
+#106
+anillo luz luminoso~
+un anillo de luz~
+Un pequenyo circulo de luz se ha creado aqui.~
+~
+9 64 3
+5 5 0 0
+2 0 0
+E
+anillo luz~
+Este anillo es un simbolo de tu naturaleza pacifica. Te prestara ayuda
+hasta que seas nivel 10.
+~
+A
+13 5
+A
+2 1
+#107
+anillo sombras oscuro~
+un anillo oscuro~
+Un pequenyo circulo oscuro se ha formado aqui.~
+~
+9 64 3
+5 5 0 0
+2 0 0
+E
+anillo sombras oscuro~
+Este anillo es un simbolo de tu naturaleza asesina. Te prestara ayuda
+hasta que alcances nivel 10.
+~
+A
+13 5
+A
+2 1
+A
+18 1
+#108
+carne trozo~
+un trozo de carne~
+Un trozo de carne de la serpiente.~
+~
+19 262144 1
+25 0 0 0
+1 0 0
+#109
+pluma purpura~
+una pluma purpura~
+Una brillante pluma purpura esta aqui tirada~
+~
+3 268697664 16385
+3 2 2 -1
+4 0 0
+'magic missile'
+E
+pluma purpura~
+Algo interesante en esta pluma, agitando algunos objetos con el comando zap
+ejemplo zap<victima> puedes conjurar poderosas magias de ataque o de defensa
+tales como santuario, bendicion, heal, etc, etc
+Procura identificar todos los objetos extranyos o sospechosos que encuentres
+a lo largo de tu camino, pueden serte muy utiles.
+~
+#110
+cubo agua~
+un cubo de agua~
+Un cubo de agua ha sido abandonado esperando a que alguien lo cargue.~
+~
+17 524288 1
+20 10 0 0
+4 0 0
+E
+cubo agua~
+Esto es un cubo de agua (obvio no), para beber de el solo has de escribir
+beber cubo.Para rellenarlo de agua, donde haya una fuente escribe:
+LLENAR CUBO.~
+#111
+fuente~
+la fuente~
+Una opaca fuente de cristal lanza agua al cielo~
+~
+25 1073741824 0
+100000 1000000 0 0
+1 0 0
+E
+fuente~
+El agua es un elemento fundamental para la vida de cualquier ser vivo, y tu
+eres un ser vivo, o dudes de beber de estas fuentes y saciar en ellas tu sed
+tambien podras llenar recipientes con su agua.
+~
+#112
+escudo escamas escudoescamas~
+un escudo de escamas de dragon~
+Un escudo de escamas de bebe dragon espera un propietario.~
+~
+9 262148 513
+4 3 0 0
+5 0 0
+E
+escudo escamas escama~
+Este escudo puede protegerte en tu viaje.
+~
+A
+18 1
+A
+19 1
+> drop_prog 100~
+mpforce $n sac $o
+~
+|
+#113
+armadura~
+una esplendida armadura~
+Una estupenda armadura esta aqui tirada y olvidada.~
+~
+9 0 9
+4 7 0 0
+10 0 0
+A
+17 -3
+#114
+llave dorada~
+una llave dorada~
+Una larga llave dorada parece que abre una puerta importante.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+E
+dorada llave~
+Esta llave parece abrir algo muy importante. Kizas la puerta hacia
+tu futuro. Para usar la llave, escribe DESBLOQUEAR <puerta>.
+~
+#115
+cuerda~
+una cuerda~
+Una cuerda suspendida del techo espera ser estirada.~
+~
+37 262144 0
+29 0 0 0
+1 0 0
+E
+cuerda~
+Si estas preparado para atravesar la Puerta Espectral, solo necesitas
+estirar de esta cuerda para notificar  a  los  Inmortales  que  estas
+preparado para entrar en el juego!
+
+Si tu nombre ha sido aprovado, preparate para entrar en el juego actual.
+
+Si recibes un mensaje diciendote que tu nombre ha sido denegado por los
+Inmortales, deberas de elegir un NUEVO, nombre. Para hacer esto escribe:
+
+"nombre <nuevo nombre>"                 Por ejemplo: nombre Misfit
+
+Entonces estira de la cuerda para anunciar a los Inmortales tu nuevo
+nombre. Ellos tomaran 30 segundos para aprobar o denegar tu nuevo nombre
+si no recibes ninguna respuesta vuelve a estirar la cuerda.
+
+Si los Inmortales siguen sin dar muestras de estar presentes vuelve a
+intentarlo de nuevo o usa el canal NEWCHARLAR para preguntar y recibir
+alguna ayuda.
+
+
+&RLOS ADMINISTRADORES DEL JUEGO&w~
+#116
+caja~
+la caja~
+Una caja negra hecha de madera descansa sobre un apequenya mesa.~
+~
+15 0 1
+11111 1 0 0
+1100 0 0
+#117
+pendiente marca~
+un pendiente prueba del afecto de la Diosa~
+Un pendiente esta aqui tirado, y olvidado.~
+~
+9 65 65537
+4 2 0 0
+5 0 0
+A
+26 2097152
+> wear_prog 100~
+if level($n) < 16
+mpechoat $n As you wear this earring you feel your feet rise off the ground.
+mpechoar $n As $n clasps $O on $s ear, $e begins to float above the ground.
+else
+mpechoat $n The clasp on the earring will no longer stay closed on your ear.
+mpechoaround $n $n struggles with $O but cannot get it to stay on $s ear.
+mpforce $n desvestir pendiente
+endif
+~
+|
+#119
+traje~
+un flamante traje blanco~
+Algun Dios se ha dejado aqui olvidado un nuevo traje
+
+~~
+9 0 9
+0 0 0 0
+1 0 0
+A
+1 5
+A
+2 5
+#120
+nota pacifica~
+la nota del camino de la paz~
+Una larga y bonita vida te espera llena de paz, si lees la nota que esta atrayendo tu atencion.~
+~
+12 1 0
+0 0 0 0
+1 0 0
+E
+nota~
+Los Dioses de Vampiro te damos la bienvenida al juego, pero como todos
+los juegos, este tb tiene reglas, nunca deberas incumplir estas dos
+las mas importantes:
+
+1) Te queda totalmente prohibido atacar a jugadores que hayan elejido
+   el camino de la oscuridad, es decir Jugadores PK o matables.
+
+2) No crearas spamming, ni haras un uso profano, ni de caracter
+   racista por los canales del juego, por supuesto no putearas
+   a otros jugadores.
+~
+#121
+nota muertos~
+la nota del camino de los asesinos~
+Una larga nota atrae tu atencion.~
+~
+12 4 0
+0 0 0 0
+1 0 0
+E
+nota~
+Los Dioses de Vampiro te damos la bienvenida al juego, pero como todos
+los juegos, este tb tiene reglas, nunca deberas incumplir estas dos
+las mas importantes:
+
+
+1) Te queda totalmente prohibido robar o atacar a jugadores que han elejido
+   el camino de la luz y la paz es decir jugadores no PK o no matables
+   Solo podras atacar a otros jugadores 5 niveles por encima o por debajo.
+
+2) No crearas spamming ni usaras los canales de forma inadecuada o haciendo
+   comentarios raciales sobre ningun otro jugador.
+
+Tambien, mira AYUDA REGLAS PKILL para ver los cambios que te afectan.
+~
+#123
+saco roido~
+un gran saco roido~
+Un saco hecho con tela ya roida espera aqui un posible duenyo~
+~
+15 0 16385
+75 0 0 0
+1 0 0
+E
+saco roido~
+Para usar este saco, escribe: examinar saco O exa saco
+Para coger objetos del interior de este saco, escribe:
+coger <objeto> saco. Para poner objetos dentro del saco
+escribe poner <objeto> saco.
+
+You can also use get all or put all.  See help container for more information.
+~
+#124
+escaleras escalera~
+unas escaleras~
+Una escalera en espiral baja desde el centro de la habitacion.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+E
+escaleras escalera~
+Estas esclaeras parecen ser robustas. Descienden a otra habitacion
+desde el centro.
+~
+#125
+amenazador granito filo~
+un amenazador filo de granito~
+Un amenazador filo de granito espera seccionar algun miembro.~
+~
+5 68 8193
+12 1 6 11
+2 0 0
+E
+amenazador granito filo~
+Es rustico pero util, quizas puedas desmembrar a alguien con esto.
+~
+A
+18 2
+A
+19 1
+#126
+adamantium maza~
+una gran maza de adamantium~
+Una maza de metal brillante espera ser recojida para otorgar su poder.~
+~
+5 524610 8193
+12 0 0 7
+2 0 0
+E
+adamantium maza~
+Forjada en un metal superresistente esta maza te permitira romper
+craneos como nueces.
+~
+A
+18 2
+A
+19 1
+#127
+metal dura espada espadon~
+un espadon forjado de duro acero~
+La luz rebota contra la superficie de un gran espadon de duro acero~
+~
+5 524352 8193
+12 0 0 3
+2 0 0
+E
+espada espadon~
+Hecha de un matal muy duro parace que pueda destruir un ejercito entero.
+~
+A
+18 2
+A
+19 1
+#190
+programa contenedor~
+un programa contenedor~
+Un contenedor para los progresos delos nuevos jugadores.~
+~
+15 1073741824 16385
+300 0 0 0
+1 0 0
+#191
+fuente~
+una fuente~
+Una fuente con fresca agua esta situada en la esquina.~
+~
+25 0 0
+0 0 0 0
+1 0 0
+#192
+placa~
+una placa~
+Para recibir ayuda para elegir tu camino escribe (mirar canto rodado)~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+canto rodado~
+Este canto rodado gris y feo parece tener inscrustada una placa.
+Escribe MIRAR PLACA para leer el mensaje escrito en ella.
+~
+E
+placa dorada~
+Esta es una pequenya area, sobre unas 25 habitaciones en total. Si eres
+nuevo en este tipo de juego, debes explorar estas habitaciones, mirarlo
+todo, averiguar que puedes hacer y coger todo lo que  encuentres  a  tu
+paso para configurar tu equipo. Puede que  no estes autorizado a estirar
+la cuerda al final de todas las habitaciones.
+
+No podras subir niveles por muerte en este area. Su finalidad es hacerte
+familicializarte con tu personaje, ver tus stats, que conozcas tu SLIST
+y que leas nuestras ayudas.
+
+Aqui tus ojos son tu mejor arma. Miralo todo! Puede mirar los objetos que
+encuentres  en  las  descripciones  de  las  habitaciones  para  ver  una
+informacion adicional e instrucciones. Tambien  puedes  ver  los  objetos
+y mobs <criaturas del juego> estos se encuentran el las habitaciones.
+
+Si aun asi tienes alguna duda o comenatrio, porfavor sientete libre para
+hablar con un Inmortal por el canal newcharlar o via telepatias.
+Escribe QUIEN IMM para  ver  los  inmortales  que  en  ese  momento  estan
+conecntados. Tambien. escribe HELP NEWCHARLAR para ver una ayuda detallada
+para los nuevos jugadores.
+
+Feliz Aventura!!!!!
+
+          &RFIRMADO: &CLOS IMPLEMENTADORES DE VAMPIRO EDAD OSCURA&W
+~
+#193
+golden plaque~
+una placa~
+Aui hay una placa escrita.~
+~
+12 1073741824 0
+0 0 0 0
+1 0 0
+E
+dorada placa cartel~
+Bienvenido aventureros a la Puerta Espectral.
+Todos los personajes nuevos entran al juego en este area previa a la
+gran aventura que te espera en la Academia al entrar a Vampiro
+Mundo de Tinieblas. Esta es una pequenya area, sobre 25 habitaciones
+en total. Tu mision aqui sera la de explorar estas habitaciones, mira
+todo y coge todo lo que puedas coger para hacer tu equipo. Kizas no
+estesautorizado alestirar la cuerda al llegar a la habitacion final
+Se supone ke no podras subir ningun nivel en este area, esta sirve
+para que te vayas familiarizando con tu personaje, para que aprendas
+a ver tus stats, revisar tu SLIST y leer uestros ficheros de ayuda.
+
+Feliz Aventura! -- Brittany Seccunda-DethBlayde, Godmother
+~
+#194
+lapuerta~
+la apertura~
+Una abertura en el arbol te permite ver el camino de regreso.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#196
+espiral escaleras escalera~
+una escalera~
+Una escalera en espiral baja abajo desde el centro de la habitacion, hay
+
+una placa pegada a ella [mirar placa]~~
+12 0 0
+0 0 0 0
+1 0 0
+E
+staircase spiral~
+This staircase is done up completely in wrought iron.  Strange mythical
+creatures are depicted along the railings as the stairway spirals down
+through the floor.  To descend, just type DOWN or D.
+~
+#197
+portal~
+la puerta~
+Una gran puerta dorada da paso al juego.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#198
+cabina~
+la cabina~
+Una cabina ha sido incrustada e la piedra de la casa sur de la colina.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+cabina~
+Disappearing into the hillside, only the very front of the cabin can be
+seen.  The building looks old, yet well kept, and the door stands ajar.
+~
+#199
+arbol~
+el arbol~
+Un enorme arbol kasi bloquea el camino, puedes ver que tiene un gran agujero~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+arbol apertura~
+Una apertura bastante grande en una cara del arbol te da que pensar.
+Pare etrar por ella escribe 'Entrar' y para salir 'abandonar o entrar'
+~
+#0
+
+
+#ROOMS
+#100
+Un tapiz amenazante.~
+Has aparecido de algun modo en una camara arcana. Hay tapices por todas
+partes, de colores  vivos,  cubren  todos  los muros  que te rodean. La
+habitacion tiene una espeluznante forma circular y  la oscuridad  es la
+duenya de casi todo, te recuerda las camaras  donde  enterraban  a  los
+antiguos Cainitas de tus cuentos de leyendas. Tus ojos se  posan  sobre
+un largo tapiz situado justo encima de tu cabeza,  empiezas a  sospechar
+que esta es una tierra oscura llena de amenazadoras sombras  y  peligros
+Quizas  seria   conveniente  que  te  pararas a mirar  los  tapices  con
+detenimiento.
+~
+0 3154956 0
+D5
+You see a spiral staircase leading to a reception room.
+~
+~
+0 -1 101
+E
+noroeste noro no~
+Al noroeste aparece un valle seguido de un bosque, probablemente hogar
+de la poblacion Elven por las pequenyas estructuras que se ven alli.
+Tambien puedes ver el comienzo del &Boceano&w y algunas embarcaciones
+en el puerto.
+~
+E
+sur su s~
+Puedes ver una gran agitacion en esa direccion, y una gran apertura  a
+un area subterrenea. Puedes ver una oscura senda principal desde ese 
+basurero. No parece el mejor sitio para que visites.
+~
+E
+este e~
+Este lado parece muy concurrido. Alli hay una  larga carretera  que  se
+bifurca  en  varias  direcciones.  Puedes  ver una larga arboleda y un
+castillo a lo lejos en el horizonte. Al Oeste de la carretera  esta  la
+ùerta de la ciudad. Puedes  ver  montanyas  ennegrecidas,  y  abiertas,
+abandonadas por lo que pareces ver, hechas por los enanos.
+~
+E
+arriba ar a arri arr up~
+Por encima de tu cabeza puedes ver unos pocos dragones volando en un
+cielo gris, tambien ves unas cuantas arpas colocadas entre sus alas
+Este paisaje no puede ser real, debes de estar dormido, o no?.
+~
+E
+tapiz~
+Al mirar el tapiz te sientes como si estuviese mirando con ojos de miope
+al no poder asimilar lo que tus ojos estan  viendo.  Mas  que  un  tapiz 
+parece una ventana hacia un oscuro y extranyo mundo.Comienzas a examinar 
+cada uno por separado, poseyendo la vista que te  proporciona  cada  uno
+Hay nueve ventanas separadas, uno encima de tu cabeza y otra en cada una
+de las ocho direcciones.
+MIRAR:Norte Sur Este Oeste Noreste Noroeste Sureste Suroeste arriba.
+Asi tendras una pequenya informacion sobre este nuevo mundo.
+~
+E
+norte n~
+Fuera puedes ver un extenso campo en la base de una montanya, encima
+como flotando, una  radiante  cuidad  dominada  por  una  estructura
+palacial.
+~
+E
+oeste o oes oe~
+Solo ves lo que parece ser la puerta de salida de una ciudades esta 
+direccion. Al norte de la puerta hay un pequenyo  bosque,  habitado 
+por algunos pequenyos Pixies.
+~
+E
+sureste sure se~
+En esta direccion ves lo que parece ser una casa flotante sobre el rio
+El rio parece correr de este  a  oeste,  desapareciendo  en  un  largo
+&Boceano&w.
+~
+E
+suroeste suro so~
+El bosque cambia en esta direccion, los arboles han creado un toldo 
+que abarca una extensa area. El sur del bosque es una enrome cienaga.
+~
+E
+noreste ne nore~
+Mirando al noreste, ves una gran ciudad rodeada por verdes campos. Al
+este de la ciudad se levanta un castillo &Ydorado.&w
+~
+> leave_prog 100~
+if isimmort($n)
+or race($n) == halfling
+else
+  mpforce 0.$n vis
+endif
+~
+> rand_prog 20~
+mpecho Una sigilosa sombra pasa a tu lado rozandote, quizas un poderoso Cainita
+mpecho ha decidido que no vale la pena que mueras hoy.
+mpechoat $r Sientes la presencia del tapiz sobre ti...
+mpforce $r mirar arriba
+~
+|
+S
+#101
+La Recepcion de Vampiro Mundo de Tinieblas~
+Has entrado en una habitacion espaciosa, enorme dirias mas bien, todo
+esta decorado en un estilo Victoriano, para nada desentonante con la 
+vista del mundo que tienes ante ti. Todo te parece tan raro, tan nuevo
+Ves una especie de piano de cola en un rincon, parece que a Samylla le
+agrada tocar de vez en cuando. Puedes seguir tu camino hacia lo 
+desconocido hacia el norte.
+~
+0 3154956 0
+D0
+Before you is a path past a giant tree.
+~
+~
+0 -1 102
+D4
+Up a spiral staircase is a observation tower, overlooking the Realms.
+~
+~
+0 -1 100
+E
+cedar~
+The walls here are made from the finest cedar, giving the room a luxurious
+look and a fantastic smell.  Someone went to great expense and searching to
+find these strips of perfectly matched wood.
+~
+E
+carpet carpeting~
+This carpet appears to be made from a cashmere wool laid atop some sort of
+thick padding.  Your feet sink at least an inch into the flooring.
+~
+E
+painting~
+Done on a stretched scroll in vivid, detailed colors, it looks almost as if
+you could step into the painting (though it is a barren desert and does not
+appear to be somewhere you would want to visit).
+~
+E
+wall walls~
+These walls are made from a fine sample of cedar, decorative enough to
+require little in the way of painting and other decoration.  One painting
+adorns the wall behind the beautiful oak desk:  a painting of a barren
+desert, hauntingly vivid, almost as if you could step directly into it.
+~
+E
+globes globe~
+Each globe winks with an internal light, though not a flame or any sort of
+thing you can define by past experiences.  They dangle in mid air with no
+means of support.  Magic comes to mind, but you shrug it off.
+~
+E
+busto~
+Your mind clicks!  You know what this is, though your mind takes a moment
+to digest the information.  You are staring at a bust of a dragon, closer
+to such a thing than you have ever been before.  Its eyes seem to glare
+menacingly at you, but a shiver courses the length of your spine as a
+sigh of relief passes your lips.  It is thankfully dead, and you are safe.
+~
+E
+chair chairs leather~
+Each of these chairs are made from the finest of leathers, polished to a
+high sheen and dyed a midnight black.  This is by far the best craftsmanship
+you have ever seen, and as you approach you can smell the rich scent given
+off by fresh leather.
+~
+E
+oak desk~
+This desk is made from a carved oak wood, stained to a dark brown finish.
+The crafting is done so that the legs appear to be clawed feet on the end
+of slightly bent legs.  The craftwork is excellent.
+~
+> leave_prog 100~
+if isimmort($n)
+or race($n) == halfling
+else
+mpforce 0.$n vis
+endif
+~
+|
+S
+#102
+El Sendero del Conocimiento~
+Sigues abriendote camino por el sendero pasados los confines del area de
+recepcion hacia el sur, quizas esperando encontrar tu futuro alli.
+Ves un arrugado ancianito casualmente apoyado contra un gran arbol a  un 
+lado del sendero. Tu camino sigue hacia el norte, o puedes regresar a la
+estructura que hay al sur.
+~
+0 3154956 0
+D0
+El camino divide el norte desde aqui.
+~
+~
+0 -1 103
+D2
+Al sur esta la recepcionista esperandote con sus ojos negros.
+~
+~
+0 -1 101
+D10
+~
+apertura~
+917504 -1 104
+E
+arbol~
+Este arbol es enorme! En la cara Sur puedes ver una gran apertura,
+parece lo suficientemente grande para que puedas entrar por ella.
+Te maravilla lo que puedas ver ahi dentro.
+CONSEJO: Escribe APERTURA o ABANDONAR APERTURA para entrar o salir
+por ella. Tambien puede usar el comando ENTRAR.
+~
+E
+algunsitio~
+Algunsitio es un tipo de salida donde no se usa una direccion
+funcional. Para entrar en ella hay que usar una "palabra clave"
+normalmente procedida del comando abandonar, escalar o entrar.
+Este algunsitio se puede usar escribiendo APERTURA o ENTRAR 
+APERTURA.
+
+~
+S
+#103
+Un sendero Dividido~
+Te apetece pasar tu vida desmembrando asesinando mutilando y alimen-
+tandote de los demas jugadores y como no recibiendo igual trato?
+
+Pkill -- esta es la decision que deberas de escoger ahora.  Si eliges
+el camino de la sombras, matando y robando  a  los  otros  jugadores, 
+no podras caminar nunca mas por el sendero de la luz. Solo los asesinos 
+pueden ser asesinados. Un  personaje  asesino  puede  ser  la  victima
+potencial de otros pkillers con una diferencia de CINCO niveles (por 
+encima o por debajo) de tu nivel. Tu no tendras en tus manos el poder de
+decidir dejar de ser pkill en ese momento, si en el futuro te embarga la
+inmensa sensacion de la paz deberas de hablar con un inmortal  para  que 
+te saque del camino sombrio del asesinato, o entrar a formar parte de un 
+clan. Prueba 'AYUDA REGLAS PKILL' y 'AYUDA REGLAS ASISTENCIA' contienen 
+informacion importante para los jugadores pkill. Los Dioses prohiben 
+a los jugadores pacificos ayudar o asistir a los jugadores pkill.
+
+-Si has leido esto y decides seguir el camino de los pkillers escribe:
+"decir Elijo caminar el camino oscuro de los jugadores asesinos."
+
+-Si has leido esto y decides seguir el camino de los pacificos escribe:
+"decir Elijo el camino de la luz de los jugadores pacificos."
+~
+0 3153932 0
+D2
+Detras de ti esta el sendero que lleva al area de Recepcion.
+~
+~
+0 -1 102
+> speech_prog p camino oscuro~
+if level($n) == 1
+mpforce 0.$n config -nice
+mpforce 0.$n config -flee
+mppkset $n yes
+mpechoat $n Ahora eres un personaje asesino...preparate a seguir tu camino.
+mpechoat $n 'quien matable' solo podras asesinar a jugadores con diferencia de nivel de 5 y + de 18 anyos.
+mpechoat $n Ahora seras transferido a tu camino...
+mpechoaround $n $n eligio el camino de la oscuridad y desaparece en las sombras...
+mptransfer 0.$n 107
+mpat 107 mpforce 0.$n mirar
+mpat 107 mpforce 0.$n config +autoloot
+mpat 107 mpforce 0.$n config +autogold
+else
+mpechoat $n Ahora estas en tu camino elegido.
+mptransfer $n 21001
+endif
+~
+> speech_prog p camino de la luz~
+if level($n) == 1
+mppkset $n no
+mpechoat $n Has elegido el camino de la luz, de los jugadores pacificos.
+mpechoat $n Ahora seras transferido al camino que has elegido.
+mpechoaround $n $n ha escogido el camino de la luz y desparace!
+mptransfer 0.$n 105
+mpat 105 mpforce 0.$n mirar
+mpat 105 mpforce 0.$n config +autoloot
+mpat 105 mpforce 0.$n config +autogold
+else
+mpechoat $n Ahora andas el camno que elegiste...
+mptransfer $n 21001
+endif
+~
+> rand_prog 33~
+mpechoat $r Yus ojos se ven obligados a mirar un extremo de la habitacion donde hay una PLACA
+mpforce $r mirar placa
+~
+|
+S
+#104
+Dentro del arbol~
+Esto es una pequenya casa, parcialmente decorada. Por lo visto el enano
+que reside aqui, prefiere usar su tiempo por fuera explorando  por  ahi 
+sin cerrar la puerta. La mesa esta cubierta de  platos sucios y la cama   
+esta deshecha, el resto del lugar esta  relativamente limpio y ordenado.
+Apoyado contra el muro norte puedes ver un gran Cofre. Despues  de  una 
+rapida inspeccion ves que el cofre esta abierto, y quieres  saber  cual 
+sera su maravillosos contenido. La apertura queda al sur a tu espalda.
+~
+0 3153932 1
+D10
+~
+apertura~
+917505 -1 102
+E
+mesa~
+Una pequenya mesa hecha de madera maziza y por lo que se ve robusta
+tambien, por las dimensiones  parece  construida para  dos personas
+por lo visto el enano que habita esta apertura tiene parienta.
+~
+E
+plato platos~
+Estos platos parecen estar hechos de algun tipo de metal ligero, por
+supuesto no te apetece nada comer los restos que ves en ellos.
+~
+E
+cama~
+Pequenya pero confortable la cama del enano esta hecha con algunas 
+ramas y un tipo de algodon casero las sabanas parecen  rusticas  y 
+nada decorativas.
+~
+E
+apertura~
+La APERTURA queda al sur, a tu espalda, para usar este tipo de salida
+simplemente escribe ABANDONAR APERTURA o ABANDONAR solamente.
+~
+S
+#105
+El camino de la Paz~
+El camino aqui es  claro, humeante. Los arboles de los lados son frondoso
+y verdes, ahora debes seguir por el, deberas realizar la mision de tu 
+camino  para tener una vida satisfecha. Una gran nota flota detras de
+un arbol al este del camino.
+~
+0 3153924 3
+D0
+Before you is an adventure, are you ready to embrace it?
+~
+~
+0 -1 106
+> leave_prog 100~
+mpechoat $n Your eyes read over the sign as you pass it by.  It reads:
+mpforce 0.$n look sign
+~
+|
+S
+#106
+Un camino de Paz y Luz~
+El camino contiua aqui, los arboloes parecen ucho mas frondosos e iluminados.
+Parece que el camino sigue haciael norte. Detras de esa linea de arboles.
+y se abre un campo, alli puedes ver una pequenya pieza de metal.
+Si quieres cogerla ve al norte.
+~
+0 3153924 3
+D0
+Before you is a large, open field.
+~
+~
+0 -1 109
+> leave_prog 100~
+c refresh $n
+c refresh $n
+mpoload 106 1
+dejar anillo
+mpechoat $n Miras abajo y descubres un trozo de metal sobre el suelo.
+mpforce 0.$n coger anillo
+mpechoaround $n $n se agacha y recoge algo del suelo..
+mpforce 0.$n mirar anillo
+mpapply $n
+~
+|
+S
+#107
+Un camino de muerte y destruccion~
+El camino aqui es oscuro, todo parce sombrio desolado y frio, los
+arboles parecen no dejar penetrar ni un solo rayo de sol. Kizas te
+guste este camino. Una nota flota detras de los arboles al norte de aqui.
+
+
+~
+0 3153924 3
+D0
+Before you is an adventure, are you ready to embrace it?
+~
+~
+0 -1 108
+> leave_prog 100~
+mpechoat $n Tus ojos se mueven nerviosos alcanzando ver una nota: Comienzas a leer...
+mpforce 0.$n mirar nota
+mpoload 107 1
+~
+|
+S
+#108
+Un camino oscuro~
+Tu viaje continua, los arboles son sombrios y el camino oscuro.
+Por supuesto tu camino puede seguir hacia el norte. Detras de las primeras
+hileras de arboles hay camino abierto. Alli ves un resplador, como de 
+algo metalico, podras cogerlo si vas al Norte.
+~
+0 3153924 3
+D0
+Before you is a large, open field.
+~
+~
+0 -1 109
+> leave_prog 100~
+c refresh $n
+c refresh $n
+mpoload 107 1
+dejar anillo
+mpechoat $n Te agachas y recoges un trozo de metal del suelo.
+mpforce 0.$n coger anillo
+mpechoaround $n $n se agacha y recoge un trozo de metal.
+mpforce 0.$n mirar anillo
+mpapply $n
+~
+|
+S
+#109
+Atravesando el campo~
+Te encuentras a ti mismo en un amplio valle. Lam montanyas lo cierran a los
+lados, y el bosque queda ya al noroeste. Parece que alguien paso el rato 
+haciedo miniaturas de nieve. El camino oscuro por el que llegaste ha quedado 
+inaccesible tapado por una maranya de vegetacion. Solo te queda una salida 
+posibe al noroeste haciendo que cada vez entres mas en este nuevo mundo.
+~
+0 3153924 3
+D7
+Leading away from this field is a path through a circle of trees.
+~
+~
+0 -1 110
+> entry_prog 100~
+if mobinroom(103) < 1
+mpmload 103
+endif
+~
+|
+S
+#110
+Un circulo de arboles~
+Has entrado en un camino estrecho, rodeado de arboles. Este mistico circulo
+te parece algo extranyo, algo magico flota en el ambiente. Te da una 
+sensacion de seguridad que no recuerdas haber experimentado antes.
+La sensacion del buen comienzo
+~
+0 3153924 3
+D3
+You see the path continues through the trees.
+~
+~
+0 -1 111
+D8
+Behind you is a field of daisies and clovers.
+~
+~
+0 -1 109
+E
+arboles arbol circulo~
+These trees seem almost to be live, thinking beings, exuding an aura of
+darkness and magic.  Not that they will harm you, but you sense that you
+would not wish to attempt to chop down any found here.
+~
+> entry_prog 100~
+c heal $n
+c refresh $n
+c refresh $n
+~
+> leave_prog 100~
+mpforce 0.$n vis
+mpoload 109 1
+mpat 111 drop feather
+~
+|
+S
+#111
+Siguiendo por el bosque pasados los arboles~
+El bosque comienza a abrirse aqui, una vez entrado al bosque, puedes
+comprobar la verdadera belleza de este mundo. Todas las notas, todos los
+sonidos, estan esperando aqui para ti ahora. Al este se vislumbra un 
+circulo formado por arboles. Al norte puedes llegar a uno pequenya fuente.
+~
+0 3153924 3
+D0
+To the north the pathway passes a small pond.
+~
+~
+0 -1 112
+D1
+To the east is a tight circle of trees.
+~
+~
+0 -1 110
+E
+flock bird birds~
+High above the trees are a group of birds, enjoying the gift of flight.
+These birds look like those you have experienced before, yet their coloring
+is shockingly different, with feathers of a vivid purple, making the seem
+afire when hit directly by the sunlight.
+~
+E
+moss~
+This moss is the most brilliant green you can recall ever seeing.  It is
+thick and grows heavily on the west side of almost every tree trunk within
+sight.  As you peer closer you can see each is like a small city to the
+bugs of the forest which live and hide here to flee the predators.
+~
+> leave_prog 100~
+mpoload 110 1
+mpat 112 drop bucket
+~
+|
+S
+#112
+Junto a la fuente de cristal~
+El bosque desemboca aqui en un pequenyo claro, parece una maravilla de la
+naturaleza lo que tienes ante tus ojos, una fuente de cristal lanza un
+chorro de agua konstante desafiando la ley de la gravedad. La vegetacion 
+a credido alrededor de la fuente.
+~
+0 3153924 3
+D2
+The path goes back through the trees to the south.
+~
+~
+0 -1 111
+D3
+The base of a hill meets the trail to the west.
+~
+~
+0 -1 113
+> leave_prog 100~
+mpforce 0.$n get bucket
+~
+|
+S
+#113
+Un camino empinado y rocoso~
+Los arboles han dado paso a la ladera de una colina, hay grandes piedras
+que parecen juguetes olvidados despues de un dia de juego. Afilados ojos
+y dentados bordes definen la linea a del camino a seguir.
+~
+0 3153924 3
+D1
+East you can travel along the shore of the pond.
+~
+~
+0 -1 112
+D4
+The trail wends its way up the hillside.
+~
+~
+0 -1 114
+E
+roca rocas~
+Estas rocas parecen que hayan sido dejadas aqui por una fuerza superior, 
+o quizas solo rodaron colina abajo.~
+S
+#114
+Sobre una desolada colina~
+Caos y destruccion en lo unico que has podido encontra en la cima de esta
+colina, primero tenias la impresion de que esto era resultado de cierto
+tipo de actividad volcanica, pero cuando te cercioras de que una gran 
+seccion de la colina, tiene restos de esqueletos de bestias primitivas
+te asaltan las dudas. No puedes pensar en ora kosa maske en esas bestias
+y en el gran poder que hizo que sucumbieran ante la muerte.
+~
+0 3153924 3
+D1
+You can see a large plateau in this direction.
+~
+~
+0 -1 115
+D5
+The path descends the hill to the south.
+~
+~
+0 -1 113
+E
+stone stones~
+These stones are less sharp and jagged than those lower on the hill, but
+definitely more ravaged.  It appears as if they have been applied to very
+high temperatures that smoothed and blackened their exteriors.
+~
+E
+bone bones~
+The bones here fit together to paint a vivid picture of a large battle -
+man against beast.  The men took losses of their own before the beast was
+defeated.  The bones of this creature appear to stretch a good twenty men
+long, from neck-top to the tip of its tail, and you can imagine the size
+of the missing skull.  Your mind wanders back to the reception area, to
+the bust on the wall...
+~
+S
+#115
+En la cresta de la colina~
+Una vez recorrida una cierta distancia, puedes ver algo, un palo tal vez
+o quizas....Dios mio!!!! Ke es esto?! El kuerpo de un ser humano con la
+cabeza ( o lo que queda de ella ) totalmente desfigurada. Quizas sea uno
+de esos de los que oiste hablaren ls cuentos de tu infancia. Aunque te 
+cueste reconocerlo eso parece un Nosferatu!.
+Al sur de aqui se halza una cueva.
+~
+0 3153924 3
+D1
+The greener grass on the other side of the hill.
+~
+~
+0 -1 117
+D2
+You stand before the darkened mouth of a cave.
+~
+~
+0 -1 116
+D3
+Back down the desolate hillside.
+~
+~
+0 -1 114
+> rand_prog 50~
+mpecho Un extranyo edor proviene de la cueva al sur de aqui
+~
+|
+S
+#116
+Dentro de la Cueva~
+Larga oscura sombria fria y humeda, esta cueva es tal y como la esperabas
+La forma de las paredes y su color te hac llegar a la determinacion de 
+que esta cueva ha sido formada por un corrimiento de tierras hace siglos
+quizas. Todo el suelo esta lleno de extranyos pedazos de color grisaceo
+Exainandolos de cerca te das cuenta de lo que realmente son:
+Trozos de cascaras de huevo de proporciones increibles!!!Seguro que uno 
+de ellos te serviria de escudo. No estas preparado para un encuentro con
+un esqueleto de la jodida era Jurasica.
+~
+0 3153928 0
+D0
+North is the path to your future.
+~
+~
+0 -1 115
+> leave_prog 100~
+c refresh $n
+c refresh $n
+~
+|
+S
+#117
+Descendiendo por la Colina~
+Sigues tu camino hacia este nuevo y espectacular mundo que se ha presentado
+ante ti, la sensacion de seguridad que hace unos momentos se apoderaba de ti
+ha desparecido para dejar paso a la extraya y molesta sensacion del peligro.
+~
+0 3153924 3
+D0
+North is the entrance to a valley.
+~
+~
+0 -1 118
+D3
+You see a plateau on the hill.
+~
+~
+0 -1 115
+S
+#118
+El ojo del Valle~
+Has llegado al final de la ladera de la Colina, estas ante u verde valle
+lleno de flores que irradian luz  color  y  alegria,  parece  que  estas 
+llgando al final de algo, pero de que?
+~
+0 3153924 3
+D1
+You see a path through the valley and a small wooden cabin.
+~
+~
+0 -1 119
+D2
+A path leading up the side of a hill.
+~
+~
+0 -1 117
+> entry_prog 100~
+if isimmort($n)
+or race($n) == Halfling
+else
+  mpforce 0.$n vis
+endif
+~
+|
+S
+#119
+Pasado el Valle~
+Una vez has pasado el valle, haces un alto en el camino y te detienes a
+observar las maravillas de esta naturaleza fertil  que  se  ha  abierto 
+ante ti .Justo al Sur, puedes ver una pequenya cabina de madera  metida
+dentro de una de las caras de la colina.
+~
+0 3153924 3
+D2
+A door to into a cabin
+~
+door~
+3 -1 120
+D3
+Back towards the valley entrance.
+~
+~
+0 -1 118
+D6
+The path ends before a large gate
+~
+~
+0 -1 121
+E
+cabina~
+Esta cabina de madera parece la casa de alguien, quizaspodrias entrar 
+a echos un vistazo, para abrir la puerta escribe 'ABRIR SUR', quizas
+haya un valisos premio esperadote ahi dentro.~
+E
+puerta~
+TEsta cabina de madera parece la casa de alguien, quizaspodrias entrar 
+a echos un vistazo, para abrir la puerta escribe 'ABRIR PUERTA', quizas
+haya un valisos premio esperadote ahi dentro.~
+> leave_prog 100~
+if isimmort($n)
+or race($n) == Halfling
+else
+  mpforce 0.$n vis
+endif
+~
+|
+S
+#120
+Inside a Small Cabin~
+Various scents assail you as you enter the cabin.  The smell of cooked meats
+is overlaid with the scents of a crackling fire and the gentle tang of pine.
+Simple, well-made furniture adorns this well kept home.  As your eyes move
+about, enjoying the rustic comfort of your surroundings, the gentle sound
+of a rocking chair intrudes upon your reverie.
+~
+0 3154956 1
+D0
+Back to the valley pathway
+~
+door~
+3 -1 119
+D5
+~
+trap trapdoor~
+1071 114 123
+E
+rocking chair~
+This rocking chair is made of a supple wood, bent and twisted rather than
+carved.  It is finished with a light brown stain, highlighting the natural
+grain in the wood.  The chair is placed on top of a hand braided rug, done
+in an intricate design.  The south corner of the rug appears to be caught
+on something.
+~
+E
+rug~
+This rug is done in a design that appears to be a six-sided star weaved in
+and out of a series of circles.  It is like a large Gods Eye light catcher,
+the design pulls you deep into its pattern.  The decoration is so intense
+you almost miss a crack pinning a small portion of the southern corner.
+~
+E
+crack corner~
+The corner of the rug is caught slightly caught what at first appears to
+be two floorboards.  Upon closer review, you see the crack is actually the
+frame to some type of trap door in the flooring.  As you pull back the rug,
+you notice a large keyhole.  This is very interesting indeed!
+~
+E
+floorboards floorboard~
+As you examine them, you notice a crack which has snagged part of the rug.
+~
+> rand_prog 25~
+mpecho The wooden chair creaks as it rocks back and forth over the floorboards.
+~
+> leave_prog 100~
+if race($n) == Halfling
+mpforce q emote leans out the door...
+mpforce q give key $n
+mpforce q give armour $n
+mpforce q mpechoat $n Good luck in your adventures, $n...
+close door
+else
+endif
+~
+|
+S
+#121
+Before the Passage~
+The dense mountains, almost impassable to begin, here bring the pathway to
+a sheer end.  Tall bluffs rising to the east abruptly halt at a large gate,
+gold in color.  The size of the gate and its obvious magical bestowments
+give it the power to bar further passage into the world beyond until
+unlocked by those who find its key.
+~
+0 3154944 3
+D1
+~
+gate~
+7 114 122
+D9
+~
+~
+0 -1 119
+E
+puerta~
+Si quieres cruzar esta puerta, deberas de usar una llave, creo que podras
+encontrarla al sur de la cabina.
+~
+> rand_prog 40~
+mpechoat $r Tus ojos reaccionan por ellos mismos y giran hacia una PUERTA!
+mpforce $r mirar puerta
+~
+|
+S
+#122
+Una vista del Mundo~
+Has llegado al final del camino y como no,eso tiene su recompensa, desde
+aqui tienes una vista de este nuevo mundo como jamas  hubiese  imaginado
+aunque tienes la extranya sensacion de que alguien te esta vigilando.
+~
+0 3154952 3
+D3
+~
+gate~
+7 114 121
+> act_prog $n estira~
+mpechoat $n Oyes una gran campana como respuesta.
+mpechoaround $n Se oye una gran campana por encima de tu cabeza..
+mpechoat $n Enhorabuena! Has sido aceptado en el Vampire: Edad Oscura.
+empujar cuerda
+if level($n)==1
+mpadvance $n 2
+endif
+mptransfer $n 10300
+~
+|
+S
+#123
+El Sotano Mohoso~
+Un aire humedo y frio llena esta habitacion. Tantes en la oscuridad con
+las puntas de los dedos en busca de algo donde aferrarte, te llevas
+las manos al pecho y las frotas entre ellas para entrar en calor. Solo
+hay un objeto en todo el sotano dificilmente distinguible con tan poca
+luz, pero te parece que es una caja de madera. La salida esta arriba.
+~
+0 3154952 0
+D4
+~
+trap trapdoor~
+3 114 120
+> entry_prog 100~
+mpechoat $n Oyes el sonido de la trampilla al cerrase sobre tu cabeza.
+mpat Quercusi mpforce Quercusi cerrar trapdoor
+~
+|
+S
+#199
+Flotando en el vacio~
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+M 0 101 1 100
+O 0 124 1 100
+M 0 100 1 101
+E 1 100 1 0
+M 0 102 1 102
+O 0 199 1 102
+O 0 192 1 103
+O 0 194 1 104
+O 1 104 1 104
+P 1 105 1 104
+O 0 120 1 105
+O 0 121 1 107
+M 0 103 1 109
+O 1 111 1 112
+O 0 110 0 115
+M 0 104 1 116
+M 0 105 1 119
+O 0 198 1 119
+M 0 106 1 120
+E 1 119 1 5
+D 0 120 5 2
+O 0 197 1 121
+D 0 121 1 2
+O 1 115 1 122
+D 0 122 3 2
+D 0 123 4 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

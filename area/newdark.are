@@ -1,0 +1,8102 @@
+#AREA   Ciudad de Darkhaven~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO Beythor~
+#PUNTOS 1486 1951 1669 2000 0
+#AUTHOR Kayser~
+
+#RANGES
+0 90 0 256
+$
+
+#RESETMSG Oyes el sonido de las campanas provinientes de la catedral.~
+
+#FLAGS
+0
+
+#ECONOMY 0 38253195
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#21000
+sacerdotisa curandera cleriga~
+la sacerdotisa de la catedral~
+Una sacerdotisa de la catedral esta aqui junto al altar.
+~
+La sacerdotisa del altar esta aqui para curar todos tus males. Reposa aqui hasta
+que puedas salir en busca de aventuras.~
+2067 4194472 1000 C
+50 0 0 25d500+300 0d0+0
+0 0
+112 112 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 262143 1 0
+0 0 2047 0 3156992 0 0 263
+#21001
+mago vendedor dependiente~
+el dependiente mago~
+El dependiente mago esta aqui.
+~
+~
+2051 4194344 0 C
+50 0 -300 1d1+30000 20d100+100
+700000 0
+112 112 1
+18 18 18 18 13 13 18
+0 0 0 0 0
+1 0 0 0 3 3 6
+34 4 2047 0 3156992 0 48 3
+#21002
+herrero~
+el herrero~
+El herrero esta aqui.
+~
+~
+2051 4194344 0 C
+50 0 -300 1d1+30000 1d1+1000
+0 0
+112 112 1
+18 18 18 18 13 13 18
+0 0 0 0 0
+2 22 0 0 5 5 5
+0 0 2047 0 3156992 0 32 3
+#21003
+alquimista~
+el alquimista~
+El alquimista esta aqui detras del mostrador
+~
+~
+2051 4194344 0 C
+50 0 0 1d1+30000 4d5+100
+1000000 0
+112 112 2
+18 18 18 18 13 13 18
+0 0 0 0 0
+1 0 0 0 3 3 6
+0 0 2047 0 3156992 0 48 3
+#21004
+escriba~
+el escriba~
+El escriba esta aqui.
+~
+~
+2051 4194344 0 C
+50 0 0 1d1+30000 4d5+100
+1000000 0
+112 112 1
+18 18 18 18 13 13 18
+0 0 0 0 0
+1 0 0 0 3 3 6
+0 0 2047 0 3156992 0 48 3
+#21005
+espiritu saulot salubri~
+El Espiritu de Saulot~
+Un espiritu de un salubri esta preparando mejunges y pociones curativas
+~
+Este espiritu es demasiado translucido como para poder definirse.
+~
+1073743891&2 0 0 C
+289 -300 -300 3100d1+1 100d1+2
+1000 0
+112 112 1
+18 18 18 18 18 18 18
+-30 -30 -30 -30 -30
+0 4 117 254 262145 262145 5
+65 65 11 2100352 4194303 0 1076148352 4731139
+> fight_prog 100~
+come trozo
+mppurge trozo
+.Seras hijo de puta $n!!! A mi ne mo vuelvas a atacar!!!
+mpslay $n
+~
+|
+#21006
+entrenador vampiro maestro~
+el maestro vampiro~
+El maestro vampiro aguarda algun estudiante.
+~
+~
+1091 4718632 -1000 C
+50 0 0 1d1+30000 1d1+20
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+0 0 2047 1048594 3072 33 1054784 2
+#21007
+munyeca sangre~
+la munyeca sangrienta~
+Una munyeca llena de sangre parece estar mirandote.
+~
+~
+3 0 1000 C
+1 0 0 1d1+100 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 2047 0 4194303 0 0 0
+> fight_prog 5~
+' Sangreeeeeeeeeeeeee!
+mpdamage $n ~
+|
+#21008
+Questor Questman~
+El QuestMan~
+Un Antiguo LaSombra te mira con un brillo inpaciente en sus ojos.
+~
+Este Cainita tenia  tal  poder que se  aparto de la  lucha  y  prefirio
+dedicarse al entretenimiento mediante pequenyas pruebas que a el llegan
+a distraerlo.
+~
+-1929377725 12591804 0 C
+65 -300 -300 31000d1+1 2800d1+2
+100000 0
+112 112 1
+24 24 24 24 24 24 24
+-99 -99 -99 -99 -99
+0 4 117 225 1 1 5
+300 300 8 0 4192255 0 0 0
+#21009
+hombre marinero~
+el marinero~
+Un marinero te ofrece una amplia seleccion de barcos.
+~
+~
+2115 4194344 0 C
+50 0 0 1d1+30000 0d0+0
+100000 0
+112 112 1
+13 18 18 18 13 13 18
+0 0 0 0 0
+0 3 0 0 1 1 5
+0 0 2047 0 3156992 0 32 0
+#21010
+camarera~
+la camarera~
+La camarera aguarda tu pedido.
+~
+~
+7 4194344 0 C
+50 0 0 1d1+30000 0d0+0
+0 0
+112 112 2
+18 18 18 18 18 18 18
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 3156992 0 0 0
+#21011
+mensajero hombre~
+el mensajero~
+Un hombre delgado esta sentado detras de un mostrador.
+~
+~
+67 4194344 0 C
+50 0 0 1d1+30000 0d0+0
+10000 0
+112 112 1
+18 18 18 18 13 13 18
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 2047 0 3156992 0 0 0
+#21012
+maestro entrenador padre~
+el padre del gremio~
+El maestro del gremio esta aqui sentado.
+~
+~
+1091 4194472 1000 C
+50 0 0 1d1+30000 100d5+800
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 5
+0 0 2047 0 2100224 0 0 0
+#21013
+camarero~
+un camarero~
+Un camarero te mira desde detras del mostrador.
+~
+~
+3 4194344 0 C
+50 0 0 1d1+30000 5d100+800
+10000 0
+112 112 1
+13 18 18 18 13 13 18
+0 0 0 0 0
+0 3 0 0 1 1 5
+0 0 2047 0 3156992 0 48 3
+#21014
+joyero~
+el joyero~
+El joyero te sonrie al verte.
+~
+~
+3 4194344 0 C
+50 0 0 1d1+30000 0d0+0
+5000000 0
+112 112 2
+13 18 18 18 13 13 18
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 3156992 0 32 0
+#21015
+armero~
+el armero~
+El armero esta aqui dandole brillo a una armadura.
+~
+~
+3 4194344 0 C
+50 0 0 1d1+30000 1d1+1000
+5000000 0
+112 112 2
+13 18 18 18 13 13 18
+0 0 0 0 0
+0 22 0 0 1 1 5
+0 0 2047 0 3156992 0 32 3
+#21016
+armero vendedor~
+el armero~
+Aqui tienes al vendedor de armas sacandole brillo a su espada.
+~
+~
+3 4202536 0 C
+50 0 0 1d1+30000 0d0+0
+5000000 0
+112 112 1
+13 18 18 18 13 13 18
+0 0 0 0 0
+0 22 0 0 1 1 5
+0 0 2047 0 3156992 0 32 0
+#21017
+encargado correo~
+el encargado del correo~
+El encargado del correo esta aqui ordenando las cartas.
+~
+~
+3 4194344 0 C
+50 0 0 1d1+28000 0d0+0
+1000000 0
+112 112 1
+13 18 18 18 13 13 18
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 2047 0 3156992 0 0 0
+#21018
+carnicero~
+el carnicero~
+Un carnicero esta aqui troceando algun animal... no quieras saber cual.
+~
+~
+3 4194344 0 C
+50 0 0 1d1+30000 1d1+800
+0 0
+112 112 1
+13 18 18 18 13 13 18
+0 0 0 0 0
+0 21 0 0 1 1 3
+0 0 2047 0 3156992 0 32 0
+#21019
+panadero~
+el panadero~
+El panadero esta aqui, cubierto de harina hasta las cejas.
+~
+~
+3 4194344 0 C
+50 0 0 1d1+30000 1d1+500
+0 0
+112 112 1
+13 18 18 18 13 13 18
+0 0 0 0 0
+0 20 0 0 1 1 3
+0 0 2047 0 3156992 0 32 0
+#21020
+granjera chica~
+la chica granjera~
+Una joven granjera te sonrie al entrar.
+~
+~
+3 4194344 0 C
+50 0 0 1d1+30000 1d1+250
+0 0
+112 112 2
+13 18 18 18 13 13 18
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 2047 0 3156992 0 32 0
+#21021
+sastre~
+el sastre~
+Un sastre mira tu ropa con desprecio.
+~
+~
+3 4194344 0 C
+50 0 0 1d1+30000 4d5+100
+1000000 0
+112 112 1
+18 18 18 18 13 13 18
+0 0 0 0 0
+0 3 0 0 1 1 6
+0 0 2047 0 3156992 0 48 3
+#21022
+encargado animales~
+el encargado de la tienda de animales~
+El encargado de la tienda de animales esta aqui cepillando su caballo.
+~
+~
+3 4194344 0 C
+50 0 0 1d1+30000 4d5+100
+1000000 0
+112 112 1
+13 18 18 18 13 13 18
+0 0 0 0 0
+0 3 0 0 1 1 6
+0 0 2047 0 3156992 0 48 3
+#21023
+maestro ladron~
+el maestro ladron~
+Un maestro ladron esta aqui para ensenyar las artes del urto.
+~
+~
+1027 4194344 0 C
+50 0 0 1d1+30000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 2047 0 3156992 0 576 524290
+#21025
+posadero~
+el posadero~
+El posadero esta aqui lavando algunos vasos sucios.
+~
+~
+3 4194344 0 C
+50 0 0 1d1+30000 100d15+1000
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 2047 0 3156992 0 48 3
+> bribe_prog 200~
+if inroom($i) == 21069
+decir Sube en mi espalda y escoge una habitacion.
+mptransfer $n 21146
+mpat $n mea $n El posadero te deja sobre el suelo.
+mpat $n decir Cuando quieras SALIR, solo hazmelo saber.
+mppurge monedas
+endif
+~
+> speech_prog salir SALIR~
+if inroom($i) == 21146
+if inroom($n) == 21146
+mptransfer $n 21069
+mpat $n mea $n El posadero te saca de la habitacion.
+endif
+endif
+~
+|
+#21028
+hombre sabio~
+el sabio~
+Un pensativo sabio medita sobre nuevos conjuros.
+~
+~
+1027 4194344 0 C
+50 0 0 1d1+30000 100d5+800
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 5
+0 0 2047 0 3156992 0 0 0
+#21029
+dependiente~
+el dependiente~
+Un hombre esta aqui, vendiendo equipo para la aventura.
+~
+~
+3 4194344 0 C
+50 0 0 1d1+30000 100d10+1000
+0 0
+112 112 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 2047 0 3156992 0 0 3
+#21031
+hombre ranger~
+el power-ranger~
+Aqui hay un power-ranger para combatir el mal y hacer triunfar la justicia sobre la tierra.
+~
+~
+1027 4194344 0 C
+50 0 0 1d1+30000 100d5+800
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 5
+0 0 2047 0 3156992 0 0 0
+#21034
+mujer entrenadora~
+la entrenadora druida~
+Una druida esta aqui, entrenando a jovenes aspirantes.
+~
+~
+1027 4194344 0 C
+50 0 0 1d1+30000 100d10+1000
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 5 0 0 1 1 4
+0 0 2047 0 3156992 0 0 0
+#21035
+hombre maestro guerrero~
+el maestro guerrero~
+Un hombre giganetsco esta aqui, esperando para entrenar jovenes luchadores.
+~
+~
+1027 4194344 0 C
+50 0 0 1d1+30000 5d100+800
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 5
+0 0 2047 0 3156992 0 0 0
+#21037
+guardia hombre~
+el guardia~
+Un guardia patrulla las calles de la ciudad.
+~
+~
+65&2 32 1000 C
+2 0 0 15d15+300 1d1+20
+500 0
+112 112 1
+16 13 13 16 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+2 2 2047 0 3072 0 0 3
+#21041
+guardia~
+el guardia~
+Un guardia que parece bastante cansado esta aqui.
+~
+~
+3 0 1000 C
+5 0 90 1d10+20 2d3+3
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 2047 0 0 0 0 0
+#21043
+arquero~
+el arquero~
+Un arquero esta aqui practicando su punteria.
+~
+~
+65 32 0 C
+15 0 0 15d15+300 1d4+10
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 2047 0 0 0 0 2
+#21044
+ejecutor~
+el ejecutor~
+El ejecutor esta aqui esperando nuevas victimas.
+~
+Aqui tienes al ejecutor. Yo de ti no le molestaria en su trabajo.~
+3&2 4202668 0 C
+260 0 -300 10d4690+30000 5d5+1000
+20000 0
+112 112 1
+18 18 18 18 18 15 18
+0 0 0 0 0
+0 3 0 0 1 1 8
+0 0 2047 0 2100224 0 0 3
+> greet_prog 100~
+if isnpc($n)
+' Hola $n, procura no molestar a los ciudadanos.
+else
+if isgood($n)
+sonreir $n
+else
+grunyir $n
+endif
+endif
+~
+> speech_prog buscas~
+if ispc ($n)
+if level($n)<240
+' A tomar por culo $n!
+mpslay $n
+muhaha
+endif
+endif
+~
+> fight_prog 5~
+' Ya basta $n! Los dioses no toleraran tu atrevimiento!
+,pronuncia las palabras 'KayserVenYHazleCincoMilDeDanyo'
+muhaha
+mpdamage $n 5000~
+> speech_prog altar~
+mpechoat $n El ejecutor conjura el poder de los dioses sobre ti.
+mpechoaround $n El ejecutor conjura el poder de los dioses sobre $n
+mptransfer $n 21194~
+> speech_prog algo?~
+if ispc ($n)
+if level($n)<240
+' A tomar por culo $n!
+mpslay $n
+muhaha
+endif
+endif
+~
+> greet_prog 100~
+if ispc($n)
+if multi($n) == true
+.$n esta haciendo MultiPlay sera hijodeputa!!!
+mpslay $n
+mpforce $n quit
+endif
+endif
+~
+|
+#21045
+perro callejero~
+un perro callejero~
+Un perro callejero esta paseando por aqui.
+~
+~
+65 0 0 C
+5 0 100 1d1+35 2d5+2
+10 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 0 0 1634468353 513 0
+0 0 1725 0 0 0 0 2
+> rand_prog 15~
+' Groff Groff, grrrr
+~
+> rand_prog 15~
+mpecho El perro mea en una esquina...
+~
+|
+#21050
+notario notas notarron~
+un notario algo notas~
+Aqui esta el notario de la ciudad esperando para venderte alguna parcelita o refugio
+~
+Es un poko notas pero se rumorea que el tamanyo de su pene dejo 
+tan estupefacta a la hija del principe
+de constantinopla le comio el miembro durante 200 noches sin respirar
+ni una sola vez.
+~
+3 15728808&640 0 C
+50 0 0 1d1+30000 4d5+100
+1000000 0
+112 112 1
+18 18 18 18 13 13 18
+0 0 0 -30 -30
+0 23 0 0 1 1 6
+0 0 2047 0 2100224 8704 -1073478672 529991
+#21052
+ladron figura~
+el ladron~
+Una estranya figura acecha en las sombras.
+~
+~
+1073741889&2 98336 0 C
+8 0 0 3d40+50 3d2+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 2047 2048 0 0 10486151 0
+#21055
+mendigo hombre~
+el mendigo~
+Un viejo y decrepito mendigo deambula por las calles.
+~
+No le daras una limosna a este viejo mendigo?
+~
+3 0 300 C
+3 0 100 1d1+20 2d3+3
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> all_greet_prog 100~
+if name($n) == perro callejero
+, acaricia al perro
+mpforce perro lamer mendigo
+' Buen chico, toma un trozo de carne.
+mpecho El mendigo saca un trozito de carne de sus arapos y se lo da al perro.
+mpecho El perro callejero devora la carne en un santiamen.
+else
+mi $n
+' Podrias darme unas monedas?
+endif
+~
+> bribe_prog 100~
+' No puedo expresar mi gratitud con palabras $n!
+besa $n
+' Si hubiera gente tan generosa como tu en el mundo...
+~
+> bribe_prog 10~
+'gracias por em...estas monedas.
+sus
+
+~
+|
+#21056
+halcon~
+el halcon~
+Un enorme halcon vuela a tu alrededor.
+~
+~
+3 4718632 0 C
+15 0 -20 3d75+100 3d10+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 513 512 2
+0 0 296125 0 0 0 1 2
+#21057
+caballo~
+un potro~
+Un hermoso potro esta aqui.
+~
+~
+262147 0 0 C
+20 0 80 2d100+100 3d10+10
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+86 3 0 0 262656 374272 2
+0 0 67261 2 0 2048 32 2
+#21058
+caballo guerra~
+el caballo de guerra~
+Un enorme caballo vestido en una espectacular armadura esta aqui.
+~
+Este enorme caballo negro parece estar entrenado para llevarlo a la guerra.
+Posiblemente sea el caballo de algun noble.
+~
+262147 0 0 C
+26 0 80 4d100+250 4d10+30
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+86 3 0 0 395675 373248 2
+0 0 67261 2 0 2048 32 2
+#21059
+gato~
+el gato~
+Un gato negro te esta mirando desde las sombras.
+~
+Es un gato negro. No lo mates si la Silvia o el Seren estan cerca... podrias
+acabar mal :)=
+~
+3 0 0 C
+5 0 20 3d75+50 3d10+20
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 3 0 0 513 512 2
+0 0 67261 0 0 2048 0 0
+#21060
+perro~
+el perro de guerra~
+Un enorme perro te grunye al acercarte.
+~
+Es un perro GRANDE con GRANDES dientes.
+~
+3 0 0 C
+10 0 30 3d85+85 5d7+10
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+73 3 0 0 395987 2688 2
+0 0 67261 0 0 2048 0 2
+#21061
+guardia hombre~
+el guardia~
+Un guardia bien armado esta aqui.
+~
+~
+65 32 1000 C
+15 0 5 15d15+300 1d4+10
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+2 2 2047 0 3072 0 0 1
+#21062
+guardia puerta~
+el guardia de la puerta~
+Un guardia vigila la puerta oeste.
+~
+~
+3 32 1000 C
+15 0 0 15d15+150 1d4+10
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+2 2 2047 0 3072 0 0 0
+> time_prog 6~
+desbloq oeste
+abrir oeste
+~
+> time_prog 20~
+cerrar oeste
+bloquear oeste
+~
+|
+#21063
+hombre guardia~
+el guardia~
+Un guardia vigila la puerta este.
+~
+~
+3 32 1000 C
+15 0 0 15d15+300 1d4+10
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+2 2 2047 0 3072 0 0 3
+> time_prog 6~
+desbloq este
+abrir ~
+> time_prog 20~
+cerrar este
+bloq este
+~
+|
+#21064
+guardia hombre~
+el guardia~
+Un guardia vigila la puerta norte.
+~
+~
+3 32 1000 C
+15 0 0 15d15+300 1d4+10
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+2 2 2047 0 3072 0 0 3
+> time_prog 6~
+desbloq norte
+abrir norte
+~
+> time_prog 20~
+cerr norte
+bloq ~
+|
+#21065
+guardia~
+el guardia~
+Un guardia vigila la puerta sur.
+~
+~
+3 32 1000 C
+15 0 0 15d15+300 3d4+15
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+2 2 2047 0 3072 0 0 1
+> time_prog 20~
+cerrar sur
+bloq sur
+~
+> time_prog 6~
+desbloq s
+abrir ~
+|
+#21066
+guardia~
+el guardia~
+Un guardia vigila tus movimientos.
+~
+~
+3 32 1000 C
+15 0 0 15d15+300 1d4+10
+500 0
+112 112 1
+16 13 13 16 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+2 2 2047 0 3072 0 0 3
+> time_prog 6~
+desblq este
+abr ~
+> time_prog 20~
+cerrar este
+bloq ~
+|
+#21067
+hombre guardia~
+el guardia~
+Un guardia de la ciudad esta aqui.
+~
+~
+3 8224 1000 C
+15 0 0 15d15+300 1d4+10
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+2 2 2047 1059840 3072 0 0 3
+> time_prog 6~
+desbloq oeste
+abrir oeste
+~
+> time_prog 20~
+cerrar oeste
+bloq oeste
+~
+|
+#21068
+guardia~
+el guardia~
+Un guardia vigila tus movimientos.
+~
+~
+3 32 1000 C
+15 0 0 15d15+150 1d4+10
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+2 2 2047 0 3072 0 0 0
+> time_prog 6~
+desbl sur
+abr sur
+~
+> time_prog 20~
+cerrar sur
+bloq sur
+~
+|
+#21069
+guardia~
+el guardia~
+Un guardia esta aqui patrullando la ciudad.
+~
+~
+3 32 1000 C
+15 0 0 15d15+300 1d4+10
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+2 2 2047 0 3072 0 0 3
+> time_prog 6~
+desbloq norte
+abrir norte
+~
+> time_prog 20~
+cerra norte
+bloq norte
+cerrar manhole
+~
+|
+#21070
+mula~
+la mula~
+Una mula esta aqui cargada con las pertenencias de su duenyo.
+~
+~
+262147 0 0 C
+6 0 150 1d1+40 3d3+8
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+86 3 0 0 390727 374272 2
+0 0 67261 0 0 0 0 0
+#21071
+arquero~
+el arquero~
+Un arquero esta aqui.
+~
+~
+65 32 1000 C
+16 0 0 15d15+300 2d4+10
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+2 2 2047 0 3072 0 0 0
+#21140
+usurero~
+el usurero~
+El usurero te sonrie codiciosamente
+~
+Es un hombre de rasgos moriscos...
+~
+73 8192 200 C
+67 -100 -90 7000d1+500 100d1+23
+200000 0
+112 112 0
+8 8 8 8 8 8 8
+0 0 0 0 0
+88 6 0 0 1 1 3
+0 0 65545 0 0 0 0 0
+> act_prog p hacia~
+cerrar sur
+sonreir $n
+tel $n Gracias $n, por dejarme gast... esto... guardar tu dinero...~
+> act_prog p ha llegado.~
+cerrar sur
+grin~
+|
+#21415
+mob~
+un mob~
+Algun dios se ha dejado un mob recien creado por aqui.
+~
+~
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#21420
+oscura figura asesino~
+el asesino~
+Una oscura figura esta aqui.
+~
+Este hombre es un asesino. Ves con cuidado!
+~
+3 4300840 0 C
+11 0 0 3d3+200 1d2+3
+0 0
+112 112 0
+18 13 13 16 13 13 13
+0 0 0 0 -10
+0 3 0 0 1 1 1
+0 0 0 0 3072 0 0 2
+> all_greet_prog 25~
+if isnpc($n)
+else
+mpechoat $n Un hombre oculto en las sombras te llama la atencion...
+tel $n Tengo algo de un valor incalculable...
+tel $n ...y por un modico precio podria compartirlo contigo.
+endif
+~
+> speech_prog precio~
+if isnpc($n)
+else
+mpechoaround $n $I se acerca a $n y le dice algo.
+mpechoat $n $I dice 'Seran 45.000 monedas de oro.'
+endif
+~
+> bribe_prog 45000~
+mea $n $I rapidamente pone las monedas en el interior de su bolsillo, y dice:
+mea $n 'Cogi esto de un hombre... un debil e inutil hombre que iba a matar.'
+mea $n Continua, 'El me dio el artefacto a cambio de perdonarle la vida.'
+, se rie para sus adentros.
+mea $n La figura dice, 'Afortunadamente para el era un objeto muy valioso...'
+mea $n La figura saca un estranyo parche de su bolsillo.
+mpoload 21420 5
+dar parche $n
+mpjunk todo.parche
+mpjunk todo.monedas
+' Un placer, $n...
+, vuelve a las sombras.
+~
+|
+#21431
+Michael Jordan~
+Michael Jordan~
+Michael Jordan esta ante ti, ayudando a los jovenes psionistas.
+~
+Este es air Jordan! Ha venido para ayudar a los psionistas en su labor.
+No pruebes de matarlo o Kayser podria enfadarse.~
+1027 37748904 0 C
+51 0 0 1d1+30000 100d10+1000
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 1 1 0
+0 0 47 0 3156992 0 0 0
+> death_prog 100~
+mpechoat $n Has matado a Michael Jordan!
+mpechoat $n Que la ira de Kayser recaiga sobre ti!
+mpdamage $n 666~
+|
+#21434
+mujer demonio~
+la mujer demonio~
+Aqui tienes un demonio vestido de mujer.
+~
+~
+3 128 -750 C
+2 0 0 1d1+100 1d1+1
+1 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 1
+0 0 9 0 4194303 0 0 0
+> death_prog 100~
+mpechoat $n Oyes una explosion
+' Pensabas que podrias matarme??
+mpechoat $n Otro demonio en forma de mujer aparece de la nada.
+mpmload 21434
+~
+> rand_prog 6~
+sac cabeza
+sac ~
+|
+#21435
+Jose Maria Aznar~
+Un bigoton~
+Un bigotudo esta aqui
+~
+Es un hombre de rasgos moriscos...
+Ves a Jose Maria Aznar o como le dice su mujer: el pichacorta, aqui
+hablando de deficit, inflaciones, metiendose con zapatero un rato y
+jugando al padel en bolas, meditando si afeitarse el bigote...
+Ves a Jose Maria Aznar o como le dice su mujer: el pichacorta, aqui
+hablando de deficit, inflaciones, metiendose con zapatero un rato y
+jugando al padel en bolas, esta meditando si afeitarse el bigote...
+~
+201 4202496 200 C
+67 -100 -90 7000d1+500 100d1+23
+200000 0
+112 112 0
+8 8 8 8 8 8 8
+0 0 0 0 0
+88 6 0 0 1 1 3
+0 0 65545 0 2098176 0 1107300352 540672
+> greet_prog 100~
+decir VAYASE SENYOR $n!!!
+if level($n)>200
+'Mire usted parece un hombre fuerte, quiere formar parte de mi partido?
+else
+'Mire usted q birria de persona es, vayase de aqui!!
+endif
+if Isimmort($n)
+'Con un inmortal quiera hablar, como es q yo
+'no soy dios supremo de este mud, a ver q tengo
+'mayoria absoluta, quien es ese sigo? no sera
+'socialista verdad? donde vamos a llegar? PYUOL!!!
+mpecho Aznar se indigna y llama por el mobil a puyol.
+endif
+~
+> death_prog 10~
+'Mire usted, muero, me desangro, salveme, por piedad, mire usted, le
+'dare un departamento para usted, salveme, hagalo por la paletuda de mi
+'mujer oiga, le juro q compartiremos gobierno oiga salveme tenga piedad
+'llame a puyol oiga, q me ensenye a usar la fuerza, salveme por mi bigote...
+mpecho El bigote de aznar se desprende de el y sale corriendo!!!
+mpmload 21435
+~
+> death_prog 10~
+'Zapateroooo, nunca conseguirar mayoria!!! volvere!!!
+'Mire usted, mire usted, CERO PATATERO!!!!
+~
+> rand_prog 5~
+n
+~
+> rand_prog 5~
+s
+~
+> rand_prog 5~
+o
+~
+> rand_prog 5~
+e
+~
+> entry_prog 49~
+'Espanya va bien, mire usted como va de bien....
+polla
+~
+> speech_prog 'tienes mi voto josemari'~
+'mire usted, que se lo tengo muy agradecido, es muy importante que
+mpecho en espanya haya gente como usted, mire usted'
+dar 100 monedas $n
+mpecho JoseMari Aznar sonrie con cara de subnormal por un instante.
+~
+> act_prog p se vuelve invisible.~
+'Juaz, mire usted, espanya no va bien, esta gente se desvanece, seguro
+' q es socialista, mire usted, q pena q no sea zapatero...
+mpecho Jose Mari se rasca el bigote y mira alrededor suyo buscandote...
+~
+> act_prog p se eleva~
+' Mire usted, la gente esta por las nubes, como los precios cuando
+'gobernaba Felipe Gonzales, mire usted.
+mpecho Aznar salta a ver si te pilla pero la inflacion es la inflacion
+~
+> rand_prog 5~
+decir CERO PATATERO!!!!
+~
+> rand_prog 5~
+Decir Mi amigo Tony Blair con el q me llevo muy bien me va a devolver
+decir gibraltar. Es un buen amigo Toni Blair, y su mujer tambien...
+muhaha
+~
+> speech_prog pp kk~
+'Juaz, como q pp kk eres un sociata???
+'Ejecutor, ayudame a acabar con este socialista!!
+mpload ejecutor
+mpforce $n decir buscas
+mppurge ejecutor
+~
+> rand_prog 5~
+Decir En espanya no hay desempleo! la gente no trabaja pq no quiere!
+~
+> rand_prog 25~
+mpecho Aznar se rasca el bigote y se mira las unyas despues...
+~
+|
+#0
+
+
+#OBJECTS
+#21000
+pocion azul fly~
+una pocion azul~
+Una brillante pocion de color azul esta aqui tirada.~
+~
+10 8513 1
+50 -1 -1 -1
+2 2100 210
+'fly' 'NONE' 'NONE'
+#21001
+pocion transparente passdoor~
+una pocion transparente~
+Una pocion transparente esta aqui.~
+~
+10 65 1
+50 -1 -1 -1
+2 2500 250
+'pass door' 'NONE' 'NONE'
+#21002
+pocion verde heal~
+una pocion verde~
+Una pocion brillante de color verde oscuro esta aqui.~
+~
+10 65 1
+50 -1 -1 -1
+2 2400 240
+'cure serious' 'NONE' 'NONE'
+#21003
+pocion amarilla true~
+una pocion amarilla~
+Una pocion brillante de color amarillo esta aqui.~
+~
+10 1048641 1
+25 -1 51 -1
+2 1750 175
+'detect invis' 'detect hidden' 'NONE'
+#21004
+pocion carmesi~
+una pocion carmesi~
+Una pocion brillante de color carmesi esta aqui.~
+~
+10 65 1
+10 -1 147 -1
+2 15000 1500
+'restore mana' 'restore mana' 'NONE'
+#21005
+pergamino regreso~
+un pergamino de regreso~
+Un pergamino de regreso para hacer recall esta en el suelo.~
+~
+2 64 1
+5 -1 -1 -1
+1 200 20
+'word of recall' 'NONE' 'NONE'
+#21006
+pergamino identificacion~
+un pergamino de identificacion~
+Un pergamino que sirve para identificar objetos esta aqui.~
+~
+2 64 1
+10 -1 -1 -1
+1 400 40
+'identify' 'NONE' 'NONE'
+#21007
+pergamino detectar ver invisible~
+un pergamino para ver invisible~
+Un pergamino con las letras 'ver invisible' esta aqui.~
+~
+2 64 1
+10 -1 -1 -1
+1 200 20
+'detect invis' 'NONE' 'NONE'
+#21008
+barril cerveza~
+un barril de cerveza~
+Aqui hay un barril de cerveza casi vacio.~
+~
+17 0 16385
+5 5 1 0
+1 100 10
+#21009
+botella whisky~
+una botella de whisky~
+Aqui tienes una botella de Whisky de calidad.~
+~
+17 0 16385
+10 10 5 0
+1 50 5
+#21010
+botella vodka~
+una botella de vodka~
+Una botella de vodka del caro esta aqui.~
+~
+17 256 16385
+5 5 5 0
+1 75 7
+> sac_prog 20~
+mpechoat $n Estas loco??? Tirar asi una botella de vodka???
+mpforce $n war Acabo de sacrificar una botella devodka del caro... realmente soy ~
+|
+#21011
+hacha ejecutor~
+el hacha del ejecutor~
+Aqui tienes un hacha realmente bestial.~
+hachazo~
+5 8388614 8193
+10 9 10 3
+20 10000 1000
+E
+hacha~
+Este enorme hacha parece estar muy gastada... seguro que el ejecutor habra
+cortado cientos de cabezas con ella.~
+A
+19 25
+A
+18 25
+A
+2 3
+A
+1 3
+A
+13 150
+A
+24 -25
+> wear_prog 100~
+mpechoat $n Ahh! Te sientes poderoso con esta hacha en las manos.~
+|
+#21014
+salami~
+una loncha de salami~
+Una loncha de salami descansa en el suelo.~
+~
+19 0 1
+1 0 0 0
+1 50 5
+#21015
+bistec~
+un enorme bistec de buey~
+Un enorme bistec de bueay esta esperano que te lo comas.~
+~
+19 0 1
+5 0 0 0
+5 100 10
+#21016
+pavo~
+un pavo de navidad~
+Un enorme pavo de navidad te hace la boca agua.~
+~
+19 0 1
+10 0 0 0
+2 200 20
+#21017
+botella leche~
+una botella de leche~
+Una botella de leche esta descansando en el suelo.~
+~
+17 0 16385
+10 10 10 0
+3 100 10
+#21018
+queso bola~
+un queso de bola~
+Este queso de bola parece muy bueno.~
+~
+19 0 16385
+5 0 0 0
+3 250 25
+#21019
+vaso limonada~
+un vaso de limonada~
+Un vaso de limonada esta esperando aqui para calmar tu sed.~
+~
+17 0 16385
+2 2 6 0
+1 50 5
+#21020
+tarta chocolate~
+una tarta de chocolate~
+Una apetitosa tarta de chocolate esta diciendo 'comeme'.~
+~
+19 0 16385
+10 0 0 0
+1 150 15
+#21021
+pan viaje~
+un pan de viaje~
+Aqui tienes un pan de viaje.~
+~
+19 0 1
+4 0 0 0
+2 150 15
+#21022
+pastelito~
+un pastelito~
+Un pastelito esta esperando que lo cojas.~
+~
+19 0 16385
+4 0 0 0
+1 100 10
+#21023
+pluma~
+una pluma~
+Una pluma esta en el suelo sin deunyo alguno.~
+~
+21 0 1
+0 0 0 0
+1 30 3
+#21024
+balsa~
+una balsa~
+Una balsa esta aqui en el suelo.~
+~
+22 0 1
+0 0 0 0
+5 100 10
+#21025
+canoa~
+una canoa~
+Una canoa ha sido abandonada a su suerte.~
+~
+22 0 1
+0 0 0 0
+10 500 50
+#21034
+guerreros gremio tablero~
+el tablero del Gremio de los Guerreros~
+El tablero del Gremio de los Guerreros esta aqui.~
+~
+12 6 0
+0 0 0 0
+1 0 0
+#21035
+ganger tablero gremio~
+el tablero del Gremio de los Rangers~
+El tablero del Gremio de los Rangers esta aqui.~
+~
+12 0 0
+0 0 0 0
+1001 0 0
+#21037
+mago tablero gremio~
+el tablero del Gremio de los Magos~
+El tablero del Grmio de los Magos esta aqui.~
+~
+12 1 0
+0 0 0 0
+1001 0 0
+#21038
+gremio druidas tablero~
+el tablero del Gremio de los Druidas~
+El tablero del Gremio de los Druidas esta aqui.~
+~
+12 262144 0
+0 0 0 0
+1001 0 0
+#21039
+clerigo gremio tablero~
+el tablero del Gremio de los Clerigos~
+El tablero del Gremio de los Clerigos esta aqui.~
+~
+12 257 0
+0 0 0 0
+1001 0 0
+#21040
+ladron tablero gremio~
+el tablero del Gremio de los Ladrones~
+El tablero del Gremio de los Ladrones esta aqui.~
+~
+12 4 0
+0 0 0 0
+1001 0 0
+#21041
+vampiro tablero gremio~
+el tablero del Gremio de los Vampiros~
+El tablero perteneciente al Gremio de los Vampiros esta aqui.~
+~
+12 20 0
+0 0 0 0
+1001 0 0
+#21042
+general tablero~
+el tablero general~
+El tablero de la ciudad esta aqui.~
+~
+12 0 0
+0 0 0 0
+1001 0 0
+E
+libro~
+~
+#21045
+vara cristal~
+una ligera vara de cristal~
+Una pequenya y ligera vara de cristal ha sido olvidada aqui.~
+~
+3 65 16385
+12 3 3 -1
+1 1000 100
+'refresh'
+#21046
+cubierta runas bolsa~
+una bolsa cubierta de runas~
+Una extranya bolsa, cubierta de runas, ha sido olvidada en el suelo.~
+~
+15 65 1
+75 1 0 1
+1 1000 100
+#21048
+tablero correo monton~
+un monton de cartas~
+Un monton de cartas de correos esta aqui en el suelo.~
+~
+12 0 0
+0 0 0 0
+1001 0 0
+#21049
+bola luz~
+una brillante bola de luz~
+Una brillante bola de luz ilumina la habitacion.~
+~
+1 65 1
+0 0 -1 0
+1 100 10
+#21055
+anillo suerte~
+un anillo de la suerte~
+Un anillo que traera buena suerte a su portador esta en el suelo.~
+~
+9 737280 3
+3 3 0 0
+1 500 50
+A
+31 0
+#21056
+anillo~
+un anillo de la guardia~
+Un anillo de hierro esta aqui en el suelo.~
+~
+9 65 3
+3 3 0 0
+1 500 50
+E
+anillo~
+Rumores dicen que este anillo proporciona proteccion a los encantamientos...
+~
+A
+17 0
+A
+27 0
+#21057
+collar guadia hierro~
+un collar de hierro~
+Un collar de hierro esta aqui tirado.~
+~
+9 0 5
+5 5 0 0
+3 600 60
+#21058
+armadura plata~
+una armadura de plata~
+Una armadura de plata brilla desde el suelo.~
+~
+9 1 9
+6 6 0 0
+8 1000 100
+A
+19 0
+#21059
+casco hierro~
+un casco de hierro~
+Un casco de hierro esta aqui tirado.~
+~
+9 0 17
+5 5 0 0
+8 800 80
+A
+18 0
+#21060
+perneras hierro~
+perneras de hierro~
+Unas perneras de hierro estan aqui en el suelo~
+~
+9 0 33
+4 4 0 0
+4 300 30
+A
+2 0
+A
+1 0
+#21061
+botas negras~
+botas negras~
+Un par de botas de color negro estan aqui en el suelo.~
+~
+9 0 65
+4 4 0 0
+2 200 20
+#21062
+brazal hierro~
+un brazal de hierro~
+Un brazal de hierro esta aqui tirado.~
+~
+9 0 257
+5 5 0 0
+3 400 40
+A
+20 0
+#21063
+guanteletes hierro~
+guanteletes de hierro~
+Unos guanteletes de hierro estan aqui en el suelo.~
+~
+9 0 129
+5 5 0 0
+4 400 40
+A
+25 0
+#21064
+brazalete hierro~
+un brazalete de hierro~
+Unos brazaletes de hierro estan aqui tirados.~
+~
+9 0 4097
+4 4 0 0
+2 100 10
+A
+17 1
+#21065
+escudo hierro~
+un escudo de hierro~
+Un gastado escudo de hierro descansa aqui.~
+~
+9 0 513
+7 7 0 0
+6 600 60
+A
+17 -6
+#21066
+visor hierro~
+un visor de hierro~
+Un visor hecho de hierro esta aqui.~
+~
+9 0 131073
+3 4 0 0
+1 100 10
+A
+23 -3
+A
+3 -1
+#21067
+antorcha~
+una antorcha~
+Una antorcha de madera esta aqui en el suelo.~
+~
+1 0 1
+0 0 24 0
+1 10 1
+#21068
+arco madera~
+un arco de madera~
+Un arco de madera ha sido olvidado aqui.~
+~
+56 0 262145
+10 0 0 14 1 0
+3 300 30
+A
+18 2
+A
+19 2
+#21069
+espada larga~
+una espada larga~
+Una espada larga esta aqui en el suelo.~
+~
+5 524288 8193
+10 0 0 3
+6 300 30
+A
+19 0
+#21070
+llave~
+la llave de la puerta oeste~
+La llave de la puerta oeste de la ciudad esta aqui en el suelo.~
+~
+9 0 16385
+0 0 0 0
+1 1000 100
+#21071
+llave~
+la llave de la puerta norte~
+La llave de la puerta norte de la ciudad esta aqui en el suelo.~
+~
+9 0 16385
+0 0 0 0
+1 1000 100
+#21072
+llave~
+la llave de la puerta este~
+La llave de la puerta este de la ciudad esta aqui en el suelo.~
+~
+9 0 16385
+0 0 0 0
+1 1000 100
+#21073
+llave~
+la llave de la puerta sur~
+La llave de la puerta sur de la ciudad esta aqui en el suelo.~
+~
+9 0 16385
+0 0 0 0
+1 1000 100
+#21076
+chaqueta cuero~
+una chaqueta de cuero~
+Alguien ha olvidado una chaqueta de cuero aqui.~
+~
+9 0 9
+3 3 0 0
+3 800 80
+#21077
+pantalones cuero~
+unos pantalones de cuero~
+Unos pantalones de cuero estan arrugados en el suelo.~
+~
+9 0 33
+2 3 0 0
+2 150 15
+#21078
+grebas cuero~
+unas grebas de cuero~
+Unas grebas de cuero estan aqui en el suelo.~
+~
+9 0 257
+1 3 0 0
+1 75 7
+#21079
+botas cuero~
+unas botas de cuero~
+Un par de botas de cuero estan en el suelo.~
+~
+9 0 65
+2 2 0 0
+2 125 12
+A
+14 5
+#21080
+guantes de cuero~
+un par de guantes de cuero~
+Unos guantes de cuero descansan en el suelo.~
+~
+9 0 129
+1 3 0 0
+1 100 10
+#21081
+daga acero~
+una daga de acero~
+Una afilada daga de acero esta aqui tirada.~
+~
+5 524288 8193
+0 2 4 11
+1 100 10
+A
+24 -2
+#21082
+maza hierro~
+una maza de hierro~
+Una maza de hierro ha sido abandonada aqui.~
+~
+5 524288 8193
+7 4 0 0
+4 200 20
+#21083
+llave~
+una llave~
+Una llave esta en el suelo tirada.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#21084
+salve~
+Sample Salve~
+Una Sample Salve esta aqui tirada.~
+~
+60 0 16385
+10 5 5 5 -1 -1
+1 0 0
+'heal' 'cure poison'
+#21085
+flecha~
+una flecha magica~
+Una flecha magica esta aqui tirada.~
+~
+57 64 278529
+0 0 0 14
+1 0 0
+#21086
+piedra~
+una punta de piedra~
+Una punta de piedra esta aqui tirada.~
+~
+8 64 1
+0 0 0 0
+1 0 0
+#21087
+arco~
+un arco de principiante~
+Algun dios ha creado un arco y lo ha dejado tirado aqui.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#21094
+anillo dorado~
+un estranyo anillo~
+Un extranyo anillo dorado brilla en el suelo~
+~
+9 65 3
+2 2 0 0
+1 10000 1000
+A
+27 3072
+#21100
+nota papel~
+una nota~
+Una nota esta tirada en el suelo.~
+~
+47 0 16385
+0 0 0 0
+1 1500 150
+#21111
+casa pintura~
+una pintura al oleo~
+Una pintura al oleo de una gloriosa casa esta en la pared, llamando a tus ojos.~
+~
+12 256 0
+0 0 0 0
+1 0 0
+E
+casa pintura oleo~
+Te acercas para poder ver la pintura de la casa. La casa es bonita,
+invitando e imponiendo a la vez. Te das cuenta de que te encantaria
+vivir en tal lugar...
+~
+> exa_prog 100~
+mpechoat $n Una fuerza magica te empuja hacia la pintura...
+mpechoat $n Cuando te das cuenta y miras a tu alrededor
+mpechoat $n te encuentras justo delante la casa de la pintura..
+mptrans $n 2400
+mpecho $n desaparece de repente mientras estaba examinando la pintura de la casa.
+~
+|
+#21112
+solemne pintura maldita~
+una oscura y solemne pintura~
+Una oscura y solemne pintura esta aqui en las sombras.~
+~
+12 4 0
+0 0 0 0
+50 0 0
+E
+solemne pintura maldita~
+La pintura representa una mujer en un cementerio, llorando al lado de una
+tumba por la perdida de su hijo con un angel al lado.
+ Como las lagrimas caen de sus ojos, el angel esta alargando las manos
+para secar esas lagrimas. Esta escena es realmente conmovedora.
+ De repente, todo el mundo a tu alrededor desaparece y te encuentras a ti
+mismo formando parte del cuadro, gritando mientras el angel de la muerte
+te reclama tambien a ti...
+~
+> exa_prog 100~
+mpechoat $n Sientes como tu cuerpo se desvanece en una nube de colores
+mpechoat $n entrando lentamente en los aceites que componen la pintura...
+mpechoaround $n Mientras esta examinando el cuadro, el cuerpo de $n empieza
+mpechoaround $n a disolverse en una nube de colores, los cuales van entrando
+mpechoaround $n por un extranyo tunel de luz al interior del cuadro.
+mptransfer $n 2171
+~
+|
+#21133
+conejo asado~
+conejo asado~
+Un sabroso conejo asado esta esperando que te lo comas.~
+~
+19 0 1
+10 0 0 0
+2 200 20
+#21134
+conejo asado~
+conejo asado~
+Un conejo asado esta esperando que te lo comas.~
+~
+19 0 1
+10 0 0 0
+2 200 20
+#21135
+seta magica~
+una seta magica comestible~
+Una seta magica con muy buena pinta esta en el suelo.~
+~
+19 0 1
+10 0 0 0
+2 200 20
+#21136
+donetes~
+unos donetes~
+Unos donetes estan aqui esperando ser comidos.~
+~
+19 0 1
+10 0 0 0
+2 200 20
+#21137
+pierna cordero~
+una pierna de cordero~
+Una apetitosa pierna de cordero esta esperando que te la comas.~
+~
+19 8192 1
+10 0 0 0
+2 200 20
+#21138
+natillas chocolate~
+unas natillas de chocolate~
+Unas natillas de chocolate estan aqui abandonadas.~
+~
+19 0 1
+10 0 0 0
+2 200 20
+#21139
+comida~
+comida~
+En el suelo hay comida... no preguntes y cometela.~
+~
+19 0 1
+10 0 0 0
+2 200 20
+#21420
+parche opaco~
+un parche opaco~
+Un parche esta aqui en el suelo absorviendo la luz de su alrededor.~
+~
+9 18 131073
+10 10 0 0
+10 45000 4500
+E
+parche~
+Este parche pertenecio a un noble muy rico y poderoso, no es de extranyar
+que sea muy valioso y posiblemente te haga muy poderoso...
+~
+A
+1 2
+A
+13 20
+A
+18 3
+A
+19 4
+A
+2 -1
+A
+25 -2
+#21435
+psionista tablero gremio~
+el tablero del Gremio de los Psionistas~
+El tablero del Gremio de los Psionistas esta aqui.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#21436
+pocion negra antidoto~
+una pocion negra~
+Una pocion brillante de color negro esta aqui.~
+~
+10 65 1
+10 -1 46 -1
+2 3750 375
+'cure blindness' 'cure poison' 'NONE'
+#21437
+pergamino fly volar~
+un pergamino para poder volar~
+Un pergamino para poder volar esta aqui.~
+~
+2 64 1
+50 -1 86 -1
+1 400 40
+'float' 'fly' 'NONE'
+#0
+
+
+#ROOMS
+#21000
+Plaza de la ciudad~
+Estas depie justo en la famosa plaza de la ciudad. La estatua de
+piedra que ocupa el centro de la plaza, rodeada de arbustos, aporta
+un aire de paz y serenidad aqui en el centro de la ciudad.
+Las calles de la ciudad van en direccion de todos los puntos cardinales,
+mientras que al noroeste y al noreste ves sendos caminos hacia el bosque.
+Puedes ver las torres de una catedral hacia el noroeste, mientras que un
+letrero te muestra las localizaciones mas importantes.
+~
+0 1081344 1
+D0
+La avenida Ventrue esta al norte.
+~
+norte~
+0 -1 21001
+D1
+Hacia el este esta la carretera del Crepusculo.
+~
+este~
+0 -1 21036
+D2
+La avenida Ventrue esta hacia el sur.
+~
+sur~
+0 -1 21042
+D3
+Al oeste esta la carretera del Crepusculo.
+~
+~
+0 -1 21039
+D4
+Hacia arriba esta el aire.
+~
+arriba~
+0 -1 21337
+D6
+El camino del bosque continua...
+~
+noreste~
+0 -1 21200
+D7
+El camino del bosque pone rumbo a la catedral.
+~
+noroeste~
+0 -1 21163
+E
+senyal cartel letrero~
+Norte - Avenida Ventrue
+        - hacia la calle Brujah
+Este  - Carretera del Crepusculo
+        - hacia la calle Tremere
+Sur - Avenida Ventrue
+        - hacia la carretera del Crepusculo
+        - hacia la calle del Mercado
+        - hacia la avenida Malkavian
+Oeste  - Carretera del Crepusculo
+        - hacia la calle Gangrel
+Noroeste - Catedral
+            - hacia el Gremio de los Clerigos
+            - hacia el Gremio de los Druidas
+            - hacia el altar de la Catedral
+Noreste - Bosque
+            - Hacia el Gremio de los Rangers
+            - Hacia el Gremio de los Guerreros
+~
+S
+#21001
+Avenida Ventrue~
+Aqui la calla pasa por una plataforma circular. Un muro rodeando la
+catedral se extiende hacia el oeste, y una pequenya area forestal se
+puede ver hacia el este. La Avenida Ventrue sigue de norte a sur, al
+oeste ves un pequenyo callejon.
+~
+0 1056772 1
+D0
+La Avenida Ventrue continua en esta direccion.
+~
+~
+0 -1 21002
+D2
+Hacia el sur esta la plaza de la ciudad.
+~
+~
+0 -1 21000
+D3
+~
+~
+0 0 21070
+S
+#21002
+Avenida Ventrue~
+Nada en particular llama tu atencion mientras caminas por este trozo de
+la Avenida Ventrue. Parece como si los habitantes de la ciudad hubieran
+olvidado poner aqui una estatua, o al menos una placa. La calle sigue de
+norte a sur.
+~
+0 1048576 1
+D0
+La Avenida Ventreu continua en esta direccion.
+~
+~
+0 -1 21003
+D2
+La Avenida Ventreu continua en esta direccion.
+~
+~
+0 -1 21001
+S
+#21003
+Avenida Ventrue~
+Continuas por la Avenida Ventrue. Hacia el este puedes ver la estructura
+de piedra de los guerreros, la catedral esta al oeste, y hacia el norte
+puedes ver una interseccion.
+~
+0 1048576 1
+D0
+Una interseccion hacia el norte.
+~
+~
+0 -1 21004
+D2
+La Avenida Ventreu continua en esta direccion.
+~
+~
+0 -1 21002
+S
+#21004
+Cruce de la Avenida Ventrue y la Calle de Brujah~
+Estas en la interseccion entre la Calle Brujah y la Avenida
+Ventrue. Hay un cartel en el suelo.
+~
+0 1048576 1
+D0
+La puerta norte puede ser divisada desde aqui.
+~
+~
+0 -1 21100
+D1
+La calle Brujah sigue hacia esta direccion.
+~
+~
+0 -1 21005
+D2
+Hacia el sur esta el corazon de la ciudad.
+~
+~
+0 -1 21003
+D3
+Hacia el oeste sigue la calle Brujah
+~
+~
+0 -1 21035
+E
+cartel letrero placa~
+Norte - La puerta Norte
+East  - Calle Brujah
+        - Calle Tremere
+Sur - Avenida Ventrue
+        - Hacia la calle del Crepusculo
+        - Hacia la calle del Mercado
+        - hacia la Avenida Malkavian
+        - hacia la plaza de la ciudad
+Oeste - calle Brujah
+        - hacia la calle Gangrel
+~
+S
+#21005
+Calle Brujah~
+Puedes ver arboles a los dos lados de la calle. Esta parte de la calle
+es muy tranquila. La calle continua de este a oeste.
+~
+0 1048576 1
+D1
+La Calle Brujah continua por aqui.
+~
+~
+0 -1 21006
+D3
+La interseccion de la Avenida Ventrue y la calle Brujah.
+~
+~
+0 -1 21004
+S
+#21006
+Calle Brujah~
+Estas en una lujosa seccion de la calle Btujah. Una estatua describiendo
+un grupo de aventureros luchando contra un dragon esta situada aqui en el
+centro de la calle. Recuerdas haber oido esta historia hace mucho tiempo,
+de como un poderoso grupo pudo poner fin a un dragon que atemorizaba esta
+ciudad, y aqui tienes la estatua conmemorandolo. La calle sigue de este a
+oeste.
+~
+0 1048576 1
+D1
+La Calle Brujah sigue en esta direccion.
+~
+~
+0 -1 21007
+D3
+La Calle Brujah sigue en esta direccion.
+~
+~
+0 -1 21005
+S
+#21007
+Calle Brujah~
+Estas por la calle Brujah. Esta calle, la cual sigue el muro norte de
+la ciudad, se encuentra con la calle Tremere al este.
+~
+0 1048576 1
+D1
+La Calle Brujah se encuentra con la Tremere al este.
+~
+~
+0 -1 21008
+D3
+La Calle Brujah sigue en esta direccion.
+~
+~
+0 -1 21006
+S
+#21008
+Cruce de la Calle Tremere con la Calle Brujah~
+La calle Tremere y la calle Brujah se encuentran aqui, en una de las cuatro
+esquinas de la ciudad. Hay unas escaleras que llevan hacia los barracones
+de la guardia.La calle Tremere va hacia el sur mientras que la Calle Brujah
+se extiende al oeste. Puedes ver un cartel en el suelo.
+~
+0 1048576 1
+D2
+La Calle Tremere sigue en esta direccion.
+~
+~
+0 -1 21009
+D3
+La Calle Brujah sigue hacia aqui.
+~
+~
+0 -1 21007
+D4
+Las escaleras suben hacia arriba.
+~
+~
+0 -1 21321
+E
+cartel senyal letrero~
+Oeste - Calle Brujah
+        - hacia la Avenida Ventrue
+        - hacia la calle Gangrel
+Sur - Calle Tremere
+        - hacia la Calle del Crepusculo
+        - hacia la Calle del Mercado
+        - hacia la Avenida Malkavian
+~
+S
+#21009
+Calle Tremere~
+Esta seccion de la Calle Tremere esta reservada para guardar las armas
+del puesto de defensa del muro este. Puedes ver cientos de flechas por
+aqui. La calle continua de norte a sur.
+~
+0 1048576 1
+D0
+El cruce de la Calle Tremere con la Brujah esta aqui.
+~
+~
+0 -1 21008
+D2
+Hacia el sur sigue la Calle Tremere.
+~
+~
+0 -1 21010
+S
+#21010
+Calle Tremere~
+Esta parte de la Calle Tremere es bastante es bastante pobre y esta
+bastante descuidada. Mendigos a los lados de la calle... aqui viven
+la mayoria de los ciudadanos desafortunados de la ciudad.
+Hacia la parte este de la carretera ves a lo lejos una tienda. Esta
+calle continua de norte a sur.
+~
+0 1048576 1
+D0
+Continua la calle.
+~
+~
+0 -1 21009
+D2
+Continua la calle.
+~
+~
+0 -1 21011
+S
+#21011
+Calle Tremere~
+Estas caminado a traves de la calle Tremere. Hacia el este estan las
+torres del muro de la ciudad, mientras que un bosque rodeado de un
+muro esta hacia el oeste. La calle continua de norte a sur.
+~
+0 1048576 1
+D0
+La Calle Tremere se extienda hacia esta direccion.
+~
+~
+0 -1 21010
+D2
+Una interseccion por aqui.
+~
+~
+0 -1 21012
+S
+#21012
+Cruce de la Carretera Crepusculo y la Calle Tremere~
+Estas en el cruce que une la Carretera Crepusculo y la Calle Tremere.
+ Hacia el este puedes ver la puerta este de la ciudad, mientras que al
+peste esta la Carretera Crepusculo. La calle Tremere sigue de norte a sur.
+Puedes ver un cartel en el suelo.
+~
+0 1048576 1
+D0
+Hacia el norte tienes la Calle Tremere.
+~
+~
+0 -1 21011
+D1
+Hacia el este esta la puerta este de la ciudad.
+~
+~
+0 -1 21113
+D2
+Hacia el sur tienes la Calle Tremere.
+~
+~
+0 -1 21013
+D3
+La Carretera del Horizonet esta por aqui.
+~
+~
+0 -1 21038
+E
+senyal cartel letrero~
+Norte - Calle Tremere
+        - hacia la Calle Brujah
+Este  - La puerta este de la ciudad
+Sur - Calle Tremere
+        - hacia la Calle del Mercado
+        - hacia la Avenida Malkavian
+Oeste - Carretera del Crepusculo
+        - hacia la plaza de la ciudad
+~
+S
+#21013
+Calle Tremere~
+Sigues por la Calle Tremere. Puedes oir pajaros al otro lado de la
+muralla de la ciudad.
+~
+0 1048576 1
+D0
+Tienes un cruce al norte.
+~
+~
+0 -1 21012
+D2
+Tienes un cruce hacia el sur.
+~
+~
+0 -1 21014
+S
+#21014
+Cruce entre la Calle del Mercado y la Calle Tremere~
+Estas en el cruce entre la Calle del Mercado y la Calle Tremere. Una
+enorme torre de piedra esta al este, impidiendo la entrada de intrusos
+a la ciudad. Hacia el oeste tienes los mercados de la ciudad, mientas
+que la Calle Tremere continua de norte a sur. Puedes ver un cartel en
+el suelo.
+~
+0 1048576 1
+D0
+La Calle Tremere continua en esta direccion.
+~
+~
+0 -1 21013
+D2
+La Calle Tremere continua en esta direccion.
+~
+~
+0 -1 21015
+D3
+Los mercados de la ciudad te esperan al oeste.
+~
+~
+0 -1 21050
+E
+senyal cartel letrero~
+Norte - Calle Tremere
+        - hacia la Carretera del Crepusculo
+        - hacia la Calle Brujah
+Sur - Calle Tremere
+        - hacia la Avenida Malkavian
+Oeste  - Calle del Mercado
+~
+S
+#21015
+Calle Tremere~
+Sigues por la Calle Tremere. Puedes ver como se encuentran la Calle
+Tremere con la Avenida Malkavian. Hacia el norte estan las calles
+Tremere y la del Mercado, mientras que hacia el sur sigue la Calle
+Tremere.
+~
+0 1048576 1
+D0
+La Calle Tremere y la del Mercado estan hacia el norte.
+~
+~
+0 -1 21014
+D2
+Hacia el sur evs la esquina suroeste de la ciudad.
+~
+~
+0 -1 21016
+S
+#21016
+Cruce entre la Calle Tremere y la Avenida Malkavian~
+La Calle Tremere y la Avenida Malkavian se encuentran en este lugar
+para formar una de las cuatro esquinas de la ciudad. Una escalera de
+piedra sube adentrandose en los barracones de la guardia de la ciudad,
+desde los cuales la guardia es capaz de repeler cualquier ataque. La
+Calle Tremere sigue hacia el nortey  la Avenida Malkavian va hacia el
+oeste. Puedes ver un cartel en el suelo.
+~
+0 1048576 1
+D0
+La Calle Tremere sigue al norte.
+~
+~
+0 -1 21015
+D3
+La Avenida Malkavian va hacia el oeste.
+~
+~
+0 -1 21017
+D4
+Hacia arriba unas escaleras conducen a los barracones de la guardia.
+~
+~
+0 -1 21314
+E
+senyal cartel letrero~
+Norte - Calle Tremere
+        - hacia la Calle del Mercado
+        - hacia la carretera del Crepusculo
+        - hacia la Calle Brujah
+Oeste - Avenida Malkavian
+        - hacia la Avenida Ventrue
+        - hacia la Calle Gangrel
+~
+S
+#21017
+Avenida Malkavian~
+Continuas por la Avenida Malkavia, la cual recorre el muro sur de esta
+ciudad. Hacia el norte puedes ver una tienda de animales, en la cual
+puedes comprar mascotas y monturas. Hacia el este puedes ver una de las
+cuatro esquinas de la ciudad, mientras que la Avenida Malkavian continua
+hacia el oeste. Puedes ver un cartel en el suelo.
+~
+0 1048576 1
+D0
+La tienda de animales esta hacia el norte.
+~
+~
+0 -1 21339
+D1
+La Avendia Malkavian se encuentra con la Calle Tremere en este punto.
+~
+~
+0 -1 21016
+D3
+La Avenida Malkavian continua hacia el oeste.
+~
+~
+0 -1 21018
+E
+cartel senyal letrero~
+Norte - Tienda de animales
+Este  - Avenida Malkavian
+        - hacia la Calle Tremere
+Oeste  - Avenida Malkavian
+        - hacia la Avenida Ventrue
+        - hacia la Calle Gangrel
+~
+S
+#21018
+Avenida Malkavian~
+Una enorme estatua llama tu atencion en esta parte de la Avenida Malkavian.
+La escultura es de un gran guerrero blandiendo una espada de marfil contra
+un ernorme oponente. Una pequenya placa commemorativa esta situada en los
+pies de la estatua, explicando su importancia. La avenida continua de este
+a oeste.
+~
+0 1048576 1
+D1
+La avenida sigue hacia el este.
+~
+~
+0 -1 21017
+D3
+La Avenida Malkavian continua hacia el oeste.
+~
+~
+0 -1 21019
+E
+placa~
+Puedes leer: 'Descansa en paz, Uthar Darkbane.'
+~
+S
+#21019
+Avenida Malkavian~
+Sigues por la Avenida Malkavian. Hacia el norte puedes ver una extranya
+construccion con unos dragones esculpidos en la entrada. La Avenida sigue
+de este a oeste.
+~
+0 1048576 1
+D0
+Una estranya construccion al norte.
+~
+~
+0 -1 9850
+D1
+La Avenida Malkavian contina hacia el este.
+~
+~
+0 -1 21018
+D2
+~
+~
+0 -1 1290
+D3
+La Avenida Malkavian continua por esta direccion.
+~
+~
+0 -1 21020
+S
+#21020
+Cruce entrela  Avenida Ventrue y la Avenida Malkavian~
+Llegas al cruce entre las dos avenidas de la ciudad. Hay salidas hacia el
+norte, sur, este y oeste. Puedes ver un cartel en el suelo.
+~
+0 1048576 1
+D0
+Hacia el norte esta la Avenida Ventrue.
+~
+~
+0 -1 21044
+D1
+Ves la Avenida Malkavian.
+~
+~
+0 -1 21019
+D2
+Hacia el sur ves la puerta sur de la ciudad.
+~
+~
+0 -1 21074
+D3
+Hacia el oeste sigue la Avenida Malkavian.
+~
+~
+0 -1 21021
+E
+cartel senyal letrero~
+Norte - Avenida Ventrue
+        - hacia la Calle del Mercado
+        - hacia la carretera del Crepusculo
+        - hacia la Calle Brujah
+        - hacia la plaza de la ciudad
+Este  - Avenida Malkavian
+        - hacia la Calle Tremere
+Sur - la puerta sur de la ciudad
+Oeste  - Avenida Malkavian
+        - hacia la Calle Gangrel
+~
+S
+#21021
+Avenida Malkavian~
+Sigues por la Avenida Malkavian. Hacia el norte tienes la Galeria de
+Arte. La Avenida Malkavian se extiende de este a oeste. Puedes ver un
+cartel en el suelo.
+~
+0 1048576 1
+D0
+La galeria de arte aguarda al norte.
+~
+~
+0 -1 24800
+D1
+Tienes un cruce de caminos hacia el este.
+~
+~
+0 -1 21020
+D3
+La Avenida Malkavian sigue hacia el oeste.
+~
+~
+0 -1 21022
+E
+cartel senyal letrero~
+Norte - Galeria de Arte
+Este  - Avenida Malkavian
+        - hacia la Avenida Ventrue
+        - hacia la Calle Tremere
+Oeste  - Avenida Malkavian
+        - hacia la Calle Gangrel
+~
+S
+#21022
+Avenida Malkavian~
+Continuas por la parte comercial de la avenida Malkavian. Hacia el norte
+puedes ver una tienda de ropa. La avenida sigue de este a oeste. Puedes
+ver un cartel en el suelo.
+~
+0 1048576 1
+D0
+Una tienda de ropa al norte.
+~
+~
+0 -1 21066
+D1
+La avenida continua por el este.
+~
+~
+0 -1 21021
+D3
+La avenida continua al oeste.
+~
+~
+0 -1 21023
+E
+cartel senyal letrero~
+Norte - Tienda de Ropa
+Oeste  - Avenida Malkavian
+        - hacia la Calle Gangrel
+Este  - Avenida Malkavian
+        - hacia la Calle Tremere
+        - To Avenida Ventrue
+~
+S
+#21023
+Avenida Malkavian~
+La avenida continua en esta direccion. Puedes ver una mansion que parece
+abandonada hacial el norte. Dos gargolas de piedra presiden la entrada de
+este edificio. La avenida sigue de este a oeste. Puedes ver un cartel en
+el suelo.
+~
+0 1049088 1
+D0
+Una mansion abandonada hacia el norte.
+~
+~
+0 -1 21353
+D1
+La avenida continua en esta direccion.
+~
+~
+0 -1 21022
+D3
+La avenida continua en esta direccion para encontrarse con la Calle Gangrel.
+~
+~
+0 -1 21024
+E
+cartel senyal letrero~
+Norte - Una mansion abandonada
+        - hacia el Gremio de los Vampiros
+Oeste  - Avenida Malkavian
+        - hacia la Calle Gangrel
+Este  - Avenida Malkavian
+        - hacia la Avenida Ventrue
+        - hacia la Calle Tremere
+~
+S
+#21024
+Cruce de la Calle Gangrel y la Avenida Malkavian~
+La Calle Gangrel y Avenida Malkavian se juntan en este punto para formar
+una de las esquinas de la ciudad. Unas escaleras de piedra suben hacia
+los barracones de la guardia. La Calle Gangrel se va hacia el norte y
+la Avenida Malkavian empieza hacia el este. Puedes ver un cartel en el
+suelo.
+~
+0 1048576 1
+D0
+La Calle Gangrel se extiende hacia el norte.
+~
+~
+0 -1 21025
+D1
+La Avenida Malkavian te espera al este.
+~
+~
+0 -1 21023
+D4
+Unas escaleras conducen hacia arriba...
+~
+~
+0 -1 21307
+E
+cartel senyal letrero~
+Norte - Calle Gangrel
+        - hacia la Calle del Mercado
+        - hacia la Carretera del Crepusculo
+        - hacia la Calle Brujah
+Este  - Avenida Malkavian
+        - hacia la Avenida Ventrue
+        - hacia la Calle Tremere
+~
+S
+#21025
+Calle Gangrel~
+Sigues por la Calle Gangrel de que continua de norte a sur. Al este
+tienes una asociacion de ladrones (crees). Puedes ver un cartel en
+el suelo.
+~
+0 1048576 1
+D0
+Por aqui continua la calle Gangrel.
+~
+~
+0 -1 21026
+D1
+El callejon de los ladrones esta hacia el este.
+~
+~
+0 -1 21063
+D2
+Una de las cuatro esquinas de la ciudad hacia el sur.
+~
+~
+0 -1 21024
+E
+senyal cartel letrero~
+Norte - Calle Gangrel
+        - hacia la Calle Brujah
+        - hacia la Carretera del Crepusculo
+        - hacia la Calle del Mercado
+Este  - Callejon de los ladrones
+        - hacia el Gremio de los Ladrones
+Sur - Calle Gangrel
+        - hacia la Avenida Malkavian
+~
+S
+#21026
+Cruce de la Calle del Mercado y la Calle Gangrel~
+Has llegado al cruce de la calle del Mercado con la Calle Gangrel. Hay
+una torre de piedra hacia el oeste. Hacia el este tienes la Calle del
+Mercado, muientras que la calle Gangrel continua de norte a sur. Tienes
+un cartel en el suelo.
+~
+0 1048576 1
+D0
+La Calle Gangrel continua por aqui.
+~
+~
+0 -1 21027
+D1
+La Calle del Mercado se extiende hacia el este.
+~
+~
+0 -1 21045
+D2
+La Calle Gangrel continua por aqui.
+~
+~
+0 -1 21025
+E
+cartel senyal letrero~
+Norte - Calle Gangrel
+        - hacia la Calle Brujah
+        - hacia la Carretera del Crepusculo
+Este  - Calle del Mercado
+Sue - Calle Gangrel
+        - hacia la Avenida Malkavian
+~
+S
+#21027
+Calle Gangrel~
+Sigues por la Calle Gangrel, la cual continua de norte a sur.
+~
+0 1048576 1
+D0
+La Carretera del Crepusculo y la Calle Gangrel se cruzan al norte.
+~
+~
+0 -1 21028
+D2
+La Calle del Mercado y la Calle Gangrel se juntan al sur de aqui.
+~
+~
+0 -1 21026
+S
+#21028
+Cruce de la Carretera del Crepusculo y la Calle Gangrel~
+Estas en el cruce de la Carretera del Crepusculo y la Calle Gangrel.
+Tienes salidas en las cuatro direcciones de los puntos cardinales, y
+puedes ver un cartel indicativo en el suelo.
+~
+0 1048576 1
+D0
+Sigue la calle Gangrel hacia el norte.
+~
+~
+0 -1 21029
+D1
+Hacia el este esta el corazon de la ciudad.
+~
+~
+0 -1 21041
+D2
+La Calle Gangrel sigue al sur.
+~
+~
+0 -1 21027
+D3
+La puerta oeste esta hacia esta direcion.
+~
+~
+0 -1 21088
+E
+cartel senyal letrero~
+Oeste  - La puerta oeste de la ciudad
+Sur - Calle Gangrel
+        - hacia la Calle del Mercado
+        - hacia la Avenida Malkavian
+Este  - Carretera del Crepusculo
+        - hacia la plaza de la ciudad
+Norte - Calle Gangrel
+        - hacia la Calle Brujah
+~
+S
+#21029
+Calle Gangrel~
+Sigues por la calle Gangrel, la cual continua hacia el norte. El cruce
+de la Carretera del Crepusculo y la Calle Gangrel esta hacia el sur.
+~
+0 1048576 1
+D0
+La Calle Gangrel continua al norte.
+~
+~
+0 -1 21030
+D2
+El cruce de la Carretera del Crepusculo y la Calle Gangrel esta hacia el sur.
+~
+~
+0 -1 21028
+S
+#21030
+Calle Gangrel~
+La Calle Gangrel continua de norte a sur por la muralla oeste de la ciudad.
+~
+0 1048576 1
+D0
+La Calle Gangrel continua al norte.
+~
+~
+0 -1 21031
+D2
+La Calle Gangrel continua al sur.
+~
+~
+0 -1 21029
+S
+#21031
+Calle Gangrel~
+Desde aqui puedes ver los dibujos de los cristales de la catedral de la
+ciudad. La calle sigue de norte a sur.
+~
+0 1048576 1
+D0
+La Calle Gangrel y la Calle Brujah se encuentran al norte de aqui.
+~
+~
+0 -1 21032
+D2
+La Calle Gangrel al sur.
+~
+~
+0 -1 21030
+S
+#21032
+Cruce entre la Calle Gangrel y la Calle Brujah~
+La Calle Gangrel y la Calle Brujah se encuentran aqui para formar una de
+las cuatro esquinas de la ciudad. Unas escaleras de piedra llevan hacia
+el norte hacia los barracones de la guardia. La Calle Gangrel esta al sur
+y la Calle Brujah al este. Puedes ver un cartel en el suelo.
+~
+0 1048576 1
+D1
+La Calle Brujah continua al este.~
+~
+0 -1 21033
+D2
+La Calle Gangrel empieza al sur de aqui.
+~
+~
+0 -1 21031
+D4
+Unas escaleras a los barracones de la guardia.
+~
+~
+0 -1 21328
+E
+cartel senyal letrero~
+Este - Calle Brujah
+        - hacia la Avenida Ventrue
+        - hacia la Calle Tremere
+Sur - Calle Gangrel
+        - hacia la Carretera del Crepusculo
+        - hacia la Calle del Mercado
+        - hacia la Avenida Malkavian
+~
+S
+#21033
+Calle Brujah~
+La Calle Brujah se extiende de este a oeste rodeando el muro norte de la
+ciudad.
+~
+0 1048576 1
+D1
+La calle Brujah se extiende al este.
+~
+~
+0 -1 21034
+D3
+El cruce con la calle Gangrel esta al oeste.
+~
+~
+0 -1 21032
+S
+#21034
+Calle Brujah~
+La Calle Brujah continua de este a oeste rodeando el muro norte de la
+ciudad.
+~
+0 1048576 1
+D1
+La Calle Brujah sigue al este.
+~
+~
+0 -1 21035
+D3
+La Calle Brujah continua al oeste.
+~
+~
+0 -1 21033
+S
+#21035
+Calle Brujah~
+Andas cuidadosamente por esta parte de la Calle Brujah. Anteriormente
+oiste rumores sobre que los ladrones abundaban en esta zona. La calle
+continua de este a oeste.
+~
+0 1048576 1
+D1
+EL cruce entre la Avenida Ventrue y la Calle Brujah esta al este de aqui.
+~
+~
+0 -1 21004
+D3
+La Calle Brujah sigue al oeste.
+~
+~
+0 -1 21034
+S
+#21036
+Carretera del Crepusculo~
+Caminando por la Carretera del Crepusculo, estas encantado de ver que el
+antiguo ayuntamiento de la ciudad siguen en pie. La carretera continua
+de este a oeste. Puedes ver un cartel en el suelo.
+~
+0 1048576 1
+D1
+La Carretera del Crepusculo continua al este.
+~
+~
+0 -1 21037
+D3
+Al oeste esta la plaza central.
+~
+~
+0 -1 21000
+E
+cartel letrero senyal~
+Este  - Carretera del Crepusculo
+        - hacia la Calle Tremere
+Oeste  - Carretera del Crepusculo
+        - hacia la Avenida Ventrue
+        - hacia la Calle Gangrel
+        - hacia la plaza de la ciudad
+~
+E
+ayuntamiento~
+Aqui esta el antiguo ayuntamiento de la ciudad. El alcalde ya no esta en
+este lugar, pero sus oficinas siguen abiertas, aunque ahora solo sirve para
+puros tramites.~
+S
+#21037
+Carretera del Crepusculo~
+Mientras estas atravesando la carretera, ves la Torre de la Hechiceria hacia
+el sur. Ves salir destellos de esta magnifica construccion. La carretera
+sigue de este a oeste y ves un cartel en el suelo.
+~
+0 1048576 1
+D1
+La Carretera del Crepusculo continua en esta direccion.
+~
+~
+0 -1 21038
+D2
+Las puestas de la Torre de la Hechiceria de la ciudad estan hacia el sur.
+~
+~
+0 -1 21126
+D3
+La Carretera del Crepusculo continua por aqui.
+~
+~
+0 -1 21036
+E
+cartel senyal letrero~
+Este  - Carretera del Crepusculo
+        - hacia la Calle Tremere
+Sur - Torre de Hechiceria
+        - hacia el Gremio de los Magos
+Oeste  - Carretera del Crepusculo
+        - hacia la Avenida Ventrue
+        - hacia la Calle Gangrel
+        - hacia la plaza de la ciudad
+~
+S
+#21038
+Carretera del Crepusculo~
+Por aqui se pueden ver pasar jovenes aventureros provenientes de la
+academia del sur. Es donde los nuevos aventureros se entrenan hasta
+adquirir la suficiente experiencia para sobrevivir en el mundo real.
+La carretera continua de este a oeste. Hay un cartel en el suelo.
+~
+0 1048576 1
+D1
+El cruce de la Carretera del Crepusculo y la Calle Tremere esta hacia el este.
+~
+~
+0 -1 21012
+D2
+La entrada a la Academia de Darkhaven esya hacia el sur.
+~
+~
+0 -1 21280
+D3
+La Carretera del Crepusculo se alarga hacia el oeste.
+~
+~
+0 -1 21037
+E
+cartel senyal letrero~
+Este  - Carretera del Crepusculo
+        - hacia la Calle Tremere
+Sur - Academia de Darkhaven
+Oeste  - Carretera del Crepusculo
+        - hacia la Avenida Ventrue
+        - hacia la Calle Gangrel
+        - hacia la plaza de la ciudad
+~
+S
+#21039
+Carretera del Crepusculo~
+Sigues en laa Carretera del Crepusculo. En este punto de la carretera
+puedes ver un bar con un sugerente nombre hacia el sur. La carretera
+sigue de este a oeste.
+~
+0 1048576 1
+D1
+La plaza de la ciudad esta al este.
+~
+~
+0 -1 21000
+D2
+El Bloodstains esta al sur.
+~
+~
+0 -1 21335
+D3
+La Carretera del Crepusculo continua hacia el oeste.
+~
+~
+0 -1 21040
+S
+#21040
+Carretera del Crepusculo~
+Siguiendo por la carretera encuentras la posada de la ciudad hacia el sur.
+Hacia el este o el oeste no puedes ver nada mas que la carretera.
+~
+0 1048576 1
+D1
+La Carretera del Crepusculo sigue por aqui.
+~
+~
+0 -1 21039
+D2
+Hacia el sur tienes la posada de la ciudad.
+~
+~
+0 -1 21069
+D3
+La Carretera del Crepusculo ssigue hacia el oeste.
+~
+~
+0 -1 21041
+S
+#21041
+Carretera del Crepusculo~
+Llegas a una zona de la carretera bastante ruidosa, con gente entrando y
+saliendo de la posada situada al sur. Te preguntas si podras encontrar
+algo interesante en el Ultimo Suspiro en estos tiempos. La Carretera del
+Crepusculo sigue de este a oeste. Hay un cartel en el suelo.
+~
+0 1048576 1
+D1
+La Carretera del Crepusculo continua por el este.
+~
+~
+0 -1 21040
+D2
+La taberna llamada el Ultimo Suspiro esta al sur.
+~
+~
+0 -1 21068
+D3
+La Carretera del Crepusculo y la Calle Gangrel se encuentran al oeste.
+~
+~
+0 -1 21028
+E
+cartel senyal letrero~
+Este  - Carretera del Crepusculo
+        - hacia la Calle Tremere
+        - hacia la Avenida Ventrue
+        - hacia la plaza del pueblo
+Sur - El Ultimo suspiro
+Oeste  - Carretera del Crepusculo
+        - hacia la Calle Gangrel
+~
+S
+#21042
+Avenida Ventrue~
+Estas caminando por una de las zonas mas al sur de la Avenida Ventrue.
+Los ruidos provenientes del mercado de la ciudad son oidos desde aqui.
+La carretera continua de norte a sur.
+~
+0 1048576 1
+D0
+Al norte esta la plaza de la ciudad.
+~
+~
+0 -1 21000
+D2
+Una interseccion hacia el sur.
+~
+~
+0 -1 21043
+D3
+~
+~
+2049 -1 21391
+S
+#21043
+Cruce de la Avenida Ventrue y la Calle del Mercado~
+Estas en un cruce con direcciones en los cuatro puntos cardinales. Este
+cruce es donde se encuentran la Avenida Ventrue y la Calle del Mercado.
+En este punto de la ciudad la actividad ciudadana es muy alta, pues hacia
+el este y el oeste esta la Calle del Mercado, donde estan las mas exoticas
+tiendas de la ciudad de Darkhaven, mientras que la Avenida Ventrue sigue
+de norte a sur. Puedes ver un cartel en el suelo.
+~
+0 1048576 1
+D0
+La Avenida Ventrue sigue al norte.
+~
+~
+0 -1 21042
+D1
+El mercado esta al este de aqui.
+~
+~
+0 -1 21048
+D2
+La Avenida Ventrue continua hacia el sur.
+~
+~
+0 -1 21044
+D3
+El mercado esta hacia el oeste.
+~
+~
+0 -1 21047
+E
+cartel senyal letrero~
+Norte - Avenida Ventrue
+        - hacia la Calle Brujah
+        - hacia la Carretera del Crepusculo
+        - hacia la plaza de la ciudad
+Este  - Calle del Mercado
+        - hacia la Calle Tremere
+Sur - Avenida Ventrue
+        - hacia la Avenida Malkavian
+Oeste  - Calle del Mercado
+        - hacia la Calle Gangrel
+~
+S
+#21044
+Avenida Ventrue~
+Mientras caminas por la Avenida Ventrue, ves un oscuro callejon sitiuado
+hacia el oeste de aqui. No sabrias exactamente que hay alli, pero ves con
+cuidado con los posibles ladrones de la ciudad. La Avenida continua por el
+norte y por el sur. Ves un cartel en el suelo.
+~
+0 1048576 1
+D0
+El cruce entre la Avenida Ventrue y la Calle del Mercado esta al norte.
+~
+~
+0 -1 21043
+D2
+El cruce entre la Avenida Ventrue y la Avenida Malkavian esta al sur.
+~
+~
+0 -1 21020
+D3
+No sabrias exactamente que hay al oeste de aqui.
+~
+~
+0 -1 21065
+E
+cartel senyal letrero~
+Norte - Avenida Ventrue
+        - hacia la Calle del Mercado
+        - hacia la Carretera del Crepusculo
+        - hacia la Calle Brujah
+        - hacia la plaza e la ciudad
+Oeste  - Callejon de los ladrones
+        - hacia el Gremio de los Ladrones
+Sur - Avenida Ventrue
+        - hacia la Avenida Malkavian
+~
+S
+#21045
+Calle del Mercado~
+Sonries al ver que la familiaridad y esplendor de la Calle del Mercado
+sigue como siempre. Tu vista es atraida hacia un enorme rubi rojo al sur
+de aqui. mientras que la tienda del norte esta muy silenciosa. La Calle
+del Mercado se extiende de este a oeste.
+~
+0 1048576 1
+D0
+La tienda de pergaminos esta hacia el norte.
+~
+~
+0 -1 21051
+D1
+Mas tiendas atraen tu atencion desde el este.
+~
+~
+0 -1 21046
+D2
+Hacia el sur tienes una joyeria.
+~
+~
+0 -1 21052
+D3
+El cruce de la Calle del Mercado con la Calle Gangrel esta al oeste.
+~
+~
+0 -1 21026
+S
+#21046
+Calle del Mercado~
+Los ciudadanos de Darkhaven pasean a tu alrededor, ansiosos por terminar
+sus comprar. Hacia el norte tienes la tienda de pociones, mientras que al
+sur tienes la oficina de correos. La Calle del Mercado continua de este a
+oeste.
+~
+0 1048576 1
+D0
+La tienda de pociones al norte.
+~
+~
+0 -1 21054
+D1
+Mas tiendas hacia el este.
+~
+~
+0 -1 21047
+D2
+La Oficina de Correos hacia el sur.
+~
+~
+0 -1 21053
+D3
+Mas tiendas hacia el oeste.
+~
+~
+0 -1 21045
+S
+#21047
+Calle del Mercado~
+La calle sigue rebosando de actividad. Hacia el norte tienes la tienda
+de magia, mientras que al sur tienes el... puesto del mensajero? Bueno
+pues eso. La calle continua de este a oeste.
+~
+0 1048576 1
+D0
+La tienda de magia esta al norte.
+~
+~
+0 -1 21055
+D1
+Ves el cruce entre la Avenida Ventrue y la Calle del Mercado.
+~
+~
+0 -1 21043
+D2
+El puesto del mensajero esta al sur.
+~
+~
+0 -1 21056
+D3
+Mas tiendas al oeste.
+~
+~
+0 -1 21046
+S
+#21048
+Calle del Mercado~
+La calle sigue rebosando de actividad. Hacia el norte tienes una tienda
+que dirias que es una carniceria, y al sur esta la herreria de la ciudad,
+cuya funcion es la de reparar los items danyados de los aventureros. La
+Calle del Mercado sigue de este a oeste.
+~
+0 1048576 1
+D0
+La carniceria al norte.
+~
+~
+0 -1 21057
+D1
+Mas tiendas al este.
+~
+~
+0 -1 21049
+D2
+La herreria al sur.
+~
+~
+0 -1 21058
+D3
+El cruce entre la Avenida Ventrue y la Calle del Mercado esta al oeste.
+~
+~
+0 -1 21043
+S
+#21049
+Calle del Mercado~
+La calle sigue rebosando de actividad. El aroma de pan recien hecho te
+llega desde la panaderia del norte. Hacia el sur tienes la tienda de
+armaduras. La Calle del Mercado sigue de este a oeste.
+~
+0 1048576 1
+D0
+La panaderia esta al norte.
+~
+~
+0 -1 21060
+D1
+Mas tiendas.
+~
+~
+0 -1 21050
+D2
+La tienda de armaduras esta al sur de aqui.
+~
+~
+0 -1 21059
+D3
+Mas tiendas al oeste.
+~
+~
+0 -1 21048
+S
+#21050
+Calle del Mercado~
+La calle sigue rebosando de actividad. El sonido de espada contra espada
+puede ser oido desde el sur, mientras que al norte tienes un colmado. La
+calle sigur hacia el este y el oeste.
+~
+0 1048576 1
+D0
+Un colmado al norte.
+~
+~
+0 -1 21061
+D1
+La Calle del Mercado se une a la Calle Tremere en el este.
+~
+~
+0 -1 21014
+D2
+La armeria esta al sur de aqui.
+~
+~
+0 -1 21062
+D3
+Mas tiendas al oeste.
+~
+~
+0 -1 21049
+S
+#21051
+La Tienda de Pergaminos~
+Te encuentras en una tienda muy tranquila. Todo lo que se oye es el sonido
+que hace el escriba al girar las hojas de un libro que esta leyendo. Aqui
+puedes comprar distintos tipos de pergaminos, mientras que al este tienes
+la tienda de pociones y al sur estas de vuelta a la Calle del Mercado.
+~
+0 1048584 0
+D1
+La tienda de pociones al este.
+~
+~
+0 -1 21054
+D2
+La salida conduce hasta la calle.
+~
+~
+0 -1 21045
+S
+#21052
+La Joyeria~
+Acabas de entrar en una joyeria. Lamentablemente el joyero no dispone de
+ninguna joya para vender, pues los materiales cada dia escasean mas. Solo
+puedes ver un enorme rubi rojo en el centro de la tienda, el que el joyero
+te dice que no esta a la venta. Al norte estas de vuelta a la Calle del
+Mercado y al este estan las oficinas de correos.
+~
+0 1048584 0
+D0
+An opening in the tent leads back out onto Calle del Mercado.
+~
+~
+0 -1 21045
+D1
+La Oficina de Correos esta al este.
+~
+~
+0 -1 21053
+S
+#21053
+La Oficina de Correos~
+Al entrar en la tienda ves cientos y cientos de cartas, postales y tambien
+paquetes amontonados en distintas mesas. El correo en la ciudad es bastante
+lento... pero al menos existe contacto con el exterior. Al este puedes ver
+el puesto del mensajero y al oeste esta la joyeria. Hacia el norte estas de
+vuelta a la calle.
+~
+0 3407880 0
+D0
+Hacia el norte esta la calle.
+~
+~
+0 -1 21046
+D1
+El puesto del mensajero.
+~
+~
+0 -1 21056
+D3
+Al oeste esta la joyeria.
+~
+~
+0 -1 21052
+S
+#21054
+La tienda de pociones~
+Has entrado en la tienda de pociones, donde puedes ver a un alquimista
+trabajar en una mesa al fondo. Estara preparando nuevas pociones? Cada
+pocion distinta la prepara de un color distinto para diferenciarlas.
+La Calle del Mercado esta al sur, mientras que al este y al oeste tienes
+otras dos tiendas magicas.
+~
+0 1048584 0
+D1
+la tienda de magia esta al este.
+~
+~
+0 -1 21055
+D2
+La Calle del Mercado te espera al sur.
+~
+~
+0 -1 21046
+D3
+Al oeste esta la tienda de pergaminos.
+~
+~
+0 -1 21051
+S
+#21055
+La Tienda de Magia~
+Acabas de entrar en una tienda de magia. Aqui se venden objetos magicos
+realmente raros. El mago te mira amable desde el mostrador. La Calle del
+Mercado esta al sur, mientras que la tienda de pociones cae al oeste.
+~
+0 1048584 0
+D2
+The opening in the tent leads back out to Calle del Mercado.
+~
+~
+0 -1 21047
+D3
+You can see the alchemist's tent.
+~
+~
+0 -1 21054
+S
+#21056
+Puesto del Mensajero~
+Has llegado al puesto del mensajero. Ahora entiendes porque hay tanto
+retrasos en correos... el mensajero esta tumbado sobre una silla vendiendo
+un par de cosillas para ganarse mas dinero. Hacia el oeste esta correos
+y al norte la calle.
+~
+0 1048584 0
+D0
+Al norte esta la Calle del Mercado.
+~
+~
+0 -1 21047
+D3
+La oficina de correos esta al oeste.
+~
+~
+0 -1 21053
+S
+#21057
+La Carniceria~
+El olor de carne fresca invade esta tienda. Aqui puedes encontrar todo
+tipo de carnes... desde embutidos hasta incluso pavos preparados para
+navidad. El carnicero te mira sonriendo desde el mostrador. Hacia el
+sur tienes la famosa Calle del Mercado, mientras que la panaderia cae
+al este.
+~
+0 1048584 0
+D1
+La panaderia esta al este.
+~
+~
+0 -1 21060
+D2
+La Calle del Mercado te espera al sur.
+~
+~
+0 -1 21048
+S
+#21058
+La Herreria~
+Has entrado en la herreria. Aqui podras reparar tu equipo danyado. Hacia
+el este esta la tienda de armaduras, y la famosa Calle del Mercado esta
+saliendo al norte.
+~
+0 1048584 0
+D0
+Hacia el norte tienes la Calle del Mercado.
+~
+~
+0 -1 21048
+D1
+La tienda de armaduras esta hacia el este.
+~
+~
+0 -1 21059
+S
+#21059
+La Tienda de Armaduras~
+Esta tienda pertenece a un dedicado fabricante de armaduras y escudos.
+Desde que perdio a su hija, el armero no hace otra cosa que trabajar
+para poder proporcionar armaduras y escudos mejores. Hacia el oeste esta
+el herrero de la ciudad, mientras que la armeria esta al este. Al norte
+estas de vuelta a la Calle del Mercado.
+~
+0 1048584 0
+D0
+Al norte tienes la Calle del Mercado.
+~
+~
+0 -1 21049
+D1
+Hacia el norte esta la armeria.
+~
+~
+0 -1 21062
+D3
+El herrero esta al oeste.
+~
+~
+0 -1 21058
+S
+#21060
+La Panaderia~
+Has entrado en la panaderia de la ciudad, en la cual estas rodeado de
+gente esperando su pedido. Esta panaderia es reconocida en todo mundo
+como la que mejor hace el pan, aunque parece ser que el panadero nunca
+ha querido desvelar su secreto. La carniceria esta al oeste, el colmado
+al este y al sur estas de vuelta a la Calle del Mercado.
+~
+0 1048584 0
+D1
+Un colmado al este.
+~
+~
+0 -1 21061
+D2
+De vuelta a la Calle del Mercado.
+~
+~
+0 -1 21049
+D3
+La carniceria esta al oeste.
+~
+~
+0 -1 21057
+S
+#21061
+El Colmado~
+Esta pequenya tienda regentada por una joven y hermosa campesina parece
+vender productos cotidianos del dia a dia, como leche o queso. Tambien
+puedes encontrar limonada que prepara ella misma a primeras horas de la
+manyana. Hacia el oeste tienes la panaderia y hacia el sur esta la famosa
+Calle del Mercado.
+~
+0 1048584 0
+D2
+Aqui tienes la famosa Calle del Mercado.
+~
+~
+0 -1 21050
+D3
+La panaderia esta al oeste de aqui.
+~
+~
+0 -1 21060
+S
+#21062
+La Tienda de Armas~
+Acabas de entras en la tienda de armas, donde en sus paredes estan las.
+armas mas destructivas que puedas imaginar. El armero esta detras del
+mostrador afilando su espada... ves con cuidado de no molestarlo. Hacia
+el oeste esta la tienda de armaduras, y al norte tienes la famosa Calle
+del Mercado.
+~
+0 1048584 0
+D0
+La Calle del Mercado esta al norte.
+~
+~
+0 -1 21050
+D3
+Al oeste tienes la tienda de armaduras de la ciudad.
+~
+~
+0 -1 21059
+S
+#21063
+Callejon de los Ladrones~
+Te encuentras caminando en un estrecho y oscuro callejon frecuentemente
+regentado por ladrones. Ves ratas chillando y corriendo por el suelo...
+No es recomendable quedarse aqui demasiado tiempo. Hacia el oeste esta
+la Calle Gangrel , mientras que al este solo ves mas oscuridad.
+~
+0 1048576 1
+D1
+El callejon continua al este.
+~
+~
+0 -1 21064
+D3
+La Calle Gangrel esta al oeste.
+~
+~
+0 -1 21025
+S
+#21064
+Callejon de los Ladrones~
+Te encuentras caminando en un estrecho y oscuro callejon frecuentemente
+regentado por ladrones. Ves ratas chillando y corriendo por el suelo...
+No es recomendable quedarse aqui demasiado tiempo. Al este y al oeste
+tienes mas callejon, y al norte empieza el Gremio de los Ladrones.
+~
+0 1048576 1
+D0
+Los ladrones de la ciudad han construido su Gremio en este punto hacia el norte.
+~
+~
+0 -1 21141
+D1
+El callejon continua por aqui.
+~
+~
+0 -1 21065
+D3
+El callejon continua por aqui.
+~
+~
+0 -1 21063
+S
+#21065
+Callejon de los Ladrones~
+Te encuentras caminando en un estrecho y oscuro callejon frecuentemente
+regentado por ladrones. Ves ratas chillando y corriendo por el suelo...
+No es recomendable quedarse aqui demasiado tiempo. Hacia el este tienes
+la Avenida Ventrue y hacia el oeste sigue el callejon.
+~
+0 1048576 1
+D1
+La Avenida Ventrue empeiza al este.
+~
+~
+0 -1 21044
+D3
+El callejon sigue por aqui.
+~
+~
+0 -1 21064
+S
+#21066
+Tienda de Ropa~
+Acabas de entrar en una tienda que huele ligeramente a cuero. No es de
+extranyar, pues el sastre aqui confecciona casi todas sus prendas de
+cuero. Hacia el sur estas de vuelta a la Avenida Malkavian.
+~
+0 1048584 0
+D2
+Hacia el sur tienes la Avenida Malkavian.
+~
+~
+0 -1 21022
+S
+#21067
+La Tienda de Animales~
+Estas en la tienda de animales. Bueno... no, no estas en la tienda de
+animales... no se de donde sale esta room ni porque conyo esta creada,
+pero sudo de mirarlo X)
+Asi que imaginate que esto es una tienda de animales, vale?
+~
+0 12 0
+S
+#21068
+La Taberna~
+Acabas de entrar en una taberna que parece muy acogedora, a pesar de
+estar casi vacia en estos momentos. Puedes ver como al fondo desde la
+barra el camarero te sonrie y te invita a pasar. Hacia el este tienes
+el Ultimo Suspiro y hacia el norte esta la carretera.
+~
+0 1048584 0
+D0
+La Carretera del Crepusculo esta al norte.
+~
+~
+0 -1 21041
+D1
+El Ultimo Suspiro esta al este.
+~
+~
+0 -1 21069
+S
+#21069
+El Ultimo Suspiro~
+Aqui los viajeros pueden descansar de sus viajes, aun con el riesgo de
+ser robados, o peor aun, asesinados. El posadero te mira indiferente
+desde el fondo de la posada. Hacia el norte esta la carretera y hacia
+el oeste la taberna.
+~
+0 1048588 0
+D0
+La Carretera del Crepusculo esta hacia el norte.
+~
+~
+0 -1 21040
+D3
+La taberna esta al oeste.
+~
+~
+0 -1 21068
+S
+#21070
+Un pequenyo callejon~
+Has entrado en un pequenyo callejon, parece ser que da  a la parte mas antigua
+de la ciudad.Hay una ruda puerta situada al norte donde reza el anuncio:
+SALA DE CURACIOES SALUBRI. Puedes ver un ensanchamiento siguiendo al oeste.
+~
+0 1024 1
+D0
+~
+~
+0 0 21104
+D1
+~
+~
+0 -1 21001
+D3
+~
+~
+0 -1 21125
+S
+#21071
+Una Camara Cubierta de Runas~
+Runas de proteccion y preservacion han sido cuidadosamente grabadas en
+los muros de esta camara. Es aqui donde los archimagos del Gremio dejan
+pergaminos, varitas y varas que ya son inutiles para ellos, pero para los
+iniciados pueden ser de gran ayuda. El poder magico de esta habitacion es
+inconmesurable, y puede llegar a potenciar un conjuro y multiplicaro por
+100, claro esta que hay que saber como. Un corredor llega de vuelta al
+salon principal del gremio.
+~
+0 3686408 0
+D6
+El corredor va hacia el gremio.
+~
+~
+0 -1 21127
+S
+#21072
+La Corte de los Tunicas Grises~
+Este salon es mas pequenyo que el anterior, pero esta reservado para los
+miembro de los tunicas grises. Los asientos en esta habitacion han sido
+construidos de marmol y estan cubiertos todos de runas. En el centro del
+salon puedes ver una especie de alta en forma de circulo. Hacia el sur
+estas de vuelta en la Corte Principal.
+~
+0 3145740 0
+D2
+La Corte Principal esta hacia el sur.
+~
+~
+0 -1 21133
+S
+#21073
+La Corte de los Tunicas Negros~
+Este salon es mas pequenyo que el anterior, pero esta reservado para los
+miembro de los tunicas negros. Los asientos en esta habitacion han sido
+construidos de piedra y estan cubiertos todos de runas. En el centro del
+salon puedes ver una especie de alta en forma de circulo. Puedes ver la
+Corte Principal hacia el noroeste.
+~
+0 3145740 0
+D7
+La Corte Principal esta hacia esta direccion.
+~
+~
+0 -1 21133
+S
+#21074
+Interior de la Puerta Sur~
+Esta en el interior de la puerta sur de la ciudad. Hacia el norte tienes
+el cruce entre la Avenida Ventrue y la Avenida Malkavian.
+~
+0 1048580 1
+D0
+Dos calles se juntan al norte.
+~
+~
+0 -1 21020
+D2
+El exterior de la puerta sur.
+~
+gate~
+7 21073 21075
+S
+#21075
+Exterior de la Puerta Sur~
+Estas justo en el exterior de la puerta sur de la ciudad. Hacia el norte
+tienes la entrada de la ciudad. Hacia el sur tienes el un puente. Tan
+pronto como sales tienes unas irresistibles ganas de investigar todo tu
+alrededor.
+~
+0 1048580 1
+D0
+La entrada de la ciudad al norte.
+~
+gate~
+7 21073 21074
+D1
+Un camino empieza al este.
+~
+~
+0 -1 21124
+D2
+Un camino hacia el puente sur.
+~
+~
+0 -1 3504
+D3
+Un camino empieza al oeste.
+~
+~
+0 -1 21076
+D5
+Hacia la oscuridad...
+~
+abajo~
+1033 -1 7030
+S
+#21076
+Camino Oeste de la Puerta Sur~
+Estas en un camino justo al oeste de la puerta sure. El camino continua
+de este a oeste.
+~
+0 1048576 1
+D1
+La puerta sur esta al este.
+~
+~
+0 -1 21075
+D3
+El camino continua hacia el oeste.
+~
+~
+0 -1 21077
+S
+#21077
+Camino Alrededor de la Ciudad~
+Estas en un camino que rodea la ciudad. El camino continua de este a
+oeste rodeando un muro de la ciudad.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21076
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21078
+S
+#21078
+Camino Alrededor de la Ciudad~
+Estas en un camino que rodea la ciudad. El camino continua de este a
+oeste rodeando un muro de la ciudad.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21077
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21079
+S
+#21079
+Camino Alrededor de la Ciudad~
+Estas en un camino que rodea la ciudad. El camino continua de este a
+oeste rodeando un muro de la ciudad.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21078
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21080
+S
+#21080
+Camino Alrededor de la Ciudad~
+Estas en un camino que rodea la ciudad. El camino continua de este a
+oeste rodeando un muro de la ciudad.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21079
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21081
+S
+#21081
+Ante el Antiguo Puente~
+Acabas de llegar a un antiguo puente de piedra, el cual hace mucho tiempo
+veia pasar sobre el a los mayores comerciantes de la epoca. El puente esta
+bastante danyado... asi que ten mucho cuidado al cruzarlo. Hacia el este y
+hacia el norte puedes ver unas ruinas.
+Hacia el oeste ves la entrada a un extranyo tablero de ajedrez.
+~
+0 1048576 1
+D0
+Un camino empieza al norte.
+~
+~
+0 -1 21082
+D1
+Una carretera llega hacia el este.
+~
+~
+0 -1 21080
+D2
+El antiguo puente esta hacia el sur.
+~
+~
+0 -1 21296
+D3
+~
+~
+0 -1 30600
+S
+#21082
+Camino Alrededor de la Ciudad~
+Caminas alrededor del muro oeste de la ciudad. Ves el bosque hacia el
+oeste y el camino sigue de norte sur.
+~
+0 1048576 1
+D0
+El camino continua hacia el norte.
+~
+~
+0 -1 21083
+D2
+El camino sigue hacia el sur.
+~
+~
+0 -1 21081
+S
+#21083
+Camino Alrededor de la Ciudad~
+Caminas alrededor del muro oeste de la ciudad. Ves el bosque hacia el
+oeste y el camino sigue de norte sur.
+~
+0 1048576 1
+D0
+El camino continua hacia el norte.
+~
+~
+0 -1 21084
+D2
+El camino sigue hacia el sur.
+~
+~
+0 -1 21082
+S
+#21084
+Camino Alrededor de la Ciudad~
+Caminas alrededor del muro oeste de la ciudad. Ves el bosque hacia el
+oeste y el camino sigue de norte sur.
+~
+0 1048576 1
+D0
+El camino continua hacia el norte.
+~
+~
+0 -1 21085
+D2
+El camino sigue hacia el sur.
+~
+~
+0 -1 21083
+S
+#21085
+Camino Alrededor de la Ciudad~
+Caminas alrededor del muro oeste de la ciudad. Ves el bosque hacia el
+oeste y el camino sigue de norte sur.
+~
+0 1048576 1
+D0
+El camino continua hacia el norte.
+~
+~
+0 -1 21086
+D2
+El camino sigue hacia el sur.
+~
+~
+0 -1 21084
+S
+#21086
+Camino Sur de la Puerta Oeste~
+Estas en una sucia carretera que sale hacia el sur desde la puerta oeste
+de la ciudad. El camino continua hacia el sur alrededor de la muralla de
+la ciudad.
+~
+0 1048576 1
+D0
+La entrada oeste de la ciudad esta al norte.
+~
+~
+0 -1 21087
+D2
+El camino continua rodeando el muro de la ciudad hacia el sur.
+~
+~
+0 -1 21085
+S
+#21087
+Exterior de la Puerta Oeste~
+Esta justo en el exterior de la entrada de la puerta oeste de la ciudad.
+Un viejo camino va de norte a sur rodeando la ciudad. Al este esta la
+puerta de la ciudad y hacia el oeste encuentras un camino que se adentra
+en el bosque.
+~
+0 1048580 1
+D0
+Un camino empieza al norte.
+~
+~
+0 -1 21089
+D1
+La puerta de la ciudad esta al este de aqui.
+~
+gate~
+7 21070 21088
+D2
+Un camino hacia el sur.
+~
+~
+0 -1 21086
+D3
+Dentro del bosque...
+~
+~
+0 -1 6000
+S
+#21088
+Interior de la Puerta Oeste~
+Estas en la puerta oeste de la ciuda de Darkhaven. Hacia el este esta
+el cruce entre la Carretera del Crepusculo y la Calle Gangrel, mientras
+que al oeste esta la salida de la ciudad.
+~
+0 1048580 1
+D1
+Un cruce al este.
+~
+~
+0 -1 21028
+D3
+La carretera continua hasta llegar al bosque del oeste.
+~
+gate~
+7 21070 21087
+S
+#21089
+Camino Norte de la Puerta Oeste~
+Estas caminando por un camino sin fin que rodea la ciudad de Darkhaven.
+Hacia el oeste puedes ver el bosque. La puerta oeste de la ciudad esta
+iendo un sur de aqui, y hacia el norte continua el camino.
+~
+0 1048576 1
+D0
+El camino continua al norte.
+~
+~
+0 -1 21090
+D2
+La puerta oeste esta al sur de aqui.
+~
+~
+0 -1 21087
+S
+#21090
+Camino Alrededor de la Ciudad~
+Estas en el camino que rodea la ciudad. Al oeste puedes ver un cartel
+de madeta senyalando esa direccion. El camino continua de orte a sur
+alrededor de la ciudad.
+~
+0 1048576 1
+D0
+El camino continua hacia el norte.
+~
+~
+0 -1 21091
+D2
+El camino continua hacia el sur.
+~
+~
+0 -1 21089
+D3
+Ramas y hojas tapan tu vision hacia el oeste.
+~
+~
+0 -1 21401
+E
+senyal cartel letrero~
+El cartel dice:
+ Hola Viajero!! Estas justo delante del bosque de los Pixies, un bosque
+habitado por estas pequenyas criaturas, una de las mas pequenyas razas
+del mundo entero. El area es para genet de nivel bajo, espero que puedas
+disfrutar tu estancia en ste maravilloso lugar :)=
+~
+S
+#21091
+Camino Alrededor de la Ciudad~
+Estas rodeando la ciudad de Darkhaven por un sucio y pequenyo camino.
+Hacia el sur esta la entrada al bosque de los pixies y el camino sigue
+hacia el norte.
+~
+0 1048576 1
+D0
+El camino continua hacia el norte.
+~
+~
+0 -1 21092
+D2
+El camino continua hacia el sur.
+~
+~
+0 -1 21090
+S
+#21092
+Camino Alrededor de la Ciudad~
+Estas rodeando la ciudad de Darkhaven por un sucio y pequenyo camino.
+El camino continua de norte a sur.
+~
+0 1048576 1
+D0
+El camino continua hacia el norte.
+~
+~
+0 -1 21093
+D2
+El camino continua hacia el sur.
+~
+~
+0 -1 21091
+S
+#21093
+Camino Alrededor de la Ciudad~
+Estas rodeando la ciudad de Darkhaven por un sucio y pequenyo camino.
+El camino continua de norte a sur, pero sientes una ligera brisa marina
+desde el noroeste.
+~
+0 1048576 1
+D0
+Una ligera brisa te llega del norte.
+~
+~
+0 -1 21094
+D2
+El camino continua hacia el sur.
+~
+~
+0 -1 21092
+D4
+Una luz proviene de la habitacion que hay arriba
+~
+arriba~
+64 0 2201
+S
+#21094
+Camino Alrededor de la Ciudad~
+Estas rodeando la ciudad de Darkhaven por un sucio y pequenyo camino.
+El camino continua por el este y el sur, pero sientes una ligera brisa marina
+desde el oeste.
+~
+0 1048576 1
+D1
+El camino continua hacia el este.
+~
+~
+0 -1 21095
+D2
+El camino continua hacia el sur.
+~
+~
+0 -1 21093
+S
+#21095
+Camino Alrededor de la Ciudad~
+Estas rodeando la ciudad de Darkhaven por un sucio y pequenyo camino.
+El camino continua de este a oeste.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21096
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21094
+S
+#21096
+Camino Alrededor de la Ciudad~
+Estas rodeando la ciudad de Darkhaven por un sucio y pequenyo camino.
+El camino continua de este a oeste.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21097
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21095
+S
+#21097
+Camino Alrededor de la Ciudad~
+Estas rodeando la ciudad de Darkhaven por un sucio y pequenyo camino.
+El camino continua de este a oeste.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21098
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21096
+S
+#21098
+Camino Oeste de la Puerta Norte~
+Estas justo al lado de la puerta de la ciudad. El camino que rodea a la
+ciudad sigue hacia el oeste.
+~
+0 1048576 1
+D1
+La puerta norte de la ciudad esta hacia el este de aqui.
+~
+~
+0 -1 21099
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21097
+S
+#21099
+Exterior de la puerta Norte~
+Estas en el exterior de la puerta norte de la ciudad. Hacia el sur esta
+la gran ciudad de Darkhaven, mientras que de este a oeste hay caminos que
+rodean la ciudad.
+~
+0 1048580 1
+D0
+~
+~
+0 0 12000
+D1
+El camino empieza al este.
+~
+~
+0 -1 21101
+D2
+La puerta esta al sur.
+~
+gate~
+7 21071 21100
+D3
+El camino empieza al oeste.
+~
+~
+0 -1 21098
+S
+#21100
+Interior de la Puerta Norte~
+Estas en la puerta norte de la ciudad. Hacia el sur esta la ciudad en
+todo su explendor y hacia el norte esta el camino que rodea a toda la
+ciudad.
+~
+0 1048580 1
+D0
+La puerta norte sale de la ciudad en esta direccion.
+~
+gate~
+7 21071 21099
+D2
+Dos caminos rodean a la ciudad al norte de aqui.
+~
+~
+0 -1 21004
+S
+#21101
+Camino Este de la Puerta Norte~
+Estas justo al lado de la puerta de la ciudad. Pisadas recientes en el
+suelo revelan que no hace demasiado tiempo ha pasado alguien por aqui,
+seguramente una patrulla de la guardia. El camino que rodea a la
+ciudad sigue hacia el este.
+~
+0 1048576 13
+D1
+El camino continua al este.
+~
+~
+0 -1 21102
+D3
+La puerta nortes esta en esta direccion.
+~
+~
+0 -1 21099
+S
+#21102
+Camino Alrededor de la Ciudad~
+Estas en un camino que rodea el muro norte de la ciudad. Una senyal rota
+esta aqui tirada en el suelo, parece que hay algo escrita en ella. El
+camino continua de este a oeste.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21103
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21101
+E
+senyal cartel o letrero~
+La senyal dice:
+ Bienvenido a Darkhaven - Ciudad Vampira del Caos.
+~
+S
+#21103
+Camino Alrededor de la Ciudad~
+Estas en el camino alrededor de la ciudad de Darkhaven. Este camino va
+rodeando las murallas de la ciudad. El camino sigue de este a oeste.
+~
+0 1048576 1
+D0
+~
+~
+0 0 21104
+D1
+El camino continua al este.
+~
+~
+0 -1 21105
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21102
+S
+#21104
+El Centro de Curacion Salubri~
+Has entrado en una tosca pero  confortable  habitacion  con comodas camas
+y asientos, ves extranyos artilugios por todas partes, amuletos y mantras
+Te sientes totalmente apaciguado,la relajacion es tal que temes  llegar a
+dormirte en cualquier momento.
+~
+0 263184 0
+D2
+~
+~
+0 -1 21070
+> act_prog p sur~
+mpforce espiritu decir Bienvenido al Centro de Curaciones Salubri, $n!!!
+mpechoat $n El Espiritu te transmite al fondo detu alma 'si necesitas curacion escribe 'curar'.~
+> rand_prog 9~
+mpforce espiritu decir Y para cuando terminara este castigo y mi espiritu encontrara la paz?~
+|
+S
+#21105
+Camino Alrededor de la Ciudad~
+Estas en el camino alrededor de la ciudad de Darkhaven. Este camino va
+rodeando las murallas de la ciudad. El camino sigue de este a oeste.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21106
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21103
+S
+#21106
+Camino Alrededor de la Ciudad~
+Estas en el camino alrededor de la ciudad de Darkhaven. Este camino va
+rodeando las murallas de la ciudad. Hacia el este puedes ver un bosque
+infranqueable.El camino sigue al sur y al oeste.
+~
+0 1048576 1
+D2
+El camino continua al sur.
+~
+~
+0 -1 21107
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21105
+S
+#21107
+Camino Alrededor de la Ciudad~
+El largo camino continua por aqui, pero puedes ver la esquina noreste al
+norte. Una linea de arqueros sobresale por la muralla de la ciudad, no
+parecen muy amigables. El camino continua de norte a sur.
+~
+0 1048576 1
+D0
+El camino lleva hasta la esquina noreste.
+~
+~
+0 -1 21106
+D2
+El camino sigue al sur.
+~
+~
+0 -1 21108
+S
+#21108
+Camino Alrededor de la Ciudad~
+El largo camino continua por aqui, pero puedes ver la esquina noreste un
+poco mas alnorte. Una linea de arqueros sobresale por la muralla de la ciudad, no
+parecen muy amigables. El camino continua de norte a sur.
+~
+0 1048576 1
+D0
+El camino continua al norte.
+~
+~
+0 -1 21107
+D2
+El camino continua al sur.
+~
+~
+0 -1 21109
+S
+#21109
+Camino Alrededor de la Ciudad~
+De repente ves pasar algo volando rapidamente justo por encima de ti.
+Al levantar la vista no consigues distinguir absolutamente nada. No
+sabes que es pero yo de ti me andaria con cuidado. El camino sigue de
+norte a sur.
+~
+0 1048576 1
+D0
+El camino continua al norte.
+~
+~
+0 -1 21108
+D2
+El camino sigue hacia el sur.
+~
+~
+0 -1 21110
+S
+#21110
+Camino Alrededor de la Ciudad~
+Estas en el camino alrededor de la ciudad de Darkhaven. Este camino va
+rodeando las murallas de la ciudad. El camino sigue de norte a sur.
+~
+0 1048576 1
+D0
+El camino sigue al norte.
+~
+~
+0 -1 21109
+D2
+El camino sigue al sur.
+~
+~
+0 -1 21111
+S
+#21111
+Camino Norte de la Puerta Este~
+Estas justo al norte de la puerta de la ciudad. Un denso bosque esta en
+el este, siendo imposible cruzarlo. La carretera se extiende de norte a
+sur alrededor de toda la ciudad.
+~
+0 1048576 1
+D0
+El camino continua al norte.
+~
+~
+0 -1 21110
+D2
+La puerta esta al sur de aqui.
+~
+~
+0 -1 21112
+S
+#21112
+Exterior de la puerta este~
+Estas justo en el exterior de la puerta este de la ciudad. Estas justo
+en frente de los muros de la ciudad, que estan custodiados todo el dia
+por la guardia. Una carretera empieza de norte a sur alrededor de la
+ciudad.
+~
+0 1048580 1
+D0
+Un camino empieza al norte.
+~
+~
+0 -1 21111
+D1
+La carretera continua por aqui.
+~
+~
+0 -1 3503
+D2
+Una carretera empieza al sur.
+~
+~
+0 -1 21114
+D3
+La puerta esta hacia el oeste.
+~
+gate~
+7 21072 21113
+S
+#21113
+Interior de la Puerta Este~
+Estas en el interior de la puerta este de la ciudad. Hacia el oeste esta
+el cruce entre la Carretera del Crepusculo y la Calle Tremere.
+~
+0 1048580 1
+D1
+La puerta sale hacia el este.
+~
+gate~
+7 21072 21112
+D3
+Un cruce hacia el oeste.
+~
+~
+0 -1 21012
+S
+#21114
+Camino Sur de la Puerta Este~
+Estas justo al sur de la puerta de la ciudad. Un denso bosque esta en
+el este, siendo imposible cruzarlo. La carretera se extiende de norte a
+sur alrededor de toda la ciudad.
+~
+0 1048576 1
+D0
+La puerta este de la ciudad esta hacia el norte.
+~
+~
+0 -1 21112
+D2
+La carretera continua al sur.
+~
+~
+0 -1 21115
+S
+#21115
+Camino Alerdedor de la Ciudad~
+El sucio camino pasa por aqui por un carro bastante hecho povo. A este
+carro le faltan dos de sus cuatro ruedas. Probablemente fuese asaltado
+hace unos dias o semanas por una banda de ladrones. Yo de ti iria con
+cuidado por donde vas. El camino sigue de norte a sur.
+~
+0 1048576 1
+D0
+El camino continua al norte.
+~
+~
+0 -1 21114
+D2
+El camino continua al sur.
+~
+~
+0 -1 21116
+S
+#21116
+Camino Alerdedor de la Ciudad~
+Estas en un sucio camino que rodea la ciudad de Darkhaven. El camino
+sigue de norte a sur.
+~
+0 1048576 1
+D0
+El camino continua al norte.
+~
+~
+0 -1 21115
+D2
+El camino continua al sur.
+~
+~
+0 -1 21117
+S
+#21117
+Camino Alerdedor de la Ciudad~
+Estas en un sucio camino que rodea la ciudad de Darkhaven. El camino
+sigue de norte a sur.
+~
+0 1048576 1
+D0
+El camino continua al norte.
+~
+~
+0 -1 21116
+D2
+El camino continua al sur.
+~
+~
+0 -1 21118
+S
+#21118
+Camino Alerdedor de la Ciudad~
+Estas en un sucio camino que rodea la ciudad de Darkhaven. El camino
+sigue de norte a sur.
+~
+0 1048576 1
+D0
+El camino continua al norte.
+~
+~
+0 -1 21117
+D2
+El camino continua al sur.
+~
+~
+0 -1 21119
+S
+#21119
+Camino Alerdedor de la Ciudad~
+Estas en un sucio camino que rodea la ciudad de Darkhaven. El camino
+sigue por el norte y hacia el oeste.
+~
+0 1048576 1
+D0
+El camino continua al norte.
+~
+~
+0 -1 21118
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21120
+S
+#21120
+Camino Alerdedor de la Ciudad~
+Estas en un sucio camino que rodea la ciudad de Darkhaven. El camino
+sigue de este a oeste.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21119
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21121
+S
+#21121
+Camino Alerdedor de la Ciudad~
+Estas en un sucio camino que rodea la ciudad de Darkhaven. El camino
+sigue de este a oeste.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21120
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21122
+S
+#21122
+Camino Alerdedor de la Ciudad~
+Estas en un sucio camino que rodea la ciudad de Darkhaven. El camino
+sigue de este a oeste.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21121
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21123
+S
+#21123
+Camino Alerdedor de la Ciudad~
+Estas en un sucio camino que rodea la ciudad de Darkhaven. El camino
+sigue de este a oeste.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21122
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21124
+S
+#21124
+Camino Este de la Puerta Sur~
+Estas en un sucio camino justo al este de la puerta sur de la ciudad.
+Puedes oir el sonido de martillos golpeando madera hacia el sur. Mientras
+que el camino se extiende de este a oeste rodeando toda la ciudad.
+~
+0 1048576 1
+D1
+El camino continua al este.
+~
+~
+0 -1 21123
+D2
+El puerto esta hacia el sur.
+~
+~
+0 -1 21275
+D3
+El camino continua al oeste.
+~
+~
+0 -1 21075
+S
+#21125
+Un ensanchamiento~
+Hasllegado  a  un  ensanchamiento  en  el  callejon, la   sensacion  de
+claustrofobia es menor aqui. Al sur esta la Sala de  Quests  donde  los
+aventureros piden al QuestMan uno de los  numerosos  encargos  que  les
+puede pedir. Unas escaleras en forma de caracol cruzan la habitacion de
+arriba  abajo,  seria  interesante   que  echaras un  vistazo en  ambas
+direcciones. El camino estrecho sigue hacia el oeste.
+
+~
+0 263184 1
+D0
+Al norte queda la choza del usurero.
+~
+~
+3 -1 21143
+D1
+~
+~
+0 0 21070
+D2
+~
+~
+0 0 21130
+S
+#21126
+Fuera de la Torre de la Hechiceria~
+Verder arbustos cubren el camino de entrada ha la torre magica. Unas
+escaleras flotantes se elevan por la torre a traves de todos sus pisos.
+Este enorme monumento a la magia te embarga en una extranya sensacion.
+Hay rumores que solo los miembros del Gremio de los Magos pueden entrar
+dentro de este edificio.
+~
+0 3145732 1
+D0
+La Carretera del Crepusculo esta al norte.
+~
+~
+0 -1 21037
+D2
+La torre sigue hacia el sur.
+~
+~
+0 -1 21127
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Mages
+else
+mpechoat $n No puedes entrar en este gremio.
+mptransfer $n 21037
+endif
+~
+|
+S
+#21127
+Dentro de la Torre de la Hechiceria~
+Entras en el gran hall de la Torre de la Hechiceria. Los muros construidos
+con runas de obsidiana presiden esta sala cubierta entera de runas arcanas.
+Una runa circular cubierta de poderosas llamas esta situada en el centro de
+la habitacion. EL hall tiene salidas hacia el oeste, sureste y suroeste.
+Una biblioteca esta situada al oeste, y unas escaleras flotantes cubiertas
+de runas suben hacia arriba.
+~
+0 3145740 0
+D0
+El camino lleva hacia las calles de la ciudad.
+~
+~
+0 -1 21126
+D3
+Una inmensa biblioteca esta en el corredor al oeste de aqui.
+~
+~
+0 -1 21128
+D4
+Unas escaleras suben hacia arriba.
+~
+~
+0 -1 21131
+D8
+La Camara de la Meditacion esta al sureste.
+~
+~
+0 -1 21129
+D9
+Una camara cubierta de runas esta al suroeste.
+~
+~
+0 -1 21071
+S
+#21128
+La Biblioteca~
+Acabas de entrar en una enorme bibloteca, sabes la biblioteca del juego
+"Indiana Jones y la Ultima Cruzada", pues igual pero llena de libros de
+magia. La camara esta iluminada por una luz magica proveniente del techo.
+En el centro de esta biblioteca encuentras un podio hecho de oro, piedra
+y obsidina, en el cual hay un tomo magico, el cual es utilizado para que
+los miembros del gremio se comuniquen entre ellos. Hacia el este esta el
+hall de la Torre de la Hechiceria.
+~
+0 3145740 0
+D1
+Al este esta el hall del Gremio.
+~
+~
+0 -1 21127
+E
+tomo libro~
+Este tomo magico es el tablero del Gremio de los Magos.
+~
+S
+#21129
+La Camara de la Meditacion~
+Una fuerza magica te atrae al entrar en esta habitacion. Aqui es donde
+los magos practican sus diversos hechizos. Un poderoso altar situado en
+el centro de la camara sirve para canalizar los poderes de la magia hacia
+todos los miembros del gremio. Un sabio esta aqui estudiando como mejorar
+mas aun sus poderosos conjuros. Un corredor lleva de vuelta al hall de la
+torre.
+~
+0 3145740 0
+D7
+El corredor lleva de vuelta al hall.
+~
+~
+0 -1 21127
+S
+#21130
+La sala de Quests~
+Estas en la Sala de Quest, aqui vienen  los mas  grandes  guerreros  y
+los mas destacados personajes magicos y ocultos para aumentar su favor
+con los dioses. Por supesto hay una gran e IMPORTANTE nota que debeias
+leer atentamente. La unica salida esta al norte.
+~
+0 1040 0
+D0
+~
+~
+0 -1 21125
+E
+cartel nota senyal~
+&R(&G*&R)&Y Para pedir un quest al Questor teclea Quest.~
+S
+#21131
+Escalera Flotante~
+Te encuentras subiendo esta escalera flotante hecha de piedra. Solo ves
+escalones de piedra negros flotando uno sobre el otro conduciendote hacia
+arriba. El hall del gremio esta abajo, mientras que las escaleras siguen
+hacia arriba.
+~
+0 3145740 0
+D4
+Las escaleras siguen subiendo.
+~
+~
+0 -1 21132
+D5
+El hall esta hacia abajo.
+~
+~
+0 -1 21127
+S
+#21132
+Escalera Flotante~
+Te encuentras subiendo esta escalera flotante hecha de piedra. Solo ves
+escalones de piedra negros flotando uno sobre el otro conduciendote hacia
+arriba. El hall del gremio esta abajo, mientras que las escaleras siguen
+hacia arriba, donde esta la Corte Principal de magos del gremio.
+~
+0 3145740 0
+D4
+La Corte principal esta arriba.
+~
+~
+0 -1 21133
+D5
+Las escaleras bajan hasta el hall.
+~
+~
+0 -1 21131
+S
+#21133
+La Corte Principal~
+Estas en la Corte Principal de la Torre de los Magos, un enorme salon
+donde los miembros del Gremio de los Magos, independientemente del color
+de su tunica, discuten los topicos de su vida cotidiana. Los asientos
+estan hechos de marfil blanco, piedra gris o obsidiana negra, para cada
+uno de los miembros de las distintas cortes. En el centro hay situado un
+simple podio donde se situan los miembros para hablar. Tienes tres salidas
+de esta habitacion, una a cada una de las distintas cortes, la Blanca, la
+Negra y la Gris, mientras que unas escaleras bajan hacia el salon principal
+de la Torre de la Hechiceria.
+~
+0 3145740 0
+D0
+La Corte de los Tunicas Grises esta al norte.
+~
+~
+0 -1 21072
+D5
+Las escaleras que bajan hacia el hall.
+~
+~
+0 -1 21132
+D8
+La Corte de los Tunicas Negros esta al sureste.
+~
+~
+0 -1 21073
+D9
+La Corte de los Tunicas Blancos esta al suroeste.
+~
+~
+0 -1 21380
+S
+#21134
+Entrada de la Mansion Abandonada~
+Te encuentras en una enorme mansion abandonada. Es bastante antigua, y es
+una de las pocas posesiones que los vampiros han conseguido retener en su
+poder tras la gran guerra. Si supieras lo que te convenia hubieras salido
+de aqui YA. Unas escaleras se adentran en la mansion. mientras que hacia
+el sur puedes salir hacia la Avenida Malkavian.
+~
+0 3145740 0
+D2
+La puerta conduce fuera de la Mansion Abandonada.
+~
+~
+0 -1 21353
+D5
+Las escaleras se adentran en la mansion.
+~
+~
+0 -1 21135
+> entry_prog 100~
+mpasound El sonido de miles de murcielagos te pone los pelos de punta.
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Vampires
+else
+mea 0.$n No puedes entrar en este gremio..
+mptrans 0.$n 21023
+endif
+~
+|
+S
+#21135
+Cubil de los Vampiros~
+Has entrado en unas catacumbas justo debajo de la mansion, las cuales
+componen el Gremio de los Vampiros, uno de los mas temidos y odiados
+de la ciudad. Nuevas camaras han sido cavadas en el suelo, y numerosos
+cofres repletos de oro han sido transportados aqui abajo. Esto es todo
+lo que queda de la comunidad vampira, la misma comunidad que una vez
+estuvo al frente de esta ciudad y de muchos paises, pero que perdio la
+gran guerra contra los humanos, dominadores ahora del planeta entero.
+Hay salidas hacia el este, noreste, noroeste y sur, mientras que arriba
+esta la salida hacia la mansion.
+~
+0 3145736 0
+D1
+Una habitacion hacia el este.
+~
+~
+0 -1 21137
+D2
+Hacia el sur tienes una habitacion muy silenciosa.
+~
+~
+0 -1 21136
+D4
+Las escaleras vuelven arriba hacia la mansion.
+~
+~
+0 -1 21134
+D6
+Una habitacion cubierta de sangre hacia el noreste.
+~
+~
+0 -1 21138
+D7
+La Horda de los No-Muertos hacia el noroeste.
+~
+~
+0 -1 21139
+D8
+~
+~
+0 -1 21162
+S
+#21136
+Camara de Piedra~
+Esta camara de piedra esta completamente en silencio, sus muros estan
+cubiertos de runas secretas de los vampiros.  Un altar de obsidiana esta
+en el centro de la camara, donde esta cuidadosamente colocado un trozo de
+papel muy antiguo escrito con sangre. Aqui es donde los vampiros se pueden
+comunicar entre si. Hacia el norte esta la salida al cubil.
+~
+0 3145736 0
+D0
+El cubil esta al norte de aqui.
+~
+~
+0 -1 21135
+S
+#21137
+Camara de Disciplina~
+Estas en la Camara de Disciplina vampira, donde el maestro ensenya a los
+jovenes transformados como es la vida de un vampiro, y a comportarse como
+tales, ya que aunque los vampiros son aceptados en la sociedad humana,
+ellos jamas se someteran a unas leyes hechas por seres vivos. La salida de
+la camara esta hacia el oeste.
+~
+0 3145736 0
+D3
+A corridor leads back to the main hall.
+~
+~
+0 -1 21135
+S
+#21138
+Una habitacion cubierta de sangre~
+Has entrado en una habitacion cubierta de sangre. Esta habitacion es
+realmente aterradora, donde en el centro esta situada una especie de
+munyeca-demonio-humana llena de sangre, con la que suelen jugar los
+vampiros veteranos para matar el tiempo.
+~
+0 3145736 0
+D3
+Una gran habitacion cubierta de runas al oeste.
+~
+~
+0 -1 21139
+D9
+El corredor te devuelve hacia el cubil.
+~
+~
+0 -1 21135
+S
+#21139
+Hordas de los No-Muertos~
+Esta increiblemente larga camara es donde los vampiros guardan vivos a
+las presas que van a ser convertidas en vampiros, pero ahora mismo el
+Gremio de los Vampiros tiene muy dificil ampliarse, pues las leyes de
+los mismos vampiros impiden la entrada de nuevos miembros a no ser que
+esos miembros resulten ser de sangre pura o hayan demostrado su valia.
+El corredor del sureste lleva hacia el cubil y al este hay una pequenya
+y oscura camara.
+~
+0 3686408 0
+D1
+Una peqnueya y oscura camara.
+~
+~
+0 -1 21138
+D8
+El corredor te lleva de vuelta al cubil.
+~
+~
+0 -1 21135
+S
+#21140
+La parte mas al Oeste del ensanchamiento~
+Has llegado a la zona mas al Oeste del  ensanchamiento del callejon, al este
+quedan ya la Sala de Los Salubri y La sala de  Quests, todo  esta  lleno  de
+basura esparcida por el suelo pegada a los rodapies de piedra de las paredes
+Hacia el norte una pequenya calle te lleva a la pate vieja de la Ciudad.
+~
+0 1028 1
+> rand_prog 10~
+mpechoat $n Sientes un deseo incontrolable de explorar la parte antigua del a ciudad
+mpechoat $n aun sabiendo el riesgo que eso conlleva.~
+|
+S
+#21141
+El Gremio de los Ladrones~
+Estas en el hall de entrada al Gremio de los Ladrones. Solo los ladrones
+mas habiles pueden formar parte de este gremio, el cual lleva oculto a
+la guardia muchos anyos, desde que termino la gran guerra. Al este esta
+la sala de entrenamiento, al norte tienes otra sala y hacia el sur estas
+de vuelta al callejon.
+~
+0 3145740 0
+D0
+Una sala hacia el norte.
+~
+~
+0 -1 21144
+D1
+Al este esta la sala de entrenamiento.
+~
+~
+0 -1 21142
+D2
+El callejon esta al sur.
+~
+~
+0 -1 21064
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Thieves
+else
+mpechoat $n No puedes entrar en este gremio.
+mptrans 0.$n 21064
+endif
+~
+|
+S
+#21142
+El Arte del Provecho~
+Aqui es donde los jovenes ladrones aprender las artes del urto y asalto.
+El maestro ladron esta esperando ansioso para ensenyarte... pero vigila
+tu bolsa, nunca se sabe. La salida esta hacia el oeste de aqui.
+~
+0 3145736 0
+D3
+El hall esta al oeste.
+~
+~
+0 -1 21141
+S
+#21143
+La choza del Usurero~
+basura esparcida por el suelo pegada a los rodapies de piedra de las paredes
+Has entrado en la choza del usurero, un pekenyo y askeroso hombre que podra
+GUARDAR TUS MONEDAS para aliviarte de su peso en el viaje. Todo esta lleno de
+rusticos colchones por el suelo y parace que se desconoce el significado de la
+palabra orden entre estas cuatro paredes.
+~
+0 1028 1
+D2
+~
+~
+3 -1 21125
+> rand_prog 10~
+mpechoat $n Sientes un deseo incontrolable de explorar la parte antigua del a ciudad
+mpechoat $n aun sabiendo el riesgo que eso conlleva.~
+|
+S
+#21144
+Camara de la Fortuna~
+Esta tranquila habitacion es donde los ladrones dejan los items que no
+vayan a usar, pero que puedan servirles a otros ladrones. Hacia el este
+hay una silenciosa habitacion, mientras que para el sur esta el hall.
+~
+0 3145736 0
+D1
+En la habitacion de al lado se dejan notas para los companyeros ladrones.
+~
+~
+0 -1 21145
+D2
+El hall esta al sur.
+~
+~
+0 -1 21141
+S
+#21145
+Camara de las Sombras~
+Esta silenciosa y oscura habitacion es usada por los miembros de este
+gremio para comunicarse entre si. Hacia el oeste esta la salida hacia
+la Camara de la Fortuna.
+~
+0 3145736 0
+D3
+La Camara de la Fortuna esta al oeste.
+~
+~
+0 -1 21144
+S
+#21146
+El corredor central~
+Estas en el corredor central dentro de la posada. Tienes corredores que
+se extienden al este y al oeste llevando a habitaciones, mientras que al
+sur tienes una habitacion muy lujosa. Al norte hay una gran puerta que
+lleva de vuelta a la posada.
+~
+0 3145740 0
+D1
+Habitaciones al este.
+~
+~
+0 -1 21148
+D2
+Una habitacion lujosa al sur.
+~
+~
+3 -1 21147
+D3
+Al oeste hay mas habitaciones.
+~
+~
+0 -1 21155
+S
+#21147
+Una Habitacion Lujosa~
+Estas en una habitacion bastante lujosa. Un gran espejo de plata cuelga
+en la pared este, reflejandote al entrar. Las otras paredes estan llenas
+de cuadros y pinturas de un gran valos. Incluso la enorme cama que esta
+en el centro esta tallada a mano con una de las mejores maderas que hay.
+La salida esta al norte.
+~
+0 3146248 0
+D0
+A hallway in the inn is behind the door.
+~
+~
+3 -1 21146
+S
+#21148
+Corredor~
+Estas caminando a traves de uno de los corredores interiores de la posada.
+No hay nada que admirar, salvo un par de retratos de familia muy antiguos.
+Tienes salidas a habitaciones hacia el norte y sur, mientras que de este a
+oeste sigue el corredor.
+~
+0 3145740 0
+D0
+Una habitacion al norte.
+~
+~
+3 -1 21150
+D1
+El corredor sigue al este.
+~
+~
+0 -1 21151
+D2
+Una habitacion al sur.
+~
+~
+3 -1 21149
+D3
+El corredor sigue al oeste.
+~
+~
+0 -1 21146
+S
+#21149
+Habitacion Simple~
+Estas en una habitacion bastante simple y barata, donde hay poco mas que
+una cama. un pequenyo armario, una mesa y una silla. Por no tener no tiene
+ni ventanas. La unica salida es la puerta donde has entrado.
+~
+0 3146248 0
+D0
+El corredor esta al norte.
+~
+~
+3 -1 21148
+S
+#21150
+Habitacion Simple~
+Estas en una habitacion bastante simple y barata, donde hay poco mas que
+una cama. un pequenyo armario, una mesa y una silla. Por no tener no tiene
+ni ventanas. La unica salida es la puerta donde has entrado.
+~
+0 3146248 0
+D2
+El corredor al sur.
+~
+~
+3 -1 21148
+S
+#21151
+Corredor~
+Estas caminando a traves de uno de los corredores interiores de la posada.
+No hay nada que admirar, salvo un par de retratos de familia muy antiguos.
+Tienes salidas a habitaciones hacia el norte y sur, mientras al oeste esta
+el corredor de vuelta y al este esta la entrada a otra habitacion lujosa.
+~
+0 3145740 0
+D0
+Una habitacion al norte.
+~
+~
+3 -1 21152
+D1
+Una habitacion lujosa al este.
+~
+~
+3 -1 21154
+D2
+Una habitacion al sur.
+~
+~
+3 -1 21153
+D3
+El corredor sigue al oeste.
+~
+~
+0 -1 21148
+S
+#21152
+Habitacion Simple~
+Estas en una habitacion bastante simple y barata, donde hay poco mas que
+una cama. un pequenyo armario, una mesa y una silla. Por no tener no tiene
+ni ventanas. La unica salida es la puerta donde has entrado.
+~
+0 3146248 0
+D2
+El corredor al sur.
+~
+~
+3 -1 21151
+S
+#21153
+Habitacion Simple~
+Estas en una habitacion bastante simple y barata, donde hay poco mas que
+una cama. un pequenyo armario, una mesa y una silla. Por no tener no tiene
+ni ventanas. La unica salida es la puerta donde has entrado.
+~
+0 3146248 0
+D0
+El corredor al norte.
+~
+~
+3 -1 21151
+S
+#21154
+Una Habitacion Lujosa~
+Estas en una habitacion bastante lujosa. Un gran espejo de plata cuelga
+en la pared este, reflejandote al entrar. Las otras paredes estan llenas
+de cuadros y pinturas de un gran valos. Incluso la enorme cama que esta
+en el centro esta tallada a mano con una de las mejores maderas que hay.
+La salida esta al oeste.
+~
+0 3146248 0
+D3
+Al oeste esta el corredor.
+~
+~
+3 -1 21151
+S
+#21155
+Corredor~
+Estas caminando a traves de uno de los corredores interiores de la posada.
+No hay nada que admirar, salvo un par de retratos de familia muy antiguos.
+Tienes salidas a habitaciones hacia el norte y sur, mientras que de este a
+oeste se extiende el corredor.
+~
+0 3145740 0
+D0
+Una habitacion al norte.
+~
+~
+3 -1 21156
+D1
+El corredor continua al este.
+~
+~
+0 -1 21146
+D2
+Una habitacion al sur.
+~
+~
+3 -1 21157
+D3
+El corredor continua al oeste.
+~
+~
+0 -1 21159
+S
+#21156
+Habitacion Simple~
+Estas en una habitacion bastante simple y barata, donde hay poco mas que
+una cama. un pequenyo armario, una mesa y una silla. Por no tener no tiene
+ni ventanas. La unica salida es la puerta donde has entrado.
+~
+0 3146248 0
+D2
+El corredor esta al sur.
+~
+~
+3 -1 21155
+S
+#21157
+Habitacion Simple~
+Estas en una habitacion bastante simple y barata, donde hay poco mas que
+una cama. un pequenyo armario, una mesa y una silla. Por no tener no tiene
+ni ventanas. La unica salida es la puerta donde has entrado.
+~
+0 3146248 0
+D0
+El corredor esta al norte.
+~
+~
+3 -1 21155
+S
+#21158
+Habitacion Simple~
+Estas en una habitacion bastante simple y barata, donde hay poco mas que
+una cama. un pequenyo armario, una mesa y una silla. Por no tener no tiene
+ni ventanas. La unica salida es la puerta donde has entrado.
+~
+0 3146248 0
+D0
+El corredor esta al norte de aqui.
+~
+~
+3 -1 21159
+S
+#21159
+Corredor~
+Estas caminando a traves de uno de los corredores interiores de la posada.
+No hay nada que admirar, salvo un par de retratos de familia muy antiguos.
+Tienes salidas a habitaciones hacia el norte y sur, mientras al este esta
+el corredor de vuelta y al oeste esta la entrada a otra habitacion lujosa.
+~
+0 3145740 0
+D0
+Una habitacion al norte.
+~
+~
+3 -1 21160
+D1
+El corredor continua al este.
+~
+~
+0 -1 21155
+D2
+Una habitacion al sur.
+~
+~
+3 -1 21158
+D3
+Una habitacion lujosa al oeste.
+~
+~
+3 -1 21161
+S
+#21160
+Habitacion Simple~
+Estas en una habitacion bastante simple y barata, donde hay poco mas que
+una cama. un pequenyo armario, una mesa y una silla. Por no tener no tiene
+ni ventanas. La unica salida es la puerta donde has entrado.
+~
+0 3146248 0
+D2
+El corredor esta hacia el sur.
+~
+~
+3 -1 21159
+S
+#21161
+Una Habitacion Lujosa~
+Estas en una habitacion bastante lujosa. Un gran espejo de plata cuelga
+en la pared este, reflejandote al entrar. Las otras paredes estan llenas
+de cuadros y pinturas de un gran valos. Incluso la enorme cama que esta
+en el centro esta tallada a mano con una de las mejores maderas que hay.
+La salida esta al este.
+~
+0 3146248 0
+D1
+El corredor esta al este.
+~
+~
+3 -1 21159
+S
+#21162
+Una Oscura Habitacion Llena de Sangre~
+Acabas de entrar en una habitacion sin luz que ha adquirido el color
+rojo en las paredes de la cantidad de sangre que la cubre. Todo esta
+rodeado de sangre, y sonries al recordar tu ultimo festin. Justo en el
+centro de la habitacion hay una especie de cama donde han atado a una
+virgen para ti. La salida esta hacia el noroeste.
+~
+0 3145736 0
+D7
+~
+~
+0 -1 21135
+E
+virgen mujer~
+Al contemplar esta mujer te das cuenta que es preciosa. Es una joven de
+unos 17 o 18 anyos completamente desnuda y que ha sido violada y mordida
+por todos los vampiros que han pasado por aqui y que han querido. Pero no
+es tiempo de proporcinarte placer... deja estar a la muchacha y vete fuera
+del gremio a vivir tus propias experiencias.
+~
+S
+#21163
+Camino del Bosque~
+Este pequenyo camino del bosque es muy transitaqdo llenisimo siempre de
+carros y caballos. Es normal que el trafico aqui sea tan exagerado, pues
+es el unico camino para llegar hasta la catedral. La plaza de la ciudad
+esta hacia el sureste, mientras que el camino del bosque sigue hacia el
+oeste.
+~
+0 1048580 1
+D3
+el camino hacia la catedral sigue por aqui.
+~
+~
+0 -1 21165
+D8
+La plaza de la ciudad al sureste.
+~
+~
+0 -1 21000
+S
+#21165
+Camino del Bosque~
+Este pequenyo camino del bosque es muy transitaqdo llenisimo siempre de
+carros y caballos. Encuentras normal que el trafico sean tan exagerado,
+pues es el unico camino para llegar hasta la catedral. El camino del
+bosque sigue de este a oeste.
+~
+0 1048580 1
+D1
+La plaza de la ciudad esta hacia el este.
+~
+~
+0 -1 21163
+D3
+El camino sigue hacia la catedral.
+~
+~
+0 -1 21166
+S
+#21166
+Un Cruce en el Camino~
+El camino aqui se bifurca en tres direcciones, al norte llevando hacia
+la catedral, al este de vuelta por el camino hacia la plaza, y hacia el
+oeste, llevando hacia algunos de los gremios de la ciudad.
+~
+0 1048580 1
+D0
+El camino hacia la catedral sigue al norte.
+~
+~
+0 -1 21167
+D1
+El camino hacia la plaza de la ciudad.
+~
+~
+0 -1 21165
+D3
+El camino sigue al oeste.
+~
+~
+0 -1 21185
+S
+#21167
+Fuera de la Catedral~
+La catedral, en la cual estan el sacerdote y la sacerdotisa de la ciudad,
+esta justo ante ti. El camino hacia el norte te lleva dentro y el camino
+hacia el sur te lleva a un cruce.
+~
+0 1048580 3
+D0
+La catedral esta al norte de aqui.
+~
+~
+0 -1 21168
+D2
+Un cruce en el camino del bosque hacia el sur.
+~
+~
+0 -1 21166
+S
+#21168
+Entrada a la Catedral~
+Estas en la entrada de la Catedral. Un pasillo al norte lleva hacia el
+altar de la catedral. Al este y al oeste hay dos corredores que llevan
+hacia el Gremio de los Clerigos, mientras que al sur esta la salida de
+la Catedral.
+~
+0 1048588 0
+D0
+El altar hacia el norte.
+~
+~
+0 -1 21181
+D1
+El Gremio de los Clerigos al este.
+~
+~
+0 -1 21170
+D2
+La salida de la Catedral hacia el sur.
+~
+~
+0 -1 21167
+D3
+El Gremio de los Clerigos hacia el oeste.
+~
+~
+0 -1 21177
+S
+#21170
+El Gremio de los Clerigos~
+Acabas de entrar en el hall este del Gremio de los Clerigos, una gremio
+dedicado al arte de la curacion y proteccion mediante la fe. Puedes ver
+unas pinturas decorando las paredes del hall, mientras que una alfombra
+roja se extiende de este a oeste y de norte a sur, hacia las salidas de
+esta habitacion.
+~
+0 3145740 0
+D0
+La Camara de Meditacion esta al norte.
+~
+~
+0 -1 21171
+D1
+El Altar de la Maldad esta hacia el este.
+~
+~
+0 -1 21176
+D2
+Un largo corredor llega a una silenciosa habitacion.
+~
+~
+0 -1 21172
+D3
+La entrada al hall este esta aqui.
+~
+~
+0 -1 21168
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Clerics
+else
+mea 0.$n No puedes entrar en este gremio.
+mptrans 0.$n 21168
+endif
+~
+|
+S
+#21171
+Camara de Meditacion~
+En esta camara circular los clerigos aprender las artes de la curacion
+y la proteccion de mano del padre del gremio. Todos los nuevos adeptos
+pueden venir aqui para aprender de este poderoso clerigo, del que se
+dice que tiene cientos de anyos.
+~
+0 3145740 0
+D2
+El corredor lleva de vuelta al hall este.
+~
+~
+0 -1 21170
+S
+#21172
+Camara de las Escrituras~
+Has entrado en una silenciosa habitacion. Un altar solitario preside la
+camara, en la cual descansa un tomo antiguo, que es la forma que tienen
+los clerigos de comunicarse entre si. La salida al hall esta hacia el
+norte.
+~
+0 3145740 0
+D0
+El corredor lleva de vuelta al hall del este.
+~
+~
+0 -1 21170
+S
+#21174
+Noticias Publicas~
+Aqui es donde los ciudadanos de la ciudad vienen a leer la informacion
+del comercio acerca de los eventos que se producen. Una tabla grande
+persiste a lo lejos en la pared, la cual sirve para llevar la palabra
+a la gente vulgar de boca en boca. La gente lee las notas casi ocultos
+en esta atmosfera de silencio.
+~
+0 1377292 0
+D1
+El altar de la catedral esta al este.
+~
+~
+1 -1 21194
+S
+#21176
+El Altar de la Maldad~
+Estas en el llamado Altar de la Maldad. Nadie sabe muy bien que es, ni
+nadie sabie muy bien que hace este altar maldito. Lo unico que se sabe
+es lo que dijo una vez el padre del gremio: "Este Altar ha sido enviado
+desde el infierno para proteger a los hijos del demonio". Yo de ti no me
+quedaria mucho tiempo en esta habitacion. La salida hacia el hall esta al
+oeste de aqui.
+~
+0 3145740 0
+D3
+El hall este esta siguiendo este corredor.
+~
+~
+0 -1 21170
+> rand_prog 50~
+if isimmort($n)
+else
+if isgood($n)
+mpdamage $n 1
+else
+mpforce $n muhaha
+c heal $n
+endif
+endif~
+> rand_prog 50~
+if isimmort($n)
+else
+if isgood($n)
+mpdamage $n 1
+else
+mpforce $n dester
+c bless $n
+endif
+endif
+~
+|
+S
+#21177
+El Gremio de los Clerigos~
+Acabas de entrar en el hall oeste del Gremio de los Clerigos, una gremio
+dedicado al arte de la curacion y proteccion mediante la fe. Puedes ver
+unas pinturas decorando las paredes del hall, mientras que una alfombra
+roja se extiende de este a oeste y hacia el norte, hacia las salidas de
+esta habitacion.
+~
+0 3145740 0
+D0
+La Camara de las Doanciones esta al norte.
+~
+~
+0 -1 21178
+D1
+La entrada a la catedral esta al este de aqui.
+~
+~
+0 -1 21168
+D3
+El Altar de la Bondad esta al oeste de aqui.
+~
+~
+0 -1 21180
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Clerics
+else
+mea 0.$n No puedes entrar en este gremio.
+mptrans 0.$n 21168
+endif
+~
+|
+S
+#21178
+La Camara de las Donaciones~
+Esta amplia camara es donde los clerigos del gremio dejan los objetos que
+no vayan a utilizar a otros miembros del gremio. El gremio de los clerigos
+se distingue por la fraternidad entre sus miembros, y esta es otra prueba
+de ello. La salida esta hacia el sur.
+~
+0 3686412 0
+D2
+El corredor lleva hasta el hall oeste del gremio.
+~
+~
+0 -1 21177
+S
+#21180
+El Altar de la Bondad~
+Estas en el llamado Altar de la Bondad. Nadie sabe muy bien que es, ni
+nadie sabie muy bien que hace este altar bendito. Lo unico que se sabe
+es lo que dijo una vez el padre del gremio: "Este Altar ha sido enviado
+desde el cielo para proteger a los hijos de dios". Yo de ti no me
+quedaria mucho tiempo en esta habitacion si no tienes el alma pura.
+La salida hacia el hall esta al este de aqui.
+~
+0 3145740 0
+D1
+El hall oeste esta al finalizar el corredor.
+~
+~
+0 -1 21177
+> rand_prog 50~
+if isimmort($n)
+else
+if isevil($n)
+mpdamage $n 1
+else
+mpforce $n sonreir
+c heal $n
+endif
+endif~
+> rand_prog 50~
+if isimmort($n)
+else
+if isevil($n)
+mpdamage $n 1
+else
+mpforce $n reir
+c bless $n
+endif
+endif
+~
+|
+S
+#21181
+Dentro de la Catedral~
+Caminando por abajo el pasillo lleva al altar de la Catedral, a esta
+Iglesia le sonrie la belleza. Filas de bancos estan a tu izquierda y
+derecha, llenos de ciudadanos pagando sus deudad a los Dioses con sus
+oraciones. Dos entradas en forma de arco llevan al norte, a las camaras
+de donaciones, mientras la entrada de la Catedral queda al sur.
+~
+0 1048588 0
+D0
+El corredor lleva hasta el altar.
+~
+~
+0 -1 21182
+D2
+El corredor lleva hasta la entrada de la catedral.
+~
+~
+0 -1 21168
+S
+#21182
+Dentro de la Catedral~
+Estas en el pasillo que lleva al altar de la catedral. Se oye una melodia
+serena flotando en el aire. Dos grandes entradas en forma de arco quedan
+al este y al oeste, que abren las camaras de donaciones. Los bancos de la
+Iglesia estan al sur mientras el mismo altar queda al norte. Puedes ver un
+pequenyo letrero en una de las columnas.
+~
+0 3407884 0
+D0
+El Altar esta al norte.
+~
+~
+16777216 -1 21194
+D1
+Una camara de donaciones esta al este.
+~
+~
+0 -1 21192
+D2
+Hacia el sur esta la entrada de la catedral.
+~
+~
+0 -1 21181
+D3
+Una camara de donaciones esta hacia el oeste.
+~
+~
+0 -1 21193
+E
+senyal cartel letrero~
+Norte - El Altar
+Este  - Donaciones
+Sur   - Hacia la plaza de la ciudad
+Oeste - Donaciones
+~
+S
+#21185
+Un Camino del Bosque~
+Este pequenyo camino del bosque es muy transitaqdo llenisimo siempre de
+carros y caballos. Encuentras normal que el trafico sea tan exagerado,
+pues es el unico camino para llegar hasta la catedral. La plaza de la
+ciudad esta hacia el sureste, mientras que el camino del bosque sigue
+hacia el oeste.
+~
+0 1048580 1
+D0
+Este camino lleva al gremio de los Psionistas.
+~
+~
+0 -1 21435
+D1
+Un cruce al este.
+~
+~
+0 -1 21166
+D9
+Un claro hacia el suroeste.
+~
+~
+0 -1 21186
+S
+#21186
+Un Claro en el Bosque~
+Te encuentras en un claro en el bosque muy cerca de la catedral. Aqui ves
+los restos del antiguo templo de la ciudad, con estatuas dedicadas a los
+dioses de las tinieblas. Unas escaleras conducen aqui hacia el Gremio de
+los Druidas, mientras que el camino del noreste vuelve por el bosque hacia
+la Catedral.
+~
+0 3145732 1
+D5
+El Gremio de los Druidad esta aqui abajo.
+~
+~
+0 -1 21187
+D6
+El camino del bosque sigue hacia el noreste.
+~
+~
+0 -1 21185
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Druids
+else
+mea 0.$n No puedes entrar en este gremio.
+mptrans 0.$n 21185
+endif
+~
+|
+S
+#21187
+El Gremio de los Druidas~
+El antiguo templo ha sido reconstruido para convertirse en el Gremio de
+los Druidas. Las paredes del templo estan cubiertas de plantas, plantas
+que salen por las grietas de las paredes del antiguo templo. Aqui en el
+centro de la habitacion, tienes una mesa redonda rodeada de sillas, que
+estan hechas de una materia que parece organica. Tres corredores salen
+hacia el norte, el sur, y el oeste, mientras que hacia arriba estan de
+vuelta fuera del gremio.
+~
+0 3145740 0
+D0
+Una gran habitacion esta al norte de aqui.
+~
+~
+0 -1 21188
+D2
+Una habitacion de entrenamiento al sur.
+~
+~
+0 -1 21190
+D3
+Una silenciosa habitacion hacia el oeste de aqui.
+~
+~
+0 -1 21191
+D4
+Unas escaleras te conducen a la salida del templo.
+~
+~
+0 -1 21186
+S
+#21188
+Una Espaciosa Habitacion~
+Esta espaciosa habitaciones donde los miembros del gremio dejan las cosas
+que no vayan a usar, para que puedan utilizarlas otros. Puedes ver equipo,
+armaduras, pergaminos, libros y varas y varitas tirados por aqui. Hacia el
+sur tienes la salida de esta habitacion.
+~
+0 3686412 0
+D2
+El hall esta al sur.
+~
+~
+0 -1 21187
+S
+#21190
+La Tradicion Druida~
+Aqui es donde la entrenadora druida ensenya a los miebros del gremio las
+artes magicas de los druidas, basando su poder en la naturaleza. Hacia el
+norte tienes un corredor que lleva de vuelta al hall del gremio.
+~
+0 3145740 0
+D0
+A corridor leads back to the guild's main hall.
+~
+~
+0 -1 21187
+S
+#21191
+Una Habitacion Silenciosa~
+Esta extranya habitacion estaria completamente vacia sino fuera por un
+tomo de un color verdoso, el cual parece tener vida propia. Los miembros
+del gremio usan ese tomo para poder comunicarse entre si. La salida de la
+habitacion esta al este.
+~
+0 3146252 0
+D1
+El hall esta hacia el este.
+~
+~
+0 -1 21187
+S
+#21192
+Sala de Donaciones secundaria~
+Esta pequenya camara es donde esos corazones caritativos dejan atras
+articulos de uso a otros aventureros. Los sacerdotes y sacerdotisas de
+la catedral no perdonan a esos quienes salen con aramduras y armas de
+aqui de cualquier modo como se les reserva en la camara lejana del oeste.
+~
+0 1851404 0
+D3
+Un corredor se extiende al oeste de aqui.
+~
+~
+0 -1 21182
+S
+#21193
+Habitacion de donaciones~
+En esta camara pequenya es donde esos corazones caritativos dejan
+atras las armas y pedazos de armaduras por otras. Los sacerdotes y
+sacerdotisas de la catedral no perdonan a esos quienes salen sin
+tirar articulos aqui como se le reserva por el cuarto a lo lejos
+al este.
+~
+0 1851404 0
+D1
+Un corredor va hacia el este de aqui.
+~
+~
+0 -1 21182
+S
+#21194
+El Altar de la Catedral~
+Estas ante el altar de la catedral.Los enfermos y los pobres vienen
+aqui a menudo para orar a su Dios. Un pasillo lleva al sur de la
+catedral, mientras al oeste hay un tablero bastante grande.
+~
+0 1319944 0
+D0
+El deposito de cadaveres.
+~
+~
+0 0 21199
+D2
+The walkway leads back to the pews.
+~
+~
+0 -1 21182
+D3
+The public board room of Darkhaven lies to the west.
+~
+~
+0 -1 21174
+S
+#21199
+El Deposito de Cadaveres~
+Estas en el deposito de cadaveres. Aqui es donde tu cuerpo aparecera
+cuando mueras. Da gracias a la bondad de los dioses por haber creado
+este lugar.
+~
+0 1049604 0
+D2
+El altar esta hacia el sur.
+~
+~
+0 0 21194
+S
+#21200
+Camino del Bosque~
+Sigues caminando a traves del bosque. El camino sigue hacia el noreste,
+mientras al suroeste vuelves hacia la plaza de la ciudad.
+~
+0 1048580 1
+D6
+El camino se dirige al noreste.
+~
+~
+0 -1 21201
+D9
+La plaza de la ciudad esta hacia el suroeste de aqui.
+~
+~
+0 -1 21000
+S
+#21201
+Camino del Bosque~
+Sigues atravesando el bosque por este camino. Hacia el este el camino
+sigue y puedes ver una colina a lo lejos, mientras que al suroeste el
+camino vuelve hacia la plaza de la ciudad.
+~
+0 1048580 1
+D1
+El camino sigue al este.
+~
+~
+0 -1 21202
+D9
+El camino que lleva hacia la plaza de la ciudad esta al suroeste.
+~
+~
+0 -1 21200
+S
+#21202
+Camino del Bosque~
+Sigues atravesando el bosque por este camino. Hacia el noreste el camino
+sigue y puedes ver una colina a lo lejos, mientras que al oeste el camino
+vuelve hacia la plaza de la ciudad.
+~
+0 1048580 1
+D3
+La plaza esta al oeste de aqui.
+~
+~
+0 -1 21201
+D6
+El camino sigue al noreste.
+~
+~
+0 -1 21204
+S
+#21204
+Cruce en el camino~
+Has llegado a un cruce en el camino que atraviesa el bosque. Puedes ver
+salidas hacia el este y el norte, mientras que al suroeste vuelves por el
+camino hacia la plaza. Hay un cartel en el suelo.
+~
+0 1048580 1
+D0
+Hacia el Gremio de los Guerreros.
+~
+~
+0 -1 21233
+D1
+El Gremio de los Rangers esta al este.
+~
+~
+0 -1 21205
+D9
+El camino lleva hacia la ciudad.
+~
+~
+0 -1 21202
+E
+senyal letrero cartel~
+El cartel dice:
+  Norte: El Gremio de los Guerreros
+  Suroeste: La plaza de la ciudad
+  Este: Gremio de los Rangers
+~
+S
+#21205
+Camino del Bosque~
+El camino es mucho mas estrecho que el del oeste. Solo los rangers mas
+expertos podran atravesar este camino. Tienes un cruce al oeste, mientras
+que hacia el sureste sigue el dificultoso camino hacia una colina.
+~
+0 1048580 1
+D3
+Un cruce al oeste de aqui.
+~
+~
+0 -1 21204
+D8
+Una colina al sureste.
+~
+~
+0 -1 21207
+S
+#21207
+Ante la Colina~
+Estas ante la colina, no sabes ni como has llegado hasta aqui pero estas
+realmente agotado. El camino sigue hacia arriba, aunque sin ser un ranger
+las esperanzas de poder llegar son nulas.
+~
+0 1048580 1
+D4
+El Gremio de los Rangers esta hacia arriba.
+~
+~
+0 -1 21208
+D7
+El camino sigue al noroeste.
+~
+~
+0 -1 21205
+S
+#21208
+El Gremio de los Rangers~
+Has llegado a la cima de la colina. Escalable solo por rangers, aqui es
+donde empieza su gremio, el Gremio de los Rangers. Tienes salidas al este
+al noreste y hacia el sur, mientras que bajando vuelves al camino.
+~
+0 3145732 1
+D1
+El camino sigue al este.
+~
+~
+0 -1 21210
+D2
+Al sur ves un edificio.
+~
+~
+0 -1 21212
+D5
+El camino esta muy abajo de aqui.
+~
+~
+0 -1 21207
+D6
+Una zona de practicas esta al noreste.
+~
+~
+0 -1 21213
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Rangers
+else
+mea 0.$n No puedes entrar aqui.
+mptrans 0.$n 21207
+endif
+~
+|
+S
+#21210
+El Claro de las Donaciones~
+Este enorme claro es donde los rangers dejan su equipo que no vayan a
+usar para otros rangers. Coge lo que quieras tranquilamente, todo queda
+en el gremio.
+~
+0 3686404 1
+D3
+Al oeste tienes el principo de este gremio.
+~
+~
+0 -1 21208
+S
+#21212
+Un Edificio Silencioso~
+En este extranyo edificio es donde los miembros del gremio se comunican
+entre ellos mismos. Puedes ver el tablero aqui, deja o lee las notas que
+quieras.
+~
+0 3211276 0
+D0
+El principio del gremio al norte.
+~
+~
+0 -1 21208
+S
+#21213
+Area de Practicas~
+Estas en el area de practicas del gremio, aqui puedes ver al power ranger
+verde que te ensenyara todo lo que necesites saber :)=. La salida esta por
+el suroeste.
+~
+0 3145732 1
+D9
+El principio del gremio al suroeste.
+~
+~
+0 -1 21208
+S
+#21233
+Tunel de Piedra~
+Entras en un oscuro y largo tunel que va de norte a sur hacia el Gremio
+de los Guerreros, una serie de estructuras situadas al final del tunel.
+Al norte tienes el principio del gremio y hacia el sur estas de vuelta
+por el tunel. Puedes ver una placa al final del tunel.
+~
+0 1048588 0
+D0
+El Gremio de los Guerreros esta al norte.
+~
+~
+0 -1 21236
+D2
+Un cruce hacia el sur.
+~
+~
+0 -1 21204
+E
+placa~
+La placa dice:
+ El Gremio de los Guerreros: deja a nuestras espadas hacer el trabajo.
+~
+S
+#21236
+El Gremio de los Guerreros~
+Estas en una larga estructura de piedra cuyas casas componen el Gremio
+de los Guerreros. Pinturas de batallas, heroismo y poder fisico adornan
+las paredes de esta construccion. Tienes salidas hacia el este y hacia
+el norte, mientras que al sur sales de vuelta por el tunel.
+~
+0 3145740 0
+D0
+Una habitacion enorme al norte.
+~
+~
+0 -1 21240
+D1
+Una enorme sala al este.
+~
+~
+0 -1 21237
+D2
+El tunel sale al sur de aqui.
+~
+~
+0 -1 21233
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Warriors
+else
+mea 0.$n No puedes entrar en este gremio.
+mptransfer 0.$n 21233
+endif
+~
+|
+S
+#21237
+El Ring de Entrenamiento~
+Un ring de acero preside esta habitacion. Los guerrero iniciados pueden
+aqui entrenar en el arte de la guerra con el maestro guerrero, sin duda
+uno de los mejores guerreros que existen hoy en el mundo. Hacia el norte
+hay una esquina reservada para notas importantes, mientras que al oeste
+estas de vuelta al principio del gremio.
+~
+0 3145740 0
+D0
+Una silenciosa esquina esta al norte de aqui.
+~
+~
+0 -1 21239
+D3
+El hall del gremio esta al oeste de aqui.
+~
+~
+0 -1 21236
+S
+#21239
+Una Silenciosa Esquina~
+Esta esquina silenciosa en el hall es donde los guerreros vienen a dejar
+sus anuncios importantes para los otros guerreros del gremio. Hacia el sur
+esta el Ring, mientras que al oeste tienes un enorme almacen.
+~
+0 3145740 0
+D2
+Puedes ver un ring hacia el sur.
+~
+~
+0 -1 21237
+D3
+Un almacen al oeste.
+~
+~
+0 -1 21240
+S
+#21240
+Almacen de Armas~
+Aqui es donde los guerreros dejan las armas y armaduras que ya no usan
+para los otros miembros del gremio. El hall esta hacia el sur. Hay una
+placa en uno de los lados del almacen.
+~
+0 3686412 0
+D1
+Una silencisa esquina esta al este de aqui.
+~
+~
+0 -1 21239
+D2
+El hall esta al sur de aqui.
+~
+~
+0 -1 21236
+E
+placa~
+La placa dice:
+ Coge lo que necesites, ni mas, ni menos.
+~
+S
+#21275
+El Puerto~
+Estas en el puerto de la ciudad. Aqui puedes ver un marinero vendiendo
+barcos. Ves como el rio se adentra hacia el sur.
+~
+0 1048588 0
+D0
+El camino alrededor de la ciudad esta al sur.
+~
+~
+0 -1 21124
+D2
+Hacia el sur esta el rio.
+~
+~
+0 -1 21297
+S
+#21280
+Entrada a la Academia~
+Estas en la entrada de la academia de nuevos jugadores. Hacia abajo ves
+unas muy largas escaleras bajar hacia la estructura subterranea, la cual
+tiene la responsabilidad de entrenar a los jovenes aventureros del mundo.
+Hacia el este tienes una tienda especializada en articulos para novatos,
+mientras que hacia el norte ves la Carretera del Crepusculo.
+~
+0 1048580 1
+D0
+La Carretera del Crepusculo se va hacia el norte.
+~
+~
+0 -1 21038
+D1
+Una tienda al este.
+~
+~
+0 -1 21295
+D5
+~
+~
+16777216 -1 10300
+> leave_prog 100~
+if isimmort($n)
+else
+mpforce $n vis
+endif
+~
+|
+S
+#21290
+Las Ruinas~
+Has llegado hasta lo que son las ruinas a las afueras de la ciudad. Lo
+que antanyo fue una carretera muy transitada ahora se ha convertido en
+un camino deshabitado y siniestro. El camino continua hacia el este y
+hacia el norte tienes el puente.
+~
+0 1048576 2
+D0
+El puente esta al norte.
+~
+~
+0 -1 21296
+D1
+El resto de las ruinas estan al este de aqui.
+~
+~
+0 -1 21291
+S
+#21291
+Las Ruinas~
+Has llegado hasta lo que son las ruinas a las afueras de la ciudad. Lo
+que antanyo fue una carretera muy transitada ahora se ha convertido en
+un camino deshabitado y siniestro. El camino continua de este a oeste,
+al sur tienes el antiguo cementerio de la ciudad , mientras que hacia
+arriba sube una enorme cadena.
+~
+0 1048576 2
+D1
+Ves un viejo arbol al este.
+~
+~
+0 -1 21292
+D2
+La entrada al cementerio esta hacia el sur.
+~
+~
+0 -1 21293
+D3
+El camino sigue al oeste hacia el puente.
+~
+~
+0 -1 21290
+D4
+La cadena sube y se pierde entre las nubes.
+~
+~
+0 -1 7914
+S
+#21292
+Cerca del Viejo Arbol~
+Estas caminando a traves de la carretera antigua que sale del puente.
+Hacia el este puedes ver unas construcciones edificadas por duendes y
+hadas, mientras que al oeste esta el camino que lleva al puente.
+~
+0 1048576 2
+D1
+Puedes ver un viejo arbol y unas construcciones faericas hacia el este.
+~
+~
+0 -1 21294
+D3
+El camino sigue al oeste.
+~
+~
+0 -1 21291
+S
+#21293
+Entrada al Cementerio~
+Estas justo fuera del cementerio antiguo de la ciudad, no entiendes como
+aun sigue existiendo, ya que todos los alrededores estan abandonados y
+son bastantes siniestros. Un camino entra al sur hacia el cementerio, y
+al norte estas de vuelta al camino que lleva al puente.
+~
+0 1048580 2
+D0
+El camino esta hacia el norte.
+~
+~
+0 -1 21291
+D2
+Dentro del cementerio...
+~
+gate~
+1 -1 3600
+S
+#21294
+El Arbol Antiguo~
+Estas justo en frente del Arbol mas Antiguo que conoce la civilizacion,
+un arbol que protege los edificios de las hadas y duendes con unas runas
+magicas de proteccion, unas runas que nadie jamas ha podido atravesar, y
+que son mas antiguas que todo lo conocido hasta el momento. Ves hacia el
+oeste el camino que lleva al puente.
+~
+0 1048576 2
+D3
+El camino del puente esta hacia el oeste.
+~
+~
+0 -1 21292
+S
+#21295
+Tienda Para Aventureros Novatos~
+Aqui puedes encontrar recipientes de agua, antorchas y raciones de pan u
+otras comidas para viajar; basicamente lo que un aventurero novato debe
+llevar para empezar sus aventuras. Al oeste puedes ver la entrada hacia
+la academia de novatos.
+~
+0 1048588 0
+D3
+La entrada a la academia esta al oeste.
+~
+~
+0 -1 21280
+S
+#21296
+Cruzando el Puente~
+Estas atravesando el puente que lleva hacia unas ruinas situadas en las
+afueras de la ciudad, a un camino que lleva hacia el arbol mas antiguo
+de la tierra, un extranyo arbol magico, y tambien a un camino que lleva
+al antiguo cementerio de la ciudad.
+~
+0 1048580 2
+D0
+La carretera sigue al norte.
+~
+~
+0 -1 21081
+D2
+Las ruinas estan hacia el sur.
+~
+~
+0 -1 21290
+S
+#21297
+El Rio~
+Te encuentras recorriendo el rio de la ciudad, el cual esta situado al
+sur del puerto. Hacia el norte estas de vuelta al puerto mientras que
+el rio continua de este a oeste.
+~
+0 1048580 7
+D0
+El puerto esta hacia el norte.
+~
+~
+0 -1 21275
+D3
+El rio sigue al oeste.
+~
+~
+0 -1 21300
+D8
+El rio continua en esta direccion.
+~
+~
+0 -1 21298
+S
+#21298
+El Rio~
+Te encuentras recorriendo el rio de la ciudad, el cual esta situado al
+sur del puerto. El rio continua de este a oeste.
+~
+0 1048580 7
+D1
+El rio sigue al este.
+~
+~
+0 -1 21299
+D7
+El rio va para el noroeste.
+~
+~
+0 -1 21297
+S
+#21299
+El Rio~
+Llegas hasta una cascada donde nace el rio del interior de las rocas que
+tienes en las montanyas del este. La unica salida es hacia el oeste.
+~
+0 1048580 7
+D3
+El rio sigue al oeste.
+~
+~
+0 -1 21298
+S
+#21300
+El Rio~
+El rio aqui parece ir mas rapido que por el este. Desde aqui puedes ver
+hacia el oeste el puente sur, mientras que al este tienes el puerto.
+~
+0 1048580 7
+D1
+Ve un canal artificial que conecta el rio con el puerto de la ciudad.
+~
+~
+0 -1 21297
+D3
+El rio sigue hacia el puente sur.
+~
+~
+0 -1 21301
+S
+#21301
+Bajo el Puente Sur~
+Estas justo debajo del puente sur. Aqui puedes ver una placa que data
+de hace eones, durante la guerra de los dioses. El rio continua al este
+y al oeste.
+~
+0 1409028 7
+D1
+El rio sigue al este.
+~
+~
+0 -1 21300
+D3
+El rio sigue hacia el oeste.
+~
+~
+0 -1 21302
+E
+placa~
+La placa dice:
+  Fuerte es quien puede luchar contra mi,
+  Sabio es quien puede temerme,
+  Habil es quien puede evitar mi ataque,
+  Rapido es quien puede verme atacar,
+  Afortunado es quien puede escapar de mi,
+  El resto estais muertos, no sois ni enemigos.
+
+-Kayser, Julio 2000
+ ~
+S
+#21302
+El Rio~
+Las aguas aqui son bastante rapidas, forzandote a ir con mucho cuidado.
+El rio continua al este y al oeste.
+~
+0 1048580 7
+D1
+El rio continua al este.
+~
+~
+0 -1 21301
+D3
+El rio sigue al oeste.
+~
+~
+0 -1 21303
+S
+#21303
+Bajo El Puente~
+Sigues por el rio hacia el oeste. El rio aqui es donde se une con el Mar
+del Caos, asi que la unica salida que ves es hacia el este.
+~
+0 1048580 7
+D1
+El rio sigue al este.
+~
+~
+0 -1 21302
+E
+gruta~
+Construida justo debajo del puente,  parece que hay una gruta bastante
+vieja. Aunque parece estar cerrada, te preguntas si podrias abrirla.
+~
+> leave_prog 100~
+cerrar gruta
+~
+|
+S
+#21307
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048580 1
+D0
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21308
+D1
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21311
+D5
+La salida hacia la calle esta hacia abajo.
+~
+~
+0 -1 21024
+S
+#21308
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D0
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21309
+D2
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21307
+S
+#21309
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D2
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21308
+S
+#21311
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D1
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21312
+D3
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21307
+S
+#21312
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D3
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21311
+S
+#21314
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048580 1
+D0
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21315
+D3
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21318
+D5
+Las escaleras conducen hacia la calle.
+~
+~
+0 -1 21016
+S
+#21315
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D0
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21316
+D2
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21314
+S
+#21316
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D2
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21315
+S
+#21318
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D1
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21314
+D3
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21319
+S
+#21319
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D1
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21318
+S
+#21321
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048580 1
+D2
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21323
+D3
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21326
+D5
+Los barracones salen hacia la calle en esta direccion.
+~
+~
+0 -1 21008
+S
+#21322
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 0 1
+D0
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21321
+D2
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21323
+S
+#21323
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D0
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21321
+D2
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21324
+S
+#21324
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D0
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21323
+S
+#21325
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 0 1
+D1
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21321
+D3
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21326
+S
+#21326
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D1
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21321
+D3
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21327
+S
+#21327
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D1
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21326
+S
+#21328
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048580 1
+D1
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21329
+D2
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21332
+D5
+Los barracones salen a la calle hacia abajo.
+~
+~
+0 -1 21032
+S
+#21329
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D1
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21330
+D3
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21328
+S
+#21330
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D3
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21329
+S
+#21332
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D0
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21328
+D2
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21333
+S
+#21333
+Los Barracones~
+Estas en los barracones de la guardia de la ciudad. Aqui es donde los
+guardias vigilan desde las torres las distintas salidas de la ciudad,
+como tambien las murallas y zonas cercanas.
+~
+0 1048576 1
+D0
+Los barracones continuan en esta direccion.
+~
+~
+0 -1 21332
+S
+#21335
+El Bloodstains~
+Entras en un bar llamado el Bloodstains. Aqui puedes encontrar muy pocas
+cosas, ya que es un bar frecuentado por los ninyos al salir de clase. La
+salida hacia la calle esta al norte de aqui.
+~
+0 1049608 0
+D0
+La salida a la calle esta al norte de aqui.
+~
+~
+0 -1 21039
+S
+#21337
+En el Aire~
+Estas flotando en el aire por encima de la ciudad.
+~
+0 1048580 9
+D4
+El aire sigue arriba.
+~
+~
+0 -1 21338
+D5
+La plaza esta abajo.
+~
+~
+0 -1 21000
+S
+#21338
+En el Aire~
+Estas flotando en el aire. Un arcoiris sube hacia arriba.
+~
+0 1048580 9
+D4
+Un arco iris esta hacia arriba.
+~
+~
+0 -1 800
+D5
+La plaza cae hacia abajo.
+~
+~
+0 -1 21337
+S
+#21339
+La tienda de Mascotas~
+Estas en la tienda de animales de la ciudad. Aqui podras comprar varios
+tipos de animales, desde monturas a mascotas. Una puerta sale hacia el
+sur a la Avenida Malkavian.
+~
+0 1052672 1
+D2
+La Avenida Malkavian esta hacia el sur.
+~
+~
+0 -1 21017
+S
+#21340
+Almacen de la Tienda de Animales~
+~
+0 3147780 1
+S
+#21353
+Un Corredor en la Mansion Abandonada~
+Estas en un corredor que se adentra en la mansion abandonada. Aun estas
+a tiempo de salir de aqui. La Avenida Malkavian esta al sur de aqui.
+~
+0 8 0
+D0
+Hay una salida al norte.
+~
+~
+0 -1 21134
+D2
+Ves la Avenida Malkavian hacia el sur.
+~
+~
+0 -1 21023
+S
+#21380
+La Corte de los Tunicas Blancos~
+Este salon es mas pequenyo que el anterior, pero esta reservado para los
+miembro de los tunicas blancos. Los asientos en esta habitacion han sido
+construidos de marfil y estan cubiertos todos de runas. En el centro del
+salon puedes ver una especie de alta en forma de circulo. La unica salida
+es hacia el noreste, que te lleva de vuelta a la Corte Principal.
+~
+0 3145740 0
+D6
+The Court of the Conclave lies to the northeast.
+~
+~
+0 -1 21133
+S
+#21390
+La Sala del Oro~
+Esta es la sala donde los tenderos de la ciudad dejan su oro.
+~
+0 3155980 0
+S
+#21391
+Casa Vacia~
+Estas en una casa vacia y desocupada, seguramente esta en venta para la
+gente que quiera comprarla y venir aqui a descansar o pegar un kiki.
+Ves un cartel en la puerta.
+~
+0 1048577 0 0 0 5
+D3
+La salida de la casa desocupada se encuentra al oeste.
+~
+puerta~
+8389633 -1 21042
+E
+nota cartel~
+Si estas interesado en la adquisicion de una choza casa o refugio propio
+y dejar de ser un tirado yonkie de las pelotas ponte en contacto con el
+notario notarron y estara encantado de ayudarte en lo que gustes, por
+un modico precio claro.
+~
+S
+#21401
+Sobre Ramas y Hojas~
+Estas en una zona llena de ramas y hojas secas esparcidas por el suelo.
+El camino continua hacia el suroeste y hacia el este.
+~
+0 0 3
+D1
+Una sucia carretera va hacia el este.
+~
+~
+0 -1 21090
+D9
+El camino continua al suroeste.
+~
+~
+0 -1 21402
+S
+#21402
+Camino del Bosque~
+Sigues por el camino del bosque en esta direccion, adentrandote mas y
+mas en el. Ves a lo lejor al oeste como el camino llega a su fin. La
+otra salida es hacia el noreste.
+~
+0 0 3
+D3
+El camino sigue por el oeste.
+~
+~
+0 -1 21403
+D6
+Ramas y Hojas al noreste.
+~
+~
+0 -1 21401
+S
+#21403
+Camino del Bosque~
+Sigues por el camino del bosque en esta direccion, adentrandote mas y
+mas en el. Ves a lo lejor al oeste como el camino llega a su fin. La
+otra salida es hacia el este.
+~
+0 0 3
+D1
+El camino continua por el este.
+~
+~
+0 -1 21402
+D3
+El caminogira por aqui al oeste.
+~
+~
+0 -1 21404
+S
+#21404
+Un Giro en el Camino del Bosque~
+Estas en un giro del camino del bosque hacia el noroeste. No sabes que
+te vas a encontrar hacia alli, asi que si no estas muy seguro de querer
+continuar vuelve por tus pasos hacia el este.
+~
+0 0 3
+D1
+A traves del camino del bosque.
+~
+~
+0 -1 21403
+D7
+El camino gira por aqui al noroeste.
+~
+~
+0 -1 2074
+S
+#21430
+El Gremio de los Psionistas~
+Saliendo del bosque que rodea la catedral, te encuentras en el mismo
+hall del Gremio de los Psionistas. Preciosos tapices y dibujos adornan
+las paredes, mostrando la fuerza y belleza de los psionistas. Tienes
+salidas hacia el noreste, sur, oeste y arriba.
+~
+0 3145740 0
+D2
+Una camara esta hacia el sur.
+~
+~
+0 -1 21434
+D3
+Una habitacion hacia el oeste.
+~
+~
+0 -1 21433
+D4
+El Salon del Reposo esta hacia arriba.
+~
+~
+0 -1 21437
+D6
+El camino alrededor de la catedral esta por aqui.
+~
+~
+0 -1 21435
+S
+#21432
+La Sala de la Contemplacion~
+Estas sobre el hall del gremio, en una sala de paz y tranquilidad. Aqui
+es donde se reunen a veces los miembros del gremio para planificar la
+estructura del mismo. La unica salida esta hacia abajo.
+~
+0 3145740 0
+D5
+Hacia abajo del todo esta el hall del gremio.
+~
+~
+0 -1 21437
+S
+#21433
+El Salon Principal~
+Estas en el salon principal del gremio de los psionistas, aqui es donde
+los miembros del gremio expresan sus opiniones al resto de miembros. La
+unica salida esta hacia el este.
+~
+0 3145740 0
+D1
+El hall del gremio esta al este.
+~
+~
+0 -1 21430
+S
+#21434
+La Camara de la Generosidad~
+Al entrar en esta habitacion ves cientos de objetos amontonados unos
+sobre otros. Aqui es donde los miembros del gremio dejan los objetos
+que o vayan a utilizar para los novatos del gremio. Mira si hay algo
+que puedas usar, sino no toques nada y sal hacia el hall por el norte.
+~
+0 3686412 0
+D0
+El hall esta al norte.
+~
+~
+0 -1 21430
+S
+#21435
+A traves del Camino del Bosque~
+Sigues por el camino e la ciudad hasta llegar al Gremio de los llamados
+Psionistas. Las unicas salidas estan al sur y al suroeste.
+~
+0 4 1
+D2
+El camino lleva hacia la plaza.
+~
+~
+0 -1 21185
+D9
+El gremio esta al suroeste.
+~
+~
+0 -1 21430
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Augurers
+else
+mea 0.$n No puedes entrar en este gremio.
+mptrans 0.$n 21185
+endif
+~
+|
+S
+#21436
+La Tumba de la Rectificacion~
+Nada mas entrar en esta tumba, el olor a aceite quemado y a muerto te
+invade hasta hacerte casi vomitar. En esta tumba no hay salidas, asi
+que preparate a pasar toda la eternidad aqui dentro.
+~
+0 36709388 0
+S
+#21437
+El Hall del Reposo~
+Estas en el hall del reposo, donde varios miembros de los psionistas
+descansan de sus multiples batallas. Tienes salidas hacia el noroeste,
+arriba abajo y hacia el este.
+~
+0 3145740 0
+D1
+Una calida luz te viene del este.
+~
+~
+0 -1 21438
+D4
+~
+~
+0 -1 21432
+D5
+El hall esta abajo.
+~
+~
+0 -1 21430
+D7
+~
+~
+0 -1 21439
+S
+#21438
+La Sala de la Convergencia~
+Una calida luz preside la habitacion. Aqui es donde las fuerzas misticas
+del gremio convergen con el resto del universo. Te encuentras realmente
+bien aqui...
+~
+0 3146760 0
+D3
+El hall esta al oeste.
+~
+~
+0 -1 21437
+S
+#21439
+La Sala de Entrenamiento.~
+Estas en la sala de entrenamiento del gremio. Aqui el maestro del gremio
+ensenya a sus alumnos lo necesario para hacerse un psionista, sin duda
+no es nada facil, pero con un maestro como este todo lo parece... sino
+fijate bien quien es :P.
+~
+0 3146764 0
+D8
+~
+~
+0 -1 21437
+S
+#21499
+Habitacion Final~
+Esta es la habitacion final del area... no sirve pa nada creo pero
+vamos :P estaba y la he traducido :)=
+~
+0 1075838980 1
+S
+#0
+
+
+#RESETS
+M 0 21044 1 21001
+E 0 21011 0 16
+M 0 21045 2 21003
+M 0 21037 8 21005
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21067 28 0
+E 1 21069 23 16
+M 0 21055 1 21010
+M 0 21037 8 21018
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21067 28 0
+E 1 21069 23 16
+M 0 21037 8 21022
+E 1 21067 28 0
+E 1 21069 23 16
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+M 0 21037 8 21030
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21067 28 0
+E 1 21069 23 16
+M 0 21037 8 21038
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21067 28 0
+E 1 21069 23 16
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+M 0 21037 8 21041
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21067 28 0
+E 1 21069 23 16
+M 0 21037 8 21047
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21069 23 16
+E 1 21067 28 0
+M 0 21045 2 21048
+M 0 21037 8 21050
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21067 28 0
+E 1 21069 23 16
+M 0 21004 1 21051
+G 0 21437 0
+G 1 21005 3
+G 1 21006 2
+G 1 21007 1
+M 0 21014 1 21052
+M 0 21017 1 21053
+O 1 21048 1 21053
+M 0 21003 1 21054
+G 0 21436 0
+G 1 21000 2
+G 1 21003 1
+G 1 21002 1
+G 1 21001 1
+G 1 21004 1
+M 0 21001 1 21055
+G 1 35 3
+G 1 34 3
+G 1 21046 1
+G 1 21049 1
+M 0 21011 1 21056
+G 1 36 8
+G 1 37 7
+M 0 21018 1 21057
+G 1 21014 1
+G 1 21015 1
+G 1 21016 1
+M 0 21002 1 21058
+M 0 21015 1 21059
+G 1 21057 17
+G 1 21058 30
+G 1 21059 30
+G 1 21060 30
+G 1 21061 30
+G 1 21062 30
+G 1 21063 30
+G 1 21064 26
+G 1 21065 9
+G 1 21066 16
+M 0 21019 1 21060
+G 1 21020 2
+G 1 21021 1
+M 0 21020 1 21061
+G 1 21017 1
+G 1 21018 1
+G 1 21019 2
+M 0 21016 1 21062
+G 1 21068 9
+G 1 21069 23
+G 1 21081 1
+G 1 21082 1
+M 0 21052 3 21063
+E 1 21055 3 1
+M 0 21052 3 21064
+E 1 21055 3 1
+M 0 21052 3 21065
+E 1 21055 3 1
+M 0 21021 1 21066
+G 1 21076 1
+G 1 21077 1
+G 1 21078 1
+G 1 21079 1
+G 1 21080 1
+M 0 21013 1 21068
+G 1 21009 1
+G 1 21008 1
+G 1 21010 1
+M 0 21025 2 21069
+M 0 21068 1 21074
+E 1 21073 2 17
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21066 16 20
+E 1 21067 28 0
+E 1 21069 23 16
+M 0 21069 1 21075
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21066 16 20
+E 1 21067 28 0
+E 1 21069 23 16
+E 1 21073 2 17
+E 1 21064 26 15
+E 1 21065 9 11
+M 0 21061 4 21081
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 15
+E 1 21065 9 11
+E 1 21066 16 20
+E 1 21067 28 0
+E 1 21064 26 14
+E 1 21069 23 16
+M 0 21063 1 21087
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21064 26 15
+E 1 21065 9 11
+E 1 21066 16 20
+E 1 21067 28 0
+E 1 21069 23 16
+E 1 21070 2 17
+M 0 21062 1 21088
+E 1 21070 2 17
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21066 16 20
+E 1 21069 23 16
+E 1 21067 28 0
+M 0 21061 4 21094
+E 1 21067 28 0
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21064 26 15
+E 1 21065 9 11
+E 1 21066 16 20
+E 1 21069 23 16
+M 0 21420 1 21094
+M 0 21065 1 21099
+E 1 21071 2 17
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21066 16 20
+E 1 21067 28 0
+E 1 21069 23 16
+E 1 21065 9 11
+E 1 21064 26 15
+M 0 21064 1 21100
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21066 16 20
+E 1 21067 28 0
+E 1 21069 23 16
+E 1 21071 2 17
+M 0 21005 1 21104
+M 0 21061 4 21106
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21064 26 15
+E 1 21065 9 11
+E 1 21066 16 20
+E 1 21067 28 0
+E 1 21069 23 16
+M 0 21067 1 21112
+E 1 21072 2 17
+E 1 21065 9 11
+E 1 21064 26 14
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 15
+E 1 21066 16 20
+E 1 21067 28 0
+E 1 21069 23 16
+M 0 21066 1 21113
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21066 16 20
+E 1 21067 28 0
+E 1 21069 23 16
+E 1 21072 2 17
+M 0 21061 4 21119
+E 1 21067 28 0
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21064 26 15
+E 1 21065 9 11
+E 1 21066 16 20
+E 1 21069 23 16
+O 1 21037 1 21128
+M 0 21028 1 21129
+G 1 34 3
+M 0 21008 1 21130
+O 1 21041 1 21136
+M 0 21006 1 21137
+M 0 21007 1 21138
+M 0 21023 1 21142
+M 0 21140 1 21143
+O 1 21040 1 21145
+M 0 21025 2 21146
+D 0 21146 2 1
+D 0 21147 0 1
+D 0 21148 0 1
+D 0 21148 2 1
+D 0 21149 0 1
+D 0 21150 2 1
+D 0 21151 0 1
+D 0 21151 1 1
+D 0 21151 2 1
+D 0 21152 2 1
+D 0 21153 0 1
+D 0 21154 3 1
+D 0 21155 0 1
+D 0 21155 2 1
+D 0 21156 2 1
+D 0 21157 0 1
+D 0 21158 0 1
+D 0 21159 0 1
+D 0 21159 2 1
+D 0 21159 3 1
+D 0 21160 2 1
+D 0 21161 1 1
+M 0 21012 1 21171
+O 1 21039 1 21172
+O 0 21042 1 21174
+M 0 21034 1 21190
+O 1 21038 1 21191
+O 0 21112 1 21192
+O 0 21111 1 21193
+M 0 21000 1 21194
+O 1 21035 1 21212
+M 0 21031 1 21213
+M 0 21035 1 21237
+O 1 21034 1 21239
+M 0 21009 1 21275
+G 1 21025 1
+G 1 21024 1
+M 0 21029 1 21295
+G 1 10316 2
+G 1 10317 2
+G 1 10314 2
+M 0 21071 8 21308
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21066 16 20
+E 1 21067 28 0
+E 1 21068 9 16
+M 0 21071 8 21312
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21067 28 0
+E 1 21068 9 16
+M 0 21071 8 21316
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21067 28 0
+E 1 21068 9 16
+M 0 21071 8 21318
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21067 28 0
+E 1 21068 9 16
+M 0 21071 8 21324
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21066 16 20
+E 1 21067 28 0
+E 1 21068 9 16
+M 0 21071 8 21326
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21067 28 0
+E 1 21068 9 16
+M 0 21071 8 21329
+E 1 21056 28 1
+E 1 21057 17 3
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21067 28 0
+E 1 21068 9 16
+M 0 21071 8 21333
+E 1 21056 28 1
+E 1 21058 30 5
+E 1 21059 30 6
+E 1 21060 30 7
+E 1 21061 30 8
+E 1 21062 30 10
+E 1 21063 30 9
+E 1 21064 26 14
+E 1 21067 28 0
+E 1 21068 9 16
+M 0 21010 1 21335
+G 1 21022 1
+G 1 21019 2
+G 1 21020 2
+M 0 21022 1 21339
+M 0 21056 1 21340
+M 0 21057 1 21340
+M 0 21058 1 21340
+M 0 21059 1 21340
+M 0 21060 1 21340
+M 0 21070 1 21340
+O 0 21435 1 21433
+M 0 21431 1 21439
+M 0 21050 1 21391
+S
+
+
+#SHOPS
+ 21001    3  4  0  0  0   120  90         0 23    ; el dependiente mago
+ 21003   26 10  0  0  0   115  90         0 23    ; el alquimista
+ 21004    2  0  0  0  0   120  90         0 23    ; el escriba
+ 21009   22  0  0  0  0   120  90         0 23    ; el marinero
+ 21010    0  0  0  0  0   120  90         0 23    ; la camarera
+ 21011    0  0  0  0  0   120  90         0 23    ; el mensajero
+ 21013    0  0  0  0  0   120  90         0 23    ; un camarero
+ 21014    8  0  0  0  0    95  90         0 23    ; el joyero
+ 21015    9  0  0  0  0   120  90         0 23    ; el armero
+ 21016    5  0  0  0  0   120  90         0 23    ; el armero
+ 21018    0  0  0  0  0   120  90         0 23    ; el carnicero
+ 21019    0  0  0  0  0   120  90         0 23    ; el panadero
+ 21020    0  0  0  0  0   120  90         0 23    ; la chica granjera
+ 21021    9  0  0  0  0   120  90         0 23    ; el sastre
+ 21029    0  0  0  0  0   120  90         0 23    ; el dependiente
+0
+
+
+#REPAIRS
+ 21002    5  9 15         100   1         0 23    ; el herrero
+0
+
+
+#SPECIALS
+M  21000 spec_cast_adept
+M  21005 spec_cast_adept
+M  21008 spec_questmaster
+M  21037 spec_guard
+M  21044 spec_guard
+M  21045 spec_fido
+M  21052 spec_thief
+M  21061 spec_guard
+M  21062 spec_guard
+M  21063 spec_guard
+M  21064 spec_guard
+M  21065 spec_guard
+M  21066 spec_guard
+M  21067 spec_guard
+M  21068 spec_guard
+M  21069 spec_guard
+M  21431 spec_breath_lightning
+S
+
+
+#$

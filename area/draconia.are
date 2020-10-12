@@ -1,0 +1,1728 @@
+#AREA   La torre del Dragon~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO Beythor~
+#PUNTOS 1926 2000 0 2000 0
+#AUTHOR MoRGul~
+
+#RANGES
+70 90 0 256
+$
+
+#RESETMSG Escuchas un rugido que viene de detras...~
+
+#FLAGS
+0
+
+#ECONOMY 1454239 875572111
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#2200
+dragon bebe~
+un dragon bebe~
+Una cria de bebe esta mirandote con desconfianza.
+~
+El pequenyo dragon te sisea cuando lo miras, es pequenyito y de un extranyo
+color rojo.
+~
+67 524288 -900 C
+77 12 4 21300d1+20459 11d8+2
+2000 2250
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2201
+draconian draconiano~
+un Draconiano~
+Un draconiano esta aqui.
+~
+Esta criatura horrible es una mezcla extraña un hombre y un dragón. Tiene las
+escamas negras y la envergadura de siete personas. Te frunce el cenyo y
+levanta su lanza.
+~
+39 8 -900 C
+83 8 2 32767d1+25000 22d6+3
+2000 15000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2202
+maestro dragon~
+el maestro de los dragones~
+El senyor de esta cripta te mira con mala cara.
+~
+No le hace mucha gracia que le mires.
+~
+39 524288 -1000 C
+87 0 -2 32767d1+30000 13d6+8
+35000 60000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2203
+mago hechicero~
+un poderoso mago~
+Un hombre esta aqui leyendo extranyos libros de magia.
+~
+Te quedas sorprendido en el hecho que sea humano, y comprendes que debe ser
+muy poderoso de haber sido aceptado por las criaturas que viven aqui.
+~
+3 138 -900 C
+82 0 3 32767d1+24600 11d8+10
+600 45000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2204
+clerigo draconiano~
+un clerigo draconiano~
+Un clerigo draconiano esta aqui de pie.
+~
+Viste una larga tunica roja, con extranyos simbolos diibujados.
+~
+39 136 -900 C
+82 1 0 32767d1+27986 23d5+6
+400 45000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2205
+rey draconiano~
+el Rey Draconiano~
+Un Draconiano llevando ropas finas esta alabando su grandeza.
+~
+El rey de los draconianos seentado en su trono dorado. Parece querer crujirte
+la cabeza de un solo golpe. Sientes que es controlado pr un gran poder.
+~
+7 136 -900 C
+86 0 1 32767d1+29999 32d8+12
+800 100000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2206
+concubina draconiana~
+una concubina~
+Una concubina esta dormiendo aqui.
+~
+Esta es la concubina del rey.  Ella esta descansando aqui sin llevar nada
+encima.  Piensas que es repugnante cuando de repente saca una cuchillo y ...
+~
+3 0 -500 C
+76 16 5 32767d1+11000 12d3+1
+100 1000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2207
+guardia draconiano~
+Un guardia~
+Un guardia amenazandote.
+~
+Esta criatura ha dedicado su vida a defender al rey.  Tu intrusion no es bien
+recibida.
+~
+35 44 -800 C
+88 3 2 32767d1+30000 100d6+10
+5000 30000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 497 0
+#2208
+Bahamut~
+Bahamut el Dragon Dios~
+El Dragon Dios te observa desde las sombras...
+~
+Es el mayor Dragon  existente sobre la  faz de la Tierra, su poder es tal que
+los humanos le adoraron durante siglos  hasta  que decidio retirarse  a  este
+desolado lugar para descansar esperando el dia de aniquilar a todos los seres
+vivos...
+~
+262209&2 1447037440 -1000 C
+5 0 -350 1d1+26500 21d3+100
+1000000 0
+104 112 0
+13 13 13 13 13 13 13
+-20 -20 -20 -20 -20
+31 0 230 1300 2049 2049 3
+200 200 32777 5 3072 4096 2101248 524288
+#2220
+tiamat dragon~
+Tiamat~
+Un dragon de cinco cabezas te ataca al verte entrar a la habitacion
+~
+Ves la senyora de esta Torre, Tiamat.  Ella frunce el entrecejo y se prepara a
+hacerte pagar tu osadia.. con tu vida!
+~
+39 10282 -1000 C
+95 0 -10 4000d15+30000 34d9+15
+50000 3500000
+112 112 2
+13 13 13 13 13 13 13
+-10 -10 -10 -10 -10
+0 3 0 0 1 1 0
+0 0 0 2100225 0 512 1073742272&1 528706
+#2221
+dragon rojo~
+el Gran Dragon Rojo~
+Un dragon rojo contempla tu existencia.
+~
+Este inmenso dragon rojo domina la camara.  Cuando quieres huir, el te invita
+a quedarte ... para siempre!!
+~
+39 40 -1000 C
+87 0 -5 32767d1+28542 32d8+10
+10000 300000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 1110181888 0
+#2222
+dragon negro~
+the Gran Dragon Negro~
+Un dragon negro grita tu insolencia.
+~
+Este gran dragon negro se rie de tus armas.
+~
+39 40 -900 C
+86 1 -3 32767d1+26547 53d8+4
+20000 250000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 3145743 4608 268436483 0
+#2223
+dragon blanco~
+el Gran Dragon Blanco~
+Un dragon blanco te espera.
+~
+No tienes miedo de este dragon.  Se rie y dice 'Pienso que eres un gran
+desafio para mis hijos.'
+~
+39 40 -1000 C
+87 0 -3 32767d1+28754 53d8+4
+35000 200000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2225
+dragon verde~
+el Anciano Dragon Verde~
+Un dragon verde esta examinandote.
+~
+Se parece bastante a los draconianos. Dice ' Has matado a mis hijos. Preparate
+a morir.'
+~
+39 40 -1000 C
+91 0 -350 32767d1+30000 100d4+0
+20000 500000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 524357
+#2226
+hydra~
+una gran hydra~
+Una hydra te bloquea el camino.
+~
+Una hydra esta guardando la entrada a la boveda sellada.  Sientes que no es
+feliza al verte.
+~
+39 40 -800 C
+88 3 1 28456d1+5462 82d1+2
+5000 35000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2227
+esclavo humano~
+Un esclavo humano~
+Un esclavo humano trabajando duramente.
+~
+Parece estar bajo stress.
+~
+3 0 0 C
+75 16 6 28946d1+0 1d6+4
+100 900
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2240
+zombi draconiano~
+un Draconiano zombi~
+Un Draconiano zombi esta ... pues haciendo el zombi.
+~
+Solia ser un guerrero es su tribu. Ahora guarda este corredor.
+~
+39 40 -400 C
+79 9 4 32767d1+15536 71d1+0
+1500 3000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2241
+dragon fase~
+el fase dragon~
+Un Fase Dragon esta lanzandose alrededor de la habitacion.
+~
+Este pequenyo dragon no parece estar a gusto.
+~
+229 40 -300 C
+80 11 3 32767d1+30000 1d1+123
+5000 6000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2242
+tonto draconiano~
+el draconiano tonto~
+Un Tonto esta pasandoselo en grande riendose de ti.
+~
+Este hombre-dragon parece MUY bobo, vestido de verde y azul rayado.
+~
+193 0 0 C
+75 16 -350 14689d1+8974 1d1+80
+500 800
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+#2243
+reina draconiana~
+la Reina Draconiana~
+La Reina Draconiana, ni mas ni menos.
+~
+Parece estar ocupada dando ordenes a los esclavos. Mejor dejarla sola.
+~
+7 168 -600 C
+80 1 -300 24781d1+12456 1d1+135
+10000 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+100 100 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2200
+lanza dentada~
+una lanza dentada~
+Una lanza dentada ha sido dejada aqui.~
+~
+5 0 8193
+0 45 2 11
+15 4000 1500
+#2201
+daga plateada~
+una daga plateada~
+Una daga plateada esta aqui.~
+~
+5 67633411 8193
+12 42 2 2
+10 1000 200
+#2202
+cuchillo diente de dragon~
+un cuchillo de un diente de dragon~
+Un cuchillo hecho con el diente de un dragon.~
+~
+5 8388610 8193
+0 24 3 11
+8 100000 50000
+A
+2 3
+A
+19 30
+#2203
+brazalete dragon~
+un brazalete de piel de dragon~
+Un brazalete de piel de dragon tirado en el suelo.~
+~
+9 0 4097
+6 0 0 0
+10 40000 10000
+#2204
+cinturon seda negra~
+un cinturon de seda negra~
+Un cinturon de seda negra colgando aqui.~
+~
+9 0 2049
+6 0 0 0
+25 10000 4000
+A
+5 3
+#2205
+fuego bahamut~
+El fuego del Gran &CBaHaMuT&w~
+Una llama arde tranquila y serenamente ante ti...
+
+
+~
+~
+1 524579 16385
+12 0 -1 0
+21 222550 25460
+A
+3 0
+A
+23 0
+A
+13 0
+A
+19 0
+#2206
+orejas bahamut~
+Unas orejas de Dragon~
+La orejas del gran Bhamut estan aqui tiradas...~
+~
+9 524579 65537
+20 30 0 0
+21 200000 20000
+A
+13 -100
+A
+22 -20
+A
+14 200
+A
+18 35
+A
+19 30
+#2210
+cinturon seda blanco~
+un cinturon de seda blanca~
+Un cinturon de seda blanca colgando aqui.~
+~
+15 0 2049
+6 0 0 0
+25 10000 4000
+A
+1 2
+#2211
+brazalete platino~
+un brazalete de platino~
+Un manchado brazalete de platino tirado aqui.~
+~
+9 1 4097
+7 0 0 0
+5 50000 25000
+#2220
+simbolo sagrado~
+un simbolo sagrado~
+Un dorado simbolo sagrado esta aqui.~
+~
+9 1 16389
+4 0 0 0
+2 50000 5000
+A
+12 15
+#2221
+tunica negro~
+una negra tunica~
+Una negra tunica colgando de un muro.~
+~
+9 0 1025
+5 0 0 0
+3 50000 5000
+A
+13 132
+A
+19 20
+#2222
+espada esmeralda~
+una espada esmeralda~
+Una espada larga esmeralda apoyada contra el muro.~
+~
+5 0 8193
+0 3 6 3
+24 200000 100000
+#2223
+garrote piedra~
+un garrote de piedra~
+Un garrote de piedra esta aqui.~
+~
+5 0 8193
+0 3 5 8
+18 7500 5000
+#2224
+anillo diamante~
+un anillo de diamante~
+Un anillo de diamante brillando en el suelo.~
+~
+9 0 3
+4 0 0 0
+6 50000 10000
+A
+18 0
+A
+19 0
+#2230
+anillo cobre~
+un anillo de cobre~
+Un anillo de cobre esta aqui.~
+~
+9 0 3
+1 0 0 0
+1 100000 25000
+A
+4 2
+#2231
+llave acero~
+una llave  de acero~
+Una llave  de acero.~
+~
+18 0 1
+0 0 0 0
+1 500 1000
+#2232
+llave rubi~
+Una llave rubi~
+Una llave rubi.~
+~
+18 0 1
+0 0 0 0
+1 500 1000
+#2233
+llave blanca~
+una llave blanca~
+Una llave blanca.~
+~
+18 0 1
+0 0 0 0
+1 500 1000
+#2234
+llave gris~
+una llave gris~
+Una llave gris.~
+~
+18 0 1
+0 0 0 0
+1 500 1000
+#2237
+llave piedra~
+una llave de piedra~
+Una llave de piedra.~
+~
+18 0 1
+0 0 0 0
+1 500 1000
+#2240
+llave negra~
+una llave negra~
+Una llave negra.~
+~
+18 0 1
+0 0 0 0
+1 500 1000
+#2241
+llave platino~
+una llave de platino~
+Una llave de platino.~
+~
+18 0 1
+0 0 0 0
+1 500 1000
+#2242
+escudo coronado~
+un escudo coronado~
+Un escudo coronado atrae tu atencion.~
+~
+9 0 513
+8 0 0 0
+20 200000 100000
+A
+24 -18
+A
+23 -21
+A
+5 3
+#2243
+varita dorada~
+una vara dorada~
+Una vara dorada tirada aqui.~
+~
+3 1 16385
+25 10 10 -1
+5 10000 5000
+'dispel magic'
+#2244
+vara plateada~
+una vara plateada~
+Una vara plateada.~
+~
+4 65 16385
+25 20 20 -1
+5 10000 5000
+'faerie fog'
+#2245
+vara dragon~
+la vara del dragon~
+Una poderosa vara de roble tirada aqui.~
+~
+4 65 16385
+25 10 10 -1
+5 10000 3000
+'call lightning'
+#2246
+armadura malla escamas~
+una armadura de malla de escamas~
+Una armadura de malla de escamas abandonada aqui.~
+~
+9 1 9
+8 0 0 0
+20 100000 20000
+#2250
+vara negra~
+una vara negra~
+Una vara negra.~
+~
+4 1 0
+30 3 3 -1
+25 75000 5000
+'energy drain'
+#2251
+pocion cyan~
+una pocion cyan~
+Una pequenya pocion cyan dejada aqui.~
+~
+10 0 1
+30 -1 104 -1
+1 40000 1000
+'blindness' 'harm' 'NONE'
+#2252
+pocion magenta~
+una pocion magenta~
+Una pocion magenta.~
+~
+10 128 1
+30 -1 147 -1
+1 2000 100
+'cure critical' 'protection' 'NONE'
+#2254
+guanteletes claveteados~
+un par de guanteletes claveteados~
+Un par de guanteletes claveteados.~
+~
+9 65 129
+4 0 0 0
+10 50000 5000
+A
+19 12
+A
+1 1
+#2260
+cimitarra dorada~
+una cimitarra dorada~
+Una cimitarra dorada.~
+~
+5 1 8193
+0 3 5 3
+10 40000 7000
+A
+3 1
+A
+4 1
+#2261
+broche diamante~
+un broche de diamante~
+Un broche de diamante.~
+~
+9 64 5
+4 0 0 0
+2 10000 4000
+A
+12 25
+#2270
+pergamino~
+un pergamino con runas~
+Un pergamino con runas.~
+~
+2 64 16385
+30 -1 147 167
+1 5000 500
+'armor' 'protection' 'shield'
+#2271
+guantes dragon~
+un par de guantes de piel de dragon~
+Un par de guantes de piel de dragon tirados por el suelo.~
+~
+9 0 129
+6 0 0 0
+5 40000 15000
+A
+2 2
+#2275
+casco dragon~
+un casco dragon~
+Un casco hecho con la calavera de un dragon.~
+~
+9 0 17
+5 0 0 0
+15 30000 6000
+A
+13 15
+#2276
+piel capa~
+una capa de piel~
+Una capa de piel esta aqui.~
+~
+9 0 1025
+6 0 0 0
+10 25000 10000
+A
+1 1
+A
+13 10
+#2280
+perneras escamas dragon~
+un par de perneras de escamas de dragon~
+Un par de perneras de escamas de dragon.~
+~
+9 0 33
+7 0 0 0
+15 35000 4000
+#2281
+brazales dragon escamas~
+un juego de brazales de escamas de dragon~
+Un juego de brazales de escamas de dragon.~
+~
+9 0 257
+7 0 0 0
+12 30000 3000
+#2285
+latigo dragon cola~
+un latigo de cola de dragon~
+Un latigo de cola de dragon en el suelo.~
+~
+5 2 40961
+0 4 5 4
+14 40000 20500
+A
+18 2
+A
+19 2
+#2286
+martillo cobre~
+un martillo de cobre~
+Un martillo de cobre tirado por aqui.~
+~
+5 0 8193
+0 3 5 8
+12 30000 15000
+#2298
+llave oro manchada~
+una llave de oro manchada~
+Una llave de oro manchada.~
+~
+18 1073741824 1
+0 0 0 0
+1 500 1000
+#2299
+llave oro manchada~
+una llave de oro manchada~
+Una llave de oro manchada.~
+~
+18 0 1
+0 0 0 0
+1 500 1000
+#0
+
+
+#ROOMS
+#2201
+La Verja de la Torre~
+Estas en la entrada de una torre alta.  Rayos relampagean periodicamente y
+esta lloviendo.  Piensas que seria buena idea volver al bosquecillo.
+~
+0 1 1
+D0
+Ves una gran verja de acero.  Mas alla esta el Salon de Entrada de la Torre.
+~
+verja steel~
+7 2231 2202
+D5
+~
+~
+0 0 21093
+E
+verja~
+La verja es alta y segura.  Hecha para ldar privacidad.
+~
+S
+#2202
+El Salon de Entrada~
+Este es la entrada a la Torre.  El corredor continua al norte hacias una
+escalera.  Ves una austera pintura en el muro.
+~
+0 12 0
+D0
+Ves un largo corredor.
+~
+~
+0 -1 2203
+D2
+Ves la verja.
+~
+~
+0 -1 2201
+E
+pintura~
+Esta pintura describir la espantosa muerte de un humano loco.
+~
+S
+#2203
+Corredor~
+Este corredor parece extenderse interminablemente. Observas una escalera en
+la distancia.
+~
+0 8 0
+D0
+El corredor continua.
+~
+~
+0 -1 2204
+D2
+Ves el salon de entrada.
+~
+~
+0 -1 2202
+S
+#2204
+Corredor~
+Caminas por el corredor.  Observas puerta al este y al oeste.
+~
+0 8 0
+D0
+El corredor continua.
+~
+~
+0 -1 2207
+D1
+Ves una puerta.  Observas un cartel.
+~
+puerta~
+1 -1 2205
+D2
+El corredor continua.
+~
+~
+0 -1 2203
+D3
+Ves una puerta de roble.  Hay una inscripcion sobre ella.
+~
+oak~
+1 -1 2206
+E
+cartel~
+El cartel dice "GUARDERIA" en letras negras.
+~
+E
+inscripcion~
+Dice "ALMACEN"
+~
+S
+#2205
+Guarderia~
+Parece que ha pasado un tornado por aqui.  Juguetes por todos lados y un
+pequenyo grupo de dragoncitos luchando por un hueso.
+~
+0 8 1
+D1
+Ves una gran puerta de piedra.
+~
+puerta piedra~
+33 2297 2223
+D3
+Ves el corredor.
+~
+~
+1 -1 2204
+S
+#2206
+Almacen~
+Esta habitacion esta cubierta con polvo, Parece que nadie ha pasado nadie por
+aqui en anyos.
+~
+0 8 1
+D1
+Ves el corredor.
+~
+~
+1 -1 2204
+D5
+No ves nada especial.
+~
+trampilla~
+1 -1 2208
+E
+polvo~
+SOPLAS y COF!! COF!! una trampilla!
+~
+S
+#2207
+Fin del Corredor~
+Has llegado al final del corredor.  Una escalera conduce arriba.
+Ves un cartel en la base de la escalera.
+~
+0 8 0
+D2
+El corredor continua.
+~
+~
+0 -1 2204
+D4
+El segundo piso.
+~
+~
+0 -1 2210
+E
+cartel~
+El cartel pone:
+    Esta area es dura.  No subas si eres menos de nivel 18 o era 14?
+~
+S
+#2208
+Habitacion del Guardia~
+Bajas las desvencijadas escaleras y te encuentras ante una hydra.
+Quien volvera a subir???
+~
+0 8 1
+D2
+Una gran puerta gris.
+~
+gris~
+1 2234 2209
+D4
+Ves el almacen.
+~
+puerta trampa trampilla~
+1 -1 2206
+S
+#2209
+La Habitacion del Tesoro~
+Has pasado la hydra.  Estas pasmado de tantas riquezas.  No solo ahora eres
+rico sino que aqui podras descansar a salvo.
+El muro oeste muro tiene una gran puerta hecha de rubi.
+~
+0 12 1
+D0
+No ves nada especial.
+~
+gris~
+33 2234 2208
+D3
+Ves una puerta rubi!
+~
+puerta rubi~
+39 2232 2218
+S
+#2210
+El Segundo Piso~
+Has llegado al segundo piso.  Oyes cuchicheos y silbidos.  Te maravillas
+de haber llegado hasta aqui.
+~
+0 8 1
+D2
+Ves el patio.
+~
+~
+0 1 2211
+D5
+Ves el primer piso.
+~
+~
+0 -1 2207
+S
+#2211
+El Patio~
+Has entrado en lo que parece un gran patio.  La gente de aqui no parece feliz
+de verte...
+~
+0 8 1
+D0
+No ves nada especial.
+~
+~
+0 -1 2210
+D1
+Ves una puerta de madera.
+~
+puerta madera~
+1 -1 2212
+D2
+Ves el patio.
+~
+~
+0 -1 2213
+S
+#2212
+Harem~
+Haces un alto en tu caminos y entras en un bonita y decorada habitacion,
+resulta que es el harem de rey.
+~
+0 8 1
+D3
+Ves el Patio.
+~
+~
+0 -1 2211
+S
+#2213
+El Patio~
+Bajas el corredor.  Al este y al oeste ves puertas adornadas.
+~
+0 0 1
+D0
+Ves el patio.
+~
+~
+0 -1 2211
+D1
+Ves una puerta negra.
+~
+puerta negra~
+1 2240 2214
+D2
+Ves el patio.
+~
+~
+0 -1 2216
+D3
+Ves una puerta blanca.
+~
+puerta blanca~
+1 2233 2215
+S
+#2214
+La Biblioteca~
+Has entrado en una gran habitacion llena de libros.  Un hombre esta
+sentado en una mesa, estudiando.
+~
+0 8 1
+D3
+Ves el patio.
+~
+puerta negra~
+1 2240 2213
+S
+#2215
+El Sanctum~
+Esta pequenya habitacion esta modestamente decorada con pequenyos iconos
+de dragon.
+~
+0 8 1
+D1
+Ves el Patio.
+~
+puerta blanca~
+1 2233 2213
+S
+#2216
+El final del Patio~
+Se acaba el patio.  Un gran Draconiano esta sentado en una silla.
+entras y te rodean tres guardias.
+~
+0 8 1
+D0
+Ves el patio.
+~
+~
+0 -1 2213
+D1
+Ves una camara privada.
+~
+~
+0 -1 2217
+S
+#2217
+El Dormitorio~
+Esta es la habitacion del Rey draconiano.  No esta vacia.
+~
+0 8 1
+D3
+Ves el patio.
+~
+~
+0 -1 2216
+S
+#2218
+Entrada a la Cripta~
+Has entrado a una gran habitacion que huele a reptil.
+
+~
+0 8 1
+D1
+Ves la Camara del Tesoro.
+~
+puerta rubi~
+39 2232 2209
+D3
+Ves la Cripta.
+~
+~
+0 -1 2219
+S
+#2219
+Cripta~
+Estas en una gran habitacion que continua al oeste.  Observas muchos
+ataudes aqui.  Los abres y ves algo parecido a hombres.
+El olor de reptil es muy fuerte aqui..
+~
+0 8 1
+D1
+Ves la entrada.
+~
+~
+0 -1 2218
+D3
+No ves nada especial.
+~
+~
+0 -1 2222
+S
+#2220
+La Morada~
+Has entrado en una gran habitacion dominada por un gran dragon blanco.
+~
+0 8 1
+D2
+Ves una abertura en la cueva.
+~
+~
+0 0 2235
+S
+#2221
+Una Morada~
+Has entrado en una gran habitacion dominada por un gran dragon negro.
+~
+0 8 1
+D0
+Ves una abertura en la cueva.
+~
+~
+0 0 2241
+S
+#2222
+La Cripta termina~
+Has llegado al final de la Cripta.  Parece desierta.  Hay un extranyo
+ataud contra el muro.
+~
+0 8 1
+D1
+Ves la Cripta.
+~
+~
+0 -1 2219
+D3
+~
+ataud~
+7 0 2232
+E
+ataud~
+Un ataud yace contra el muro este.  Esta cerrado.
+~
+S
+#2223
+Entrada al Gran Vestibulo~
+Has entrado en un gran vestibulo.  Ha sido cuidadosamente decorada con
+bellos tapices que tratan sobre una gran batalla entre dragones y humanos.
+Los dragones parecen haber vencido.
+~
+0 8 1
+D1
+El Vestibulo continua.
+~
+~
+0 -1 2224
+D3
+Ves la Guarderia.
+~
+puerta piedra~
+1 2297 2205
+S
+#2224
+El Gran Vestibulo~
+Estas bajando el Vestibulo.  Al norte, observas un pequenyo pasaje,
+mientras el corredor principal continua al este.
+~
+0 8 1
+D0
+Ves un estrecho pasaje.
+~
+~
+0 -1 2225
+D1
+Ves el Vestibulo.
+~
+~
+0 -1 2229
+S
+#2225
+Un Estrecho Pasaje~
+Este Pasaje se bifurca del corredor principal y conduce  ... donde?
+~
+0 8 1
+D0
+Ves una gran Morada.  Parece PELIGROSO!
+~
+~
+0 -1 2226
+D2
+Ves el gran corredor.
+~
+~
+0 -1 2224
+S
+#2226
+Morada~
+Has entrado en una gran morada con huesos por el suelo.  Observas el
+origen de los huesos y te encuentras cara a cara con dragon rojo.
+Observas una trampilla en el suelo.
+~
+0 8 1
+D2
+El estrecho pasaje.
+~
+~
+0 -1 2225
+D5
+Ves una trampilla.
+~
+puerta trampa trampilla~
+1 -1 2227
+S
+#2227
+Tunel Subterraneo~
+Has entrado un tunel subterraneo tunel.  Es oscuro y sucio, te encuentras
+deseando volver a Medina, Hogar Dulce Hogar.
+~
+0 9 2
+D0
+Ves el tunel.
+~
+~
+0 -1 2228
+D4
+Ves la morada del dragon rojo.
+~
+puerta trampa trampilla~
+1 -1 2226
+S
+#2228
+Tunel Subterraneo~
+Este tunel llega al final.  Te sientes atrapado.
+~
+0 13 2
+D2
+Ves el tunel.
+~
+~
+0 -1 2227
+S
+#2229
+El Final del Gran Vestibulo.~
+Has llegado al final del gran vestibulo.  Ves ante ti una gran puerta
+dorada, debe tener 20 pies de alto!  .  Ves un cartel en la puerta.
+~
+0 8 1
+D1
+Ves un gran puerta dorada.
+~
+puerta gran dorada~
+39 2299 2230
+D3
+Ves el corredor.
+~
+~
+0 -1 2224
+E
+cartel~
+Felicidades por llegar tan lejos!  OJO, ahora no es tan facil.
+~
+S
+#2230
+LA Morada~
+Has entrado en una gran morada.  Sientes que algo grande vive aqui o como
+minimo vivia.  The puerta dorada esta al oeste.
+~
+0 8 2
+D3
+Ves una gran puerta dorada.
+~
+puerta dorada gran~
+39 2299 2229
+S
+#2231
+El Fin...~
+Has llegado a la morada final.  HAY UN DRAGON DE 5 CABEZAS POR SI NO TE
+HAS FIJADO, ESTO QUIERE DECIR QUE TIENES SERIOS PROBLEMAS.
+~
+0 8 2
+D2
+Ves la cima de la montanya.
+~
+~
+33 2241 2243
+S
+#2232
+Escalera~
+Una vieja escalera conduce al bodega del vino.  Parece que no ha sido usada
+hace muchos anyos.
+~
+0 8 2
+D1
+La cripta~
+~
+0 0 2222
+D5
+Una bodega del vino~
+~
+0 0 2233
+S
+#2233
+Bodega del Vino~
+Es una vieja bodega del vino de la Torre del Dragon.  Las repisas estan
+vacias. Ves un tunel al este que huele mal.
+~
+0 1 2
+D1
+Un tunel
+~
+~
+0 0 2234
+D4
+La escalera
+~
+~
+0 0 2232
+S
+#2234
+Tunel~
+Este tunel parece extenderse por kilometros.  El olor aqui es mas fuerte.
+El tunel continua al este.  La bodega del vino al oeste.
+west.
+~
+0 257 2
+D0
+Una abertura en la cueva
+~
+~
+0 0 2235
+D1
+Un tunel
+~
+~
+0 0 2236
+D3
+Un tunel
+~
+~
+0 0 2233
+S
+#2235
+Una abertura en la cueva~
+Estas en la abertura de una gigantesca cueva.  Hay muchos huesos por el
+suelo.  Algunos humanos, otro indescriptibles.  Huele fatal.
+Puedes oir movimiento en la cueva al norte.  El tunel vuelve al sur.
+~
+0 257 2
+D0
+La morada
+~
+~
+0 0 2220
+D2
+El tunel
+~
+~
+0 0 2234
+S
+#2236
+El Final del tunel~
+Has llegado al final del tunel.  Al oeste kilometros de tuneles recorridos.
+Ves una trampilla sobre ti.  Un puente sobre un rio subterraneo river al sur.
+~
+0 257 2
+D2
+puente
+~
+~
+0 0 2237
+D3
+El tunel
+~
+~
+0 0 2234
+D4
+trampilla
+~
+~
+0 0 2202
+S
+#2237
+El Puente~
+Estas sobre una puente de vieja madera.  NO parece seguro. Al sur, en el
+otro lado del puente hay una pequenya abertura.
+~
+0 9 2
+D0
+El final del Tunel
+~
+~
+0 0 2236
+D2
+Una pequenya abertura
+~
+~
+0 0 2238
+S
+#2238
+Una pequenya abertura~
+Estas en una pequenya abertura.  Al norte el puente de madera. Al sur ves
+un claro.  Ves de nuevo la luz del sol.
+~
+0 9 2
+D0
+puente
+~
+~
+0 0 2237
+D2
+claro
+~
+~
+0 0 2239
+S
+#2239
+Claro~
+Estas en un claro.  Montanyas a tu alrededor.  Hay un pozo en el medio del
+claro.  Junto al pozo un cartel.  Un camino conduce arriba a la montanya.
+La pequenya abertura al norte.
+~
+0 0 2
+D0
+la pequenya abertura
+~
+~
+0 0 2238
+D4
+Un camino
+~
+~
+0 0 2240
+D5
+Un pozo
+~
+~
+0 0 2244
+E
+pozo~
+Te asomas al pozo.  Lo ves MUY, MUY profundo. Parece no tener fin.
+~
+E
+cartel~
+El cartel pone:
+         EL POZO SIN FONDO.  Si caes no sales.  NO BAJES
+
+                        QUEDAIS AVISADOS
+~
+S
+#2240
+Un camino~
+Este camino conduce arriba a un lado de la montanya.  Un claro debajo de
+ti. Una abertura en la cueva al oeste. El camino continua arriba a la
+montanya.
+~
+0 0 2
+D3
+cueva abertura
+~
+~
+0 0 2241
+D4
+el camino continua
+~
+~
+0 0 2242
+D5
+claro
+~
+~
+0 0 2239
+S
+#2241
+Una abertura en la cueva~
+Estas ante una gran abertura en la cueva. Oyes sonidos dentro de la cueva.
+Hay esqueletos por el suelo.  La cueva al sur.  El camino al este.
+~
+0 0 2
+D1
+el camino
+~
+~
+0 0 2240
+D2
+Una morada
+~
+~
+0 0 2221
+S
+#2242
+El camino continua~
+El camino continua arriba a la cima de la montanya.  El camino tambien
+baja.
+~
+0 0 2
+D4
+cima de la montanya
+~
+~
+0 0 2243
+D5
+camino
+~
+~
+0 0 2240
+S
+#2243
+La cima de la montanya~
+Has llegado a la cima de la montanya. Al norte una gran puerta de platino
+Oyes gemidos tras la puerta, son terrorificos, pero si no tienes la llave no
+te has de preocupar porque no la podras abrir. Si tienes la llave te
+recomendamos que no entres porque Tiamat, el Dragon de 5 Cabezas esta aqui
+encerrado por los Dioses, pero tu no cree en cuentos no??.
+Puedes volverte hacia abajo de la montanya.
+~
+0 0 2
+D0
+Una puerta de platino
+~
+puerta platino~
+39 2241 2231
+D4
+~
+~
+0 0 2245
+D5
+El camino continua
+~
+~
+0 0 2242
+E
+puerta platino~
+Una gran puerta de platino te separa del mal~
+S
+#2244
+Pozo~
+O
+ h
+   !
+
+     N
+      o
+       !
+
+   Te avise!  Has caido en un pozo sin fondo. Tu vida pasa ante tus ojos
+No es patetico??  La proxima vez haras caso de los avisos.
+~
+0 1048580 0
+S
+#2245
+La habitacion del Dragon Dios~
+Esta es la habitacion del ser mas poderoso que conocen los libros de leyendas
+aqui descansa el Dragon Bahamut, conocido por su  gran  poder  comparable  al
+mismisimo &RSaNgUiNaRi  Dios  de  los  Dragones&w &w,  ahora  esta    durmiendo
+recuperandose para volver al mundo y desolarlo con solo una orden de su cruel
+Dios...
+~
+0 1081345 0 0 0 3
+D5
+~
+~
+0 0 2243
+S
+#0
+
+
+#RESETS
+M 0 2200 1 2201
+G 1 2298 1
+G 1 2231 1
+D 0 2201 0 2
+M 0 2200 1 2202
+M 0 2200 1 2203
+M 0 2200 1 2203
+M 0 2201 1 2203
+E 1 2200 20 16
+M 0 2201 1 2204
+E 1 2200 20 16
+M 0 2201 1 2204
+E 1 2200 20 16
+M 0 2201 1 2204
+E 1 2200 20 16
+M 0 2200 1 2205
+M 0 2200 1 2205
+M 0 2200 1 2205
+M 0 2200 1 2205
+M 0 2200 1 2206
+M 0 2200 1 2207
+M 0 2227 1 2207
+M 0 2226 1 2208
+G 1 2234 1
+G 1 2243 9
+G 1 2223 20
+E 1 2244 5 17
+D 0 2209 3 2
+M 0 2201 1 2210
+E 1 2200 20 16
+M 0 2207 1 2210
+E 1 2286 20 16
+M 0 2207 1 2211
+E 1 2286 50 16
+M 0 2207 1 2211
+E 1 2260 50 16
+M 0 2206 1 2212
+E 1 2201 50 16
+M 0 2206 1 2212
+G 1 2233 2
+E 1 2201 50 16
+M 0 2206 5 2212
+G 1 2240 2
+E 1 2201 50 16
+M 0 2206 5 2212
+E 1 2201 50 16
+M 0 2203 1 2214
+E 1 2223 50 12
+E 1 2250 50 17
+G 1 2251 50
+E 1 2261 50 3
+M 0 2242 5 2214
+M 0 2204 1 2214
+E 1 2220 50 3
+E 1 2211 50 14
+E 1 2210 50 13
+G 1 2270 50
+G 1 2252 50
+M 0 2205 1 2216
+E 1 2222 8 16
+E 1 2276 50 12
+E 1 2242 50 11
+E 1 2254 50 9
+G 1 2232 2
+M 0 2207 1 2216
+M 0 2207 1 2216
+M 0 2207 1 2216
+M 0 2242 1 2216
+M 0 2242 1 2216
+M 0 2243 1 2217
+E 1 2203 50 14
+E 1 2204 50 13
+E 1 2201 50 16
+M 0 2227 1 2217
+M 0 2227 1 2217
+M 0 2241 1 2217
+M 0 2240 1 2218
+M 0 2240 1 2218
+D 0 2218 1 2
+M 0 2240 1 2219
+M 0 2240 1 2219
+M 0 2223 1 2220
+E 1 2246 50 5
+M 0 2222 1 2221
+E 1 2280 50 7
+M 0 2202 1 2222
+E 1 2202 50 16
+E 1 2281 50 10
+E 1 2271 50 9
+D 0 2222 3 2
+M 0 2221 1 2226
+E 1 2275 50 6
+E 1 2245 50 17
+G 1 2299 2
+D 0 2229 1 2
+M 0 2225 1 2230
+G 1 2241 2
+G 1 2285 50
+E 1 2261 50 3
+D 0 2230 3 2
+M 0 2240 1 2232
+M 0 2240 1 2233
+M 0 2240 1 2234
+M 0 2240 1 2236
+M 0 2200 1 2239
+M 0 2200 1 2241
+D 0 2243 0 2
+M 0 2208 1 2245
+E 1 2205 1 0
+E 1 2224 1 2
+E 1 2224 1 1
+M 0 2220 1 2245
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2200 spec_breath_any
+M  2203 spec_cast_mage
+M  2204 spec_cast_cleric
+M  2205 spec_breath_any
+M  2208 spec_breath_any
+M  2220 spec_breath_any
+M  2221 spec_breath_fire
+M  2222 spec_breath_acid
+M  2223 spec_breath_frost
+M  2225 spec_breath_gas
+M  2226 spec_poison
+M  2227 spec_thief
+M  2240 spec_cast_undead
+M  2241 spec_breath_gas
+M  2242 spec_thief
+M  2243 spec_breath_any
+S
+
+
+#$

@@ -1,0 +1,3235 @@
+#AREA   CaStiLLo De LuCiFeR~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO WyRMCLaW~
+#PUNTOS 1845 2000 1812 1909 0
+#AUTHOR OnE~
+
+#RANGES
+50 80 0 256
+$
+
+#RESETMSG ~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 11250000
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#11700
+tio grande~
+un tio grande~
+Un tio grande esta aqui fastidiandote la existencia.
+~
+Pues eso, un tio muy grande.~
+71 512 0 C
+50 0 -30 10d10+7500 5d1+70
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+70 70 0 0 0 0 17 3
+#11701
+guardian ~
+el guardian de los anillos~
+Un guardian hace su ronda cuidando los anillos.
+~
+~
+71 2088 0 C
+70 0 -30 10d10+13000 5d1+90
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+90 90 0 0 0 0 49 2563
+#11702
+jefe guardia~
+un jefe de la guardia~
+Un jefe de la guardia te echa a patadas de aqui.
+~
+~
+103 2162746 0 C
+72 0 -45 10d10+14000 5d1+110
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 4
+100 110 0 0 0 0 49 524291
+#11703
+sombra~
+una sombra~
+Una sombra esta aqui observandote.
+~
+~
+67 1081384 0 C
+58 0 -60 10d10+8000 5d1+60
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+70 60 0 0 0 0 134217729 3
+#11704
+guardia~
+guardia de las celdas~
+El guardia de las celdas vigila a sus presos.
+~
+~
+67 552 0 C
+59 0 -10 10d10+8000 5d1+90
+0 0
+112 112 0
+17 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 4
+90 90 0 0 0 0 131121 530435
+#11705
+orco~
+orco encarcelado~
+Un orco encarcelado descansa en su litera.
+~
+~
+67 65576 0 C
+54 0 -10 10d10+9000 5d1+70
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+70 70 0 0 0 0 49 3
+#11706
+trasgo~
+trasgo encarcelado~
+Un trasgo encarcelado se distrae por aqui.
+~
+~
+67 65576 0 C
+54 0 -10 10d10+9000 5d1+70
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+70 70 0 0 0 0 49 3
+#11707
+ogro~
+ogro encarcelado~
+Un ogro encarcelado se esconde al final de la celda.
+~
+~
+67 65536 0 C
+58 0 -10 10d10+9000 5d1+70
+0 0
+112 112 0
+17 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+70 70 0 0 0 0 49 3
+#11708
+guardian dragon~
+el Guardian Dragon~
+El Guardian Dragon vigila la entrada a su mundo.
+~
+~
+67 33554984 0 C
+60 0 -25 10d10+10500 5d1+100
+0 0
+112 112 0
+18 18 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+70 90 0 0 0 0 65553 10755
+#11709
+dragon discipulo~
+un dragon discipulo~
+Un dragon discipulo ronda por aqui.
+~
+~
+71 808 0 C
+56 0 -10 10d10+7500 5d1+80
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+70 80 0 0 0 0 17 3
+#11710
+rey zorg dragon~
+el Rey Zorg~
+El Rey Zorg esta descansando aqui.
+~
+~
+67 527016 0 C
+75 0 -30 10d10+14000 5d1+120
+0 0
+112 112 0
+18 18 0 18 18 0 0
+0 0 0 0 0
+0 0 0 0 1 1 5
+110 120 0 0 0 0 49169 14595
+#11711
+vigilante sacerdote~
+el sacerdote vigilante~
+El sacerdote vigilante esta aqui haciendo su ronda.
+~
+~
+71 552 0 C
+62 0 -5 10d10+8000 5d1+90
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+80 90 0 0 0 0 134217745 4099
+#11712
+aprendiz ~
+un aprendiz del apocalipsis~
+Un aprendiz del apocalipsis curiosea los estantes.
+~
+~
+67 40 0 C
+62 0 -10 10d10+8000 5d1+90
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 4
+90 90 0 0 0 0 134217745 3
+#11713
+obispo apocalipsis~
+un obispo del apocalipsis~
+Un Obispo del Apocalipsis esta leyendo por aqui.
+~
+~
+67 2099880 0 C
+70 0 -10 10d10+13500 5d1+100
+0 0
+112 112 0
+18 18 18 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 5
+90 100 0 0 0 0 17 14595
+> death_prog 99~
+come planta
+~
+> death_prog 1~
+mpoload 1225
+~
+|
+#11714
+sacerdote apocalipsis~
+un sacerdote del apocalipsis~
+Un Sacerdote del Apocalipsis estudia los libros.
+~
+~
+67 527016 0 C
+70 0 -10 100d10+13500 5d1+100
+0 0
+112 112 0
+18 18 18 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 5
+90 100 0 0 0 0 17 6403
+#11715
+senyor apocalipsis~
+el Senyor del Apocalipsis~
+El Senyor del Apocalipsis esta leyendo un libro.
+~
+~
+67 268438184 0 C
+74 0 -10 100d100+14500 5d1+120
+0 0
+112 112 0
+18 18 18 18 18 0 0
+0 0 0 0 0
+0 0 0 0 1 1 5
+100 100 0 0 0 0 8209 1063171
+#11716
+dragon norte~
+el Dragon del Norte~
+El Dragon del Norte vigila en su puesto de guardia.
+~
+~
+99 552 0 C
+76 0 -50 10d10+18000 5d1+110
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 4
+90 110 0 0 0 0 17 524291
+#11717
+dragon sur~
+el Dragon del Sur~
+El Dragon del Sur vigila en su puesto de guardia.
+~
+~
+99 552 0 C
+76 0 -50 10d10+18000 5d1+110
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 5
+90 110 0 0 0 0 17 3
+#11718
+senyor gula~
+el Senyor de la GuLa~
+El Senyor de la GuLa vigila su Anillo.
+~
+~
+71 268501546 0 C
+77 0 -50 10d10+18000 5d1+120
+0 0
+112 112 0
+18 18 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 5
+90 120 0 0 0 0 17 6403
+> greet_prog 100~
+if isimmort($n)
+emo murmura palabras ininteligibles...
+else
+emo te mira con ojos malevolos
+decir Voy a comerme tu alma!
+endif
+~
+|
+#11719
+senyor avaricia~
+el Senyor de la AvArIcIa~
+El Senyor de la AvArIcIa vigila su Anillo.
+~
+~
+71 66218 0 C
+77 0 -50 10d10+17500 5d1+120
+0 0
+112 112 0
+18 18 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 5
+90 120 0 0 0 0 17 2307
+> greet_prog 100~
+if isimmort($n)
+emo murmura palabras ininteligibles..
+else
+emo te mira con ojos malevolos.
+decir Tu alma engrosara mi coleccion!
+endif
+~
+|
+#11720
+senyor pereza~
+el Senyor de la PeReZa~
+El Senyor de la PeReZa vigila su Anillo.
+~
+~
+71 66218 0 C
+77 0 -50 10d10+17500 5d1+120
+0 0
+112 112 0
+18 18 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 5
+90 120 0 0 0 0 17 2307
+> greet_prog 100~
+if isimmort($n)
+emo murmura palabras ininteligibles..
+else
+emo te mira con ojos malevolos
+decir No creo que valga la pena ni hacer el esfuerzo de matarte...
+endif
+~
+|
+#11721
+senyor soberbia~
+el Senyor de la SoBerBiA~
+El Senyor de la SoBerBiA vigila su Anillo.
+~
+~
+71 66218 0 C
+77 0 -50 10d10+17500 5d1+120
+0 0
+112 112 0
+18 18 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 5
+90 120 0 0 0 0 17 2307
+> greet_prog 100~
+if isimmort($n)
+emo murmura palabras ininteligibles..
+else
+emo te mira con ojos malevolos
+decir No mereces estar ante mi.
+endif
+~
+|
+#11722
+senyor lujuria~
+el Senyor de la LuJuRia~
+El Senyor de la LuJuRia vigila su Anillo.
+~
+~
+71 66090 0 C
+77 0 -55 10d10+18500 5d1+120
+0 0
+112 112 0
+18 18 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 5
+90 120 0 0 0 0 49 2307
+> greet_prog 100~
+if isimmort($n)
+emo murmura palabras ininteligibles..
+else
+emo te mira con ojos malevolos
+decir No te apeteceria una esclava a tus ordenes...
+endif
+~
+|
+#11723
+senyor envidia~
+el Senyor de la EnViDia~
+El Senyor de la EnViDiA vigila su Anillo.
+~
+~
+71 66090 0 C
+77 0 -55 10d10+18500 5d1+120
+0 0
+112 112 0
+18 18 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 5
+90 120 0 0 0 0 17 2307
+> greet_prog 100~
+if isimmort($n)
+emo murmura palabras ininteligibles..
+else
+emo te mira con ojos malevolos
+decir Nadie puede tener mas poder que yo!
+endif
+~
+|
+#11724
+senyor ira~
+el Senyor de la IrA~
+El Senyor de la IrA vigila su Anillo.
+~
+~
+71 302058026 0 C
+78 0 -7 10d10+19500 5d1+140
+0 0
+112 112 0
+18 18 18 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 5
+100 140 0 0 0 0 16433 1051395
+> greet_prog 100~
+if isimmort($n)
+emo murmura palabras ininteligibles..
+else
+emo te mira con ojos malevolos
+decir Como osas molestarme!!
+ca 'fire breath' $n
+endif
+~
+|
+#11725
+guardia infernal~
+un Guardia Infernal~
+Un Guardia Infernal hace su ronda por aqui.
+~
+~
+71&2 33554472 0 C
+4 0 -70 10d10+14000 5d1+100
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+80 90 0 0 0 0 33 524291
+#11726
+diosa luz eterna~
+la Diosa de la LuZ EtErNa~
+La Diosa de la LuZ EtErNa emite una extranya luz.
+~
+~
+67 524988 0 C
+80 0 -100 10d10+22000 0d0+0
+0 0
+112 112 0
+0 20 20 20 0 20 20
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if isimmort($n)
+emo cree que no necesitas de sus cuidados
+decir Puedes marcharte, eres incluso mas poderoso que yo.
+else
+emo pronuncia extranyas palabras en voz baja
+decir Descansa, cuidare de ti mientras tanto.
+endif
+~
+|
+#11727
+lucifer dios mal~
+LuCiFeR~
+LuCiFeR, el Dios del Mal, protege su mundo.
+~
+~
+71 34147006 0 C
+80 0 -40 10d10+21000 5d1+140
+0 0
+112 112 0
+18 18 18 18 18 18 18
+0 0 0 0 0
+0 0 0 0 1 1 5
+80 110 0 0 0 0 57361 15107
+> greet_prog 100~
+if isimmort($n)
+decir Tu alma es demasiado poderosa para ser corrompida.
+muha
+else
+emo te mira con ojos malevolos.
+decir Bienvenido a tu condenacion... eterna!!
+ca 'lightning breath' $n
+endif
+~
+> fight_prog 5~
+' QuE Te CrEeS QuE SoY Un ChIsTe???
+ca heal
+ca heal
+ca heal
+ca 'fire breath' $n
+ca 'fire breath' $n
+ca 'fire breath' $n
+ca 'fire breath' $n
+ca 'fire breath' $n
+muhaha
+~
+> fight_prog 25~
+ca 'lightning breath' $n
+ca 'lightning breath' $n
+ca 'lightning breath' ~
+|
+#0
+
+
+#OBJECTS
+#11700
+antorcha~
+una enorme antorcha ~
+Una enorme antorcha se posa en la pared.~
+~
+1 0 16385
+0 0 20 0
+1 0 0
+#11701
+perneras ira~
+las perneras de la Ira~
+Unas simples perneras estan aqui.~
+~
+9 33 33
+10 10 0 0
+1 0 0
+A
+18 8
+A
+19 12
+#11702
+tridente infierno~
+un Tridente del Infierno~
+Tres afiladas puntas te senyalan.~
+~
+5 3 8193
+12 10 10 4
+1 0 0
+A
+19 10
+#11703
+hacha maligna~
+un hacha maligna~
+Aqui hay un hacha maligna.~
+~
+5 1 8193
+12 10 6 8
+1 0 0
+A
+19 6
+A
+18 5
+#11704
+garras~
+unas garras~
+Aqui hay tiradas unas garras.~
+~
+9 0 129
+8 8 0 0
+1 0 0
+A
+18 20
+A
+13 190
+#11705
+palo madera~
+un palo de madera~
+Un palo de padera.~
+~
+5 0 8193
+12 5 6 0
+1 0 0
+A
+18 3
+A
+19 4
+#11706
+botas cuero~
+unas botas de cuero~
+Unas botas de cuero aqui tiradas.~
+~
+9 0 65
+2 2 0 0
+1 0 0
+A
+14 25
+A
+2 1
+#11707
+cota mallas~
+una cota de mallas~
+Una cota de mallas esta tirada.~
+~
+9 0 9
+3 3 0 0
+1 0 0
+A
+18 2
+A
+17 -5
+#11708
+munyequera pinchos~
+una munyequera de pinchos~
+Una munyequera llena de pinchos yace aqui.~
+~
+9 0 4097
+10 10 0 0
+1 0 0
+A
+13 15
+#11709
+escudo escamas~
+un escudo de escamas~
+Un escudo escamoso esta tirado.~
+~
+9 0 513
+12 12 0 0
+1 0 0
+A
+13 15
+A
+18 5
+#11710
+simbolo infernal~
+el simbolo infernal~
+Una especie de simbolo senyala al infierno.~
+~
+9 0 5
+3 3 0 0
+1 0 0
+A
+14 50
+A
+3 1
+#11711
+armadura lucifer~
+la armadura de LuCiFeR~
+Aqui yace una llameante armadura.~
+~
+9 34078819 9
+30 30 0 0
+1 0 0
+A
+19 15
+A
+18 10
+A
+13 -20
+A
+3 1
+A
+2 1
+A
+24 -25
+#11712
+tunica apocalipsis~
+la tunica del Apocalipsis~
+Una hermosa tunica senyala el fin del mundo.~
+~
+9 513 1025
+7 7 0 0
+1 0 0
+A
+14 100
+A
+18 8
+#11713
+libro obispo~
+el libro del Obispo~
+Un viejo libro esta tirado en el suelo.~
+~
+9 513 16385
+5 5 0 0
+1 0 0
+A
+12 30
+A
+3 2
+A
+66 10
+#11714
+libro apocalipsis~
+el Libro del Apocalipsis~
+Un libro senyala el Fin del Mundo.~
+~
+9 0 16385
+5 5 0 0
+1 0 0
+A
+12 20
+A
+13 30
+#11715
+medallon apocalipsis~
+el Medallon del Apocalipsis~
+Un medallon que senyana el Fin del Mundo yace aqui.~
+~
+9 1 5
+7 7 0 0
+1 0 0
+A
+18 6
+A
+19 9
+#11716
+anillo apocalipsis~
+el Anillo del Apocalipsis~
+Un anillo que senyala el Fin del Mundo esta tirado en el suelo.~
+~
+9 1 3
+8 8 0 0
+1 0 0
+A
+13 30
+A
+18 5
+A
+19 8
+A
+23 -20
+#11717
+anillo gula~
+el Anillo de la GuLa~
+El anillo de la gula yace aqui tirado.~
+~
+9 65 3
+15 15 0 0
+1 0 0
+A
+13 75
+A
+18 5
+A
+19 6
+#11718
+anillo avaricia~
+el Anillo de la AvArIcIa~
+El anillo de la avaricia yace aqui tirado.~
+~
+9 65 3
+15 15 0 0
+1 0 0
+A
+13 75
+A
+18 5
+A
+19 6
+#11719
+anillo pereza~
+el Anillo de la PeReZa~
+El anillo de la pereza yace aqui tirado.~
+~
+9 65 3
+15 15 0 0
+1 0 0
+A
+13 75
+A
+18 5
+A
+19 6
+#11720
+anillo soberbia~
+el Anillo de la SoBerBiA~
+El anillo de la soberbia yace aqui tirado.~
+~
+9 65 3
+15 15 0 0
+1 0 0
+A
+13 75
+A
+18 5
+A
+19 6
+#11721
+anillo lujuria~
+el Anillo de la LuJuRiA~
+El anillo de la lujuria yace aqui tirado.~
+~
+9 65 3
+15 15 0 0
+1 0 0
+A
+13 75
+A
+18 5
+A
+19 6
+#11722
+anillo envidia~
+el Anillo de la EnViDiA~
+El anillo de la envidia yace aqui tirado.~
+~
+9 65 3
+15 15 0 0
+1 0 0
+A
+13 75
+A
+18 5
+A
+19 6
+#11723
+anillo ira~
+el Anillo de la IrA~
+El anillo de la ira yace aqui tirado.~
+~
+9 97 3
+30 30 0 0
+1 0 0
+A
+13 125
+A
+18 6
+A
+19 9
+#11724
+corona eterna~
+la CoRoNa EtErNa~
+Una hermosa y reluciente corona yace aqui.~
+~
+9 0 17
+50 50 0 0
+1 0 0
+A
+13 300
+A
+17 -100
+#11725
+estrella seis puntas~
+la Estrella de SeIs PunTaS~
+Una estrella de seis puntas esta aqui tirada.~
+~
+9 1 257
+25 25 0 0
+1 0 0
+A
+19 13
+A
+18 8
+A
+23 -50
+A
+17 -20
+#11726
+cuernos lucifer~
+los Cuernos de LuCiFeR~
+Un par de cuernos te llaman la atencion.~
+~
+9 1 17
+20 20 0 0
+1 0 0
+A
+19 25
+A
+3 -2
+A
+13 -20
+#11727
+pendiente infierno~
+el Pendiente del Infierno~
+Un extranyo pendiente te indice al mal.~
+~
+9 1 65537
+30 30 0 0
+1 0 0
+A
+18 12
+A
+19 12
+A
+1 -1
+A
+23 -50
+#11728
+capa infierno~
+la Capa del Infierno~
+Una extranya capa te induce al mal.~
+~
+9 1 1025
+8 8 0 0
+1 0 0
+A
+13 20
+A
+24 -50
+#11729
+ojo infierno~
+el Ojo del Infierno~
+Sientes como algo infernal te esta mirando.~
+~
+9 33554433 131073
+10 10 0 0
+1 0 0
+A
+36 0
+A
+18 22
+A
+19 5
+#11730
+collar infierno~
+el Collar del Infierno~
+Ves una pequenya llama dibujada en un collar.~
+~
+9 1 5
+15 15 0 0
+1 0 0
+A
+19 15
+A
+18 15
+A
+13 25
+A
+23 -50
+A
+1 -4
+#11731
+lanza punta~
+la Lanza Maligna.~
+Una curiosa lanza te induce al mal.~
+~
+5 19 8193
+12 10 12 3
+1 0 0
+A
+18 30
+#11732
+lucifer~
+La CaJa de LuCiFeR~
+Una hermosa caja de bronce yace aqui.~
+~
+15 0 0
+1000000 13 11733 0
+16960 0 0
+#11733
+llave lucifer~
+la llave de LuCiFeR~
+Una pequenya llave esta en el suelo.~
+~
+18 524289 16385
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#11700
+Inicio del camino montanyoso~
+Un pequenyo y largo camino avanza hacia el norte. El terreno es muy 
+rocoso y tienes dificultades para pasar. Unas altas y respetuosas paredes de 
+roca se alzan a ambos lados....todo es inmenso.
+~
+0 8 5
+D0
+~
+~
+0 0 11701
+D2
+~
+~
+0 0 12028
+S
+#11701
+Largo camino montanyoso~
+Sigues por el largo camino de la montanya. Cada vez se hace mas estrecho 
+y oscuro. No sabes hacia donde te puede llevar y el miedo te empieza a 
+invadir. Conforme avanzas....todo parece mas desierto y oscuro.
+~
+0 8 5
+D0
+~
+~
+0 0 11702
+D2
+~
+~
+0 0 11700
+S
+#11702
+Final del camino montanyoso~
+Has llegado a lo ke parece el final del camino.  Al fondo te parece ver
+una pekenya cueva.  Es muy oskura y se encuentra en muy mal estado.  Se
+adentra en la montanya y tu vista no konsigue alcanzar mas.  
+~
+0 0 5
+D0
+~
+~
+0 0 11703
+D2
+~
+~
+0 0 11701
+S
+#11703
+Entrada a la Cueva~
+Aki hay una pekenya entrada de una cueva.  Todo esta muy oscuro no 
+sabes distinguir lo ke hay al fondo.  La cueva se adentra en la montanya
+y parece muy profunda.  En la pared de la entrada observas una enorme 
+antorcha, parece una cueva bastante concurrida.  
+~
+0 8 13
+D0
+~
+~
+0 0 11704
+D2
+~
+~
+0 0 11702
+S
+#11704
+Una bifurcacion de tuneles~
+Acabas de llegar a una bifurcacion de tuneles. Un tunel se desvia al 
+este, mientras que el otro se desvia hacia el oeste. Todo esta muy 
+oskuro.... no sabes distinguir entre el camino bueno y el malo. Mas 
+vale que elijas bien, si te equivocas.....
+~
+0 8 13
+D1
+~
+~
+0 0 11705
+D2
+~
+~
+0 0 11703
+D3
+~
+~
+0 0 11706
+S
+#11705
+Pequenyo tunel subterraneo~
+Has eskogido seguir este pekenyo tunel, no sabes hacia donde te
+konducira.  Ademas, no konsigues ver absolutamente nada.  La oscuridad 
+te rodea
+~
+0 8 0
+D0
+~
+~
+0 0 11709
+D3
+~
+~
+0 0 11704
+S
+#11706
+Pequenyo tunel subterraneo.~
+Avanzas por el tunel oeste, tal vez hayas elegido bien...tal vez no. La 
+verdad es ke no konsigues ver nada aun. Todo esta muy oskuro, tipiko de
+kualkier tunel. El tunel kontinua hacia el norte.
+~
+0 8 0
+D0
+~
+~
+0 0 11707
+D1
+~
+~
+0 0 11704
+S
+#11707
+Continuacion del tunel subterraneo.~
+Continuas por el tunel.  Todo kada vez esta mas oskuro.  Parece ke el
+tunel no tiene final, no konsigues ver nada.  Un eskalofrio te recorre 
+el kuerpo, hay mucha humedad. Kien sabe ke seres extranyos pueden estar
+por aki.
+~
+0 8 0
+D0
+~
+~
+0 0 11708
+D2
+~
+~
+0 0 11706
+S
+#11708
+Final del tunel oeste.~
+Parece ke has konseguido llegar al final del tunel, puedes ver una luz 
+a lo lejos al este.  Tal vez sea la salida, tal vez sea tu salvacion... 
+O tal vez no.....
+~
+0 8 0
+D1
+~
+~
+0 0 11711
+D2
+~
+~
+0 0 11707
+S
+#11709
+Continuacion del tunel subterraneo.~
+Avanzas por el tunel.  Hay mucha humedad y komienzas a tener un poko de
+frio.  Tal vez no deberias estar aki.  Tal vez no sea este tu lugar.  
+~
+0 8 0
+D0
+~
+~
+0 0 11710
+D2
+~
+~
+0 0 11705
+S
+#11710
+Final del tunel este.~
+Acabas de llegar al final del tunel este. Parece ke ya estas a salvo,
+ves una pekenya luz al oeste, es la salida. Piensate en seguir adelante 
+o no, puede kostarte karo.
+~
+0 8 0
+D2
+~
+~
+0 0 11709
+D3
+~
+~
+0 0 11711
+S
+#11711
+Cruce de tuneles.~
+Te akabas de dar kuenta de ke los dos tuneles daban al mismo sitio....  
+En este cruce. Ves un par de agujeros excavados artificialmente en la
+roca, te muestran dos salidas, una hacia arriba y otra hacia abajo.
+Eskoje bien.
+~
+0 8 0
+D1
+~
+~
+0 0 11710
+D3
+~
+~
+0 0 11708
+D4
+~
+~
+3 0 11713
+D5
+~
+~
+3 0 11712
+S
+#11712
+Garito del guardia~
+Acabas de penetrar en las mazmorras....  Aqui encontraras delincuentes 
+de la peor calanya y raza. El hediondo ambiente y los grunyidos de los 
+ogros te distraen mientras un gigantesco guardia de seguridad se
+tira encima tuyo al advertir tu presencia..
+~
+0 8 0
+D0
+~
+~
+0 0 11716
+D1
+~
+~
+0 0 11714
+D2
+~
+~
+0 0 11720
+D3
+~
+~
+0 0 11718
+D4
+~
+~
+1 0 11711
+S
+#11713
+Pasillo oscuro~
+Te encuentras en un oscuro y humedo pasillo.  El agua se filtra por las
+paredes y forma charcos en el suelo, que junto con la mugre de los 
+siglos forma una extranya masa pegajosa que se te pega a los pies. 
+~
+0 8 0
+D0
+~
+~
+0 0 11715
+D5
+~
+~
+1 0 11711
+S
+#11714
+Celda este~
+Entras en la celda del ala este de las mazmorras. En ella solo ves unas
+literas con dos orcos tumbadas en ellas...  Parecen muy trankilos, y esa es
+una conducta que te sorprende.  Por si acaso ve con cuidado...  Al otro lado
+de la celda ves un pequenyo y asqueroso retrete que hace juego con el resto
+de la sala.  Te preguntas desde cuando no limpiara esta gente....
+~
+0 0 0
+D3
+~
+~
+0 0 11712
+S
+#11715
+Pasillo oscuro~
+Te encuentras en un humedo y oscuro pasillo.  El olor a moho es
+asfixiante y apenas te permite prestar atencion a lo que tienes 
+delante. Pese a eso puedes ver al norte una celda con un par
+de trasgos que no dejan de escupir al aire.  
+~
+0 0 0
+D0
+~
+~
+0 0 11717
+D2
+~
+~
+0 0 11713
+S
+#11716
+Celda Norte~
+Te encuentras en la celda del ala norte de las mazmorras. En este ala se
+han ubicado los trasgos. Unos seres repulsivos y maleducados que te hacen
+gestos obscenos al ver que te acercas.  Uno de ellos te pide que te
+acerques, que pasareis un buen rato...
+~
+0 0 0
+D2
+~
+~
+0 0 11712
+S
+#11717
+Pasillo oscuro~
+Te encuentras en un humedo y oscuro pasillo.  Apenas ves nada y solo
+alcanzas a oir mumullos extranyos procedentes del oeste.  Si prestas 
+mucha atencion te parece vislumbrar la sombra de dos ogros
+~
+0 0 0
+D0
+~
+~
+0 0 11719
+D2
+~
+~
+0 0 11715
+S
+#11718
+Celda oeste~
+Te encuentras en la celda oeste.  Todo esta extremadamente sucio y
+asqueroso, te dan ganas de vomitar.  La oscuridad invade la habitacion 
+y lo unico que distingues son unas timidas siluetas al fondo de ella.
+Estas siluetas son grandes....  MUY grandes.
+~
+0 0 0
+D1
+~
+~
+0 0 11712
+S
+#11719
+Pasillo oscuro~
+Te encuentras en un oscuro y humedo pasillo.  Notas un frio intenso que
+te cala los huesos.  No logras oir nada y una extranya calma se apodera 
+del ambiente.  Hacia el sur ves una celda.
+~
+0 0 0
+D0
+~
+~
+0 0 11721
+D2
+~
+~
+0 0 11717
+S
+#11720
+Celda sur~
+Estas en la celda sur.  Esta celda no es muy oscura, lo que te permite
+descubrir un pequenyo tunel excavado en la pared.  Algo te extranya....  
+La celda esta vacia, puede que el preso se haya escapado por ese
+pequenyo agujero....  Hacia donde conducira???  
+~
+0 0 0
+D0
+~
+celda~
+11 0 11712
+D2
+~
+agujero~
+6155 0 11722
+S
+#11721
+Agujero excavado en la roca~
+Continuas por el pequenyo tunel excavado en la roca.  Cada vez se hace
+mas estrecho y mas oscuro.  
+~
+0 0 0
+D0
+~
+~
+0 0 11722
+D2
+~
+~
+0 0 11719
+S
+#11722
+La Sala del Destino.~
+Te encuentras en una gran sala con dos majestuosos portales a ambos
+lados. Notas como si tu destino dependiese de tu eleccion. Hacia el este
+te parece vislumbrar una calida luz, y un aura de paz envuelve tu alma.  
+En cambio hacia el oeste apenas distingues una lobregas sombras que
+esperan con impaciencia a que te acerques...  Pero recuerda, no es oro
+todo lo que reluce....  
+~
+0 0 0
+D1
+~
+~
+3 0 11723
+D2
+~
+~
+0 0 11721
+D3
+~
+~
+3 0 11724
+S
+#11723
+CaMiNo Al CieLo~
+Paseas lentamente por un estrecho camino en el que te sientes como en
+casa.  Una gran sensacion de bienestar te invade completamente.  Todo 
+esta muy iluminado y te sientes como nunca...  Te sientes muy bien. 
+~
+0 0 0
+D1
+~
+~
+0 0 11800
+D3
+~
+~
+0 0 11722
+S
+#11724
+CaMiNo Al InFiErNo.~
+Te encuentras en la entrada al Infierno, el Mundo Malvado.  Mundo
+satanico en el ke habitan todos los seres mas temibles y peligrosos
+imaginables.  Toda clase de bestias y monstruos ke estan a las 
+estrictas ordenes del Gran Senyor del Infierno, Lucifer.
+~
+0 0 0
+D1
+~
+~
+0 0 11722
+D3
+~
+~
+0 0 11725
+S
+#11725
+El DiA De La BeSTiA Ha LLeGaDo.~
+Ha llegado el Fin del Mundo. Ha llegado El Dia de la Bestia. La maldad
+se ha apoderado del mundo. Ahora la oskuridad kontrola toda vida existente.
+Una vida ke ya no sera komo la de antes, una vida negra y sin reglas, de
+peligros y temores.  Una vida en la ke solo los mas fuertes y poderosos
+podran disfrutar.  
+~
+0 0 0
+D1
+~
+~
+0 0 11724
+D3
+~
+~
+3 0 11726
+S
+#11726
+El Mundo de los Dragones.~
+Has entrado en uno de los Mundos del Infierno, el gobernado por los
+Dragones.  Son criaturas enormes ke poseen unos poderes muy pekuliares, 
+A pesar de su gran envergadura son bastante agiles y kapaces de
+levantar su propio peso elevandose por los aires.
+Ve kon kuidado.  Todos ellos siguen las normas marcadas por su rey,
+el Rey de los Dragones, el Rey Zorg.
+~
+0 0 0
+D0
+~
+~
+0 0 11727
+D1
+~
+~
+0 0 11725
+D2
+~
+~
+0 0 11731
+D3
+~
+~
+0 0 11730
+S
+#11727
+Ala norte.~
+Avanzas por el ala norte del Mundo de los Dragones.  Todo parece 
+bastante trankilo por aki.  La verdad, por lo ke estas viendo,
+este no parece realmente el Infierno.  
+~
+0 0 0
+D0
+~
+~
+0 0 11728
+D2
+~
+~
+0 0 11726
+S
+#11728
+Ala norte.~
+Sigues por el ala norte.  Todo sigue bastante trankilo, no parece ke
+debas preokuparte por nada.  Pero algo te dice ke no tienes ke estar 
+tan seguro.
+~
+0 0 0
+D0
+~
+~
+0 0 11729
+D2
+~
+~
+0 0 11727
+S
+#11729
+Bajo la Torre Norte.~
+Estas bajo la Torre Norte del Mundo de los Dragones.  La torre es un
+puesto de vigilancia ke poseen los dragones para poder detectar a los
+intrusos kon relativa facilidad, tal vez ya te hayan visto a ti.  Unas
+pekenyas escaleras en forma de caracol konducen hacia arriba.  
+~
+0 0 0
+D2
+~
+~
+0 0 11728
+D4
+~
+~
+3 0 11748
+S
+#11730
+Pasillo del Rey Zorg.~
+Zona norte del pasillo del Rey.  Es un pasillo muy bien kuidado y por el
+ke parece ke no suele pasar mucha gente.  Tiene aspecto de ser una parte
+privada, reservada para la intimidad del Rey. 
+~
+0 0 0
+D1
+~
+~
+0 0 11726
+D3
+~
+~
+0 0 11734
+S
+#11731
+Ala sur.~
+Caminas por el ala sur.  Un pekenyo camino se dirige al sur y una
+reluciente luz proveniente del oeste te intriga.  Hay mucha claridad y 
+todo parece estar muy trankilo.  
+~
+0 0 0
+D0
+~
+~
+0 0 11726
+D2
+~
+~
+0 0 11732
+S
+#11732
+Ala sur.~
+Continuas por el ala sur.  Ahora ya todo no parece tan trankilo.  Te
+sentirias mas a gusto si no estuvieras escuchando unos extranyos ruidos
+procedentes del oeste.  Te irias rapidamente de esta zona, pero tu
+kuriosidad es mas fuerte.
+~
+0 0 0
+D0
+~
+~
+0 0 11731
+D2
+~
+~
+0 0 11733
+S
+#11733
+Bajo la Torre Sur.~
+Estas bajo la Torre Sur.  Esta torre es un puesto de vigilancia ke
+utilizan los dragones para intentar mantener su territorio impenetrable 
+por kualkier guerrero ke se atreva a invadirlo. 
+~
+0 0 0
+D0
+~
+~
+0 0 11732
+D4
+~
+~
+3 0 11749
+S
+#11734
+Pasillo del Rey Zorg.~
+Zona sur del pasillo del Rey.  Todo parece muy bien ordenado y kuidado. 
+Esta es una de las zonas privadas del Rey.  Normalmente, nadie osa 
+andar por aki.
+~
+0 0 0
+D1
+~
+~
+0 0 11730
+D3
+~
+~
+0 0 11735
+S
+#11735
+Pasillo del Rey Zorg.~
+Este es el pasillo del Rey Zorg, el rey de los dragones.  Al oeste se
+encuentra su trono y probablemente este descansando.  Lo mejor seria no
+molestarle.  
+~
+0 0 0
+D1
+~
+~
+0 0 11734
+D3
+~
+~
+0 0 11736
+S
+#11736
+Sala del Trono del Rey Zorg.~
+Esta es la sala donde reposa el Rey de los Dragones, el Rey Zorg.  Un
+gran trono se alza en la habitacion y observas intimidado toda su 
+lujuria. 
+Zorg parece el mas viejo de todos los dragones, no parece ke te vaya a 
+poner muchos problemas para seguir tu camino.
+Pero su aspecto de ser extremadamente sabio y experimentado 
+te hace sentir un poko inkieto.
+~
+0 0 0
+D1
+~
+~
+0 0 11735
+D4
+~
+~
+3 0 11737
+S
+#11737
+Entrada a la Biblioteca del Apocalipsis.~
+Te encuentras en la entrada al segundo piso del Infierno, la Biblioteca
+del Apocalipsis.  En este piso estaras siempre rodeado de libros que 
+hablan del fin de mundo y de seres extranyos que los estudian
+y hacen todo lo posible por que ocurra.  
+~
+0 0 0
+D2
+~
+~
+0 0 11738
+D5
+~
+~
+0 0 11736
+S
+#11738
+Pasillo de la Biblioteca.~
+Aqui empieza el pasillo de la biblioteca. Al este y al oeste puedes ver 
+una serie de estantes con libros. El pasillo sigue hacia el sur.
+~
+0 0 0
+D0
+~
+~
+0 0 11737
+D1
+~
+~
+0 0 11740
+D2
+~
+~
+0 0 11741
+D3
+~
+~
+0 0 11739
+S
+#11739
+Estantes del Oeste.~
+Todo lo que puedes ver son estantes y mas estantes.  Todos ellos llenos
+de libros y mas libros...  No habias visto tantos libros juntos nunca. 
+Todos estos libros tratan de lo mismo, todos tratan del Apocalipsis, 
+pero aqui no se guardan los mas importantes. 
+Todos los que estan aqui son mas que nada de iniciacion para los
+aprendices que suelen visitar esta biblioteca.
+~
+0 0 0
+D1
+~
+~
+0 0 11738
+D3
+~
+~
+0 0 11742
+S
+#11740
+Estantes del Este.~
+Estas en los estantes del este de la biblioteca.  Todo esta 
+abarrotado de libros que hablan del fin del mundo.  Muchos aprendices 
+suelen andar por aqui y curiosear y estudiar todos estos libros.  
+~
+0 0 0
+D1
+~
+~
+0 0 11744
+D3
+~
+~
+0 0 11738
+S
+#11741
+Pasillo de la Biblioteca.~
+Este es el final del pasillo que lleva a la sala central de la biblioteca.
+Todo parece muy silencioso, como es costumbre en todas las bibliotecas, 
+pero una extranya sensacion te embarga, no te encuentras del todo agusto 
+una extranya sensacion te embarga, no te encuentras del todo agusto 
+entre estas paredes.
+~
+0 0 0
+D0
+~
+~
+0 0 11738
+D2
+~
+~
+0 0 11743
+S
+#11742
+Estantes del Oeste.~
+Toda la habitacion esta llena de libros. Hay estantes por todas partes, 
+todos ellos llenos de libros. Ves libros muy antiguos, casi destrozados
+por el paso de los anyos. Ves libros menos antiguos y menos usados.
+En fin, libros....
+aqui hay libros por todas partes, y todos ellos hablan de lo mismo: del 
+Fin del Mundo.
+~
+0 0 0
+D1
+~
+~
+0 0 11739
+D3
+~
+~
+0 0 11747
+S
+#11743
+Entrada a la Sala Central.~
+Todo esta muy silencioso.  Todo parece muy tranquilo.  Estas en la
+entrada a la sala central, que se encuentra hacia el sur.  Sin embargo,
+percibes unas pequenyas salidas al este y oeste que te intrigan.  
+Observas algo extranyo en ellas. 
+~
+0 0 0
+D0
+~
+~
+0 0 11741
+D2
+~
+~
+0 0 11746
+S
+#11744
+Estantes del Este.~
+Estas completamente rodeado de libros.  Te encuentras en los estantes 
+del este, hay un monton de estanterias todas ellas llenas de libros:
+libros gruesos, delgados, antiguos, nuevos.....  Toda clase de libros. 
+~
+0 0 0
+D1
+~
+~
+0 0 11745
+D3
+~
+~
+0 0 11740
+S
+#11745
+Sala del Obispo del Apocalipsis.~
+Este es el estudio privado del Obispo del Apocalipsis. Aqui es donde se
+concentran y agrupan los mas amplios conocimientos sobre el fin del 
+mundo, y el encargado de estudiarlos y protegerlos es el Obispo.
+Estos libros son como su familia, como toques alguno de ellos.... 
+Date por muerto. 
+~
+0 0 0
+D3
+~
+~
+0 0 11744
+S
+#11746
+Sala Central de la Biblioteca.~
+Esta sala es inmensa.  Puedes ver estanterias llenas de libros, asi 
+como mesas en las que se amontonan grandes enciclopedias antiguas.
+Un libro muy grande resalta sobre los demas, esta posado sobre
+un pedestal de marmol blanco y lleno de polvo, como si estuviera
+prohibido tocarlo.  En su portada esta escrito con letras doradas:
+"Fecha Exacta del Apocalipsis".
+~
+0 0 0
+D0
+~
+~
+0 0 11743
+D2
+~
+~
+0 0 11750
+S
+#11747
+El estudio del Apocalipsis~
+Te encuentras ante lel estudio privado del Senyor del Apocalipsis.
+No se oye nada absolutamente, todo esta envuelto en un silencio 
+impresionante, lo uniko ke konsigues oir es tu respiracion,
+que se va acelerando conforme te acercas a la espalda del Senyor.
+El aun no te ha visto, o al menos eso crees.....
+~
+0 0 0
+D1
+~
+~
+0 0 11742
+S
+#11748
+Puesto de vigilancia Norte~
+Este es el puesto de vigilancia norte, desde aki se divisa todo el
+territorio de los dragones.  Es el lugar perfecto para komprobar si hay
+algun intruso.  En el puesto de guardia se encuentra el Dragon del 
+Norte protegiendo al Rey Zorg. 
+~
+0 0 0
+D5
+~
+~
+0 0 11729
+S
+#11749
+Torre del Guardian del Sur.~
+Este es el puesto de vigilancia sur.  Aki se encuentra el Dragon del 
+Sur vigilando el territorio. Esta aki para proteger a su Rey.
+Daria su vida por el, mas vale ke no lo pongas a prueba.
+~
+0 0 0
+D5
+~
+~
+0 0 11733
+S
+#11750
+Sala Final de la Biblioteca.~
+Ultima sala de la Biblioteca.  Esta es la sala que da paso al siguiente
+piso del Infierno.  Piensa bien si debes seguir adelante o retroceder, 
+tu decision final sera muy importante.  
+~
+0 0 0
+D0
+~
+~
+0 0 11746
+D4
+~
+~
+0 0 11751
+S
+#11751
+Los Anillos Del Infierno.~
+Te encuentras en la entrada a los Anillos del Infierno.  Estos anillos 
+Estos anillos y sus respectivos Senyores son la fuente de poder de este lugar.
+Sin ellos, el Infierno no seria como lo conoces. 
+Cada anillo pertenece a un poder malvado diferente, enfrentarte a
+ellos puede ser peligroso, pero en caso de salir vencedor, tal vez
+hayas acabado con el Gran Mundo de las Tinieblas.
+~
+0 0 0
+D4
+~
+~
+0 0 11752
+D5
+~
+~
+0 0 11750
+S
+#11752
+Entrada al piso de los Anillos.~
+Te encuentras ante el gran portalon del piso de los Anillos.
+Solo deberias traspasar este portal en caso de que estes completamente 
+decidido a enfrentarte a los seres mas temibles y malvados del Infierno.
+En caso contrario, sal corriendo como un cobarde.
+~
+0 0 0
+D3
+~
+~
+0 0 11753
+D5
+~
+~
+0 0 11751
+S
+#11753
+Corredor Central de los Anillos.~
+Inicio del Corredor Central del piso de los Anillos.
+Si consigues cruzar este corredor sin perder tu vida en el intento 
+habras debilitado seriamente el poder del Senyor LuCiFeR y,
+por tanto, el poder del Infierno.
+~
+0 0 0
+D0
+~
+~
+0 0 11754
+D1
+~
+~
+0 0 11752
+D2
+~
+~
+0 0 11755
+D3
+~
+~
+0 0 11758
+S
+#11754
+GuLa.~
+Estas ante el Gran anillo de la GuLA. Este es uno de los poderes del 
+Infierno.  
+~
+0 0 0
+D2
+~
+~
+0 0 11753
+D3
+~
+~
+0 0 11759
+D4
+~
+~
+0 0 11756
+S
+#11755
+AvArIcIa.~
+Estas ante el Gran Anillo de la AvArIcIa. Este es uno de los poderes 
+del Infierno
+~
+0 0 0
+D0
+~
+~
+0 0 11753
+D3
+~
+~
+0 0 11760
+D4
+~
+~
+0 0 11757
+S
+#11756
+El anillo de la Gula~
+Estas en la sala donde se guarda el precioso Anillo de la Gula. 
+El Senyor de la Gula es su guardian, pero hay un pequenyo 
+problema....nunca habias visto alguien tan grande como el,
+es inmenso....parece indestructible.
+~
+0 0 0
+D5
+~
+~
+0 0 11754
+S
+#11757
+El Anillo De La AvArIcIa.~
+Toda la sala esta repleta de objetos.  Estan todos desordenados, 
+tirados por el suelo, colgados de las paredes... Un monton de
+objetos se amontonan aqui.
+Te cuesta encontrar la razon por la cual estas aki, la caja del Anillo 
+de la Avaricia.  
+Pero rapidamente despues de echar un vistazo consigues deducir
+donde se encuentra dicha caja, ya que delante de ella se alza una 
+enorme figura....  El Gran Senyor de la Avaricia.
+~
+0 0 0
+D5
+~
+~
+0 0 11755
+S
+#11758
+Corredor Central de los Anillos.~
+Paso oeste del corredor por el Anillo Central.
+~
+0 0 0
+D0
+~
+~
+0 0 11759
+D1
+~
+~
+0 0 11753
+D2
+~
+~
+0 0 11760
+D3
+~
+~
+0 0 11761
+S
+#11759
+Corredor Norte de los Anillos.~
+Caminas por el corredor Norte del piso de los Anillos.
+~
+0 0 0
+D1
+~
+~
+0 0 11754
+D2
+~
+~
+0 0 11758
+D3
+~
+~
+0 0 11763
+S
+#11760
+Corredor Sur de los Anillos.~
+Caminas por el corredor Sur del piso de los anillos.
+~
+0 0 0
+D0
+~
+~
+0 0 11758
+D1
+~
+~
+0 0 11755
+D3
+~
+~
+0 0 11764
+S
+#11761
+Bajo el Anillo Central.~
+Te encuentras bajo el Anillo Central.  Percibes un inmenso poder que
+emana de esta sala.  Este es el Anillo mas poderoso del Infierno y, por
+tanto, el Senyor que lo guarda y protege tambien lo es.  Este es el 
+anillo mas preciado y poderoso de este mundo, el Mundo de las Tinieblas...
+El Mundo del Mal. 
+~
+0 0 0
+D0
+~
+~
+0 0 11763
+D1
+~
+~
+0 0 11758
+D2
+~
+~
+0 0 11764
+D3
+~
+~
+0 0 11766
+D4
+~
+~
+0 0 11762
+S
+#11762
+El anillo de la IrA~
+Estas ante el Gran Anillo de la IrA.  Este es uno de los poderes del 
+Infierno.  
+~
+0 0 0
+D4
+~
+~
+3 0 11776
+D5
+~
+~
+0 0 11761
+S
+#11763
+LuJuRiA.~
+Estas ante el Gran Anillo de la LuJuRiA.  Este es uno de los poderes 
+del Infierno
+~
+0 0 0
+D1
+~
+~
+0 0 11759
+D2
+~
+~
+0 0 11761
+D3
+~
+~
+0 0 11765
+D4
+~
+~
+0 0 11774
+S
+#11764
+EnViDiA.~
+Estas ante el Gran Anillo de la EnViDiA.  Este es uno de los poderes 
+del Infierno
+~
+0 0 0
+D0
+~
+~
+0 0 11761
+D1
+~
+~
+0 0 11760
+D3
+~
+~
+0 0 11767
+D4
+~
+~
+0 0 11775
+S
+#11765
+Corredor Norte de los Anillos.~
+Caminas por el corredor Norte del piso de los Anillos.
+~
+0 0 0
+D1
+~
+~
+0 0 11763
+D2
+~
+~
+0 0 11766
+D3
+~
+~
+0 0 11769
+S
+#11766
+Corredor Central de los Anillos.~
+Paso este del corredor por el Anillo Central.
+~
+0 0 0
+D0
+~
+~
+0 0 11765
+D1
+~
+~
+0 0 11761
+D2
+~
+~
+0 0 11767
+D3
+~
+~
+0 0 11768
+S
+#11767
+Corredor Sur de los Anillos.~
+Caminas por el corredor Sur del piso de los Anillos.
+~
+0 0 0
+D0
+~
+~
+0 0 11766
+D1
+~
+~
+0 0 11764
+D3
+~
+~
+0 0 11770
+S
+#11768
+Final del Corredor Central.~
+Este es el final del Corredor del piso de los anillos.  Si lo que quieres
+es salir rapidamente de aqui elige ir hacia el este.  Si quieres probar
+suerte de nuevo en este Infierno elige oeste.  
+~
+0 0 0
+D0
+~
+~
+0 0 11769
+D1
+~
+~
+0 0 11766
+D2
+~
+~
+0 0 11770
+D3
+~
+~
+0 0 11773
+S
+#11769
+PeReZa.~
+Estas ante el Gran Anillo de la PeReZa.  Este es uno de los poderes del
+Infierno.  
+~
+0 0 0
+D1
+~
+~
+0 0 11765
+D2
+~
+~
+0 0 11768
+D4
+~
+~
+0 0 11771
+S
+#11770
+SoBerBiA.~
+Estas ante el Gran Anillo de la SoBeRbIa.  Este es uno de los poderes 
+del Infierno
+~
+0 0 0
+D0
+~
+~
+0 0 11768
+D1
+~
+~
+0 0 11767
+D4
+~
+~
+0 0 11772
+S
+#11771
+El Anillo De La PeReZa.~
+Este es uno de los anillos mas poderosos del Infierno.
+Al final de esta sala observas una preciosa cajita de oro con una pequenya
+cerradura.  Ahi es donde se guarda el Anillo de la PeReZa,un tesoro muy valioso
+y muy perseguido.  Pero para poder conseguirlo antes deberas enfrentarte al 
+Senyor de la Pereza, que lo protege de ladrones como tu.
+~
+0 0 0
+D5
+~
+~
+0 0 11769
+S
+#11772
+El Anillo De La SoBerBiA.~
+El Gran Senyor del la Soberbia ese encuentra en posicion de ataque, 
+preparado para defender y proteger el Anillo de la Soberbia.
+El anillo se encuentraen una pequenya caja situada al final de la sala.
+~
+0 0 0
+D5
+~
+~
+0 0 11770
+S
+#11773
+Salida de los Anillos del Infierno.~
+Parece que has podido sobrevivir al Infierno de los Anillos. Has tenido
+suerte. Pero si realmente quieres conocer lo que significa la palabra
+Infierno, te aconsejo que sigas adelante viajero.
+~
+0 0 0
+D1
+~
+~
+0 0 11768
+D3
+~
+~
+0 0 11777
+S
+#11774
+El Anillo De La LuJuRiA.~
+Te encuentras en la sala preferida por todos los seres que habitan en 
+el Infierno. El tesoro que aqui se esconde es el mas deseado y preciado
+por todos. Nunca nadie ha conseguido robarlo, ni siquiera verlo.
+Tal vez seas tu el primero.  Pero antes, deberas convencer al Senyor de 
+la Lujuria de tus buenas intenciones.
+~
+0 0 0
+D5
+~
+~
+0 0 11763
+S
+#11775
+El AniLLo FiNaL~
+Esta sala esta completamente vacia, solo puedes observar la pequenya 
+caja en la que se guarda el Anillo al final de la sala.
+Ante ella, el Gran Senyor de la Envidia se postra ante ti.
+~
+0 0 0
+D5
+~
+~
+0 0 11764
+S
+#11776
+El Anillo De La IrA.~
+Esta es la sala donde se esconde el anillo mas poderoso y perseguido.... 
+El anillo de la Ira.  Es una de las fuentes de poder mas grandes y
+principales del Infierno.
+Quien logre poseer el poder que este Anillo ofrece podra enfrentarse 
+a los peligros mas temidos y odiados.  Pero nadie lo sabe exactamente,
+nadie ha conseguido nunca poseer este preciado tesoro, ya que su guardian
+es el Gran Senyor de la Ira, uno de los seres mas poderosos del Infierno.
+~
+0 0 0
+D5
+~
+~
+3 0 11762
+S
+#11777
+Ultimo Piso del Infierno.~
+Estas ante las puertas del ultimo piso del Infierno.
+Una pequenya trampilla situada sobre tu cabeza te abre paso hacia 
+arriba.
+~
+0 0 0
+D1
+~
+~
+0 0 11773
+D4
+~
+~
+0 0 11778
+S
+#11778
+El Reino De LuCiFeR.~
+Este es el ultimo piso del Infierno.  Son las estancias del Rey Supremo
+del Infierno, LuCiFeR.  El es quien controla y protege este mundo. Todos
+los demas habitantes del Infierno son humildes subditos de LuCiFeR, que
+haran todo cuento el diga e imponga.  LuCiFeR es el ser mas temido de 
+todo el Infierno.  Nunca nadie ha podido vencerle y muy pocos son los
+que han conseguido ver su rostro y seguir con vida. 
+~
+0 0 0
+D2
+~
+~
+0 0 11779
+D5
+~
+~
+0 0 11777
+S
+#11779
+Pasillo Infernal.~
+Aqui comienza el pasillo del Infierno.  Al sur se encuentra la
+bifurcacion de los pasillos laterales.  Si tienes miedo...  Parate 
+aqui, no sigas adelante.
+~
+0 0 0
+D0
+~
+~
+0 0 11778
+D1
+~
+~
+0 0 11781
+D3
+~
+~
+0 0 11780
+S
+#11780
+Pasillo Lateral.~
+Estas en el pasillo oeste del comienzo del ultimo piso del Infierno, el
+Reino de LuCiFeR.  
+~
+0 0 0
+D1
+~
+~
+0 0 11779
+D2
+~
+~
+0 0 11782
+S
+#11781
+Pasillo Lateral.~
+Inicio del pasillo este del Reino de LuCiFeR.  El pasillo continua al 
+sur.  
+~
+0 0 0
+D2
+~
+~
+0 0 11783
+D3
+~
+~
+0 0 11779
+S
+#11782
+Pasillo Lateral.~
+Zona intermedia del pasillo oeste.  Observas que hacia el sur continua 
+el pasillo
+~
+0 0 0
+D0
+~
+~
+0 0 11780
+D2
+~
+~
+0 0 11784
+S
+#11783
+Pasillo Lateral.~
+Te encuentras en el intermedio del pasillo este del Reino.  El pasillo
+continua al sur. 
+~
+0 0 0
+D0
+~
+~
+0 0 11781
+D2
+~
+~
+0 0 11785
+S
+#11784
+Pasillo Lateral.~
+Final del pasillo oeste del inicio del Reino.  Ves una timida salida
+hacia el este, tal vez sea tu salvacion.  
+~
+0 0 0
+D0
+~
+~
+0 0 11782
+D1
+~
+~
+0 0 11786
+S
+#11785
+Pasillo Lateral.~
+Final del pasillo este del Reino.  Crees distinguir una pequenya salida
+al oeste de la sala.  
+~
+0 0 0
+D0
+~
+~
+0 0 11783
+D3
+~
+~
+0 0 11786
+S
+#11786
+Inicio del Largo Corredor.~
+Aqui empieza el largo corredor que te conducira a los aposentos de LuCiFeR.
+Si estas seguro de que quieres encontrarte cara a cara con el Rey del
+Infierno....solo tienes que seguir este corredor.
+~
+0 0 0
+D0
+~
+~
+0 0 11787
+D1
+~
+~
+0 0 11785
+D2
+~
+~
+0 0 11788
+D3
+~
+~
+0 0 11784
+S
+#11787
+Sala Privada del Infierno.~
+Esta es la unica sala del Reino de Lucifer en la que te puedes sentir
+minimamente seguro.  Es tan pequenya que solo puede entrar uno, mientras
+estes dentro de ella estaras a salvo.  Pero quien sabe los seres que 
+pueden estar esperandote fuera.
+~
+0 1536 0
+D2
+~
+~
+0 0 11786
+S
+#11788
+Corredor del Infierno.~
+Este es el corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11786
+D2
+~
+~
+0 0 11789
+S
+#11789
+Corredor del Infierno.~
+Este es el corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11788
+D2
+~
+~
+0 0 11790
+S
+#11790
+Corredor del Infierno.~
+Sigues por el corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11789
+D2
+~
+~
+0 0 11791
+S
+#11791
+Corredor del Infierno.~
+Este es el corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11790
+D2
+~
+~
+0 0 11792
+S
+#11792
+Corredor del Infierno.~
+Este es el corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11791
+D2
+~
+~
+0 0 11793
+S
+#11793
+Corredor del Infierno.~
+Caminas por el corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11792
+D2
+~
+~
+0 0 11794
+S
+#11794
+Corredor del Infierno.~
+Este es el corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11793
+D2
+~
+~
+3 0 11795
+S
+#11795
+Corredor del Infierno.~
+Este es el corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+1 0 11794
+D2
+~
+~
+0 0 11796
+S
+#11796
+Corredor del Infierno.~
+Sigues por el largo corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11795
+D2
+~
+~
+0 0 11797
+S
+#11797
+Corredor del Infierno.~
+Caminas por el largo corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11796
+D2
+~
+~
+0 0 11798
+S
+#11798
+Corredor del Infierno.~
+Te encuentras en el largo corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11797
+D2
+~
+~
+0 0 11799
+S
+#11799
+Corredor del Infierno.~
+Sigues por el largo corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11798
+D2
+~
+~
+3 0 11802
+S
+#11800
+El UmBraL de la LuZ~
+Sigues por el camino extremadamente iluminado, alguna extranya fuerza que
+desconoces te impulsa a seguir adelante por el.  Algo te dice que habra 
+un final feliz.
+~
+0 0 0
+D1
+~
+~
+0 0 11801
+D3
+~
+~
+0 0 11723
+S
+#11801
+La LuZ~
+Te encuentras en el lugar mas hermoso y brillante que jamas has visto
+antes.  Una inmensa sensacion de felicidad y bienestar invade tu 
+cuerpo. 
+Todo esta espectacularmente iluminado de una forma muy extranya....  
+Una luz muy especial surge en este lugar.  Te sientes bien.... 
+Te sientes muy bien...
+~
+0 1024 0
+D3
+~
+~
+0 0 11800
+S
+#11802
+Corredor del Infierno.~
+Estas en el largo corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+1 0 11799
+D1
+~
+~
+0 0 11803
+D2
+~
+~
+0 0 11805
+D3
+~
+~
+0 0 11804
+S
+#11803
+Pequenya sala este.~
+Esta es una pequenya sala situada al este del corredor.  No tiene ninguna
+funcion en especial, simplemente es una habitacion de reposo y descanso.
+~
+0 0 0
+D3
+~
+~
+0 0 11802
+S
+#11804
+Pequenya sala oeste.~
+Esta es una pequenya sala que se situal al oeste del corredor.  Por 
+aqui suelen pasearse algunos seres pertenecientes a la guardia del Dios 
+LuCiFeR. 
+~
+0 0 0
+D1
+~
+~
+0 0 11802
+S
+#11805
+Corredor del Infierno.~
+Este es el largo corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11802
+D2
+~
+~
+0 0 11806
+S
+#11806
+Corredor del Infierno.~
+Sigues caminando por el largo corredor que conduce al Trono de LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11805
+D2
+~
+~
+0 0 11807
+S
+#11807
+Corredor del Infierno.~
+Continuas caminando por el largo corredor que conduce al Trono de 
+LuCiFeR.
+~
+0 0 0
+D0
+~
+~
+0 0 11806
+D1
+~
+~
+0 0 11808
+D2
+~
+corredor~
+5131 0 11810
+D3
+~
+~
+0 0 11809
+S
+#11808
+cuerpo corpse el joyero~
+Estas en uno de los garitos de guardia del corredor.  Aqui es donde los
+guardias de LuCiFeR vigilan el corredor y lo protegen de invasores como 
+tu. 
+~
+0 0 0
+D3
+~
+~
+0 0 11807
+S
+#11809
+Garito de Guardia oeste.~
+Estas en uno de los garitos de guardia del corredor.  Aqui es donde los
+guardias de LuCiFeR vigilan el corredor y lo protegen de invasores como 
+tu. 
+~
+0 0 0
+D1
+~
+~
+0 0 11807
+S
+#11810
+Corredor del Infierno.~
+Sigues por el corredor del Infierno....parece interminable.
+~
+0 0 0
+D0
+~
+~
+1 0 11807
+D2
+~
+~
+0 0 11811
+S
+#11811
+Corredor del Infierno.~
+Sigues por el corredor. Ya no parece que sea interminable...ahora estas 
+seguro de que es interminable!!!!
+~
+0 0 0
+D0
+~
+~
+0 0 11810
+D2
+~
+~
+0 0 11812
+S
+#11812
+Corredor del Infierno.~
+Continuas por el corredor del Infierno, no estas seguro de que tenga final.
+al menos proximo.
+~
+0 0 0
+D0
+~
+~
+0 0 11811
+D2
+~
+~
+0 0 11813
+S
+#11813
+Corredor del Infierno.~
+Continuas caminando por el largo corredor.  Observas una pequenya 
+puerta al sur y unas habitaciones al este y oeste.
+~
+0 0 0
+D0
+~
+~
+0 0 11812
+D1
+~
+~
+0 0 11814
+D2
+~
+~
+3 0 11816
+D3
+~
+~
+0 0 11815
+S
+#11814
+Garito de Guardia este.~
+Este es el garito de guardia este del corredor.  El corredor que conduce
+al Trono de LuCiFeR debe de estar bien vigilado y por ello aqui hacen sus
+rondas los guardias que controlan este paso.  
+~
+0 0 0
+D3
+~
+~
+0 0 11813
+S
+#11815
+Garito de Guardia oeste.~
+Te encuentras en el garito de guardia del oeste.  Por aqui hacen sus
+rondas los guardianes del Reino de LuCiFeR.  Son muchos y haran lo que 
+sea para protegerle.  Mas vale que no te descubran.  
+~
+0 0 0
+D1
+~
+~
+0 0 11813
+S
+#11816
+Corredor del Infierno.~
+Tras cruzar la puerta, como no, sigues por el corredor del Infierno. 
+Pero......donde esta LuCiFeR???
+~
+0 0 0
+D0
+~
+~
+1 0 11813
+D2
+~
+~
+0 0 11817
+S
+#11817
+Corredor del Infierno.~
+Efectivamente, el corredor continua....sigues caminando por el.
+~
+0 0 0
+D0
+~
+~
+0 0 11816
+D2
+~
+~
+0 0 11818
+S
+#11818
+Corredor del Infierno.~
+Sigues por el largo corredor del Infierno. Este corredor parece 
+infinito.
+~
+0 0 0
+D0
+~
+~
+0 0 11817
+D2
+~
+~
+0 0 11819
+S
+#11819
+Corredor del Infierno.~
+Uff.. estas agotado, no sabes si seria mejor dar la vuelta, esto parece 
+que no tenga fin. Pero te paras un momento y consigues apreciar una timida
+luz roja que se asoma por el umbral de la puerta que esta situada al sur.
+~
+0 0 0
+D0
+~
+~
+0 0 11818
+D2
+~
+~
+0 0 11820
+S
+#11820
+EnTraDa Al TroNo De LuCiFeR.~
+Por fin!!  Acabas de llegar a los aposentos del Rey del Infierno LuCiFeR.
+Te encuentras en la entrada a la sala de su Trono.  Muy pocos son los
+afortunados que han conseguido traspasar el umbral de esta sala y han 
+salido con vida.  Yo en tu lugar...  Iria con mucho cuidado.
+LuCiFeR no es muy sociable que digamos.
+~
+0 0 0
+D0
+~
+~
+0 0 11819
+D2
+~
+~
+0 0 11821
+S
+#11821
+El TRoNo De LuCiFeR~
+Ante ti... El Gran LuCiFeR, Dios del Infierno y del Mundo Malvado.
+Es el ser mas horrible que hayas visto nunca y posee una fuerza
+descomunal. Nunca ha sido derrotado y en todas sus batallas y
+combates ha salido vencedor.
+LuCiFeR es el que controla este Mundo, el impone sus reglas y todos
+los demas tiene como obligacion seguirlas. Aquellos que le traicionen
+podran comprobar hasta donde llega el gran poder de este Dios y seran
+torturados sin ningun tipo de piedad.
+~
+0 0 0
+D0
+~
+~
+0 0 11820
+D2
+~
+tesoro~
+4107 0 11822
+S
+#11822
+Sala del Tesoro de Lucifer.~
+Esta es la sala privada donde LuCiFeR guarda todos sus tesoros y
+pertenencias personales de gran valor.  El lujo se apodera de toda la
+habitacion, todo esta lleno de perlas preciosas, joyas, monedas de oro, 
+hay plata por todas partes, objetos de decoracion muy valiosos....
+Tambien hay toda clase de armas y objetos de guerra utilizados en batallas.
+De entre todos, observas un curioso objeto que te llama la atencion sobre
+todos, observas un curioso objeto que te llama la atencion sobre tanto 
+tanto lujo.
+~
+0 0 0
+D0
+~
+~
+0 0 11821
+S
+#0
+
+
+#RESETS
+M 0 11700 7 11700
+E 0 11706 0 8
+E 0 11705 0 16
+M 0 11700 7 11700
+E 0 11706 0 8
+E 0 11705 0 16
+M 0 11700 7 11700
+E 0 11706 0 8
+E 0 11705 0 16
+M 0 11700 7 11701
+E 0 11706 0 8
+E 0 11705 0 16
+M 0 11700 7 11701
+E 0 11706 0 8
+E 0 11705 0 16
+M 0 11700 7 11702
+E 0 11706 0 8
+E 0 11705 0 16
+M 0 11700 7 11702
+E 0 11706 0 8
+E 0 11705 0 16
+O 0 11700 0 11703
+M 0 11703 11 11704
+M 0 11703 11 11704
+M 0 11703 11 11705
+M 0 11703 11 11707
+M 0 11703 11 11707
+M 0 11703 11 11708
+M 0 11703 11 11709
+M 0 11703 11 11709
+M 0 11703 1 11710
+M 0 11703 11 11711
+M 0 11703 11 11711
+D 0 11711 5 1
+D 0 11711 4 1
+M 0 11704 2 11712
+E 0 11707 0 5
+E 0 11708 0 14
+E 0 11708 0 15
+M 0 11704 2 11712
+E 0 11707 0 5
+E 0 11708 0 14
+E 0 11708 0 15
+M 0 11705 2 11714
+M 0 11705 2 11714
+M 0 11707 2 11716
+M 0 11707 2 11716
+M 0 11706 2 11718
+M 0 11706 2 11718
+D 0 11720 0 1
+D 0 11720 2 1
+D 0 11722 1 1
+D 0 11722 3 1
+D 0 11725 3 1
+M 0 11708 7 11726
+E 0 11703 0 16
+E 0 11709 0 11
+M 0 11708 7 11726
+E 0 11703 0 16
+E 0 11709 0 11
+M 0 11708 7 11727
+E 0 11703 0 16
+E 0 11709 0 11
+M 0 11709 6 11728
+M 0 11709 6 11728
+M 0 11708 7 11729
+E 0 11703 0 16
+E 0 11709 0 11
+D 0 11729 4 1
+M 0 11708 7 11731
+E 0 11703 0 16
+E 0 11709 0 11
+M 0 11709 6 11732
+M 0 11709 6 11732
+M 0 11708 7 11733
+E 0 11703 0 16
+E 0 11709 0 11
+D 0 11733 4 1
+M 0 11708 7 11734
+E 0 11703 0 16
+E 0 11709 0 11
+M 0 11709 6 11735
+M 0 11709 6 11735
+M 0 11710 1 11736
+E 0 11704 0 9
+E 0 11703 0 16
+E 0 11709 0 11
+E 0 11710 0 3
+D 0 11736 4 1
+M 0 11712 4 11737
+E 0 11712 0 12
+M 0 11712 4 11737
+E 0 11712 0 12
+M 0 11711 4 11739
+M 0 11711 4 11739
+M 0 11711 4 11740
+M 0 11711 4 11740
+M 0 11712 4 11743
+E 0 11712 0 12
+M 0 11712 4 11743
+E 0 11712 0 12
+M 0 11713 1 11745
+E 0 11712 0 12
+E 0 11713 0 17
+E 0 11716 0 1
+M 0 11715 1 11747
+E 0 11712 0 12
+E 0 11714 0 17
+E 0 11715 0 3
+E 0 11715 0 4
+M 0 11716 1 11748
+E 0 11704 0 9
+E 0 11710 0 3
+M 0 11717 1 11749
+E 0 11704 0 9
+E 0 11710 0 3
+M 0 11714 1 11750
+E 0 11712 0 12
+E 0 11716 0 1
+M 0 11701 8 11752
+M 0 11701 8 11752
+M 0 11701 8 11754
+M 0 11701 8 11755
+M 0 11718 1 11756
+E 0 11702 0 16
+E 0 11717 0 1
+M 0 11719 1 11757
+E 0 11702 0 16
+E 0 11718 0 1
+M 0 11702 4 11762
+M 0 11702 4 11762
+M 0 11702 4 11762
+M 0 11702 4 11762
+D 0 11762 4 1
+M 0 11701 8 11763
+M 0 11701 8 11764
+M 0 11701 8 11769
+M 0 11701 8 11770
+M 0 11720 1 11771
+E 0 11702 0 16
+E 0 11719 0 1
+M 0 11721 1 11772
+E 0 11702 0 16
+E 0 11720 0 1
+M 0 11722 1 11774
+E 0 11702 0 16
+E 0 11721 0 1
+M 0 11723 1 11775
+E 0 11702 0 16
+E 0 11722 0 1
+M 0 11724 1 11776
+E 0 11702 0 16
+E 0 11723 0 1
+E 0 11701 0 7
+D 0 11776 5 1
+D 0 11794 2 1
+D 0 11799 2 1
+M 0 11726 1 11801
+E 0 11724 0 6
+D 0 11807 2 1
+M 0 11725 8 11808
+M 0 11725 8 11808
+M 0 11725 8 11809
+M 0 11725 8 11809
+D 0 11813 2 1
+M 0 11725 8 11814
+M 0 11725 8 11814
+M 0 11725 8 11815
+M 0 11725 8 11815
+M 0 11727 1 11821
+E 0 11726 0 6
+E 0 11727 0 19
+E 0 11728 0 12
+E 0 11729 0 20
+E 0 11730 0 3
+E 0 11730 0 4
+E 0 11731 0 16
+E 0 11725 0 10
+E 0 11733 0 17
+D 0 11821 2 1
+O 0 11732 0 11822
+P 0 11711 0 11732
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  11726 spec_cast_adept
+S
+
+
+#$

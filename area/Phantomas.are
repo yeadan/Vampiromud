@@ -1,0 +1,2022 @@
+#AREA   Sanctum del Nosferatu~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO Territorio virgen~
+#PUNTOS 0 0 0 0 0
+#AUTHOR Naugrim~
+
+#RANGES
+130 245 0 256
+$
+
+#RESETMSG Escuchas el sonido de algo arrastrandose a tu espalda...~
+
+#FLAGS
+0 4
+
+#ECONOMY 19999998 389406001
+
+#CLIMATE 4 0 1
+
+#MOBILES
+#13000
+phantomas nosferatu~
+Phantomas~
+&WPuedes ver entre una espesa niebla un par de &rojos &Wrojos observandote.
+~
+Los nosferatu son famosos por su fealdad, y Phantomas era un ejemplo
+perfecto de su clan. La nariz enorme y retorcida, la piel parece arrugada
+por miles de anyos de preocupaciones y los ojos son pozos negros y hundidos
+con dos fuegos rojizos en el centro. Tardas algunos segundos en comprender
+que el nosferatu esta sonriendo...
+~
+103&2 21070494 0 C
+6 0 0 0d0+0 0d0+0
+20000 0
+112 112 1
+13 18 0 13 16 0 15
+0 -20 0 -50 -20
+5 0 0 0 1 1 0
+-20144 0 262144 0 1048583 0 268699649 4718854
+#13001
+Gorgo nictuku~
+Gorgo~
+&WQuedas paralizado ante &rGorgo&W, la que aúlla en la oscuridad.
+~
+Una "Abominación" de una especie extinta de Hombre Murciélago (Camaroth),
+cuyo aullido hace paralizar de terror, incluso puede llegar a provocar daño
+físico. Es una cazadora implacable, y la última vez que apareció fue dejando
+un rastro de muerte y destrucción entre los vampiros. Lo extraño es que hay
+rumores que dicen que, en vez de ser despertada por Absimiliard, fue Saulot
+quien lo hizo. Estuvo varios siglos en Sopor en la selva del Amazonas.
+~
+103&2 21039802 0 C
+6 0 0 0d0+0 0d0+0
+20000 0
+112 112 2
+18 18 0 18 18 0 18
+0 -50 0 -50 -50
+23 0 0 0 1 1 0
+-17144 0 262184 0 1050127 0 264193 528711
+#13002
+murciélago ghoul~
+murciélago ghoul~
+Un murciélago revolotea por aquí.
+~
+Un murciélago con colmillos enormes revolotea a tu alrededor
+buscando tu cuello.
+~
+71 589962 0 C
+130 0 0 15000d2+12000 100d0+150
+20000 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 -50 -10
+23 0 0 0 1 1 3
+65 60 557056 0 1048583 0 264193 524546
+#13003
+escorpión ghoul~
+escorpión~
+Ves como un escorpión se alza sobre sus patas i te sobrepasa en altura.
+~
+Sin duda otra 'mascota' de un nosferatu, un escorpión gigante
+te ensenya sus pinzas y apunta su aguijón hacia tí.
+~
+67 66218 0 C
+200 0 0 0d0+0 0d0+0
+20000 0
+112 112 1
+0 0 0 0 0 0 0
+0 -20 0 -50 0
+0 0 0 0 1 1 0
+3392 0 65536 0 1048591 0 262148 524546
+#13004
+McCann dire~
+McCann~
+McCann empunyando con fuerza su pistola esta aquí.
+~
+Miras un instante a McCann pero segundos después te es imposible
+recordar su rostro.
+~
+67&2 99002 0 C
+7 0 0 0d0+0 0d0+0
+20000 0
+112 112 1
+0 0 0 0 0 0 0
+0 -50 0 -50 0
+5 0 0 0 1 1 0
+-17144 0 32 0 7 0 272384 534855
+#13005
+Alicia Varney~
+Alicia~
+Alicia Varney te seduce con su mirada y caes rendido a sus pies.
+~
+Nunca has visto criatura más bella que Alicia, te hipnotiza su mirada
+y pierdes el sentido.
+~
+67&2 32922 0 C
+5 0 0 0d0+0 0d0+0
+12000 0
+112 112 2
+0 0 0 0 0 0 0
+0 -50 0 -50 0
+5 0 0 0 1 1 0
+-19144 0 12 0 1048583 0 10240 524550
+#13006
+pantera ghoul~
+pantera negra~
+Ves a una pantera negra como la noche mirandote fijamente.
+~
+Una pantera enorme está aquí luchando al lado de Alicia,
+sus garras podrían destruirte en un instante si no llevas cuidado.
+~
+67&2 32922 0 C
+4 0 0 0d0+0 0d0+0
+12000 0
+112 112 2
+0 0 0 0 0 0 0
+0 -20 0 -20 0
+76 0 0 0 1 1 0
+-22144 0 786432 0 7 0 2177 524547
+#13007
+rata ghoul~
+rata ghoul~
+Una rata esta aquí olisqueandote.
+~
+Una rata es la companya favorita de un nosferatu y éste lugar está repleto
+de ellas, por algún motivo no te atacan.
+~
+67 32898 0 C
+140 0 0 16000d10+100 100d2+0
+12000 0
+112 112 2
+0 0 0 0 0 0 0
+0 -15 0 -30 0
+77 0 0 0 1 1 0
+8928 0 32 0 1048583 0 1074006016 524546
+#13008
+rata gigante~
+rata gigante~
+Una rata gigante se pasea por aquí tranquilamente.
+~
+~
+67 33418 0 C
+160 0 0 0d0+0 0d0+0
+10000 0
+112 112 2
+0 0 0 0 0 0 0
+0 -15 0 -30 0
+77 0 0 0 1 1 0
+18928 0 32 0 15 0 2049 524546
+#13009
+cocodrilo ghoul~
+cocodrilo ghoul~
+Un cocodrilo ghoul se sumerge en el agua esperando a que pases cerca de él.
+~
+~
+67 -2147385190 0 C
+215 0 0 0d0+0 0d0+0
+11000 0
+112 112 1
+0 0 0 0 0 0 0
+0 -20 0 -20 0
+79 0 0 0 1 1 0
+13392 0 262144 0 15 0 385 524547
+#13010
+cocodrilo albino~
+cocodrilo albino~
+~
+~
+67 -2145288062 0 C
+220 0 0 0d0+0 0d0+0
+8000 0
+112 112 0
+0 0 0 0 0 0 0
+0 -20 0 -20 0
+79 0 0 0 1 1 0
+23392 0 524288 0 1048591 0 2051 534786
+#13011
+culebra roja ghoul~
+&rculebra roja~
+&WUna &rculebra roja &Wse alza ante tu presencia y te ensenya sus colmillos.
+~
+&WUna culebra &rroja&Wcomo la sangre está aquí ensenyandote sus colmillos,
+te llaman la atención las franjas blancas que cruzan su cuerpo.
+~
+67 -2147385190 0 C
+180 0 0 0d0+0 0d0+0
+1500 0
+112 112 2
+0 0 0 0 0 0 0
+0 -20 0 -20 0
+62 0 0 0 1 1 0
+-16608 0 32 0 1048583 0 262145 534787
+#13012
+rémora ghoul~
+rémora ghoul~
+Una rémora ghoul nada a tu alrededor.
+~
+Una rémora es un pez tropical que necesita aguas templadas para
+sobrevivir, no te explicas como este ejemplar a podido llegar hasta
+aquí pero si esta claro que éste no es su habitat.
+~
+1073741891 -2147417926 0 C
+170 0 0 0d0+0 0d0+0
+10000 0
+112 112 2
+0 0 0 0 0 0 0
+0 -20 0 -20 0
+81 0 0 0 1 1 0
+-26608 0 16384 0 1048583 0 262145 534787
+#13013
+Bruma~
+bruma negra~
+Una espesa bruma negra te rodea.
+~
+La bruma atrae toda fuente de luz hacia su interior y lo sume
+todo en la mas profunda oscuridad.
+~
+1073741923 0 0 C
+180 0 0 0d0+0 0d0+0
+100 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+-16608 0 0 0 263 0 8256 526626
+#13014
+cría cocodrilo~
+una cría de cocodrilo~
+Una cría de cocodrilo se agita al verte.
+~
+~
+67 -2147385190 0 C
+210 0 0 0d0+0 0d0+0
+1000 0
+112 112 2
+0 0 0 0 0 0 0
+0 -20 0 -20 0
+79 0 0 0 1 1 0
+13392 0 262144 0 15 0 385 524547
+#13015
+escorpión cría ghoul~
+cría de escorpión~
+Ves como una cría de escorpión se prepara para atacarte.
+~
+Sin duda otra 'mascota' de un nosferatu, un escorpión gigante
+te ensenya sus pinzas y apunta su aguijón hacia tí.
+~
+67 66218 0 C
+190 0 0 0d0+0 0d0+0
+10000 0
+112 112 1
+0 0 0 0 0 0 0
+0 -20 0 -50 0
+0 0 0 0 1 1 0
+-6608 0 65536 0 1048591 0 262148 524546
+#13016
+cocodrilo hambriento~
+cocodrilo ghoul~
+Un cocodrilo ghoul se sumerge en el agua esperando a que pases cerca de él.
+~
+~
+99 -2145288062 0 C
+175 0 0 0d0+0 0d0+0
+8000 0
+112 112 1
+0 0 0 0 0 0 0
+0 -20 0 -20 0
+79 0 0 0 1 1 0
+-26608 0 524288 0 1048591 0 10243 534786
+#13017
+espíritu atormentado~
+espíritu atormentado~
+Un espíritu atormentado está aquí vagando sin rumbo.
+~
+El espíritu atormentado atrae toda fuente de luz hacia su interior y 
+lo sume todo en la mas profunda oscuridad.
+~
+67 2097338 0 C
+180 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+-16608 0 0 0 263 0 8256 526626
+#13018
+aranya gigante~
+aranya gigante~
+Una aranya gigante teje aquí su tela.
+~
+Una aranya con una marca roja en su espalda que parece simbolizar una 
+calavera.~
+67 130 0 C
+150 0 0 0d0+0 0d0+0
+100 0
+112 112 2
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+18928 0 1 0 1 0 266240 524298
+#13019
+esqueleto~
+esqueleto~
+Un esqueleto se levanta ante tus ojos y te observa.
+~
+Un esqueleto de lo que parecio ser un humano se forma en segundos ante 
+tus ojos y se levanta para atacarte.
+~
+67&2 2097706 0 C
+6 0 0 0d0+0 0d0+0
+100 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 2097153 0 0 524294
+#13020
+sanguijuela~
+sanguijuela~
+Una sanguijuela esta aqui alimentandose en un charco de &rsangre.
+~
+Una sanguijuela de medio metro hace ruidos bastante inquietantes al notar 
+tu presencia y se vuelve para observarte.
+~
+67 2 0 C
+150 0 0 0d0+0 0d0+0
+100 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+18928 0 0 0 0 0 262209 18
+#13021
+cruzado oscuro~
+Un cruzado oscuro~
+Un cruzado oscuro parece que esta perdido
+~
+Este cruzado a elejido seguir el camino de las tinieblas y adorar a
+Satanas, ten cuidado suelen estar muy locos.
+~
+71 16876190 0 C
+289 0 0 18928d10+0 100d15+2
+10000 0
+112 112 1
+25 25 25 25 25 25 25
+0 -20 0 -50 -20
+11 7 0 0 1 1 0
+0 0 262144 8194 1048583 512 268699649 524550
+> greet_prog 95~
+if ispc($n)
+.$n es un asqueroso Vampiro, morira!!!!  
+empalar $n
+muhaha
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#13000
+PuLSeRa SaNGRe~
+&WPuLSeRa De &rSaNGRe~
+&WEsta es la pulsera que llevaba Alicia Varney, es de plata con rubíes
+engarzados que parecen gotas de &rsangre.
+~
+~
+9 -2146958047 4097
+12 12 0 0
+1 0 0
+A
+19 0
+A
+18 0
+A
+14 0
+A
+23 0
+A
+17 0
+#13001
+CiNTo NeGRo~
+CiNTo NeGRo~
+Sobre el cinturon negro de McCann a recaído algun tipo de hechizo,
+al ponertelo sientes como una magia muy antigua se apodera de tí.
+~
+~
+9 -2146958047 2049
+12 12 0 0
+1 0 0
+A
+19 0
+A
+23 0
+A
+14 0
+A
+24 0
+A
+17 0
+A
+18 0
+#13002
+monóculo Nosferatu~
+Monóculo De Un Nosferatu~
+El monóculo de Phantomas se cayó al suelo antes de 
+morir él, un gran poder rezuma de el.~
+~
+9 -2146958047 131073
+12 12 0 0
+1 0 0
+A
+19 0
+A
+23 0
+A
+17 0
+A
+18 0
+A
+24 0
+#13003
+piel gorgo~
+PieL De GoRGo~
+Tras la batalla contra Gorgo, sólo quedo éste trozo de su piel 
+sientes un gran poder emanando de él.~
+~
+9 -2146959070 1025
+12 12 0 0
+1 0 0
+A
+23 0
+A
+24 0
+A
+22 0
+A
+19 0
+A
+18 0
+A
+14 0
+A
+17 0
+#13004
+Huevos escorpion saco~
+SaCo De HueVoS De EsCoRPioN~
+Un gran saco de huevos de escorpión con capacidad para llevar a todas 
+sus crías, aunque huele un poco mal no tienes dudas de la gran utilidad 
+que le lograras sacar a éste objeto.
+~
+~
+15 524546 1
+110 0 0 0
+1 0 0
+#13005
+Viejo cadaver~
+Un cadaver momificado yace en el suelo.~
+Un cadaver momificado esta en el suelo.~
+~
+15 0 1
+10 0 0 0
+1 0 0
+#13006
+brazalete romano~
+BRaZaLeTe RoMaNo~
+Sin duda es una reliquia de hace muchos siglos, en el puedes ver dibujado 
+unos simbolos que tal vez sean el rango del soldado que los vistio antanyo.
+~
+~
+9 524578 257
+0 0 0 0
+1 0 0
+A
+19 0
+A
+18 0
+A
+23 0
+A
+17 0
+#13007
+CoLGaNTe ANiS~
+CoLGaNTe De ANiS~
+Este colgante con lleva esculpida una 'A' mayuscula en el centro, 
+no puedes apreciar mas de particular en él a simple vista.
+~
+~
+9 524578 5
+12 12 0 0
+1 0 0
+A
+19 0
+A
+18 0
+A
+14 0
+A
+23 0
+A
+24 0
+A
+17 0
+#13008
+sandalias romanas~
+Sandalias Romanas~
+Son unas simples sandalias de las que usaban los soldados romanos, 
+las envuelve un aura extranya y poderosa.
+~
+~
+9 0 65
+12 12 0 0
+1 0 0
+A
+14 0
+A
+19 0
+A
+18 0
+A
+23 0
+A
+24 0
+A
+17 0
+#13009
+aro negro~
+Aro Negro~
+Un aro de algun tipo de material extranyo que le concede poderes a quien 
+lo lleva puesto, un tipo de objeto del cual no se sabe su procedencia.
+~
+~
+9 524579 65537
+12 12 0 0
+1 0 0
+A
+19 0
+A
+18 0
+A
+17 0
+A
+23 0
+A
+14 0
+#13010
+pantalones cuero~
+Pantalones de cuero~
+Unos pantalones de cuero negro que se ajustan perfectamente a tu cuerpo 
+y al contrario de lo que pensabas no te entorpece tus movimientos, ideal 
+para luchar.
+~
+~
+9 524579 33
+12 12 0 0
+1 0 0
+A
+19 0
+A
+18 0
+A
+23 0
+A
+14 0
+A
+24 0
+#13011
+Huevos aranya saco~
+Saco De Huevos De Aranya~
+Un gran saco de huevos de aranya con capacidad para llevar a todas 
+sus crías, aunque huele un poco mal no tienes dudas de la gran utilidad 
+que le lograras sacar a éste objeto.
+~
+~
+15 524546 1
+120 0 0 0
+1 0 0
+#13012
+tripas~
+tripas~
+~
+~
+19 0 1
+3 5 0 0
+1 0 0
+#13013
+corazon~
+corazon momificado~
+~
+~
+19 0 1
+5 5 0 0
+1 0 0
+#13014
+pulmón izquierdo~
+pulmón izquierdo~
+~
+~
+19 0 1
+3 5 0 0
+1 0 0
+#13015
+pulmón derecho~
+pulmón derecho~
+~
+~
+19 0 1
+7 5 0 0
+1 0 0
+#13016
+restos cerebro~
+restos de un cerebro~
+~
+~
+19 0 1
+8 5 0 0
+1 0 0
+#13017
+miembro viril~
+Miembro Viril~
+Un miembro viril resecado i arrugado por el paso del tiempo.~
+~
+5 524290 32769
+12 13 19 2
+1 0 0
+A
+19 20
+A
+18 20
+A
+25 10
+#13018
+Falanges afiladas.~
+Falanges afiladas~
+Una falanges afiladas como cuchillos son un arma muy peligrosa a tener 
+en cuenta.
+~
+~
+5 0 4097
+12 69 98 10
+1 0 0
+A
+19 0
+A
+18 0
+#13019
+lanza oscura cruzado~
+La lanza de un cruzado oscuro~
+Una lanza con extranyas insignias graadas espera alguien que la recoja del suelo.~
+~
+5 0 4097
+12 85 100 1
+10 12500 1250
+A
+13 190
+A
+23 -4
+A
+12 200
+A
+19 -5
+#0
+
+
+#ROOMS
+#13000
+Bajada a las alcantarillas.~
+Estás en la entrada a las alcantarillas, una gran verja de hierro negro
+está aquí derruída por el paso de los anyos. todo es silencio y oscuridad.
+No puedes distinguir que hay más allá de la verja.
+~
+0 3145729 0
+D0
+~
+~
+0 0 13001
+S
+#13001
+Internándote en las alcantarillas.~
+Consigues reunir el valor para adentrarte un poco más en las profundidades
+de las alcantarillas, sientes la presencia de algo muy poderoso aquí abajo.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13004
+D1
+~
+~
+0 0 13003
+D2
+~
+~
+0 0 13000
+D3
+~
+~
+0 0 13002
+S
+#13002
+Pasillo oscuro.~
+Te adentras en un pasillo oscuro y no puedes distinguir nada 
+a tu alrededor, sientes la presencia de algo acechandote.
+~
+0 3153929 0
+D1
+~
+~
+0 0 13001
+S
+#13003
+Habitación iluminada.~
+El suelo se abre bajo tus pies y ves como unos cocodrilos con aparecen de 
+la nada y te atacan con desmesurada furia.
+~
+0 3153929 0
+D3
+~
+~
+0 0 13001
+S
+#13004
+Laguna estancada.~
+Estas en una gran laguna de agua estancada y mal oliente, crees divisar 
+algo moviendose en las aguas, es como si una gran honda recorriera la 
+superficie del agua siendote imposible determinar su procedencia.
+~
+0 3145737 6
+D0
+~
+~
+0 0 13005
+D2
+~
+~
+0 0 13001
+S
+#13005
+Continúa la oscuridad.~
+Tras los primeros metros recorridos sientes como el aire se hace más y 
+más denso, un calor sofocante invade la estancia y no logras librarte de 
+esa sensación de agobio y malestar que te acompanyo desde que pusiste el 
+primer pie en estas alcantarillas.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13007
+D2
+~
+~
+0 0 13004
+D3
+~
+~
+0 0 13006
+S
+#13006
+Pequenya luz.~
+Al entrar ves que desde fuera divisabas fue tan sólo una ilusión 
+tal vez producto de tu imaginación y ganas por salir de éste lugar, 
+al entrar la pared por la que entraste se derrumba y te es imposible 
+encontrar una salida.
+~
+0 2099213 0
+S
+#13007
+Sangre en los zapatos.~
+Un gran charco de sangre inunda la sala, te sumerges en un hedor 
+indescriptible que te atrapa y apenas te deja pensar en nada que no 
+sea volver por donde has venido y olvidarte de la estúpida idea de 
+cazar a éste Nosferatu legendario.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13008
+D1
+~
+~
+0 0 13009
+D2
+~
+~
+0 0 13005
+S
+#13008
+Habitacion extranya.~
+Al entrar en ésta habitación unos pesados barrotes de hierro salen 
+disparados de unas hendiduras en la roca casi invisibles y bloquean 
+la salida, no cabe duda de que alguien se ha tomado muchas molestias 
+en protegerse de las visitas no deseadas.
+~
+0 3147789 0
+S
+#13009
+Pasadizo oscuro.~
+Nada resenyable en este lugar, tan sólo los mismos muros 
+recorridos por algún tipo de líquido viscoso, no te atreves 
+a tocarlo, aunque la curiosidad es grande tal vez sea mejor así.
+~
+0 3145737 0
+D1
+~
+~
+0 0 13012
+D2
+~
+~
+0 0 13010
+D3
+~
+~
+0 0 13007
+S
+#13010
+Pasaje estrecho.~
+Entras no sin dificultad en un pasaje estrecho el cual da a una camara más 
+amplia y ventilada, las paredes y el techo está iluminada por algún tipo de 
+luz artificial, aunque no puedes determinar la fuente de la cual emanan.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13009
+D2
+~
+~
+0 0 13011
+S
+#13011
+Sigue la oscuridad.~
+Te adentras en lo que parece ser un recodo en el camino 
+aquí el aire es algo mas fresco y no te invade el sopor propio 
+del aire estancado y putrefacto que llena éstas alcantarillas.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13010
+D1
+~
+~
+0 0 13013
+S
+#13012
+Recodo oscuro.~
+Entras en una habitación amplia con los muros algo más trabajados 
+que en las anteriores pasadizos, al examinar más de cerca la pared 
+oyes un click metálico.
+~
+0 3153929 0
+D2
+~
+~
+0 0 13014
+D3
+~
+~
+0 0 13009
+S
+#13013
+Surcos de piedra.~
+Unas pequenyas marcas han sido realizadas en el muro este, tal vez 
+con la intención de marcar el camino de regreso para algún cainita 
+desconfiado, no aprecias nada más de particular en ésta habitación.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13014
+D1
+~
+~
+0 0 13015
+D3
+~
+~
+0 0 13011
+S
+#13014
+Pequenya fisura en el muro.~
+Te deslizas por una pequenya fisura en el muro, al intentar salir 
+tus ropas quedan enganchadas en los salientes puntiagudos entre los 
+que creías deslizarte habilmente, ésto pone en funcionamiento una de las 
+trampas del nosferatu dejando sueltos a los cocodrilos antes atados.
+~
+0 3153929 0
+D0
+~
+~
+0 0 13012
+D2
+~
+~
+0 0 13013
+S
+#13015
+Recodo en el camino.~
+Este recodo es algo extranyo puesto que las paredes se curvan en 
+ángulos casi imposibles y difíciles de entender, piensas que han 
+sido hechos así para confundir y desorientar al intruso que las observe.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13016
+D3
+~
+~
+0 0 13013
+S
+#13016
+Pasaje oscuro.~
+En ésta habitación sólo puedes distinguir las salidas, no estas muy seguro 
+de que éstes rodeado por muros puesto que no los puedes ver.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13017
+D1
+~
+~
+0 0 13018
+D2
+~
+~
+0 0 13015
+S
+#13017
+Sala vacía.~
+Una gran sala vacía que en otros tiempos parecia ser usada como mortuorio, 
+nada de especial aquí, solo una sensación que no ha dejado de acompanyarte 
+desde que entraste... ganas de salir de aquí cuanto antes.
+~
+0 3145737 0
+D1
+~
+~
+0 0 13019
+D2
+~
+~
+0 0 13016
+D8
+~
+~
+0 0 13018
+S
+#13018
+Recodo en el camino.~
+Al entrar en ésta habitacion logras a duras penas mantener el equilibrio, 
+todo vuelve a girar sobre sí mismo y las salidas aunque en el sitio de antes 
+no parecen llevar al mismo lugar.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13009
+D3
+~
+~
+0 0 13013
+D7
+~
+~
+0 0 13005
+S
+#13019
+Lamentos en la oscuridad.~
+Una serie de susurros, lamentos y gritos recorren esta sala, sin duda
+algún alma en pena las recorre en busca de su descanso eterno que no parece 
+llegar nunca.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13020
+D2
+~
+~
+0 0 13018
+D3
+~
+~
+0 0 13017
+S
+#13020
+Camino estrecho.~
+Sigues un camino estrecho hasta llegar a una sala donde apenas puedes 
+ver mas allá de tus narices, sientes la presencia de algo observandote.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13022
+D2
+~
+~
+0 0 13019
+D3
+~
+~
+0 0 13021
+S
+#13021
+Piedras angulares.~
+Esta sala esta compuesta por una serie de piedras angulares en el centro 
+formando algún tipo de figura, una luz sale de una de ellas, antes de que te 
+des cuenta la luz se hace tan cegadora que no ves nada y al recobrar la visión 
+ves como todo rastro de la puerta por la que entraste a desaparecido.
+~
+0 3147789 0
+S
+#13022
+Rayo de luz.~
+Por una pequenya fisura del muro entra lo que te parece ser un rayo de luz, 
+no sabes si proviene de la superficie o de algún tipo de ilumunación artificial, 
+no puedes averiguar mas de ello por ahora.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13023
+D1
+~
+~
+0 0 13024
+D2
+~
+~
+0 0 13020
+S
+#13023
+Luz brillante.~
+Una gran luz en el techo domina toda la sala, le da un tono sobrenatural 
+a la habitación y no éstas se guro de encontrarte en las mismas alcantarillas 
+de hace un momento.
+~
+0 3145737 0
+D2
+~
+~
+0 0 13011
+D8
+~
+~
+0 0 13007
+S
+#13024
+Pasadizo oscuro.~
+Otro pasadizo más exactamente igual a los anteriores todo es muy monótono 
+aquí abajo, en parte crees destinado a desorientar a los intrusos que 
+se atreven a adentrarse en busqueda del nosferatu.
+~
+0 3145737 0
+D1
+~
+~
+0 0 13026
+D2
+~
+~
+0 0 13025
+D3
+~
+~
+0 0 13022
+D7
+~
+~
+0 0 13023
+S
+#13025
+Foso.~
+Una gran balsa se ha formado aquí debido a las filtraciones de miles 
+de anyos de agua de la superficie, ves como la superficie del agua está 
+totalmente lisa y no ves rastro de alguna criatura que nade en su interior.
+~
+0 3145737 6
+D0
+~
+~
+0 0 13024
+D1
+~
+~
+0 0 13027
+S
+#13026
+Gran sala.~
+Esta es una sala cubierta por varios centimetros de agua estancada, 
+no puedes divisar nada mas, tan solo el leve sonido de las aguas 
+al nadar algo en su interior.
+~
+0 3145737 6
+D2
+~
+~
+0 0 13027
+D3
+~
+~
+0 0 13024
+S
+#13027
+Huesos en el suelo.~
+Estas en una habitación llena de cadaveres momificados repartidos por 
+toda la estancia, la mayoría de ellos han sido devorados en parte y 
+no logras distinguir bien si son humanos o algún otro tipo de criatura.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13026
+D2
+~
+~
+0 0 13028
+D3
+~
+~
+0 0 13025
+S
+#13028
+Criadero de Aranyas.~
+Aquí puedes ver como las aranyas se alimentan de sus cadaveres robándoles 
+sus fluídos e inyectándoles sus huevos para que les sirvan como recipiente 
+a sus crías.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13027
+D1
+~
+~
+0 0 13029
+D2
+~
+~
+0 0 13030
+S
+#13029
+Sala inundada.~
+No ves nada de especial, sólo agua allá donde mires, al parecer se han 
+reventados unos conductos que cruzaban la sala por el techo y ésto a echo 
+que la sale se llene de agua.
+~
+0 3145737 6
+D1
+~
+~
+0 0 13034
+D2
+~
+~
+0 0 13031
+D3
+~
+~
+0 0 13028
+S
+#13030
+Buscando en la oscuridad.~
+Sigues con tu búsqueda, te resulta difícil orientarte debido a lo monónoto 
+del paisaje. A veces tienes la sensación de estar descendiendo y otras de 
+todo lo contrario, sin embargo continúas tu busqueda.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13028
+D1
+~
+~
+0 0 13031
+S
+#13031
+Continúa la oscuridad.~
+Sigues en tu empenyo de adentrarte en las profundidades de estas alcantarillas 
+en busqueda de algo que cada vez te parece más irreal y ficticio, tan sólo una 
+leyenda.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13029
+D3
+~
+~
+0 0 13030
+S
+#13032
+Pasillo poco iluminado.~
+Un pasillo poco iluminado es todo lo que logras apreciar de éste lugar en 
+el que te encuentras ahora mismo, no alcanzas a distinguir nada más alla de 
+que este pasillo tiene dos salidas.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13034
+D1
+~
+~
+0 0 13033
+S
+#13033
+Cría de escorpión.~
+A los escorpiones no les gusta que nadie entre en esta habitación 
+que usan para críar a sus descendientes, puedes ver como varios cadaveres 
+han sido usados como receptaculos para sus huevos.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13038
+D3
+~
+~
+0 0 13032
+S
+#13034
+Caza nocturna.~
+Sientes la necesidad de salir de éste lugar cuanto antes y apresuras tu 
+búsqueda sin dejar de ser metículoso por ello.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13035
+D1
+~
+~
+0 0 13038
+D2
+~
+~
+0 0 13032
+D3
+~
+~
+0 0 13029
+S
+#13035
+Perdido en las alcantarillas.~
+Una gran tubería se extiende hacia el norte, cuando te acercas sientes que 
+está caliente, como si transportara algún tipo de líquido, el techo está medio 
+derruído y te es difícil moverte por ésta habitación.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13036
+D1
+~
+~
+0 0 13037
+D2
+~
+~
+0 0 13034
+S
+#13036
+Pequenyo habitáculo.~
+Las tuberías de agua caliente han ido erosionando el techo hasta tal punto 
+la estructura es débil que al entrar provocas que se derrumbe parte del techo 
+sepultando así todo rastro de alguna salida.
+~
+0 3145741 0
+S
+#13037
+Sala vacía.~
+Una gran sala vacía se extiende a tu alrededor, oyes como un murmullo que antes 
+era casi inapreciable se convierte en un ruido sordo que no te deja oir nada más.
+~
+0 3145737 0
+D1
+~
+~
+0 0 13039
+D3
+~
+~
+0 0 13035
+D7
+~
+~
+0 0 13036
+S
+#13038
+Túnel subterráneo.~
+Te adentras en un túnel el cual parece haber sido construido por las alimanyas 
+de éste lugar para tener acceso a salas interiores de éstas alcantarillas.
+~
+0 3145737 0
+D1
+~
+~
+0 0 13040
+D2
+~
+~
+0 0 13033
+D3
+~
+~
+0 0 13034
+D6
+~
+~
+0 0 13039
+S
+#13039
+Esquina noreste.~
+No ves nada en especial en este lugar, solo mas y mas oscuridad que te 
+rodea por todos lados, sientes una presencia que te observa en la 
+oscuridad.
+~
+0 3145737 0
+D2
+~
+~
+0 0 13040
+D3
+~
+~
+0 0 13037
+D9
+~
+~
+0 0 13038
+S
+#13040
+Cuatro caminos.~
+Estas en una sala que tiene cuatro salidas en sentidos opuestos 
+desde aqui puedes acercarte o alejarte de tu objetivo.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13039
+D1
+~
+~
+0 0 13041
+D2
+~
+~
+0 0 13042
+D3
+~
+~
+0 0 13038
+S
+#13041
+Pequenya obertura.~
+Entras por una pequenya obertura que te lleva a una sala pequenya, 
+tal vez usada como estudio de algun nosferatu, ves infinidad de libros 
+antiguos que colman las paredes. Al entrar sientes como una estanteria 
+se derrumba y bloquea la salida.
+~
+0 3147789 0
+S
+#13042
+Camino de sombras.~
+Un pasillo mas en tu recorrido, no ves nada de especial en este 
+que merezca tu atencion.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13040
+D1
+~
+~
+0 0 13043
+D2
+~
+~
+0 0 13044
+S
+#13043
+Pequenya obertura.~
+Entras por una pequenya obertura que te lleva a una sala pequenya, 
+tal vez usada como estudio de algun nosferatu, ves infinidad de libros 
+antiguos que colman las paredes. Al entrar sientes como una estanteria 
+se derrumba y bloquea la salida.
+~
+0 3147785 0
+D3
+~
+~
+0 0 13042
+S
+#13044
+Alfombra de huesos.~
+Miles de huesos estan repartidos por la estancia, algunos parecen haber 
+sido roidos ya hace tiempo, otros estan en perfectas condiciones.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13042
+D3
+~
+~
+0 0 13045
+S
+#13045
+Pasaje oscuro.~
+Otro pasaje mas de lo que te parece no tener nunca fin, no ves nada en 
+el que te indique que direccion has de tomar.
+~
+0 3145737 0
+D1
+~
+~
+0 0 13044
+D3
+~
+~
+0 0 13046
+D9
+~
+~
+0 0 13047
+S
+#13046
+Corrientes subterráneas.~
+Algo parecido a un río fluye bajo tus pies, debes nadar para seguir avanzando,
+logrando esquivar a las diversas criaturas que habitan éstas aguas.
+~
+0 3145737 6
+D1
+~
+~
+0 0 13045
+D2
+~
+~
+0 0 13047
+D3
+~
+~
+0 0 13048
+S
+#13047
+Recodo inferior.~
+Entras por una puerta a lo que te parece una antigua habitación mortuoria.
+Muchos espíritus vagan por aquí intentando buscar una salida desde hace siglos,
+ves como los muros, las paredes adquieren una tonalidad extranya a cada paso que 
+das.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13010
+D3
+~
+~
+0 0 13027
+D6
+~
+~
+0 0 13020
+S
+#13048
+Pasadizo subterráneo.~
+Avanzas por el pasadizo subterráneo en busqueda de tu objetivo, llegar a ver 
+al nosferatu y robarle su preciada sangre.
+~
+0 3145737 0
+D1
+~
+~
+0 0 13046
+D2
+~
+~
+0 0 13049
+S
+#13049
+Paredes sólidas.~
+Parece que las paredes de ésta habitación han sido reforzadas por algún 
+tipo de sortilegio, en ella hay cuatro puertas adornadas cada una con un 
+símbolo refiriendose posiblementea los destinos a los que conducen.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13048
+D1
+~
+~
+0 0 13047
+D2
+~
+~
+0 0 13051
+D3
+~
+~
+0 0 13050
+S
+#13050
+Gran sala.~
+Una gran sala con cadaveres por todas partes, reventados desde dentro, parece 
+como si algo les hubiera salido desde el interior. Posiblemente los usen como 
+criadero para poner sus huevos.
+~
+0 3145737 0
+D1
+~
+~
+0 0 13049
+D2
+~
+~
+0 0 13053
+S
+#13051
+Penumbra.~
+La habitación esta parcialmente iluminada y consigues distinguir vagamente 
+tres salidas.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13049
+D2
+~
+~
+0 0 13052
+D3
+~
+~
+0 0 13053
+S
+#13052
+Oscuro pasaje.~
+Entras en lo que parecía ser un lugar destinado a la tortura y desmembramiento 
+de intrusos, ahora solo queda de el unos extranyos artilugios de tortura.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13051
+S
+#13053
+Cruce de caminos.~
+Estas en una habitación con cuatro salidas, no puedes distinguir a donde 
+llevan y a estas alturas tu sentido de la orientación no te permite saber 
+cual sería la mejor opción a elegir.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13050
+D1
+~
+~
+0 0 13051
+D3
+~
+~
+0 0 13055
+D9
+~
+~
+0 0 13054
+S
+#13054
+Pasillo oscuro.~
+Tras dar los primeros pasos en la habitación para inspeccionarlas ves como 
+el techo se desploma en varios lugares de la habitación, logras escapar sin 
+ser sepultado de puro milagro pero todas las salidas han sido bloqueadas.
+~
+0 3145741 0
+S
+#13055
+Bajada al sanctum.~
+Las paredes se hacen cada vez más gruesas y el aire más denso, 
+sientes cerca la presencia de algo muy poderoso esperandote.
+~
+0 3153929 0
+D1
+~
+~
+0 0 13053
+D2
+~
+~
+0 0 13054
+D3
+~
+~
+0 0 13056
+S
+#13056
+Reina de la noche.~
+Estas en un pasadizo oscuro, no puedes ver nada más, tan solo puedes sentir 
+un escalofrío cuando oyes el aullido de alguna criatura, no estas muy seguro 
+de querer continuar tu busqueda.
+~
+0 3153929 0
+D0
+~
+~
+0 0 13058
+D1
+~
+~
+0 0 13055
+D3
+~
+~
+0 0 13057
+D7
+~
+~
+0 0 13059
+D8
+~
+~
+0 0 13054
+S
+#13057
+Pasadizo oscuro.~
+Tras entrar en ésta habitación, no muy seguro de que fuera éste el camino, 
+ves como donde antes se abría una puerta ahora hay una abertura en el muro, 
+no alcanzas a ver lo que hay al otro lado pero intuyes que no será lo mismo 
+que hace un momento estaba en esa dirección.
+~
+0 3145737 0
+D1
+~
+~
+0 0 13012
+S
+#13058
+Continúa la busqueda.~
+Sigues adentrandote en las profundidades de las alcantarillas que cada vez 
+adquieren más el aspecto de 'habitadas' si es que en un sitio asi pudiera 
+ser habitado por algún tipo de criatura.
+~
+0 3145737 0
+D0
+~
+~
+0 0 13061
+D1
+~
+~
+0 0 13060
+D2
+~
+~
+0 0 13056
+D3
+~
+~
+0 0 13059
+S
+#13059
+Pasadizo oscuro.~
+Todos los muros de la habitación giran y se retuercen hasta tomar una 
+nueva posición, las salidas que antes aparecian claras ahora te parecen 
+confusas y no estás muy seguro de que lleven al mismo lugar que antes.
+~
+0 3145737 0
+D1
+~
+~
+0 0 13011
+D6
+~
+~
+0 0 13020
+D8
+~
+~
+0 0 13004
+S
+#13060
+Buscando una salida.~
+En tu afán por encontrar una salida de éste odioso laberinto caes en otra 
+sus trampas que parecen no acabarse nunca, ésta vez has interrumpido un haz 
+de laser tan sensible que ha sido capaz de sentir tu presencia y se abre una 
+trampilla que deja libres a unos cocodrilos.
+~
+0 3145737 0
+D3
+~
+~
+0 0 13058
+S
+#13061
+Camino sinuoso.~
+Tras adentrarte en esta habitación, sientes como si algo te golpeara 
+brutalmente en la sien. Sin duda son tus sentidos al percibir la presencia 
+de algún cainita muy poderoso en las cercanías. Reunes todo el valor que puedes 
+y te decides a seguir adelante sin estar muy seguro del desenlaze de todo esto. 
+~
+0 3145737 0
+D1
+~
+~
+0 0 13062
+D2
+~
+~
+0 0 13058
+D9
+~
+~
+0 0 13059
+S
+#13062
+Sanctum de Phantomas.~
+Te encuentras en una enorme caverna llena de ordenadores. Los muros 
+tienen un brillo verdoso por el reflejo de la luz procedente de 
+decenas de monitores. El suelo es rocoso. Todos los roedores han 
+huído. Sólo queda una criatura: Phantomas.
+~
+0 3154441 0
+D1
+~
+~
+8 0 13063
+D3
+~
+~
+0 0 13061
+S
+#13063
+Muerte Segura.~
+Estás en una habitación sin más salida que por la que entraste,
+puedes ver como el suelo desaparece a tus pies y quedas ante la 
+presencia de Gorgo, que sin duda vino aquí en busca del nosferatu.
+~
+0 3154441 0
+D3
+~
+~
+0 0 13062
+S
+#13064
+Mas abajo en el agujero~
+Has caido mas abajo en el agujero, esto esta muy oscuro pero puedes llegar
+a vislumbrar una reja de metal al fondo del espacio al que has caido.
+~
+0 3146241 0
+D4
+~
+~
+0 -1 12006
+D8
+~
+~
+3 -1 13065
+S
+#13065
+El principio de una bajada a las alcatarillas~
+Empiezas a enfilar una bajada hacia las alcantarillas, huele bastante mal
+pero un poderoso guerrero como tu no tiene ningun problema con eso, o si?.
+~
+0 3145729 0
+D5
+~
+~
+0 -1 13000
+D7
+~
+~
+3 -1 13064
+S
+#0
+
+
+#RESETS
+M 0 13002 2 13001
+M 0 13002 2 13001
+M 0 13016 1 13002
+M 0 13016 1 13003
+M 0 13012 3 13004
+M 0 13012 3 13004
+M 0 13012 3 13004
+M 0 13010 2 13010
+M 0 13008 2 13010
+M 0 13007 2 13012
+M 0 13008 2 13012
+M 0 13018 1 13013
+O 0 13005 0 13013
+P 0 13011 0 13005
+M 0 13009 2 13014
+M 0 13009 2 13014
+M 0 13003 2 13015
+M 0 13003 2 13015
+M 0 13007 2 13016
+M 0 13008 2 13016
+M 0 13015 3 13017
+M 0 13003 3 13017
+M 0 13003 3 13017
+M 0 13017 2 13018
+M 0 13017 2 13018
+M 0 13013 2 13020
+M 0 13013 2 13020
+M 0 13017 1 13021
+M 0 13008 2 13022
+M 0 13008 2 13022
+M 0 13016 2 13023
+M 0 13010 2 13023
+M 0 13017 2 13024
+M 0 13013 2 13024
+M 0 13012 3 13025
+M 0 13012 3 13025
+M 0 13012 3 13025
+M 0 13012 2 13026
+M 0 13016 2 13026
+M 0 13015 3 13027
+M 0 13015 3 13027
+M 0 13015 3 13027
+O 0 13005 1 13027
+P 0 13016 0 13005
+P 0 13014 0 13005
+P 0 13012 0 13005
+P 0 13013 0 13005
+P 0 13017 0 13005
+P 0 13004 0 13005
+M 0 13018 2 13028
+M 0 13018 2 13028
+O 0 13016 0 13028
+P 0 13016 0 13005
+P 0 13015 0 13005
+P 0 13014 0 13005
+P 0 13013 0 13005
+P 0 13017 0 13005
+P 0 13012 0 13005
+P 0 13011 0 13005
+M 0 13018 1 13028
+M 0 13012 2 13029
+M 0 13012 2 13029
+M 0 13009 3 13030
+M 0 13009 3 13030
+M 0 13009 3 13030
+M 0 13013 1 13032
+M 0 13015 3 13033
+M 0 13015 3 13033
+M 0 13003 3 13033
+O 0 13005 0 13033
+P 0 13013 0 13005
+P 0 13016 0 13005
+P 0 13012 0 13005
+P 0 13017 0 13005
+P 0 13004 0 13005
+M 0 13014 1 13035
+M 0 13011 3 13037
+M 0 13011 3 13037
+M 0 13011 3 13037
+M 0 13007 2 13038
+M 0 13008 2 13038
+M 0 13017 2 13039
+M 0 13017 2 13039
+M 0 13018 2 13040
+G 0 13011 0
+M 0 13003 2 13040
+G 0 13004 0
+M 0 13019 2 13044
+E 0 13018 0 16
+M 0 13019 2 13044
+E 0 13018 0 16
+O 0 13005 0 13044
+P 0 13017 0 13005
+P 0 13016 0 13005
+P 0 13015 0 13005
+P 0 13014 0 13005
+P 0 13013 0 13005
+P 0 13012 0 13005
+P 0 13011 0 13005
+M 0 13002 3 13045
+M 0 13002 3 13045
+M 0 13002 3 13045
+M 0 13014 3 13046
+M 0 13014 3 13046
+M 0 13009 3 13046
+M 0 13016 2 13047
+M 0 13016 2 13047
+M 0 13011 2 13048
+M 0 13011 2 13048
+M 0 13018 2 13051
+M 0 13018 2 13051
+M 0 13016 2 13052
+M 0 13016 2 13052
+M 0 13014 2 13053
+M 0 13015 2 13053
+M 0 13004 1 13055
+E 0 13010 0 7
+E 0 13001 0 13
+M 0 13005 1 13056
+E 0 13007 0 3
+E 0 13000 0 14
+M 0 13006 1 13056
+E 0 13009 0 19
+M 0 13007 2 13057
+M 0 13007 2 13057
+M 0 13010 2 13058
+M 0 13010 2 13058
+M 0 13017 2 13059
+M 0 13019 2 13059
+M 0 13016 2 13060
+M 0 13016 2 13060
+M 0 13000 1 13062
+E 0 13008 0 8
+E 0 13006 0 10
+E 0 13002 0 20
+M 0 13001 1 13063
+E 0 13003 0 5
+M 0 13020 4 13007
+M 0 13020 4 13007
+M 0 13020 4 13007
+M 0 13020 4 13007
+M 0 13002 3 13045
+M 0 13002 3 13045
+M 0 13002 3 13045
+M 0 13017 1 13019
+M 0 13016 1 13003
+M 0 13021 2 13059
+E 1 13019 4 16
+M 0 13021 2 13009
+M 0 13021 2 13009
+M 0 13021 1 13059
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  13000 spec_executioner
+M  13001 spec_breath_any
+M  13002 spec_janitor
+M  13003 spec_poison
+M  13004 spec_executioner
+M  13005 spec_executioner
+M  13006 spec_fido
+M  13007 spec_janitor
+M  13008 spec_janitor
+M  13009 spec_fido
+M  13010 spec_fido
+M  13011 spec_fido
+M  13012 spec_fido
+M  13013 spec_executioner
+M  13014 spec_fido
+M  13015 spec_poison
+M  13016 spec_fido
+M  13017 spec_executioner
+M  13021 spec_executioner
+S
+
+
+#$

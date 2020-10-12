@@ -1,0 +1,688 @@
+#AREA   Pantano Negro~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO ARaSHeMiaH~
+#PUNTOS 2000 1989 1923 1945 0
+#AUTHOR Kayser~
+
+#RANGES
+1 20 0 256
+$
+
+#RESETMSG Oyes un aullido en la lejania.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1039000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#501
+liebre pantano~
+la liebre del pantano~
+Una liebre del pantano esta aqui, mirandote.
+~
+Esta liebre es de una especie que no habias visto nunca. Tiene unas potentes
+patas traseras que seguramente le serviran para moverse con rapidez por estos
+terrenos pantanosos.
+~
+193 0 -50 C
+4 10 0 3d5+30 2d1+5
+0 0
+112 112 0
+13 13 13 18 13 13 15
+0 0 0 0 0
+87 3 0 0 512 512 0
+0 0 527 2 0 13 0 0
+#502
+cazador pantano~
+el cazador del pantano~
+Ves un cazador detras de una mata, seguramente intentara sorprender alguna liebre.
+~
+Este hombre tiene unos cuarenta anyos, y va vestido con el uniforme oficial
+de cazadores de liebres del pantano (TM). No lo molestes, parece que tiene
+mucho trabajo por hacer.
+~
+193 1024 -50 C
+10 0 0 10d8+100 5d5+10
+1000 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1055 258 0 0 0 0
+#503
+lobo pantano~
+el lobo del pantano~
+Ves un lobo del pantano detras de una mata, parece preparado para atacar.
+~
+Los lobos del pantano son lobos normales, salvo por la gran resistencia 
+que parecen tener todas las criaturas del pantano al frio.
+~
+97 0 -1000 C
+12 0 0 11d9+185 3d10+20
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+87 3 0 0 512 512 1
+0 0 262159 2 0 0 2 0
+#504
+oso pantano~
+el oso del pantano~
+Un oso con cara de mala uva te mira fijamente.
+~
+Este oso es extremadamente grande y fuerte, en buen lio te has metido.
+~
+99 66048 -500 C
+13 0 1 10d10+200 10d5+15
+0 0
+112 112 0
+0 0 0 0 0 0 0
+-5 0 0 5 0
+87 3 0 0 512 512 0
+0 0 262151 258 0 5 2 0
+#505
+mama oso~
+mama oso~
+Mama oso esta aqui, cuidando de sus pequenyines.
+~
+Bueno, esta es mama oso, la mama de los osos X)~
+99 4194304 -1000 C
+21 0 -20 10d50+325 10d11+75
+0 0
+112 112 2
+25 0 0 0 0 0 0
+0 0 0 0 0
+87 3 0 0 512 512 2
+0 2 262157 2306 0 1 66 0
+#506
+huargo pantano~
+el huargo del pantano~
+Aqui hay un enorme huargo, dispuesto a partirte la cara.
+~
+Un huargo es como un lobo, pero en grande. Disfrutalo.
+~
+97 33280 0 C
+20 0 0 25d10+50 10d6+100
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+87 3 0 0 1 1 3
+0 0 262161 2 0 0 2 0
+#507
+bandido pantano~
+el bandido del pantano~
+Un miembro de la banda de los bandidos del pantano esta por aqui.
+~
+En el pantano se ha establecido una banda de bandidos que controlan los
+caminos de los alrededores. Si no fuese por los lobos y huargos seguramente
+esta banda seria mucho mayor.
+~
+193 33792 -1000 C
+15 0 -20 10d20+125 10d9+10
+5000 0
+112 112 1
+19 0 0 0 0 0 0
+-10 -10 -10 10 -10
+0 2 0 0 65 1 1
+0 0 1951 2097154 0 4 64 1
+#508
+jefe bandido pantano~
+el jefe de los bandidos~
+Un miembro de la banda de los bandidos del pantano esta por aqui.
+~
+En el pantano se ha establecido una banda de bandidos que controlan los
+caminos de los alrededores. Si no fuese por los lobos y huargos seguramente
+esta banda seria mucho mayor. Anti ti esta el jefe de esta banda. Lentamente
+desenvaina su espada para cortarte en rodajas.
+~
+99 41088 -1000 C
+20 0 -20 30d20+125 10d9+100
+5000 0
+112 112 1
+20 15 15 15 15 15 15
+-50 -50 -50 10 -50
+0 2 0 0 65 1 3
+0 0 1951 2100224 2 4 2097216 524291
+#0
+
+
+#OBJECTS
+#501
+cinturon cuero~
+un cinturon de cuero~
+Un cinturon hecho de cuero.~
+~
+9 4 2049
+5 5 0 0
+5 10 1
+A
+1 1
+#502
+gorro pluma~
+un gorro con una pluma~
+Ves un gorro con una pluma.~
+~
+9 18 17
+5 5 0 0
+5 10 1
+A
+5 2
+#503
+lanza~
+una lanza de madera~
+Una lanza de madera gastada por el paso de los anyos.~
+perforacion~
+5 262160 8193
+7 2 10 1
+10 80 8
+A
+18 2
+A
+12 15
+#504
+cuchillo~
+un cuchillo gastado~
+Un cuchillo bastante gastado.~
+navajazo~
+5 65540 8193
+7 3 8 11
+9 100 10
+A
+19 1
+A
+18 2
+#0
+
+
+#ROOMS
+#501
+En las Cercanias del Pantano~
+Acabas de entrar en un camino pantanoso que se extiende de este a oeste, el
+cual esta rodeado de enormes arboles que impiden la llegada de la luz solar.
+Este es un lugar bastante siniestro, ninguna persona en su sano juicio pasaria
+una noche por estos lares. El camino del pantano continua de este a oeste.
+~
+0 34611200 11
+D1
+Al este te alejas del pantano.~
+este~
+0 0 6151
+D3
+El pantano sigue al oeste.~
+oeste~
+0 0 502
+S
+#502
+Camino del Pantano~
+Sigues por el camino del pantano, el barro te llega por los tobillos, tus 
+botas, si llevas :P, apestaran durante semanas... yo ti daria media vuelta
+por donde has venido. El camino sigue de este a oeste. Oyes unos grunyidos
+provenientes del oeste.
+~
+0 34611200 11
+D1
+El camino sigue hacia el este.~
+este~
+0 0 501
+D3
+Oyes unos grunyidos provenientes del oeste.
+~
+oeste~
+0 0 503
+S
+#503
+Frente a la Guarida del Oso~
+Sigues por el camino del pantano hasta llegar a una enorme cueva. Viendo 
+el nombre de la habitacion y oyendo los grunyidos provenientes de la cueva,
+yo de ti no entraria. El camino del pantano sigue de este a oeste, hacia el
+norte tienes la entrada a la cueva.
+~
+0 34611200 11
+D0
+Hacia el norte distingues una cueva.~
+norte~
+0 0 504
+D1
+El camino del pantano sigue hacia el este.~
+este~
+0 0 502
+D3
+El camino sigue hacia el oeste.~
+oeste~
+0 0 506
+S
+#504
+Entrando en la Guarida del Oso~
+Estas entrando en la guarida de lo que parece ser un gran oso. Oyes unos
+grunyidos provenientes del norte, mientras que la salida de la cueva esta
+hacia el sur.
+~
+0 34611213 0
+D0
+Muy oscuro al norte...~
+norte~
+0 0 505
+D2
+Al sur esta la salida de la cueva.
+~
+sur~
+0 0 503
+S
+#505
+La Guarida del Oso~
+Has entrado en la guarida del oso. No has hecho caso a las advertencias.
+Preparate a morir.
+~
+0 34611209 0
+D2
+La salida de la guarida al sur.
+~
+sur~
+0 0 504
+S
+#506
+Siguiendo por el Camino~
+Sigues por el camino del pantano, el barro te llega casi a las rodillas.
+El camino del pantano sigue de este a oeste.
+~
+0 34611200 11
+D1
+Al este esta la guarida del oso.~
+este~
+0 0 503
+D3
+El camino sigue al oeste.~
+oeste~
+0 0 507
+S
+#507
+Siguiendo por el Camino~
+Sigues por el camino del pantano, el barro te llega casi a las rodillas.
+El camino del pantano sigue de este a oeste.
+~
+0 34611200 11
+D1
+El camino del pantano sigue hacia el este.~
+este~
+0 0 506
+D3
+Hacia el oeste sigue el camino del pantano.
+~
+oeste~
+0 0 508
+S
+#508
+Siguiendo por el Camino~
+Sigues por el camino del pantano, el barro ya te llega a las rodillas.
+El camino del pantano sigue de este a oeste.
+~
+0 34611200 11
+D1
+El camino hacia el este.~
+este~
+0 0 507
+D3
+Hacia el oeste distingues un cruce.~
+oeste~
+0 0 509
+S
+#509
+Un Cruce en el Pantano~
+Acabas de llegar a un cruce de cuatro caminos, el camino sigue de este a 
+oeste, mientras que al norte y al sur no consigues ver absolutamente nada.
+
+~
+0 1048576 11
+D0
+Un caminito que se aleja del pantano hacia el norte.~
+norte~
+0 0 518
+D1
+~
+~
+0 0 508
+D2
+Un camino hacia el sur.~
+sur~
+0 0 513
+D3
+Al oeste sigue el camino del pantano.~
+oeste~
+0 0 510
+D5
+~
+~
+35 0 523
+S
+#510
+Siguiendo por el Camino~
+Sigues por el camino del pantano, el barro ya te llega a las rodillas.
+El camino del pantano sigue de este a oeste.
+~
+0 34611200 11
+D1
+El cruce al este.~
+este~
+0 0 509
+D3
+Al oeste sigue el camino.~
+oeste~
+0 0 511
+S
+#511
+Siguiendo por el Camino~
+Sigues por el camino del pantano, el barro te llega casi a las rodillas.
+El camino del pantano sigue de este a oeste.
+~
+0 34611200 11
+D1
+El camino sigue al este.~
+este~
+0 0 510
+D3
+Al oeste acaba el pantano.
+~
+oeste~
+0 0 512
+S
+#512
+En las Cercanias del Pantano~
+Acabas de entrar en un camino pantanoso que se extiende de este a oeste, el
+cual esta rodeado de enormes arboles que impiden la llegada de la luz solar.
+Este es un lugar bastante siniestro, ninguna persona en su sano juicio pasaria
+una noche por estos lares. El camino del pantano continua de este a oeste.
+~
+0 34611200 11
+D1
+~
+~
+0 0 511
+D3
+Al oeste tienes el area de Offspring.
+~
+oeste~
+0 0 24000
+S
+#513
+Un Caminito~
+Caminas entre el barro hacia el sur por un pequenyo caminito que se aleja
+del pantano. No estas seguro que sea prudente seguir.
+~
+0 34611204 11
+D0
+Un cruce en el pantano.
+~
+norte~
+0 0 509
+D2
+El camino sigue hacia el sur.~
+sur~
+0 0 514
+S
+#514
+Un Caminito~
+Caminas entre el barro hacia el sur por un pequenyo caminito que se aleja
+del pantano. No estas seguro que sea prudente seguir. Hacia el sur crees
+ver lo que podria ser un antiguo campamento.
+~
+0 34611200 11
+D0
+El caminito hacia el pantano esta al norte.~
+norte~
+0 0 513
+D2
+Ves un campamento al sur.~
+sur~
+0 0 515
+S
+#515
+Campamento Abandonado~
+Acabas de llegar a lo que parece ser un campamento de nomadas. El lugar
+parece que fue abandonado hace mucho tiempo, no te extranya dada la zona.
+Ves ojos rojos observandote de todas partes... sal de aqui mientras puedas.
+El camino de vuelta esta al norte, mientras que al sur sigue el campamento
+abandonado.
+~
+0 34611200 11
+D0
+El caminito esta hacia el norte.~
+norte~
+0 0 514
+D3
+El campamento abandonado.~
+oeste~
+0 0 516
+S
+#516
+Campamento Abandonado~
+Sigues por el campamento abandonado. Esta lleno de tiendas de campanya
+destrozadas salvagemente por lo que podrian ser garras y dientes. Que 
+clase de animales podrian haber hecho esto?
+~
+0 34611200 11
+D1
+El campamento sigue al este.~
+este~
+0 0 515
+D2
+El campamento abandonado sigue al sur.~
+sur~
+0 0 517
+S
+#517
+Campamento Abandonado~
+Sigues por el campamento abandonado. Has llegado a lo que parece que era
+la tienda del jefe, pues es bastante mas grande y lujosa que las demas.
+Cuando te acercas mas a la entrada distingues ver varios cadaveres, los
+cuales tienen marcas de dientes. Sin duda los huargos mataron hace anyos 
+a los pobres desgraciados que estaban acampados aqui.
+~
+0 34611200 11
+D0
+El campamento al norte.~
+norte~
+0 0 516
+S
+#518
+Un Caminito~
+Caminas entre el barro hacia el norte por un pequenyo caminito que se
+aleja del pantano. No estas seguro que sea prudente seguir.
+~
+0 34611200 11
+D0
+El caminito sigue al norte.~
+norte~
+0 0 519
+D2
+El curce del pantano hacia el sur.~
+sur~
+0 0 509
+S
+#519
+Un Caminito~
+Sigues por el caminito que se aleja del pantano. Al norte distingues ver
+el humo de lo que parece ser una fogata. Al mirar el suelo ves que hay 
+dos o tres cepos loberos entre el fango y la maleza. No sabes quien habra
+hacia el norte, pero parece que les tiene cierto respeto a los lobos del
+pantano...
+~
+0 1056772 11
+D0
+Ves un Campamento al norte.~
+norte~
+0 0 520
+D2
+El caminito sigue al sur.~
+sur~
+0 0 518
+E
+cepo~
+Ves tres enormes cepos loberos en el suelo. Parecen estar recubiertos
+de alguna sustancia que podria perfectamente ser veneno!
+~
+S
+#520
+Campamento de Bandidos~
+Acabas de entrar en lo que parece un campamento de bandidos. Ves una 
+serie de tiendas de campanya rodeadas de un enorme fuego. Seguro que 
+entre el fuego y los cepos de la entrada los lobos se lo pensaran antes
+de acercarse a este campamento. Puedes ir detras de las tiendas hacia
+el este o acercarte a la gran tienda del norte.
+~
+0 1048576 11
+D0
+La gran tienda del jefe esta al norte.~
+norte~
+0 0 522
+D1
+El campamento sigue al este.
+~
+este~
+0 0 521
+D2
+El camino hacia el pantano esta al sur.~
+sur~
+0 0 519
+S
+#521
+Campamento de Bandidos~
+Al rodear las tiendas hacia el este lo unico que encuentras son barriles
+de agua y estandartes llenos de lanzas y arcos, los cuales estan demasiado
+estropeados para poder sacarles algun provecho. Hacia el oeste tienes la
+entrada del campamento.
+~
+0 1048576 11
+D3
+El campamento hacia el este.~
+este~
+0 0 520
+S
+#522
+Tienda del Jefe de los Bandidos~
+Acabas de entrar en la tienda de lo que parece ser el jefe de este grupo
+de bandidos. Nada mas entrar el jefe de los bandidos se gira hacia ti y
+te dirige una mirada asesina.
+~
+0 34603016 0
+D2
+El campamento de los bandidos esta hacia el sur.~
+sur~
+0 0 520
+S
+#523
+CoNsPiRaCy Of OnE~
+OnE MoRe TiMe
+DaMmIt, I ChAnGeD AgAiN!!
+
+MiRa El GrUPo Y PrEpArAtE PaRa AcElErAr Tu MaRcHa.
+~
+0 135628421 11
+E
+offspring~
+En esta habitacion hay bonus, si lo encuentras todo tuyo :)
+
+Kayser
+~
+> sleep_prog 5~
+mpmset $n move 10000
+mpechoat $n FeLiCeS SuEnYoS ;)
+mprestore $n
+mpforce $n .COOOOONYOOO MEE HAN HECHO UN MSET !!!!!!!!!
+~
+|
+S
+#0
+
+
+#RESETS
+M 0 501 5 501
+M 0 501 5 502
+M 0 502 4 502
+E 0 503 0 16
+E 0 501 0 13
+M 0 503 3 503
+M 0 505 1 505
+M 0 504 10 505
+M 0 504 10 505
+M 0 504 10 505
+M 0 504 10 505
+M 0 504 10 505
+M 0 504 10 505
+M 0 504 10 505
+M 0 504 10 505
+M 0 504 10 505
+M 0 504 10 505
+M 0 502 4 506
+E 0 503 0 16
+E 0 501 0 13
+M 0 501 5 507
+M 0 503 3 508
+M 0 502 4 509
+E 0 503 0 16
+E 0 501 0 11
+D 0 509 5 1
+M 0 503 3 510
+M 0 502 4 511
+E 0 503 0 16
+E 0 501 0 13
+M 0 501 5 511
+M 0 501 5 512
+M 0 506 5 514
+M 0 506 5 515
+M 0 506 5 516
+M 0 506 5 517
+M 0 506 5 517
+M 0 507 5 520
+E 0 502 0 6
+E 0 504 0 16
+E 0 501 0 13
+M 0 507 5 520
+E 0 501 0 13
+E 0 504 0 16
+E 0 502 0 6
+M 0 507 5 520
+E 0 504 0 16
+E 0 501 0 13
+E 0 502 0 6
+M 0 507 5 521
+E 0 504 0 16
+E 0 502 0 6
+E 0 501 0 13
+M 0 507 5 521
+E 0 502 0 6
+E 0 501 0 13
+E 0 504 0 16
+M 0 508 1 522
+E 0 502 0 6
+E 0 504 0 16
+E 0 501 0 13
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  503 spec_fido
+M  504 spec_fido
+M  505 spec_fido
+M  506 spec_fido
+M  508 spec_breath_frost
+S
+
+
+#$

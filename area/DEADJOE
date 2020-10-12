@@ -1,0 +1,306 @@
+
+*** Modified files in JOE when it aborted on Sat Jun  8 18:51:46 2002
+*** JOE was aborted by signal 1
+
+*** File 'Drakendor.are'
+#AREA   Territorio DRaKeNDoR~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 1
+#PROPIETARIO Inconquistable~
+#PUNTOS 0 0 0 0 0
+#AUTHOR SaNgUiNaRi~
+
+#RANGES
+0 256 0 256
+$
+
+#RESETMSG El orgullo drakendor corre por tu sangre...~
+
+#FLAGS
+0
+
+#ECONOMY 0 10063018
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#33000
+Beltur~
+Beltur~
+Beltur el sabio dragon curandero esta calentado algo...
+~
+Beltur el mas anciano y sabio de los Drakendor tiene el conocimiento
+suficiente para curar cualquier mal o herida.
+~
+1140850769&2 369107624 0 C
+6 0 -5 10d10+8000 5d1+90
+0 0
+112 112 1
+25 0 25 25 0 25 25
+0 0 0 0 0
+0 1 0 0 0 0 3
+0 0 5 0 2048 0 170131729&1 4099
+#33001
+ZaKaRiaS~
+ZaKaRiaS~
+ZaKaRiaS el curandero de los ARaSHeMiaH esta aqui distraido mirando al techo
+~
+ZaKaRiaS pertenece al clan Salubri y como no, domina todas las artes
+de cuarcion conocidas y por conocer, es un gran profesional ya lo iras
+descubriendo.
+~
+1140850769&2 369107624 0 C
+6 0 -5 10d10+8000 5d1+90
+0 0
+112 112 1
+25 0 25 25 0 25 25
+0 0 0 0 0
+0 1 0 0 0 0 3
+0 0 5 0 2048 0 170131729&1 4099
+#0
+
+
+#OBJECTS
+#33000
+inmortal tablon~
+El tablon de los inmortales~
+El tablon de los inmortales.~
+~
+12 0 0
+0 0 0 0
+1 10 1
+#0
+
+
+#ROOMS
+#33000
+Territorio DraKeNDoR~
+Estas en los territorios de la familia drakkendor, desde aqui puedes
+observar el amplio valle que se extiende ante ti
+yomo los dragones revolotean por ahi.
+~
+0 3441680 1
+D0
+~
+~
+0 -1 33001
+D2
+~
+~
+0 -1 33003
+D4
+~
+~
+0 -1 21001
+S
+#33001
+Un pasillo~
+Estas en el pasillo de entrada a la casa de la familia Drakendor, hacia
+el este esta la morgue de la familia.
+~
+0 3441680 1
+D1
+~
+~
+0 -1 33002
+D2
+~
+~
+0 -1 33000
+S
+#33002
+La sala de despiece~
+Estas en la sala de despiece, aqui puedes ver todo tipo de artilugios
+para torturar y despedazar cuerpos, los cuerpos de los guerreros caidos
+son usados para fabricar comida para dragones. El hedor del lugar es 
+insoportable.
+~
+0 3441680 1
+D3
+~
+~
+0 -1 33001
+S
+#33003
+Sala de curacion de la familia DraKeNDoR~
+Esta es la sala de curacion de los DRaKeNDoR, aqui es donde vienen los
+valerosos miembros de la familia a descansar y recuperarse de sus 
+heridas de batalla.
+~
+0 3441680 1
+D0
+~
+~
+0 -1 33000
+S
+#0
+
+
+#RESETS
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$
+
+*** Modified files in JOE when it aborted on Tue Jun 11 00:56:26 2002
+*** JOE was aborted by signal 15
+
+*** File '(Unnamed)'
+Drakendor.are
+
+*** File 'Drakendor.are'
+#AREA   Territorio DRaKeNDoR~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 1
+#PROPIETARIO Inconquistable~
+#PUNTOS 0 0 0 0 0
+#AUTHOR SaNgUiNaRi~
+
+#RANGES
+0 256 0 256
+$
+
+#RESETMSG El orgullo drakendor corre por tu sangre...~
+
+#FLAGS
+0
+
+#ECONOMY 0 10063018
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#33000
+Beltur~
+Beltur~
+Beltur el mas anciano y sabio de los drakendor.
+~
+ZaKaRiaS es el unico clerigo perteneciente al clan drakendor.
+Con conocimiento de todo tipo de curas y alivios esta al servicio de
+los miembros de la familia y mas ahora q no sale al exterior.
+~
+1140850769&2 369107624 0 C
+6 0 -5 10d10+8000 5d1+90
+0 0
+112 112 1
+25 0 25 25 0 25 25
+0 0 0 0 0
+0 1 0 0 0 0 3
+0 0 5 0 2048 0 170131729&1 4099
+#0
+
+
+#OBJECTS
+#33000
+inmortal tablon~
+El tablon de los inmortales~
+El tablon de los inmortales.~
+~
+12 0 0
+0 0 0 0
+1 10 1
+#0
+
+
+#ROOMS
+#33000
+Territorio DraKeNDoR~
+Estas en los territorios de la familia drakkendor, desde aqui puedes
+observar el amplio valle que se extiende ante ti
+yomo los dragones revolotean por ahi.
+~
+0 3441680 1
+D0
+~
+~
+0 -1 33001
+D2
+~
+~
+0 -1 33003
+D4
+~
+~
+0 -1 21001
+S
+#33001
+Un pasillo~
+Estas en el pasillo de entrada a la casa de la familia Drakendor, hacia
+el este esta la morgue de la familia.
+~
+0 3441680 1
+D1
+~
+~
+0 -1 33002
+D2
+~
+~
+0 -1 33000
+S
+#33002
+La sala de despiece~
+Estas en la sala de despiece, aqui puedes ver todo tipo de artilugios
+para torturar y despedazar cuerpos, los cuerpos de los guerreros caidos
+son usados para fabricar comida para dragones. El hedor del lugar es 
+insoportable.
+~
+0 3441680 1
+D3
+~
+~
+0 -1 33001
+S
+#33003
+Sala de curacion de la familia DraKeNDoR~
+Esta es la sala de curacion de los DRaKeNDoR, aqui es donde vienen los
+valerosos miembros de la familia a descansar y recuperarse de sus 
+heridas de batalla.
+~
+0 3441680 1
+D0
+~
+~
+0 -1 33000
+S
+#0
+
+
+#RESETS
+M 0 33000 1 33003
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,1744 @@
+#AREA   Quakers Zone~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO DRaKeNDoR~
+#PUNTOS 1353 1999 2000 1935 0
+#AUTHOR Tirkov~
+
+#RANGES
+0 100 0 256
+$
+
+#RESETMSG ~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 62429543
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#5000
+Elshadow~
+Elshadow~
+Elshadow esta aqui preguntadonse porque todos se quieren subir a su moto
+~
+Ves a un tio fuerte y con un aspecto como si fuera del sur
+ ( mas o menos de Africa). Lo que mas le hace pensar es que
+tendra su moto para que todo el mundo quiera subir en ella.
+~
+67 66186 1000 C
+50 -15 25 5d5+4000 15d5+5
+500000 500
+112 112 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 80 80 1 1 5
+0 0 75 0 0 0 139328 524432
+#5001
+Elpiqueto~
+Elpiqueto~
+Elpiqueto esta aqui yendose de juerga y diciendo " Echamos un quake"
+~
+Al mirarlo consigues ver en su mirada una extranya sensacion de 
+que te va a decir......OIE TU, ECHAMOS UN QUAKE? Tambien consigues 
+distinguir que es un tio fiestero.
+~
+67 8913084 1000 C
+50 -25 25 2d20+4000 12d20+2
+100000 500
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 20 80 1 1 3
+0 0 1867 0 0 0 98566241 524312
+#5002
+Eltente~
+Eltente~
+Eltente esta aqui montando unas fiestecillas
+~
+Al mirarlo consigues ver que es un fiestero total, 
+al igual que eso, tb puedes sonsacar por su estado de animo 
+como si fuera de otro sitio, como de sevilla xDDD
+~
+67 524418 1000 C
+48 -25 25 2d10+3200 12d10+10
+100000 300
+112 112 1
+7 7 7 7 7 7 7
+0 0 0 0 0
+0 0 20 80 1 1 3
+0 0 1867 0 0 0 131184 524296
+#5003
+Eldabra~
+Eldabra~
+Eldabra esta aqui practicando con la rail
+~
+Al mirarlo consigues distinguir que como se enfade, 
+sera mejor que no juegues al quake con el, ya que perderas
+Aparte de eso tb ves que le gusta la fisica xD
+~
+67 532618 1000 C
+50 -25 25 2d20+2990 12d20+2
+100000 500
+112 112 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 20 80 1 1 3
+0 0 1867 0 0 0 335679568 526408
+#5004
+Elmack~
+Elmack~
+Elmack esta aqui esperando a ver si alguien le reta a un starcraft
+~
+Al mirarlo consigues ver que es un tio demasiado y pone DEMASIADO 
+viciado al starcraft.Tambien se puede distinguir cierto nivel en el quake,
+pero de lo que juega ultimamente se le ve cara de que aqui a poco no habra 
+quien le gane.
+~
+67 138 1000 C
+50 -25 25 10d20+3050 10d20+2
+100000 500
+112 112 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 20 80 1 1 3
+0 0 1871 0 0 0 545259569 524344
+#5005
+Elwinter~
+Elwinter~
+Elwinter esta aqui echandose unos quakes con su peazo RDSI
+~
+Al mirarlo consigues ver que tiene cara de suenyo increible.
+Tiene aspecto de ser un fiestero de mucho cuidado, pero tambien 
+te da la sensacion de que lleva una vida vampirica.
+~
+67 131210 1000 C
+55 -25 25 2d20+5000 2d20+20
+100000 500
+112 112 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 20 80 1 1 3
+0 0 1867 0 0 0 88082544 540696
+#5006
+Elraiden~
+Elraiden~
+Elraiden esta aqui jaugando al Pokemon y echando unos starcraft
+~
+Todo lo que hayas oido sobre la madre de este sujeto es..... CIERTO!!! 
+Le ves cara de juerguista, muy juerguista. Pero aun asi es tu tio estudiante
+y un cachondo. Notas un cierto aire de pato jagando al quake en el.
+~
+67 524418 1000 C
+55 -25 25 2d20+4900 29d20+51
+50000 500
+112 112 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 25 85 1 1 3
+0 0 329 0 0 0 33685537 524304
+#5007
+Elrailman~
+Elrailman~
+Elrailman esta aqui conectandose con un modem hipiao a alguien cuya identidad se desconoce
+~
+Al mirarlo te preguntas si es humano, ya que solo ves unas larguisimas piernas...
+ pero, espera!!! consigues ver halla, al final, unas extremidades superiores y 
+una increible mata de pelo con una cabeza en medio. Dios mio que peligro!!!!
+~
+67 666 1000 C
+55 -25 25 8d20+5500 10d9+80
+100000 500
+112 112 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 20 80 1 1 3
+0 0 0 0 0 0 268599361 524320
+#5008
+Elatuli~
+Elatuli~
+Elatuli esta aqui pensando si va o no a la peluqueria
+~
+Al mirarlo ves a un tio con mucho pelo y unas ganas de fiesta que no 
+puede con ella. Seguro que tiene resaca del fin de semana.
+~
+99 524427 1000 C
+55 -25 25 25d20+2209 2d20+40
+200000 500
+112 112 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+51 0 20 80 1 1 3
+0 0 267 0 0 0 8455233 536608
+#5009
+Elskuda~
+Elskuda~
+Elskuda esta aqui entrenando pa la campus y metiendo unos rails!!!!!
+~
+Al mirarlo consigues distinguir que en vez de pupilas 
+tiene simbolos de quake. Se ve que se esta preparando para la campus 
+de esta anyo!!!!!
+~
+67 130 500 C
+55 -12 20 4d10+3513 4d10+3513
+100000 350
+112 112 1
+8 8 8 8 8 8 8
+0 0 0 0 0
+0 0 20 80 1 1 3
+0 0 323 0 0 0 24592 4128
+#5010
+Elakiles~
+Elakiles~
+Elakiles esta aqui jugando contra los bots
+~
+Al mirarlo no solo le ves cara de viciao sino que tambien de que lleva 
+meses sin comer ni beber debido a que esta entrenandose pa la campus!!!!
+~
+67 650 500 C
+55 -12 -20 33d13+3313 33d13+3313
+100000 350
+112 112 1
+8 8 8 8 8 8 8
+0 0 0 0 0
+0 0 20 80 1 1 3
+0 0 17039945 0 0 0 8388641 524288
+#5011
+Elgoyeta~
+Elgoyeta~
+Elgoyeta esta aqui conectandose al irc todo el dia
+~
+Al verlo ves a un tio grande que esta chateando todo el rato
+e intentando dejarte reventao con uno de sus chafes xD.
+Intentas hablar con el, pero cuando esta en el IRC, pasa de ti.
+~
+67 10 250 C
+50 -10 0 18d8+4508 18d5+58
+60000 300
+112 112 1
+6 6 6 6 6 6 6
+0 0 0 0 0
+0 0 20 80 1 1 2
+0 0 84050434 0 0 0 35921920 524288
+#5012
+Elnecro~
+Elnecro~
+Elnecro esta aqui durmiendo desde el ultimo DOCE HORAS de quake
+~
+Al mirarlo ves aun tio calvo, o es que se rapara
+bueno no se sabe. No se le da mal el quake pero de no
+jugar se esta volviendo un player.
+~
+67 721410 500 C
+50 20 0 80d8+4000 18d8+25
+20000 400
+112 112 1
+6 6 6 6 6 6 6
+0 0 0 0 0
+0 0 20 80 1 1 2
+0 0 348405762 0 0 0 67109057 524288
+#5013
+Aline~
+aline~
+Aline esta aqui controlando a todo el que pasa al Enr2
+~
+Al mirarla ves como dice "donde estara homer que  lo he visto en todo
+el dia, que extranyo". Pero cuidadin con ella, ya que es la mismisima 
+jefa no del universo, ni del mundo, de algo mejor!!!!! Del Enr2!!!
+~
+67 268436098 500 C
+50 -20 0 18d8+4000 81d8+75
+100000 250
+112 112 2
+6 6 6 6 6 6 6
+0 0 0 0 0
+4 4 20 80 1 1 2
+0 0 262156 0 0 0 67371011 16
+#5014
+Eltirkov~
+Eltirkov~
+Eltirkov esta aqui preguntandose que cojo.... estas haciendo aqui
+~
+Al mirarlo le notas que le gusta jugar bastante al quake
+y de vez en cuando al starcraft. Se le ve cara de Enr2, 
+por que sera????? Tb se le ve cara de estudiar poco.
+~
+99 66238 -1000 C
+55 -300 50 4d10+6500 4d10+80
+1000000 700
+112 112 1
+20 20 20 20 20 20 20
+0 0 0 0 0
+0 0 20 80 1 1 10
+0 0 67407 0 0 0 86238273 530500
+#5015
+Elsoko~
+Elsoko~
+Elsoko esta aqui campeando y aprendiendo todo el poder del lag
+~
+Ves a un tio ya vejete que no para de quedarse 
+quieto y decir, "joder, si sabia que estabas ahi, 
+estaba fumando :PPP. Que folla!!!!!"
+~
+67 590474 1000 C
+40 -25 25 2d20+2000 12d20+20
+100000 450
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 20 82 1 1 3
+0 0 4195212 0 0 0 41056 524320
+#5016
+borracho~
+borracho~
+Un borracho esta aqui gritando despavorido " nooooooooo Elatuli nooooooo!!!!!!!!"
+~
+Al mirarlo consigues ver que esta temblando 
+y que tiene la mirada desviada hacia el infinito.
+~
+193 0 0 C
+5 0 0 3d2+200 2d4+10
+100 50
+112 112 0
+1 1 1 1 1 1 1
+0 0 0 0 0
+0 0 20 80 1 1 1
+0 0 294946945 0 0 0 17 4096
+#5017
+Elshaker~
+Elshaker~
+Elshaker esta aqui pidiendo a todo el que pasa un cigarro y una fanta
+~
+Ves a un tio bastante grande que solo sabe decir, dame una fanta!!!!
+Tambien tiene cara de estar todo el dia coenctado a internet
+Seguro que luego le llegan unas facturas que vaya tela.
+~
+67 524298 1000 C
+48 -25 25 12d10+2100 2d10+30
+100000 400
+112 112 1
+7 7 7 7 7 7 7
+0 0 0 0 0
+0 0 20 80 1 1 3
+0 0 1867 0 0 0 117 526352
+#5018
+Dangersita~
+Dangersita~
+Un Dangersita va mirando por aqui y hablando de Warhammer
+~
+Ves a un tio que lleva piezas de Warhammer por todos lados, 
+tiene cara de viciarse a eso del rol y munyecajos. Aun asi
+parece un tio normal.
+~
+65 128 1000 C
+40 60 25 5d5+2500 5d5+50
+30000 150
+112 112 1
+3 3 3 3 3 3 3
+0 0 0 0 0
+0 0 20 80 1 1 1
+0 0 2 0 0 0 8388721 524304
+#5019
+Garci~
+Garci~
+Un garci esta por aqui pululando y sin decir nada
+~
+Al mirarlo notas que es un aficionado al quake o al unreal, 
+aunque no se le de mu bien lo del quake, nunca es discriminado 
+en el momento de echar una partidilla
+~
+65 2 -205 C
+40 -60 25 4d4+2000 4d4+40
+50000 109
+112 112 1
+3 3 3 3 3 3 3
+0 0 0 0 0
+0 0 20 80 1 1 2
+0 0 1600 0 0 0 20971633 24
+#5020
+Hornet~
+Hornet~
+Un hornet esta aqui haciendo preguntas estupidas
+~
+Este personajillo aunque lleve jugando mas al quake que nadie en este planeta
+parece que no evoluciona en su juego. Mientras estas aqui se te pone a la 
+espalda y diciendo, para que sirve eso?
+~
+65 2&2 -1000 C
+42 10 10 5d5+2800 5d5+50
+50000 150
+112 112 1
+3 3 3 3 3 3 3
+0 0 0 0 0
+0 0 20 80 1 1 1
+0 0 73 0 0 0 4194401 1
+#0
+
+
+#OBJECTS
+#5000
+llave~
+una llave plateada~
+Aqui hay una llave plateada.~
+~
+18 0 1
+5037 0 0 0
+1 0 0
+E
+llave~
+Una llave plateada.~
+#5001
+Camiseta~
+una camiseta con el lema 'soy un peludo'~
+Aqui hay una camiseta con el lema 'soy un peludo'.~
+~
+9 0 9
+25 0 0 0
+1 0 0
+E
+camiseta~
+Esta escrito "Soy un peludo" en ella.~
+A
+19 10
+A
+12 50
+A
+14 25
+#5002
+Pelo~
+el pelo made in railman~
+El poderoso pelo de Elrailman esta aqui tirado.~
+~
+9 0 17
+15 0 0 0
+1 0 0
+E
+pelo~
+Un pelo made in Taiwan.~
+A
+12 100
+A
+19 -3
+#5003
+MegaEspadon ~
+un Megaespadon afilado~
+Aqui hay un MegaEspadon con una embergadura impresionante.~
+supertajo~
+5 2 8193
+0 6 6 3
+1 0 0
+E
+megaespadon~
+~
+A
+19 6
+A
+18 6
+A
+17 -15
+#5004
+Perneras~
+unas Perneras larguisimas~
+Unas perneras larguisimas estan aqui.~
+~
+9 0 33
+15 0 0 0
+1 0 0
+E
+perneras~
+Joeeeer que largas que son :)~
+A
+12 25
+A
+14 25
+#5005
+zapatitos~
+unos Zapatitos barbie malibu~
+Aqui hay unos zapatitos que pone en ellos Barbie Malibu.~
+~
+9 256 65
+20 0 0 0
+1 0 0
+E
+zapatitos~
+Son de la barbie malibu!~
+A
+14 60
+A
+19 3
+A
+1 2
+#5006
+capa~
+una capa de playmobil~
+Aqui hay una capa muy pequenya que pone Playmobil.~
+~
+9 1024 1025
+20 0 0 0
+1 0 0
+E
+capa~
+Una capa de playmobil.~
+A
+18 8
+A
+19 8
+A
+12 75
+#5007
+casco~
+un Casco motero~
+Aqui hay un casco viejo y estropeado.~
+~
+9 1 17
+10 0 0 0
+1 0 0
+E
+casco~
+~
+A
+18 5
+A
+19 5
+A
+14 -75
+#5008
+Anillo~
+un Anillo del poder lag~
+Aqui hay un anillo con un intenso brillo y esplendor.~
+~
+9 0 3
+5 0 0 0
+1 0 0
+E
+anillo~
+~
+A
+12 80
+#5009
+Lanzapinyas~
+un lanzapinyas~
+Este arma parece como sacado de un videojuego conocido sera del quake? 
+
+o sera de otro.... Bueno aun asi tiene pintar de meter unos pinyazos que
+vaya tela.~
+Pinyazo~
+5 16 8193
+0 7 7 7
+1 0 0
+E
+lanzapinyas~
+~
+A
+14 -60
+A
+19 6
+A
+18 6
+#5010
+Tomo~
+tomo del poder lag~
+Aqui hay un tomo bastante pesado ~
+~
+9 16 129
+10 0 0 0
+1 0 0
+E
+tomo~
+Los secretos del lag estan contenidos en este tomo.~
+A
+18 2
+A
+3 1
+A
+23 -25
+A
+1 1
+A
+25 -2
+#5011
+Cigarro~
+un cigarro maloliente~
+Aqui hay un cigarro medio arrugado.~
+~
+9 0 3
+2 0 0 0
+1 0 0
+E
+cigarro~
+~
+A
+12 40
+#5012
+Chancletas~
+unas chancletas ~
+Unas chancletas estan aqui tiradas.~
+~
+9 0 65
+10 0 0 0
+1 0 0
+E
+chancletas~
+~
+A
+14 100
+#5013
+Sombrero~
+un sombrero de paja~
+Aqui hay un gran sombrero de paja.~
+~
+9 0 17
+10 0 0 0
+1 0 0
+E
+sombrero~
+~
+A
+2 2
+A
+1 1
+A
+19 4
+A
+18 -3
+#5014
+Daga  ~
+una daga azulada~
+Aqui hay tirada una daga azulada.~
+navajazo~
+5 0 8193
+0 8 8 2
+1 0 0
+E
+daga~
+~
+A
+19 8
+A
+18 7
+#5015
+Botella~
+una magica botella de vodka~
+Aqui hay tirada una magica botella de vodka.~
+~
+10 0 1
+46 -1 -1 -1
+1 0 0
+'heal' 'NONE' 'NONE'
+E
+botella~
+~
+#5016
+Espada~
+Una espada oxidada~
+Aqui hay una espada mas bien oxidada.~
+supertajo~
+5 0 8193
+0 0 0 3
+1 0 0
+E
+espada~
+~
+A
+19 5
+A
+18 5
+A
+12 30
+#5017
+raton~
+un raton logitech~
+Aqui hay un raton de ordenador.~
+~
+9 0 129
+10 0 0 0
+1 0 0
+A
+2 4
+A
+3 2
+A
+1 -2
+A
+19 -2
+#5018
+Recibo~
+un recibo que pone pagame~
+Aqui hay un recibo con algo escrito.~
+~
+9 0 129
+3 0 0 0
+1 0 0
+A
+3 -3
+A
+12 55
+#5019
+Daga~
+una daga de player~
+Aqui hay una daga mas bien fea.~
+navajazo~
+5 0 8193
+0 7 8 2
+1 0 0
+E
+daga~
+~
+A
+19 3
+A
+18 5
+#5020
+Tomo ~
+un tomo de bastardo~
+Aqui hay un tomo tirado.~
+~
+9 2 16385
+10 0 0 0
+1 0 0
+A
+20 -30
+A
+23 -15
+A
+5 3
+#5021
+Zapatillas~
+unas zapatillas~
+Aqui hay tiradas un par de zapatillas.~
+~
+9 0 65
+5 0 0 0
+1 0 0
+E
+zapatillas~
+~
+A
+14 150
+#5022
+Guantes~
+unos guantes gigantes~
+Aqui hay unos guantes bastante grandes.~
+~
+9 16640 129
+25 0 0 0
+1 0 0
+E
+guantes~
+~
+A
+18 12
+A
+19 13
+A
+12 -150
+#5023
+Linterna~
+una linterna vieja~
+Aqui hay una linterna bastante vieja.~
+~
+1 0 16385
+0 0 0 0
+1 0 0
+E
+linterna~
+~
+A
+3 3
+A
+1 2
+A
+2 -2
+#0
+
+
+#ROOMS
+#5000
+Entrada al mundo quakero~
+Estas en una ante-sala en la cual ves un cartel que dice:
+Si no eres quakero de Nivel 40-60, esta no es tu zona.
+~
+0 0 0
+D0
+Al norte ves un cruce de caminos~
+n~
+0 0 5001
+D2
+Al sur ves un camino.
+~
+sur~
+0 0 6124
+S
+#5001
+Cruce de caminos quakeros~
+Ves un mas o menos largo pasillo que te conduce a diferentes habitaciones. 
+~
+0 0 0
+D0
+Al norte consigues distinguir un tramo mas del pasillo que ahora mismo estas pisando~
+n~
+0 0 5004
+D1
+Al este consigues distiguir la puerta este de la zona quakera~
+e~
+0 0 5003
+D2
+Al sur consigues distinguir la entrada al mundo quakero~
+s~
+0 0 5000
+D3
+Al oeste consigues distinguir la puerta final oeste de la zona quakera~
+o~
+0 0 5002
+S
+#5002
+Puerta oeste de la zona quakera~
+Esta es una habitacion oscura y muy humeda, notas como el frio del 
+ambiente recorre tus venas.
+~
+0 0 0
+D1
+Al mirar al este consigues distinguir el cruce de caminos~
+e~
+0 0 5001
+D5
+Abajo consigues distinguir la entrada al nivel subterraneo~
+d~
+0 0 5007
+S
+#5003
+Puerta este de la zona quakera~
+Esta habitacion te recuerda a las peliculas de heidi y marco, esta decorada
+con florecitas y chorradas. Que extranyo, no?
+~
+0 0 0
+D1
+Al este consigues distinguir la puerta final este quakera~
+e~
+0 0 5005
+D3
+Al oeste consigues distinguir el cruce de caminos~
+o~
+0 0 5001
+S
+#5004
+Un tramo mas en el pasillo ~
+Avanzando por el pasillo has llegado hasta estas sala, en la cual consigues
+distinguir 4 salidas. Tu decides.
+~
+0 0 0
+D0
+Al norte consigues distinguir otro cruce de caminos~
+n~
+0 0 5014
+D1
+Al este consigues distinguir una habitacion mas bien solitaria~
+e~
+0 0 5013
+D2
+Al sur consigues distinguir el cruce de caminos~
+s~
+0 0 5001
+D3
+Al oeste consigues distinguir la residencia de Eltente~
+o~
+0 0 5012
+S
+#5005
+Puerta final este de la zona quakera~
+Has llegado hasta el final de este pasillo, que cortito no?. Consigues 
+distinguir dos salidas, al oeste y al sur
+~
+0 0 0
+D2
+Al sur consgiues distinguir la mismisima casa de Elshadow~
+s~
+0 0 5006
+D3
+Al oeste consigues distinguir la puerta este de la zona quakera~
+o~
+0 0 5003
+S
+#5006
+La casa de Elshadow~
+Madre mia, acabas de entrar y te encuentras con el famoso y terrible 
+Elshadow!!!!! Me han contado que es un experto en camuflaje y tecnicas 
+de guerra, o sea que.... haz lo que quieras. Aun estas a tiempo de huir
+~
+0 0 0
+D0
+Al norte consigues disntiguir la puerta final este de la zona quakera~
+n~
+0 0 5005
+S
+#5007
+Entrada al nivel subterraneo~
+Estas en el principio de este corto pero tenebroso pasillo.  Conisgues 
+distinguir salidas al norte y al sur.
+~
+0 0 0
+D2
+Al sur consigues distinguir el final del corto pasillo~
+s~
+0 0 5008
+D4
+Arriba consigues distinguir la puerta oeste de la zona quakera~
+arr~
+0 0 5002
+S
+#5008
+Final del corto pasillo~
+Estas en en el final del corto pasillo. Consigues distinguir salidas al 
+norte y al oeste.
+~
+0 0 0
+D0
+Al norte consigues distinguir la entrada al nivel subterraneo~
+n~
+0 0 5007
+D3
+Al oeste consigues distinguir la casa de el mismisimo Elpiqueto~
+o~
+0 0 5009
+S
+#5009
+La casa de Elpiqueto~
+Estas en la mismisima casa de Elpiqueto, yo tendria cuidadin porque como 
+te lo encuentres... tela marinera...
+~
+0 0 0
+D0
+Al norte consigues disntiguir la sala de descanso~
+n~
+0 0 5010
+D1
+Al este consigues distinguir el final de un corto pasillo~
+e~
+0 0 5008
+D3
+Ves una habitacion que no te gusta para nada. Yo me pensaria entrar ahi!!!!~
+o~
+0 0 5011
+S
+#5010
+Sala de descanso~
+En esta sala ves unos cuantos cojines, sofas, etc. No te entra suenyo 
+solo de verlo????
+~
+0 0 0
+D2
+Al sur consigues distinguir la mismisima casa de Elpiqueto~
+s~
+0 0 5009
+S
+#5011
+El profundo y tremendo abismo~
+Vaya tela, has entrado en el unico lugar del area en el que no vas a 
+poder continuar, ya sabes lo que toca....
+~
+0 5 0
+S
+#5012
+Residencia de Tente~
+Estas en la residencia del mismisimo Tente, el autentico. Logras ver una 
+gran fiesta organizada por él. Que vas ha hacer, unirte a la fiesta o 
+armar la bronca?
+~
+0 0 0
+D1
+Al este consigues ver un tramo del pasillo por donde antes has caminado~
+e~
+0 0 5004
+S
+#5013
+Una habitacion mas bien solitaria~
+Esta habitacion parece normal pero logras encontrar algo extranyo en la 
+habitacion. Sera esa trampilla en el suelo?????
+~
+0 1 0
+D3
+Al oeste consigues ver un tramo del pasillo por donde antes has caminado.~
+o~
+0 0 5004
+D5
+Ves una extranya habitacion abajo al abrir la trampilla, escondera algun secreto tenebroso??~
+d~
+0 0 5055
+S
+#5014
+Otro cruce de caminos en el mismo pasillo~
+Te empiezas a mosquear con tanto cruce, de veras valdra la pena tanto cruce
+y tanta tonteria? Compruebalo por ti mismo xD
+~
+0 0 0
+D0
+Al norte consigues ver una habitacion bastante fea que no te gusta para nada~
+n~
+0 0 5028
+D1
+Al este te ocurre lo mismo que con el oeste y viceversa, que deparara cada tramo del pasillo?~
+e~
+0 0 5019
+D2
+Al sur consigues ver el tramo del pasillo por el cual piensas que ya has estado, o no?~
+s~
+0 0 5004
+D3
+Al oeste empieza otra vez la odisea de cuando se acabara este pasillo y que te deparara el final de este.....~
+~
+0 0 5015
+S
+#5015
+Primera parte oeste del segundo cruce de caminos~
+Estas en la parte oeste del segundo cruce de caminos. En el ambiente 
+consigues notar que se cuece algo peligroso por aqui pero.... Que sera?
+~
+0 0 0
+D1
+Al este ves el segundo cruce de caminos~
+e~
+0 0 5014
+D3
+Al oeste consigues ver la segunda parte oeste del segundo cruce de caminos.~
+o~
+0 0 5016
+S
+#5016
+Segunda parte oeste del segundo cruce de caminos~
+Sigues caminando y parece que esto no se acaba.... bueno habra que probar 
+el remedio de seguir andando y buscar algo interesante.
+~
+0 0 0
+D1
+Al este consigues divisar la primera parte oeste del segundo cruce de caminos~
+e~
+0 0 5015
+D3
+Al oeste consigues ver .... si por fin!!! el final de este pasillo!!!~
+o~
+0 0 5017
+S
+#5017
+Parte final oeste del segundo cruce de caminos~
+POR FIN!!!!!! este es el final.... de este pasillo :P 
+Por aqui se huele el olor de la muerte, sera tu olor propio??
+~
+0 0 0
+D0
+Al norte consigues ver la Casa de Eldabra~
+n~
+0 0 5018
+D1
+Al este consigues distinguir la segunda parte oeste del segundo cruce de caminos~
+e~
+0 0 5016
+S
+#5018
+La Casa de Eldabra~
+Dios mio, DONDE TE HAS METIDO!!!!! Ten cuidado porque por aqui suele estar
+pululando Eldabra. Te costara verlo pero lo sentiras cuando te atraviese 
+con un rail.
+~
+0 0 0
+D0
+Al norte consigues divisar la habitacion de Elrafa~
+n~
+0 0 5030
+D2
+Al sur consigues distinguir la parte final del segundo cruce de caminos.~
+s~
+0 0 5017
+S
+#5019
+Parte final este del segundo cruce de caminos~
+Que curioso, das un paso y ya estas al final del pasillo. Esto parece buena
+senyal, o no? Yo que tu me andaria con cuidado.
+~
+0 0 0
+D0
+Al norte consigues ver una habitacion bastante espaciosa. Sera porque vive alguien en ella????~
+n~
+0 0 5020
+D3
+Al oeste consigues ver el segundo cruce de caminos
+~
+o~
+0 0 5014
+S
+#5020
+La casa de Elmack~
+En esta casa parece que ha vivido el mismisimo Zeratul!!! Todo esta rodeado
+de posters de Starcraft y de Quake. Dios mio esto es la locura. Ten cuidado,
+parece que esta casa sigue habitada por Elmack.
+~
+0 0 0
+D1
+Al este consigues divisar el final de una calle y comienzo de otra.~
+e~
+0 0 5021
+D2
+Al sur consigues divisar la parte final este del segundo cruce de caminos~
+s~
+0 0 5019
+S
+#5021
+El piso ~
+Se cuentan diferentes historias sobre este piso. La verdad es que te 
+preguntas si seran o no ciertas, pero a ti te da lo mismo, eres un 
+aventurero, o no?
+~
+0 0 0
+D0
+Al norte consigues ver un camino de baldosas azules.~
+n~
+0 0 5029
+D3
+Al oeste consigues divisar la casa de Elmack~
+o~
+0 0 5020
+S
+#5022
+Calle tranquila y serena llamada Enr2~
+No hay nada en esta calle que te llame la atencion. Parece una calla 
+tranquila y sin sentido.
+~
+0 0 0
+D0
+Al norte consigues divisar la continuacion de la calle en la que estas.~
+n~
+0 0 5023
+D1
+Al este consigues ver algo extranyo que llama tu atencion, vas a entrar?~
+e~
+0 0 5029
+S
+#5023
+Continuacion de la calle Enr2~
+Estas en la continuacion de la calle del sur, vas por esta calle por gusto
+o por que quieres ir al Enredacos a echar un vicio eh!!!!!
+~
+0 0 0
+D1
+Al este consigues divisar la entrada al Enr2~
+e~
+0 0 5027
+D2
+Al sur consigues divisar la primera parte de la calle Enr2~
+s~
+0 0 5022
+D3
+Al oeste consigues divisar la entrada a la casa de Elraiden~
+o~
+64 0 5024
+S
+#5024
+La casa de Elraiden~
+Estas en la mismisima casa de uno de los personajes mas famosos, 
+Elraiden!!!!!!!!! Habras oido muchas leyendas sobre su madre
+pero solo una es cierta y es la de que.......
+~
+0 0 0
+D0
+Al norte ves la mismisima habitacion del Elraiden.~
+n~
+0 0 5026
+D1
+Al este consigues divisar la continuacion de la calle Enr2~
+e~
+0 0 5023
+D2
+Otra habitacion en la casa de Elraiden~
+s~
+0 0 5025
+S
+#5025
+Otra habitacion en la casa de Elraiden~
+Aqui se respira un aire de pureza y salud, pero ten cuidado, me han dicho
+que por aqui se mueve Elraiden.
+~
+0 0 0
+D0
+Al norte consigues ver la entrada a la casa de Elraiden~
+n~
+0 0 5024
+S
+#5026
+La habitacion de Elraiden~
+Estas en la famosisima habitacion de Elraiden, como bien puedes suponer
+por aqui "pulula" Elraiden.
+~
+0 0 0
+D2
+Al sur ves la entrada a la casa de Elraiden~
+s~
+0 0 5024
+S
+#5027
+Entrada al Enr2~
+Estas en la entrada de EL MEJOR CYBER LOCAL DE ALBACETE!!!!!!!!! 
+Esto parece interesante, pero te puedes encontrar extranyos personajes 
+por aqui!!!
+~
+0 0 0
+D0
+Al norte consigues divisar el centro del Enr2~
+n~
+0 0 5031
+D3
+Al oeste consigues divisar la continuacion de la calle Enr2~
+o~
+0 0 5023
+S
+#5028
+Estas en la particular zona de una Peluqueria~
+Estas ahora mismo en una peluqueria, si quieres aprovecha y metete una
+rapada xD. 
+~
+0 0 0
+D0
+Al norte consigues distinguir la sala de espera de la peluqueria~
+n~
+0 0 5032
+D2
+Al sur consigues divisar el segundo cruce de caminos~
+s~
+0 0 5014
+S
+#5029
+El basurero mas feo del mundo~
+Estas en un basurero en el cual hay un monton de objetos y cosas extranyas,
+a lo mejor hay algo que te interese. Si ve algo mejor, comprelo ;P 
+~
+0 4096 0
+D3
+Al oeste consigues divisar el principio de la calle Enr2
+~
+o~
+0 0 5022
+S
+#5030
+La habitacion de el poderoso y temido Elrafa~
+Estas en la mismisa habitacion de Elrafa, al final ves un ordenador y en
+la entrada una cama sin hacer, sera un descuidado? o lo habra hecho para
+destraer tu atencion mientras el te ataca??? Por si acasao andate con 
+cuidado...
+~
+0 0 0
+D2
+Al sur consigues distinguir la tenebrosa y estupefacciente habitacion de Eldabra~
+s~
+0 0 5018
+D3
+Al oeste consigues ditinguir una salida al exterior~
+o~
+0 0 5038
+S
+#5031
+Parte central de Enr2~
+Ante ti esta el poderoso y enigmatico Elgoyeta.Te ignora mientras esta en
+el IRC, pero, cuando por fin levanta la cabeza y te ve, te dice MOROSO!!!
+PAGA O MUERE!!! xD
+~
+0 1040 0
+D2
+Al sur consigues divisar la entrada del Enr2~
+s~
+0 0 5027
+S
+#5032
+Sala de espera de la peluqueria~
+Estas en la sala de esta peluqueria. Te sientes solo si no fuera por ese 
+tio que esta durmiendo ahí. Tampoco has visto aun al peluquero ni a ningun
+cliente, que extranyo no?
+~
+0 0 0
+D2
+Al sur consigues distinguir la entrada a la peluqueria~
+s~
+0 0 5028
+D3
+Al oeste consigues distinguir la parte central de la peluqueria~
+o~
+0 0 5033
+S
+#5033
+Parte central de la peluqueria~
+Estas en la parte central de la peluqueria. Esta habitación, aun siendo una
+peluqueria, tiene algo que no te gusta nada.
+~
+0 0 0
+D0
+Al norte consigues distinguir los lavabos de la peluqueria~
+n~
+0 0 5034
+D1
+Al este consigues distinguir la sala de espera de la peluqueria~
+e~
+0 0 5032
+S
+#5034
+Los lavabos de la peluqueria~
+Estas en el interior de los lavabos de la peluqueria.
+~
+0 0 0
+D1
+Al este consigues divisar una falsa salida de la peluqueria~
+e~
+0 0 5035
+D2
+Al sur consigues distinguir la parte central de la peluqueria~
+s~
+0 0 5033
+S
+#5035
+Salida falsa de la peluqueria~
+Estas en una salida bastante estropeda y danyada por el no cuidado de esta
+puerta y estos rincones. Aun asi puedes distinguir que vas a tener que volver
+sobre tus pasos... o no?
+~
+0 0 0
+D3
+Al oeste consigues divisar los lavabos de la peluqueria~
+o~
+0 0 5034
+D4
+Al mirar hacia arriba consigues distinguir una escalera~
+arr~
+0 0 5036
+S
+#5036
+Primer tramo de la escalera~
+Estas subiendo por una escalera. La escalera esta bastante vieja y roida 
+por la carcoma Aun asi tu y tu valiente manera de pensar hace que no te 
+vuelvas atras.
+~
+0 0 0
+D4
+Al mirar hacia arriba consigues divisar el final de la escalera, pero tambien te parece ver a alguien o algo extranyo. ~
+arr~
+7 5000 5037
+D5
+Al mirar hacia abajo consigues divisar la salida falsa de la peluqueria~
+ab~
+0 0 5035
+S
+#5037
+Tramo final de la escalera.~
+Dios mio, tanto trabajo por hoy te va a desmayar Bueno por fin subida la
+escalera te sientes mas relajado, pero al mirar a tus alrededores consigues
+ver... DIOS MIO ... em... una nota :PPPPPPPPPPPP
+~
+0 8192 0
+D5
+Al sur consigues divisar el primer tramo de la escalera~
+ab~
+7 5000 5036
+E
+nota~
+Area creada por Tirkov & cia.
+~
+S
+#5038
+Salida al exterior~
+Estas en una calla llena de colorido y gente, pero notas algo en el ambiente
+que no te gusta para nada. 
+~
+0 0 0
+D0
+Al norte consigues distinguir la puerta de la casa de Elsoko~
+n~
+0 0 5039
+D1
+Al este consigues distinguir la mismisima habitacion de Elrafa.~
+e~
+0 0 5030
+S
+#5039
+Entrada a la casa de Elsoko~
+Estas en la entrada del mismisimo Elsoko. Notas como un poco de lag cuando
+vas a entrar. Sera el poder del lag que cuenta la leyenda sobre Elsoko?????
+~
+0 0 0
+D1
+Al este consigues divisar la habitcacion de Elsoko~
+e~
+0 0 5040
+D2
+Al sur consigues ver una salida al exterior~
+s~
+0 0 5038
+S
+#5040
+La casa de Elsoko~
+Estas dentro de la casa de Elsoko, ten cuidado. Notas como si te movieras 
+mucho mas despacio. Por que sera?
+~
+0 0 0
+D0
+Al norte consiges ver la salida de la casa de Elsoko~
+n~
+0 0 5041
+D3
+Al oeste consigues ver la entrada a la casa de Elsoko~
+o~
+0 0 5039
+S
+#5041
+Salida de la casa de Elsoko~
+Estas al lado de la mismisima casa de Elsoko. Pero despues de tanto camino
+piensas que aun te queda mucho por recorrer. O no?
+~
+0 0 0
+D2
+Al sur consigues ver la casa de Elsoko~
+s~
+0 0 5040
+D3
+Al oeste consigues divisar el camino hacia la zona de bares~
+o~
+0 0 5042
+S
+#5042
+Zona de bares~
+Estas en la mismisima zona de bares de la zona mas quakera!!!!!
+Esto se merece un trago o mejor un sacrificio, seras tu el sacrificado?
+~
+0 0 0
+D0
+Al norte consigues divisar un tramo mas en la zona de bares~
+n~
+0 0 5043
+D1
+Al este consigues divisar la salida de la casa de Elsoko~
+e~
+0 0 5041
+S
+#5043
+Segundo tramo en la zona de bares~
+Bueno, estas en la segunda parte de la zona de bares. Por aqui se pueden 
+ver desde borrachos hasta tias impresionantes como la que va por enfrente!!!
+JOOOOODDDEEERRR!
+~
+0 0 0
+D1
+Al este consiges ver un bar lleno de gente~
+e~
+33 0 5044
+D2
+Al sur consigues ver la zona de bares~
+s~
+0 0 5042
+S
+#5044
+Un bar lleno de gente~
+Estas en un bar lleno de gente, pero ves a un tio peludo que te senyala y 
+dice "Te reto a ver quien bebe mas calimocho". 
+
+~
+0 0 0
+D1
+Al este consigues divisar los lavabs del bar. PUAJJJJ~
+e~
+0 0 5045
+D3
+~
+~
+0 0 5043
+S
+#5045
+Los lavabos del bar~
+Estas en los lavabos de un bar asqueroso en sabado por la noche, a estas 
+horas, y con un suenyo!!! Cuidado no pises algo que no te guste.
+~
+0 0 0
+D3
+Al oeste consigues divisar un bar lleno de gente~
+o~
+0 0 5044
+D5
+Abajo consigues distinguir un tenebroso pozo.~
+ab~
+0 0 5046
+S
+#5046
+Un pozo tenebroso~
+Al bajar de esos servicios llenos de mier....consigues llegar hasta este 
+pozo. Al fijarte bien, consigues ver un cartel que pone SOLO ACCESIBLE EL 
+PASO A QUAKEROS CON EXPERIENCIA.
+~
+0 1 0
+D1
+Al este consigues divisar La entrada a la q2dm1~
+e~
+0 0 5047
+D4
+~
+~
+0 0 5045
+S
+#5047
+Entrada a la Q2dm1~
+Te fijas y te fijas y esta zona te suena. DIos mio, si es la misma pantalla
+en la que juegas todos los dias al Quake II. No te quieres ni preguntar la
+de viciaos que habra en esta pantalla.
+~
+0 0 0
+D0
+Al norte consigues divisar la Plaza~
+n~
+0 0 5048
+D3
+Al oeste consigues distinguir un pozo profundo~
+o~
+0 0 5046
+S
+#5048
+La plaza~
+Estas en la plaza de la pantalla, justo en todo el centro, ten cuidado, 
+porque por aqui suele haber zonas de campeo con el lanzapinyas.
+~
+0 0 0
+D0
+Al norte consigues divisar la entrada al rocket de abajo~
+n~
+0 0 5051
+D1
+Al este consigues divisar una sala pequenya~
+e~
+0 0 5049
+D2
+Al sur consigues distinguir la entrada a la Q2dm1~
+s~
+0 0 5047
+D3
+Al oeste consgiues divisar la entrada al tunel~
+o~
+0 0 5050
+S
+#5049
+Una sala pequenya~
+Estas en una sala pequenya donde solo hay salidas por donde has venido. No
+ves nada extranyo por aqui, o si?
+~
+0 0 0
+D3
+Al oeste consigues distinguir la plaza~
+o~
+0 0 5048
+S
+#5050
+El tunel~
+Estas en el tunel, no hay salida aparente. Te preguntas porque habra estas
+salidas tan estupidas.
+~
+0 0 0
+D1
+Al este consigues divisar la plaza~
+e~
+0 0 5048
+S
+#5051
+Entrada al rocket de abajo~
+Estas en la entrada del rocket de abajo. Esta suele ser zona de muerte de 
+muchos players. Alomejor el mejor remedio es meterte en el ascensor y ya ta.
+~
+0 0 0
+D0
+Al norte consigues divisar el rocket de abajo~
+n~
+0 0 5056
+D2
+Al sur consigues divisar la plaza~
+s~
+0 0 5048
+D3
+Al oeste consigues distinguir el ascensor~
+o~
+0 0 5052
+S
+#5052
+El ascensor~
+Estas en el ascensor de la Q2dm1!!!! Yo iria mirando hacia arriba no sea 
+que este el tipico campero esperando a que subas pa meterte el rocket de 
+su vida.
+~
+0 0 0
+D1
+Al este consigues divisar la entrada al rocket de abajo.~
+e~
+0 0 5051
+D4
+Arriba consigues divisar la parte alta de la Q2dm1~
+arr~
+0 0 5053
+S
+#5053
+Parte alta de la Q2dm1~
+Estas en la parte alta de la Q2dm1. Al mirar hacia abajo ves que si te 
+caes te puedes meter una josconcia!!!!!
+~
+0 0 0
+D3
+Al oeste consiges distinguir la rampa de entrada a la sala 100~
+o~
+0 0 5054
+D5
+Abajo consigues distinguir el ascensor~
+ab~
+0 0 5052
+S
+#5054
+Rampa de entrada a la sala 100~
+Estas en la rampa de entrada a la sala 100. Nada mas :PPPPPPPPPPPPP
+~
+0 0 0
+D0
+Al norte consigues divisar la sala 100~
+n~
+1 0 5055
+D1
+Al este consigues distinguir la parte alta de la Q2dm1~
+e~
+0 0 5053
+S
+#5055
+En la sala 100~
+Estas en la mismisa sala 100, donde los grandes campeones y viciaos
+hacen de cada salto que te quedas con una cara de decir, pero bueno 
+como ha hecho eso!!!
+~
+0 0 0
+D2
+Al sur consigues distinguir la rampa de entrada a la sala 100~
+s~
+0 0 5054
+S
+#5056
+En el rocket de abajo~
+Estas en el rocket de abajo!! Las cagao!!
+~
+0 0 0
+D2
+Al sur consigues distinguir la entrada al rocket de abajo~
+s~
+0 0 5051
+S
+#5057
+Segunda parte de la plaza~
+Te asomas a la puerta y AUCHHHHH, te has caido de nuevo a la plaza,
+joder!!!!!!!.
+~
+0 0 0
+D0
+Al norte consigues distinguir la sala 100~
+n~
+0 0 5054
+D1
+Al este consigues disntiguir el tunel~
+e~
+0 0 5050
+S
+#0
+
+
+#RESETS
+M 0 5017 1 5000
+M 0 5020 10 5000
+M 0 5018 5 5002
+M 0 5019 5 5003
+M 0 5019 5 5004
+M 0 5020 10 5004
+M 0 5000 1 5006
+E 0 5011 0 1
+E 0 5012 0 8
+E 0 5013 0 6
+M 0 5001 1 5009
+M 0 5018 5 5010
+M 0 5019 5 5010
+M 0 5019 5 5010
+M 0 5020 10 5010
+M 0 5020 10 5010
+M 0 5020 10 5010
+M 0 5002 1 5012
+M 0 5020 10 5016
+M 0 5018 5 5017
+M 0 5003 1 5018
+E 0 5005 0 8
+E 0 5006 0 12
+E 0 5014 0 16
+M 0 5004 1 5020
+G 0 5015 0
+E 0 5016 0 16
+E 0 5017 0 9
+M 0 5005 1 5021
+M 0 5018 5 5023
+M 0 5019 5 5023
+M 0 5020 10 5023
+M 0 5006 1 5026
+M 0 5014 2 5029
+E 0 5019 0 16
+E 0 5020 0 9
+E 0 5021 0 8
+M 0 5011 1 5031
+M 0 5012 1 5031
+E 0 5022 0 9
+E 0 5023 0 0
+M 0 5013 1 5031
+M 0 5007 1 5033
+G 0 5000 0
+E 0 5001 0 5
+E 0 5004 0 7
+E 0 5003 0 16
+E 0 5002 0 6
+M 0 5020 10 5034
+D 0 5036 4 2
+M 0 5014 2 5037
+E 0 5019 0 16
+E 0 5020 0 9
+E 0 5021 0 8
+D 0 5037 5 2
+M 0 5020 10 5039
+M 0 5015 1 5040
+E 0 5007 0 6
+E 0 5008 0 1
+E 0 5008 0 2
+E 0 5010 0 9
+E 0 5009 0 16
+M 0 5016 1 5042
+M 0 5008 1 5044
+G 0 5018 0
+M 0 5010 1 5054
+M 0 5009 1 5055
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  5000 spec_breath_lightning
+M  5002 spec_cast_mage
+M  5003 spec_guard
+M  5004 spec_breath_gas
+M  5005 spec_thief
+M  5006 spec_cast_undead
+M  5008 spec_poison
+M  5009 spec_thief
+M  5013 spec_cast_adept
+M  5014 spec_breath_fire
+M  5015 spec_cast_cleric
+S
+
+
+#$

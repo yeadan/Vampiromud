@@ -1,0 +1,2050 @@
+#AREA   Thalos~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO DRaKeNDoR~
+#PUNTOS 0 1945 2000 1999 0
+#AUTHOR TxaKo~
+
+#RANGES
+10 25 0 256
+$
+
+#RESETMSG ~
+
+#FLAGS
+0
+
+#ECONOMY 0 2266865
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#5200
+observador~
+El poderoso observador~
+Encuentras al mortifero observador mirandote!!
+~
+Tiene un gran ojo central que proyecta un rayo anti-magia y diez ojos mas
+pequenyos repartidos por todo el cuerpo que pueden hacer de todo, desde
+encantarte hasta desintegrarte. Los Observadores no son conocidos por su 
+caracter.
+
+~
+163 8 -870 S
+25 6 0 25d25+250 6d6+5
+225 94000
+112 112 0
+#5201
+lamia~
+La lamia~
+Una extranya  lamia esta esperando su proxima comida.
+~
+Esta criatura tiene la parte superior del torso de una bella mujer, pero el
+cuerpo de una bestia de cuatro piernas. Se relame mirandote con avidez.
+
+~
+101 0 -999 S
+9 12 1 9d9+99 1d5+4
+10 3000
+112 112 2
+#5202
+mimic coraza~
+El mimic~
+Una fuerte coraza esta tirada en una esquina de la habitacion.
+~
+Una fuerte coraza de madera atada con correas metalicas y un fuerte candado.~
+229 32768 10 S
+11 10 1 11d11+110 2d7+0
+0 4000
+112 112 0
+#5203
+mimic piedra~
+El mimic~
+Dos esqueletos estan aplastados y tirados bajo una gran piedra.
+~
+~
+229 32768 -10 S
+11 10 1 11d11+110 3d5+1
+0 4000
+112 112 0
+#5204
+mimic suelo~
+El mimic~
+La suelo de piedra de esta casa ha sido hecho pedazos.
+~
+~
+229 32768 -140 S
+11 10 1 11d11+110 2d6+0
+0 3500
+112 112 0
+#5205
+mimic ceramica~
+El mimic~
+Algunos pedazos rotos de ceramica estan esparcidos por el suelo.
+~
+~
+229 32768 200 S
+11 10 0 11d11+110 2d5+1
+0 3500
+112 112 0
+#5206
+mimic tablones~
+El mimic~
+Unos pocos tablones estan apilados en una pequeña estanteria.
+~
+~
+229 32768 0 S
+11 9 0 11d11+110 4d3+1
+0 3500
+112 112 0
+#5207
+lagarto cornudo~
+El lagarto cornudo~
+Un pequenyo lagarto cornudo  saca su lengua y se aleja reptando.
+~
+Un bonito y pequenyo lagarto, solo eso, si te gustan los reptiles!
+
+~
+129 0 0 S
+3 17 4 1d4+30 1d4+0
+0 300
+112 112 0
+#5208
+golem de piedra~
+El golem de piedra~
+En la esquina ves un gran,  golem de piedra que esta de pie vigilando.
+~
+Es un gran trozo de roca que ha sido moldeada magicamente en una gigante
+criatura de piedra. Esta depie, silencios vigilando la ciudad.
+~
+3 8192 600 S
+25 0 0 6d10+600 3d7+15
+425 80000
+112 112 0
+#0
+
+
+#OBJECTS
+#5200
+mithril ropas~
+Unas ropas de mithril~
+Unas ropas de laminas de mithril estan amontonadas en el suelo.~
+~
+9 64 9
+8 0 0 0
+30 12000 3000
+A
+19 1
+A
+1 2
+#5201
+yelmo mithril~
+Un yelmo de mithril~
+En el suelo hay un gran yelmo de mithril.~
+~
+9 64 17
+8 0 0 0
+10 5000 1800
+A
+18 2
+#5202
+guanteletes mithril~
+Un par de guanteletes de mithril.~
+Un par de guanteletes de mithril estan tirados en el suelo.~
+~
+9 64 129
+8 0 0 0
+10 2200 1900
+A
+18 1
+A
+19 1
+#5203
+mangas mithril~
+Unas mangas mithril~
+Un juego de mangas mithril estan tiradas por el suelo.
+~
+~
+9 64 257
+7 0 0 0
+10 12450 2200
+A
+18 1
+A
+19 1
+#5204
+botas mithril~
+Un par de botas mithril~
+Un par de botas mithril han sido puestas aqui.
+~
+~
+9 64 65
+7 0 0 0
+6 1800 1200
+A
+18 1
+A
+2 1
+#5205
+polainas mithril~
+Un juego de polainas mithril~
+Alguien ha olvidado un juego de polainas mithril aqui.
+~
+~
+9 64 33
+7 0 0 0
+10 5400 2100
+A
+18 1
+A
+2 1
+#5206
+cincha mithril~
+una cincha mithril~
+Una gran cincha metalica esta tirada a tus pies.
+~
+~
+9 64 1
+7 0 0 0
+6 14200 1200
+A
+5 2
+#5207
+coraza metalica destrozada~
+Una coraza metalica destrozada~
+Una coraza de laminas metalicas destrozada se encuentra en el suelo.~
+~
+9 0 9
+5 0 0 0
+125 13000 1500
+A
+18 -6
+#5208
+escudo de hierro~
+un robusto escudo de hierro~
+Un pequeño, pero robusto, escudo de hierro ha sido abandonado aqui.~
+~
+9 64 513
+7 0 0 0
+5 500 100
+A
+20 -2
+A
+21 -2
+#5210
+pocion negra~
+una pocion negra~
+Una pocion negro azabache, esta esperando que te la tomes.~
+~
+10 96 1
+16 -1 162 117
+5 6000 1400
+'blindness' 'sanctuary' 'kindred strength'
+#5211
+pocion naranja~
+una pocion naranja~
+Una pequeña pocion naranja esta aqui tirada.~
+~
+10 96 1
+20 -1 -1 -1
+10 7500 2000
+'detect hidden' 'NONE' 'NONE'
+#5214
+bola de quarzo~
+Una bola de quarzo pulido~
+Una reluciente bola de quarzo pulido esta aqui.~
+~
+1 64 16385
+0 0 72 0
+30 3050 950
+#5215
+pergamino harapiento~
+un pergamino harpiento~
+Un raido y harapiento pergamino ha sido dejado aqui.~
+~
+2 64 1
+24 -1 -1 -1
+15 11000 3400
+'enchant weapon' 'NONE' 'NONE'
+#5216
+pergamino atado~
+un pergamino atado~
+Un pergamino atado de deteccion yace a tus pies.~
+~
+2 64 1
+15 -1 57 58
+15 4200 2100
+'detect evil' 'detect invis' 'detect magic'
+#5217
+flauta de plata~
+una flauta de plata~
+Una flauta de plata brilla con luz tenue por debajo de una roca.~
+~
+4 65 16385
+17 1 1 -1
+6 10500 3500
+'charm person'
+#5218
+talisman del demonio~
+un talisman con la cara de un demonio~
+Un talisman con la cara de un demonio furioso brilla intensamente.~
+~
+9 1 5
+5 0 0 0
+11 2500 150
+A
+1 -10
+A
+2 -8
+#5219
+venado trozo~
+un trozo de venado~
+Un gran trozo de venado esta aqui esperando ser comido.~
+~
+19 0 1
+24 0 0 0
+20 100 20
+#5220
+fuente de agua~
+una fuente agrietada~
+Hay agua estancada en el fondo de la fuente~
+~
+25 0 0
+10 10 0 1
+1 0 0
+#5221
+espada a dos manos~
+una espada a dos manos~
+Una bonita espada a dos manos esta colgada de un gancho en la pared.~
+~
+5 64 8193
+0 2 12 3
+24 55000 12000
+A
+18 2
+A
+19 3
+#5222
+tunica de seda negra~
+una tunica de seda negra~
+Una tunica de seda negra esta amontonada en un rincon.~
+~
+9 0 1025
+1 0 0 0
+6 1300 500
+A
+12 10
+#5223
+capa verde~
+una capa verde oscuro~
+A alguien se le ha caido una bonita capa verde oscuro.~
+~
+9 64 1025
+8 0 0 0
+12 14500 2200
+A
+13 5
+#5224
+sello de ebano~
+un sello de ebano grabado~
+Un pequeño sello de ebano grabado esta aqui.~
+~
+18 0 1
+30 0 0 0
+2 500 20
+#5225
+escritorio encorvado~
+el escritorio~
+Un escritorio sucio, desmoronado esta aqui.~
+~
+15 0 0
+100 13 5224 0
+1 0 0
+#5226
+sello de marfil~
+Un sello grabado de marfil~
+Un pequeño sello grabado de marfil esta aqui.~
+~
+18 0 1
+31 0 0 0
+2 500 20
+#5227
+armario de cristal~
+el armario de cristal~
+Un armario de cristal roto esta aqui.~
+~
+15 0 0
+500 13 5226 0
+1 0 0
+#5228
+brazo putrefacto~
+un brazo putrefacto~
+Un brazo putrefacto flota lentamente por tus pies.
+~
+~
+19 0 1
+50 0 0 1
+20 0 0
+#5230
+piedra azul claro~
+una piedra azul claro~
+Una piedra azul palido reposa aqui.~
+~
+8 64 16385
+0 0 0 0
+10 5500 2000
+A
+1 1
+#5231
+piedra azul-grana~
+una piedra azul-grana~
+Una bonita piedra azul-grana ha sido olvidada aqui.~
+~
+8 64 16385
+0 0 0 0
+10 5500 2000
+A
+3 1
+#5232
+piedra azul incandescente~
+una piedra azul incandescente~
+Una pequeña piedra azul incandescente esta aqui.~
+~
+8 64 16385
+0 0 0 0
+10 5500 2000
+A
+4 1
+#5233
+piedra rojo intenso~
+una piedra rojo intenso~
+Alguien ha dejado una piedra rojo intenso aqui.~
+~
+8 64 16385
+0 0 0 0
+10 5500 2000
+A
+2 1
+#5234
+piedra rosa~
+una piedra rosa~
+Una diminuta piedra rosa reposa a tus pies.~
+~
+8 64 16385
+0 0 0 0
+10 5500 2000
+A
+5 1
+#5235
+piedra blanco anacarado~
+una piedra blanco anacarado~
+Esta piedra blanco anacarado se podria vender por un buen precio.~
+~
+8 64 16385
+0 0 0 0
+10 8700 3500
+A
+13 1
+#5237
+piedra verde lavanda~
+una piedra verde lavanda~
+Una llamativa piedra verde lavanda esta en el suelo.~
+~
+8 64 16385
+0 0 0 0
+10 4700 1900
+A
+24 -4
+#5239
+piedra verde apagado~
+una piedra verde apagado~
+Apenas puedes distinguir una piedra verde apagado en el suelo.~
+~
+8 0 16385
+0 0 0 0
+10 20 20
+#5241
+piedra verde y rosa~
+una piedra verde y rosa~
+Una brillante piedra verde y rosa ha sido dejada aqui.~
+~
+8 64 16385
+0 0 0 0
+10 6600 2500
+A
+18 -5
+#5243
+piedra cristalina~
+una piedra cristalina~
+Una extraña piedra cristalina reposa a tus pies.~
+~
+8 64 16385
+0 0 0 0
+10 8900 3900
+A
+17 3
+#5250
+mandolina~
+una  mandolina~
+Una mandolina cuelga de la pared~
+~
+4 64 16385
+13 3 3 -1
+20 3000 5000
+'cure critical'
+#5251
+arpa dorada~
+una arpa dorada~
+Una estropeada arpa dorada esta boca abajo.~
+~
+4 64 16385
+18 1 1 -1
+100 2500 6700
+'call lightning'
+#5252
+daga larga delgada~
+una daga larga y delgada~
+Una daga larga y delgada ha sido dejada aqui.~
+~
+5 64 8193
+0 2 5 11
+4 1000 100
+A
+18 1
+A
+19 1
+#0
+
+
+#ROOMS
+#5200
+La Gran Puerta de Thalos~
+Te encuentras en el pasage de una enorme boveda de piedra. Las dos puertas de 
+acero han sido forzadas y se han corroido. Una rafaga de aire pasa por tu lado 
+hacia la ciudad, en apariencia totalmente destruida.
+~
+0 4 1
+D1
+~
+~
+0 0 5256
+D3
+~
+~
+0 0 5201
+S
+#5201
+Calle Principal~
+En su dia fue una gloriosa calle, pero ahora esta totalmente en ruinas. Las 
+calles estan deserticas y azotadas por el viento y el silencio es absoluto.
+Una oscura callejuela se dirige al norte y sur. Se oyen los ecos deaullidos y 
+gritos por toda la ciudad desierta.
+~
+0 0 1
+D0
+~
+~
+0 0 5239
+D1
+~
+~
+0 0 5200
+D2
+~
+~
+0 0 5255
+D3
+~
+~
+0 0 5202
+S
+#5202
+Calle principal~
+Por un lado hay una casa derrumbada mientras que en el otro esta la entrada a 
+una mansion grande arruinada. El eco parece misterioso dentro de la mansion. 
+Cerca del centro de ciudad ves un edificio grande abovedado, relativamente 
+intacto.
+~
+0 0 1
+D0
+~
+~
+0 0 5236
+D1
+~
+~
+0 0 5201
+D2
+~
+~
+0 0 5232
+D3
+~
+~
+0 0 5203
+S
+#5203
+Un camino del Jardin~
+Un camino circular rodea un magifico templo en forma de cupula en el 
+centro de la ciudad. Las flores estan marchitas y el unico arbol grande
+esta pelado. Vides y hiedra serpentean por las paredes del
+templo y se enredan entre tus pies. Unos repentinos aullidos atraviesan
+el aire.
+~
+0 0 1
+D0
+~
+~
+0 0 5204
+D1
+~
+~
+0 0 5202
+D2
+~
+~
+0 0 5206
+D3
+~
+~
+0 0 5250
+S
+#5204
+Un camino del Jardin~
+Un camino circular rodea un magifico templo en forma de cupula en el 
+centro de la ciudad. Las flores estan marchitas y el unico arbol grande
+esta pelado. Vides y hiedra serpentean por las paredes del
+templo y se enredan entre tus pies. Unos repentinos aullidos atraviesan
+el aire.
+~
+0 0 1
+D0
+~
+~
+0 0 5211
+D2
+~
+~
+0 0 5203
+D3
+~
+~
+0 0 5205
+S
+#5205
+Un camino del Jardin~
+Un camino circular rodea un magifico templo en forma de cupula en el 
+centro de la ciudad. Las flores estan marchitas y el unico arbol grande
+esta pelado. Vides y hiedra serpentean por las paredes del
+templo y se enredan entre tus pies. Unos repentinos aullidos atraviesan
+el aire.
+~
+0 0 1
+D1
+~
+~
+0 0 5204
+D2
+~
+~
+0 0 5250
+S
+#5206
+Un camino del Jardin~
+Un camino circular rodea un magifico templo en forma de cupula en el 
+centro de la ciudad. Las flores estan marchitas y el unico arbol grande
+esta pelado. Vides y hiedra serpentean por las paredes del
+templo y se enredan entre tus pies. Unos repentinos aullidos atraviesan
+el aire.
+~
+0 0 1
+D0
+~
+~
+0 0 5203
+D2
+~
+~
+0 0 5212
+S
+#5207
+La plaza del mercado~
+Estas en el medio de una gran plaza en cada lado de la cual hay 
+cestas, carretas de todas las formas y tamanyos. Estas pequenyas
+tiendas abandonadas todavia tienen algunos de sus bienes que alguna
+vez fueron vendidos al publico que los pedia.
+~
+0 0 1
+D0
+~
+~
+0 0 5225
+D2
+~
+~
+0 0 5220
+D3
+~
+~
+0 0 5208
+S
+#5208
+La plaza del Mercado~
+Estas al final de la plaza del mercado. Kioskos y carromatos la rodean
+llenos de restos de buena comida y mercaderias exquisitas.
+~
+0 0 1
+D0
+~
+~
+0 0 5222
+D1
+~
+~
+0 0 5207
+D2
+~
+~
+0 0 5217
+S
+#5209
+Una calle lateral~
+Esta pequenya calle lateral se conduce al este y oeste a un pequeny
+callejon mientrs que hacia el sur ves el templo. Los incesantes aullidos
+desgarran tu mente.
+~
+0 0 1
+D1
+~
+~
+0 0 5243
+D2
+~
+~
+0 0 5210
+D3
+~
+~
+0 0 5228
+S
+#5210
+Una calle lateral~
+Estas en una zona publica de la ciudad. Edificios en ruinas hechos de
+barro y piedra es la unica vista que hay. Muchas de estas casas no son
+mas que montones de escombros, pero algunas parecen lo bastante seguras
+como para aventurarse en su interior. La calle sigue al norte y sur
+donde los edificios bordean la calle.
+~
+0 0 1
+D0
+~
+~
+0 0 5209
+D1
+~
+~
+1 -1 5244
+D2
+~
+~
+0 0 5211
+D3
+~
+~
+0 0 5226
+S
+#5211
+Una calle lateral~
+Esta pequenya calle lateral se aleja del camino del jardin hacia el 
+sur. A tu alrededor hay grandes montones de escombros pertenecientes
+a las casas donde vivian los plebeyos. Un solitario aullido hace que 
+te preocupes por tu seguridad aqui.
+~
+0 0 1
+D0
+~
+~
+0 0 5210
+D1
+~
+~
+0 0 5237
+D2
+~
+~
+0 0 5204
+D3
+~
+~
+0 0 5227
+S
+#5212
+Una calle lateral~
+Esta pequenya calle lateral se aleja al surdel templo hacia la zona
+de negocios de la ciudad. El grado de destruccion de la ciudad no fue
+parcia; estos edificios de vista imponente han sido casi totalmente
+destruidos. Hay un agujero en la pared de un gran edificio al este.
+~
+0 0 1
+D0
+~
+~
+0 0 5206
+D1
+~
+~
+0 0 5232
+D2
+~
+~
+0 0 5213
+D3
+~
+~
+0 0 5221
+S
+#5213
+Una calle lateral~
+Esa pequenya calle lateral esta bordeada por los restod de lo que un
+dia fueron grandes edificios. Hacia el norte hay una estructura que
+presagia algo oscuro mientras que hacia el sur hay la entrada a una
+pequenya taberna. La calle sigue hacia el norte y sur.
+~
+0 0 1
+D0
+~
+~
+0 0 5212
+D1
+~
+~
+0 0 5230
+D2
+~
+~
+0 0 5214
+D3
+~
+~
+0 0 5219
+S
+#5214
+Una calle lateral~
+Estas al final de calle larga que se dirige al centro de la ciudad.
+Un largo y oscuro callejon la atraviesa de este a oeste.
+~
+0 0 1
+D0
+~
+~
+0 0 5213
+D1
+~
+~
+0 0 5251
+D2
+~
+~
+0 0 5229
+D3
+~
+~
+0 0 5218
+S
+#5215
+Bajo una torre de vigilancia en ruinas~
+Estas al pie de una torre de vigilancia muy alta construida para proteger
+la ciudad de los invasores. Deduces que esta no hizo 
+un buen trabajo.
+~
+0 0 1
+D0
+~
+~
+0 0 5216
+D1
+~
+~
+0 0 5218
+D4
+~
+~
+0 0 5247
+S
+#5216
+Un callejon trasero~
+Este callejon conduce a la parte trasera de lo que fue la carniceria.
+Te estremece el hedor que desprende. Al sur hay una de las torres de 
+vigilancia de la ciudad
+~
+0 0 1
+D0
+~
+~
+0 0 5217
+D2
+~
+~
+0 0 5215
+S
+#5217
+La carniceria~
+Una gran carniceria fue levantada aqui con ganchos de metal y estantes
+de madera en el fondo. De los ganchos cuelgan pequenyos restos de carne
+y de caza. Esta tienda esta relativamente vacia, y una explosión repentina 
+de aullidos y gritos te hacen comprender por que esto es asi.
+~
+0 0 1
+D0
+~
+~
+0 0 5208
+D1
+~
+~
+0 0 5220
+D2
+~
+~
+0 0 5216
+S
+#5218
+Un callejon trasero~
+Un callejon estrecho conduce al este a una calle mas amplia y 
+al oeste a una de las atalayas de ciudad.
+~
+0 0 1
+D1
+~
+~
+0 0 5214
+D3
+~
+~
+0 0 5215
+S
+#5219
+La casa de gremio~
+Estas de pie en lo que una vez fuela UNICA casa de gremio de esta 
+ciudad. Las mesas y sillas han sido rotas y hay armas rota 
+esparcida sobre el piso como si alguna batalla masiva hubiera ocurrido 
+aqui. Cubriendo la pared trasera hay una bandera andrajosa, 
+de motor-negra con el simbolo del juego de Darkside sobre ella.
+~
+0 8 1
+D1
+~
+~
+0 0 5213
+S
+#5220
+El soporte de productos~
+Un carro grande esta aqui cargado de fruta podrida y verduras. 
+Las moscas enjambran todos sobre lo que parece ser los añicos pasados 
+de restos de alimento abandonado en la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 5207
+D3
+~
+~
+0 0 5217
+S
+#5221
+La herreria~
+Aqui encuentras instrumentos y yunques usados para hacer varias armas 
+y articulos. Las paredes han sido quitadas y solo unos pedazos 
+incompletos de armadura y armamento han sido abandonados.
+~
+0 8 1
+D1
+~
+~
+0 0 5212
+S
+#5222
+El soporte de tapiceria~
+Tapicerias andrajosas y rasgadas y mantas amontonada en montones estan 
+por el suelo. Trajes de fantasia y varios articulos de ropa son ahora 
+solamente trapos. Miras fijamente a los montones extranyos 
+durante un largo rato antes de que un aullido de piercing te hace 
+pensar que esto podrian ser camas.
+~
+0 0 1
+D0
+~
+~
+0 0 5223
+D1
+~
+~
+0 0 5225
+D2
+~
+~
+0 0 5208
+S
+#5223
+Un callejon trasero~
+Un callejon estrecho conduce al norte a una de las atalayas de ciudad 
+mientras al sur esta un soporte de mercado lleno de ropa rasgada y 
+mantas.
+~
+0 0 1
+D0
+~
+~
+0 0 5224
+D2
+~
+~
+0 0 5222
+S
+#5224
+Bajo la atalaya~
+Estas de pie bajo una de las atalayas de ciudad construidas 
+para proteger la ciudad de invasores. Obviamente, esto fallo.
+~
+0 0 1
+D1
+~
+~
+0 0 5228
+D2
+~
+~
+0 0 5223
+D4
+~
+~
+0 0 5246
+S
+#5225
+El soporte de joyas~
+Una mesa ha sido tirada, derramando la joyeria fina y gemas a 
+por la plaza del mercado. La mayor parte de estas baratijas 
+han sido aporreadas y deslustradas y algunas no tendrian 
+mas valor.
+~
+0 0 1
+D2
+~
+~
+0 0 5207
+D3
+~
+~
+0 0 5222
+S
+#5226
+Una arruinada vivienda de arcilla ~
+Esto era una vez una casa muy simple con nada mas que unas sillas y 
+una cama. Una chimenea fria sugiere que la ciudad ha sido abandonada 
+hace bastante tiempo. No queda casi nada de esta morada humilde.
+~
+0 8 1
+D1
+~
+~
+0 0 5210
+S
+#5227
+Una vivienda derrumbada de piedra~
+Esta pequenya casa esta completamente derrumbada con montones de ruinas
+aqui y alla. Unas vigas todavia estan en pie cubiertas con paja que 
+esta colgando y unas rafagas de viento caliente passan por el hueco de
+la vivienda.
+~
+0 0 1
+D1
+~
+~
+0 0 5211
+S
+#5228
+Un callejon trasero~
+Un callejon estrecho conduce al este a una de las atalayas de ciudad 
+y al oeste a una pequenya calle transversal.
+~
+0 0 1
+D1
+~
+~
+0 0 5209
+D3
+~
+~
+0 0 5224
+S
+#5229
+Una tienda abandonada~
+Desde exterior este lugar parece un monton ordinario de escombros, pero dentro 
+de estos cuartos apretados descubres que fue una tienda llena de armaduras, 
+armas, y otros bienes. Un pequenyo signo revolotea en el viento.
+~
+0 8 1
+D0
+~
+~
+0 0 5214
+S
+#5230
+La Taberna del Sol~
+Un lugar glorioso, esta taberna ahora esta en ruina; las mesas y sillas 
+estan rotas dispersadas, botellas y cristales esparcidos. Instrumentos
+musicales y pertenencias personales estan bajo los escombros, pero
+la gente a la que una vez pertenecieron no estan aqui. Buscando ves 
+que el segundo piso y la azotea se han caído dejando un gran agujero.
+~
+0 0 1
+D3
+~
+~
+0 0 5213
+S
+#5231
+Ala del Sur del ayuntamiento~
+Estas de pie en un cuarto grande al final del vestíbulo que conduce al 
+norte al area de recepción. Los pedestales y columnas se han caido y la 
+mayor parte de los articulos de valor han sido cogidos, dejando ruinas 
+sin valor. Unas sillas han sobrevivido, asi como un escritorio grande curvo.
+Al este es una arcada cubierta por vid que conduce a un patio privado.
+~
+0 8 1
+D0
+~
+~
+0 0 5232
+D1
+~
+~
+0 0 5234
+S
+#5232
+El ayuntamiento~
+Esto es el area de la recepcion principal del ayuntamiento de Thalos. Las 
+paredes han sido carbonizadas y las ruinas estan extendidas de pared a 
+pared. Hay un gran y profundo agujero en la pared oeste te permite ver una 
+de las calles transversales de la ciudad. Obviamente nadie te vera por ahoa. 
+Los vestibulos conducen al sur y al este.
+~
+0 8 1
+D0
+~
+~
+0 0 5202
+D1
+~
+~
+0 0 5233
+D2
+~
+~
+0 0 5231
+D3
+~
+~
+0 0 5212
+S
+#5233
+Ala este del ayuntamiento~
+Aqui estan los remanentes de una oficina de fantasia, posiblemente el despacho
+del alcalde. Unas plantas marchitadas y muebles rotos hacen que esto sea
+impensable, aunque la unica cosa que permanece intacta es un gabinete grande 
+de cristal. Un largo vestibulo conduce al oeste trasero al area de recepcion 
+y una arcada cubierta por hiedra conduce al sur en a un patio privado.
+~
+0 8 1
+D2
+~
+~
+0 0 5234
+D3
+~
+~
+0 0 5232
+S
+#5234
+Los jardines privados y patio de Thalos~
+Que verguenza que esta destruccion de masas tambien toco este hermoso 
+lugar. El camino del jardin del templo no tiene nada de jardin. Las flores 
+y arboles han sido pisados y talados y bancos de cesped lanzados por las
+paredes. Hay una gran fuente de marmol en el centro del patio, todavia esta 
+de pie, desafiando cualquiera de las tentativas para destruir su belleza. 
+Encima estan de pie los remanentes de una de las atalayas. Las arcadas al 
+norte y el oeste conducen a la parte trasera del ayuntamiento.
+~
+0 0 1
+D0
+~
+~
+0 0 5233
+D3
+~
+~
+0 0 5231
+S
+#5235
+Una pequenya casa de guardia~
+Estos fueron una vez, los cuarteles de los guardias de Thalos. Ahora solo
+son una cascara vacia, esta pequenya choza todavia esta en pie protegiendo
+la entrada, la ciudad y al ayuntamiento.
+~
+0 0 1
+D1
+~
+~
+0 0 5255
+S
+#5236
+Una casa derrumbada~
+All that's left of this house is a few scattered piles of rubble
+and a very large blast crater. Obviously someone or something important
+was once housed here. A shrieking howl chills your blood.
+Todo lo que ah quedado de esta casa son unos montones dispersos de escombros
+y un crater muy grande. Obviamente alguien o algo importante fueron almacenados
+aqui alguna vez. Un aullido te enfria la sangre.
+~
+0 0 1
+D2
+~
+~
+0 0 5202
+S
+#5237
+Una alta vivienda~
+Esto parece ser la estructura mas alta que permanece en pie en la ciudad.
+En un tiempo esto pudo ser una posada de alguna clase, pero ahora solo un lio.
+La pared trasera esta completamente derribada revelando una entrada en otro 
+edificio por otra pared derrumbada. Entre los dos edificios hay unos crateres 
+de rocas. Unos viejos peldanyos de madera conduce hasta un el segundo piso
+que cruje.
+~
+0 8 1
+D1
+~
+~
+0 0 5238
+D3
+~
+~
+0 0 5211
+D4
+~
+~
+0 0 5245
+S
+#5238
+Una pequenya choza~
+En esta estrecha vivienda no podia haber entrado mas de a una persona. 
+Ahora con la pared trasera abajo, esto podria contener mucho mas. 
+Miras alrededor, encuentras anaqueles rotos y bancos de trabajo 
+con varios frascos y bolsas que derraman el contenido por todo el piso. 
+Esto era posiblemente la tienda magica de la ciudad. La entrada al este esta 
+bloqueada, teniendo la unica salida al oeste.
+~
+0 8 1
+D3
+~
+~
+0 0 5237
+S
+#5239
+Un callejon estrecho~
+Un callejon estrecho trasero va por el sur a la calle principal y al 
+norte hacia una atalaya. Unos aullidos te ponen guardia.
+~
+0 0 1
+D0
+~
+~
+0 0 5240
+D2
+~
+~
+0 0 5201
+S
+#5240
+Un callejon trasero~
+Un callejon estrecho trasero conduce al norte a una de las atalayas de 
+ciudad y el sur hacia la calle principal. Al oeste es una entrada a una 
+pequenya casa bloqueada por las ruinas.
+~
+0 0 1
+D0
+~
+~
+0 0 5241
+D2
+~
+~
+0 0 5239
+S
+#5241
+Bajo la torre de vigilancia~
+Estas de pie bajo una alta atalaya. Callejones estrechos conducen al oeste 
+y al sur y una escala muy debil conduce a lo alto de la torre.
+~
+0 0 1
+D2
+~
+~
+0 0 5240
+D3
+~
+~
+0 0 5243
+D4
+~
+~
+0 0 5248
+S
+#5242
+La casa de Banyos~
+Esto era la casa de banyo para los plebeyos de la ciudad. El agua 
+caliente de los pozos, que ahora solo son agujeros en el suelo,llena de vapor 
+la estancia. 
+Obviamente hay agua caliente bajo la ciudad (lo que hizo razonable la idea de
+construir una ciudad en este lugar). Mirando al agua mas atentamente ves un 
+muerto flotando, la piel esta derretida despues de meses flotando alli. 
+La pared del oeste se ha derrumbado revelando otra casa derrumbada.
+~
+0 8 1
+D0
+~
+~
+0 0 5243
+D3
+~
+~
+0 0 5244
+S
+#5243
+A back alley~
+A narrow back alley leads west to a small side street and east to one
+of the city watchtowers. Great amounts of steam issue forth from the
+building to the south.
+~
+0 0 1
+D1
+~
+~
+0 0 5241
+D2
+~
+~
+0 0 5242
+D3
+~
+~
+0 0 5209
+S
+#5244
+Una casa en pie~
+Esta casa es practicamente la unica de los alrededores, que todavia esta en pie. 
+Excepto el gra agujero de la pared del este, todo lo demas esta intacto, 
+incluyendo las ventanas. Grandes columnas de vapor ascienden por el agujero de 
+la pared del este.
+~
+0 8 1
+D1
+~
+~
+0 0 5242
+D3
+~
+~
+0 0 5210
+S
+#5245
+En el segundo piso~
+En el momento en el que pones un pie en este piso comprendes que has cometido 
+un gran error. 
+Los viejos y podridos entarimados de repente ceden a tu paso y caes, 
+empalandote sobre la pasarela dentada de abajo. 
+
+¡¡Te has caido, y no puedes levantarte!!!
+~
+0 4 1
+S
+#5246
+La atalaya de noroeste~
+Estas de pie en lo alto de una de las atalayas de ciudad. La vista es 
+magnifica desde aqui y puedes ver todas las montanyas occidentales. 
+No hay nada asombroso en este lugar tan antiguo.
+~
+0 0 1
+D5
+~
+~
+0 0 5224
+S
+#5247
+La atalaya del sudoeste~
+Estas de pie en lo alto de una de las atalayas de ciudad. La vista es 
+magnifica desde aqui y puedes ver todas las montanyas occidentales. 
+No hay nada asombroso en este lugar tan antiguo.
+~
+0 0 1
+D5
+~
+~
+0 0 5215
+S
+#5248
+La atalaya de nordeste~
+Estas de pie en lo alto de una de las atalayas de ciudad. La vista es 
+magnifica desde aqui y puedes ver todas las montanyas occidentales. 
+No hay nada asombroso en este lugar tan antiguo.
+~
+0 0 1
+D5
+~
+~
+0 0 5241
+S
+#5250
+El Templo de Thalos~
+Estas de pie en uno de los sitios mas santos en el reino. 
+Este templo aturdidor abovedado que un sus dias de esplendor aglutino a los 
+adoradores de la ciudad. Lamentablemente, sucumbió a la destrucción de la 
+ciudad. 
+La larga fila de bancos fue derribada y el altar profanado. Los grandes pedazos
+de piedra se han caido de las paredes y la azotea, dejando pasar  la luz del sol 
+hacia ti. Unos libros estan abiertos, llevando un santo mensaje en una lengua 
+extraña. Las rafagas de viento por las cuatro arcadas y los aullidos y gritos 
+pueden traen noticias de todas las partes de la ciudad.
+~
+0 136 1
+D0
+~
+~
+0 0 5205
+D1
+~
+~
+0 0 5203
+S
+#5251
+Un callejon trasero~
+Un callejon estrecho conduce al este a una calle mas amplia y el oeste a una 
+de las atalayas de ciudad.
+~
+0 0 1
+D1
+~
+~
+0 0 5252
+D3
+~
+~
+0 0 5214
+S
+#5252
+Bajo una atalaya en ruinas~
+Estas de pie en la base de una alta atalaya construida para proteger la 
+ciudad de invasores. Al ver como estan las cosas, deduces qu esta no hizo 
+un buen trabajo.
+~
+0 0 1
+D0
+~
+~
+0 0 5253
+D3
+~
+~
+0 0 5251
+D4
+~
+~
+0 0 5254
+S
+#5253
+Un callejon estrecho~
+Un callejon estrecho conduce al sur a una de las atalayas de ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 5255
+D2
+~
+~
+0 0 5252
+S
+#5254
+La atalaya del sudeste~
+Estas de pie en lo alto de una de las atalayas de ciudad. La vista es 
+magnifica desde aqui y puedes ver todas las montanyas occidentales. 
+No hay nada asombroso en este lugar tan antiguo.
+Hay una pequenya placa sobre las piedras.
+~
+0 0 1
+D5
+~
+~
+0 0 5252
+E
+sign plaque placa nota~
+Esta extension de Thalos, con el bosque enano, ha sido  hecha por Hatchet para 
+cualquier Merc Mud. Y traducida por TxaKo.
+copyright 1992
+~
+S
+#5255
+Un callejon estrecho~
+Un callejon estrecho conduce al norte a la calle principal, y el sur hacia 
+una alta atalaya. Al oeste hay un edificio en ruinas.
+~
+0 0 1
+D0
+~
+~
+0 0 5201
+D2
+~
+~
+0 0 5253
+D3
+~
+~
+0 0 5235
+S
+#5256
+Un camino en el final del bosque enano~
+El camino termina aqui, con los tocones cortos y secos de arboles a tu 
+alrededor. Al oeste, puedes ver las ruinas de una ciudad enorme. 
+Al este esta tu camino y por atras a casa y a la seguridad.
+~
+0 0 2
+D1
+~
+~
+0 0 5257
+D3
+~
+~
+0 0 5200
+S
+#5257
+Un camino en el final del bosque enano~
+Un camino lateral conduce al bosque enano. Esto esta definitivamente mas seco 
+y mas caliente aqui. El camino sigue al oeste, y al este, ves la Intersección 
+en forma de T.
+~
+0 0 2
+D1
+~
+~
+0 0 5258
+D3
+~
+~
+0 0 5256
+S
+#5258
+El bosque enano~
+Ves mas arboles talados aqui. Un camino lateral conduce al oeste.
+Al este, CREES ver un camino, pero nunca podras estar seguro.
+~
+0 0 3
+D0
+~
+~
+0 0 5259
+D1
+~
+~
+0 0 5262
+D3
+~
+~
+0 0 5257
+S
+#5259
+El bosque enano~
+Aqui ves mas arboles talados. Sientes como si este lugar hubiese sido 
+maldecido por un dios para ser corto y seco. El camino conduce al norte y al 
+sur.
+~
+0 0 3
+D0
+~
+~
+0 0 5260
+D2
+~
+~
+0 0 5258
+S
+#5260
+El bosque enano~
+Aqui ves mas arboles talados. Sientes como si este lugar hubiese sido 
+maldecido por un dios para ser corto y seco. El camino conduce al norte y al 
+sur.
+~
+0 0 3
+D0
+~
+~
+0 0 5261
+D2
+~
+~
+0 0 5259
+S
+#5261
+El bosque enano~
+Aqui ves muchos arboles talados. No ves ninguna hoja en estos esteriles arboles.
+La hierba no crece en la tierra.
+~
+0 0 3
+D0
+~
+norte~
+0 -1 3502
+D2
+~
+~
+0 0 5260
+S
+#5262
+El bosque enano~
+Aqui ves mas arboles talados. Sientes como si este lugar hubiese sido 
+maldecido por un dios para ser corto y seco.
+El camino conduce al este y el oeste. Parece mas oscuro hacia el este.
+~
+0 0 3
+D1
+~
+~
+0 0 5263
+D3
+~
+~
+0 0 5258
+S
+#5263
+El bosque enano mas oscuro~
+Ves un follaje mas denso en estos arboles. 
+Todos ellos provocan una gran penumbra realzada por la densidad del bosque.
+El camino gira el sur del oeste.
+~
+0 1 3
+D2
+~
+~
+0 0 5264
+D3
+~
+~
+0 0 5262
+S
+#5264
+El bosque enano mas oscuro~
+Ves un follaje mas denso en estos arboles. 
+Todos ellos provocan una gran penumbra realzada por la densidad del bosque.
+El camino gira al este y el norte.
+~
+0 1 3
+D0
+~
+~
+0 0 5263
+D1
+~
+~
+0 0 5265
+S
+#5265
+El bosque enano mas oscuro~
+Ves un follaje mas denso en estos arboles. 
+Todos ellos provocan una gran penumbra realzada por la densidad del bosque.
+El camino gira al este y al oeste.
+~
+0 1 3
+D1
+~
+~
+0 0 5266
+D3
+~
+~
+0 0 5264
+S
+#5266
+El bosque enano mas oscuro~
+Ves un follaje mas denso en estos arboles. 
+Todos ellos provocan una gran penumbra realzada por la densidad del bosque.
+El camino gira abajo hacia un valle y al oeste.
+~
+0 1 3
+D3
+~
+~
+0 0 5265
+D5
+~
+~
+0 0 5267
+S
+#5267
+Un valle en el bosque enano mas oscuro~
+Estas en un valle en el bosque oscuro enano. 
+La hierba corta negra crece a tu alrededor. Los caminos conducen en todas 
+las direcciones.
+~
+0 1 3
+D0
+~
+~
+0 0 5271
+D3
+~
+hole fox~
+3 -1 5268
+D4
+~
+~
+0 0 5266
+S
+#5268
+Una fea cueva pequenya~
+Ves una pequenya cueva. Esqueletos de muchos tipos de criaturas desarreglan el 
+area. ¡Obviamente, ningun zorro vive aqui! La opresion te incita a huir y 
+vomitar.
+~
+0 1 3
+D1
+~
+fox hole~
+3 -1 5267
+D2
+~
+~
+0 0 5269
+E
+skeleton skeletons esqueleto esqueletos~
+Hay algo extranyo en estos esqueletos. Examinando mas atentamente, ves 
+que parecen ilusiones.
+~
+S
+#5269
+Una fea cueva pequenya~
+Estas en una fea y pequenya cueva. Mas esqueletos estan a tu alrededor. 
+Es obvio que el duenyo no te quiere aqui. La salida al norte todavia esta 
+visible. Algunas escrituras estan sobre esta pared.
+~
+0 1 3
+D0
+~
+~
+0 0 5268
+D5
+~
+~
+0 0 5270
+E
+writings writing words escritos palabras~
+Esta cueva con el valle y el bosque enano han sido hechos por la Hatchet para 
+cualquier Merc Mud, y traducido por TxaKo.
+copyright 1992
+~
+E
+skeleton skeletons esqueletos~
+Hay algo extranyo en estos esqueletos. Examinando mas atentamente, ves 
+que parecen ilusiones.~
+S
+#5270
+Abajo el camino en un callejon sin salida~
+Estas bajo el camino. No hay ninguna salida obvia en este lugar, la salida 
+trasera esta arriba al norte. Ves esqueletos a todo tu alrededor.
+~
+0 1 3
+D4
+~
+~
+0 0 5269
+E
+skeleton skeletons esqueleto esqueletos~
+Hay algo extranyo en estos esqueletos. Examinando mas atentamente, ves 
+que parecen ilusiones.¡¡De hecho, a traves de los esqueletos ves una puerta 
+secreta!!~
+S
+#5271
+el valle en el bosque oscuro enano~
+Estas en un valle del bosque. Hacia el norte hay un camino que te lleva fuera
+de este oscuro bosque. Al sur ves que el valle sigue.
+~
+0 1 3
+D0
+~
+~
+0 0 5272
+D2
+~
+~
+0 0 5267
+S
+#5272
+Un pequenyo camino en el bosque enano~
+Estas en un pequenyo camino del bosque enano. Un ligero haz de luz pasa por 
+aqui. Al sur ves un valle sombrio, mientras al al norte la luz aparece mas 
+brillante.
+~
+0 1 3
+D0
+~
+~
+0 0 5273
+D2
+~
+~
+0 0 5271
+S
+#5273
+Un pequenyo camino en el bosque enano~
+Estas en un pequenyo camino del bosque enano. Un pequenyo haz de luz pasa por 
+aqui. El camino sigue al norte y al sur,  la luz parece venir del norte. 
+Al este, ves un pequenyo camino en la oscuridad.
+~
+0 0 3
+D0
+~
+~
+0 0 5274
+D1
+~
+~
+0 0 5280
+D2
+~
+~
+0 0 5272
+S
+#5274
+Un pequenyo camino en el bosque enano~
+Estas en un pequenyo camino del bosque enano. Un pequenyo haz de luz pasa por 
+aqui. El camino sigue norte y al sur, la luz parece venir del norte.
+~
+0 0 3
+D0
+~
+~
+0 0 5275
+D2
+~
+~
+0 0 5273
+S
+#5275
+Una curva en el  pequenyo camino del bosque enano~
+Estas en un pequenyo camino del bosque enano. Un pequenyo haz de luz pasa por 
+aqui. El camino continua al sur y al oeste. El camino del oeste parece mas
+amistoso que el camino principal del sur.
+~
+0 0 3
+D2
+~
+~
+0 0 5274
+D3
+~
+~
+0 0 5276
+S
+#5276
+Un camino en el bosque enano~
+Estas en un camino del bosque enano. Los arboles estan atrofiados y parecen 
+secos. El camino conduce al este y al oeste. Parece mas oscuro al este.
+~
+0 0 3
+D1
+~
+~
+0 0 5275
+D3
+~
+~
+0 0 5277
+S
+#5277
+Un camino en el bosque enano~
+Estas en un camino del bosque enano. Los arboles estan atrofiados y parecen 
+secos. El camino sigue al este y al oeste.
+~
+0 0 3
+D1
+~
+~
+0 0 5276
+D3
+~
+~
+0 0 5278
+S
+#5278
+Un camino en el bosque enano~
+Estas en un camino del bosque enano. Los arboles estan atrofiados y parecen 
+secos. El camino sigue al este y al oeste.
+~
+0 0 3
+D1
+~
+~
+0 0 5277
+D3
+~
+~
+0 0 5279
+S
+#5279
+La curva en el camino del bosque enano~
+Estas en un camino del bosque enano. Los arboles estan atrofiados y parecen 
+secos. El camino sigue al este y al sur puedes ver una cascada.
+~
+0 0 3
+D1
+~
+~
+0 0 5278
+S
+#5280
+Una curva oscura en el bosque~
+Estas en una curva oscura en el bosque. Al oeste, ves el camino secreto que 
+conduce al bosque enano, y al sur, ves un camino oscuro y triste.
+~
+0 0 3
+D3
+~
+~
+0 0 5273
+S
+#0
+
+
+#RESETS
+O 0 5230 1 5202
+M 0 5201 20 5203
+E 1 5252 150 16
+M 0 5201 20 5204
+E 1 5252 150 16
+M 0 5201 20 5205
+E 1 5252 150 16
+O 0 5231 1 5205
+M 0 5201 20 5206
+E 1 5252 150 16
+O 0 5232 1 5208
+O 0 5233 1 5211
+M 0 5201 20 5216
+E 1 5252 150 16
+O 0 5219 5 5217
+O 0 5235 1 5217
+M 0 5207 4 5217
+M 0 5201 20 5218
+E 1 5252 150 16
+M 0 5201 20 5219
+E 1 5252 150 16
+M 0 5204 1 5219
+G 1 5218 8
+M 0 5201 20 5220
+E 1 5252 150 16
+M 0 5201 20 5221
+E 1 5252 150 16
+M 0 5201 20 5224
+E 1 5252 150 16
+O 0 5237 1 5224
+M 0 5201 20 5225
+E 1 5252 150 16
+M 0 5201 20 5226
+E 1 5252 150 16
+M 0 5203 1 5226
+G 1 5215 8
+M 0 5207 4 5227
+M 0 5201 20 5229
+E 1 5252 150 16
+O 0 5207 5 5229
+M 0 5202 1 5229
+E 1 5214 4 17
+O 0 5217 2 5230
+O 0 5250 2 5230
+O 0 5251 2 5230
+O 0 5239 1 5230
+O 0 5225 1 5231
+P 1 5215 4 5225
+P 1 5216 4 5225
+M 0 5201 20 5232
+E 1 5252 150 16
+M 0 5207 4 5232
+O 0 5227 1 5233
+M 0 5201 20 5234
+E 1 5252 150 16
+O 0 5220 1 5234
+M 0 5201 20 5235
+E 1 5252 150 16
+M 0 5201 20 5236
+E 1 5252 150 16
+M 0 5206 1 5236
+E 1 5222 8 12
+M 0 5201 20 5237
+E 1 5252 150 16
+O 0 5210 2 5238
+O 0 5211 2 5238
+O 0 5241 1 5238
+M 0 5205 1 5238
+E 1 5214 4 17
+M 0 5201 20 5240
+E 1 5252 150 16
+M 0 5201 20 5242
+E 1 5252 150 16
+O 0 5228 10 5242
+M 0 5207 4 5244
+O 0 5243 1 5246
+M 0 5208 8 5246
+E 1 5221 80 16
+E 1 5226 8 17
+E 1 5203 8 10
+M 0 5208 8 5247
+E 1 5221 80 16
+E 1 5224 8 17
+E 1 5200 8 5
+E 1 5204 8 8
+M 0 5208 8 5248
+E 1 5221 80 16
+E 1 5205 8 7
+E 1 5206 8 13
+M 0 5200 1 5250
+E 1 5208 3 11
+E 1 5223 10 3
+M 0 5208 8 5254
+E 1 5221 80 16
+E 1 5201 8 6
+E 1 5202 8 9
+D 0 5267 3 1
+D 0 5268 1 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  5200 spec_cast_mage
+S
+
+
+#$

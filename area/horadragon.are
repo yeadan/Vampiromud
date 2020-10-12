@@ -1,0 +1,7740 @@
+#AREA   La Hora Del Dragon~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO Beythor~
+#PUNTOS 1556 1920 0 2000 0
+#AUTHOR MoRGuL~
+
+#RANGES
+0 256 0 256
+$
+
+#RESETMSG ~
+
+#FLAGS
+16
+
+#ECONOMY 0 59894834
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#30001
+orastes sacerdote~
+Orastes~
+Orastes, antiguo sacerdote de Mitra, esta aqui.
+~
+Antiguamente Orastes fue sacerdote de Mitra. Fue expulsado por practicar la
+magia negra. Despues de descubrir el Corazon de Ahriman, escondido bajo el
+templo de Mitra y recuperar los restos de Xaltotun, devolvio a este a la
+vida para conocer todos los secretos de la poderosa joya y asi poder
+dominar el mundo civilizado junto con Amalric, Tarascus y Valerius.
+~
+3&2 168 0 C
+3 0 10 8d1+7950 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30002
+amalric baron~
+Amalric~
+Amalric, baron de Tor, esta aqui.
+~
+Tor es una provincia de Nemedia, pero no contento con su vasallaje al rey
+Nimed, Amalric pretende poner en el trono a Tarascus. A cambio espera
+aumentar su fortuna y poder. Para ello se alio con el y con Valerius. Junto
+con Orastes y la poderosa magia del Corazon consiguio la ascension de
+Tarascus. Financio la cruzada contra Aquilonia y sento en el trono
+aquilonio a Valerius. El es en realidad quien gobierna Nemedia y Aquilonia
+en la sombra.
+~
+3&2 168 0 C
+3 0 50 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30003
+tarascus rey~
+Tarascus~
+Tarascus, el nuevo rey de Nemedia, esta aqui.
+~
+Tarascus es el hermano menor de Nimed, rey de Nemedia, que murio por la
+peste junto a sus hijos. Gracias a la peste desencadenada por Xaltotun,
+Numedides no tuvo ningun rival cuando reclamo el trono de Nemedia. Ahora
+pretende invadir Aquilonia para deponer a Conan y sentar en el trono a
+Valerius, sucesor legal de Numedides.
+~
+3&2 168 0 C
+3 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30004
+valerius heredero rey~
+Valerius~
+Valerius, el nuevo rey de Aquilonia, esta aqui.
+~
+Valerius era el heredero legal del trono de Aquilonia, antes en manos de
+Conan desde que mato a Numedides. Gracias a su asociacion con Tarascus,
+Amalric y Orastes ahora es rey. Fue coronado por el propio Amalric, baron
+de Tor.
+~
+35&2 168 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30005
+xaltotun brujo~
+Xaltotun~
+Xaltotun, el brujo de Acheron, esta aqui.
+~
+Xaltotun fue el sumo sacerdote de Set en la ciudad de Python, hasta que
+esta fue asaltada por los barbaros. Xaltotun huyo a Khemi, y alli fue
+envenenado por los sacerdotes de Set que temian su poder. Su cuerpo fue
+preservado por la magia negra y tres mil anyos despues fue devuelto a la
+vida por Orastes gracias al Corazon de Ahriman. Ahora Xaltotun quiere
+volver a crear el reino de Acheron trayendolo desde el pasado mediante
+arcanos ritos de sangre y muertes en masa.
+~
+3&2 168 -750 C
+5 0 50 8d15+18163 9d5+123
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30006
+pallantides comandante~
+Pallantides~
+Pallantides, comandante del ejercito aquilonio, protege la tienda del rey.
+~
+Pallantides es de los pocos hombres del ejercito aquilonio que sabe que el
+rey esta enfermo. Defendera la tienda de su senyor con su vida si ello
+fuera necesario.
+~
+3&2 168 0 C
+2 0 5 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30007
+hombre amortajado~
+el hombre amortajado~
+Un hombre, amortajado como una momia, surje de las sombras!.
+~
+Aunque parece un hombre, no es mas que un espiritu a las ordenes de
+Xaltotun con la mision de debilitar al rey Conan. Sus ojos brillan como
+fuegos del Arallu.
+~
+3&2 384 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 35913728 0
+#30008
+valannus capitan~
+Valannus~
+Valannus, capitan de los lanceros de Pellia, lleva la armadura real.
+~
+Cuando Conan enfermo antes de la batalla de Valkia, Valannus se hizo pasar
+por el para dar moral al ejercito aquilonio. Para ello se vistio con la
+armadura real. Ahora es el quien dirige al ejercito aquilonio. Todos los
+soldados le siguen a el y no a Pallantides, el comandante del ejercito.
+~
+3&2 168 0 C
+2 0 15 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30009
+soldado aquilonio~
+un soldado aquilonio~
+Un soldado aquilonio esta aqui, luchando con los nemedios.
+~
+Este hombre pertenece a la infanteria aquilonia. Su meta en la vida es
+acabar con todos los nemedios que se pongan a su alcance.
+~
+3&2 0 0 C
+1 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30010
+caballero aquilonio~
+un caballero de Aquilonia~
+Un caballero de Aquilonia lucha contra los invasores nemedios.
+~
+Con los ojos rojos de ira, el caballero se enfrenta a los nemedios
+invasores mientras grita el nombre de su rey.
+~
+1073741827&2 0 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30011
+soldado nemedio~
+un soldado nemedio~
+Un soldado nemedio esta aqui, luchando con los aquilonios.
+~
+Este hombre forma parte de la base del ejercito nemedio: la infanteria. Su
+mision consiste en aniquilar a los aquilonios que se crucen en su camino.
+~
+1073741827&2 0 0 C
+1 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30012
+caballero nemedio~
+un caballero de Nemedia~
+Un caballero de Nemedia lucha contra el ejercito aquilonio.
+~
+Mas poderoso que los soldados de a pie, el caballero intenta acabar con sus
+enemigos con salvajes estocadas.
+~
+3&2 0 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30013
+esclavo carcelero kushita~
+un esclavo kushita~
+Un esclavo, encargado de las carceles, espera ordenes de su jefe.
+
+~
+Este kushita fue capturado y convertido en esclavo. Lleva la cabeza
+afeitada y va descalzo. Es uno de los carceleros del palacio de Belverus.
+~
+1073741827&2 256 0 C
+1 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30014
+esclavo kushita carcelero jefe~
+el carcelero jefe~
+El carcelero jefe esta aqui, mandando a los esclavos.
+~
+Este esclavo es el encargado de las celdas del palacio de Belverus. Como el
+resto de esclavos kushitas va con la cabeza afeitada y descalzo. La banda
+que lleva en la cabeza le identifica como el jefe de los carceleros, aunque
+ese estatus no le libra de su esclavitud.
+~
+1073741827&2 168 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30015
+simio~
+el simio de Vilayet~
+Un enorme simio antropofago se abalanza sobre ti!.
+~
+Con mas de dos metros de altura, este simio capturado en las costas del mar
+de Vilayet es un enemigo formidable. Se abalanza sobre ti para matarte y
+sorberte la medula de los huesos.
+~
+1073741827&2 168 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30016
+guardia nemedio~
+un guardia nemedio~
+El guardia tiene ordenes de no dejarte pasar y te ataca!.
+~
+Este soldado a las ordenes de Tarascus solo te dejara pasar por encima de
+su cadaver. Lanza una maldicion en nemedio y te ataca!.
+~
+1073741827&2 40 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30017
+aventurero nemedio~
+un aventurero nemedio~
+Un aventurero mercenario busca presas que matar.
+~
+Este mercenario vive para saquear y matar. Al verte se abalanza sobre ti
+para matarte y robarte tus pertenencias.
+~
+1073741859&2 32 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30018
+zelata bruja~
+Zelata~
+Zelata la bruja esta aqui para ayudarte.
+~
+Pese a su edad ella aun es una poderosa bruja. Aquellos que vienen en son
+de paz son recompensados con sus hechizos, mientras que los enemigos sufren
+sus maldiciones.
+~
+1073741827&2 168 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30019
+lobo~
+el lobo de Zelata~
+Un enorme lobo protege a Zelata.
+~
+Pese a su fiera apariencia, solo te atacara si amenazas a Zelata o ella se
+lo ordena. De sus fauces aun chorrea sangre del ultimo infortunado que oso
+molestar a Zelata.
+~
+1073741827&2 168 0 C
+5 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30020
+aguila~
+la aguila de Zelata~
+Volando en circulos ves una majestuosa aguila.
+~
+Esta majestuosa ave sirve a Zelata la bruja. Ella cumple las ordenes que su
+duenya le transmite mediante unos agudos gritos.
+~
+1073741827&2 65704 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30021
+centinela tarantia~
+el centinela de Tarantia~
+Un hosco centinela se apoya en su lanza mientras guarda las puertas.
+~
+Pese a estar de guardia, este soldado nemedio no presta mucha atencion a la
+gente que entra y sale de Tarantia. El aburrimiento y el alcohol que
+ingirio la noche pasada hacen que desempenye su cargo sin mucho entusiasmo.
+~
+1073741827&2 168 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30022
+condesa albiona~
+Albiona~
+La condesa Albiona espera su tragico destino a manos del verdugo.
+~
+Albiona fue antanyo la reina Marala de Ophir, hasta que su marido enloquecio
+e intento matarla. Con la ayuda de Conan escapo y se refugio en Tarantia
+donde fue acogida por familiares y adopto el nombre de Albiona. Ahora esta
+condenada a muerte por no querer ser la concubina de Valerius.
+~
+1073741827&2 168 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30023
+verdugo torre hierro~
+el verdugo de la Torre de Hierro~
+El verdugo alza su hacha sobre el cuello de Albiona.
+~
+A pesar de que se cubre la cara con una capucha puedes adivinar el hosco
+gesto que hace al levantar el hacha para ajusticiar a su victima.
+~
+1073741827&2 168 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30024
+cortesano nemedio~
+un cortesano nemedio~
+El cortesano dicta la sentencia de muerte de Albiona.
+~
+Este nemedio sirve a Valerius. Sus ricos ropajes lo identifican como
+miembro de la corte.
+~
+1073741827&2 0 0 C
+1 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30025
+guardia torre hierro~
+el guardia de la Torre de Hierro~
+Un guardia de la torre protege la estancia.
+~
+Este soldado nemedio es uno de los guardianes de la Torre de Hierro, donde
+eran encarcelados y ejecutados los traidores al rey.
+~
+3 40 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30026
+sacerdote asura~
+el sacerdote de Asura~
+Un sacerdote de Asura esta aqui rezando.
+~
+Se dice que los seguidores de Asura participaban en ritos en los que
+devoraban carne humana, aunque nunca fue verdad. Los seguidores de Asura
+dedican su vida a la contemplacion.
+~
+1073741827&2 168 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30027
+hadratus sacerdote asura~
+Hadratus~
+Aqui esta el sumo sacerdote de Asura.
+~
+Hadratus es el sumo sacerdote de Asura, una divinidad que los sacerdotes de
+Mitra creian impia y sangrienta, aunque todo son mentiras. Hadratus esta
+aqui para ayudarte.
+~
+1073741827&2 168 0 C
+5 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30028
+yaamai dios demonio~
+Yaamai~
+Ves la estatua del dios de la Muerte y el Suenyo.
+~
+La sola vision de Yaamai te hace temblar: tiene dos cabezas, una de ellas
+es humana y sus ojos estan cerrados, la otra cabeza es de una bestia feroz.
+Ademas posee cuatro brazos y en cada uno de ellos tiene un arma: una maza,
+una espada de fuego, un tridente y un lazo encantado. Con estas armas
+conquisto a todos los dioses excepto a Asura. Segun cuenta la leyenda, para
+sobrevivir a Yaamai habia que cortarle la cabeza de la Muerte, pero cual de
+las dos es?.
+~
+3&2 168 0 C
+6 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30029
+trocero conde~
+Trocero~
+Trocero, conde de Poitain, esta aqui.
+~
+Trocero es un fiel vasallo de Conan, rey de Aquilonia y su palabra es ley
+en la provincia de Poitain, antanyo un reino que fue anexionado por la
+corona de Aquilonia. Debido a la derrota del ejercito aquilonio, Trocero ha
+proclamado la independencia de Poitain para evitar servir a Valerius.
+~
+1073741827&2 168 0 C
+3 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30030
+soldado poitiano~
+un soldado poitiano~
+Un soldado bajo el mando de Trocero esta aqui.
+~
+Este soldado tiene como mision acabar con los bandidos procedentes de
+Aquilonia. Sirve a Trocero y es leal al rey Conan.
+~
+1073741827&2 0 0 C
+1 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30031
+valbroso conde~
+Valbroso~
+Valbroso, conde de Zingara, esta aqui.
+
+~
+A pesar de ser un noble, Valbroso es como un buitre ansioso de riquezas.
+Tiene a sus ordenes un ejercito de mercenarios que usa para saquear
+poblados de Aquilonia y Argos.
+~
+1073741827&2 168 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30032
+mercenario~
+un mercenario~
+Un mercenario a las ordenes de Valbroso esta aqui.
+~
+Conocido como uno de los Companyeros Libres, este mercenario esta a las
+ordenes de Valbroso, conde de Zingara y cumplira todas sus ordenes, sean
+las que sean.
+~
+1073741827&2 40 0 C
+1 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30033
+beloso~
+Beloso~
+Beloso esta aqui, interrogando a Zorathus.
+~
+Beloso es un mercenario a las ordenes de Valbroso, y su mision es saber
+como abrir el arcon de Zorathus. Para ello no duda en emplear la tortura.
+~
+1073741827&2 168 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30034
+zorathus~
+Zorathus~
+Zorathus, moribundo, esta atado al potro.
+~
+Zorathus es famoso por su Arcon de Hierro, pues se dice que contiene los
+mas fabulosos tesoros. Asi se comprende que haya acabado en las manos de
+Valbroso y que este quiera saber como se abre su arcon a toda costa.
+~
+1073741827&2 256 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30035
+torturador~
+un torturador~
+Un torturador esta tensando el potro.
+~
+Este zingario es un maestro en el arte de la tortura. Con una maliciosa
+sonrisa en los labios tensa las cuerdas del potro, infligiendo un doloroso
+tormento al desafortunado Zorathus.
+~
+1073741827&2 0 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30036
+monstruo canibal~
+un monstruo canibal~
+Un terrorifico monstruo canibal intenta devorarte!.
+~
+Este ser, de aspecto humanoide y peludo, habita las desoladas llanuras
+fronterizas. Su fuerza es titanica y sus largos colmillos lo delatan como
+un antropofago salvaje.
+~
+1073741859&2 40 0 C
+1 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30037
+publio negociante~
+Publio~
+Publio esta aqui, repasando unos documentos.
+~
+Publio es el duenyo de una modesta tienda en Messantia, pero el aumenta su
+fortuna con negocios sucios, traficando con objetos robados. Pese a su
+aspecto respetable, no dudaria en mandar degollarte para quedarse con tus
+pertenencias.
+~
+1073741827&2 168 0 C
+3 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30038
+gebal guardaespaldas~
+Gebal~
+Gebal, el guardaespaldas de Publio, te vigila.
+~
+Gebal es un fornido hombre nacido en Messantia, capital de Argos. El protege
+a Publio de posibles asaltantes. Su estatura y complexion desaconsejan
+molestar a su patron o a el.
+~
+1073741827&2 168 0 C
+3 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30039
+ladron argoseo~
+un ladron argoseo~
+Un ladron, oculto en las sombras, intenta robarte.
+~
+Este argoseo esta a las ordenes de Publio. El roba aquellos objetos que
+Publio vende mas tarde. Harias bien en revisar tus bolsillos, por si te
+falta algo...
+~
+1073741827&2 8 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30040
+demetrius~
+Demetrius~
+Demetrius, capitan del barco "Aventurero", dirije la nave.
+~
+Demetrius, un argoseo, es el capitan del barco pirata "Aventurero". Junto
+con su tripulcion argosea recorre las costas de Argos y Shem en busca de
+bajeles que abordar y saquear.
+~
+1073741827&2 168 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30041
+pirata argoseo~
+un pirata argoseo~
+Un pirata, a las ordenes de Demetrius, faena en el barco.
+~
+Este pirata se dedica a saquear aquellos barcos que recorren las costas. No
+dudaria en cortarte el cuello si Demetrius se lo ordenara.
+~
+3&2 8 0 C
+3 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30042
+remero kushita esclavo~
+un remero kushita~
+Un esclavo kushita esta encadenado a los remos.
+
+~
+Este kushita fue un Cosario Negro hasta que fue atrapado por los argoseos.
+Ahora debe remar en el Aventurero bajo la amenaza del latigo.
+~
+1073741827&2 0 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30043
+pescador estigio~
+un pescador estigio~
+Un pescador esta reparando sus redes.
+~
+Este pescador esta distraido mientras repara sus redes. El rio Estigio es
+el mayor rio conocido, y proporciona alimento a muchas ciudades y pueblos
+de Estigia, Shem y los Reinos Negros.
+~
+1073741827&2 0 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30044
+ciudadano estigio~
+un ciudadano estigio~
+Un ciudadano recorre las calles de Khemi.
+~
+El estigio no te hace caso mientras se dedica a sus asuntos. La poblacion
+teme a los extranjeros y a sus propios sacerdotes, por lo que no te
+importuna.
+~
+1073741827&2 0 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30045
+cortesana estigia~
+una cortesana estigia~
+Una cortesana pasea semidesnuda.
+~
+Una hermosa muchacha estigia de familia noble se pasea por las calles de
+Khemi, mostrando su cuerpo semidesnudo sin ningun pudor.
+~
+1073741827&2 0 0 C
+3 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30046
+serpiente estigia~
+una serpiente estigia~
+Uno de los hijos de Set se abalanza sobre ti!.
+~
+Una enorme serpiente, criada en el Templo de Set, busca su racion de carne
+humana y no duda en dirigirse a ti para devorarte.
+~
+1073741859&2 0 0 C
+5 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30047
+sacerdote estigio~
+un sacerdote estigio~
+Un enmascarado sacerdote esta aqui.
+~
+Los sacerdotes gozan de gran poder en Estigia, y la gente se aparta de
+ellos con miedo, pues temen ser maldecidos.
+~
+1073741827&2 168 0 C
+3 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30048
+guardian puerta~
+el guardian de la puerta~
+Un embozado guardian custodia las puertas del templo.
+~
+Este estigio tiene la mision de no dejar pasar a los infieles, por lo que
+te hace una curiosa senya con la mano. Intentas responderle imitandole. El
+guardian te mira fijamente y en ese momento comprendes que has fallado
+miserablemente. Disponte a afrontar su ira.
+~
+1073741827&2 160 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30049
+akivasha princesa vampiro~
+Akivasha~
+Akivasha, la princesa vampiro, ansia beber tu sangre!.
+~
+Akivasha deseo ser joven eternamente y pacto con la Muerte. Aunque se dice
+que murio hace diez mil anyos, ella es en realidad un vampiro que roba la
+juventud de los mortales.
+~
+1073741859&2 168 0 C
+5 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30050
+thutothmes brujo estigio~
+Thutothmes~
+Thutothmes, brujo del Anillo Negro, esta aqui.
+~
+Thutothmes ansia ser mas poderoso que Toth-Amon, Senyor del Anillo Negro,
+el mago mas poderoso de esta epoca. Para poder realizar sus planes pretende
+devolver a la vida a antiguos reyes y magos estigios para que le revelen
+los secretos que se llevaron a la tumba.
+~
+1073741827&2 168 0 C
+5 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30051
+alto sacerdote estigio~
+un alto sacerdote estigio~
+Un alto sacerdote esta aqui, murmurando encantamientos.
+~
+De todos los sacerdotes de Khemi, este es uno de los mas poderosos. Vive
+consagrado al dios Set, Padre de las Serpientes, y a El dirige sus oscuras
+plegarias.
+~
+1073741825&2 128 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 131072 0
+#30052
+khitano mistico~
+un mistico khitano~
+Un khitano encapuchado te ataca!.
+~
+Exiliado de su patria natal, este mago sirve a Valerius. Para pagar su
+deuda debe matarte y podra volver a Khitai. El mago se lanza al ataque con
+gran furia.
+~
+3&2 168 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30053
+ptah-mekri cadaver~
+Ptah-Mekri~
+Un cadaver andante se alza ante ti.
+~
+Ptah-Mekri fue un alto mago del Anillo Negro, aunque murio hace tres mil
+anyos. Sin embargo el hechizo de resurreccion de Thutothmes no se completo
+y ahora Ptah-Mekri esta entre el mundo de los vivos y el de los muertos,
+carente de voluntad. Repite una y otra vez su nombre y dice que esta
+muerto.
+~
+1073741827&2 168 0 C
+5 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30054
+bestia estigia~
+una bestia estigia~
+Una bestia inhumana vaga por los corredores.
+~
+Procedente de Mitra sabe que insondable averno, esta monstruosa criatura
+solo sabe hacer una cosa: matar.
+~
+1073741827&2 168 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30055
+tiberias hombre~
+Tiberias~
+Un harapiento hombre vaga buscando venganza.
+~
+Tiberias fue el senyor de Amilius hasta que Valerius asesino a sus hijos y
+violo a sus hijas, dejandolo en la miseria. Ahora Tiberias solo busca
+acabar con Valerius para poder descansar en paz y no le importa morir en el
+intento.
+~
+3 296 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30056
+prospero comandante~
+Prospero~
+Prospero, comandante del ejercito de Poitain, esta aqui.
+~
+Prospero lucha al lado del ejercito aquilonio para rechazar a los invasores
+nemedios que pretenden conquistar Aquilonia. Prospero esta bajo las ordenes
+de Trocero y de su rey, Conan.
+~
+1073741827&2 168 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30057
+caballero poitain~
+un caballero de Poitain~
+Un caballero de Poitain lucha contra los nemedios.
+~
+Un caballero de Poitain lucha contra los invasores nemedios a las ordenes
+de Prospero.
+~
+1073741827&2 40 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30058
+camarera muchacha~
+una camarera~
+Una bonita camarera esta aqui para atenderte.
+~
+Ademas de servir comida y bebida a sus clientes, esta bella muchacha
+tambien baila para su diversion. Sus ojos azules y sus largas piernas te
+cautivan.
+~
+1073741827&2 8 0 C
+1 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30059
+alquimista estigio~
+un alquimista estigio~
+Un alquimista esta aqui para venderte alguna de sus creaciones.
+~
+Alto, delgado y de aspecto cenyudo, este mago se dedica a la preparacion de
+pocimas y otros objetos magicos que luego vende para ganarse la vida. Es
+mas poderoso de lo que te pueda parecer, asi que no seria buena idea el
+llevarse sus creaciones sin pagar.
+~
+1073741827&2 168 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30060
+armero cimmerio~
+un armero cimmerio~
+Un fornido armero te muestra sus armas.
+~
+Su piel bronceada y melena oscura lo identifican como cimmerio. Te fijas en
+sus enormes musculos, capaces de romperte el cuello sin mucho esfuerzo.
+Mejor no intentes robarle, si es que en algo valoras tu vida.
+~
+1073741827&2 168 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30061
+comerciante vendhyo~
+un comerciante vendhyo~
+Un comerciante de la lejana Vendhya quiere hacer tratos contigo.
+~
+Este comerciante ha viajado mucho para poder conseguir los mejores objetos
+al mejor precio. Quizas posea algo que te interese. Los vendhyos tienen
+fama de buenos comerciantes.
+~
+1073741827&2 168 0 C
+4 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30062
+ciudadano aquilonio~
+un ciudadano aquilonio~
+Un habitante de Tarantia esta aqui.
+~
+El hombre parece triste por la derrota del ejercito aquilonio y posterior
+ocupacion de su ciudad.
+~
+1073741827&2 0 0 C
+2 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30063
+ciudadano nemedio~
+un ciudadano nemedio~
+Un habitante de Belverus esta aqui.
+~
+Este hombre te sonrie: esta feliz por la victoria del ejercito nemedio.
+Mientras se dedica a sus asuntos canturrea algo en nemedio que no
+comprendes.
+~
+1073741827&2 0 0 C
+1 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30064
+ciudadano argoseo~
+un ciudadano argoseo~
+Un habitante de Messantia esta aqui.
+~
+El no tiene tiempo que dedicarte. Se excusa y se aleja de ti para dedicarse
+a sus asuntos, cualesquiera que sean.
+~
+1073741827&2 0 0 C
+1 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#30065
+tabernero nemedio~
+un tabernero nemedio~
+Un alegre tabernero espera atenderte.
+~
+Feliz por la victoria del ejercito nemedio en Valkia (y por el aumento de
+ingresos que esto ha provocado), este nemedio bajito y regordete canturrea
+mientras limpia las mesas y sirve a sus felices y borrachos clientes.
+~
+1073741827&2 0 0 C
+5 0 0 8d1+10000 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+100 200 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#30001
+corazon ahriman joya~
+el Corazon de Ahriman~
+Una brillante joya esta en el suelo sin duenyo. Esta rodeada de una aura de poder impresionante.~
+~
+9 0 16385
+0 0 0 0
+25 10000 1000
+A
+1 0
+A
+2 0
+A
+3 0
+A
+4 0
+A
+5 0
+A
+13 0
+A
+14 0
+A
+23 0
+A
+24 0
+#30002
+capucha~
+una capucha~
+Una capucha de monje esta en el suelo.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+3 0
+A
+4 0
+A
+12 0
+A
+17 0
+#30003
+tunica~
+una tunica de sacerdote~
+Plegada en una esquina ves una tunica.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+5 0
+A
+17 0
+A
+24 0
+A
+13 0
+#30004
+collar oro~
+un collar de discos de oro~
+Un collar formado por varios discos de oro esta tirado en el suelo.~
+~
+9 0 5
+0 0 0 0
+25 10000 1000
+A
+13 0
+A
+1 0
+A
+12 0
+A
+14 0
+A
+23 0
+#30005
+munyequera oro~
+una munyequera de oro~
+Una munyequera finamente decorada esta en el suelo.~
+~
+9 0 4097
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+A
+1 0
+A
+17 0
+#30006
+capucha seda negra~
+una capucha de seda negra~
+Una capucha negra de seda esta en el suelo.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+2 0
+A
+4 0
+A
+3 0
+A
+9 100
+A
+12 0
+#30007
+tunica seda negra~
+una tunica de seda negra~
+Una negra tunica de seda esta arrugada en el suelo.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+5 0
+A
+13 0
+A
+17 0
+A
+23 0
+A
+24 0
+A
+9 1000
+#30008
+sandalias~
+unas sandalias~
+Unas sencillas sandalias estan tiradas aqui.~
+~
+9 0 65
+0 0 0 0
+25 10000 1000
+A
+14 0
+A
+19 0
+A
+18 0
+A
+1 0
+A
+9 1000
+#30009
+globo~
+un luminoso globo de cristal~
+Un globo de cristal que emite luz flota ante ti.~
+~
+1 0 16385
+0 0 0 0
+25 10000 1000
+A
+12 0
+#30010
+cinturon tarascus~
+el cinturon de Tarascus~
+Un cinturon de oro parece no tener duenyo.~
+~
+9 0 2049
+0 0 0 0
+25 10000 1000
+A
+5 0
+A
+13 0
+A
+2 0
+#30011
+coraza tarascus~
+la coraza de Tarascus~
+Una coraza de acero descansa en una esquina.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+1 0
+A
+13 0
+A
+14 0
+A
+19 0
+#30012
+jubon seda~
+un jubon de seda~
+Un jubon de seda finamente bordado esta abandonado en el suelo.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+13 0
+A
+14 0
+A
+3 0
+#30013
+mortaja vendas~
+una mortaja de vendas~
+Un monton de vendas estan tiradas en el suelo. Apestan a muerto.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+13 0
+A
+14 0
+A
+12 0
+#30014
+casco alado~
+un casco con alas de cuervo~
+Un casco alado esta en el suelo.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+1 0
+A
+3 0
+A
+18 0
+A
+19 0
+#30015
+armadura real leon~
+la armadura del Leon~
+La armadura real de Aquilonia brilla ante ti.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+E
+armadura leon~
+En el pecho tiene grabada la cabeza de un leon, simbolo del rey Conan.
+~
+A
+5 0
+A
+1 0
+A
+12 0
+A
+19 0
+A
+24 0
+#30016
+escudo leon~
+el escudo del Leon~
+Un escudo con una cabeza de leon grabada esta colgado en la pared.~
+~
+9 0 513
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+24 0
+A
+23 0
+#30017
+botas cuero~
+unas botas de cuero~
+Unas gastadas botas de cuero estan tiradas por el suelo.~
+~
+9 0 65
+0 0 0 0
+25 10000 1000
+A
+14 0
+A
+19 0
+#30018
+casco acero~
+un casco de acero~
+Un casco forjado en acero esta en el suelo.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+17 0
+#30019
+espada acero hyrkanio~
+una espada de acero hyrkanio~
+Una robusta y afilada espada hyrkania esta en el suelo.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+#30020
+yelmo penacho~
+un yelmo con un penacho verde~
+Un yelmo de acero perteneciente a algun caballero rueda por el suelo.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+5 0
+A
+18 0
+A
+13 0
+A
+24 0
+#30021
+yelmo penacho~
+un yelmo con un penacho amarillo~
+Un yelmo de acero perteneciente a algun caballero rueda por el suelo.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+5 0
+A
+18 0
+A
+13 0
+A
+24 0
+#30022
+armadura bronce cuero~
+una armadura de bronce y cuero~
+Una armadura acumula polvo en un rincon.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+17 0
+#30023
+armadura acero oro~
+una armadura de acero y oro~
+Una rica armadura atrae tu atencion.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+5 0
+A
+12 0
+A
+18 0
+A
+17 0
+#30033
+taparrabos pieza tela~
+un taparrabos de tela~
+Una curiosa pieza de tela esta en el suelo.~
+~
+9 0 33
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+2 0
+#30034
+banda jefe~
+una banda de jefe esclavo~
+Una sencilla banda de metal esta tirada aqui.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+13 0
+A
+17 0
+#30035
+llaves juego~
+las llaves de las mazmorras~
+Un juego de llaves esta tirado en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30036
+brazalete esclavo~
+un brazalete de esclavo~
+Un brazalete de los esclavos esta en el suelo.~
+~
+9 0 4097
+0 0 0 0
+25 10000 1000
+A
+14 0
+A
+9 25
+#30037
+huesos monton~
+un monton de huesos~
+Un monton de huesos astillados estan desperdigados por el suelo.~
+~
+15 0 0
+5 0 0 0
+25 10000 1000
+#30038
+punyal~
+un punyal de guerrero~
+Aqui hay un punyal de acero bien forjado.~
+~
+5 0 8193
+0 0 0 2
+25 10000 1000
+A
+18 0
+A
+19 0
+#30039
+espada bronce hierro~
+una espada de bronce y hierro~
+Una espada esta aqui abandonada.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+#30040
+espada hierro~
+una espada de hierro~
+Una espada mellada esta tirada aqui.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+#30041
+lanza larga~
+una lanza larga~
+Una lanza con punta de acero descansa contra el muro.~
+~
+9 0 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+#30042
+yelmo crestado~
+un yelmo con una cresta roja~
+Un yelmo crestado de mercenario esta aqui.~
+~
+5 0 17
+0 0 0 0
+25 10000 1000
+A
+2 0
+A
+19 0
+#30043
+cota malla nemedia~
+una cota de malla nemedia~
+Una resistente cota de malla esta en el suelo.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+24 0
+#30044
+cuchillo~
+un cuchillo de guerra~
+Un afilado cuchillo aguarda en su vaina.~
+~
+5 0 16385
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+A
+1 0
+#30045
+cinturon cuero~
+un gastado cinturon de cuero~
+Un cinturon de cuero muy usado esta tirado aqui.~
+~
+9 0 2049
+0 0 0 0
+25 10000 1000
+A
+5 0
+A
+17 0
+#30046
+bandera leon~
+la bandera del Leon~
+Una bandera con el simbolo del Leon ondea al viento.~
+~
+9 0 16385
+0 0 0 0
+25 10000 1000
+A
+3 0
+A
+12 0
+A
+13 0
+A
+24 0
+#30047
+bandera dragon~
+la bandera del Dragon~
+La bandera de Nemedia esta aqui clavada.~
+~
+9 0 16385
+0 0 0 0
+25 10000 1000
+A
+1 0
+A
+13 0
+A
+12 0
+A
+24 0
+#30048
+bandera leopardo escarlata~
+la bandera del Leopardo Escarlata~
+La bandera de Poitain esta plegada en el suelo.~
+~
+9 0 16385
+0 0 0 0
+25 10000 1000
+A
+4 0
+A
+5 0
+A
+12 0
+A
+13 0
+A
+24 0
+#30049
+tunica gris~
+una tunica grisacea~
+Una tunica de color gris esta aqui plegada.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+17 15
+A
+12 100
+#30050
+hacha doble~
+una hacha de doble hoja~
+Una hacha de verdugo manchada de sangre esta apoyada contra la pared.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+1 0
+A
+18 0
+A
+19 0
+#30051
+capucha verdugo~
+una capucha de verdugo~
+Una oscura capucha de verdugo esta tirada en el suelo.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+3 0
+A
+19 0
+A
+9 25
+#30052
+camisa seda bordada~
+una camisa de seda bordada~
+Una fina camisa de seda bordada esta tirada aqui.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+13 0
+#30053
+pantalones algodon~
+unos pantalones de algodon~
+Unos finos pantalones de algodon estan aqui sin duenyo.~
+~
+9 0 33
+0 0 0 0
+25 10000 1000
+A
+5 0
+A
+12 0
+A
+17 0
+A
+24 0
+#30054
+maza hierro~
+una maza de hierro~
+Una pesada maza de hierro te hace tropezar al pisarla.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+19 0
+#30055
+pendiente oro aro~
+un pendiente de oro~
+Un sencillo aro de oro brilla en el suelo.~
+~
+9 0 131073
+0 0 0 0
+25 10000 1000
+E
+aro pendiente~
+Esta hecho de oro y parece muy caro pese a su sencillez.
+~
+A
+12 0
+A
+24 0
+#30056
+espada fuego~
+una espada de fuego~
+Una flamigera espada arde en el suelo.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+A
+1 0
+#30057
+tridente~
+un tridente de acero~
+Un enorme tridente esta apoyado contra la pared.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+#30058
+maza pesada~
+una pesada maza~
+Una maza de aspecto muy pesado esta en el suelo.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+A
+5 0
+#30059
+lazo corredizo encantado cuerda~
+un lazo corredizo encantado~
+En el suelo ves un lazo de cuerda que no parece normal.~
+~
+9 0 513
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+A
+12 0
+#30060
+tunica negra khitana~
+una tunica khitana negra~
+Una tunica negra esta tirada a tus pies. Parece confeccionada en Khitai.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+12 0
+A
+24 0
+A
+23 0
+#30061
+capucha negra khitana~
+una capucha khitana negra~
+Una capucha negra,ideal para ocultar el rostro, esta aqui.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+3 0
+A
+2 0
+A
+12 0
+A
+18 0
+#30062
+baston arbol viviente~
+un baston del arbol viviente~
+Un baston, cortado del arbol viviente de la Muerte, esta aqui tirado.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+E
+baston~
+Pese a ser de madera, este baston se transforma en un arma mortal en las
+manos de cualquier mago. El baston es capaz de quemar a aquellos que son
+tocados con su punta.
+~
+A
+18 0
+A
+19 0
+A
+23 0
+A
+24 0
+#30063
+armadura leopardo escarlata~
+la armadura del Leopardo Escarlata~
+La armadura del conde de Poitain esta aqui en el suelo.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+12 0
+A
+24 0
+#30064
+yelmo aguila~
+el yelmo del Aguila~
+El yelmo del senyor de Poitain esta aqui tirado.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+3 0
+A
+4 0
+A
+17 0
+A
+13 0
+#30065
+medallon poitain~
+el medallon de Poitain~
+El medallon que identifica a su portador como conde de Poitain esta aqui.~
+~
+9 0 5
+0 0 0 0
+25 10000 1000
+A
+1 0
+A
+19 0
+A
+14 0
+#30066
+casco puas hierro~
+un casco con puas de hierro~
+Un casco coronado de puas esta en el suelo.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+5 0
+#30067
+armadura zingaria~
+una armadura zingaria~
+En el suelo ves una robusta armadura.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+17 0
+#30068
+perneras bronce~
+unas perneras de bronce~
+Unas perneras forjadas en bronce estan tiradas aqui.~
+~
+9 0 33
+0 0 0 0
+25 10000 1000
+A
+13 0
+A
+17 0
+A
+2 0
+#30069
+capa roja negra~
+una capa roja y negra~
+Una capa roja y negra esta arrugada en el suelo.~
+~
+9 0 1025
+0 0 0 0
+25 10000 1000
+A
+12 0
+A
+24 0
+A
+13 0
+A
+2 0
+A
+18 0
+#30070
+guantes combate~
+unos guantes de combate~
+Unos utiles guantes de combate estan aqui sin duenyo.~
+~
+9 0 129
+0 0 0 0
+25 10000 1000
+A
+1 0
+A
+19 0
+A
+17 0
+#30071
+escudo zingario~
+un escudo zingario~
+En el suelo ves un escudo con el emblema de Zingara.~
+~
+9 0 513
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+23 0
+#30072
+armadura valbroso~
+la armadura de Valbroso~
+Una bonita armadura zingaria con el emblema de un aguila esta aqui.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+13 0
+A
+17 0
+A
+12 0
+#30073
+chaleco cuero~
+un chaleco de cuero negro~
+Un chaleco de gastado cuero esta aqui tirado.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+18 0
+A
+19 0
+#30074
+camisa tela~
+una camisa de tela~
+Una sucia camisa esta aqui apestando a "tigre".~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+17 0
+#30075
+arcon hierro zorathus~
+el Arcon de Hierro de Zorathus~
+Un decorado arcon de hierro guarda sus tesoros.~
+~
+9 0 0
+0 0 0 0
+25 10000 1000
+E
+arcon~
+El arcon esta forjado totalmente de hierro y puedes ver siete calaveras en
+el frontal y un dragon forjado en la tapa.
+~
+#30076
+copa vino~
+una copa de vino~
+Una copa de laton llena de vino espera ser bebida.~
+~
+9 0 16385
+0 0 0 0
+25 10000 1000
+#30077
+ropajes lana~
+unos ropajes de lana~
+Unos comodos ropajes estan aqui tirados.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+3 0
+A
+12 0
+A
+13 0
+A
+17 0
+#30078
+pergamino~
+un pergamino con anotaciones~
+Un pergamino con anotaciones esta aqui enrollado.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+E
+pergamino anotaciones~
+Son las cuentas de los negocios de Publio. Con esta informacion puedes
+hacerte rico en Messantia.
+~
+#30079
+estatuilla oro~
+una estatuilla de oro~
+Una preciosa estatuilla de oro brilla en el suelo.~
+~
+9 0 16385
+0 0 0 0
+25 10000 1000
+A
+5 0
+A
+2 0
+#30080
+manto seda~
+un manto de seda verde~
+Un comodo manto de seda esta aqui descuidado.~
+~
+9 0 1025
+0 0 0 0
+25 10000 1000
+A
+12 0
+A
+24 0
+#30081
+pulsera diamantes~
+una pulsera de diamantes~
+Una bella pulsera engastada con diamantes atrae tu atencion.~
+~
+9 0 4097
+0 0 0 0
+25 10000 1000
+A
+12 0
+A
+13 0
+#30082
+esmeralda joya~
+una gran esmeralda~
+Una gran joya verde refulge en el suelo.~
+~
+9 0 16385
+0 0 0 0
+25 10000 1000
+A
+5 0
+#30083
+daga enjoyada~
+una daga enjoyada~
+Una daga cubierta de joyas esta medio escondida en el suelo.~
+~
+5 0 8193
+0 0 0 2
+25 10000 1000
+A
+18 0
+A
+19 0
+A
+12 0
+#30084
+collar perlas negras~
+un collar de perlas negras~
+Un magnifico collar de perlas negras esta aqui.~
+~
+9 0 5
+0 0 0 0
+25 10000 1000
+A
+12 0
+A
+13 0
+A
+17 0
+#30085
+jarron khitai~
+un jarron de Khitai~
+Un jarron hecho de fina porcelana esta aqui.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30086
+falda cuero~
+una falda de tiras de cuero~
+Una falda hecha de tiras de cuero endurecido esta aqui tirada.~
+~
+9 0 33
+0 0 0 0
+25 10000 1000
+A
+5 0
+A
+14 0
+#30087
+capa corta~
+una capa corta azul~
+Una capa azul oscuro esta aqui sin duenyo.~
+~
+9 0 1025
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+24 0
+A
+12 0
+#30088
+peto cuero~
+un peto de cuero~
+Un peto de cuero endurecido esta en el suelo.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+1 0
+#30089
+capa lino azul~
+una capa azul de lino~
+Una capa azul de lino esta aqui arrugada.~
+~
+9 0 1025
+0 0 0 0
+25 10000 1000
+A
+17 0
+#30090
+cota escamas acero~
+una cota de escamas de acero~
+Una pesada cota de escamas parece abandonada.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+17 0
+A
+5 0
+A
+13 0
+#30091
+botas altas~
+unas botas altas~
+Unas altas botas de cuero estan aqui tiradas.~
+~
+9 0 65
+0 0 0 0
+25 10000 1000
+A
+14 0
+#30092
+latigo cuero~
+un latigo de cuero~
+Enrollado en un rincon ves un latigo de cuero negro.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+#30093
+cetro plata~
+un cetro de plata~
+Un bonito cetro forjado en plata esta abandonado en el suelo.~
+~
+9 0 16385
+0 0 0 0
+25 10000 1000
+A
+2 0
+#30094
+daga hierro~
+una daga de hierro~
+Una daga muy usada esta aqui clavada.~
+~
+5 0 8193
+0 0 0 2
+25 10000 1000
+#30095
+espada corta hierro~
+una espada corta de hierro~
+Una espada corta forjada en hierro esta aqui tirada.~
+~
+5 0 8193
+0 0 0 2
+25 10000 1000
+A
+18 0
+#30096
+cadenas hierro~
+unas cadenas de hierro~
+Unas cadenas usadas para inmovilizar esclavos cuelgan de la pared.~
+~
+9 0 5
+0 0 0 0
+25 10000 1000
+A
+14 0
+A
+13 0
+#30097
+red pescar~
+una red de pescar~
+Esta red es usada por los pescadores estigios para cobrar sus piezas.~
+~
+9 0 16385
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+14 0
+#30098
+bote pescador~
+un bote de pescador~
+Amarrado aqui hay un sencillo bote de pescador.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30099
+sandalias~
+unas sencillas sandalias~
+En el suelo ves unas sencillas sandalias. Parecen abandonadas.~
+~
+9 0 65
+0 0 0 0
+25 10000 1000
+#30100
+mascara bronce~
+una mascara de bronce~
+Esta mascara es usada por los sacerdotes estigios en sus rituales.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+12 0
+A
+3 0
+A
+24 0
+#30101
+capa negra plateada~
+una capa negra y plateada~
+Una capa usada por los sacerdotes estigios esta aqui descuidada.~
+~
+9 0 1025
+0 0 0 0
+25 10000 1000
+A
+12 0
+A
+24 0
+A
+13 0
+#30102
+vara calavera~
+una vara con una calavera en la punta~
+Una tenebrosa vara esta apoyada en el muro.~
+~
+9 0 16385
+0 0 0 0
+25 10000 1000
+A
+12 10
+A
+18 5
+A
+19 7
+#30103
+tunica encapuchada~
+una tunica encapuchada~
+Una tunica con capucha esta aqui tirada.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+17 0
+A
+13 0
+#30104
+pulsera oro blanco~
+una pulsera de oro blanco~
+Una preciosa pulsera de oro blanco brilla en el suelo.~
+~
+9 0 4097
+0 0 0 0
+25 10000 1000
+A
+19 0
+A
+12 0
+A
+17 0
+A
+9 1000
+#30105
+pendientes oro blanco~
+unos pendientes de oro blanco~
+Unos bonitos pendientes de oro blanco estan aqui tirados.~
+~
+9 0 65537
+0 0 0 0
+25 10000 1000
+A
+3 0
+A
+9 1000
+A
+13 0
+A
+12 0
+A
+24 0
+#30106
+collar plata turquesas~
+un collar de plata y turquesas~
+Observas un bello collar en el suelo.~
+~
+9 0 5
+0 0 0 0
+25 10000 1000
+A
+9 1000
+A
+12 0
+A
+13 0
+A
+5 0
+A
+17 0
+#30107
+collar fino oro~
+un fino collar de oro~
+Un collar de oro muy fino esta aqui sin duenyo.~
+~
+9 0 5
+0 0 0 0
+25 10000 1000
+A
+9 1000
+A
+18 0
+A
+19 0
+A
+12 0
+A
+23 0
+#30108
+adornos oro~
+unos adornos de oro~
+Estos adronos de oro parecen muy caros.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+9 1000
+A
+12 0
+A
+14 0
+A
+17 0
+#30109
+cadenas finas oro~
+unas finas cadenas de oro~
+Brillando ante ti ves unas finas cadenas de oro.~
+~
+9 0 33
+0 0 0 0
+25 10000 1000
+A
+9 1000
+A
+12 0
+A
+13 0
+A
+14 0
+A
+24 0
+#30110
+candelabro serpientes~
+un candelabro con formas de serpientes~
+Aqui plantado hay un gran candelabro formado por varias serpientes de oscuro metal.~
+~
+9 0 0
+0 0 0 0
+25 10000 1000
+#30111
+divan~
+un comodo divan~
+Un divan cubierto con una sabana de seda esta aqui. Parece muy comodo.~
+~
+9 0 0
+0 0 0 0
+25 10000 1000
+#30112
+sarcofago~
+un sarcofago de marfil~
+Un pesado sarcofago de marfil cubierto de escrituras esta aqui.~
+~
+9 0 0
+0 0 0 0
+25 10000 1000
+E
+escrituras~
+Parecen pertenecer a una lengua muy antigua, aunque logras descifrar el
+nombre "Akivasha".
+~
+#30113
+manto oscuro broche oro~
+un manto oscuro con un broche de oro~
+Un pesado manto oscuro con un broche de oro esta aqui en el suelo.~
+~
+9 0 1025
+0 0 0 0
+25 10000 1000
+E
+manto broche~
+El broche que cierra el manto representa a Set, Padre de las Serpientes.
+~
+A
+1 0
+A
+12 0
+A
+13 0
+A
+24 0
+A
+17 0
+#30114
+manto oscuro~
+un manto oscuro~
+Un manto de color oscuro esta tirado a tus pies.~
+~
+9 0 1025
+0 0 0 0
+25 10000 1000
+A
+4 0
+A
+12 0
+A
+24 0
+A
+17 0
+#30115
+cimitarra acero~
+una cimitarra de acero~
+Una afilada cimitarra de acero esta aqui tirada.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+A
+12 0
+#30116
+mano negra~
+la Mano Negra~
+Aqui ves la mas poderosa arma de los brujos del Anillo Negro: la Mano Negra.~
+~
+9 0 129
+0 0 0 0
+25 10000 1000
+A
+1 0
+A
+18 0
+A
+19 0
+A
+12 0
+A
+13 0
+A
+24 0
+A
+17 0
+#30117
+andrajos podridos~
+unos andrajos podridos~
+Unos pestilentes andrajos te provocan nauseas!.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+5 0
+A
+14 0
+A
+24 0
+A
+23 0
+A
+18 0
+A
+19 0
+#30118
+soga cuerda~
+una soga con un nudo corredizo~
+Una cuerda esta aqui enrollada.~
+~
+9 0 5
+0 0 0 0
+25 10000 1000
+A
+14 -90
+A
+5 -1
+A
+13 -10
+#30119
+yelmo dragon~
+el yelmo del Dragon~
+Un yelmo con la figura de un dragon rueda por el suelo.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+2 0
+A
+3 0
+A
+4 0
+A
+17 0
+A
+12 0
+A
+23 0
+#30120
+redoma pocion oscura~
+una redoma de pocion oscura~
+Una redoma con un liquido oscuro esta en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30121
+frasco pocion azul~
+un frasco de pocion azul~
+Un frasco con un liquido azul esta en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30122
+botella pocion roja~
+una botella de pocion roja~
+Una botella con un liquido rojo esta en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30123
+ampolla pocion verde~
+una ampolla de pocion verde~
+Una ampolla con un liquido verde esta en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30124
+pocion transparente~
+una pocion transparente~
+Una pocion transparente esta en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30125
+pergamino atlanteo~
+un pergamino atlanteo~
+Un antiguo pergamino atlanteo esta en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30126
+pergamino negro~
+un pergamino negro~
+Un pergamino negro esta en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+E
+pergamino~
+Parece una antigua maldicion estigia.
+~
+A
+1 0
+#30127
+pergamino runas~
+un pergamino cubierto de runas~
+Un pergamino escrito con antiguas runas esta en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30128
+vara serpiente~
+una vara con forma de serpiente~
+Una vara de forma retorcida esta apoyada en la pared.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30129
+varita cobre~
+una varita de cobre~
+Una varita de metal brilla ante ti.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30130
+amuleto serpiente set~
+el amuleto de Set~
+Un amuleto con una serpiente grabada esta tirado entre el polvo del suelo.~
+~
+9 0 5
+0 0 0 0
+25 10000 1000
+E
+amuleto~
+El amuleto muestra la figura de Set, Padre de las Serpientes.
+~
+A
+12 0
+A
+13 0
+A
+17 0
+A
+4 0
+#30131
+cuerno rinoceronte~
+un cuerno de rinoceronte~
+Un afilado cuerno esta aqui tirado.~
+~
+9 0 16385
+0 0 0 0
+25 10000 1000
+E
+cuerno~
+Las antiguas civilizaciones creian que los cuernos de rinoceronte otorgaban
+una gran fuerza y potencia sexual.
+~
+A
+1 0
+A
+19 0
+#30132
+jarra cerveza argosea~
+una jarra de cerveza argosea~
+Aqui tirada hay una jarra.~
+~
+17 0 1
+0 0 0 0
+25 10000 1000
+#30133
+jarra aguardiente~
+una jarra de aguardiente~
+Una jarra esta aqui sin duenyo.~
+~
+17 0 1
+0 0 0 0
+25 10000 1000
+#30134
+carne asada pedazo~
+un pedazo de carne asada~
+Un buen trozo de carne recien asada humea ante ti.~
+~
+19 0 1
+0 0 0 0
+25 10000 1000
+#30135
+plato pescado hervido~
+un plato de pescado hervido~
+Un sabroso plato de pescado hervido espera que te lo comas.~
+~
+19 0 1
+0 0 0 0
+25 10000 1000
+#30136
+casco kothio~
+un casco kothio~
+Un recio casco acumula polvo en el suelo.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+17 -10
+A
+5 2
+A
+19 10
+#30137
+turbante shemita~
+un turbante shemita~
+Un turbante de algodon esta en el suelo.~
+~
+9 0 17
+0 0 0 0
+25 10000 1000
+A
+17 5
+A
+3 2
+A
+4 1
+A
+12 10
+#30138
+cota malla ophirea~
+una cota de malla ophirea~
+Una ligera cota de malla esta en el suelo.~
+~
+9 0 9
+0 0 0 0
+25 10000 1000
+A
+17 -15
+A
+18 5
+A
+12 10
+A
+24 -10
+A
+1 1
+#30139
+perneras acero argoseas~
+unas perneras argoseas~
+Unas perneras forjadas en acero estan en el suelo.~
+~
+9 0 33
+0 0 0 0
+25 10000 1000
+A
+5 2
+A
+14 25
+#30140
+piel leopardo darfario~
+una piel de leopardo darfario~
+Una suave piel de leopardo parece no tener duenyo.~
+~
+9 0 1025
+0 0 0 0
+25 10000 1000
+A
+17 -5
+A
+23 -5
+A
+13 15
+#30141
+brazalete vendhyo~
+un brazalete vendhyo~
+Un brazalete forjado en la lejana Vendhya esta en el suelo.~
+~
+9 0 4097
+0 0 0 0
+25 10000 1000
+A
+1 1
+A
+18 -2
+A
+19 2
+A
+17 5
+A
+24 -5
+A
+2 1
+#30142
+anillo estigio~
+un anillo estigio~
+Un anillo con la figura de Set esta en el suelo.~
+~
+9 0 3
+0 0 0 0
+25 10000 1000
+A
+12 15
+A
+13 10
+A
+24 -7
+A
+17 -5
+#30143
+escudo brythunio~
+un escudo brythunio~
+Un escudo finamente decorado esta en el suelo.~
+~
+9 0 513
+0 0 0 0
+25 10000 1000
+A
+17 -10
+A
+24 -5
+A
+23 -3
+A
+13 10
+#30144
+hacha cimmeria~
+una hacha cimmeria~
+Una afilada hacha descansa contra la pared.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+1 0
+A
+2 0
+#30145
+maza vendhya~
+una maza vendhya~
+Una maza de acero y plomo esta aqui tirada.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+19 0
+A
+1 0
+A
+17 0
+#30146
+espada cimmeria~
+una espada cimmeria~
+Una pesada espada esta en el suelo.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+A
+1 0
+#30147
+espadon corinthio~
+un espadon corinthio~
+Un enorme espadon cuelga del muro frente a ti.~
+~
+5 1073750016 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+A
+1 0
+#30148
+daga estigia~
+una daga estigia~
+Una daga con la figura de Set esta clavada en el suelo.~
+~
+5 0 8193
+0 0 0 2
+25 10000 1000
+A
+18 0
+A
+12 0
+#30149
+arco bossonio~
+un arco bossonio~
+Un esplendido arco de cedro esta en el suelo.~
+~
+5 0 8193
+0 0 0 0
+25 10000 1000
+A
+18 0
+A
+19 0
+A
+14 0
+#30150
+sello oro~
+un sello de oro~
+Un valioso sello de oro permanece semiescondido en el suelo.~
+~
+9 0 3
+0 0 0 0
+25 10000 1000
+A
+12 0
+A
+13 0
+A
+17 0
+#30151
+mapa hyborea pergamino~
+un mapa del continente hyboreo~
+Un mapa enrollado esta tirado aqui.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+E
+mapa Hyborea pergamino~
+{y                ______                   ______   ___ ____
+                \     \_______/\________/      \_/   V   /
+                /                                       /
+               <    {D^      {c |                        {y  <
+                \   {DN     {c /      {Y CIMMERIA          {y  /
+                 \       {c |                          {y <
+                 /       {c |    {YAQUILONIA               {y\
+                 \       {c |                {Y NEMEDIA    {y \
+      {y            >      {c |                            {y <
+      {y            \       {c \ {YZINGARA      OPHIR        {y /
+      {y            /     {b.: {c \   {Y  ARGOS               {y  \
+      {y            \     {b ?. {c \_____         {Y    KOTH   {y  >
+      {y            /  {CIslas        {c \     {YSHEM         {y  /
+      {y           /   {C Baracha      {c \                  {y \
+      {y          <                   {c |                {y  /
+      {y           \                  {c |  {YESTIGIA       {y <
+      {y            >   {CMar           {c |                 {y \
+      {y           /     {C Occidental  {c |     {Y Continente {y /
+      {y           \                    {c\      {YHyboreo  {y /
+      {y            >                    {c|             {y  \
+      {y           /    __/\______________________        \
+      {y          /____/                          \  ______\
+                                                 \/
+{w
+~
+#30152
+tesoro oro monedas~
+un monton de monedas kothias de oro~
+Aqui puedes contemplar un magnifico tesoro: una pila de monedas de oro.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30153
+tesoro collar diamantes~
+un collar de diamantes kushitas~
+Un reluciente collar de diamantes ha sido abandonado aqui.~
+~
+9 0 5
+0 0 0 0
+25 10000 1000
+A
+2 2
+A
+13 30
+#30154
+tesoro opalo~
+un opalo kithano~
+Un precioso opalo brilla en el suelo.~
+~
+9 0 16385
+0 0 0 0
+25 10000 1000
+A
+15 1000
+A
+19 2
+A
+12 35
+#30155
+llave hierro~
+una llave de hierro negro~
+Una oscura llave de hierro esta tirada en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30156
+fuente thrallos~
+la fuente de Thrallos~
+Una antigua fuente se alza entre las ruinas.~
+~
+25 0 0
+0 0 0 0
+25 10000 1000
+E
+fuente~
+Aunque esta en mal estado, el agua es potable. La fuente es un testimonio
+del pasado esplendor de esta casa de campo.
+~
+#30157
+daga ritual~
+una daga ritual~
+Una daga cubierta se runas usada en arcanos rituales esta en el suelo.~
+~
+5 35 8193
+0 0 0 2
+5 10000 1000
+A
+1 0
+A
+18 0
+A
+19 0
+A
+12 0
+A
+13 0
+#30158
+pollo asado~
+un pollo asado~
+Un delicioso pollo asado parece decirte: "comeme!".~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30159
+jarra vino kyros~
+una jarra de vino de Kyros~
+Una jarra de barro esta aqui abandonada.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30160
+hoja menta~
+una hoja de menta~
+Ves una hoja de menta fresca en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30161
+manzana derketo~
+una manzana de Derketo~
+En el suelo ves una manzana roja.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30162
+fruta exotica~
+una fruta exotica~
+Una fruta de algun lejano pais esta abandonada en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30163
+cria triton~
+una cria de triton~
+Una oscura cria de triton corretea por el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30164
+alas murcielago~
+unas alas de murcielago~
+Un par de alas de murcielago secas estan tiradas en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30165
+ojo serpiente~
+un ojo de serpiente~
+Un ojo te observa desde el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30166
+llave marfil~
+una llave de marfil tallado~
+Una llave de marfil tallado esta en el suelo. Parece muy antigua.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+E
+llave~
+La llave tiene una serie de escrituras en una lengua antigua. Solo
+entiendes la palabra "Akivasha".
+~
+#30167
+llave altar~
+la llave del Altar de Set~
+Una llave con una cabeza de serpiente aguarda ser recogida.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30168
+llave hueso~
+una llave de hueso~
+Una pieza de hueso finamente trabajada esta tirada en el suelo.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30169
+pergamino~
+un pergamino~
+Un pergamino con las palabras 'energy drain' esta aqui.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30170
+pergamino~
+un pergamino~
+Un pergamino con las palabras 'iew roop' esta aqui.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30171
+pergamino~
+un pergamino~
+Un pergamino con las palabras 'astral walk' esta aqui.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30172
+flecha~
+una flecha cimmeria~
+Una flecha cimmeria esta aqui tirada.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#30173
+flecha~
+una flecha cimmeria~
+Una flecha cimmeria esta aqui tirada.~
+~
+9 0 1
+0 0 0 0
+25 10000 1000
+#0
+
+
+#ROOMS
+#30001
+El rio valkia.~
+Estas en el rio Valkia, un rio del reino de Aquilonia. El rio nace en las
+montanyas del norte y desemboca al sur en el Mar Occidental, atravesando
+los reinos de Aquilonia, Ophir y Shem.
+Al norte puedes oir unos ruidos y gritos espeluznantes. El agua procedente
+de esa direccion esta levemente tenyida de rojo.
+En la orilla puedes ver una alta PIEDRA mohosa con unas ESCRITURAS. Parecen
+IMPORTANTES. Harias bien en leerlas.
+~
+0 5 0
+D0
+En el rio valkia.
+~
+~
+0 0 30002
+D2
+En el rio.
+~
+~
+0 0 30176
+E
+piedra escrituras~
+Saludos, viajero.
+
+    Esta area fue creada por KillYou, Esta basada en el relato "La hora del
+Dragon", escrito por Robert E. Howard. La adaptacion al comic (por si aun no
+lo sabias estoy hablando de Conan el barbaro) fue realizada por Roy Thomas
+(guion) y Gil Kane y John Buscema & the Crew (dibujos). Fue publicada bajo el
+nombre "Conan el Conquistador" y la podeis encontrar en el Super-Conan n. 9
+(Planeta Comic). He intentado ajustarme al maximo a la historia, aunque es
+dificil elegir en que situacion apareceran ciertos personajes debido a su
+importancia a lo largo de la misma. Tambien he evitado conscientemente la
+aparicion de dos personajes clave: el primero es el rey Conan, y el segundo es
+Zenobia, la concubina que luego seria su esposa.
+        Espero que sea de vuestro agrado. Que la disfruteis!.
+                    KillYou, Dios de la Muerte.
+
+**Area Modificada y Adaptada por Morgul para VampiroMud
+~
+S
+#30002
+En el rio valkia.~
+Te encuentras navegando por el rio Valkia, que divide por la mitad el campo
+de batalla donde aquilonios y nemedios luchan entre ellos. Al oeste esta la
+zona aquilonia, mientras que al este se hallan los nemedios. La batalla es
+de lo mas sangrienta y encarnizada. Incluso el agua comienza a tenyirse de
+rojo por la cantidad de sangre vertida.
+~
+0 5 0
+D0
+En el rio valkia.
+~
+~
+0 0 30003
+D2
+El rio valkia
+~
+~
+0 0 30001
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30025
+S
+#30003
+En el rio valkia.~
+Te encuentras navegando por el rio Valkia, que divide por la mitad el campo
+de batalla donde aquilonios y nemedios luchan entre ellos. Al oeste esta la
+zona aquilonia, mientras que al este se hallan los nemedios. La batalla es
+de lo mas sangrienta y encarnizada. Incluso el agua comienza a tenyirse de
+rojo por la cantidad de sangre vertida.
+~
+0 5 0
+D0
+El paso del rio valkia.
+~
+~
+0 0 30004
+D1
+El campo de batalla nemedio.
+~
+~
+0 0 30014
+D2
+En el rio valkia.
+~
+~
+0 0 30002
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30026
+S
+#30004
+El paso del rio valkia.~
+Aqui hay un paso de piedras usado por los dos ejercitos para invadir ambas
+zonas. Montones de cuerpos sin vida pertenecientes a ambos ejercitos son
+usados como elementos de paso para la caballeria. El agua es totalmente
+roja.
+El rio continua al norte y al sur, mientras que a ambos bandos esta el
+campo de batalla.
+~
+0 0 0
+D0
+En el rio valkia.
+~
+~
+0 0 30005
+D1
+El campo de batalla nemedio.
+~
+~
+0 0 30013
+D2
+En el rio valkia.
+~
+~
+0 0 30003
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30027
+S
+#30005
+En el rio valkia.~
+Te encuentras navegando por el rio Valkia, que divide por la mitad el campo
+de batalla donde aquilonios y nemedios luchan entre ellos. Al oeste esta la
+zona aquilonia, mientras que al este se hallan los nemedios. La batalla es
+de lo mas sangrienta y encarnizada. Incluso el agua comienza a tenyirse de
+rojo por la cantidad de sangre vertida.
+El rio describe una suave curva hacia el este. Al sur continua el rio.
+~
+0 5 0
+D0
+El campo de batalla aquilonio.
+~
+~
+0 0 30032
+D1
+En el rio valkia.
+~
+~
+0 0 30006
+D2
+El paso del rio valkia.
+~
+~
+0 0 30004
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30028
+S
+#30006
+En el rio valkia.~
+Te encuentras navegando por el rio Valkia, que divide por la mitad el campo
+de batalla donde aquilonios y nemedios luchan entre ellos. Al oeste esta la
+zona aquilonia, mientras que al este se hallan los nemedios. La batalla es
+de lo mas sangrienta y encarnizada. Incluso el agua comienza a tenyirse de
+rojo por la cantidad de sangre vertida.
+El rio continua hacia el norte, donde observas unas montanyas y al oeste
+describe una suave curva.
+~
+0 5 0
+D0
+En el rio valkia.
+~
+~
+0 0 30007
+D1
+El campo de batalla nemedio.
+~
+~
+0 0 30011
+D2
+El campo de batalla nemedio.
+~
+~
+0 0 30013
+D3
+En el rio valkia.
+~
+~
+0 0 30005
+S
+#30007
+En el rio valkia.~
+Te encuentras navegando por el rio Valkia, que divide por la mitad el campo
+de batalla donde aquilonios y nemedios luchan entre ellos. Al oeste esta la
+zona aquilonia, mientras que al este se hallan los nemedios. La batalla es
+de lo mas sangrienta y encarnizada. Incluso el agua comienza a tenyirse de
+rojo por la cantidad de sangre vertida.
+Al norte ves unas montanyas.
+~
+0 5 0
+D0
+En el rio valkia.
+~
+~
+0 0 30008
+D1
+El campo de batalla nemedio.
+~
+~
+0 0 30010
+D2
+En el rio valkia.
+~
+~
+0 0 30006
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30032
+S
+#30008
+En el rio valkia.~
+Te encuentras navegando por el rio Valkia, que divide por la mitad el campo
+de batalla donde aquilonios y nemedios luchan entre ellos. Al oeste esta la
+zona aquilonia, mientras que al este se hallan los nemedios. La batalla es
+de lo mas sangrienta y encarnizada. Incluso el agua comienza a tenyirse de
+rojo por la cantidad de sangre vertida.
+Al norte ves los pies de las montanyas, de donde el rio surge.
+~
+0 5 0
+D1
+El campo de batalla nemedio.
+~
+~
+0 0 30009
+D2
+En el rio valkia.
+~
+~
+0 0 30007
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30031
+S
+#30009
+El campo de batalla nemedio.~
+Estas en la orilla este del rio Valkia. Puedes ver un espectaculo dantesco.
+Esta es la zona ocupada por el ejercito nemedio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los nemedios intentan
+cruzar el rio Valkia para invadir el campamento aquilonio.
+Al norte divisas las montanyas.
+~
+0 0 0
+D1
+El campo de batalla nemedio.
+~
+~
+0 0 30042
+D2
+El campo de batalla nemedio.
+~
+~
+0 0 30010
+D3
+En el rio valkia.
+~
+~
+0 0 30008
+S
+#30010
+El campo de batalla nemedio.~
+Estas en la orilla este del rio Valkia. Puedes ver un espectaculo dantesco.
+Esta es la zona ocupada por el ejercito nemedio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los nemedios intentan
+cruzar el rio Valkia para invadir el campamento aquilonio.
+~
+0 0 0
+D0
+El campo de batalla nemedio.
+~
+~
+0 0 30009
+D1
+El campo de batalla nemedio.
+~
+~
+0 0 30041
+D2
+El campo de batalla nemedio.
+~
+~
+0 0 30011
+D3
+En el rio valkia.
+~
+~
+0 0 30007
+S
+#30011
+El campo de batalla nemedio.~
+Estas en la orilla este del rio Valkia. Puedes ver un espectaculo dantesco.
+Esta es la zona ocupada por el ejercito nemedio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los nemedios intentan
+cruzar el rio Valkia para invadir el campamento aquilonio.
+Al este esta la empalizada que protege el campamento nemedio.
+~
+0 0 0
+D0
+El campo de batalla nemedio.
+~
+~
+0 0 30010
+D2
+El campo de batalla nemedio.
+~
+~
+0 0 30012
+D3
+En el rio valkia.
+~
+~
+0 0 30006
+S
+#30012
+El campo de batalla nemedio.~
+Esta es la zona ocupada por el ejercito nemedio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los nemedios intentan
+cruzar el rio Valkia para invadir el campamento aquilonio.
+Al este ves la entrada al campamento del ejercito nemedio.
+~
+0 0 0
+D0
+El campo de batalla nemedio.
+~
+~
+0 0 30011
+D1
+El campamento nemedio.
+~
+puerta~
+3 0 30021
+D3
+En el rio valkia.
+~
+~
+0 0 30013
+S
+#30013
+El campo de batalla nemedio.~
+Estas en la orilla este del rio Valkia. Puedes ver un espectaculo dantesco.
+Esta es la zona ocupada por el ejercito nemedio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los nemedios intentan
+cruzar el rio Valkia para invadir el campamento aquilonio.
+Al este esta la empalizada que protege el campamento nemedio.
+~
+0 0 0
+D0
+En el rio valkia.
+~
+~
+0 0 30006
+D1
+El campo de batalla nemedio.
+~
+~
+0 0 30012
+D2
+El paso del desfiladero.
+
+~
+~
+0 0 30014
+D3
+En el rio valkia.
+~
+~
+0 0 30004
+S
+#30014
+El paso del desfiladero.~
+Por aqui puedes descender a un profundo desfiladero, creado por un afluente
+del Valkia, que se seco hace siglos. El lugar parece muy adecuado para
+tender una trampa a un ejercito.
+Al oeste y al norte sigue la matanza entre aquilonios y nemedios.
+~
+0 5 0
+D0
+El campo de batalla nemedio.
+~
+~
+0 0 30013
+D3
+El campo de batalla nemedio.
+~
+~
+0 0 30003
+D5
+El desfiladero de valkia.
+~
+~
+0 0 30015
+S
+#30015
+El desfiladero de valkia.~
+Te encuentras en un hondo desfiladero. Las abruptas paredes al norte y al
+sur son inescalables, por lo que debes continuar al interior del mismo o
+salir por donde has descendido. No te gusta nada la sensacion que te
+provoca este sitio. Parece ideal para tender una emboscada.
+~
+0 4 0
+D1
+En el desfiladero de valkia.
+~
+~
+0 0 30016
+D4
+El paso del desfiladero.
+~
+~
+0 0 30014
+S
+#30016
+En el desfiladero de valkia.~
+Continuas en el profundo desfiladero. Tus unicas posibilidades son ir al
+este o al oeste, y rezar para que no suceda un desprendimiento, pues
+quedarias sepultado por toneladas de rocas que divisas en el borde superior
+del desfiladero. Tu claustrofobia va en aumento.
+~
+0 4 0
+D1
+El desfiladero de valkia.
+~
+~
+0 0 30017
+D3
+El desfiladero de valkia.
+~
+~
+0 0 30015
+S
+#30017
+El desfiladero de valkia.~
+Te encuentras en un hondo desfiladero. Las abruptas paredes al norte son
+inescalables, por lo que debes continuar al interior del mismo o salir por
+donde has descendido. No te gusta nada la sensacion que te provoca este
+sitio. Parece ideal para tender una emboscada.
+~
+0 5 0
+D3
+En el desfiladero de valkia.
+~
+~
+0 0 30016
+D4
+El paso del desfiladero.
+~
+~
+0 0 30018
+S
+#30018
+El paso del desfiladero.~
+Por aqui puedes descender a un profundo desfiladero, creado por un afluente
+del Valkia, que se seco hace siglos. El lugar parece muy adecuado para
+tender una trampa a un ejercito.
+Al este se inicia un camino polvoriento.
+Hay un cartel indicador clavado en el suelo.
+~
+0 0 0
+D1
+El camino a belverus.
+~
+~
+0 0 30019
+D5
+El desfiladero de valkia.
+~
+~
+0 0 30017
+E
+cartel indicador~
+{y                        _______________
+                       |               \
+                       |  {YA  BELVERUS{y   >
+                       |_______________/
+                              | |
+                              | |
+                        {M*{y     | | {g., {M * {g
+                         \ , {y | |{g  \ /.    ,
+                     _____V___{y|_|{g___V/____V__
+{w
+~
+S
+#30019
+El camino a belverus.~
+Un polvoriento camino lleva de Belverus, capital de Nemedia a Valkia. Miles
+de huellas, tanto de pies como de cascos, te indican que por aqui ha tenido
+que pasar un gran contingente. Todas las huellas van en direccion a Valkia.
+~
+0 0 0
+D1
+Camino a belverus.
+~
+~
+0 0 30020
+D3
+El paso del desfiladero.
+~
+~
+0 0 30018
+S
+#30020
+Camino a belverus.~
+El camino discurre de este a oeste. Al este puedes distinguir la ciudad de
+Belverus, capital de Nemedia y residencia del rey Tarascus. Al oeste se
+halla el rio Valkia, donde en estos momentos se hallan las legiones
+nemedias.
+~
+0 0 0
+D1
+La interseccion.
+~
+~
+0 0 30048
+D3
+El camino a belverus.
+~
+~
+0 0 30019
+S
+#30021
+El campamento nemedio.~
+Te encuentras en el interior del campamento nemedio. Centenares de tiendas
+estan plantadas alrededor de las hogueras. La actividad es frenetica:
+cientos de soldados se preparan para la batalla. En algunas tiendas puedes
+distinguir a soldados heridos que testifican la crudeza del combate. El
+campamento esta cercado por una empalizada, cuya salida esta al oeste.
+~
+0 0 0
+D0
+En el campamento nemedio.
+~
+~
+0 0 30024
+D1
+En el campamento nemedio.
+~
+~
+0 0 30022
+D3
+El campo de batalla nemedio.
+~
+puerta~
+3 0 30012
+S
+#30022
+En el campamento nemedio.~
+Mas y mas tiendas, hogueras y soldados arriba y abajo, afilando y
+transportando armas, reparando armaduras y recibiendo ordenes de sus
+superiores. El campamento continua al norte y al oeste. Al sur y al este
+esta la empalizada que lo cerca.
+~
+0 0 0
+D0
+En el campamento nemedio.
+~
+~
+0 0 30023
+D3
+El campamento nemedio.
+~
+~
+0 0 30021
+S
+#30023
+En el campamento nemedio.~
+Mas y mas tiendas, hogueras y soldados arriba y abajo, afilando y
+transportando armas, reparando armaduras y recibiendo ordenes de sus
+superiores. El campamento continua al sur y al oeste. Al norte y al este
+esta la empalizada que lo cerca.
+~
+0 0 0
+D2
+En el campamento nemedio.
+~
+~
+0 0 30022
+D3
+En el campamento nemedio.
+~
+~
+0 0 30024
+S
+#30024
+En el campamento nemedio.~
+Mas y mas tiendas, hogueras y soldados arriba y abajo, afilando y
+transportando armas, reparando armaduras y recibiendo ordenes de sus
+superiores. El campamento continua al sur y al este. Al norte y al oeste
+esta la empalizada que lo cerca.
+~
+0 0 0
+D1
+En el campamento nemedio.
+~
+~
+0 0 30023
+D2
+El campamento nemedio.
+~
+~
+0 0 30021
+S
+#30025
+El campo de batalla aquilonio.~
+Estas en la orilla oeste del rio Valkia. Puedes ver un espectaculo
+realmente horroroso.
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+~
+0 0 0
+D0
+El campo de batalla aquilonio.
+~
+~
+0 0 30026
+D1
+El rio valkia.
+~
+~
+0 0 30002
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30038
+S
+#30026
+El campo de batalla aquilonio.~
+Estas en la orilla oeste del rio Valkia. Puedes ver un espectaculo
+realmente horroroso.
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+~
+0 0 0
+D0
+El campo de batalla aquilonio.
+~
+~
+0 0 30027
+D1
+El rio valkia.
+~
+~
+0 0 30003
+D2
+El campo de batalla aquilonio.
+~
+~
+0 0 30025
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30037
+S
+#30027
+El campo de batalla aquilonio.~
+Estas en la orilla oeste del rio Valkia. Puedes ver un espectaculo
+realmente horroroso.
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+Al oeste ves la puerta del campamento aquilonio.
+~
+0 0 0
+D0
+El campo de batalla aquilonio.
+~
+~
+0 0 30028
+D1
+El rio valkia.
+~
+~
+0 0 30004
+D2
+El campo de batalla aquilonio.
+~
+~
+0 0 30026
+D3
+El campamento aquilonio
+~
+~
+3 0 30043
+S
+#30028
+El campo de batalla aquilonio.~
+Estas en la orilla oeste del rio Valkia. Puedes ver un espectaculo
+realmente horroroso.
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+~
+0 0 0
+D0
+El campo de batalla aquilonio.
+~
+~
+0 0 30029
+D1
+El rio valkia.
+~
+~
+0 0 30005
+D2
+El campo de batalla aquilonio.
+~
+~
+0 0 30027
+S
+#30029
+El campo de batalla aquilonio.~
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+Al norte distingues unas montanyas.
+~
+0 0 0
+D0
+El campo de batalla aquilonio.
+~
+~
+0 0 30030
+D1
+El campo de batalla aquilonio.
+~
+~
+0 0 30032
+D2
+El campo de batalla aquilonio.
+~
+~
+0 0 30028
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30033
+S
+#30030
+El campo de batalla aquilonio.~
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+Al norte y al oeste hay unas montanyas que te impiden el paso.
+~
+0 0 0
+D1
+El campo de batalla aquilonio.
+~
+~
+0 0 30031
+D2
+El campo de batalla aquilonio.
+~
+~
+0 0 30029
+S
+#30031
+El campo de batalla aquilonio.~
+Estas en la orilla oeste del rio Valkia. Puedes ver un espectaculo
+realmente horroroso.
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+Al norte hay unas montanyas que te impiden el paso.
+~
+0 0 0
+D1
+En el rio valkia.
+~
+~
+0 0 30008
+D2
+El campo de batalla aquilonio.
+~
+~
+0 0 30032
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30030
+S
+#30032
+El campo de batalla aquilonio.~
+Estas en la orilla oeste del rio Valkia. Puedes ver un espectaculo
+realmente horroroso.
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+El rio continua al este y al sur, mientras que al oeste y al norte sigue la
+matanza.
+~
+0 0 0
+D0
+El campo de batalla aquilonio.
+~
+~
+0 0 30031
+D1
+En el rio valkia.
+~
+~
+0 0 30007
+D2
+En el rio valkia.
+~
+~
+0 0 30005
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30029
+S
+#30033
+El campo de batalla aquilonio.~
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+Al norte se alzan las montanyas, mientras que al sur esta la empalizada que
+protege el campamento aquilonio.
+~
+0 0 0
+D1
+El campo de batalla aquilonio.
+~
+~
+0 0 30029
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30034
+S
+#30034
+El campo de batalla aquilonio.~
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+Al norte se alzan las montanyas, mientras que al sur esta la empalizada que
+protege el campamento aquilonio.
+~
+0 0 0
+D1
+El campo de batalla aquilonio.
+~
+~
+0 0 30033
+D3
+El campo de batalla aquilonio.
+~
+~
+0 0 30035
+S
+#30035
+El campo de batalla aquilonio.~
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+Al norte y al sur puedes ver unas montanyas que delimitan el campo de
+batalla.
+~
+0 0 0
+D0
+El camino a tarantia.
+~
+~
+0 0 30036
+D1
+El campo de batalla aquilonio.
+~
+~
+0 0 30034
+S
+#30036
+El camino a tarantia.~
+Te encuentras en el final del camino que lleva de Tarantia al valle de
+Valkia. Al norte y al este se alzan unas montanyas coronadas de nubes.
+Desde aqui puedes escuchar el terrible sonido de una encarnizada batalla.
+Puedes ver un cartel indicador clavado en el suelo.
+~
+0 0 0
+D2
+El campo de batalla aquilonio.
+~
+~
+0 0 30035
+D3
+Una interseccion.
+~
+~
+0 0 30069
+E
+cartel indicador~
+{y                        _______________
+                       /               |
+                      <   {YA  TARANTIA{y  |
+                       \_______________|
+                              | |
+                              | |
+                      {M  *{g,{y    | | {M*{g   ,
+                        .\{c *{y  | |  {g\ /   .
+                     ____\V___{y|_|{g___V_____V__
+{w
+~
+S
+#30037
+El campo de batalla aquilonio.~
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+Al norte puedes ver la empalizada del campamento aquilonio.
+~
+0 0 0
+D1
+El campo de batalla aquilonio.
+~
+~
+0 0 30026
+D2
+El campo de batalla aquilonio.
+~
+~
+0 0 30038
+S
+#30038
+El campo de batalla aquilonio.~
+Esta es la zona ocupada por el ejercito aquilonio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los aquilonios intentan
+rechazar a los invasores nemedios que pretenden arrasar el campamento
+aquilonio.
+~
+0 0 0
+D0
+El campo de batalla aquilonio.
+~
+~
+0 0 30037
+D1
+El campo de batalla aquilonio.
+~
+~
+0 0 30025
+D2
+El camino a poitain.
+~
+~
+0 0 30039
+S
+#30039
+El camino a poitain.~
+Estas en el final del camino que lleva de Poitain al valle de Valkia. Este
+camino es usado por los bandidos nemedios que pretenden saquear la
+provincia aquilonia. Para impedirlo, Trocero, el conde de Poitain, ha
+declarado la independencia de la provincia y patrulla la zona con el
+ejercito poitaino.
+Al norte puedes oir el sonido de una cruenta batalla.
+~
+0 0 0
+D0
+El campo de batalla aquilonio.
+~
+~
+0 0 30038
+D2
+Camino a poitain.
+~
+~
+0 0 30040
+S
+#30040
+Camino a poitain.~
+El camino presenta cientos de huellas, y en los margenes puedes ver
+cadaveres con pertrechos nemedios. Estos infortunados eran soldados del
+ejercito nemedio que pretendian saquear la provinvia de Poitain y fueron
+ajusticiados por Trocero y su ejercito.
+El camino continua al norte y al sur.
+~
+0 0 0
+D0
+El camino a poitain.
+~
+~
+0 0 30039
+D2
+Poitain.
+~
+~
+0 0 30128
+S
+#30041
+El campo de batalla nemedio.~
+Esta es la zona ocupada por el ejercito nemedio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los nemedios intentan
+cruzar el rio Valkia para invadir el campamento aquilonio.
+Al sur la empalizada que protege el campamento nemedio. Al este se alzan
+unas montanyas que limitan el campo de batalla.
+~
+0 0 0
+D0
+El campo de batalla nemedio.
+~
+~
+0 0 30042
+D3
+El campo de batalla nemedio.
+~
+~
+0 0 30010
+S
+#30042
+El campo de batalla nemedio.~
+Estas en la esquina noreste del campo de batalla.
+Esta es la zona ocupada por el ejercito nemedio. Por el suelo ves cuerpos
+mutilados y charcos de sangre. El olor es nauseabundo, mientras que el
+griterio y aullidos de dolor son ensordecedores. Los nemedios intentan
+cruzar el rio Valkia para invadir el campamento aquilonio.
+Al norte y al este hay unas montanyas. Subiendo por ellas hay un paso.
+~
+0 0 0
+D2
+El campo de batalla nemedio.
+~
+~
+0 0 30041
+D3
+El campo de batalla nemedio.
+~
+~
+0 0 30009
+D4
+El paso de las montanyas.
+~
+~
+0 0 30051
+S
+#30043
+El campamento aquilonio.~
+Estas en el campamento del ejercito aquilonio. Los soldados preparan sus
+armas mientras los comandantes discuten la estrategia a seguir. Centenares
+de tiendas estan plantadas alrededor de las hogueras donde se prepara el
+rancho. Del interior de las tiendas surgen gritos de dolor de los soldados
+heridos en combate.
+Al sur ves la empalizada que protege el campamento.
+~
+0 0 0
+D0
+En el campamento aquilonio.
+~
+~
+0 0 30044
+D1
+Campo de Batalla
+~
+~
+3 0 30027
+D3
+En el campamento aquilonio.
+~
+~
+0 0 30046
+S
+#30044
+En el campamento aquilonio.~
+Mas y mas tiendas y soldados por todas partes preparandose para la batalla.
+En varias tiendas ondean banderas con una cabeza de leon pintada, el
+emblema del ejercito aquilonio.
+Al norte y al este ves la empalizada que protege el campamento.
+~
+0 0 0
+D2
+El campamento aquilonio.
+~
+~
+0 0 30043
+D3
+En el campamento aquilonio.
+~
+~
+0 0 30045
+S
+#30045
+En el campamento aquilonio.~
+Mas y mas tiendas y soldados por todas partes preparandose para la batalla.
+En varias tiendas ondean banderas con una cabeza de leon pintada, el
+emblema del ejercito aquilonio.
+Al norte y al oeste ves la empalizada que protege el campamento.
+~
+0 0 0
+D1
+En el campamento aquilonio.
+~
+~
+0 0 30044
+D2
+En el campamento aquilonio.
+~
+~
+0 0 30046
+S
+#30046
+En el campamento aquilonio.~
+Mas y mas tiendas y soldados por todas partes preparandose para la batalla.
+En varias tiendas ondean banderas con una cabeza de leon pintada, el
+emblema del ejercito aquilonio.
+Al sur ves la empalizada que protege el campamento. Al oeste ves una gran
+tienda con la bandera del leon.
+~
+0 0 0
+D0
+En el campamento aquilonio.
+~
+~
+0 0 30045
+D1
+El campamento aquilonio.
+~
+~
+0 0 30043
+D3
+La tienda del rey conan.
+~
+tienda~
+3 0 30047
+S
+#30047
+La tienda del rey conan.~
+Te hallas en el interior de la tienda de Conan, rey de Aquilonia. Pese a
+ser la tienda de un rey es muy sencilla y austera. Puedes ver una cama
+revuelta y varios enseres tirados por el suelo. Uno de los postes que
+sostienen la tienda ha sido partido por una potente estocada. Parece como
+si hubieran luchado aqui dentro.
+La unica salida es por donde entraste.
+~
+0 0 0
+D1
+En el campamento aquilonio.
+~
+tienda~
+3 0 30046
+S
+#30048
+La interseccion.~
+Te encuentras en la interseccion de dos caminos. En direccion este-oeste
+ves el camino de Belverus. Al norte empieza un sendero que lleva a las
+llanuras que se hallan tras las montanyas.
+En el centro puedes ver un poste indicador.
+~
+0 0 0
+D0
+El sendero a thrallos.
+~
+~
+0 0 30049
+D1
+Camino a belverus.
+~
+~
+0 0 30050
+D3
+Camino a belverus.
+~
+~
+0 0 30020
+E
+poste indicador~
+{y                    ______________________________
+                   |                              |
+                   | {YThrallos, 1 legua al norte.{y  |
+                   | {YBelverus, 1/2 legua al este.{y |
+                   | {Y Valkia, 3 leguas al oeste.{y  |
+                   |______________________________|
+                                 |  |
+                                 |  |
+                                 |  |
+                                 |  |
+                                 |  |
+                      {M*{g,{y         |  |{M       *{g
+                       \ .     {y  |  |  {c  *{g /`
+                  ______V________{y|__|{g_____V_____V___
+{w
+~
+S
+#30049
+El sendero a thrallos.~
+Un sendero poco transitado conduce a las ruinas de Thrallos al norte. Al
+sur ves el camino que lleva a Belverus. La maleza dificulta tu movimiento.
+Por su espesura se diria que nadie ha pasado por aqui en diez anyos.
+~
+0 1 0
+D0
+El sendero a thrallos.
+~
+~
+0 0 30081
+D2
+La interseccion.
+~
+~
+0 0 30048
+S
+#30050
+Camino a belverus.~
+El camino discurre de este a oeste. Al este puedes distinguir la ciudad de
+Belverus, capital de Nemedia y residencia del rey Tarascus. Al oeste se
+halla el rio Valkia, donde en estos momentos se hallan las legiones
+nemedias.
+~
+0 0 0
+D1
+Las puertas de belverus.
+~
+~
+0 0 30111
+D3
+La interseccion.
+~
+~
+0 0 30048
+S
+#30051
+El paso de las montanyas.~
+A traves de las rocas hay un paso que cruza las montanyas del norte del
+valle de Valkia. Varias rocas se desprenden cuando las usas como asideros
+para subir, asi que sera mejor que vigiles donde pones los pies, podrias
+caerte.
+~
+0 5 0
+D0
+En las montanyas.
+~
+~
+0 0 30052
+D5
+El campo de batalla nemedio.
+~
+~
+0 0 30042
+S
+#30052
+En las montanyas.~
+Te encuentras cruzando las montanyas del norte del valle de Valkia. Desde
+aqui puedes ver el valle: una hondonada partida por el rio Valkia. Observas
+a miles de soldados en el valle ocupados en exterminarse los unos a otros.
+Incluso aqui llegan los gritos de dolor y el ruido del entrechocar de
+armas.
+~
+0 5 0
+D2
+El paso de las montanyas.
+~
+~
+0 0 30051
+D3
+En las montanyas.
+~
+~
+0 0 30053
+S
+#30053
+En las montanyas.~
+Te encuentras cruzando las montanyas del norte del valle de Valkia. Desde
+aqui puedes ver el valle: una hondonada partida por el rio Valkia. Observas
+a miles de soldados en el valle ocupados en exterminarse los unos a otros.
+Incluso aqui llegan los gritos de dolor y el ruido del entrechocar de
+armas.
+~
+0 5 0
+D1
+En las montanyas.
+~
+~
+0 0 30052
+D3
+En las montanyas.
+~
+~
+0 0 30054
+S
+#30054
+En las montanyas.~
+Te encuentras cruzando las montanyas del norte del valle de Valkia. Desde
+aqui puedes ver el valle: una hondonada partida por el rio Valkia. Observas
+a miles de soldados en el valle ocupados en exterminarse los unos a otros.
+Incluso aqui llegan los gritos de dolor y el ruido del entrechocar de
+armas.
+~
+0 5 0
+D0
+El paso de las montanyas.
+~
+~
+0 0 30055
+D1
+En las montanyas.
+~
+~
+0 0 30053
+S
+#30055
+El paso de las montanyas.~
+Desde aqui puedes descender a las llanuras del norte o continuar
+adentrandote en las montanyas. Abajo ves un sendero entre las rocas.
+~
+0 5 0
+D2
+En las montanyas.
+~
+~
+0 0 30054
+D5
+El camino de las llanuras.
+~
+~
+0 0 30056
+S
+#30056
+El camino de las llanuras.~
+Estas en un camino que cruza las llanuras septrentionales. Al sur hay unas
+montanyas que te impiden el paso. Escondido entre las malezas ves un
+sendero que asciende a las montanyas.
+~
+0 0 0
+D1
+El camino de las llanuras.
+~
+~
+0 0 30072
+D3
+El camino de las llanuras.
+~
+~
+0 0 30057
+D4
+El paso de las montanyas.
+~
+~
+0 0 30055
+S
+#30057
+El camino de las llanuras.~
+Estas en un camino que cruza las llanuras septrentionales, un lugar
+bastante inhospito y yermo.
+Hacia el oeste puedes ver una sencilla cabanya escondida entre penyascos.
+~
+0 0 0
+D1
+El camino de las llanuras.
+~
+~
+0 0 30056
+D2
+Las llanuras septentrionales.
+~
+~
+0 0 30058
+S
+#30058
+Las llanuras septentrionales.~
+Estas en las desoladas llanuras septentrionales, pertenecientes al reino de
+Aquilonia. Al sur y al este se alzan las montanyas. Al oeste se extienden
+las llanuras.
+~
+0 0 0
+D0
+El camino de las llanuras.
+~
+~
+0 0 30057
+D3
+Las llanuras septentrionales.
+~
+~
+0 0 30059
+S
+#30059
+Las llanuras septentrionales.~
+Estas en las desoladas llanuras septentrionales, pertenecientes al reino de
+Aquilonia. Sin embargo no deben ser tan desoladas, ya que al norte ves una
+sencilla cabanya, oculta entre unos penyascos que la protegen de miradas
+indiscretas.
+~
+0 0 0
+D0
+La morada de zelata.
+~
+puerta~
+3 0 30066
+D1
+Las llanuras septentrionales.
+~
+~
+0 0 30058
+D2
+Las llanuras septentrionales.
+~
+~
+0 0 30064
+D3
+Las llanuras septentrionales.
+~
+~
+0 0 30060
+S
+#30060
+Las llanuras septentrionales.~
+Estas en las desoladas llanuras septentrionales, pertenecientes al reino de
+Aquilonia. Al norte se alzan las montanyas. Al oeste y al este se extienden
+las llanuras.
+~
+0 0 0
+D1
+Las llanuras septentrionales.
+~
+~
+0 0 30059
+D2
+Llanuras septentrionales.
+~
+~
+0 0 30065
+D3
+Las llanuras septentrionales.
+~
+~
+0 0 30061
+S
+#30061
+Las llanuras septentrionales.~
+Estas en las desoladas llanuras septentrionales, pertenecientes al reino de
+Aquilonia. Al norte y al sur se alzan las montanyas. Al oeste y al este se
+extienden las llanuras.
+~
+0 0 0
+D1
+Las llanuras septentrionales.
+~
+~
+0 0 30060
+D3
+Las llanuras septentrionales.
+~
+~
+0 0 30062
+S
+#30062
+Las llanuras septentrionales.~
+Estas en las desoladas llanuras septentrionales, pertenecientes al reino de
+Aquilonia. Al norte y al sur se alzan las montanyas. Al oeste y al este se
+extienden las llanuras.
+~
+0 0 0
+D1
+Las llanuras septentrionales.
+~
+~
+0 0 30061
+D3
+Las llanuras septentrionales.
+~
+~
+0 0 30063
+S
+#30063
+Las llanuras septentrionales.~
+Estas en las desoladas llanuras septentrionales, pertenecientes al reino de
+Aquilonia. Al norte y al oeste se alzan las montanyas. Al este se extienden
+las llanuras.
+Puedes ver un sendero en direccion al sur.
+~
+0 0 0
+D1
+Las llanuras septentrionales.
+~
+~
+0 0 30062
+D2
+El sendero de las llanuras.
+~
+~
+0 0 30067
+S
+#30064
+Las llanuras septentrionales.~
+Estas en las desoladas llanuras septentrionales, pertenecientes al reino de
+Aquilonia. Al sur y al este se alzan las montanyas. Al oeste y al norte se
+extienden las llanuras.
+~
+0 0 0
+D0
+Las llanuras septentrionales.
+~
+~
+0 0 30059
+D3
+Las llanuras septentrionales.
+~
+~
+0 0 30065
+S
+#30065
+Las llanuras septentrionales.~
+Estas en las desoladas llanuras septentrionales, pertenecientes al reino de
+Aquilonia. Al sur y al oeste se alzan las montanyas. Al norte y al este se
+extienden las llanuras.
+~
+0 0 0
+D0
+Las llanuras septentrionales.
+~
+~
+0 0 30060
+D1
+Las llanuras septentrionales.
+~
+~
+0 0 30064
+S
+#30066
+La morada de zelata.~
+Aqui vive Zelata, una anciana a la que los aldeanos atribuyen poderes
+magicos. Tambien se dice que esconde un tesoro, aunque no son mas que
+habladurias.
+La cabanya de Zelata esta contruida aprovechando una cueva natural en las
+montanyas septentrionales. Por todas partes puedes ver huesos y calaveras
+humanas colgando, bolsas con hierbas y tarros con pociones. A pesar del
+tetrico aspecto del lugar te sientes a gusto. Es el lugar ideal para
+reponer fuerzas.
+~
+0 0 0
+D2
+Las llanuras septentrionales.
+~
+puerta~
+3 0 30059
+S
+#30067
+El sendero de las llanuras.~
+Te hallas en un sendero cubierto de malezas que une las llanuras
+septentrionales con el interior del reino de Aquilonia, bordeando unas
+montanyas que se alzan al este. Al oeste puedes ver otra cadena montanyosa
+que te cierra el paso.
+~
+0 1 0
+D0
+Las llanuras septentrionales.
+~
+~
+0 0 30063
+D2
+El sendero de las llanuras.
+~
+~
+0 0 30068
+S
+#30068
+El sendero de las llanuras.~
+Te hallas en un sendero cubierto de malezas que une las llanuras
+septentrionales con el interior del reino de Aquilonia, bordeando unas
+montanyas que se alzan al este. Al oeste puedes ver otra cadena montanyosa
+que te cierra el paso.
+Al sur ves como el sendero se une a un ancho camino.
+~
+0 1 0
+D0
+El sendero de las llanuras.
+~
+~
+0 0 30067
+D2
+Una interseccion.
+~
+~
+0 0 30069
+S
+#30069
+Una interseccion.~
+Estas en una interseccion en forma de T. En direccion este-oeste discurre
+el camino a Tarantia, mientras que al norte se inicia un sendero casi
+oculto por la vegetacion.
+Clavado en el suelo hay un poste indicador.
+~
+0 0 0
+D0
+El sendero de las llanuras.
+~
+~
+0 0 30068
+D1
+El camino a tarantia.
+~
+~
+0 0 30036
+D3
+El camino a tarantia.
+~
+~
+0 0 30070
+E
+poste indicador~
+{y                    ______________________________
+                   /                              \
+                  | {Y Llanuras, 2 leguas al norte.{y  |
+                  | {Y  Tarantia, 1 legua al oeste.{y  |
+                  | {Y   Valkia, 2 leguas al este. {y  |
+                   \______________________________/
+                                 |  |
+                                 |  |
+                                 |  |
+                                 |  |
+                                 |  |
+                        {M  * {y     |  |  {c     *
+                     {r *{g. /` {y     |  |  {M  *{g /   \
+                  ______V________{y|__|{g_____V_____V___
+
+{w
+~
+S
+#30070
+El camino a tarantia.~
+Estas en un ancho camino procedente de Tarantia, capital de Aquilonia. El
+camino es usado por las huestes aquilonias para acudir al campo de batalla
+en el valle de Valkia. Las huellas en el suelo te indican que el
+contingente aquilonio esta compuesto por varios millares de soldados y
+caballeros.
+~
+0 0 0
+D1
+Una interseccion.
+~
+~
+0 0 30069
+D3
+El camino a tarantia.
+~
+~
+0 0 30071
+S
+#30071
+El camino a tarantia.~
+Estas en un ancho camino procedente de Tarantia, capital de Aquilonia. El
+camino es usado por las huestes aquilonias para acudir al campo de batalla
+en el valle de Valkia. Las huellas en el suelo te indican que el
+contingente aquilonio esta compuesto por varios millares de soldados y
+caballeros.
+~
+0 0 0
+D1
+El camino a tarantia.
+~
+~
+0 0 30070
+D3
+Las puertas de tarantia.
+~
+~
+0 0 30082
+S
+#30072
+El camino de las llanuras.~
+Estas en un camino que cruza las llanuras septrentionales. Al sur hay unas
+montanyas que te impiden el paso. Al andar levantas una espesa polvareda
+que te hace toser. Parece que hace tiempo que no llueve en esta zona. El
+camino tampoco parece que haya sido transitado en anyos.
+~
+0 0 0
+D1
+El camino de las llanuras.
+~
+~
+0 0 30073
+D3
+El camino de las llanuras.
+~
+~
+0 0 30056
+S
+#30073
+El camino de las llanuras.~
+Estas en un camino que cruza las llanuras septrentionales. Al sur hay unas
+montanyas que te impiden el paso. Al andar levantas una espesa polvareda
+que te hace toser. Parece que hace tiempo que no llueve en esta zona. El
+camino tampoco parece que haya sido transitado en anyos.
+~
+0 0 0
+D1
+El camino de las llanuras.
+~
+~
+0 0 30074
+D3
+El camino de las llanuras.
+~
+~
+0 0 30072
+S
+#30074
+El camino de las llanuras.~
+Estas en un camino que cruza las llanuras septrentionales. Al sur hay unas
+montanyas que te impiden el paso. Al andar levantas una espesa polvareda
+que te hace toser. Parece que hace tiempo que no llueve en esta zona. El
+camino tampoco parece que haya sido transitado en anyos.
+Al sur distingues las ruinas de una antigua casa de campo.
+~
+0 0 0
+D1
+El camino de las llanuras.
+~
+~
+0 0 30075
+D3
+El camino de las llanuras.
+~
+~
+0 0 30073
+S
+#30075
+El camino de las llanuras.~
+Estas en un camino que cruza las llanuras septrentionales. Al sur hay unas
+montanyas que te impiden el paso. Al andar levantas una espesa polvareda
+que te hace toser. Parece que hace tiempo que no llueve en esta zona. El
+camino tampoco parece que haya sido transitado en anyos.
+Hay unas ruinas al suroeste.
+~
+0 0 0
+D2
+El camino de thrallos.
+~
+~
+0 0 30076
+D3
+El camino de las llanuras.
+~
+~
+0 0 30074
+S
+#30076
+El camino de thrallos.~
+Este corto camino lleva a la antigua casa de campo de Thrallos, ahora vacia
+y semiderruida. Al norte observas un camino que se adentra en las llanuras
+septentrionales.
+~
+0 0 0
+D0
+El camino de las llanuras.
+~
+~
+0 0 30075
+D1
+El camino de thrallos.
+~
+~
+0 0 30078
+D3
+Las ruinas de thrallos.
+~
+~
+0 0 30077
+S
+#30077
+Las ruinas de thrallos.~
+Antiguamente esta fue una esplendida casa de campo donde los nobles
+aquilonios venian a descansar. Cuando Numedides se hizo con la corona de
+Aquilonia mando ejecutarlos bajo la falsa acusacion de alentar la rebeldia.
+El edificio principal, situado al oeste esta completamente destruido,
+aunque en este patio aun hay algunos elementos en pie. Ves estatuas de
+marmol rotas por el tiempo y cubiertas de hiedra.
+~
+0 0 0
+D1
+El camino de thrallos.
+~
+~
+0 0 30076
+S
+#30078
+El camino de thrallos.~
+Este corto camino lleva a la antigua casa de campo de Thrallos, ahora vacia
+y semiderruida. Al norte y al sur te cierran el paso las montanyas. Al este
+el camino describe una curva hacia el sur.
+~
+0 0 0
+D1
+Una curva en el camino.
+~
+~
+0 0 30079
+D3
+El camino de thrallos.
+~
+~
+0 0 30076
+S
+#30079
+Una curva en el camino.~
+Aqui el camino se estrecha hacia el sur, mientras que hacia el oeste se
+hallan las ruinas de Thrallos. La maleza hace tus movimientos mas
+dificiles.
+~
+0 1 0
+D2
+El sendero a thrallos.
+~
+~
+0 0 30080
+D3
+El camino a thrallos.
+~
+~
+0 0 30078
+S
+#30080
+El sendero a thrallos.~
+Transitas por un sendero cubierto de malezas, signo inequivoco de que nadie
+ha pasado por aqui en mucho tiempo. Los arbustos y zarzas se enredan en tus
+pies y te aranyan las piernas.
+Al norte el sendero gira hacia el oeste.
+~
+0 1 0
+D0
+Una curva en el camino.
+~
+~
+0 0 30079
+D2
+El sendero a thrallos.
+~
+~
+0 0 30081
+S
+#30081
+El sendero a thrallos.~
+Transitas por un sendero cubierto de malezas, signo inequivoco de que nadie
+ha pasado por aqui en mucho tiempo. Los arbustos y zarzas se enredan en tus
+pies y te aranyan las piernas.
+~
+0 1 0
+D0
+El sendero a thrallos.
+~
+~
+0 0 30080
+D2
+El sendero a thrallos.
+~
+~
+0 0 30049
+S
+#30082
+La puertas de tarantia.~
+Ante ti se alza la ciudad de Tarantia, capital del reino de Aquilonia y uno
+de los centros mas importantes de la civilizacion hyborea. La ciudad esta
+totalmente amurallada, y esta es la unica entrada.
+~
+0 1 0
+D1
+El camino a tarantia.
+~
+~
+0 0 30071
+D3
+Dentro de tarantia.
+~
+puertas~
+3 0 30083
+S
+#30083
+Dentro de tarantia.~
+Te hallas en el interior de la mayor de las ciudades de Aquilonia,
+Tarantia, la capital del reino. Tarantia es tristemente famosa por la Torre
+de Hierro, una tenebrosa torre-prision donde eran encerrados los traidores
+al rey y posteriormente eran torturados y ejecutados.
+Al oeste distingues los muros del palacio real y al este ves las enormes
+puertas de la ciudad. Al norte ves la Calle de la Espada, mientras que al
+sur empieza la Calle de la Corona.
+~
+0 1 0
+D0
+La calle de la espada.
+~
+~
+0 0 30092
+D1
+Las puertas de tarantia.
+~
+puertas~
+3 0 30082
+D2
+La calle de la corona.
+~
+~
+0 0 30084
+S
+#30084
+La calle de la corona.~
+Estas en la Calle de la Corona, la avenida principal de Tarantia, ya que en
+ella esta el palacio real, situado al noroeste tuyo.
+~
+0 1 0
+D0
+Dentro de tarantia.
+~
+~
+0 0 30083
+D3
+La calle de la corona.
+~
+~
+0 0 30085
+S
+#30085
+La calle de la corona.~
+Estas justo enfrente del magnifico palacio real de Tarantia. Se trata de un
+bello edificio de varias plantas, solo superado en altura por la oscura
+mole de la Torre de Hierro. Al sur observas una taberna.
+~
+0 1 0
+D0
+El palacio real.
+~
+puertas~
+3 0 30101
+D1
+La calle de la corona.
+~
+~
+0 0 30084
+D2
+El grifo de plata.
+~
+puerta~
+3 0 30096
+D3
+La calle de la corona.
+~
+~
+0 0 30086
+S
+#30086
+La calle de la corona.~
+Estas en la Calle de la Corona, la avenida principal de Tarantia, ya que en
+ella esta el palacio real, cuyos muros puedes observar al norte.
+~
+0 1 0
+D1
+La calle de la corona.
+~
+~
+0 0 30085
+D2
+~
+~
+3 0 30097
+D3
+La calle de la corona.
+~
+~
+0 0 30087
+S
+#30087
+La calle de la corona.~
+Estas en la Calle de la Corona, la avenida principal de Tarantia, ya que en
+ella esta el palacio real, cuyos muros puedes observar al noreste. Hacia el
+noroeste ves una impresionante torre oscura.
+~
+0 1 0
+D0
+La calle de la torre de hierro.
+~
+~
+0 0 30088
+D1
+La calle de la corona.
+~
+~
+0 0 30086
+S
+#30088
+La calle de la torre de hierro.~
+Ante ti, al oeste, se alza la gigantesca mole que es la Torre de Hierro, un
+sitio que todos los aquilonios evitan como si fuera el Infierno, y no es
+para menos. En la torre eran encarcelados, torturados y ejecutados los
+traidores al rey. Ves sus enormes puertas de hierro, pero estan totalmente
+selladas. Sin embargo, piensas, debe haber una forma de entrar en ella.
+~
+0 1 0
+D0
+La calle de la espada.
+~
+~
+0 0 30089
+D2
+La calle de la corona.
+~
+~
+0 0 30087
+S
+#30089
+La calle de la espada.~
+Te encuentras en la calle mas septentrional de Tarantia. Esta calle es
+famosa por su armeria (ahora comprendes el porque de su nombre).
+Al suroeste ves una oscura torre muy alta.
+~
+0 1 0
+D1
+La calle de la espada.
+~
+~
+0 0 30090
+D2
+La calle de la torre de hierro.
+~
+~
+0 0 30088
+S
+#30090
+La calle de la espada.~
+Te encuentras en la calle mas septentrional de Tarantia. Esta calle es
+famosa por su armeria (ahora comprendes el porque de su nombre).
+Al sur ves los muros del palacio real.
+~
+0 1 0
+D0
+~
+~
+3 0 30094
+D1
+La calle de la espada.
+~
+~
+0 0 30091
+D3
+La calle de la espada.
+~
+~
+0 0 30089
+S
+#30091
+La calle de la espada.~
+Te encuentras en la calle mas septentrional de Tarantia. Esta calle es
+famosa por su armeria (ahora comprendes el porque de su nombre).
+Al sur ves los muros del palacio real, y al norte ves una armeria muy
+concurrida.
+~
+0 1 0
+D0
+La armeria cimmeria.
+~
+~
+1 0 30093
+D1
+La calle de la espada.
+~
+~
+0 0 30092
+D3
+La calle de la espada.
+~
+~
+0 0 30090
+S
+#30092
+La calle de la espada.~
+Te encuentras en la calle mas septentrional de Tarantia. Esta calle es
+famosa por su armeria (ahora comprendes el porque de su nombre).
+El palacio se alza al suroeste.
+~
+0 1 0
+D2
+Dentro de tarantia.
+~
+~
+0 0 30083
+D3
+La calle de la espada.
+~
+~
+0 0 30091
+S
+#30093
+La armeria cimmeria.~
+Alineadas en varios estantes ves un monton de armas de gran calidad. Al
+fondo de la tienda ves una fragua y un yunque, donde el armero produce sus
+armas, famosas en toda Aquilonia. Aqui encontraras lo mejor al mejor
+precio. Ves un cartel sobre una mesa que sirve de mostrador.
+~
+0 0 0
+D2
+La calle de la espada.
+~
+~
+1 0 30091
+E
+cartel~
+Bienvenido a la Armeria Cimmeria. Compra/venta de todo tipo de armas.
+Abrimos todos los dias desde las 6 hasta las 19 h.
+
+Para consultar las armas disponibles pon LISTA.
+Para comprar un arma pon COMPRAR <arma que deseas comprar>.
+Para vender un arma pon VENDER <arma que deseas vender>.
+Para tasar un arma pon VALORAR <arma que quieres tasar>.
+
+~
+S
+#30094
+Una habitacion secreta.~
+Estas en una oscura y vacia habitacion. El suelo esta lleno de polvo y el
+techo cubierto de telaranyas. Parece que nadie haya pasado por aqui en
+mucho tiempo.
+~
+0 0 0
+D2
+La calle de la espada.
+~
+~
+3 0 30090
+D5
+~
+~
+3 0 30095
+S
+#30095
+Un pasadizo secreto.~
+Te encuentras en un oscuro pasadizo que pasa por debajo de las calles de
+Tarantia. El aire esta enrarecido y varias ratas huyen cuando te acercas.
+Parece una vieja alcantarilla en desuso desde hace anyos, aunque un olor
+pestilente aun perdura.
+~
+0 0 0
+D2
+~
+~
+3 0 30110
+D3
+Un pasadizo secreto.
+~
+~
+0 0 30109
+D4
+~
+~
+3 0 30103
+S
+#30096
+El grifo de plata.~
+Cuando entras en la mas famosa de las posadas de Tarantia un deliciosa
+aroma a comida te asalta. La boca se te hace agua y los rugidos de tu
+estomago te recuerdan su existencia. Alrededor de las mesas hay un monton
+de parroquianos comiendo, bebiendo y conversando. Pese a la guerra, este es
+un local muy animado donde uno puede ahogar sus penas en alcohol.
+~
+0 0 0
+D0
+La calle de la espada.
+~
+~
+3 0 30085
+S
+#30097
+Una habitacion vacia.~
+Te encuentras en una habitacion abandonda y oscura. Sin embrago la
+habitacion esta limpia, lo que te indica que alguien pasa por aqui muy a
+menudo. Te preguntas quien debe ser.
+~
+0 0 0
+D0
+La calle de la espada.
+~
+~
+3 0 30086
+D5
+~
+~
+3 0 30098
+S
+#30098
+El templo de asura.~
+Has penetrado en el templo subterraneo de Asura, un dios oriental que
+elimino a los antiguos dioses. Los sacerdotes de Mitra creian que los
+seguidores de Asura realizaban ritos sangrientos en los que consumian carne
+humana, por lo que intentaron expulsarlos de la ciudad. Ello obligo a los
+sacerdotes a construir su templo bajo tierra.
+~
+0 0 0
+D2
+El altar de asura.
+~
+~
+0 0 30099
+D4
+~
+~
+3 0 30097
+S
+#30099
+El altar de asura.~
+Ante ti se alza una enorme estatua de Asura, el dios-serpiente de Vendhya.
+Los sacerdotes de Mitra asociaban a Asura con Set, Padre de las Serpientes,
+por lo que creian que era tan maligno como el. En consecuencia intentaron
+expulsar de Aquilonia el culto de Asura. En frente de la estatua hay un
+altar de marfil. Al oeste hay una capilla dedicada a una deidad Vendhya.
+~
+0 0 0
+D0
+El templo de asura.
+~
+~
+0 0 30098
+D3
+La capilla de yaamai.
+~
+~
+0 0 30100
+S
+#30100
+La capilla de yaamai.~
+Esta capilla esta dedicada a Yaamai, el dios demonio de la Muerte y el
+Suenyo. Aqui los iniciados en el culto de Asura pasan una prueba para
+comprobar si realmente son dignos.
+Una monstruosa estatua de Yaamai se alza ante ti.
+~
+0 0 0
+D1
+El altar de asura.
+~
+~
+0 0 30099
+E
+estatua~
+Esta esculpida en marmol verde oscuro. Tiene dos cabezas y cuatro brazos,
+con un arma empunyada en cada uno. Si estuviera vivo seria un oponente
+formidable. Yaamai conquisto a todos los dioses salvo a Asura.
+~
+S
+#30101
+El palacio real.~
+Estas dentro del palacio real de Tarantia, antanyo hogar de Conan, ahora
+ocupado por Valerius y sus aliados nemedios. Ricos tapices cuelgan de las
+paredes, mientras que caros muebles adornan la estancia.
+~
+0 0 0
+D2
+La calle de la corona.
+~
+puertas~
+3 0 30085
+D3
+En el interior del palacio.
+~
+puerta~
+1 0 30102
+S
+#30102
+En el interior del palacio.~
+Sigues en el interior del palacio. Esta estancia esta igualmente amueblada,
+con adornos procedentes de diferentes regiones de Hyborea, presentes de
+gobernadores y reyes.
+Al fondo de la estancia puedes ver una escalera de marmol que conduce al
+segundo piso del palacio.
+~
+0 0 0
+D1
+El palacio real.
+~
+puerta~
+1 0 30101
+D4
+El segundo piso.
+~
+~
+0 0 30106
+D5
+~
+~
+3 0 30110
+S
+#30103
+La torre de hierro.~
+A tu alrededor se alinean decenas de celdas donde eran confinados los
+reclusos. El olor es insoportable. Todo esta muy sucio y lleno de ratas.
+Con la subida de Valerius al trono la Torre vuelve a sus antiguas funciones
+de prision.
+Una escalera de hierro oxidado lleva al piso superior.
+~
+0 0 0
+D4
+El segundo piso de la torre.
+~
+~
+0 0 30104
+D5
+Pasadizo secreto
+~
+~
+0 0 30095
+S
+#30104
+El segundo piso de la torre.~
+Al igual que el piso inferior, decenas de celdas llenan la estancia. Aunque
+el olor es mas soportable que en el primer piso, las ratas y la suciedad
+siguen haciendo acto de presencia.
+~
+0 0 0
+D4
+El patibulo.
+~
+~
+0 0 30105
+D5
+La torre de hierro.
+~
+~
+0 0 30103
+S
+#30105
+El patibulo.~
+Aqui eran ajusticiados los reos. Un tronco de madera con un monton de
+marcas causadas por un hacha y manchado de sangre seca es el triste
+testimonio de un pasado que ha regresado con la coronacion de Valerius.
+~
+0 0 0
+D5
+El segundo piso de la torre.
+~
+~
+0 0 30104
+S
+#30106
+El segundo piso.~
+Te hallas en el segundo piso del Palacio Real de Tarantia. Las estancias
+estan ricamente decoradas con alfombras, tapices y adornos de oro y marfil.
+Una escalera de marmol desciende al primer piso, mientras que hay otra
+estancia al este.
+~
+0 0 0
+D1
+El segundo piso.
+~
+puerta~
+1 0 30107
+D5
+En el interior del palacio.
+~
+~
+0 0 30102
+S
+#30107
+El segundo piso.~
+Esta estancia, al igual que la anterior esta deocorada con objetos bellos y
+caros. Una escalera de marmol con adornos de oro conduce al ultimo piso del
+palacio.
+~
+0 0 0
+D3
+El segundo piso.
+~
+puerta~
+1 0 30106
+D4
+La sala del trono.
+~
+~
+0 0 30108
+S
+#30108
+La sala del trono.~
+Desde esta sala Conan gobernaba Aquilonia. Ahora pertenece al nuevo rey de
+Aquilonia. Los adornos de esta camara son aun mas ricos que los que has
+visto en el resto del palacio. Al fondo, bajo un cuadro de Valerius, puedes
+ver el Trono de Aquilonia.
+~
+0 0 0
+D5
+El segundo piso.
+~
+~
+0 0 30107
+E
+trono~
+Un trono de ebano y oro preside la estancia. Una piel de tigre esta a sus
+pies a modo de alfombra.
+~
+S
+#30109
+Un pasadizo secreto.~
+Te encuentras en un oscuro pasadizo que pasa por debajo de las calles de
+Tarantia. El aire esta enrarecido y varias ratas huyen cuando te acercas.
+Parece una vieja alcantarilla en desuso desde hace anyos, aunque un olor
+pestilente aun perdura.
+~
+0 0 0
+D1
+Un pasadizo secreto.
+~
+~
+0 0 30095
+S
+#30110
+Los sotanos del palacio.~
+Este oscuro sotano pertenece al palacio de Tarantia. Enseres antes
+pertenecientes a Conan estan aqui almacenados. Valerius no quiere nada que
+le recuerde al antiguo poseedor de la corona aquilonia.
+~
+0 0 0
+D0
+~
+~
+3 0 30095
+D4
+~
+~
+3 0 30102
+S
+#30111
+Las puertas de belverus.~
+Ante ti tienes Belverus, capital del reino de Nemedia. Sus habitantes estan
+felices por la victoria de su ejercito sobre los aquilonios. Salen a la
+calle y lo festejan por todo lo alto.
+~
+0 1 0
+D1
+La calle del dragon.
+~
+puertas~
+3 0 30112
+D3
+Camino a belverus.
+~
+~
+0 0 30050
+S
+#30112
+La calle del dragon.~
+Esta es la avenida principal de Belverus y recibe este nombre porque el
+dragon es el simbolo de Nemedia. Belverus estaba gobernada por Nimed, hasta
+que murio victima de la peste junto a sus cuatro hijos. La gente murmuro
+que era su castigo por practicar la magia negra y acepto como rey a
+Tarascus, hermano menor de Nimed. Tarascus reunio a sus barones y organizo
+una cruzada contra Aquilonia para deponer al rey Conan.
+Al norte puedes ver una taberna de la que no paran de entrar y salir
+hombres borrachos.
+~
+0 1 0
+D0
+La taberna del dragon.
+~
+puerta~
+3 0 30116
+D1
+~
+~
+0 0 30113
+D2
+Una calle de belverus.
+~
+~
+0 0 30115
+D3
+~
+puertas~
+3 0 30111
+S
+#30113
+La calle del dragon.~
+Esta es la avenida principal de Belverus y recibe este nombre porque el
+dragon es el simbolo de Nemedia. Belverus estaba gobernada por Nimed, hasta
+que murio victima de la peste junto a sus cuatro hijos. La gente murmuro
+que era su castigo por practicar la magia negra y acepto como rey a
+Tarascus, hermano menor de Nimed. Tarascus reunio a sus barones y organizo
+una cruzada contra Aquilonia para deponer al rey Conan.
+Al este puedes ver el palacio real. Al sur hay una concurrida tienda.
+~
+0 1 0
+D0
+Una calle de belverus.
+~
+~
+0 0 30117
+D1
+El palacio de belverus.
+~
+puertas~
+3 0 30118
+D2
+El bazar.
+~
+puerta~
+3 0 30114
+D3
+~
+~
+0 0 30112
+S
+#30114
+El bazar.~
+te encuentras en una tienda regentada por un comerciante vendhyo. A tu
+alrededor puedes ver objetos procedentes de las mas reconditas regiones de
+Hyborea.
+Sobre el mostrador hay una nota.
+~
+0 0 0
+D0
+La calle del dragon.
+~
+puerta~
+3 0 30113
+E
+nota~
+Bienvenido al Bazar. Compra/venta de todo tipo de objetos.
+Abrimos todos los dias desde las 8 hasta las 22 h.
+
+Para consultar los objetos disponibles pon LISTA.
+Para comprar un objeto pon COMPRAR <objeto que deseas comprar>.
+Para vender un objeto pon VENDER <objeto que deseas vender>.
+Para tasar un objeto pon VALORAR <objeto que quieres tasar>.
+
+~
+S
+#30115
+Una calle de belverus.~
+Paseas por una calle de Belverus. La gente que pasa por tu lado te sonrie
+mientras canturrea feliz. Yendo al norte llegaras a la calle principal de
+Belverus.
+~
+0 1 0
+D0
+La calle del dragon.
+~
+~
+0 0 30112
+S
+#30116
+La taberna del dragon.~
+Ah!. Las tabernas de Belverus: su comida, su bebida, su musica... tantos
+placeres para los sentidos. Ademas el ambiente es mas festivo por la
+victoria del ejercito nemedio. Varios soldados totalmente borrachos cuentan
+a los parroquianos, no menos borrachos, sus gestas en la batalla de Valkia,
+repitiendolas una y otra vez.
+~
+0 0 0
+D2
+La calle del dragon.
+~
+~
+3 0 30112
+S
+#30117
+Una calle de belverus.~
+Paseas por una calle de Belverus. La gente que pasa por tu lado te sonrie
+mientras canturrea feliz. Yendo al sur llegaras a la calle principal de
+Belverus.
+~
+0 1 0
+D2
+La calle del dragon.
+~
+~
+0 0 30113
+S
+#30118
+El palacio de belverus.~
+Este es el palacio que antanyo ocupo el rey Nimed antes de morir a manos de
+la peste junto a sus cuatro hijos. Ahora el nuevo rey es Tarascus, su
+hermano menor. Para demostrar su condicion real, las estancias estan
+cubiertas con ricos tapices y adornos.
+Una escalera lleva a las estancias superiores.
+~
+0 0 0
+D3
+La calle del dragon.
+~
+puertas~
+3 0 30113
+D4
+El segundo piso.
+~
+~
+0 0 30119
+D5
+~
+trampilla~
+3 0 30122
+S
+#30119
+El segundo piso.~
+Te encuentras en una estancia del segundo piso del palacio de Belverus.
+Unas puertas de roble talladas conducen al salon del trono al este,
+mientras que una escalera desciende al primer piso. La habitacion esta
+ricamente amueblada.
+~
+0 0 0
+D1
+El salon del trono.
+~
+puertas~
+3 0 30120
+D5
+El palacio de belverus.
+~
+~
+0 0 30118
+S
+#30120
+El salon del trono.~
+Estas en las estancias del rey de Nemedia. Caros tapices y adornos de oro y
+plata cuelgan de las paredes, mientras que una bella alfombra shemita
+decora el suelo de marmol. Frente a ti hay un trono de roble y marfil, el
+trono del rey Tarascus. A traves de las ventanas cubiertas con ricos
+cortinajes de seda de Khitai puedes ver las calles de Belverus, pero tienes
+la sensacion de no estar en el punto mas alto del palacio.
+~
+0 0 0
+D3
+El segundo piso.
+~
+puertas~
+3 0 30119
+D4
+~
+trampilla~
+3 0 30121
+S
+#30121
+El estudio privado de xaltotun.~
+Cuando entras una atmosfera malvada te golpea como un ariete. Este es el
+centro de todo el mal que se ha abatido sobre los reinos occidentales de
+Hyborea en los ultimos meses.
+Puedes ver una mesa llena de pergaminos escritos en una lengua muerta hace
+miles de anyos. Un trono de hierro negro esta frente a ti. En el suelo ves
+un circulo mistico dibujado con sangre.
+~
+0 0 0
+D5
+El salon del trono.
+~
+trampilla~
+3 0 30120
+S
+#30122
+Las mazmorras.~
+Te encuentras en los oscuros sotanos del palacio de Belverus, donde estan
+ubicadas las mazmorras. Puedes ver las puertas de las celdas al norte y al
+sur.
+~
+0 0 0
+D0
+Una celda.
+~
+puerta~
+7 30035 30124
+D2
+Una celda.
+~
+puerta~
+7 30035 30126
+D3
+Las mazmorras.
+~
+~
+0 0 30123
+D4
+El palacio de belverus.
+~
+trampilla~
+3 0 30118
+S
+#30123
+Las mazmorras.~
+Te encuentras en los oscuros sotanos del palacio de Belverus, donde estan
+ubicadas las mazmorras. Puedes ver las puertas de las celdas al norte y al
+sur.
+~
+0 0 0
+D0
+Una celda.
+~
+puerta~
+7 30035 30125
+D1
+Las mazmorras
+~
+~
+0 0 30122
+D2
+Una celda.
+~
+puerta~
+7 30035 30127
+S
+#30124
+Una celda.~
+Oscura, fetida, humeda, fria y desagradable. No creo que te interese pasar
+el resto de la vida aqui. En la pared ves unos grilletes para encadenar a
+los presos. Las ratas huyen cuando te ven.
+~
+0 0 0
+D2
+Las mazmorras.
+~
+puerta~
+7 30035 30122
+S
+#30125
+Una celda.~
+Oscura, fetida, humeda, fria y desagradable. No creo que te interese pasar
+el resto de la vida aqui. En la pared ves unos grilletes para encadenar a
+los presos. Las ratas huyen cuando te ven.
+~
+0 0 0
+D2
+Las mazmorras.
+~
+puerta~
+7 30035 30123
+S
+#30126
+Una celda.~
+Oscura, fetida, humeda, fria y desagradable. No creo que te interese pasar
+el resto de la vida aqui. En la pared ves unos grilletes para encadenar a
+los presos. Las ratas huyen cuando te ven.
+~
+0 0 0
+D0
+Las mazmorras.
+~
+puerta~
+7 30035 30122
+S
+#30127
+Una celda.~
+Oscura, fetida, humeda, fria y desagradable. No creo que te interese pasar
+el resto de la vida aqui. En la pared ves unos grilletes para encadenar a
+los presos. Las ratas huyen cuando te ven.
+~
+0 0 0
+D0
+Las mazmorras.
+~
+puerta~
+7 30035 30123
+S
+#30128
+Poitain.~
+Estas en la provincia de Poitain, ahora independiente y gobernada por el
+conde Trocero. Si vienes con la intencion de saquear, mejor vuelve por
+donde has venido antes que el conde y su ejercito te atrape. Varios
+cadaveres nemedios abandonados por el suelo prueban su duro trato con los
+bandidos.
+En un poste hay un bando clavado.
+~
+0 0 0
+D0
+Camino a poitain.
+~
+~
+0 0 30040
+D1
+Poitain.
+~
+~
+0 0 30129
+D2
+Poitain.
+~
+~
+0 0 30131
+E
+poste bando~
+Declaro la independecia de la provincia de Poitain. Desde hoy, dia primero
+del Anyo del Dragon, Poitain queda desvinculada de la corona de Aquilonia.
+Nunca un poitaino sera esclavo del regimen de Valerius, el usurpador. Queda
+prohibida la entrada en Poitain a todo nemedio que no porte salvoconducto,
+bajo pena de muerte.
+
+Viva Poitain!. Viva el rey Conan!. Abajo Valerius!.
+
+                                        Trocero, conde de Poitain.
+~
+S
+#30129
+Poitain.~
+Estas en la provincia de Poitain, ahora independiente y gobernada por el
+conde Trocero. Si vienes con la intencion de saquear, mejor vuelve por
+donde has venido antes que el conde y su ejercito te atrape. Varios
+cadaveres nemedios abandonados por el suelo prueban su duro trato con los
+bandidos.
+~
+0 0 0
+D2
+Poitain.
+~
+~
+0 0 30130
+D3
+Poitain.
+~
+~
+0 0 30128
+S
+#30130
+Poitain.~
+Estas en la provincia de Poitain, ahora independiente y gobernada por el
+conde Trocero. Si vienes con la intencion de saquear, mejor vuelve por
+donde has venido antes que el conde y su ejercito te atrape. Varios
+cadaveres nemedios abandonados por el suelo prueban su duro trato con los
+bandidos.
+~
+0 0 0
+D0
+Poitain.
+~
+~
+0 0 30129
+D2
+Camino a messantia.
+~
+~
+0 0 30137
+D3
+Poitain.
+~
+~
+0 0 30131
+S
+#30131
+Poitain.~
+Estas en la provincia de Poitain, ahora independiente y gobernada por el
+conde Trocero. Si vienes con la intencion de saquear, mejor vuelve por
+donde has venido antes que el conde y su ejercito te atrape. Varios
+cadaveres nemedios abandonados por el suelo prueban su duro trato con los
+bandidos.
+~
+0 0 0
+D0
+Poitain.
+~
+~
+0 0 30128
+D1
+Poitain.
+~
+~
+0 0 30130
+D3
+Camino a zingara.
+~
+~
+0 0 30132
+S
+#30132
+Camino a zingara.~
+Te hallas en un camino que une la provincia de Poitain con el reino de
+Zingara. Al ser este un reino costero, esta ruta es muy usada por
+mercaderes, pues la capital de Zingara, Messantia, es uno de los mayores
+centros del comercio hyboreo.
+Lejos, al oeste, divisas un castillo.
+~
+0 0 0
+D1
+Poitain.
+~
+~
+0 0 30131
+D3
+La frontera de zingara.
+~
+~
+0 0 30133
+S
+#30133
+La frontera de zingara.~
+Estas en la frontera del reino de Zingara con la provincia de Poitain. El
+paraje es bastante yermo, con muchas rocas de gran tamanyo a tu alrededor.
+Justo ante ti se alza el castillo fronterizo de Valbroso, un nido de
+mercenarios y bandidos.
+~
+0 1 0
+D1
+La frontera de zingara.
+~
+~
+0 0 30132
+D3
+El castillo de valbroso.
+~
+puente levadizo~
+3 0 30134
+S
+#30134
+El castillo de valbroso.~
+Estas en el castillo de Valbroso, conde de Zingara. El castillo es un
+puesto de avanzada para prevenir invasiones a Zingara. Aprovechando su
+condicion de noble, Valbroso aumenta su fortuna personal saqueando poblados
+de Aquilonia y Argos.
+El castillo es bastante pequenyo, pero aun asi es capaz de albergar a un
+par de centenares de mercenarios.
+~
+0 1 0
+D1
+La frontera de zingara.
+~
+puente levadizo~
+3 0 30133
+D4
+La torre del castillo.
+~
+~
+0 0 30135
+D5
+La camara de tortura.
+~
+~
+0 0 30136
+S
+#30135
+La torre del castillo.~
+Estas son las habitaciones de Valbroso. La decoracion y mobiliario de la
+misma son testigos de los actos de pillaje de su duenyo. Cofres repletos de
+monedas estan acumulados junto con caros objetos de arte.
+Hay un trono de teca y seda en el extremo de la habitacion.
+~
+0 0 0
+D5
+El castillo de valbroso.
+~
+~
+0 0 30134
+S
+#30136
+La camara de tortura.~
+Te encuentras en los sotanos del castillo, en la camara de tortura para ser
+mas precisos. Alrededor tuyo hay diversos aparatos disenyados para infligir
+el dolor mas infernal al cuerpo humano. Valbroso no es famoso por su
+paciencia. Cuando quiere algo lo quiere a toda costa y en el acto.
+~
+0 0 0
+D4
+El castillo de valbroso.
+~
+~
+0 0 30134
+S
+#30137
+Camino a messantia.~
+Una ancha ruta muy transitada que va de Poitain al reino costero de Argos.
+Si sigues hacia el sur llegaras a Messantia, capital de Argos. Hacia el
+norte llegaras a Poitain.
+~
+0 0 0
+D0
+Poitain.
+~
+~
+0 0 30130
+D2
+Messantia.
+~
+~
+0 0 30138
+S
+#30138
+Messantia.~
+Estas en Messantia, capital de Argos y uno de los mayores centros
+comerciales del continente hyboreo. A sus muelles llegan bajeles de
+Zingara, Shem, Estigia, Vendhya y Khitai. Por tierra acuden mercaderes de
+los reinos occidentales: Aquilonia, Nemedia, Ophir, Koth, Zamora, Corinthia
+y Brythunia. En sus tiendas podras encontrar aquello que deseas.
+~
+0 1 0
+D0
+Camino a messantia.
+~
+~
+0 0 30137
+D1
+La calle del comercio.
+~
+~
+0 0 30139
+D2
+Una calle de messantia.
+~
+~
+0 0 30143
+S
+#30139
+La calle del comercio.~
+Esta es la calle de Messantia mas importante, donde estan las mejores y mas
+importantes tiendas de la ciudad.
+Al este ves una tienda donde puedes comprar y vender todo tipo de
+mercancias.
+~
+0 1 0
+D1
+La tienda de publio.
+~
+puerta~
+3 0 30140
+D2
+La calle del comercio.
+~
+~
+0 0 30142
+D3
+Messantia.
+~
+~
+0 0 30138
+S
+#30140
+La tienda de publio.~
+Pese a la sancillez de la tienda, puedes ver multitud de articulos diversos
+de diferente calidad, desde la herramienta mas humilde al mas rico vestido.
+La tienda de Publio es famosa en Messantia por sus articulos variados y de
+gran calidad.
+Puedes ver una nota sobre el mostrador.
+~
+0 0 0
+D3
+La calle del comercio.
+~
+puerta~
+3 0 30139
+E
+nota~
+Bienvenido a Casa Publio. Compra/venta de todo tipo de objetos.
+Si no encuentras lo que buscas es que NO existe!.
+Abrimos todos los dias a todas horas.
+
+Para consultar los objetos disponibles pon LISTA.
+Para comprar un objeto pon COMPRAR <objeto que deseas comprar>.
+Para vender un objeto pon VENDER <objeto que deseas vender>.
+Para tasar un objeto pon VALORAR <objeto que quieres tasar>.
+
+~
+S
+#30141
+Una calle en messantia.~
+Te encuentras en una calle lateral  de Messantia. A tu alrededor puedes ver
+las casas de los comerciantes. Destacan su buena factura y atractiva
+fachada. El comercio es el mayor negocio en Messantia, y eso se refleja en
+los hogares de los mercaderes.
+~
+0 1 0
+D3
+La calle del comercio.
+~
+~
+0 0 30142
+S
+#30142
+La calle del comercio.~
+Esta es la calle de Messantia mas importante, donde estan las mejores y mas
+importantes tiendas de la ciudad.
+~
+0 1 0
+D0
+La calle del comercio.
+~
+~
+0 0 30139
+D1
+Una calle en messantia.
+~
+~
+0 0 30141
+D3
+Una calle en messantia.
+~
+~
+0 0 30143
+S
+#30143
+Una calle en mesantia.~
+Esta calle pertenece al barrio de los pescadores, y eso se refleja en los
+edificios que te rodean, los mas humildes de la ciudad. Una humeda brisa
+que transporta el olor del mar te llega desde el oeste.
+~
+0 1 0
+D0
+Messantia.
+~
+~
+0 0 30138
+D1
+La calle del comercio.
+~
+~
+0 0 30142
+D3
+Los muelles.
+~
+~
+0 0 30144
+S
+#30144
+Los muelles.~
+Atracados en los muelles de Messantia hay decenas de naves de diferentes
+reinos: Estigia, Vendhya, Khitai... Varios marineros descargan las
+mercancias mientras los comerciantes regatean con los capitanes que han
+transportado las mercancias desde su patria natal.
+Tambien puedes ver varias barcas pertenecientes a los pescadores argoseos,
+asi como las redes que usan para pescar, colgadas a secar.
+Al sur se extiende el Mar Occidental.
+~
+0 1 0
+D1
+Una calle en messantia.
+~
+~
+0 0 30143
+D2
+El mar occidental.
+~
+~
+0 0 30145
+S
+#30145
+El mar occidental.~
+Te encuentras flotando en el gran Mar Occidental, el mayor oceano conocido
+del mundo hyboreo. El Mar Occidental banya las costas de Vanahiem, los
+Yermos Pictos, Zingara, Argos, Shem, Estigia, Kush y los Reinos Negros. Al
+suroeste estan las Islas Baracha, famosas por ser el nido de piratas mas
+temidos en Hyborea.
+Al norte divisas los muelles de la ciudad de Messantia.
+~
+0 5 0
+D0
+Los muelles.
+~
+~
+0 0 30144
+D2
+El mar occidental.
+~
+~
+0 0 30146
+S
+#30146
+El mar occidental.~
+Te encuentras flotando en el gran Mar Occidental, el mayor oceano conocido
+del mundo hyboreo. El Mar Occidental banya las costas de Vanahiem, los
+Yermos Pictos, Zingara, Argos, Shem, Estigia, Kush y los Reinos Negros. Al
+suroeste estan las Islas Baracha, famosas por ser el nido de piratas mas
+temidos en Hyborea.
+Al sur divisas la vela de un bajel. La bandera del mismo la identifica como
+una nave pirata.
+~
+0 5 0
+D0
+El mar occidental.
+~
+~
+0 0 30145
+D2
+La nave "aventurero".
+~
+~
+0 0 30147
+S
+#30147
+La nave "aventurero".~
+Esta nave es una pequenya embarcacion pirata argosea, preparada para
+asaltar los ricos bajeles mercantes que se dirijen a Messantia. La
+tripulacion se afana en sus quehaceres, subiendo por los mastiles para
+soltar velas o afilando sus armas para un proximo abordaje.
+A tus pies ves una trampilla que conduce a la sentina.
+~
+0 0 0
+D0
+El mar occidental.
+~
+~
+0 0 30146
+D1
+La proa del "aventurero".
+~
+~
+0 0 30151
+D3
+La popa del "aventurero".
+~
+~
+0 0 30148
+D5
+La sentina.
+~
+trampilla~
+3 0 30150
+S
+#30148
+La popa del "aventurero".~
+Esta es la parte trasera de la nave. Puedes ver la estela de espuma que
+deja el barco tras de si mientras el viento y los remos la impulsan por el
+Mar Occidental.
+Arriba ves el castillo de popa, desde donde el barco es gobernado.
+~
+0 0 0
+D1
+La nave "aventurero".
+~
+~
+0 0 30147
+D4
+El castillo de popa.
+~
+puerta~
+3 0 30149
+S
+#30149
+El castillo de popa.~
+Desde aqui es gobernada la nave por su capitan. Ves la gran rueda del
+timon. Tambien puedes ver el camarote privado del capitan. Alrededor del
+barco ves el inmenso Mar Occidental.
+~
+0 0 0
+D5
+La popa del "aventurero".
+~
+~
+3 0 30148
+S
+#30150
+La sentina.~
+Un desagradable olor practicamente te derriba. Esta es la camara de los
+remeros. Apesta a sudor y excrementos. Ves hileras de bancos y remos a cada
+lado de la camara. Te entran nauseas, que se agravan con el vaiven del
+barco. Finalmente te agachas y vomitas. UAAAAAARGH!.
+~
+0 0 0
+D4
+La nave "aventurero".
+~
+trampilla~
+3 0 30147
+S
+#30151
+La proa del "aventurero".~
+Esta es la parte delantera de la nave. Las olas golpean el casco del
+"Aventurero', haciendo que la nave suba y baje ritmicamente. A tu alrededor
+la tripulacion se dedica a sus faenas.
+Al sur ves el extenso Mar Occidental.
+~
+0 0 0
+D2
+El mar occidental.
+~
+~
+0 0 30152
+D3
+La nave "aventurero".
+~
+~
+0 0 30147
+S
+#30152
+El mar occidental.~
+Te encuentras flotando en el gran Mar Occidental, el mayor oceano conocido
+del mundo hyboreo. El Mar Occidental banya las costas de Vanahiem, los
+Yermos Pictos, Zingara, Argos, Shem, Estigia, Kush y los Reinos Negros. Al
+suroeste estan las Islas Baracha, famosas por ser el nido de piratas mas
+temidos en Hyborea.
+Al norte ves las velas de una embarcacion. La bandera que ondea en el
+mastil la identifica como una nave pirata.
+~
+0 5 0
+D0
+La proa del "aventurero".
+~
+~
+0 0 30151
+D2
+El mar occidental.
+~
+~
+0 0 30153
+S
+#30153
+El mar occidental.~
+Te encuentras flotando en el gran Mar Occidental, el mayor oceano conocido
+del mundo hyboreo. El Mar Occidental banya las costas de Vanahiem, los
+Yermos Pictos, Zingara, Argos, Shem, Estigia, Kush y los Reinos Negros. Al
+suroeste estan las Islas Baracha, famosas por ser el nido de piratas mas
+temidos en Hyborea.
+Al sur ves los muelles de la ciudad estigia de Khemi.
+~
+0 5 0
+D0
+El mar occidental.
+~
+~
+0 0 30152
+D2
+Los muelles de khemi.
+~
+~
+0 0 30154
+S
+#30154
+Los muelles de khemi.~
+Estos son los muelles de Khemi, capital de Estigia. Puedes ver cientos de
+pequenyas embarcaciones pertenecientes a los pescadores. Tambien puedes ver
+algunas suntuosas galeras, propiedad de los nobles estigios. Puedes
+observar tambien una magnifica nave negra. Esta embarcacion esta atracada
+en un lugar apartado. Debe pertenecer a algun alto mago estigio. Pese a la
+belleza de la nave no puedes evitar un escalofrio cuando la miras.
+~
+0 1 0
+D0
+El mar occidental.
+~
+~
+0 0 30153
+D1
+Las calles de khemi.
+~
+~
+0 0 30155
+D2
+Las calles de khemi.
+~
+~
+0 0 30157
+D3
+Las calles de khemi.
+~
+~
+0 0 30159
+S
+#30155
+Las calles de khemi.~
+A pesar de ser una gran ciudad no aprecias el mismo bullicio que podria
+haber en una capital de los reinos occidentales. El caracter estigio es muy
+diferente. Las calles estan demasiado silenciosas. Ademas esta el temor que
+sienten los ciudadanos por los sacerdotes de Set y los magos del Anillo
+Negro. Te miran con recelo pero no te molestan. Ya tienen suficientes
+preocupaciones.
+~
+0 1 0
+D2
+Las calles de khemi.
+~
+~
+0 0 30156
+D3
+Los muelles de khemi.
+~
+~
+0 0 30154
+S
+#30156
+Las calles de khemi.~
+A pesar de ser una gran ciudad no aprecias el mismo bullicio que podria
+haber en una capital de los reinos occidentales. El caracter estigio es muy
+diferente. Las calles estan demasiado silenciosas. Ademas esta el temor que
+sienten los ciudadanos por los sacerdotes de Set y los magos del Anillo
+Negro. Te miran con recelo pero no te molestan. Ya tienen suficientes
+preocupaciones.
+Al este ves un oscuro y gigantesco templo, el Templo de Set.
+~
+0 1 0
+D0
+Las calles de khemi.
+~
+~
+0 0 30155
+D1
+El templo de set.
+~
+~
+3 0 30161
+D3
+Las calles de khemi.
+~
+~
+0 0 30157
+S
+#30157
+Las calles de khemi.~
+A pesar de ser una gran ciudad no aprecias el mismo bullicio que podria
+haber en una capital de los reinos occidentales. El caracter estigio es muy
+diferente. Las calles estan demasiado silenciosas. Ademas esta el temor que
+sienten los ciudadanos por los sacerdotes de Set y los magos del Anillo
+Negro. Te miran con recelo pero no te molestan. Ya tienen suficientes
+preocupaciones.
+Al sur ves una oscura y misteriosa tienda.
+~
+0 1 0
+D0
+Los muelles de khemi.
+~
+~
+0 0 30154
+D1
+Las calles de khemi.
+~
+~
+0 0 30156
+D2
+El vientre de set.
+~
+~
+1 0 30160
+D3
+Las calles de khemi.
+~
+~
+0 0 30158
+S
+#30158
+Las calles de khemi.~
+A pesar de ser una gran ciudad no aprecias el mismo bullicio que podria
+haber en una capital de los reinos occidentales. El caracter estigio es muy
+diferente. Las calles estan demasiado silenciosas. Ademas esta el temor que
+sienten los ciudadanos por los sacerdotes de Set y los magos del Anillo
+Negro. Te miran con recelo pero no te molestan. Ya tienen suficientes
+preocupaciones.
+~
+0 1 0
+D0
+Las calles de khemi.
+~
+~
+0 0 30159
+D1
+Las calles de khemi.
+~
+~
+0 0 30157
+S
+#30159
+Las calles de khemi.~
+A pesar de ser una gran ciudad no aprecias el mismo bullicio que podria
+haber en una capital de los reinos occidentales. El caracter estigio es muy
+diferente. Las calles estan demasiado silenciosas. Ademas esta el temor que
+sienten los ciudadanos por los sacerdotes de Set y los magos del Anillo
+Negro. Te miran con recelo pero no te molestan. Ya tienen suficientes
+preocupaciones.
+~
+0 1 0
+D1
+Los muelles de khemi.
+~
+~
+0 0 30154
+D2
+Las calles de khemi.
+~
+~
+0 0 30158
+S
+#30160
+El vientre de set.~
+Una asfixiante atmosfera copa el reducido espacio de la tienda, oscura como
+su propio nombre. En las sombras distingues varias mesas llenas de redomas
+y ampollas, pergaminos, libros y amuletos. Avanzas en la oscuridad y
+tropiezas con una mesa en la que hay un cartel.
+~
+0 0 0
+D0
+Las calles de khemi.
+~
+~
+1 0 30157
+E
+cartel~
+Has entrado en el Vientre de Set. Magia mas o menos negruzca.
+
+Abrimos todos los dias desde las 9 hasta las 21 h.
+
+Para consultar los objetos disponibles pon LISTA.
+Para comprar un objeto pon COMPRAR <objeto que deseas comprar>.
+Para vender un objeto pon VENDER <objeto que deseas vender>.
+Para tasar un objeto pon VALORAR <objeto que quieres tasar>.
+
+~
+S
+#30161
+El templo de set.~
+Estas en el mayor santuario de magia negra de toda Hyborea. Estos son los
+dominios de Set, Padre de las Serpientes, Senyor Oscuro de la Muerte y la
+Traicion. El templo esta decorado con millares de imagenes de serpientes y
+horribles criaturas, como hombres-serpientes y las temibles serpientes
+humanas: las antiguas razas que pretendieron exterminar a la humanidad. Ves
+varios altares pequenyos manchados de sangre, mientras que al fondo de la
+habitacion ves una gigantesca serpiente enrollada en un pilar de obsidiana.
+Oyes el eco de canticos pero no puedes precisar si vienen de debajo tuyo o
+de la parte superior del templo.
+Una escalera de marmol negra asciende al siguiente piso.
+~
+0 0 0
+D3
+~
+~
+3 0 30156
+D4
+El segundo nivel del templo.
+~
+~
+0 0 30172
+D5
+Las camaras subterraneas del templo.
+~
+~
+0 0 30162
+E
+serpiente pilar~
+Una enorme serpiente de mas de siete metros de longitud esta enroscada en
+un pilar de negra obsidiana, tallado con imagenes y runas. La serpiente
+parece dormida, aunque sigue todos tus movimientos. Espera cual sera tu
+proximo paso.
+La Serpiente Sagrada esta en perfecta forma.
+~
+S
+#30162
+Las camaras subterraneas del templo.~
+Estas en los sotanos del Templo de Set. Mitra sabe que demonios sedientos
+de sangre debe haber escondidos en este lugar. Al este ves un corredor que
+se adentra en la oscuridad.
+~
+0 0 0
+D1
+Los corredores subterraneos.
+~
+~
+0 0 30163
+D4
+El templo de set.
+~
+~
+0 0 30161
+S
+#30163
+Los corredores subterraneos.~
+Te hallas perdido en un oscuro pasillo bajo el Templo de Set. Tu sentido de
+la orientacion esta perturbado y no recuerdas por donde viniste. Sientes
+movimientos a tu alrededor pero cuando te giras no hay nadie... ni nada.
+~
+0 0 0
+D1
+Los corredores subterraneos.
+~
+~
+0 0 30164
+D2
+Los corredores subterraneos.
+~
+~
+0 0 30167
+S
+#30164
+Los corredores subterraneos.~
+Te hallas perdido en un oscuro pasillo bajo el Templo de Set. Tu sentido de
+la orientacion esta perturbado y no recuerdas por donde viniste. Sientes
+movimientos a tu alrededor pero cuando te giras no hay nadie... ni nada.
+~
+0 0 0
+D1
+Los corredores subterraneos.
+~
+~
+0 0 30165
+D2
+Los corredores subterraneos.
+~
+~
+0 0 30168
+D3
+Los corredores subterraneos.
+~
+~
+0 0 30163
+S
+#30165
+Los corredores subterraneos.~
+Te hallas perdido en un oscuro pasillo bajo el Templo de Set. Tu sentido de
+la orientacion esta perturbado y no recuerdas por donde viniste. Sientes
+movimientos a tu alrededor pero cuando te giras no hay nadie... ni nada.
+~
+0 0 0
+D1
+Una camara iluminada.
+~
+~
+0 0 30166
+D2
+Los corredores subterraneos.
+~
+~
+0 0 30169
+D3
+Los corredores subterraneos.
+~
+~
+0 0 30164
+S
+#30166
+Una camara iluminada.~
+Una intensa luz te ciega despues de vagar en la oscuridad tanto tiempo. te
+encuentras en una pequenya habitacion amueblada, en alguna parte bajo el
+Templo de Set.
+Al este hay unas cortinas. Supones que detras habra otra habitacion.
+~
+0 0 0
+D1
+La camara anexa.
+~
+cortinas~
+3 0 30171
+D3
+Los corredores subterraneos.
+~
+~
+0 0 30165
+S
+#30167
+Los corredores subterraneos.~
+Te hallas perdido en un oscuro pasillo bajo el Templo de Set. Tu sentido de
+la orientacion esta perturbado y no recuerdas por donde viniste. Sientes
+movimientos a tu alrededor pero cuando te giras no hay nadie... ni nada.
+~
+0 0 0
+D0
+Los corredores subterraneos.
+~
+~
+0 0 30163
+D1
+Los corredores subterraneos.
+~
+~
+0 0 30168
+S
+#30168
+Los corredores subterraneos.~
+Te hallas perdido en un oscuro pasillo bajo el Templo de Set. Tu sentido de
+la orientacion esta perturbado y no recuerdas por donde viniste. Sientes
+movimientos a tu alrededor pero cuando te giras no hay nadie... ni nada.
+~
+0 0 0
+D0
+Los corredores subterraneos.
+~
+~
+0 0 30164
+D1
+Los corredores subterraneos.
+~
+~
+0 0 30169
+D2
+La sala de los muertos.
+~
+Arco Negro~
+3 0 30170
+D3
+Los corredores subterraneos.
+~
+~
+0 0 30167
+S
+#30169
+Los corredores subterraneos.~
+Te hallas perdido en un oscuro pasillo bajo el Templo de Set. Tu sentido de
+la orientacion esta perturbado y no recuerdas por donde viniste. Sientes
+movimientos a tu alrededor pero cuando te giras no hay nadie... ni nada.
+~
+0 0 0
+D0
+Los corredores subterraneos.
+~
+~
+0 0 30165
+D3
+Los corredores subterraneos.
+~
+~
+0 0 30168
+S
+#30170
+La sala de los muertos.~
+Te encuentras en una impresionante camara. El techo se pierde en la
+oscuridad. Alrededor de las paredes ves cientos de nichos con estatuas de
+los muertos alli enterrados: reyes, magos, sacerdotes y nobles estigios
+fallecidos hace miles de anyos.
+En el centro de la habitacion hay un altar negro.
+~
+0 0 0
+D0
+Los corredores subterraneos.
+~
+Arco Negro~
+3 0 30168
+D5
+Un sarcofago de piedra.
+~
+tapa~
+3 0 30175
+E
+altar~
+Este es el negro Altar de Set, donde se realizan los rituales mas
+sangrientos y abominables de necromancia en toda Hyborea.
+~
+S
+#30171
+La camara anexa.~
+Estas en una minuscula habitacion, separada de la principal por unas
+cortinas bordadas de seda. La habitacion esta practicamente vacia.
+~
+0 0 0
+D3
+Una camara iluminada.
+~
+cortinas~
+3 0 30166
+S
+#30172
+El segundo nivel del templo.~
+Estas en el piso superior del Templo de Set. La decoracion de la estancia
+es similar al primer piso. Una oscura arcada te lleva al este, al interior
+del templo. Una oscura escalera desciende al primer piso.
+~
+0 0 0
+D1
+El segundo nivel del templo.
+~
+~
+0 0 30173
+D5
+El templo de set.
+~
+~
+0 0 30161
+S
+#30173
+El segundo nivel del templo.~
+Estas en el piso superior del Templo de Set. La decoracion de la estancia
+es similar al primer piso. Una oscura arcada vuelve al oeste, mientras que
+frente a ti ves una arcada iluminada, al sur. Vuelves a oir los canticos,
+ahora mas claramente.
+~
+0 0 0
+D2
+La galeria.
+~
+arcada~
+3 0 30174
+D3
+El segundo nivel del templo.
+~
+~
+0 0 30172
+S
+#30174
+La galeria.~
+Te asomas al parapeto del balcon y ves una habitacion de proporciones
+colosales: la impresionante Sala de los Muertos. Solo los sacerdotes de Set
+y los magos mas poderosos han tenido el privilegio de contemplarla.
+Alrededor de las paredes hay cientos de sarcofagos puestos verticalmente,
+con estatuas de los hombres alli enterrados, mirando hacia abajo. Ahora te
+das cuenta que los canticos proceden de abajo de todo, pero la oscuridad te
+impide apreciar algo en concreto. De repente crees ver un intenso brillo
+rojizo que se extingue en un momento.
+~
+0 0 0
+D0
+~
+arcada~
+3 0 30173
+S
+#30175
+Un sarcofago de piedra.~
+Saltas al interior de un enorme sarcofago de piedra. El olor a
+descomposicion es asfixiante. Ademas, no te hace ninguna gracia estar
+dentro de un ataud de granito.
+~
+0 0 0
+D4
+La sala de los muertos.
+~
+tapa~
+3 0 30170
+S
+#30176
+La desembocadura del rio valkia.~
+Estas en la desembocadura del rio Valkya, que atraviesa el reino de
+Aquilonia. Las aguas bajan sucias. Parece que algo ocurre en el curso
+superior del rio.
+~
+0 5 0
+D0
+El rio valkia.
+~
+~
+0 0 30001
+D3
+~
+~
+0 -1 6124
+S
+#0
+
+
+#RESETS
+D 0 30043 1 1
+D 0 30027 3 1
+D 0 30174 0 1
+D 0 30173 2 1
+D 0 30175 4 1
+D 0 30170 5 1
+D 0 30170 0 1
+D 0 30168 2 1
+D 0 30171 3 1
+D 0 30166 1 1
+D 0 30161 3 1
+D 0 30156 1 1
+D 0 30149 5 1
+D 0 30148 4 1
+D 0 30150 4 1
+D 0 30147 5 1
+D 0 30140 3 1
+D 0 30139 1 1
+D 0 30134 1 1
+D 0 30133 3 1
+D 0 30097 5 1
+D 0 30098 4 1
+D 0 30110 4 1
+D 0 30102 5 1
+D 0 30110 0 1
+D 0 30095 2 1
+D 0 30094 5 1
+D 0 30095 4 1
+D 0 30086 2 1
+D 0 30097 0 1
+D 0 30101 2 1
+D 0 30085 0 1
+D 0 30094 2 1
+D 0 30090 0 1
+D 0 30096 0 1
+D 0 30085 2 1
+D 0 30082 3 1
+D 0 30083 1 1
+D 0 30066 2 1
+D 0 30059 0 1
+D 0 30047 1 1
+D 0 30046 3 1
+D 0 30021 3 1
+D 0 30012 1 1
+D 0 30123 0 2
+D 0 30123 2 2
+D 0 30127 0 2
+D 0 30125 2 2
+D 0 30124 2 2
+D 0 30126 0 2
+D 0 30122 0 2
+D 0 30122 2 2
+D 0 30121 5 1
+D 0 30120 4 1
+D 0 30120 3 1
+D 0 30119 1 1
+D 0 30122 4 1
+D 0 30118 5 1
+D 0 30118 3 1
+D 0 30113 1 1
+D 0 30114 0 1
+D 0 30113 2 1
+D 0 30116 2 1
+D 0 30112 0 1
+D 0 30111 1 1
+D 0 30112 3 1
+M 0 30061 1 30114
+G 1 30143 1
+G 1 30142 1
+G 1 30141 1
+G 1 30140 1
+G 1 30139 1
+G 1 30138 1
+G 1 30137 1
+G 1 30136 1
+M 0 30012 4 30009
+E 1 30020 1 6
+E 1 30019 1 16
+E 1 30023 1 5
+E 1 30017 1 8
+M 0 30011 8 30011
+E 1 30039 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30008 1 8
+M 0 30011 8 30013
+E 1 30039 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30011 8 30013
+E 1 30017 1 8
+E 1 30018 1 6
+E 1 30022 1 5
+E 1 30039 1 16
+M 0 30012 4 30013
+E 1 30020 1 6
+E 1 30023 1 5
+E 1 30019 1 16
+E 1 30017 1 8
+M 0 30011 8 30014
+E 1 30039 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30012 4 30021
+E 1 30020 1 6
+E 1 30023 1 5
+E 1 30019 1 16
+E 1 30017 1 8
+M 0 30011 8 30023
+E 1 30039 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30009 7 30026
+E 1 30039 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30009 7 30026
+E 1 30017 1 8
+E 1 30018 1 6
+E 1 30022 1 5
+E 1 30039 1 16
+M 0 30010 4 30027
+E 1 30019 1 16
+E 1 30017 1 8
+E 1 30021 1 6
+E 1 30023 1 5
+M 0 30009 7 30028
+E 1 30039 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30010 4 30030
+E 1 30019 1 16
+E 1 30017 1 8
+E 1 30021 1 6
+E 1 30023 1 5
+M 0 30009 7 30032
+E 1 30039 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30009 7 30032
+E 1 30017 1 8
+E 1 30018 1 6
+E 1 30022 1 5
+E 1 30039 1 16
+M 0 30010 4 30037
+E 1 30019 1 16
+E 1 30017 1 8
+E 1 30021 1 6
+E 1 30023 1 5
+M 0 30056 1 30038
+E 1 30038 1 17
+E 1 30010 1 13
+E 1 30023 1 5
+E 1 30019 1 16
+E 1 30017 1 8
+M 0 30057 2 30039
+E 1 30023 1 5
+E 1 30019 1 16
+E 1 30017 1 8
+M 0 30057 2 30039
+E 1 30017 1 8
+E 1 30019 1 16
+E 1 30023 1 5
+M 0 30011 8 30041
+E 1 30039 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30012 4 30041
+E 1 30020 1 6
+E 1 30023 1 5
+E 1 30019 1 16
+E 1 30017 1 8
+M 0 30011 8 30042
+E 1 30039 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30011 8 30042
+E 1 30017 1 8
+E 1 30018 1 6
+E 1 30022 1 5
+E 1 30039 1 16
+M 0 30008 1 30044
+G 1 30046 1
+E 1 30019 1 16
+E 1 30017 1 8
+E 1 30016 1 11
+E 1 30015 1 5
+E 1 30014 1 6
+M 0 30009 7 30045
+E 1 30039 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30010 4 30045
+E 1 30019 1 16
+E 1 30017 1 8
+E 1 30021 1 6
+E 1 30023 1 5
+M 0 30006 1 30046
+E 1 30023 1 5
+E 1 30016 1 11
+E 1 30119 1 6
+E 1 30019 1 16
+E 1 30017 1 8
+M 0 30007 1 30047
+E 1 30013 1 5
+M 0 30020 1 30059
+M 0 30055 1 30063
+E 1 30018 1 6
+M 0 30036 1 30065
+M 0 30018 1 30066
+E 1 30049 1 5
+M 0 30019 1 30066
+M 0 30017 1 30077
+E 1 30044 1 17
+E 1 30019 1 16
+E 1 30017 1 8
+E 1 30045 1 13
+E 1 30043 1 5
+E 1 30042 1 6
+O 0 30156 1 30077
+M 0 30021 2 30082
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30041 1 16
+E 1 30017 1 8
+M 0 30021 2 30082
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30041 1 16
+E 1 30017 1 8
+M 0 30062 3 30089
+M 0 30062 3 30089
+M 0 30062 3 30092
+M 0 30060 1 30093
+G 1 30172 1
+G 1 30149 1
+G 1 30148 1
+G 1 30147 1
+G 1 30146 1
+G 1 30145 1
+G 1 30144 1
+M 0 30058 1 30096
+G 1 30135 1
+G 1 30134 1
+G 1 30133 1
+G 1 30132 1
+M 0 30026 2 30098
+E 1 30003 1 5
+E 1 30002 1 6
+M 0 30026 2 30098
+E 1 30003 1 5
+E 1 30002 1 6
+M 0 30027 1 30099
+E 1 30003 1 5
+E 1 30055 1 20
+M 0 30028 1 30100
+E 1 30059 1 11
+E 1 30057 1 12
+E 1 30058 1 17
+E 1 30056 1 16
+M 0 30025 2 30103
+E 1 30040 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30025 2 30103
+E 1 30040 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30022 1 30105
+M 0 30023 1 30105
+E 1 30051 1 6
+E 1 30050 1 16
+M 0 30024 1 30105
+E 1 30053 1 7
+E 1 30052 1 5
+M 0 30004 1 30108
+E 1 30004 1 3
+E 1 30019 1 16
+E 1 30017 1 8
+E 1 30005 1 15
+E 1 30005 1 14
+M 0 30063 2 30115
+M 0 30065 1 30116
+G 1 30159 1
+G 1 30158 1
+G 1 30134 1
+G 1 30133 1
+M 0 30063 2 30117
+M 0 30016 3 30118
+E 1 30040 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30001 1 30119
+E 1 30002 1 6
+M 0 30002 1 30119
+E 1 30012 1 5
+E 1 30019 1 16
+E 1 30017 1 8
+E 1 30005 1 15
+E 1 30005 1 14
+M 0 30016 3 30119
+E 1 30040 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30016 3 30119
+E 1 30040 1 16
+E 1 30022 1 5
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30003 1 30119
+G 1 30047 1
+E 1 30019 1 16
+E 1 30017 1 8
+E 1 30011 1 5
+E 1 30010 1 13
+M 0 30005 1 30121
+E 1 30157 1 16
+E 1 30009 1 17
+E 1 30008 1 8
+E 1 30007 1 5
+E 1 30006 1 6
+M 0 30013 4 30122
+E 1 30036 1 14
+E 1 30033 1 7
+M 0 30013 4 30122
+E 1 30033 1 7
+E 1 30036 1 14
+M 0 30014 1 30122
+E 1 30036 1 14
+G 1 30035 1
+E 1 30034 1 6
+E 1 30033 1 7
+M 0 30013 4 30123
+E 1 30036 1 14
+E 1 30033 1 7
+M 0 30013 4 30123
+E 1 30036 1 14
+E 1 30033 1 7
+O 0 30037 1 30125
+M 0 30015 1 30126
+M 0 30029 1 30128
+E 1 30019 1 16
+E 1 30065 1 3
+E 1 30064 1 6
+E 1 30063 1 5
+G 1 30048 1
+E 1 30017 1 8
+M 0 30030 4 30128
+E 1 30039 1 16
+E 1 30017 1 8
+E 1 30018 1 6
+E 1 30022 1 5
+M 0 30030 4 30128
+E 1 30039 1 16
+E 1 30017 1 8
+E 1 30018 1 6
+E 1 30022 1 5
+M 0 30030 4 30129
+E 1 30039 1 16
+E 1 30017 1 8
+E 1 30018 1 6
+E 1 30022 1 5
+M 0 30030 4 30131
+E 1 30039 1 16
+E 1 30017 1 8
+E 1 30018 1 6
+E 1 30022 1 5
+M 0 30032 4 30134
+E 1 30071 1 11
+E 1 30067 1 5
+E 1 30045 1 13
+E 1 30054 1 16
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30032 4 30134
+E 1 30071 1 11
+E 1 30067 1 5
+E 1 30045 1 13
+E 1 30054 1 16
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30031 1 30135
+E 1 30071 1 11
+E 1 30070 1 9
+E 1 30069 1 12
+E 1 30068 1 7
+E 1 30072 1 5
+E 1 30066 1 6
+O 0 30075 1 30135
+M 0 30032 4 30135
+E 1 30071 1 11
+E 1 30067 1 5
+E 1 30045 1 13
+E 1 30054 1 16
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30032 4 30136
+E 1 30071 1 11
+E 1 30067 1 5
+E 1 30045 1 13
+E 1 30054 1 16
+E 1 30018 1 6
+E 1 30017 1 8
+M 0 30033 1 30136
+E 1 30076 1 17
+E 1 30074 1 5
+M 0 30034 1 30136
+G 1 30155 1
+M 0 30035 1 30136
+E 1 30073 1 5
+M 0 30064 2 30139
+G 1 30173 1
+M 0 30037 1 30140
+G 1 30151 1
+G 1 30093 1
+G 1 30085 1
+G 1 30084 1
+G 1 30082 1
+G 1 30081 1
+G 1 30079 1
+E 1 30150 1 1
+E 1 30083 1 16
+E 1 30080 1 12
+E 1 30077 1 5
+M 0 30038 1 30140
+E 1 30018 1 6
+E 1 30017 1 8
+E 1 30041 1 16
+E 1 30088 1 5
+E 1 30087 1 12
+E 1 30086 1 7
+M 0 30039 1 30141
+E 1 30094 1 16
+M 0 30064 2 30143
+M 0 30041 4 30147
+E 1 30095 1 16
+M 0 30041 4 30148
+E 1 30095 1 16
+M 0 30040 1 30149
+E 1 30092 1 16
+E 1 30091 1 8
+E 1 30090 1 5
+E 1 30089 1 12
+M 0 30042 3 30150
+E 1 30096 1 3
+M 0 30042 3 30150
+E 1 30096 1 3
+M 0 30042 3 30150
+E 1 30096 1 3
+M 0 30041 4 30151
+E 1 30095 1 16
+M 0 30041 4 30151
+E 1 30095 1 16
+M 0 30043 1 30154
+G 1 30097 1
+E 1 30099 1 8
+E 1 30097 1 17
+O 0 30098 1 30154
+M 0 30045 1 30156
+M 0 30046 1 30156
+M 0 30048 1 30156
+E 1 30148 1 16
+E 1 30103 1 5
+M 0 30044 2 30158
+M 0 30044 2 30159
+M 0 30059 1 30160
+G 1 30165 1
+G 1 30164 1
+G 1 30163 1
+G 1 30162 1
+G 1 30161 1
+G 1 30160 1
+G 1 30131 1
+G 1 30130 1
+G 1 30129 1
+G 1 30128 1
+G 1 30126 1
+G 1 30125 1
+G 1 30124 1
+G 1 30123 1
+G 1 30122 1
+G 1 30121 1
+G 1 30120 1
+M 0 30054 3 30164
+M 0 30054 3 30164
+M 0 30049 1 30166
+G 1 30166 1
+E 1 30109 1 7
+E 1 30108 1 5
+E 1 30107 1 4
+E 1 30106 1 3
+E 1 30105 1 19
+E 1 30104 1 15
+E 1 30104 1 14
+O 0 30111 1 30166
+O 0 30110 1 30166
+M 0 30054 3 30167
+M 0 30050 1 30170
+G 1 30168 1
+E 1 30115 1 16
+E 1 30116 1 9
+E 1 30113 1 12
+M 0 30051 4 30170
+E 1 30114 1 12
+E 1 30115 1 16
+M 0 30051 4 30170
+E 1 30115 1 16
+E 1 30114 1 12
+M 0 30051 4 30170
+E 1 30115 1 16
+E 1 30114 1 12
+M 0 30051 4 30170
+E 1 30115 1 16
+E 1 30114 1 12
+O 0 30112 1 30171
+M 0 30047 2 30172
+E 1 30101 1 12
+E 1 30100 1 23
+M 0 30047 2 30172
+E 1 30101 1 12
+E 1 30100 1 23
+M 0 30052 4 30174
+E 1 30062 1 16
+E 1 30061 1 6
+E 1 30060 1 5
+M 0 30052 4 30174
+E 1 30062 1 16
+E 1 30061 1 6
+E 1 30060 1 5
+M 0 30052 4 30174
+E 1 30062 1 16
+E 1 30061 1 6
+E 1 30060 1 5
+M 0 30052 4 30174
+E 1 30062 1 16
+E 1 30061 1 6
+E 1 30060 1 5
+M 0 30053 1 30175
+E 1 30117 1 5
+E 1 30001 1 17
+S
+
+
+#SHOPS
+ 30037    0  0  0  0  0   120  90         0 23    ; Publio
+ 30058   19 17  0  0  0   120  90         0 23    ; una camarera
+ 30059    0  0  0  0  0   120  90         9 21    ; un alquimista estigio
+ 30060    6  7  5  0  0   120  90         6 19    ; un armero cimmerio
+ 30061    9  0  0  0  0   120  90         8 22    ; un comerciante vendhyo
+ 30065   17 19  0  0  0   120  90         0 23    ; un tabernero nemedio
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  30001 spec_cast_cleric
+M  30005 spec_cast_undead
+M  30007 spec_cast_mage
+M  30018 spec_cast_adept
+M  30021 spec_guard
+M  30023 spec_executioner
+M  30025 spec_guard
+M  30026 spec_cast_cleric
+M  30027 spec_cast_cleric
+M  30038 spec_guard
+M  30039 spec_thief
+M  30041 spec_thief
+M  30047 spec_cast_cleric
+M  30049 spec_cast_mage
+M  30050 spec_cast_mage
+M  30051 spec_cast_cleric
+M  30052 spec_cast_mage
+M  30053 spec_cast_adept
+M  30054 spec_breath_acid
+M  30059 spec_cast_mage
+S
+
+
+#$

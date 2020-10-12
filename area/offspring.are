@@ -1,0 +1,2157 @@
+#AREA   Area de Offspring~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO WyRMCLaW~
+#PUNTOS 1993 2000 1993 1988 0
+#AUTHOR Kayser~
+
+#RANGES
+10 35 0 256
+$
+
+#RESETMSG ~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 5218007
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#24000
+punkarra~
+un punkarra~
+Un punkarra esta paseando por aqui de mala leche.
+~
+~
+97 4259840 -1000 C
+11 5 5 30d10+75 5d10+5
+125 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 1551 0 0 0 32 2097153
+#24001
+nazi~
+un nazi~
+Un nazi pasea por aqui con cara de mala ostia.
+~
+~
+97 -2143289344 -1000 C
+21 -5 -5 10d50+550 6d5+25
+195 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 1871 0 0 0 160 2621440
+#24002
+piromano~
+un piromano~
+Un piromano pasea por aqui con cara de mala ostia.
+~
+~
+225 37748736 0 C
+16 0 0 10d10+450 5d5+5
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 -5 0
+0 3 0 0 1 1 2
+0 0 1686 1 0 0 64 2097152
+#24003
+mota polvo~
+una mota de polvo~
+Una mota de polvo flota por aqui.
+~
+Mota!~
+327745 7340544 0 C
+26 -10 -10 10d50+1000 5d10+25
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 -10
+85 3 0 0 65537 1 3
+0 0 0 1048576 0 0 4608 524290
+#24004
+patriota~
+un patriota~
+Un americana imitando a Mel Gibson esta por aqui.
+~
+Este tio se cree que esta en una peli de Mel Gibson!~
+97 4235264 0 C
+31 -25 -25 20d40+2000 8d10+25
+500 0
+112 112 1
+18 13 13 13 13 13 13
+0 0 -5 0 0
+0 3 0 0 1 1 3
+0 3 15 0 0 0 96 98
+#24005
+buitre vulture~
+un buitre~
+Un buitre vuela sobre tu cabeza
+~
+~
+97 4726784 0 C
+36 0 0 15d10+3400 10d10+35
+0 0
+112 112 0
+18 18 18 18 18 18 10
+-15 0 0 0 0
+87 3 0 0 512 512 4
+0 5 294928 256 0 0 3 3
+#24006
+presidente~
+el presidente~
+Un presidente esta aqui... con su becaria incluida.
+~
+Joer con el presi! Esa becaria sabe lo que hace :)~
+67 4194944 0 C
+15 0 -10 10d5+650 5d10+20
+1000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 1053 0 0 0 134217728 33
+#24007
+senyor fuego~
+el senyor del fuego~
+El senyor del fuego esta por aqui rodeado de llamas.
+~
+~
+99 38838272 0 C
+20 -5 -20 50d10+750 10d3+25
+1 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 24 1 0 2 1140850688 524832
+#24008
+lider nazi~
+el lider nazi~
+El lider nazi te estaba esperando...
+~
+~
+99 4203648 0 C
+25 -5 -20 50d12+1050 10d5+25
+1 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 24 0 0 0 2101248 528416
+#24009
+parental advisory~
+el parental advisory~
+Ante ti tienes el parental advisory de algun que otro CD.
+~
+~
+99 4202624 0 C
+30 -5 -25 50d12+1650 10d8+25
+1 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 24 0 0 0 16448 524320
+#24010
+rapero blanco~
+un rapero blanco~
+Aqui hay otro de esos raperos blancos.
+~
+Son odiosos!~
+67 272638464 -1000 C
+35 0 -25 50d12+2500 10d10+25
+5000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 5
+0 0 1695 1280 0 2048 0 524292
+#24011
+original prankster bromista original~
+un bromista~
+El Original Prankster esta aqui.
+~
+~
+67 71344768 -1000 C
+40 -1 -50 10d50+4000 10d10+55
+5000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 -25
+0 0 0 0 1 1 6
+0 0 24 0 2100992 0 0 524356
+#0
+
+
+#OBJECTS
+#24000
+cadena~
+una cadena~
+Aqui tienes la cadena del punkarra.~
+~
+5 524288 8193
+10 3 7 7
+8 1000 100
+A
+4 -2
+A
+19 2
+#24001
+cresta~
+una cresta~
+La cresta del punkarra esta por aqui.~
+~
+9 262144 17
+10 10 0 0
+3 1000 100
+A
+25 -3
+A
+18 5
+#24002
+becaria cinturon~
+un cinturon-becaria para protegerte los genitales~
+Una becaria para las no-relaciones sexuales del presidente esta aqui.~
+~
+9 0 2049
+10 10 0 0
+20 75000 7500
+A
+17 -5
+A
+0 -2
+A
+12 10
+A
+23 -25
+> wear_prog 100~
+mpechoat $n Aaaahhhh... ~
+|
+#24003
+traje ignifugo~
+un traje ignifugo~
+En el suelo ves un traje que debio pertenecer a algun bombero.~
+~
+9 4096 9
+8 8 0 0
+10 50000 5000
+A
+23 -10
+A
+20 -50
+A
+24 -30
+A
+2 -2
+A
+5 3
+A
+1 1
+#24004
+lanzallamas~
+un lanzallamas~
+Un lanzallamas esta tirado por aqui.~
+~
+5 19 32769
+10 3 7 4
+17 100000 10000
+A
+23 10
+A
+19 7
+A
+13 12
+A
+12 12
+A
+18 7
+A
+2 -2
+#24005
+Fuego Infernal~
+El Fuego Infernal~
+El Fuego Infernal prende aqui en el suelo.~
+~
+9 322 4097
+250 250 0 0
+1 0 0
+A
+19 150
+A
+18 150
+A
+12 150
+A
+13 150
+A
+1 10
+A
+2 10
+A
+25 15
+> wear_prog 99~
+if isimmort($n)
+mpechoaround $n Solo los Inmortales son dignos de llevar este objeto
+else
+mpechoat $n No eres digo de llevar este objeto
+mpforce $n desv todo
+mpforce $n dejar todo
+mpdamage $n level*10            
+endif
+~
+> get_prog 100~
+if isimmort($n)
+else
+mpechoat $n No eres digno de coger este objeto.
+mpforce $n dejar infernal
+mpforce $n sac infernal
+endif
+~
+|
+#24006
+botas militares~
+unas botas militares~
+Unas botas ensangrentadas estan aqui en el suelo.~
+~
+9 16 65
+12 12 0 0
+10 10000 1000
+A
+19 5
+A
+1 2
+A
+3 -2
+A
+14 50
+#24007
+bate beisbol baseball~
+un bate de beisbol~
+Un bate de beisbol ensangrentado esta aqui en el suelo.~
+batazo~
+5 524304 32769
+12 5 5 7
+5 10000 1000
+A
+19 5
+A
+18 5
+A
+22 -25
+A
+3 -2
+#24008
+brazalete nazi~
+un brazalete nazi~
+Un brazalete con el emblema nazi esta aqui en el suelo.~
+~
+9 20 4097
+10 20 0 0
+1 3000 300
+A
+19 3
+A
+3 -1
+A
+25 -2
+A
+2 2
+A
+12 25
+#24009
+disclaimer~
+el disclaimer~
+El disclaimer del Ixnay On the Hombre esta aqui en el suelo.~
+~
+9 66 129
+25 25 0 0
+5 80000 8000
+A
+2 5
+A
+3 2
+A
+13 25
+A
+18 10
+#24010
+bandera usa~
+una bandera de U.S.A.~
+Una bandera de los Estados Unidos de Norteamerica esta aqui tirada.~
+~
+1 256 16385
+0 0 0 0
+5 100 10
+A
+31 5
+A
+12 50
+A
+5 -3
+A
+18 3
+#24011
+biblia~
+una biblia~
+La sagrada biblia descansa aqui.~
+~
+9 4352 129
+5 5 0 0
+2 1995 199
+A
+3 -10
+A
+24 -20
+#24012
+cadena oro~
+una cadena de oro~
+La cadena de oro del rapero blanco esta aqui.~
+~
+9 524289 5
+20 20 0 0
+15 100000 10000
+A
+17 -25
+A
+2 2
+A
+25 -2
+A
+12 10
+A
+18 1
+#24013
+gafas sol~
+unas gafas de sol~
+Las gafas de sol del Prankster estan aqui.~
+~
+9 3 131073
+0 0 0 0
+2 550000 55000
+A
+3 -5
+A
+23 -25
+A
+20 -50
+A
+24 -25
+A
+18 -5
+A
+12 75
+> wear_prog 100~
+mpechoat $n Te sientes mas de guays.
+mpechoaround $n Se pone unas gafas de sol? 
+mpechoaround $n Ya tienes a otro capullo en este mundo de ~
+|
+#24014
+planta marihuana~
+Una planta de MaRiHuaNa~
+Mogollon de plantas de MaRiHuaNa estan debajo de un foco.~
+~
+25 -2147475390&64 0
+50 50 0 0 0 150
+1 3000 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#0
+
+
+#ROOMS
+#24000
+Entrada al Mundo de Offspring~
+Acabas de llegar a la entrada del legendario mundo de Offspring. Mundo
+creado por un cientifico loco hace miles de anyos. Las leyendas dicen
+que este mundo era el laboratorio privado del cientifico, y los niveles
+superiores a sus aposentos, los lleno de monstruosas criaturas para asi
+poder proteger sus valiosas pertenencias personales. La entrada al mundo
+de Offspring esta al norte.
+~
+0 4 3
+D0
+El mundo de Offspring esta al norte.~
+norte~
+0 0 24001
+D1
+Al este tienes el pantano~
+este~
+0 0 512
+S
+#24001
+El Mundo de Offspring~
+Has entrado en el mundo de Offspring. Que sepas que son cientos los
+aventureros que han intentado llegar a los aposentos del cientifico y
+que ninguno lo ha conseguido. Si estas preparado para esta hazanya ves
+hacia abajo por las escaleras.
+~
+0 12 0
+D2
+La entrada del mundo hacia el sur~
+sur~
+0 0 24000
+D5
+No sabes que te espera...~
+abajo~
+0 0 24002
+S
+#24002
+Entrada al Primer CD: Offspring~
+Bajas al primer nivel del mundo de Offspring. Este nivel esta creado a
+imagen y semejanza del primer trabajo de Offspring. Al ser el primero
+la musica que componian era bastante distinta a la actual, siendo menos
+comercial. Ves con cuidado al atravesar este nivel.
+~
+0 1036 0
+D1
+La primera cancion esta al este.
+~
+este~
+0 0 24003
+D4
+La salida hacia arriba.~
+arriba~
+0 0 24001
+S
+#24003
+Jennifer Lost the War~
+Primera cancion 'Offspring': Jennifer Lost the War.
+~
+0 8 0
+D1
+La segunda cancion esta al este.
+~
+este~
+0 0 24004
+D3
+La entrada al primer CD esta al oeste.
+~
+oeste~
+0 0 24002
+S
+#24004
+Elders~
+Segunda cancion 'Offspring': Elders.
+~
+0 8 0
+D1
+Al este tienes la tercera cancion.
+~
+este~
+0 0 24005
+D3
+La primera cancion al oeste~
+oeste~
+0 0 24003
+S
+#24005
+Out on Patrol~
+Tercera cancion 'Offspring': Put on Patrol.
+~
+0 8 0
+D1
+Al este esta la cuarta cancion.~
+~
+0 0 24006
+D3
+La segunda cancion al oeste.
+~
+oeste~
+0 0 24004
+S
+#24006
+Crossroads~
+Cuarta cancion 'Offspring': Crossroads.
+~
+0 8 0
+D2
+Al sur esta la quinta cancion.
+~
+sur~
+0 0 24007
+D3
+Al oeste esta la tercera cancion.
+~
+oeste~
+0 0 24005
+S
+#24007
+Demons (A Mexican Fiesta)~
+Quinta cancion 'Offspring': Demons (A Mexican Fiesta).
+~
+0 8 0
+D0
+Al norte esta la cuarta cancion.
+~
+norte~
+0 0 24006
+D2
+Al sur tienes la sexta cancion del primer CD, Beheaded, la mas conocida.
+~
+sur~
+0 0 24008
+S
+#24008
+Beheaded~
+Sexta cancion 'Offspring': Beheaded.
+~
+0 8 0
+D0
+Al norte tienes la quinta cancion.
+~
+norte~
+0 0 24007
+D2
+Al sur tienes la septima cancion.
+~
+sur~
+0 0 24009
+E
+beheaded~
+Esta area es un homenaje a Offspring.
+
+                                                              Kayser, 25-11-2000
+~
+S
+#24009
+Tehran~
+Septima cancion 'Offspring': Tehran.
+~
+0 8 0
+D0
+Al norte esta Beheaded!
+~
+norte~
+0 0 24008
+D1
+Al este esta la octava cancion.
+~
+este~
+0 0 24010
+S
+#24010
+A Thousand Days~
+Octava cancion 'Offspring': A Thousand Days.
+~
+0 8 0
+D1
+Al este tienes la novena cancion.
+~
+este~
+0 0 24011
+D3
+Al oeste tienes la septima cancion.
+~
+oeste~
+0 0 24009
+S
+#24011
+Black Ball~
+Novena cancion 'Offspring': Black Ball.
+~
+0 8 0
+D2
+Al sur tienes la decima cancion.
+~
+sur~
+0 0 24012
+D3
+Al oeste tienes la octava cancion.
+~
+oeste~
+0 0 24010
+S
+#24012
+Ill Be Waiting~
+Decima cancion 'Offspring': Ill Be Waiting.
+~
+0 8 0
+D0
+Al norte esta la novena cancion.
+~
+norte~
+0 0 24011
+D1
+Al este tienes la onceava cancion, la ultima del primer CD.
+~
+este~
+0 0 24013
+S
+#24013
+Kill the President~
+Onceava cancion 'Offspring': Kill the President.
+~
+0 8 0
+D2
+Al sur tienes la salida del primer CD.
+~
+sur~
+0 0 24014
+D3
+Al oeste tienes la decima cancion.
+~
+oeste~
+0 0 24012
+S
+#24014
+Salida del Primer CD: Offspring~
+Ya has salido del primer CD, unas escaleras se adentran hacia abajo hacia
+el segundo CD de Offspring, el Ignition.
+~
+0 12 0
+D0
+Kill the president esta al norte.
+~
+norte~
+0 0 24013
+D5
+El Ignition esta hacia abajo.
+~
+abajo~
+0 0 24015
+S
+#24015
+Entrada al Segundo CD: Ignition~
+Bajas al segundo nivel del mundo de Offspring. Este nivel esta creado a
+imagen y semejanza del segundo trabajo de Offspring. En el Ignition el
+grupo ya tiene un estilo definido, y ya es mas parecido a los posteriores
+trabajos.
+~
+0 1036 0
+D0
+Al norte tienes la primera cancion.
+~
+norte~
+0 0 24016
+D4
+~
+~
+0 0 24014
+S
+#24016
+Session~
+Primera cancion 'Ignition': Session.
+~
+0 8 0
+D2
+Al sur esta la entrada.
+~
+sur~
+0 0 24015
+D3
+La segunda cancion esta hacia el oeste.
+~
+oeste~
+0 0 24017
+S
+#24017
+We Are One~
+Segunda cancion 'Ignition': We Are One.
+~
+0 8 0
+D1
+Al este esta la primera cancion~
+este~
+0 0 24016
+D3
+Al oeste tienes la tercera cancion.
+~
+oeste~
+0 0 24018
+S
+#24018
+Kick Him When He's Down~
+Tercera cancion 'Ignition': Kick Him When He's Down.
+~
+0 8 0
+D1
+Al este tienes la segunda cancion.
+~
+este~
+0 0 24017
+D3
+Al oeste tienes la cuarta cancion.
+~
+oeste~
+0 0 24019
+S
+#24019
+Take It Like a Man~
+Cuarta cancion 'Ignition': Take It Like a Man.
+~
+0 8 0
+D1
+Al este tienes la tercera cancion.~
+este~
+0 0 24018
+D3
+Al oeste tienes la quinta cancion.~
+oeste~
+0 0 24020
+S
+#24020
+Get It Right~
+Quinta cancion 'Ignition': Get It Right.
+
+~
+0 8 0
+D0
+Al norte tienes la sexta cancion.
+~
+norte~
+0 0 24021
+D1
+La cuarta cancion al este.
+~
+este~
+0 0 24019
+S
+#24021
+Dirty Magic~
+Sexta cancion 'Ignition': Dirty Magic.
+~
+0 8 0
+D0
+Al norte tienes la septima cancion.
+~
+norte~
+0 0 24022
+D2
+Al sur tienes el Get It Right.
+~
+sur~
+0 0 24020
+S
+#24022
+Hypodermic~
+Septima cancion 'Ignition': Hypodermic.
+~
+0 8 0
+D0
+Al norte tienes la octava cancion.
+~
+norte~
+0 0 24023
+D2
+Al sur tienes el Dirty Magic.
+~
+sur~
+0 0 24021
+S
+#24023
+Burn It Out~
+Octava cancion 'Ignition': Burn IT Out.
+~
+0 8 0
+D2
+Al sur tienes la septima cancion.
+~
+sur~
+0 0 24022
+D3
+Al oeste tienes la novena cancion.
+~
+oeste~
+0 0 24024
+S
+#24024
+No Hero~
+Novena cancion 'Ignition': No Hero.
+~
+0 8 0
+D1
+Al este tienes la octava cancion.
+~
+este~
+0 0 24023
+D3
+Al oeste tienes la decima cancion.
+~
+oeste~
+0 0 24025
+S
+#24025
+L.A.P.D.~
+Decima cancion 'Ignition': L.A.P.D.
+~
+0 8 0
+D1
+Al este tienes la novena cancion.
+~
+este~
+0 0 24024
+D2
+Al sur tienes la onceava cancion.
+~
+sur~
+0 0 24026
+S
+#24026
+Nothing From Something~
+Onceava cancion 'Ignition': Nothing From Something.
+~
+0 8 0
+D0
+Al norte tienes la decima cancion.
+~
+norte~
+0 0 24025
+D2
+Al sur tienes la doceava y ultima cancion del Ignition.
+~
+sur~
+0 0 24027
+S
+#24027
+Forever and a Day~
+Doceava cancion 'Ignition': Forever and a Day.
+~
+0 8 0
+D0
+~
+~
+0 0 24026
+D2
+Al sur tienes la salida del segundo CD.
+~
+sur~
+0 0 24028
+S
+#24028
+Salida del Segundo CD: Ignition~
+Acabas de salir del segundo CD, unas escaleras se adentran hacia abajo
+hacia el tercer CD de Offspring, el Smash.
+~
+0 12 0
+D0
+Al norte esta la doceava cancion.
+~
+norte~
+0 0 24027
+D5
+Hacia abajo esta el Smash.
+~
+abajo~
+0 0 24029
+S
+#24029
+Entrada al Tercer CD: Smash~
+Acabas de bajar al tercer nivel del mundo de Offspring. Este nivel esta 
+creado a imagen y semejanza del tercer trabajo de Offspring, el Smash. El
+Smash es el CD que les lanzo definitivamenet a la fama, con Self Steem como
+tema por excelencia, siendo considerado aun por muchos como una de las mejores
+canciones punks de la historia. El Smash vendio casi 15 millones de copias,
+convirtiendose en el CD independiente de mas ventas de la historia, puesto que
+aun no le ha sido arrebatado.
+~
+0 1036 0
+D1
+Al este tienes la primera pista del Smash.
+~
+este~
+0 0 24030
+D4
+Hacia arriba esta el Ignition.
+~
+arriba~
+0 0 24028
+S
+#24030
+Time to Relax~
+Primera cancion 'Smash': Time To Relax (Introduccion).
+
+~
+0 8 0
+D1
+Al este tienes la segunda cancion.
+~
+este~
+0 0 24031
+D3
+Al oeste esta la entrada ak Smash~
+oeste~
+0 0 24029
+S
+#24031
+Nitro (Youth Energy)~
+Segunda cancion 'Smash': Nitro (Youth Energy).
+~
+0 8 0
+D1
+Al este tienes la tercera cancion.
+~
+este~
+0 0 24032
+D3
+Al oeste tienes la primera cancion.
+~
+oeste~
+0 0 24030
+S
+#24032
+Bad Habit~
+Tercera cancion 'Smash': Bad Habit.
+~
+0 8 0
+D1
+Al este tienes la cuarta cancion.
+~
+este~
+0 0 24033
+D3
+Al oeste tienes la segunda cancion.
+~
+oeste~
+0 0 24031
+S
+#24033
+El AngEl CaiDo~
+Cuarta cancion 'Smash': Gotta Get Away.
+~
+0 8 0
+D2
+Al sur esta la quinta cancion.
+~
+sur~
+0 0 24034
+D3
+Al oeste tienes la tercera cancion.
+~
+oeste~
+0 0 24032
+S
+#24034
+Genocide~
+Quinta cancion 'Smash': Genocide.
+~
+0 8 0
+D0
+Al norte esta la cuarta cancion.
+~
+norte~
+0 0 24033
+D2
+Al sur esta la sexta cancion.
+~
+sur~
+0 0 24035
+S
+#24035
+Something to Believe In~
+Sexta cancion 'Smash': Something to Believe In.
+~
+0 8 0
+D0
+Al norte esta Genocide.
+~
+norte~
+0 0 24034
+D1
+Al este esta la septima cancion.
+~
+este~
+0 0 24036
+S
+#24036
+Come Out and Play~
+Septima cancion 'Smash': Come Out and Play.
+
+~
+0 8 0
+D1
+Al este esta Self Esteem.
+~
+este~
+0 0 24037
+D3
+Al oeste esta la sexta cancion.
+~
+oeste~
+0 0 24035
+S
+#24037
+Self Esteem~
+Octava cancion 'Smash': Self Esteem.
+~
+0 1548 0
+D1
+Al este esta la novena cancion.~
+novena~
+0 0 24038
+D3
+Al oeste esta la septima cancion.
+~
+oeste~
+0 0 24036
+E
+self esteem letra cancion~
+I wrote her off for the tenth time today
+Practiced all the things I would say
+But she came over
+I lost my nerve
+I took her back and made her dessert
+Now I know I'm being used
+That's okay man cause I like the abuse
+I know she's playing with me
+That's okay cause I've got no self esteem
+We make plans to go out at night
+I wait till 2 then I turn out the light
+This rejections got me so low
+If she keeps it up just might tell her so
+When she's saying all that she wants only me
+Then I wonder why she sleeps with my friends
+When she's saying all that I'm like a disease
+Then I wonder how much more I can spend
+Well I guess I should stick up for myself
+But I really thinks it's better this way
+The more you suffer
+The more it shows you really care
+Right? Yeah!
+Now I'll relate this little bit
+Happens more than I'd like to admit
+Late at night she knocks on my door
+She's drunk again and lookig the score
+Now I know I should say no but
+Kind of hard when she's ready to go
+I may be dumb
+I'm not a dweeb
+I'm just a sucker with no sel esteem
+When she's saying all that she wants only me
+Then I wonder why she sleeps with my friends
+When she's saying all that I'm like a disease
+Then I wonder how much more I can spend
+Well I guess I should stick up for myself
+But I really thinks it's better this way
+The more you suffer
+The more it shows you really care
+Right? Yeah!~
+> entry_prog 100~
+mpforce $n . La La LaLaLa La La La La La
+moechoat $n Leete la letra si gustas ~
+|
+S
+#24038
+It'll Be a Long Time~
+Novena cancion 'Smash': It'll Be a Long Time.
+~
+0 8 0
+D1
+Al este esta la decima cancion.
+~
+este~
+0 0 24039
+D3
+Al oeste esta Self Esteem!~
+oeste~
+0 0 24037
+S
+#24039
+Killboy Powerhead~
+Decima cancion 'Smash': Killboy Powerhead.
+~
+0 8 0
+D1
+Al este tienes la onceava cancion.
+~
+este~
+0 0 24040
+D3
+Al oeste esta la novena cancion.
+~
+oeste~
+0 0 24038
+S
+#24040
+What Happened to You?~
+Onceava cancion 'Smash': What Happened to You?
+~
+0 8 0
+D2
+Al sur tienes la doceava cancion.~
+sur~
+0 0 24041
+D3
+Al oeste tienes la decima cancion.
+~
+oeste~
+0 0 24039
+S
+#24041
+So Alone~
+Doceava cancion 'Smash': So Alone.
+
+~
+0 8 0
+D0
+Al norte tienes la onceava cancion.
+~
+norte~
+0 0 24040
+D2
+Al sur tienes la treceava cancion.
+~
+sur~
+0 0 24042
+S
+#24042
+Not the One~
+Treceava cancion 'Smash': Not the One.
+~
+0 8 0
+D0
+Al norte esta la doceava cancion.
+~
+norte~
+0 0 24041
+D1
+Al este tienes la catorceava cancion.
+~
+este~
+0 0 24043
+S
+#24043
+Smash~
+Catorceava cancion 'Smash': Smash.
+~
+0 8 0
+D1
+Al este esta la salida del nivel.
+~
+este~
+0 0 24044
+D3
+Al oeste esta la treceava cancion.
+~
+oeste~
+0 0 24042
+S
+#24044
+Salida del Tercer CD: Smash~
+Sales del tercer CD para llegar a unas escaleras que se adentran hacia
+abajo, donde espera el tercer CD de Offspring, el Ixnay On the Hombre.
+~
+0 12 0
+D3
+Al oeste esta el Smash.
+~
+oeste~
+0 0 24043
+D5
+Hacia abajo esta la entrada al Ixnay.
+~
+abajo~
+0 0 24045
+S
+#24045
+Entrada al Cuarto CD: Ixnay On the Hombre.~
+Acabas de bajar al cuarto nivel del mundo de Offspring. Este nivel esta 
+creado a imagen y semejanza del cuarto trabajo de Offspring, el Ixnay. El
+Ixnay es el CD que contiene la mejor cancion de Offspring, el All I Want.
+~
+0 1036 0
+D2
+Al sur tienes la primera cancion.
+~
+sur~
+0 0 24046
+D4
+Arriba esta el Smash.
+~
+arriba~
+0 0 24044
+S
+#24046
+Disclaimer~
+Primera cancion 'Ixnay On the Hombre': Disclaimer (Introduccion).
+~
+0 8 0
+D0
+Al norte tienes la entrada al Ixnay.
+~
+norte~
+0 0 24045
+D3
+Al oeste tienes la segunda cancion.
+~
+oeste~
+0 0 24047
+S
+#24047
+The Meaning of Life~
+Segunda cancion 'Ixnay On the Hombre': The Meaning of Life.
+~
+0 8 0
+D1
+al este tienes la primera cancion.
+~
+este~
+0 0 24046
+D3
+Al oeste esta la tercera cancion.
+~
+oeste~
+0 0 24048
+S
+#24048
+Mota~
+Tercera cancion 'Ixnay On the Hombre': Mota.
+~
+0 8 0
+D1
+Al este esta la segunda cancion.
+~
+este~
+0 0 24047
+D3
+Al oeste tienes la cuarta cancion.
+~
+oeste~
+0 0 24049
+S
+#24049
+Me & My Old Lady~
+Cuarta cancion 'Ixnay On the Hombre': Me & My Old Lady.
+~
+0 8 0
+D1
+Al este tienes la tercera cancion.
+~
+este~
+0 0 24048
+D3
+Al oeste tienes la quinta cancion.
+~
+oeste~
+0 0 24050
+S
+#24050
+Cool To Hate~
+Quinta cancion 'Ixnay On the Hombre': Cool To Hate.
+~
+0 8 0
+D1
+Al este esta la cuarta cancion.
+~
+este~
+0 0 24049
+D2
+Al sur esta la sexta cancion.
+~
+sur~
+0 0 24051
+S
+#24051
+Leave It Behind~
+Sexta cancion 'Ixnay On the Hombre': Leave It Behind.
+~
+0 8 0
+D0
+Al norte esta la quinta cancion.
+~
+norte~
+0 0 24050
+D2
+Al sur esta la septima cancion.
+~
+sur~
+0 0 24052
+S
+#24052
+Gone Away~
+Septima cancion 'Ixnay On the Hombre': Gone Away.
+~
+0 8 0
+D0
+Al norte esta la sexta cancion.
+~
+norte~
+0 0 24051
+D1
+Al este esta la octava cancion.
+~
+este~
+0 0 24053
+S
+#24053
+I Choose~
+Octava cancion 'Ixnay On the Hombre': I Choose.
+~
+0 8 0
+D2
+La novena cancion esta al sur de aqui.
+~
+sur~
+0 0 24054
+D3
+Al oeste esta el Gone Away.
+~
+oeste~
+0 0 24052
+S
+#24054
+Intermission~
+Novena cancion 'Ixnay On the Hombre': Intermission (Introduccion All I Want).
+~
+0 65544 0
+D0
+Al norte esta la octava cancion.
+~
+norte~
+0 0 24053
+D2
+Al sur esta el All I Want!~
+sur~
+0 0 24055
+S
+#24055
+All I Want~
+Decima cancion 'Ixnay On the Hombre': All I Want.
+~
+0 304652 0
+D0
+~
+~
+0 0 24054
+D3
+Al oeste esta la onceava cancion.
+~
+oeste~
+0 0 24056
+> sleep_prog 100~
+mpforce $n levantar
+mpechoat $n CoMo Te AtReVeS a DoRmIrTe CoN El AlL i WaNt???????
+mpdamage $n 118
+~
+> entry_prog 100~
+mpechoat $n DiOs!! EsTa CaNcIoN Es BeStIaL!!
+mpechoat $n SeRiA ImPoSiBlE DoRmIr CoN EsTo :)))))))
+mpforce $n bailar~
+|
+S
+#24056
+Way Down The Line~
+Onceava cancion 'Ixnay On the Hombre': Way Down The Line.
+
+~
+0 8 0
+D1
+Al este esta el All I Want.
+~
+este~
+0 0 24055
+D3
+Al oeste esta la cancion numero 12.
+~
+oeste~
+0 0 24057
+> all_greet_prog 25~
+mpechoat $n JoDeR QuE SuBiDoN De AdReNaLiNa!!
+mpechoat $n QuIeReS EsCuChArLa OtRa VeZ??
+mpforce $n . YA YA YA YA YA (QuIeRo MaS AlL i WaNt!!)
+mpforce $n este
+~
+|
+S
+#24057
+Don't Pick It Up~
+Doceava cancion 'Ixnay On the Hombre': Don't Pick It Up.
+~
+0 8 0
+D1
+Al este esta la onceava cancion.
+~
+este~
+0 0 24056
+D3
+Al oeste esta la treceava cancion.
+~
+oeste~
+0 0 24058
+S
+#24058
+Amazed~
+Treceava cancion 'Ixnay On the Hombre': Amazed.
+~
+0 8 0
+D0
+Al norte esta la catorceava cancion.
+~
+norte~
+0 0 24059
+D1
+Al este esta la doceava cancion.
+~
+este~
+0 0 24057
+S
+#24059
+Change the World~
+Catorceava cancion 'Ixnay On the Hombre': Change the World.
+~
+0 8 0
+D0
+Al norte tienes la salida del Ixnay.
+~
+norte~
+0 0 24060
+D2
+Al sur esta la treceava cancion.
+~
+sur~
+0 0 24058
+S
+#24060
+Salida del Cuarto CD: Ixnay On the Hombre~
+Sales del cuarto CD para llegar a unas escaleras que se adentran hacia
+abajo, donde espera el quinto CD de Offspring, el Americana.
+~
+0 12 0
+D2
+Hacia el sur esta la catorceava cancion del Ixnay.
+~
+sur~
+0 0 24059
+D5
+Hacia abajo esta el Americana.
+~
+abajo~
+0 0 24061
+S
+#24061
+Entrada al Quinto CD: Americana~
+Acabas de bajar al quinto nivel del mundo de Offspring. Este nivel esta 
+creado a imagen y semejanza del quinto trabajo de Offspring, el Americana.
+El Americana es el CD mas comercial de Offspring, con ritmos pegadizos y
+canciones no demasiado rapidas. Si no fuera por canciones como The Kids 
+Aren't Alright este CD sobraba.
+~
+0 1036 0
+D1
+Al este esta la primera cancion~
+este~
+0 0 24062
+D4
+Hacia arriba esta la salida del Ixnay.
+~
+arriba~
+0 0 24060
+S
+#24062
+Wellcome~
+Primera cancion 'Americana': Wellcome (Introduccion).
+~
+0 8 0
+D1
+Al este esta la segunda cancion.
+~
+este~
+0 0 24063
+D3
+Al oeste esta la entrada al Americana.
+~
+oeste~
+0 0 24061
+S
+#24063
+Have You Ever~
+Segunda cancion 'Americana': Have You Ever.
+~
+0 8 0
+D1
+Al este esta la tercera cancion.
+~
+este~
+0 0 24064
+D3
+Al oeste esta la primera cancion.
+~
+oeste~
+0 0 24062
+S
+#24064
+Staring At the Sun~
+Tercera cancion 'Americana': Staring At the Sun.
+~
+0 8 0
+D2
+Al sur esta la cuarta cancion.
+~
+sur~
+0 0 24065
+D3
+Al oeste tienes la segunda cancion.
+~
+oeste~
+0 0 24063
+S
+#24065
+Pretty Fly (For a White Guy)~
+Cuarta cancion 'Americana': Pretty Fly (For a White Guy).
+~
+0 8 0
+D0
+Al norte tienes la tercera cancion.
+~
+norte~
+0 0 24064
+D2
+Al sur esta la quinta cancion.
+~
+sur~
+0 0 24066
+> entry_prog 25~
+mpforce $n bailar
+mpechoat $n Te sorprendes a ti mismo bailando como el del video!
+mpechoat $n Uff... menos mal que no te ha visto ~
+|
+S
+#24066
+The Kids Aren't Alright~
+Quinta cancion 'Americana': The Kids Aren't Alright.
+~
+0 8 0
+D0
+Al norte esta la cuarta cancion.
+~
+norte~
+0 0 24065
+D1
+Al este tienes la sexta cancion.
+~
+este~
+0 0 24067
+S
+#24067
+Feelings~
+Sexta cancion 'Americana': Feelings.
+~
+0 8 0
+D1
+Al este tienes la septima cancion.
+~
+este~
+0 0 24068
+D3
+Al oeste esta TKAA.
+~
+oeste~
+0 0 24066
+S
+#24068
+She's Got Issues~
+Septima cancion 'Americana': She's Got Issues.
+~
+0 8 0
+D0
+Al norte esta la octava cancion.
+~
+norte~
+0 0 24069
+D3
+Al oeste esta la sexta cancion.
+~
+oeste~
+0 0 24067
+S
+#24069
+Walla Walla~
+Octava cancion 'Americana': Walla Walla.
+~
+0 8 0
+D1
+Al este esta la novena cancion.
+~
+este~
+0 0 24070
+D2
+Al sur esta la septima cancion.
+~
+sur~
+0 0 24068
+S
+#24070
+The End of the Line~
+Novena cancion 'Americana': The End of the Line.
+~
+0 8 0
+D1
+Al este tienes la decima cancion.
+~
+este~
+0 0 24071
+D3
+Al oeste esta la octava cancion.
+~
+oeste~
+0 0 24069
+S
+#24071
+No Brakes~
+Decima cancion 'Americana': No Brakes.
+~
+0 8 0
+D2
+Al sur tienes la onceava cancion.
+~
+sur~
+0 0 24072
+D3
+Al oeste tienes la novena cancion.
+~
+oeste~
+0 0 24070
+S
+#24072
+Why Don't You Get a Job~
+Onceava cancion 'Americana': Why Don't You Get a Job.
+~
+0 8 0
+D0
+Al norte tienes la decima cancion.
+~
+norte~
+0 0 24071
+D2
+Al sur tienes la doceava cancion.
+~
+sur~
+0 0 24073
+S
+#24073
+Americana~
+Doceava cancion 'Americana': Americana.
+~
+0 8 0
+D0
+Al norte tienes la onceava cancion.
+~
+norte~
+0 0 24072
+D1
+Al este tienes la treceava y ultima cancion.
+~
+este~
+0 0 24074
+S
+#24074
+Pay the Man~
+Treceava cancion 'Americana': Pay the Man.
+~
+0 8 0
+D1
+Al este tienes la salida del CD.
+~
+este~
+0 0 24075
+D3
+Al oeste tienes la doceava cancion.
+~
+oeste~
+0 0 24073
+S
+#24075
+Salida del Quinto CD: Americana~
+Sales del quinto CD para llegar a unas escaleras que se adentran hacia
+abajo, donde espera el sexto CD de Offspring, el Conspiracy of One.
+~
+0 12 0
+D3
+Al oeste esta la treceava cancion.
+~
+oeste~
+0 0 24074
+D5
+Hacia abajo esta la entrada al sexto y ultimo CD de Offspring.
+~
+abajo~
+0 0 24076
+S
+#24076
+Entrada al Sexto CD: Conspiracy of One~
+Acabas de bajar al sexto nivel del mundo de Offspring. Este nivel esta 
+creado a imagen y semejanza del sexto trabajo de Offspring, el Conspiracy
+of One. Este ultimo CD esta mas en la linea del Ixnay o del Smash que del
+Americana, con canciones como Dammit I Changed Again, All Along o One Fine
+Day.
+~
+0 1036 0
+D2
+Al sur tienes la primera cancion.
+~
+sur~
+0 0 24077
+D4
+Hacia arriba esta el quinto CD, el Americana.
+~
+arriba~
+0 0 24075
+S
+#24077
+Intro~
+Primera cancion 'Conspiracy of One': Intro (Introduccion).
+~
+0 8 0
+D0
+Al norte tienes la entrada al Conspiracy.
+~
+norte~
+0 0 24076
+D3
+Al oeste tienes la segunda cancion.
+~
+oeste~
+0 0 24078
+S
+#24078
+Come Out Swinging~
+Segunda cancion 'Conspiracy of One': Come Out Swinging.
+~
+0 8 0
+D1
+Al este tienes la primera cancion.
+~
+este~
+0 0 24077
+D3
+Al oeste tienes la tercera cancion.
+~
+oeste~
+0 0 24079
+S
+#24079
+Original Prankster~
+Tercera cancion 'Conspiracy of One': Original Prankster.
+~
+0 8 0
+D1
+Al este tienes la segunda cancion.
+~
+este~
+0 0 24078
+D2
+Al sur tienes la cuarta cancion.
+~
+sur~
+0 0 24080
+S
+#24080
+Want You Bad~
+Cuarta cancion 'Conspiracy of One': Want You Bad.
+~
+0 8 0
+D0
+Al norte tienes la tercera cancion.
+~
+norte~
+0 0 24079
+D2
+Al sur tienes la quinta cancion.
+~
+sur~
+0 0 24081
+S
+#24081
+Million Milles Away~
+Quinta cancion 'Conspiracy of One': Million Milles Away.
+~
+0 8 0
+D0
+Al norte tienes la cuarta cancion.
+~
+norte~
+0 0 24080
+D3
+Al oeste tienes el Dammit, I changed Again!
+~
+oeste~
+0 0 24082
+S
+#24082
+Dammit, I Changed Again~
+Sexta cancion 'Conspiracy of One': Dammit, I Changed Again.
+~
+0 12 0
+D1
+Al este tienes la quinta cancion.
+~
+este~
+0 0 24081
+D3
+Al oeste esta la septima cancion.~
+oeste~
+0 0 24083
+> leave_prog 100~
+mpforce $n . I SeE iT~
+|
+S
+#24083
+Living In Chaos~
+Septima cancion 'Conspiracy of One': Living In Chaos.
+~
+0 8 0
+D0
+Al norte tienes la octava cancion.
+~
+norte~
+0 0 24084
+D1
+Al este esta la sexta cancion.
+~
+este~
+0 0 24082
+S
+#24084
+Special Delivery~
+Octava cancion 'Conspiracy of One': Special Delivey.
+~
+0 8 0
+D0
+Al norte tienes la novena cancion.
+~
+norte~
+0 0 24085
+D2
+Al sur tienes la septima cancion.
+~
+sur~
+0 0 24083
+S
+#24085
+One Fine Day~
+Novena cancion 'Conspiracy of One': One Fine Day.
+~
+0 8 0
+D0
+Al norte tienes la decima cancion.
+~
+norte~
+0 0 24086
+D2
+Al sur tienes la octava cancion.
+~
+sur~
+0 0 24084
+S
+#24086
+All Along~
+Decima cancion 'Conspiracy of One': All Along.
+~
+0 8 0
+D0
+Al norte tienes la onceava cancion.
+~
+norte~
+0 0 24087
+D2
+Al sur tienes la novena cancion.
+~
+sur~
+0 0 24085
+S
+#24087
+Denial, Revisited~
+Onceava cancion 'Conspiracy of One': Denial, Revisited.
+~
+0 8 0
+D0
+Al norte tienes la doceava cancion.~
+norte~
+0 0 24088
+D2
+Al sur tienes la decima cancion.
+~
+sur~
+0 0 24086
+S
+#24088
+Vultures~
+Doceava cancion 'Conspiracy of One': Vultures.
+~
+0 8 0
+D2
+Al sur tienes la onceava cancion.
+~
+sur~
+0 0 24087
+D3
+Al oeste tienes la treceava cancion.
+~
+oeste~
+0 0 24089
+S
+#24089
+Conspiracy of One~
+Treceava cancion 'Conspiracy of One': Conpiracy of One.
+~
+0 8 0
+D1
+Al este tienes la doceava cancion.
+~
+este~
+0 0 24088
+D3
+Al oeste tienes la catorceava cancion.
+~
+oeste~
+0 0 24090
+S
+#24090
+Huck It~
+Catorceava cancion 'Conspiracy of One': Huck It (Bonus Track).
+~
+0 8 0
+D1
+Al este tienes la treceava cancion.
+~
+este~
+0 0 24089
+D3
+Al oeste tienes el final del CD.
+~
+oeste~
+0 0 24091
+S
+#24091
+Salida del Sexto CD: Conpiracy of One~
+Sales del sexto CD para llegar a unas escaleras que se adentran mas
+abajo aun, hacia la oscuridad...
+~
+0 12 0
+D1
+Al este tienes la Bonus track del Conpiracy.
+~
+este~
+0 0 24090
+D5
+Hacia abajo...oscuridad.
+~
+abajo~
+0 0 24092
+S
+#24092
+Entrada al Septimo CD?~
+Acabas de entrar en una habitacion en obras... esto sera la entrada al
+septimo CD de Offspring en cuanto lo publiquen ;)
+~
+0 66061 0
+D4
+Hacia el Conspiracy of One.
+~
+arriba~
+0 0 24091
+S
+#0
+
+
+#RESETS
+M 0 24000 5 24004
+E 0 24001 0 6
+E 0 24000 0 16
+M 0 24000 5 24006
+E 0 24001 0 6
+E 0 24000 0 16
+M 0 24000 5 24009
+E 0 24001 0 6
+E 0 24000 0 16
+M 0 24000 5 24011
+E 0 24000 0 16
+E 0 24001 0 6
+M 0 24000 5 24012
+E 0 24001 0 6
+E 0 24000 0 16
+M 0 24006 1 24013
+E 0 24002 0 13
+M 0 24002 4 24016
+E 0 24004 0 18
+E 0 24003 0 5
+M 0 24002 4 24019
+E 0 24004 0 18
+E 0 24003 0 5
+M 0 24002 4 24022
+E 0 24004 0 18
+E 0 24003 0 5
+M 0 24002 4 24024
+E 0 24004 0 18
+E 0 24003 0 5
+M 0 24007 1 24027
+E 0 24005 0 0
+M 0 24001 5 24031
+E 0 24007 0 18
+E 0 24006 0 8
+M 0 24001 5 24034
+E 0 24007 0 18
+E 0 24006 0 8
+M 0 24008 1 24034
+E 0 24006 0 8
+E 0 24008 0 15
+E 0 24008 0 14
+M 0 24001 5 24036
+E 0 24007 0 18
+E 0 24006 0 8
+M 0 24001 5 24039
+E 0 24007 0 18
+E 0 24006 0 8
+M 0 24001 5 24042
+E 0 24007 0 18
+E 0 24006 0 8
+M 0 24003 5 24046
+M 0 24003 5 24048
+M 0 24003 5 24051
+M 0 24003 5 24054
+M 0 24003 5 24057
+M 0 24009 1 24059
+E 0 24009 0 9
+M 0 24004 4 24063
+E 0 24011 0 9
+E 0 24010 0 0
+M 0 24010 1 24065
+E 0 24012 0 4
+E 0 24012 0 3
+E 0 24013 0 20
+M 0 24004 4 24067
+E 0 24011 0 9
+E 0 24010 0 0
+M 0 24004 4 24070
+E 0 24010 0 0
+E 0 24011 0 9
+M 0 24004 4 24073
+E 0 24011 0 9
+E 0 24010 0 0
+M 0 24005 6 24077
+M 0 24011 1 24079
+M 0 24005 6 24081
+M 0 24005 6 24085
+M 0 24005 6 24088
+M 0 24005 6 24088
+M 0 24005 6 24090
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  24010 spec_cast_cleric
+M  24011 spec_cast_mage
+S
+
+
+#$

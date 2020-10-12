@@ -1,0 +1,1209 @@
+#AREA   limbo~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 1
+#PROPIETARIO Inconquistable~
+#PUNTOS 0 0 0 0 0
+#AUTHOR Kayser~
+
+#RANGES
+0 256 0 256
+$
+
+#RESETMSG ~
+
+#FLAGS
+0
+
+#ECONOMY 0 45120000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#1
+puff~
+Puff~
+Aqui tienes a Puff, el gran dragon magico.
+~
+~
+3 4194856 1000 C
+550 250 -800 1d1+30000 4d10+200
+10000 1000
+112 112 2
+30 30 30 30 30 30 30
+-500 -500 -500 -500 -500
+31 0 0 0 3420515 3420515 0
+0 0 0 0 -1 0 2 3
+> speech_prog test~
+say triggered by (name):	$n
+say triggered by (name&title): 	$N
+say triggerer is (he,she,it):	$e
+say triggerer is (him,her,it):	$m
+say triggerer is (his,hers,its):$s
+say random char (name):		$r
+say random char (name&title or short): 	$R
+say random char  (he,she,it):	$J
+say random char (him,her,it):	$L
+say random char (his,hers,its):	$K
+~
+> speech_prog test2~
+say firstname of obj:	 	$i
+say short_desc/title of obj: 	$I
+say he/she/it of obj:	 	$j
+say him/her/it of obj:	 	$k
+say his/hers/its of obj:	$l
+say firstname of victim: 	$t
+say short_desc/title of victim:	$T
+say he/she/it of victim: 	$E
+say him/her/it of victim: 	$M
+say his/hers/its of victim:	$S
+~
+|
+#2
+demonio~
+Un demonio alado~
+Un demonio alado esta aqui cerca volando a tu alrededor con una risa diabolica
+~
+Este demonio tiene algo que te gustaria tener a ti...
+Parece sermuy agil, y muy fuerte.
+~
+3 40 -1000 C
+50 1 -300 5d10+31550 1d2+2
+10000 155000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p sed~
+mpforce $n beber
+c heal $n
+~
+> act_prog p hambre~
+mpoload 20
+dar seta $n
+mpforce $n comer seta
+cast heal $n
+~
+> act_prog p bashes against~
+cast heal $n
+cast heal $n
+~
+> act_prog p tiembla y~
+cast 'cure poison' $n
+cast heal $n
+~
+> act_prog p viste~
+c heal $n
+c heal $n
+~
+> act_prog p blande~
+c heal $n
+c heal $n
+~
+> act_prog p esta MUERTO!!~
+mptrans $n 6
+~
+|
+#3
+supermob~
+el supermob~
+El supermob esta aqui. Parece muy ocupado.
+~
+Es el supermob!
+~
+2105345 4259882 -1000 C
+50 1 -300 5d10+31550 1d2+2
+10000 155000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 25~
+mpinvis 51
+~
+|
+#5
+cuerpo animado~
+un cuerpo animado~
+Un cuerpo privado de su descanso eterno esta aqui.
+~
+Privado de la muerte, tienes este cuerpo que si no fuera por las fuerzas
+magicas que lo retienen estaria disfrutando del descanso eterno.
+~
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 7 0 0 0 0 0
+#10
+lobo~
+un lobo~
+Un lobo esta mirandote con cara de hambre.
+~
+Ves con cuidado con este lobo.
+~
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 135445263 135445263 2
+0 0 0 0 0 0 3 0
+#11
+niebla~
+niebla~
+Una densa niebla juega con tus sentidos.
+~
+Es niebla lo que ves? O son tus ojos que te enganyan. La niebla a tu alrededor
+aparece y desaparece por segundos... Parece rodeada de un poder superior.
+~
+1073741825 2129920 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 135447947 135447947 2
+0 0 0 0 0 0 35651584 0
+#12
+murcielago~
+un murcielago~
+Un murcielago vuela a tu alrededor.
+~
+~
+1073741825 524288 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1996514925 1996514924 2
+0 0 0 0 0 0 3 0
+#13
+halcon~
+un halcon~
+Un halcon vuela en circulos justo encima tuyo.
+~
+~
+1073741825 524288 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 135448667 135448666 2
+0 0 0 0 0 0 2 0
+#14
+gato negro~
+un gato negro~
+Un gato negro te observa desde las sombras.
+~
+Este gato esta destinado a traerte mala suerte.
+~
+1073741825 8 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+29 3 0 0 6645091 6645090 2
+0 0 0 0 0 0 3 0
+#15
+paloma~
+una paloma~
+Una bonita paloma vuela y canta una bonita melodia.
+~
+~
+1073741825 524288 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 135448667 135448666 1
+0 0 0 0 0 0 2 0
+#16
+pez~
+un pez~
+Ves un pez saltando una y otra vez por encima del agua.
+~
+~
+1073741825 -2147483648 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 135448379 135448378 1
+0 0 0 0 0 0 0 0
+#80
+guardian vampiro~
+un guardian vampiro~
+Un guardian vampiro esta aqui buscando tu preciosa sangre.
+~
+.
+~
+35 40 -1000 C
+25 0 -4 1d1+385 4d5+15
+0 105000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 1735 0 0 0 33558528 0
+#99
+final mob~
+el mob final~
+Algun dios ha abandonado este mob definitivo.
+~
+~
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2
+moneda oro gold coin~
+una moneda de oro~
+En el suelo ves una moneda de oro.~
+~
+20 0 1
+1 0 0 0
+1 0 0
+#3
+monedas oro gold coins~
+unas monedas de oro~
+Ves unas monedas de oro en el suelo.~
+~
+20 0 1
+0 0 0 0
+1 0 0
+#10
+cuerpo corpse cadaver~
+el cuerpo de %s~
+El cuerpo de %s esta tirado en el suelo.~
+~
+23 0 1
+0 0 0 1
+100 0 0
+#11
+cuerpo corpse cadaver~
+el cuerpo de %s~
+El cuerpo de %s esta tirado en el suelo.~
+~
+24 0 0
+0 0 0 1
+100 0 0
+#12
+head cabeza~
+la cabeza de %s~
+La cabeza de %s esta rodando por el suelo.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#13
+heart corazon~
+el corazon de %s~
+El corazon de %s esta aqui tirado.~
+%s salvagemente devora $p!~
+19 0 1
+16 0 0 0
+2 0 0
+#14
+arm brazo~
+el brazo de %s~
+El brazo cortado de %s esta aqui en el suelo.~
+%s devora $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#15
+leg pierna~
+la pierna de %s~
+La pierna cortada de %s esta aqui en el suelo.~
+%s devora $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#16
+guts tripas~
+las tripas de %s~
+Las tripas de %s estan esparcidas por el suelo.~
+~
+13 0 0
+5 0 0 1
+1 0 0
+#17
+blood sangre~
+un charco de sangre~
+Un charco de sangre esta sobre el suelo.~
+~
+27 0 0
+5 0 0 1
+1 0 0
+#18
+fuente sangre~
+la fuente de sangre~
+Una inmensa fuente de la que brota sangre esta en el suelo.~
+~
+28 0 0
+5 0 0 1
+1 0 0
+#19
+pedazo~
+un pedazo de %s~
+Un pedazo de %s esta en el suelo.~
+~
+29 0 1
+5 0 0 1
+1 0 0
+#20
+seta~
+una seta magica~
+Una seta magica esta en el suelo.~
+%s disfruta de $p.~
+19 0 1
+5 0 0 0
+1 10 1
+#21
+bola luz~
+una brillante bola de luz~
+Una brillante bola de luz flota aqui sobre el suelo.~
+~
+1 0 1
+0 0 -1 0
+1 0 0
+#22
+tallo agua~
+un tallo magico~
+Un tallo magico esta aqui en el suelo.~
+~
+25 64 0
+100000 100000 0 0
+10 10 1
+#24
+carne fresca trozo~
+Un trozo de carne fresca de %s~
+Un trozo de carne fresca de %s esta en el suelo.~
+~
+19 262144 1
+15 0 0 0
+2 0 0
+#25
+bolsa~
+una bolsa~
+Una bolsa de la compra esta tirada en el suelo.~
+~
+15 0 1
+50 0 0 0
+2 20 2
+#26
+sangre~
+un charco de generosa Vitae cainita~
+Un charco de generosa Vitae cainita rezuma poder~
+~
+28 0 0
+5 0 0 1
+1 0 0
+#30
+fuego~
+un fuego magico~
+Un fuego magico prende aqui.~
+~
+34 64 0
+0 0 0 0
+10 10 1
+#31
+trampa~
+una trampa~
+Detectas una trampa.~
+~
+44 0 0
+0 0 0 0
+100 10 1
+#32
+portal~
+un portal~
+Un portal magico se levanta ante ti.~
+~
+46 64 0
+0 0 0 0
+100 10 1
+#33
+negro polvos veneno~
+unos polvos negros envenenados~
+Un monton de polvo negro envenenado esta aqui en una pequenya bolsa.~
+~
+13 0 16385
+0 0 0 0
+1 48000 4800
+#34
+blanco pergamino~
+un pergamino en blanco~
+Un pergamino en blanco esta tirado en el suelo.~
+~
+2 0 16385
+0 -1 -1 -1
+2 10000 1000
+'NONE' 'NONE' 'NONE'
+#35
+frasco vacio~
+un frasco vacio~
+Un frasco vacio esta aqui tirado.~
+~
+10 0 16385
+1 -1 -1 -1
+1 15000 1500
+'NONE' 'NONE' 'NONE'
+#36
+nota papel~
+una nota~
+Una nota esta tirada en el suelo.~
+~
+47 0 16385
+0 0 0 0
+1 1500 150
+#37
+pluma estilografica~
+una pluma~
+Una pluma estilografica esta aqui en el suelo.~
+~
+21 0 1
+15 15 0 0
+2 2000 200
+#43
+simbolo sagrado fe~
+un simbolo de fe~
+Un simbolo sagrado esta aqui brillando en el suelo.~
+~
+9 0 16385
+5 5 0 0
+5 0 0
+A
+4 2
+#44
+brains cerebro~
+el cerebro de %s~
+El cerebro de %s esta desparramado por el suelo.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#45
+hands mano~
+la mano de %s~
+La mano de %s esta aqui en el suelo.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#46
+feet pies~
+los pies de %s~
+Los pies de %s estan tirados por el suelo.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#47
+fingers dedos~
+los dedos de %s~
+Los dedos de %s han sido cortados y han caido al suelo.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#48
+ear oreja~
+la oreja de %s~
+La oreja de %s ha sido separada de su cuerpo.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#49
+ojo eye~
+el ojo de %s~
+El ojo de %s esta rodando por el suelo.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#50
+lengua~
+la lengua de %s~
+La lengua de %s esta tirada en el suelo.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#51
+cejas~
+las cejas de %s~
+Las cejas de %s han sido cortados y han caido al suelo.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#52
+tentaculos~
+los tentaculos de %s~
+Los tentaculos de %s han sido separados de su cuerpo.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#53
+aleta~
+la aleta de %s~
+La aleta de %s esta tirada por el suelo.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#54
+alas~
+las alas de %s~
+Las alas de %s estan por aqui tiradas.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#55
+cola~
+la cola de %s~
+La cola de %s esta por aqui tirada.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#56
+escamas~
+las escamas de %s~
+Las escamas de %s estan por aqui tiradas.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#57
+madibulas~
+las mandibulas de %s~
+Las mandibulas de %s estan por aqui tiradas.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#58
+ombligo~
+el ombligo de %s~
+El ombligo de %s esta por aqui tirado(no te parece raro?).~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#59
+garras~
+las garras de %s~
+Las garras de %s estan por aqui tiradas.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#87
+labios~
+los labios de %s~
+Los labios de %s estan por aqui tirados.~
+%s se come $p con gusto... que asco!~
+19 0 1
+10 0 0 0
+5 0 0
+#99
+final objeto~
+un objeto final~
+Algun dios ha creado este objeto.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#233
+muerte lenta agonizante~
+Una Lenta y Agonizante Muerte~
+La Muerte Nos Espera En Los Rincones Mas Inesperados...~
+~
+9 4255&4 513
+50 50 0 0
+1 120000000 1220000
+E
+muerte agonia~
+La Muerte nos llega tarde o temprano, no importa quien seas, que hagas
+o donde te escondas...~
+A
+19 30
+A
+18 30
+A
+13 300
+A
+12 300
+A
+66 10
+A
+24 -8
+A
+23 -8
+#234
+espada cain~
+La EsPaDa De CaiN~
+La espada de San Nicolas esta clavada hasta el mango en el suelo.~
+~
+9 2625739&4 129
+25 25 0 0
+10 1250000 124000
+A
+19 25
+A
+18 25
+A
+13 250
+A
+12 300
+A
+14 -300
+A
+27 1
+A
+23 -10
+A
+22 -10
+#235
+ira dioses~
+La Ira de los Dioses~
+La Ira de los Dioses descansa aqui esperando algun alma incauta...~
+~
+1 -2146954805&4 16385
+0 0 -1 0
+1 1000000000 100000000
+A
+13 2000
+A
+12 2000
+A
+66 20
+A
+14 2000
+A
+17 -300
+A
+18 150
+A
+19 150
+A
+24 -10
+#236
+poder celestial~
+El PoDeR CeLeSTiaL~
+El PoDeR CeLeSTiaL SiMBoLo DeL PoDeR DiViNo~
+~
+5 67633475&4 8193
+12 28 9 2
+10 7855552 784555
+A
+18 50
+A
+19 50
+#237
+simbolo dioses~
+El SiMBoLo De LoS DioSeS~
+El SaGRaDo SiMBoLo De LoS DioSeS~
+~
+9 524619&4 524289
+80 80 0 0
+10 48754545 875454
+A
+5 5
+A
+19 30
+A
+12 400
+A
+13 400
+#242
+caliz Cristo~
+El Santo Grial Caliz de Cristo~
+Una vieja copa de madera acumula polvo como solo ella sabe hacerlo...~
+~
+9 2626019 513
+0 0 0 0
+1 120000000 1220000
+E
+caliz grial cristo copa~
+La Copa de la Ultima cena llevava mucho tiempo esperando ser reconocida
+ya sabes lo que debes hacer no?...~
+#243
+escudo sombras~
+el escudo de las sombras~
+Un escudo oscuro rezuma poder malefico...~
+~
+9 2626019 513
+0 0 0 0
+1 120000000 1220000
+#244
+conejito conejo~
+un conejito tamborilero~
+El pequenyo conejito tamborilero tan apreciadopor ninyis y ninyas...~
+~
+9 2626019 513
+0 0 0 0
+1 120000000 1220000
+#246
+superskunk cogollo~
+el gigante cogollo de SuperSkunk~
+Un Inmenso cogollo de SuperSkunk espera duenyo...~
+~
+9 2626019 513
+0 0 0 0
+1 120000000 1220000
+#247
+calzoncillos ronya~
+los calzoncillos ronyosos del Coco~
+Los calzoncillos mas feos que viste en tu vida estan tirados por aqui...~
+~
+9 2626019 513
+0 0 0 0
+1 120000000 1220000
+#0
+
+
+#ROOMS
+#1
+El vacio~
+Estas flotando en el vacio.
+~
+0 1076887564 1
+> speech_prog test~
+say triggered by (name):	$n
+say triggered by (name&title): 	$N
+say triggerer is (he,she,it):	$e
+say triggerer is (him,her,it):	$m
+say triggerer is (his,hers,its):$s
+say random char (name):		$r
+say random char (name&title or short): 	$R
+say random char  (he,she,it):	$J
+say random char (him,her,it):	$K
+say random char (his,hers,its):	$L
+~
+> speech_prog test2~
+say firstname of room:	 	$i
+say short_desc/title of room: 	$I
+say he/she/it of room:	 	$j
+say him/her/it of room:	 	$k
+say his/hers/its of room:	$l
+say firstname of victim: 	$t
+say short_desc/title of victim:	$T
+say he/she/it of victim: 	$E
+say him/her/it of victim: 	$M
+say his/hers/its of victim:	$S
+~
+|
+S
+#2
+Limbo~
+Estas flotando en el limbo, donde te invade una sensacion de
+olvido y de tranquilidad.
+~
+0 3146764 1
+D5
+En el mundo...
+~
+~
+0 -1 21194
+S
+#3
+Almacen~
+Esta habitacion esta reservada para guardar mobs.
+~
+0 3156486 1
+S
+#4
+Otro Almacen~
+Esta habitacion esta reservada para un uso futuro.
+~
+0 3153932 0
+S
+#6
+Infierno~
+Estas en el infierno... los dioses deben estar artos de ti para mandarte a
+este lugar. Que las almas te atormenten eternamente!
+~
+0 3286092 1
+S
+#29
+La Arena~
+Estas en la arena. Tu oponente te esta esperando.
+~
+0 1144004620 1
+D0
+~
+~
+0 -1 30
+D1
+~
+~
+0 -1 37
+D2
+~
+~
+0 -1 36
+> rand_prog 15~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#30
+La Arena~
+Estas en la arena. Tu oponente te esta esperando.~
+0 1144004620 1
+D1
+~
+~
+0 -1 31
+D2
+~
+~
+0 -1 29
+D5
+~
+~
+128 -1 34
+D8
+~
+~
+0 -1 37
+> rand_prog 15~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#31
+La Arena~
+Estas en la arena. Tu oponente te esta esperando.
+~
+0 1144004620 1
+D1
+~
+~
+0 -1 32
+D2
+~
+~
+0 -1 37
+D3
+~
+~
+0 -1 30
+> rand_prog 15~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#32
+La Arena~
+Estas en la arena. Tu oponente te esta esperando.
+~
+0 1144004620 1
+D2
+~
+~
+0 -1 33
+D3
+~
+~
+0 -1 31
+D5
+~
+~
+128 -1 36
+D9
+~
+~
+0 -1 37
+> rand_prog 15~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#33
+La Arena~
+Estas en la arena. Tu oponente te esta esperando.
+~
+0 1144004620 1
+D0
+~
+~
+0 -1 32
+D2
+~
+~
+0 -1 34
+D3
+~
+~
+0 -1 37
+> rand_prog 15~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#34
+La Arena~
+Estas en la arena. Tu oponente te esta esperando.
+~
+0 1144004620 1
+D0
+~
+~
+0 -1 33
+D3
+~
+~
+0 -1 35
+D4
+~
+~
+128 -1 30
+D7
+~
+~
+0 -1 37
+> rand_prog 15~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#35
+La Arena~
+Estas en la arena. Tu oponente te esta esperando.
+~
+0 1144004620 1
+D0
+~
+~
+0 -1 37
+D1
+~
+~
+0 -1 34
+D3
+~
+~
+0 -1 36
+> rand_prog 15~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#36
+La Arena~
+Estas en la arena. Tu oponente te esta esperando.~
+0 1144004620 1
+D0
+~
+~
+0 -1 29
+D1
+~
+~
+0 -1 35
+D4
+~
+~
+128 -1 32
+D6
+~
+~
+0 -1 37
+> rand_prog 15~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#37
+La Arena~
+Estas en la arena. Tu oponente te esta esperando.
+~
+0 1144004620 1
+D0
+~
+~
+0 -1 31
+D1
+~
+~
+0 -1 33
+D2
+~
+~
+0 -1 35
+D3
+~
+~
+0 -1 29
+D4
+~
+~
+128 -1 39
+D5
+~
+~
+128 -1 38
+D6
+~
+~
+0 -1 32
+D7
+~
+~
+0 -1 30
+D8
+~
+~
+0 -1 34
+D9
+~
+~
+0 -1 36
+> rand_prog 15~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#38
+La Arena~
+Estas en la arena. Tu oponente te esta esperando.
+~
+0 1144004620 1
+D0
+~
+~
+0 -1 40
+D4
+~
+~
+128 -1 37
+> rand_prog 15~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#39
+La Arena~
+Estas en la arena. Tu oponente te esta esperando.
+~
+0 1144004620 1
+D2
+~
+~
+0 -1 40
+D5
+~
+~
+128 -1 37
+> rand_prog 15~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#40
+La Arena~
+Estas en la arena. Tu oponente te esta esperando.
+~
+0 1144004620 1
+D0
+~
+~
+0 -1 39
+D2
+~
+~
+0 -1 38
+> rand_prog 15~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#41
+La Sala de Combate~
+Estas en una enorme sala antes de la gran arena. Al final de la sala ves
+un corredor donde puedes distinguir a otro individuo esperando impaciente
+este nmomento de gloria. Aqui estan las puertas de la arena. Una vez dentro
+no hay vuelta atras...
+~
+0 1144006152 1
+D4
+~
+~
+0 -1 42
+D5
+~
+~
+0 -1 43
+> rand_prog 20~
+mpecho Un cantico se oye por aqui:  "Dos hombres entran... solo uno sale."
+~
+|
+S
+#42
+Sala del Primer Combatiente~
+Estas en una sala bastante larga cercana a la arena. A tu alrededor
+tienes armas y armaduras de todos los tipos y tamanyos. Elige bien y
+preparate para el combate.
+~
+0 70263820 1
+S
+#43
+Sala del Segundo Combatiente~
+Estas en una sala bastante larga cercana a la arena. A tu alrededor
+tienes armas y armaduras de todos los tipos y tamanyos. Elige bien y
+preparate para el combate.
+~
+0 70263820 1
+S
+#0
+
+
+#RESETS
+M 0 1 1 2
+M 0 2 1 6
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,2753 @@
+#AREA   Haon Dor~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO WyRMCLaW~
+#PUNTOS 1944 2000 2000 1978 0
+#AUTHOR Sirius~
+
+#RANGES
+5 25 0 256
+$
+
+#RESETMSG ~
+
+#FLAGS
+0
+
+#ECONOMY 0 3121326
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#6000
+Juan el lenyador~
+Juan el lenyador~
+Juan el lenyador esta aqui, buscando arboles para cortar.
+~
+Hace seis pies de alto y parece bastante fuerte, y musculoso. Se caracteriza
+por ser un hombre de trabajos duros, es un hombre pacifico que tiene una vida
+simple.
+~
+65 544 350 C
+7 15 7 5d5+50 1d8+2
+50 600
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 3072 0 0 2
+> entry_prog 100~
+if name($n) == gusano
+  , trae unas botas de calzar de cuero!
+  mpkill $n
+endif
+~
+> all_greet_prog 100~
+if name($n) == gusano
+  , trae unas botas de calzar de cuero!
+  mpkill $n
+endif
+~
+> rand_prog 8~
+, corta un arbol pequenyo en dos con un reves poderoso.
+mpasound El sonido de una hoja del hacha se zambulle en la madera blanda.
+~
+|
+#6002
+oso~
+un oso pardo~
+Un grande oso pardo, enojado esta aqui.
+~
+El oso pardo es grande, es un animal rabioso con garras muy grandes y dientes
+muy afilados.
+~
+97 0 -50 C
+8 13 3 8d8+80 2d6+2
+0 2000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 513 512 1
+0 0 263853 0 0 0 2 2
+#6003
+conejo~
+un conejo feroz~
+Un conejo feroz esta aqui, brillante y hambriento.
+~
+Esta pequenya, criatura feroz con orejas largas y pies grandes, antes era un
+inocente conejito, pero una enfermedad horrible lo transformo en un monstruo
+feroz y sanguinario.
+~
+97 0 -150 C
+3 17 6 1d4+26 1d8+0
+0 350
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#6004
+ciervo~
+el ciervo barbecho~
+Un ciervo barbecho pacifico esta aqui.
+~
+Es una criatura elegante, de piernas largas, delgadas, y unos grandes ojos
+marrones miran atras hacia ti con un aire de inters.
+~
+1073741907 8 350 C
+2 19 2 2d8+2 1d6+0
+0 200
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 1
+0 0 1581 0 0 0 32 0
+#6005
+zorro~
+un zorro marron~
+Un zorro marron esta aqui, buscando conejos que poder masticar.
+~
+Es un zorro grande y bello, con una piel rojiza-castanya y una larga y espesa
+cola.
+~
+65 0 -50 C
+2 18 6 1d4+18 1d6+0
+0 200
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 1
+0 0 67117 0 0 0 1 2
+#6100
+warg vicioso~
+un warg vicioso~
+Un warg vicioso esta aqui, y te grunye.
+~
+Es el lobo mas grande de un exepcional piel negra espesa. Le gotea la saliva
+por sus colmillos largos y blancos. Parece bastante peligroso y muy enojado.
+~
+97 0 -350 C
+5 16 5 1d1+60 1d6+1
+0 800
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 512 512 0
+0 0 329261 0 0 0 0 0
+#6101
+warg feroz~
+un warg feroz~
+Un warg feroz esta aqui, y te grunye.
+~
+Es el lobo mas grande de un exepcional piel negra espesa. Le gotea la saliva
+por sus colmillos largos y blancos. Parece bastante peligroso y muy enojado.
+~
+97 0 -350 C
+5 16 5 1d1+60 2d4+0
+0 800
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 512 512 0
+0 0 1605 0 0 0 0 0
+#6102
+lobo gris~
+un lobo gris~
+Un lobo gris esta aqui,  hambrientamente mirandote.
+~
+El gran lobo gris te mira con interes mientras lame sus labios con la lengua.
+~
+97 0 -150 C
+4 18 7 1d12+35 1d7+0
+0 450
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 513 512 0
+0 0 1704 0 0 0 0 0
+> rand_prog 8~
+mpasound El aullido de un lobo cercano se puede oir...
+~
+|
+#6103
+lobo negro ~
+un lobo negro ~
+Un lobo negro esta aqui,  hambrientamente mirandote.
+~
+El gran lobo negro te mira con interes mientras lame sus labios con la lengua.
+~
+97 0 -150 C
+4 18 7 1d12+35 1d1+3
+0 450
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 512 512 0
+0 0 1581 0 0 0 0 0
+> rand_prog 8~
+mpasound El aullido de un lobo cercano se puede oir...
+~
+|
+#6112
+dragon verde~
+el gran Dragon verde~
+Una gran dragon  verde esta aqui, sus ojos estrechos amarillos te estan mirando
+~
+Este dragon esta cubierto por escatas de un color verde oscuro. Varios
+agujeros en sus alas te hacen pensar que este Dragon ha participado en varias
+luchas. Huele tan repugnante como los dragones lo suelen hacer.
+~
+99 8 -1000 C
+25 -5 -7 25d25+250 2d6+18
+5000 200000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 2048 2048 3
+0 0 1377933 0 0 0 7 524291
+#6115
+Duende shargugh~
+Shargugh~
+Shargugh, el Duende del Bosque esta aqui, riendose maliciosamente.
+~
+El duende solo mide tres palmos de alto. Su cabeza esta cubierta por una densa
+mata de pelo de color marron de donde asoman un par de orejas puntiagudas. Su
+vestido es marron y verde a rallas. Parece estar divirtiendose mucho.
+~
+149 32778 1000 C
+11 1 -10 10d10+100 1d8+2
+500 3000
+112 112 1
+13 13 13 16 13 13 13
+0 0 0 0 0
+4 3 0 0 8 9 1
+0 0 0 0 0 0 0 2
+#6116
+Elder ~
+Elder, el viejo druida~
+Elder, el druida esta aqui. Parece muy digustado por tu presencia en su hogar.
+~
+El druida parece muy viejo. Seguro que te parece venerable,  pero tambien
+sabes que puede ser peligroso.
+~
+7 8 0 C
+13 4 -7 1d1+130 2d8+2
+0 20000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1775 0 0 0 0 524290
+#6117
+froghemoth sapo~
+el froghemoth~
+Un gargantuan sapo, pestanyea despacio sin mirar a nada en particular.
+~
+Es un anfibio de ocho pies apartado de la tierra, sin una duda es el anfibio
+mas increible que alguna vez has visto. No parece pensar demasiado en ti. Le
+cuelgan cuerda espesas de mucosa, el orificio nasal le gotea, mientras
+impasiblemente te mira con sus ojos grandes como granes marmoles negros.  Un
+lustre pudorienco repleto de espumas blancas en su espalda, y de vez en cuando
+eructa en mitad del camino y saca su larga lengua babeosa pero rapidamente se
+la enguell. Se rumorea que los Froghemoths disfrutan engulliendo muchas cosas,
+como pezes, pajaros, arboles, wargs, personas, cualquier cosa en que este
+particularmente interesado. Eso si es aburrido como el infierno.
+~
+1 4194856 0 C
+25 0 -300 0d0+0 0d0+0
+0 0
+112 112 0
+18 15 15 13 13 5 13
+0 0 0 0 0
+80 3 0 0 356069 356069 0
+0 0 265405 0 2048 0 262146 2
+> rand_prog 3~
+mpe Con una borboton grotesca $I eructa.~
+|
+#0
+
+
+#OBJECTS
+#6000
+hacha madera~
+un hacha de madera~
+Una hacha de madera pesada esta aqui~
+~
+5 0 8193
+0 2 6 1
+10 50 5
+E
+hacha de madera~
+Es una hacha pesada se usa para cortar arboles.
+~
+A
+13 10
+A
+18 1
+A
+19 2
+> wear_prog 100~
+mpecho $n's brilla como los ojos $e busca al pobre arbol desgraciado~
+|
+#6001
+camisa chequered~
+una camisa del chequered~
+Una camisa del chequered queda aqui.~
+~
+9 0 9
+3 0 0 0
+2 20 2
+E
+camisa~
+Es una extra grande, camisa echa de tela pesada.
+~
+A
+17 -5
+A
+13 5
+#6002
+botas~
+un par de botas de cuero~
+Un par de botas de cuero estan aqui~
+~
+9 0 65
+3 0 0 0
+4 60 6
+E
+botas~
+Estan formadas de cuero aspero que frecuentemente se ha engrasado, al hacerlo
+queda impermeable.
+~
+A
+14 25
+#6003
+hogar~
+un hogar~
+Un hogar hecho de piedra esta fijado en la pared del este.~
+~
+15 0 0
+200 0 0 0
+1 0 0
+E
+hogar~
+Esta formado de piedras de tamanyos variados, una sobre la otra y pegado con
+mortero. Hay construida una chimenea y lleva el hymo fuera por el techo de la
+cabanya.
+~
+#6005
+arca~
+una arca de madera~
+Una arca de madera esta en la esquina.~
+~
+15 0 1
+100 13 6006 0
+40 100 10
+E
+arca~
+Es una arca robusta echa de tablones cortos, pesados. Esta equipada con un
+cerradura simple, cierra con llave.
+~
+#6006
+llave~
+una pequenya llave de bronce~
+Una pequenya llave de bronce esta aqui~
+~
+18 0 1
+6005 0 0 0
+1 10 1
+E
+llave~
+Es un llave pequenya, simple sin inscripciones o marcas de cualquier genero.
+~
+#6007
+monedas oro~
+un monton de monedas del oro~
+Algunas monedas de oro  quedan amontonaron en el suelo.~
+~
+20 0 1
+5000 0 0 0
+1 5000 500
+E
+monedas~
+Las monedas parecen de color del oro. Son obviamente valiosas.
+~
+#6010
+zarzas~
+unas zarzas~
+Unas zarzas crecen en un arbusto cercano.~
+~
+19 0 1
+3 0 0 0
+1 10 1
+E
+zarzas~
+Verdaderamente parecen muy sabrosas.
+~
+#6011
+seta~
+una seta~
+Una seta pequenya crece cerca.~
+~
+19 0 1
+6 0 0 0
+1 10 1
+E
+seta~
+Es una cosa pequenya y sabrosa.
+~
+#6013
+barril agua~
+el barril~
+Un barril de agua se ha quedado aqui.~
+~
+17 0 1
+50 50 0 0
+65 60 6
+#6102
+abertura arbol colosal~
+el arbol colosal~
+Un arbol antiguo, colosal, sirve para bloquear el camino del oeste..~
+~
+15 262148 0
+1000 0 0 0
+1 0 0
+E
+abertura~
+La abertura queda lejos, es demasiada estrecha para ti.
+~
+E
+arbol colosal antiguo~
+Este arbol enorme debe tener miles de anyos.  Su corteza aspera y sin brillo y
+con rasgunyos y marcas de la garra. Al oeste hay una abertura pequenya.
+~
+#6103
+rama~
+una rama gris larga~
+Una rama gris larga descansa en la tierra.~
+~
+1 0 16385
+0 0 25 0
+20 1 0
+#6104
+rama~
+una rama gris larga~
+Una rama gris larga descansa en la tierra.~
+libra
+
+~
+5 0 8193
+0 2 5 7
+30 60 6
+A
+18 -2
+#6105
+rama~
+una rama gris larga~
+Una rama gris larga descansa en la tierra.~
+~
+13 0 1
+0 0 0 0
+40 0 0
+#6106
+seta venenosa~
+una seta venenosa~
+Una seta venenosa grande crece cerca.~
+~
+19 0 1
+12 0 0 0
+5 20 2
+E
+seta venenosa~
+Es un seta grande, castanya que debe pesar casi cinco libras. La cima se cubre
+con una capa delgada de limo transparente, emite un olor debil, mohoso. No es
+la cosa mas deliciosa que has visto.
+~
+#6107
+seta venenosa~
+una seta venenosa~
+Una seta venenosa grande crece cerca.~
+~
+19 0 1
+12 0 0 1
+5 20 2
+E
+seta venenosa~
+Es un seta grande, castanya que debe pesar casi cinco libras. La cima se cubre
+con una capa delgada de limo transparente, emite un olor debil, mohoso. No es
+la cosa mas deliciosa que has visto.
+~
+#6110
+pocion amarilla~
+una pocion amarilla~
+Una pocion amarilla queda aqui.~
+~
+10 66 1
+30 -1 178 10
+2 1000 100
+'kindred strength' 'stone skin' 'armor'
+E
+pocion amarilla~
+Tiene un color amarillo y un olor fuerte picante.
+~
+#6111
+escudo grande madera redondo~
+un escudo grande~
+Se ha dejado caer un escudo grande, redondo de madera aqui.~
+~
+9 0 513
+5 0 0 0
+15 300 30
+E
+escudo largo~
+Esta constituido de madera dura que se ha reforzado con vendas pesadas
+de hierro.
+~
+A
+17 -4
+A
+23 -3
+A
+5 1
+#6112
+corona hierro~
+una corona de hierro~
+Una corona de hierro descansa en la tierra.~
+~
+9 64 17
+4 0 0 0
+10 5000 500
+E
+corrona de hierro~
+Es una pesada corona, se clasifica segun el tamanyo, la corona esta echa de
+hierro solido.
+~
+A
+17 -2
+A
+23 -2
+A
+12 10
+#6114
+anillo hierro~
+un anillo pesado de hierro~
+Se ha perdido un anillo pesado de hierro aqui.~
+~
+9 64 3
+1 0 0 0
+4 5000 500
+E
+anillo de hierro~
+Es bastante pesado, se clasifica segun su tamanyo, el anillo esta echo de
+hierro solido. Faltan decoraciones de cualquier genero.
+~
+A
+17 -5
+A
+5 1
+#6120
+libro guia~
+una guia seguramente de programación~
+Un tomo viejo hizo de pergamino del trabajo del parche, queda en  polvo aqui.~
+~
+13 1074266368 16385
+0 0 0 0
+1 0 0
+E
+tomo~
+Este tomo es un curso avanzado de programacion para smaug 1.4.
+~
+#6155
+estella manyana~
+una estrella de la manyana~
+Una estella de la manyana se convierte en polvo aqui.~
+~
+5 64 8193
+0 2 8 8
+10 15000 1500
+#0
+
+
+#ROOMS
+#6000
+Borde del bosque~
+Aqui en el borde oriental del bosque de Haon Dor, el enredo espeso de arboles
+en el oeste forma una oscuridad asustadiza. La verja poderosa occidental de
+Darkhaven, te llama solo el andado de unos minutos al este, y un sendero
+estrecho corre al oeste de este punto, mirar por encima las ramas de los
+arboles antiguos de los bosque y desaparece rapidamente en la oscuridad.
+~
+0 4 2
+D1
+La verja occidental de Darkhaven
+~
+~
+0 -1 21087
+D3
+Ves el sendero estrecho del bosque rodeado por el oeste de arboles.
+~
+~
+0 -1 6001
+E
+sendero~
+Los arboles guardan de los vientos del oeste al bosque.
+~
+E
+arbol arboles~
+Los arboles son bastante altos, considerando eso parecen bastante jovenes. En
+uno de los arboles unas marcas crudas forman la palabra "Haon-Dor" se ha
+tallado en el ladrido.
+~
+> speech_prog p Tu buscan entre las ruinas~
+if ispc($n)
+ if ispkill($n)
+   mea 0.$n _red Un escalofrio se apresura por tu cuerpo cuando ves las ruinas.
+   mer 0.$n _red Un frio se levanta por encima tuyo como $n marchitada.
+   mptrans 0.$n 3052
+   mpat 0.$n mpforce 0.$n mira
+   mea 0.$n _red ¡Las Ruinas Umbrageous son un lugar fequentados por asesinos y roban!
+   mea 0.$n _red Estas ciertamente un reino en que pereceras.
+ endif
+endif
+~
+|
+S
+#6001
+Un sendero por el bosque de la luz~
+Estas en el sendero principal del bosque.  Al este esta el borde del bosque, y
+al oeste el sendero llega mas alla del bosque.  Un sendero, entre los arboles
+del norte llega hacia una seccion mas ligera del bosque.
+~
+0 0 3
+D1
+El sendero continua en los pupilos del este fuera del bosque.
+~
+~
+0 -1 6000
+D3
+Ves el sendero del bosque estrecho entre los arboles.
+~
+~
+0 -1 6002
+E
+sendero~
+Los arboles guardan de los vientos del este-oeste al bosque.
+~
+E
+arbol  arboles~
+The trees here are quite young and fresh.  They seem to accommodate many kinds
+of birds, insects and other small animals.
+~
+E
+pajaros insectos animales~
+Criaturas muy listas y pequenyas, parecen disfrutar de la vida.
+~
+S
+#6002
+Un sendero por el bosque de la luz~
+Estas en un sendero princiap que queda al este y al oeste queda el bosque
+denso.  Al oeste el bosque gradualmente llega a ser mas denso.  Un camino
+pequenyo del bosque lleva sur.
+~
+0 0 3
+D1
+The trail continues eastwards through the young trees.
+~
+~
+0 -1 6001
+D2
+The small path leads south through the young trees.
+~
+~
+0 -1 6011
+D3
+You see the narrow forest trail winding westwards into the dense forest.
+~
+~
+0 -1 6003
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+sendero~
+Los arboles guardan de los vientos del este-oeste al bosque.
+~
+E
+arbol  arboles~
+The young, slender trees look beautiful, their fresh, green leaves moving
+lightly in the wind.
+~
+S
+#6003
+Un sendero por el bosque denso~
+Estas en un sendero princiap que queda al este y al oeste queda el bosque
+denso.  Al este el bosque gradualmente parece llegar a ser mas ligero.
+~
+0 0 3
+D1
+El sendero continua por el este a la parte mas joven del bosque.
+~
+~
+0 -1 6002
+D3
+Ves el sendero estrecho que pasa por el oeste entre el bosque denso.
+~
+~
+0 -1 6004
+E
+sendero~
+El bosque parece casi fragil comparado con los troncos macizos.
+~
+E
+arbol arboles~
+Las coronas densas de los arboles maduros hacen que solo se pueda ver un
+fragmento del cielo.
+~
+> rand_prog 5~
+mpecho Piensas que una ramita te saca una foto desde alguna parte.~
+|
+S
+#6004
+Un sendero por el bosque denso~
+Estas en un sendero princiap que queda al este y al oeste queda el bosque
+denso. Al oeste los árboles son tan grandes y sus coronas tan densas que esa
+parte se encuntra en una oscuridad total.  Un pequenyo camino por el sur lleva
+a los arboles.
+~
+0 0 3
+D1
+El sendero continua al este por el bosque denso.
+~
+~
+0 -1 6003
+D2
+El camino pequenyo lleva al sur por los arboles.
+~
+~
+0 -1 6005
+D3
+El sendero estrecho casi parece desaparecer entre los enormes troncos.
+~
+~
+0 -1 6100
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+sendero~
+El bosque parece casi fragil comparado con los troncos macizos.
+~
+E
+arbol arboles~
+Las coronas de los arboles viejos casi recortan toda la luz.
+~
+> rand_prog 5~
+mpecho Piensas que una ramita saca una foto desde alguna parte.
+~
+|
+S
+#6005
+Un camino pequeño en el bosque denso~
+Estas en un camino pequenyo por el bosque denso.  Las coronas de los viejos
+arboles salen y el bosque entra en una iluminacion del crepusculo irreal. El
+camino continua al norte y al sur.
+~
+0 0 3
+D0
+El camino pequenyo lleva al norte por los arboles.
+~
+~
+0 -1 6004
+D2
+El camino pequenyo lleva al sur por los arboles.
+~
+~
+0 -1 6006
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Los arboles principalmente son hayas viejas y robles.
+~
+S
+#6006
+Un camino pequeño en el bosque denso~
+Estas en un camino pequenyo por el bosque denso.  Las coronas de los viejos
+arboles salen y el bosque entra en una iluminacion del crepusculo irreal. El
+camino continua al norte y al este.
+~
+0 0 3
+D0
+El camino pequenyo lleva al norte entre los arboles.
+~
+~
+0 -1 6005
+D1
+El camino pequenyo lleva por el este entre los arboles.
+~
+~
+0 -1 6007
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Los arboles son basicamente hayas viejas y robles.
+~
+S
+#6007
+Una interseccion en el bosque denso~
+Estas en un camino pequenyo entre el bosque denso.  Las coronas de los viejos
+arboles salen y el bosque entra en una iluminacion del crepusculo irreal.  El
+bosque gradualmente alumbra al este.  Los caminos llevan al este, oeste y sur.
+
+~
+0 0 3
+D1
+Puedes ver apenas fuera un claro por el este.
+~
+~
+0 -1 6008
+D2
+El camino pequenyo lleva al sur entre los arboles.
+~
+~
+0 -1 6012
+D3
+El camino pequenyo lleva al oeste entre los arboles.
+~
+~
+0 -1 6006
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Los arboles son basicamente hayas viejas y robles.
+~
+S
+#6008
+El aclaramiento del bosque~
+Estas en un aclaramiento en el bosque.  Muchas tocones frescas de tamanyos
+variantes destacan de la tierra y lenyos pesados se apilan aseadamente en un
+monton grande apoyado por estacas fijas en la tierra. Los caminos llevan al
+norte, este y oeste.
+~
+0 0 3
+D0
+El camino pequenyo lleva al norte entre los arboles.
+~
+~
+0 -1 6011
+D1
+El camino pequenyo lleva al este entre los arboles.
+~
+~
+0 -1 6009
+D3
+El camino pequenyo lleva al oeste entre los arboles.
+~
+~
+0 -1 6007
+E
+lenyo lenyos~
+Aunque se han cortado los lenyos a pedazos mas cortos, son bastante pesados
+cuando estan frescos y todavia llenos de savia.
+~
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+estaca estacas~
+Las estacas guardan los lenyos que no rueden abajo.
+~
+E
+tocon tocones~
+Hay mas tocones que lenyos y se cubren en parte con musgo.
+~
+E
+arbol arboles~
+Los arboles son basicamente hayas viejas y robles.
+~
+S
+#6009
+Fuera de una cabanya pequenya en el bosque~
+Estas fuera de una pequenya cabanya construyda enteramente de lenyos pesados.
+Hay una puerta de madera al norte y caminos pequenyos llevan al oeste y al sur
+por los arboles.
+~
+0 0 3
+D0
+La puerta de madera es bastante fornida pero no parece estar equipada
+con una
+cerradura.
+~
+door wooden~
+3 -1 6010
+D2
+El camino pequenyo lleva al bosque por el sur.
+~
+~
+0 -1 6014
+D3
+El camino pequenyo lleva por el oeste al bosque de la luz.
+~
+~
+0 -1 6008
+E
+lenyos de la cabanya~
+Parece simple pero comodo y la hechura de los arboles delgada en lugar de
+entero parece bastante idilico. Es una cabanya construyda de lenyos. Lenyos de
+madera, no lenyos del sistema.
+~
+E
+sendero senderos~
+Se usan probablemente por los habitantes de la cabanyaa del camino.
+~
+E
+abrol arboles~
+Los arboles son bastante jovenes, no mucho mas de cien anyos o asi.
+~
+S
+#6010
+Dentro de la cabanya~
+Estas dentro de una cabanya en un cuarto pequenya hecho enteramente de lenyos
+pesados. Esta muy poco amueblada, contiene solo aparatos domesticos, tal como
+una cama, una silla y una mesa.
+~
+0 8 0
+D2
+La puerta de madera lleva al sur.
+~
+door wooden~
+1 -1 6009
+E
+cama~
+No es la cama mas comoda que has visto en tu vida.
+~
+E
+silla~
+Esta echa de roble y parece fuerte y fornida.
+~
+E
+mesa~
+Una mesa pesada.
+~
+S
+#6011
+Un camino pequenyo por el bosque de la luz~
+Estas en un camino pequenyo del bosque.  Los arboles son altos y delgados.
+Los caminos llevan al norte y al sur.
+~
+0 0 3
+D0
+El camino lleva al norte por los arboles jovenes.
+~
+~
+0 -1 6002
+D2
+El camino lleva al sur entre los arboles jovenes.
+~
+~
+0 -1 6008
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Los arboles son bastante jovenes, no mucho mas de cien anyos o asi.
+~
+S
+#6012
+Una interseccion en el bosque denso~
+Estas en un camino pequenyo entre bosque denso.  Las coronas de los arboles
+viejos salen el bosque se enlosa en una iluminación del crepusculo irreal.
+Los caminos llevan al norte, este y sur.
+~
+0 0 3
+D0
+El camino lleva norte entre los arboles jovenes.
+~
+~
+0 -1 6007
+D1
+El camino lleva al este entre los arboles jovenes.
+~
+~
+0 -1 6013
+D2
+El camino lleva al sur entre los arboles jovenes.
+~
+~
+0 -1 6021
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Los arboles son basicamente hayas viejas y robles.
+~
+S
+#6013
+Un camino pequenyo en el bosque denso.~
+Estas en un camino pequenyo por el bosque denso.  Las coronas de los arboles
+viejos salen y el bosque entra en una iluminacion del crepusculo irreal.  El
+camino continua al este y oeste.
+~
+0 0 3
+D1
+El camino lleva al este entre los arboles jovenes.
+~
+~
+0 -1 6014
+D3
+El camino lleva al oeste entre los arboles jovenes.
+~
+~
+0 -1 6012
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Los arboles son basicamente hayas viejas y robles.
+~
+S
+#6014
+Una interseccion en el bosque denso~
+Estas en un camino pequenyo entre el denso bosque. El bosque gradualmente se
+alumbra al norte. Los caminos llevan al norte, este y oeste.
+~
+0 0 3
+D0
+El camino lleva al norte en una parte mas ligera del bosque.
+~
+~
+0 -1 6009
+D1
+El camino lleva al este entre los arboles jovenes.
+~
+~
+0 -1 6015
+D3
+El camino lleva al oeste entre los arboles jovenes.
+~
+~
+0 -1 6013
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Las coronas de los arboles viejos sobresalen del bosque en una iluminacion del
+crepusculo irreal.
+~
+S
+#6015
+Un camino pequenyo en el bosque denso.~
+Estas en un camino pequenyo por el bosque denso.  Las coronas de los arboles
+viejos salen y el bosque entra en una iluminacion del crepusculo irreal.  El
+camino continua al sur y oeste.
+~
+0 0 3
+D2
+El camino lleva al sur entre los arboles jovenes.
+~
+~
+0 -1 6016
+D3
+El camino lleva al oeste entre los arboles jovenes.
+~
+~
+0 -1 6014
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Los arboles son basicamente hayas viejas y robles.
+~
+S
+#6016
+Un camino pequenyo en el bosque denso.~
+Estas en un camino pequenyo por el bosque denso.  Las coronas de los arboles
+viejos salen y el bosque entra en una iluminacion del crepusculo irreal.  El
+camino continua al norte y al sur.
+~
+0 0 3
+D0
+El camino lleva al norte entre los arboles jovenes.
+~
+~
+0 -1 6015
+D2
+El camino lleva al sur entre los arboles jovenes.
+~
+~
+0 -1 6017
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Los arboles son basicamente hayas viejas y robles.
+~
+S
+#6017
+Un camino pequenyo en el bosque denso.~
+Estas en un camino pequenyo del bosque denso.  El bosque parece llegar a ser
+mas ligero al oeste.  El camino continua al norte y al oeste.
+~
+0 0 3
+D0
+El camino lleva al norte entre los arboles jovenes.
+~
+~
+0 -1 6016
+D3
+El camino pequenyo lleva al oeste por los arboles a una parte mas ligera
+del
+bosque.
+~
+~
+0 -1 6018
+E
+camino caminos~
+El camino estrecho probablemente es usado por los animales que viven en el
+bosque.
+~
+E
+arbol arboles~
+Las coronas de los arboles viejos sobresalen del bosque en una iluminacion del
+crepusculo irreal.
+~
+S
+#6018
+Una interseccion en el bosque de la luz~
+Estas en un camino pequenyo en el bosque. Un camino por el norte lleva a un
+campo pequenyo y otros caminos llevan al este y al oeste en el bosque denso.
+
+~
+0 0 3
+D0
+El camino lleva al norte a un pequenyo campo herboso.
+~
+~
+0 -1 6023
+D1
+El camino lleva al este a una parte densa del bosque.
+~
+~
+0 -1 6017
+D3
+El camino lleva al oeste a una parte densa del bosque.
+~
+~
+0 -1 6019
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Los arboles altos son jovenes y delgados, no tendra mucho mas de cien anyos o
+asi.
+~
+S
+#6019
+Un camino pequenyo en el bosque denso~
+Estas en un camino pequenyo en el bosque denso.  El bosque parece llegar a ser
+mas ligero al este.  El camino continua al norte y al este.
+~
+0 0 3
+D0
+El camino lleva al norte entre los arboles jovenes.
+~
+~
+0 -1 6020
+D1
+El camino pequenyo lleva al este por los arboles a una parte mas ligera del
+bosque.
+~
+~
+0 -1 6018
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Las coronas de los arboles viejos sobresalen del bosque en una iluminacion del
+crepusculo irreal.
+~
+S
+#6020
+Un camino pequenyo en el bosque denso~
+Estas en un camino pequenyo de el bosque denso. Las coronas de los arboles
+viejos salen y el bosque entra en una iluminacion del crepusculo irreal. El
+camino continua al sur y al oeste.
+~
+0 0 3
+D2
+El camino lleva al sur entre los arboles jovenes.
+~
+~
+0 -1 6019
+D3
+El camino lleva al oeste entre los arboles jovenes.
+~
+~
+0 -1 6021
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Los arboles son basicamente hayas viejas y robles.
+~
+S
+#6021
+Un camino pequenyo en el bosque denso~
+Estas en un camino pequenyo en el bosque denso.  Al oeste hay una cueva.  El
+camino continua al norte y al este.
+~
+0 0 3
+D0
+El camino lleva al norte entre los arboles jovenes.
+~
+~
+0 -1 6012
+D1
+El camino lleva al este entre los arboles jovenes.
+~
+~
+0 -1 6020
+D3
+La cueva es muy oscura.
+~
+~
+0 -1 6022
+E
+sendero senderos~
+Probablemente usan el camino estrecho los animales que viven en el bosque
+~
+E
+arbol arboles~
+Las coronas de los arboles viejos sobresalen del bosque en una iluminacion del
+crepusculo irreal.
+~
+E
+cave entrance~
+The irregular opening is eight feet wide and six feet tall.  An acrid smell
+emanates from within.
+~
+S
+#6022
+Dentro de la cueva~
+Estas en una cueva natural. Varias clases de ruinas cubren la piedra enlosada,
+emite un olor bastante desagradable, esas hechuras del aire espeso y duro de
+respirar. Solo hay una salida obvia, al este.
+~
+0 9 0
+D1
+La abertura de la cueva esta al este.
+~
+~
+0 -1 6021
+E
+ruinas~
+Consiste principalmente en un royo de huesos mixtos con pedazos pequenyos de
+piel.
+~
+E
+piedra de las paredes en el suelo~
+Poco interesante
+~
+E
+olor del aire~
+Genero transparente, pero bastante notable no obstante.
+~
+S
+#6023
+En un pequenyo campo herboso~
+Estas en un pequenyo campo herboso, en alguna parte del bosque.  La hierba
+alta casi alcanza tu cintura, y los robles circundantes y hayas forman una
+casi pared. Un camino pequenyo por el sur lleva a los arboles.
+~
+0 0 2
+D2
+El camino pequenyo lleva al sur entre los arboles.
+~
+~
+0 -1 6018
+E
+hierba~
+La hierba alta oculta a los animales.
+~
+E
+sendero~
+Probablemente usan el camino estrecho los animales que viven en el bosque.
+~
+E
+arbol arboles~
+Los arboles se estrechan.
+~
+S
+#6030
+ANULE ESTE CUARTO~
+~
+0 1073741828 1
+S
+#6040
+El Lugar de  Curacion~
+~
+0 3147788 0
+S
+#6100
+Un sendero estrecho por el bosque hondo y oscuro~
+Estas en un sendero estrecho. Las coronas de los arboles deben ser muy densas,
+cuando salen el bosque se enlosa en oscuridad absoluta.  El sendero lleva al
+este y al oeste.
+~
+0 9 3
+D1
+El sendero estrecho lleva al este a una parte algo mas ligera del bosque.
+~
+~
+0 -1 6004
+D3
+El sendero estrecho, polvoriento lleva al oeste por el bosque.
+~
+~
+0 -1 6101
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil comparado con los troncoas
+macizos, y en algunos lugares, gigantes raices grises han disuelto la
+superficie.
+~
+E
+arbol arboles tronco troncos~
+Estos arboles antiguos deben de haber estado aqui muchos, muchos anyos. Es
+imposible coger un resplandor fugaz de cualquier cosa sobre las ramas mas
+bajas.
+~
+> rand_prog 5~
+mpecho Piensa que una ramita saca una foto de alguna parte.
+~
+|
+S
+#6101
+Un sendero estrecho por el bosque hondo y oscuro~
+Estas en un sendero polvoriento que se enrolla de este a oeste entre arboles
+grandes y antiguos, cuyos troncos grises te recuerdan pilares antiguos en un
+enorme abandonado corredor. Al sur un camino fragil te lleva lejos del
+sendero.
+~
+0 9 3
+D1
+El sendero estrecho y polvoriento lleva al este por el bosque.
+~
+~
+0 -1 6100
+D2
+El camino lleva al sur, lejos del sendero.
+~
+~
+0 -1 6104
+D3
+El sendero estrecho y polvoriento lleva al oeste por el bosque.
+~
+~
+0 -1 6102
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil comparado con los troncoas
+macizos, y en algunos lugares, gigantes raices grises han disuelto la
+superficie.
+~
+E
+camino~
+El camino parece fragil e inseguro comparas con los troncos enormes que estan
+alrededor de ti.
+~
+E
+arbol arboles tronco troncos~
+Estos arboles antiguos deben de haber estado aqui muchos, muchos anyos. Es
+imposible coger un resplandor fugaz de cualquier cosa sobre las ramas mas
+bajas.
+~
+> rand_prog 8~
+mpecho Piensas que una ramita te saca una foto de alguna parte.
+~
+|
+S
+#6102
+Un sendero estrecho por el bosque hondo y oscuro~
+Estas en un sendero polvoriento enrollado de este a oeste entre arboles
+grandes, antiguos que en su posicion cierra por todos lados. Se escucha un
+sonido y te quedas quieto.
+~
+0 9 3
+D1
+El sendero estrecho y polvoriento lleva al este por el bosque.
+~
+~
+0 -1 6101
+D3
+El sendero estrecho y polvoriento lleva al oeste por el bosque.
+~
+~
+0 -1 6103
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil compardo con los troncos
+macizos, y en unos lugares, gigantes raices grises se han disuelto por su
+superficie.
+~
+E
+camino~
+El camino parece fragil e inseguro compara a los troncos enormes que estan en
+tu alrededor.
+~
+E
+arbol arboles tronco troncos~
+Estos arboles antiguos deben de haber estado aqui muchos, muchos anyos. Es
+imposible coger un resplandor fugaz de cualquier cosa sobre las ramas mas
+bajas.
+
+~
+> rand_prog 8~
+mpecho You think you hear a twig snap somewhere nearby.
+~
+|
+S
+#6103
+Un sendero estrecho por el bosque hondo y oscuro~
+Estas donde en unas curvaturas del sendero polvorientas, acerca de evitar un
+conflicto con un tronco colosal al oeste. Se oye un sonido y todo resta
+quieto. Un arbol absolutamente enorme esta aqui con sus hermanos y bloquean el
+camino del oeste, solo te quedan tres direcciones.
+~
+0 9 3
+D0
+Ves un sendero oscuro al norte.
+~
+~
+0 0 6150
+D1
+El sendero estrecho y polvoriento lleva al este por el bosque.
+~
+~
+0 -1 6102
+D2
+El sendero estrecho y polvoriento lleva al sur por el bosque.
+~
+~
+0 -1 6108
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil miras a los troncos macizos, y
+en algunos lugares, gigantes raices grises se han disuelto por su superficie.
+~
+E
+arboles troncos~
+Estos arboles antiguos deben de haber estado aqui muchos, muchos anyos. Es
+imposible coger un resplandor fugaz de cualquier cosa sobre las ramas mas
+bajas.
+
+~
+S
+#6104
+Un camino pequenyo en el bosque hondo y oscuro~
+Estas en un camino estrecho en el bosque hondo y oscuro. Sientes como  si los
+arboles antiguos te observan en silencio. El camino continua al norte y al
+sur.
+~
+0 9 3
+D0
+El camino estrecho se enrolla a su manera entre los arboles al norte.
+~
+~
+0 -1 6101
+D2
+El camino estrecho se enrolla a su manera entre los arboles al sur.
+~
+~
+0 -1 6105
+E
+arbol arboles tronco troncos~
+Los gigantes y antiguos grises parecen observarte silenciosamente.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6105
+Un camino pequenyo en el bosque hondo y oscuro~
+Estas en un camino estrecho en el bosque hondo y oscuro. El telar de los
+arboles es antiguo, gris.  El camino continua al norte y al oeste.
+~
+0 9 3
+D0
+El camino estrecho se enrolla a su manera entre los arboles al norte.
+~
+~
+0 -1 6104
+D3
+El camino estrecho se enrolla a su manera entre los arboles al oeste.
+~
+~
+0 -1 6106
+E
+arbol arboles tronco troncos~
+Los gigantes y antiguos grises parecen observarte silenciosamente.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6106
+Una union en el bosque hondo y oscuro~
+Estas en una union donde se encuentran tres caminos. Los arboles antiguos y
+gruises parecen Torres que estan por todos lados. Los caminos llevan al este,
+sur y oeste.
+~
+0 9 3
+D1
+El camino estrecho se enrolla a su manera entre los arboles al este.
+~
+~
+0 -1 6105
+D2
+El camino estrecho se enrolla a su manera entre los arboles al sur.
+~
+~
+0 -1 6117
+D3
+El camino estrecho se enrolla a su manera entre los arboles al oeste.
+~
+~
+0 -1 6107
+E
+arbol arboles tronco troncos~
+Los gigantes y antiguos grises parecen observarte silenciosamente.
+~
+E
+camino camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6107
+Un camino pequenyo en el bosque hondo y oscuro~
+Estas en un camino estrecho en el bosque hondo y oscuro. El telar de los
+arboles es antiguo, gris y estan por tu alrededor. El camino continua al norte
+y al este.
+~
+0 9 3
+D0
+El camino estrecho se enrolla a su manera entre los arboles al norte.
+~
+~
+0 -1 6108
+D1
+El camino estrecho se enrolla a su manera entre los arboles al este.
+~
+~
+0 -1 6106
+E
+arbol arboles tronco troncos~
+Los gigantes y antiguos grises parecen observarte silenciosamente.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6108
+Un sendero estrecho por el bosque hondo y oscuro~
+Estas en un sendero polvoriento enrollado a su manera entre los arboles
+grandes, antiguo y se cierran por todos lados. El sendero lleva al norte
+yoeste, al sur un camino fragil lleva lejos del sendero.
+~
+0 9 3
+D0
+El sendero estrecho y polvoriento lleva al norte por el bosque.
+~
+~
+0 -1 6103
+D2
+El camino lleva al sur, lejos del sendero.
+~
+~
+0 -1 6107
+D3
+El sendero estrecho y polvoriento lleva al oeste por el bosque.
+~
+~
+0 -1 6109
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil comparado con los troncoas
+macizos, y en algunos lugares, gigantes raices grises han disuelto la
+superficie.
+~
+E
+camino~
+El camino parece fragil e inseguro, miras a los troncos enormes que tienes a
+tu alrededor.
+~
+E
+arbol arboles tronco troncos~
+Estos arboles antiguos deben de haber estado aqui muchos, muchos anyos. Es
+imposible coger un resplandor fugaz de cualquier cosa sobre las ramas mas
+bajas.
+
+~
+S
+#6109
+Un sendero estrecho por el bosque hondo y oscuro~
+Estas en un sendero polvoriento enrollado de este a oeste entre arboles
+grandes y antiguos, esa posicion cierra por todos lados. Oyes un sonido y todo
+se queda quieto.
+~
+0 9 3
+D1
+El sendero estrecho y polvoriento lleva al este por el bosque.
+~
+~
+0 -1 6108
+D3
+El sendero estrecho y polvoriento lleva al oeste por el bosque.
+~
+~
+0 -1 6110
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil comparado con los troncoas
+macizos, y en algunos lugares, gigantes raices grises han disuelto la
+superficie.
+~
+E
+arbol arboles tronco troncos~
+Estos arboles antiguos deben de haber estado aqui muchos, muchos anyos. Es
+imposible coger un resplandor fugaz de cualquier cosa sobre las ramas mas
+bajas.
+~
+S
+#6110
+Un sendero estrecho por el bosque hondo y oscuro~
+Estas en un sendero polvoriento enrollado entre arboles grandes y antiguos,
+esa posicion cierra todos los lados.  El sendero lleva al este y al sur. Al
+norte un camino estrecho lleva lejos del sendero.
+~
+0 9 3
+D0
+El camino estrecho lleva al oeste entre los arboles gigantes.
+~
+~
+0 -1 6144
+D1
+El sendero estrecho y polvoriento lleva al este por el bosque.
+~
+~
+0 -1 6109
+D2
+El sendero estrecho y polvoriento lleva al sur por el bosque.
+~
+~
+0 -1 6111
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil miras a los troncos macizos, y
+en algunos lugares, gigantes raices grises se han disuelto por su superficie.
+~
+E
+camino~
+El camino parece fragil e inseguro, miras a los troncos enormes que tienes a
+tu alrededor.
+~
+E
+arbol arboles tronco troncos~
+Se cubren algunos de los troncos al oeste en un delgado substancia casi
+transparente. Parecen hilos pequenyos tejidos cuidadosamente juntos.
+~
+S
+#6111
+Un sendero estrecho por el bosque hondo y oscuro~
+Estas en un sendero polvoriento enrollado de norte a sur entre arboles grandes
+y antiguos.
+~
+0 9 3
+D0
+El sendero estrecho y polvoriento lleva al norte por el bosque.
+~
+~
+0 -1 6110
+D2
+El sendero estrecho y polvoriento lleva al sur por el bosque.
+~
+~
+0 -1 6112
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil miras a los troncos macizos, y
+en algunos lugares, gigantes raices grises se han disuelto por su superficie.
+~
+E
+arbol arboles tronco troncos~
+Estos arboles antiguos deben de haber estado aqui muchos, muchos anyos. Es
+imposible coger un resplandor fugaz de cualquier cosa sobre las ramas mas
+bajas.
+
+~
+S
+#6112
+Un sendero estrecho por el bosque hondo y oscuro~
+Estas en un sendero polvoriento enrollado entre los arboles grandes y antiguos
+que se cierra por todos lados. El sendero lleva al norte y al oeste y por el
+este, un camino fragil lleva lejos del sendero.
+~
+0 9 3
+D0
+El sendero estrecho y polvoriento lleva al norte por el bosque.
+~
+~
+0 -1 6111
+D1
+El camino lleva al este, lejos del sendero.
+~
+~
+0 -1 6113
+D3
+El sendero estrecho y polvoriento lleva al oeste por el bosque.
+~
+~
+0 -1 6127
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil miras a los troncos macizos, y
+en algunos lugares, gigantes raices grises se han disuelto por su superficie.
+~
+E
+camino~
+El camino parece fragil e inseguro, miras a los troncos enormes que tienes a
+tu alrededor.
+~
+E
+arbol arboles tronco troncos~
+Estos arboles antiguos deben de haber estado aqui muchos, muchos anyos. Es
+imposible coger un resplandor fugaz de cualquier cosa sobre las ramas mas
+bajas.
+
+~
+S
+#6113
+Un pequenyo camino  en el bosque hondo y oscuro~
+Estas en un camino estrecho en el bosque hondo y oscuro.  Los arboles antiguos
+grises estan en todas direcciones.  El camino continua por el sur y al oeste.
+~
+0 9 3
+D2
+El camino estrecho pasa entre los arboles del sur.
+~
+~
+0 -1 6114
+D3
+El camino estrecho pasa entre los arboles del oeste.
+~
+~
+0 -1 6112
+E
+arbol arboles tronco troncos~
+Los antiguos gigantes grises parecen observarte silenciosamente.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6114
+Una union en el bosque hondo y oscuro~
+Estas en una union donde tres caminos se encuentran.  Los arboles antiguos
+grises estan por todos lados. Los caminos llevan al norte, este y oeste.
+~
+0 9 3
+D0
+El camino estrecho pasa entre los arboles del norte.
+~
+~
+0 -1 6113
+D1
+El camino estrecho pasa entre los arboles del este.
+~
+~
+0 -1 6115
+D3
+El camino estrecho pasa entre los arboles del oeste.
+~
+~
+0 -1 6122
+E
+arbol arboles tronco troncos~
+Los antiguos gigantes grises parecen observarte silenciosamente.
+~
+E
+camino caminos~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6115
+Un camino pequenyo en el bosque hondo y oscuro~
+Estas en un camino estrecho en el bosque hondo y oscuro.  Notas como si los
+arboles antiguos te observan el silencio. El camino continua al norte y al
+oeste.
+~
+0 9 3
+D0
+El camino estrecho pasa entre los arboles del norte.
+~
+~
+0 -1 6116
+D3
+El camino estrecho pasa entre los arboles del oeste.
+~
+~
+0 -1 6114
+E
+arbol arboles tronco troncos~
+Los antiguos gigantes grises parecen observarte silenciosamente.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6116
+Un camino pequenyo en el bosque hondo y oscuro~
+Estas en un camino estrecho en el bosque hondo y oscuro.  Los gigantes telares
+de los arboles grises estan por todas partes. El camino continua al este y al
+sur.
+~
+0 9 3
+D1
+El camino estrecho pasa entre los arboles del este.
+~
+~
+0 -1 6117
+D2
+El camino estrecho pasa entre los arboles del sur.
+~
+~
+0 -1 6115
+E
+arbol arboles tronco troncos~
+Los antiguos gigantes grises parecen observarte silenciosamente.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6117
+Una union en el bosque hondo y oscuro~
+Estas en una union donde tres caminos se encuentran. Arboles antiguos y grises
+parecen observarte silenciosamente en todos los lados. Los caminos llevan al
+norte, este y oeste.
+~
+0 9 3
+D0
+El camino estrecho pasa entre los arboles del norte.
+~
+~
+0 -1 6106
+D1
+El camino estrecho pasa entre los arboles del este.
+~
+~
+0 -1 6118
+D3
+El camino estrecho pasa entre los arboles del oeste.
+~
+~
+0 -1 6116
+E
+arbol arboles tronco troncos~
+Los antiguos gigantes grises parecen observarte silenciosamente.
+~
+E
+camino caminos~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6118
+Un camino pequenyo en el bosque hondo y oscuro~
+Estas en un camino estrecho en el bosque hondo y oscuro.  Los arboles antiguos
+y grises estan por todas partes. El camino continua al sur y al oeste.
+~
+0 9 3
+D2
+El camino estrecho pasa entre los arboles del sur.
+~
+~
+0 -1 6119
+D3
+El camino estrecho pasa entre los arboles del oeste.
+~
+~
+0 -1 6117
+E
+arbol arboles tronco troncos~
+Los antiguos gigantes grises parecen observarte silenciosamente.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6119
+Un camino pequenyo en el bosque hondo y oscuro~
+Estas en un camino estrecho en el bosque hondo y oscuro.  Arboles grandes y
+antiguos te rodean por todos lados. El camino continua por el norte y por el
+sur.
+~
+0 9 3
+D0
+El camino estrecho pasa entre los arboles del norte.
+~
+~
+0 -1 6118
+D2
+El camino estrecho pasa entre los arboles del sur.
+~
+~
+0 -1 6120
+E
+arbol arboles tronco troncos~
+Notas que te miran.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6120
+En el río de un bosque hondo y oscuro~
+Estas en un camino estrecho en el bosque hondo y oscuro. Al sur un rio rapido
+fluye al oeste entre el bosque. Los arboles antiguos y grises en ambos bancos.
+El camino continua por el norte y por el oeste.
+~
+0 9 3
+D0
+El camino estrecho pasa entre los arboles del norte.
+~
+~
+0 -1 6119
+D3
+El camino estrecho pasa entre los arboles del oeste.
+~
+~
+0 -1 6121
+E
+rio~
+El rio fluye rapido y fuerte. Esta negro o eso parece en la oscuridad.
+~
+E
+banco bancos arbol arboles tronco troncos~
+Las altas coronas de los anitguos arboles se juntan a lo largo del rio y
+forman una especie de tejado sobre el rio.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6121
+Un camino del fin del mundo en el rio del bosque hondo y oscuro~
+Estas en un camino estrecho en el bosque hondo y oscuro. La posicion de los
+arboles antiguos cierran el camino. Al sur un rio oscuro fluye de este a
+oeste. La unica salida aparece por el este.
+~
+0 9 3
+D1
+El camino estrecho pasa entre los arboles del este.
+~
+~
+0 -1 6120
+E
+rio~
+El rio fluye rapido y fuerte. Esta negro o eso parece en la oscuridad.
+~
+E
+banco bancos arbol arboles tronco troncos~
+Las altas coronas de los anitguos arboles se juntan a lo largo del rio y
+forman una especie de tejado sobre el rio.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6122
+Un camino pequenyo en el bosque hondo y oscuro~
+Estas en un camino estrecho del bosque hondo y oscuro. Los gigantes arboles
+grises estan a tu alrededor. El camino continua por el este y por el sur.
+~
+0 9 3
+D1
+El camino estrecho pasa entre los arboles del este.
+~
+~
+0 -1 6114
+D2
+El camino estrecho pasa entre los arboles del sur.
+~
+~
+0 -1 6123
+E
+arbol arboles tronco troncos~
+Los antiguos gigantes grises parecen observarte silenciosamente.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6123
+Una union en el rio del bosque hondo y oscuro~
+Estas en una union donde tres caminos se encuentran. Los arboles antiguos y
+grises que te rodean parecen observarte silenciosamente.  Al sur un rio oscuro
+fluye de este a oeste por el bosque. Los caminos llevan al norte, este y al
+oeste.
+~
+0 9 3
+D0
+El camino estrecho pasa entre los arboles del norte.
+~
+~
+0 -1 6122
+D1
+El camino estrecho pasa entre los arboles del este.
+~
+~
+0 -1 6124
+D3
+El camino estrecho pasa entre los arboles del oeste.
+~
+~
+0 -1 6125
+E
+rio~
+El rio fluye rapido y fuerte. Esta negro o eso parece en la oscuridad.
+~
+E
+banco bancos arbol arboles tronco troncos~
+Las altas coronas de los anitguos arboles se juntan a lo largo del rio y
+forman una especie de tejado sobre el rio.
+~
+E
+camino caminos~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6124
+Un camino del fin del mundo del bosque hondo y oscuro~
+Estas en un camino estrecho del bosque hondo y oscuro. La posicion de los
+arboles antiguos cierran el camino que desaparece entre las raices
+polvorientas. Al sur un rio oscuro fluye de este a oeste. Hay una salida que
+Aunke tambien podias seguir al este hacia donde puedes ver otro rio, el Valkira
+que fluye con un agua limpia y cristalina.
+~
+0 9 3
+D0
+Al norte tienes el area del Quake.
+~
+norte~
+0 0 5000
+D1
+Un rio hacia el este...
+~
+~
+16 -1 30176
+D3
+El camino estrecho pasa entre los arboles del oeste.
+~
+~
+0 -1 6123
+E
+rio~
+El rio fluye rapido y fuerte. Esta negro o eso parece en la oscuridad.
+~
+E
+banco bancos arbol arboles tronco troncos~
+Las altas coronas de los anitguos arboles se juntan a lo largo del rio y
+forman una especie de tejado sobre el rio.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6125
+Un camino pequenyo en el rio del bosque hondo y oscuro~
+Estas en un camino estrecho en el bosque hondo y oscuro. Los arboles antiguos
+grises estan por todas partes.  Al sur huele a gas del pantano.  El camino
+continua por el norte y por el este.
+~
+0 9 3
+D0
+El camino estrecho pasa entre los arboles del norte.
+~
+~
+0 -1 6126
+D1
+El camino estrecho pasa entre los arboles del este.
+~
+~
+0 -1 6123
+E
+rio~
+El rio fluye rapido y fuerte. Esta negro o eso parece en la oscuridad.
+~
+E
+banco bancos arbol arboles tronco troncos~
+Las altas coronas de los anitguos arboles se juntan a lo largo del rio y
+forman una especie de tejado sobre el rio.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6126
+Un sendero estrecho en el bosque hondo y oscuro~
+Estas en un sendero polvoriento entre arboles grandes y antiguos que cierran
+todos lados. El sendero lleva al norte y al oeste, y al sur un camino fragil
+lleva lejos del sendero.
+~
+0 9 3
+D0
+El sendero estrecho y polvoriento lleva al norte por el bosque.
+~
+~
+0 -1 6127
+D2
+El camino lleva AL sur, lejos del sendero.
+~
+~
+0 -1 6125
+D3
+El sendero estrecho y polvoriento lleva al oeste por el bosque.
+~
+~
+0 -1 6128
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil miras a los troncos macizos, y
+en algunos lugares, gigantes raices grises se han disuelto por su superficie.
+~
+E
+camino~
+El camino parece fragil e inseguro, miras a los troncos enormes que tienes a
+tu alrededor.
+~
+E
+arbol arboles tronco troncos~
+Estos arboles antiguos deben de haber estado aqui muchos, muchos anyos. Es
+imposible coger un resplandor fugaz de cualquier cosa sobre las ramas mas
+bajas.
+~
+S
+#6127
+Un sendero estrecho en el bosque hondo y oscuro~
+Estas en un sendero polvoriento entre arboles grandes y antiguos que cierran
+por todos lados.  El sendero lleva al este y al sur.
+~
+0 9 3
+D1
+El sendero estrecho y polvoriento lleva al este por el bosque.
+~
+~
+0 -1 6112
+D2
+El sendero estrecho y polvoriento lleva al sur por el bosque.
+~
+~
+0 -1 6126
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil miras a los troncos macizos, y
+en algunos lugares, gigantes raices grises se han disuelto por su superficie.
+~
+E
+arbol arboles tronco troncos~
+Estos arboles antiguos deben de haber estado aqui muchos, muchos anyos. Es
+imposible coger un resplandor fugaz de cualquier cosa sobre las ramas mas
+bajas.
+~
+S
+#6128
+Un sendero estrecho en el bosque hondo y oscuro~
+Estas en un sendero polvoriento. Los arboles grandes y antiguos te rodean.
+Oyes un ruido, todo permenece quieto.
+~
+0 9 3
+D1
+El sendero estrecho y polvoriento lleva al este por el bosque.
+~
+~
+0 -1 6126
+D3
+El sendero estrecho y polvoriento lleva al oeste por el bosque.
+~
+~
+0 -1 6129
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil miras a los troncos macizos, y
+en algunos lugares, gigantes raices grises se han disuelto por su superficie.
+~
+E
+arbol arboles tronco troncos~
+Estos arboles antiguos deben de haber estado aqui muchos, muchos anyos. Es
+imposible coger un resplandor fugaz de cualquier cosa sobre las ramas mas
+bajas.
+~
+S
+#6129
+Un sendero estrecho en el bosque hondo y oscuro~
+Estas en un sendero polvoriento. Los arboles grandes y antiguos te rodean.
+Oyes un ruido, todo permenece quieto.
+~
+0 9 3
+D1
+El sendero estrecho y polvoriento lleva al este por el bosque.
+~
+~
+0 -1 6128
+D3
+El sendero estrecho y polvoriento lleva al oeste por el bosque.
+~
+~
+0 -1 6135
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil miras a los troncos macizos, y
+en algunos lugares, gigantes raices grises se han disuelto por su superficie.
+~
+E
+arbol arboles tronco troncos~
+Estos arboles antiguos deben de haber estado aqui muchos, muchos anyos. Es
+imposible coger un resplandor fugaz de cualquier cosa sobre las ramas mas
+bajas.
+~
+S
+#6130
+Un sendero estrecho en el bosque hondo y oscuro~
+Estas en un sendero polvoriento, en los arboles se puede observar como unas
+cuerdas pegajosas suspendidas entre las ramas. Al oeste el camino parece estar
+cubierto completamente por los gigantes arboles. Este lugar te da escalofrios.
+~
+0 9 3
+D1
+El sendero estrecho y polvoriento lleva al este por el bosque, lejos del
+tejido.
+~
+~
+0 -1 6144
+D3
+La estructura al oeste parece ser un tejido de aranya inmenso. No parece
+ser
+posible ir mas alla sin cogerse a ello.
+~
+~
+0 -1 6131
+D4
+~
+~
+0 -1 6132
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil miras a los troncos macizos, y
+en algunos lugares, gigantes raices grises se han disuelto por su superficie.
+~
+E
+substancia alambre alambres soga sogas arbol arboles tronco troncos~
+La substancia pegajosa cuelga como sogas entre los arboles antiguos, el cruce
+del camino esta fuera de alcance. Puede ser posible subir uno de los troncos
+pegajosos.
+~
+S
+#6131
+El tejido de una aranya~
+Caminas a lo largo del camino estrecho, te agachas debajo de las sogas
+pegajosas...
+~
+0 12 3
+> entry_prog 100~
+mpechoat $n ¡Una aranya grande, venenosa deja caerse sobre ti!
+mpechoat $n ¡Una aranya grande, venenosa deja caerse sobre ti!
+mpechoat $n ¡Una aranya grande, venenosa deja caerse sobre ti!
+
+mpechoat $n ¡La aranya grande, venenosa te pica! ¡Te resistes al veneno!
+mpechoat $n ¡La aranya grande, venenosa te pica! ¡TE envenenas!
+mpechoat $n ¡La aranya grande, venenosa te pica! ¡TE envenenas!
+
+mpechoat $n ¡Te has caido, y no puedes ponerte de pie!!!!!
+~
+|
+S
+#6132
+Arriba en el arbol~
+Estar en el exterior de un tronco del arbol grande cubierto de una substancia
+pegajosa. Directamente al oeste ves un tejido de una aranya inmenso suspendido
+entre numeroso rambar del gigante arbol.
+~
+0 13 3
+D3
+Al oeste esta el tejido de la aranya inmenso. Parece moverse suavemente.
+~
+~
+0 -1 6133
+D5
+Abajo hay el camino estrecho del bosque.
+~
+~
+0 -1 6130
+E
+tejido~
+El tejido de la aranya esta fuera al oeste. Parece como si fuera posible
+caminar en el.
+~
+S
+#6133
+En el tejido de la aranya~
+Te balanceas cuidadosamente entre los gigantes hilos pegajosos.  Al este hay
+un tronco del arbol gigante y al oeste ves una entrada a un cueva hecha de
+varis capas del tejido de una aranya.
+~
+0 9 1
+D1
+Al este esta el tronco del arbol gigante.
+~
+~
+0 -1 6132
+D3
+La entrada a la cueva esta al oeste.
+~
+~
+0 -1 6134
+E
+tejido~
+El tejido de la aranya inmenso se mueve suavemente.
+~
+E
+estructura de la cueva~
+Cubre una area de tierra correspondiente a un circulo irregular con un
+diametro de aproximadamente 20 pies y esta casi a 10 pies de alto. Parece muy
+viejo.
+~
+S
+#6134
+El cubil de la Aranya  Reina~
+Estas dentro de un cueva echa de innumerables capas de tejido de aranya. La
+temperatura y la humedad es elevada, el aire demor aqui y te es muy duro
+respirar. Las paredes estan cubiertas por capullos abiertos.
+~
+0 9 1
+D1
+Comparando este lugar la salida del este parece invita.
+~
+~
+0 -1 6133
+E
+tejido pared paredes~
+Las paredes pegajosas estan cubiertas de capullos.
+~
+E
+capulo capullos~
+Estallan los capullos y se abren, si hay algo dentro verdaderamente queria
+quedarse ausente. Tienen el tamanyo de una cabeza humana.
+~
+S
+#6135
+Un sendero polvoriento en el bosque hondo y oscuro~
+Estas en un sendero polvoriento del bosque hondo y oscuro. Los arboles
+antiguos y grises te rodean. El sendero continua por el norte y al este.
+~
+0 9 3
+D0
+El sendero polvoriento lleva al norte por los arboles.
+~
+~
+0 -1 6136
+D1
+El sendero polvoriento lleva al este por los arboles.
+~
+~
+0 -1 6129
+E
+arbol arboles tronco troncos~
+Los antiguos gigantes grises parecen observarte silenciosamente.
+~
+S
+#6136
+Un sendero polvoriento en el bosque hondo y oscuro~
+Estas en un sendero polvoriento del bosque hondo y oscuro. Loas arboles
+antiguos y grises estan por todas partes. El sendero continua por el sur y por
+el oeste. Un camino ancho irregular lleva por el este lejos del sendero.
+~
+0 9 3
+D1
+Los arboles en los lados del camino tienen marcas de rasgunyos.
+~
+~
+0 -1 6142
+D2
+El sendero polvoriento lleva al sur por los arboles.
+~
+~
+0 -1 6135
+D3
+El sendero polvoriento lleva al oeste por los arboles.
+~
+~
+0 -1 6137
+E
+arbol arboles tronco troncos~
+Al este los gigantes antiguos grises tienen muchas marcas como si algo con
+garras grandes rasgara con rabia.
+~
+E
+camino~
+Los arboles de los lados del camino tiene marcars de rasgunyos.
+~
+E
+sendero~
+El sendero oscuro y polvoriento parece fragil miras a los troncos macizos, y
+en algunos lugares, gigantes raices grises se han disuelto por su superficie.
+~
+S
+#6137
+En el final del sendero del  bosque hondo y oscuro~
+Estas en un sendero polvoriento del bosque hondo y oscuro. Los arboles
+antiguos y grises te rodean. Ves un bosquecillo oscuro al norte. Hay solo otra
+salida al este.
+~
+0 9 3
+D1
+El sendero polvoriento lleva al este por los arboles.
+~
+~
+0 -1 6136
+E
+arbol arboles tronco troncos~
+Los gigantes antiguos grises parecen observarte silenciosamente.
+~
+S
+#6142
+Fuera de una cueva del bosque hondo y oscuro~
+Estas al final de un camino ancho y irregular. Por el norte es un muy grande,
+parece una abertura de una cueva. Los arboles aqui tienen muchas marcas como
+si algo con grandes garras les rasgara con mucha rabia.
+~
+0 9 3
+D0
+Huele al repugnante reptil grande de la abertura de la cueva.
+~
+~
+0 -1 6143
+D3
+El camino se enreda en los pupilos del oeste.
+~
+~
+0 -1 6136
+E
+arbol arboles~
+Los gigantes antiguos grises tienen muchas marcas como si algo con garras
+grandes hubiera rasgado con rabia.
+~
+E
+abertura de la cueva~
+Huele al repugnante reptil grande de la abertura de la cueva.
+~
+S
+#6143
+La cueva del Dragon  Verde~
+Te encuentras en una gran cueva natural. Se tiran desperdicios al suelo como
+huesos de toda clase y el hedor es tan macizo que se podria cortar con un
+cuchillo. La unica salida se encuentra al sur.
+~
+0 13 3
+D2
+La salida lleva fuera del bosque.
+~
+~
+0 -1 6142
+E
+suelo de hueso huesos~
+El suelo parece haver restos de huesos de origen humano.
+~
+S
+#6144
+Un camino pequenyo en el bosque hondo y oscuro~
+Estas en un camino estrecho en el bosque hondo y oscuro. Los arboles antiguos
+y grises te rodean por todas partes. Los troncos del arbol aqui parecen estar
+cubrirtos de alguna substancia pegajosa. El camino continua al sur y al oeste.
+~
+0 9 3
+D2
+El camino estrecho pasa entre los arboles del sur.
+~
+~
+0 -1 6110
+D3
+El camino estrecho pasa entre los arboles del oeste.
+~
+~
+0 -1 6130
+E
+substancia soga sogas hilo hilos~
+La substancia te recuerda a hilos del gigante cubierto. Si no fera por el
+tamanyo dirias que podria ser el tejido de una aranya.
+~
+E
+arbol arboltes tronco troncos~
+Los antiguos gigantes grises parecen observarte silenciosamente.
+~
+E
+camino~
+El camino parece todo demasiado fragil. Una de las raices del gigante podrian
+aplastarte.
+~
+S
+#6150
+Un sendero oscuro y estrecho~
+Este sendero parece mucho mas tetrico que los similares senderos de este
+bosque. El animal mas usual es la aranya, en los arbols se pueden ver marcas
+y mordeduras. El sendero continua al norte y al sur.
+~
+0 9 3
+D0
+El sendero estrecho continua.
+~
+~
+0 -1 6151
+D2
+el sendero corta el camino principal del bosque.
+~
+~
+0 -1 6103
+S
+#6151
+Un sendero oscuro y estrecho~
+Esta area del sendero es tambien muy rara. No puedes ver ninguna senyal de
+vida animal, y la estructura de los arboles del cerco del camino hacen un giro
+afilado al este.
+~
+0 13 3
+D0
+Al norte esta la entrada al santuario de Kurt Cobain.
+~
+norte~
+0 -1 16500
+D1
+el sendero dobla al este.
+~
+~
+0 -1 6152
+D2
+El sendero estrecho continua.
+~
+~
+0 -1 6150
+D3
+Al oeste ves un pantano.
+~
+oeste~
+0 -1 501
+S
+#6152
+Un circulo de arboles~
+Los arboles mas pequenyos parecen formar un circulo alrededor de un arbol
+levantado en el centro, y te das cuenta de una puerta de madera fijada en el
+tronco de este enormidad. Estas al pie de esta puerta, este circulo se acaba.
+~
+0 9 3
+D1
+La puerta del arbol esta tallada bellamente.
+~
+door~
+3 -1 6153
+D3
+Una curvatura en el sendero...
+~
+~
+0 -1 6151
+S
+#6153
+Dentro del gran arbol.~
+Has caminado dentro de este arbol hueco. De aqui puedes ir abajo en la
+oscuridad o puedes terminar el arbol por el oeste.
+~
+0 9 3
+D3
+la puerta esta tallada bellamente.
+~
+door~
+3 -1 6152
+D5
+los pasos aparecen por motivo de tu peso.
+~
+~
+0 -1 6154
+S
+#6154
+El vestibulo subterraneo.~
+Este vestibulo parece una de las raices del arbol. El corredor lleva al sur a
+un cuarto donde oyes ruidos extranyos o tambien puedes subir arriba.
+~
+0 9 3
+D2
+el vestíbulo parece bastante grande.
+~
+~
+1 -1 6155
+D4
+los pasos aparecen por motivo de tu peso.
+~
+~
+1 -1 6153
+S
+#6155
+El templo de culto~
+Se construyo este templo a unos dioses. Es un lugar de buen visitar pero es
+muy incomodo porque gastas mucho tiempo aqui. El altar de madera parece casi
+brillar cuando entras al cuarto. Solo hay una salida por la qual entraste.
+~
+0 9 3
+D0
+el vestibulo parece bastante grande.
+~
+~
+1 -1 6154
+S
+#6156
+Un camino mas pequenyo~
+Hay una baja  mas ligera pero el camino es mas estrecho. Al sudeste el camino
+acaba en una zona mas oscura de bosque. Al noroeste el camino acaba de repente
+en una gran piedra.
+~
+0 0 3
+D8
+En una seccion mas oscura del bosque.
+~
+~
+0 -1 6151
+S
+#0
+
+
+#RESETS
+D 1 6152 1 1
+D 1 6153 3 1
+M 0 6116 1 6155
+E 1 6155 1 16
+O 0 6011 3 6006
+M 0 6000 1 6009
+E 1 6000 10 16
+E 1 6001 10 5
+E 1 6002 10 8
+D 0 6009 0 1
+O 0 6003 1 6010
+O 0 6005 1 6010
+P 1 6007 1 6005
+P 1 6006 1 6003
+O 0 6013 3 6010
+O 0 6011 3 6013
+M 0 6005 2 6014
+O 0 6011 3 6016
+M 0 6002 1 6022
+M 0 6004 1 6023
+O 0 6010 2 6023
+M 0 6115 1 6100
+E 1 6114 3 1
+O 0 6102 1 6103
+M 0 6102 4 6104
+M 0 6102 4 6104
+O 0 6106 4 6104
+O 0 6105 1 6105
+M 0 6102 4 6108
+M 0 6102 4 6108
+O 0 6106 4 6111
+M 0 6103 4 6112
+M 0 6103 4 6112
+O 0 6103 1 6113
+M 0 6100 2 6116
+M 0 6100 2 6116
+M 0 6103 4 6118
+M 0 6103 4 6118
+O 0 6107 4 6119
+M 0 6117 1 6121
+O 0 6106 4 6122
+O 0 6104 1 6125
+M 0 6101 2 6127
+M 0 6101 2 6127
+M 0 6112 1 6143
+G 1 6110 10
+G 1 6112 10
+G 1 6111 10
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  6112 spec_breath_gas
+M  6116 spec_cast_cleric
+S
+
+
+#$

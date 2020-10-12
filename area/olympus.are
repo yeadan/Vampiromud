@@ -1,0 +1,1631 @@
+#AREA   Olympus~
+
+#VERSION 1
+
+#AUTHOR Heinrich~
+
+#RANGES
+5 65 0 256
+$
+
+#RESETMSG ~
+
+#FLAGS
+0
+
+#ECONOMY 0 45091070
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#48000
+Zeus~
+Zeus~
+Zeus esta aqui, sentado en su trono.
+~
+Ante ti ves al dios mas grande del Olimpo. Parece como si pudiese destruirte
+con solo pensarlo.  Todas sus miradas penetran en lo mas profundo de tu ser.
+Ahora conoces realmente lo que es el miedo.
+~
+65543 532650 1000 S
+60 0 0 50d10+9500 5d10+28
+5000 0
+112 112 1
+#48001
+prometeo~
+Prometeo~
+Prometeo esta aqui, jugando con una cerilla.
+~
+Este mortal desafio la ira de Zeus para dar el regalo del fuego a los
+humanos. Al verte te sonrie.
+~
+7 532650 1000 S
+51 0 0 50d10+5000 5d8+20
+2000 0
+112 112 1
+#48002
+hermes~
+Hermes~
+Hermes esta ocupado repartiendo mensajes.
+~
+Hermes es el mensajero de los dioses. Viaja de un lugar a otro con la ayuda
+de su casco y sus botas aladas. Parece tan ocupado que ni siquiera se ha dado
+cuenta de que estas aqui.
+~
+262149 565418 1000 S
+56 0 0 50d10+7000 10d4+23
+2500 0
+112 112 1
+#48003
+poseidon~
+Poseidon~
+Poseidon esta cenando aqui.
+~
+Es el hermano el mismisimo Zeus, el elegido para gobernar los mares.
+Debe de estar de visita en el monte Olimpo. Te invita a entrar y a que
+tomes asiento.
+~
+131079 532650 1000 S
+59 0 0 50d10+8500 10d4+24
+5000 0
+112 112 1
+#48004
+apollo~
+Apollo~
+Apollo esta aqui, tocando musica.
+~
+Este jovial Dios esta tocando una lira. Te sonrie y te pregunta si quieres
+unirte a el. A su lado hay un impresionante arco, aunque crees que sabe
+mas sobre musica.
+~
+7 532650 1000 S
+58 0 0 50d10+8500 5d10+25
+2000 0
+112 112 1
+#48005
+ares~
+Ares~
+Ares esta aqui, pateando tu trasero.
+~
+Ares es el Dios de la Guerra. Ahora esta muy ocupado estudiando unos mapas.
+No le hace nada de gracia que estes aqui y te pregunta que que es lo que
+quieres.
+~
+39 524458 -1000 S
+59 0 0 50d10+9000 8d6+26
+2500 0
+112 112 1
+#48006
+athena~
+Athena~
+Athena esta aqui relajandose.
+~
+La hija favorita de Zeus esta sentada en un divan mientras come sensualmente
+un racimo de uvas. Te sonrie y te ofrece uvas de su racimo.
+~
+7 532650 1000 S
+56 0 0 50d10+7500 10d4+24
+3000 0
+112 112 2
+#48007
+hefestos~
+Hefestos~
+Hefestos el Herrero trabaja en la creacion de una fina espada.
+~
+Este Dios es el unico que no es fisicamente perfecto.  Es cojo y feo.
+Sin embargo tienes la impresion de que se trata de alguien bondadoso y
+que te ayudaria si lo necesitases.
+Hefestos es ayudado en sus tareas por tres doncellas doradas.
+~
+7 532650 1000 S
+55 0 0 50d10+7000 10d4+23
+3000 0
+112 112 1
+#48008
+doncella oro~
+doncella de oro~
+Una doncella de oro esta ayudando al herrero.
+~
+Al aproximarte a este invento te das cuenta de que es totalmente de ORO!
+Parece tener vida propia y ayuda en todo lo que puede al herrero.
+
+~
+524295 532650 0 S
+26 0 0 5d10+650 3d7+7
+50 0
+112 112 2
+#48009
+soldado~
+un soldado~
+Un soldado esta aqui, ayudando a Ares.
+~
+Este hombre esta esperando ordenes de Ares. Aunque no parece tener una
+constitucion fuerte, te das cuenta de que ares nunca confiaria en un hombre
+debil.
+~
+39 524458 0 S
+35 0 0 10d10+1300 4d7+11
+250 0
+112 112 1
+#48010
+aprendiz musica~
+un aprediz de musica~
+Un aprendiz de musica esta aqui, intentando asimilar las ensenyanzas de apolo.
+~
+Este hombre esta estudiando musica del inmortal Apolo.
+~
+7 524458 1000 S
+14 0 0 2d10+190 1d12+3
+125 0
+112 112 1
+#48011
+sirviente~
+un sirviente~
+Un sirviente esta aqui, dandole las uvas a Atenea.
+~
+Este hombre es muy afortunado al poder servir a Atenea.
+~
+7 524458 1000 S
+6 0 0 2d7+71 1d7+1
+25 0
+112 112 1
+#48012
+perro guerra~
+un perro de guerra~
+Un perro de guerra te muerde.
+~
+Esta gran bestia podria ser llamada perro. En el campo de batalla
+es capaz de atemorizar a cualquier oponente.
+~
+39 524458 -600 S
+35 0 0 10d10+1300 4d7+11
+0 0
+112 112 0
+#48013
+Odin~
+Odin~
+Odin esta descansando aqui.
+~
+Cuando ves a Odin te das cuenta de lo insignificante que eres.
+Odin esta en perfecta forma.
+~
+7 532650 1000 S
+60 0 0 50d10+9500 8d6+28
+5000 0
+112 112 1
+#48014
+julio~
+Julio el panadero~
+Julio el panadero esta tras el mostrador.
+~
+Este jovial hombre ha dedicado toda su vida a vender pan y otros manjares
+a los habitantes de la ciudad. Aunque tiene un aspecto enclenque seria mas
+prudente no subestimarlo. Sonrie y te muestra sus productos.
+~
+7 532650 1000 S
+50 0 0 50d10+4500 5d8+19
+500 0
+112 112 1
+#48015
+alquimista~
+el Alquimista~
+Un anciano y sabio Alquimista esta aqui.
+~
+Habil en las ancestrales artes de la magia y la alquimia, el esta listo
+para proveer a los ciudadanos (pero no a ti) con sus arcanos objetos.
+~
+7 532650 1000 S
+50 0 0 50d10+4500 5d8+19
+500 0
+112 112 1
+#48016
+oldstyle clive~
+Clive ~
+Clive el Maestro de Armas esta practicando con su arco y su hacha.
+~
+Clive parece (mejor dicho ES) MUY grande y MUY fuerte. Todos sus anyos
+de entrenamiento han valido para algo.
+~
+7 532650 1000 S
+50 0 0 50d10+4500 5d8+19
+2000 0
+112 112 1
+#48017
+samuel~
+Samuel el Armero~
+Samuel el Armero te ataca.
+~
+Samuel es muy parecido fisicamente a Clive el Maestro de Armas: MUY grande
+y MUY fuerte. No le gusta lo que has estado haciendo en la ciudad.
+~
+39 532650 1000 S
+34 0 0 10d10+1200 4d7+10
+500 0
+112 112 1
+#48018
+ra sol dios~
+Ra el Dios del Sol~
+Ra el Dios del Sol Egipcio esta descansando.
+~
+Como brilla! tus ojos se deslumbran cada vez que intentas mirarlo, de modo
+que puedes decir poca cosa sobre su apariencia. Aunque si podrias decir
+que no es en absoluto insignificante.
+~
+7 532650 1000 S
+60 0 0 50d10+9500 8d6+28
+5000 0
+112 112 1
+#48019
+quimera~
+una quimera~
+Una quimera recorre la celda.
+~
+La criatura con tres cabezas - una un leon, otra la de una gargola, y
+otra la de un dragon.
+~
+39 524458 -1000 S
+34 0 0 10d10+1200 4d7+10
+50 0
+112 112 1
+#48020
+hera~
+Hera~
+Hera esta aqui.
+~
+Hera, la esposa de Zeus esta aqui.  Te sonrie al entrar y te invita a
+descansar durante un rato.
+~
+65543 532650 1000 S
+59 0 0 50d10+9000 6d8+26
+5000 0
+112 112 2
+#48021
+roc~
+un roc~
+Un roc esta aqui.
+~
+El roc es un pajaro gigante. Te mira, graznea y se va.
+~
+5 532650 0 S
+25 0 0 5d10+550 2d10+7
+250 0
+112 112 0
+#48022
+ciudadano~
+un ciudadano~
+Un ciudadano de la ciudad camina calle abajo.
+~
+Parece feliz y despreocupado. Te sonrie y te saluda tocandose el sombrero.
+~
+262149 532650 1000 S
+6 0 0 2d6+60 1d6+1
+3 0
+112 112 1
+#48023
+caballo pegaso~
+un pegaso~
+Un gran caballo alado esta aqui.
+~
+El pegaso es blanco como la nieve y tiene unas grandes alas. Aunque tiene
+un aspecto pacifico no deudas de que puede ser peligroso si se le provoca.
+~
+5 532650 0 S
+14 0 0 2d10+190 1d12+3
+40 0
+112 112 0
+#48024
+cocinero~
+un cocinero~
+Aqui hay un cocinero trabajando duramente.
+~
+El cocinero tiene toda la pinta de haber estado MUCHO tiempo en la cocina.
+~
+7 532650 1000 S
+8 0 0 2d7+96 1d7+2
+5 0
+112 112 1
+#48025
+carcelero~
+El carcelero~
+El carcelero esta aqui, esperando condenados.
+~
+El carcelero a pasado gran parte de su vida vigilando presos en las
+mazmorras vigilando prisineros y por eso tiene tan mala leche.
+~
+131079 532650 0 S
+22 0 0 4d10+360 2d7+5
+50 0
+112 112 1
+#0
+
+
+#OBJECTS
+#48000
+aegis escudo~
+el Aegis~
+Un poderoso escudo ha sido dejado aqui.~
+~
+9 32 513
+10 10 10 6
+500 8400 840
+A
+1 1
+#48001
+hammer thunder bolt thunderbolt~
+the Thunder Bolt~
+A huge hammer has been carelessly dropped here.~
+~
+5 32 8193
+0 7 6 6
+240 5400 540
+A
+18 3
+A
+4 -1
+#48002
+helmet winged~
+a Winged Helmet~
+A helmet with small wings lies here.~
+~
+9 32 17
+10 10 10 5
+50 7300 730
+A
+2 2
+A
+56 227
+#48003
+spear ares~
+the spear of Ares~
+A wicked spear rests on the ground here.~
+~
+5 32 8193
+0 5 8 0
+180 2000 200
+A
+19 2
+A
+18 2
+#48004
+sandals winged~
+a pair of winged sandals~
+A pair of well made sandals lies here.~
+~
+9 32 65
+8 8 8 4
+50 2200 220
+A
+56 227
+#48005
+staff ivory~
+an ivory staff~
+An ivory staff.~
+~
+4 32 16385
+30 3 3 -1
+80 5800 580
+'sanctuary'
+#48006
+trident poseidon~
+poseidon's Trident~
+A huge three pronged spear lies here.~
+~
+5 32 16385
+0 7 6 11
+160 5700 570
+A
+4 2
+#48007
+bow silver~
+a silver bow~
+A silver bow.~
+~
+56 32 262145
+0 6 7 14
+15 10300 1030
+A
+19 1
+A
+18 1
+#48008
+gauntlets flaming~
+flaming gauntlets~
+A pair of metal gauntlets flame here.~
+~
+9 32 129
+7 7 7 4
+60 2900 290
+A
+13 25
+#48009
+vial potion ambrosia~
+ambrosia~
+A vial of ambrosia lies here.~
+~
+10 32 1
+30 -1 -1 -1
+10 1130 113
+'dispel evil' 'heal' 'NONE'
+#48010
+necklace glowing~
+a glowing necklace~
+A necklace with an inner glow lies here.~
+~
+12 32 5
+0 0 0 0
+20 980 98
+A
+12 25
+#48011
+ring sapphire~
+a sapphire ring~
+A sapphire ring lies here.~
+~
+12 32 3
+0 0 0 0
+10 6900 690
+A
+19 3
+A
+4 2
+#48012
+shield glowing~
+a brightly glowing shield~
+A shield lies here, filling the room with its aura.~
+~
+9 32 513
+9 9 9 6
+100 5300 530
+A
+4 1
+#48013
+axe notched~
+a notched axe~
+A notched axe.~
+~
+5 32 8193
+0 3 11 1
+120 3600 360
+#48014
+grapes~
+a bunch of grapes~
+A bunch of grapes.~
+~
+19 0 1
+24 24 0 0
+10 100 10
+#48015
+fan~
+a fan made of peacock feathers~
+A fan made of peacock feathers.~
+~
+13 0 1
+0 0 0 0
+10 0 0
+#48016
+lute~
+a lute~
+A lute.~
+~
+13 0 1
+0 0 0 0
+10 0 0
+#48017
+nugget gold~
+a gold nugget~
+A gold nugget lies gleaming here.~
+~
+8 0 1
+0 0 0 0
+50 5000 500
+#48018
+apple~
+an apple~
+An apple is here.~
+~
+26 0 1
+24 -1 -1 -1
+10 340 34
+'NONE' 'NONE' 'cure light'
+#48019
+pear~
+a pear~
+A pear is here.~
+~
+26 0 1
+24 -1 -1 -1
+10 530 53
+'NONE' 'NONE' 'cure poison'
+#48020
+orange~
+a orange~
+A orange is here.~
+~
+26 0 1
+24 -1 -1 -1
+10 340 34
+'NONE' 'NONE' 'armor'
+#48021
+kiwi~
+a kiwi~
+A kiwi is here.~
+~
+26 0 1
+24 -1 -1 -1
+10 530 53
+'NONE' 'NONE' 'cure poison'
+#48022
+amulet~
+the Amulet of Ra~
+A sun shaped medallion is lying here.~
+~
+12 32 5
+0 0 0 0
+10 4900 490
+A
+12 50
+#48023
+sun sword~
+the Sword of the Sun~
+A beautiful sword with the rising sun etched on the pommel is lying here.~
+~
+5 32 8193
+0 4 11 3
+200 6800 680
+A
+19 2
+#48024
+robe blue~
+a blue robe~
+A deep blue robe is on the ground here.~
+~
+9 32 1025
+6 6 6 8
+5 1960 196
+A
+13 50
+A
+17 -20
+A
+5 2
+#48025
+hat~
+a wide brimmed hat~
+A hat is lying here.~
+~
+9 32 17
+10 10 4 3
+5 580 58
+A
+12 50
+#48026
+nectar~
+nectar~
+A vial of nectar is lying here.~
+~
+10 0 1
+12 -1 -1 -1
+10 810 81
+'sanctuary' 'kindred strength' 'armor'
+#48027
+key cell~
+a Cell key~
+A key has been left here.~
+~
+18 0 1
+0 0 0 0
+10 0 0
+#48028
+map olympus secret~
+a secret map of Olympus~
+A rolled up map is here.~
+~
+12 0 1
+1 0 0 0
+10 500 50
+E
+map olympus secret~
+.
+                              The Secret Map Of
+                               *****OLYMPUS*****
+ 
+                                   (Hermes)
+                                   Bedroom    The Portal
+                                      |           |
+                                   Northern  Hall of Gods
+                                     Hall    /
+                        Western       |    /    Eastern
+              Bedroom----Hall----Second Floor----Hall----Bedroom
+              (Hera)            /     |                 (Poseidon)
+                         Stairway  Southern
+          (Prometheus)       |       Hall                    North
+              Cell    /Throne Room    |                        |  /Up
+                |   /     (Zeus)   Bedroom                     |/
+       Cell-Dungeon-Cell     |                          West---+---East
+  (Chimera)(Jailor)(Chimera) |                                /|
+                             |                          Down/  |
+                  Kitchen    |     Stable                    South
+        (Odin)       |       |       |       (Ra)
+        Guest     Western  Castle  Eastern   Guest      ()Mob Location
+       Quarters----Wing----Entry----Wing----Quarters
+                     |       |       |
+                  Storage   Z|   Storage Room
+                   Room     e|
+                            u|  Believer
+                            s|     |    (Hephaestus)
+                             |  Planning---Smithy
+                            S|  Room(Ares)   |
+
+                            t|               |  (Clive)
+                 (Alchemist) +--Ares Street--+--Weapon
+                    Mystery  |               |   Shop
+                    Shop-----+               |
+                             |            Armoury
+                   Residence-+-Residence  (Samuel)
+                   (Apollo)  |  (Athena)
+                             |
+             (Julius)Bakery--+
+                             |
+                       **Entrance**
+                            /
+                      Mountain
+~
+#0
+
+
+#ROOMS
+#48000
+Montanya~
+Estas escalando la montanya. La pronunciada pendiente hace que te canses
+rapidamente, y que continuamente te pares a recobrar el aliento.
+~
+0 0 5
+D4
+~
+~
+0 -1 48001
+D5
+~
+~
+0 -1 42505
+S
+#48001
+Montanya~
+Estas escalando la montanya. La pronunciada pendiente hace que te canses
+rapidamente, y que continuamente te pares a recobrar el aliento.
+
+~
+0 0 9
+D4
+~
+~
+0 -1 48002
+D5
+~
+~
+0 -1 48000
+S
+#48002
+Montanya~
+Finalmente has llegado a la cima de la montanya. El aire es poco denso
+de modo que te cuesta respirar. Al norte ves lo que parece la entrada a
+una ciudad.
+~
+0 0 9
+D0
+~
+~
+0 -1 48003
+D5
+~
+~
+0 -1 48001
+S
+#48003
+Entrada~
+Estas en la entrada de una enorme ciudad. Mirando a tu alrededor te das
+cuenta de que los habitantes de esta ciudad deben ser muy ricos, debido
+a que nunca has visto una ciudad con edificios tan bellos.
+~
+0 0 1
+D0
+~
+~
+0 -1 48004
+D2
+~
+~
+16777216 -1 48002
+S
+#48004
+Calle Zeus~
+Caminas por una amplia (muy amplia) calle. No hay casi gente por la calle
+en una esquina lees el nombre de la calle: "Calle de Zeus".
+al oeste puedes ver una pequenya tienda.
+
+~
+0 0 1
+D0
+The street continues.
+~
+~
+0 -1 48005
+D2
+~
+~
+0 -1 48003
+D3
+~
+~
+0 -1 48023
+S
+#48005
+Calle Zeus~
+Caminas por lo que aparenta ser la calle principal de esta ciudad.
+La calle va en direccion sur, y a ambos lados puedes ver grandes casas.
+~
+0 0 1
+D0
+~
+~
+0 -1 48006
+D1
+~
+~
+0 -1 48024
+D2
+The street continues.
+~
+~
+0 -1 48004
+D3
+~
+~
+0 -1 48025
+S
+#48006
+Calle Zeus~
+Calle de Zeus, la calle mas importante de la ciudad. Hay un tipo de tienda
+al oeste.
+~
+0 0 1
+D0
+~
+~
+0 -1 48007
+D2
+~
+~
+0 -1 48005
+D3
+~
+~
+0 -1 48026
+S
+#48007
+Calle Zeus~
+Estas en la calle mas importante de la ciudad. Al norte ves un gran palacio.
+Al este hay una calle pequenya.
+~
+0 0 1
+D0
+~
+~
+0 -1 48008
+D1
+~
+~
+0 -1 48027
+D2
+~
+~
+0 -1 48006
+S
+#48008
+Entrada del palacio.~
+Estas en la entrada de un gran palacio. El amplio vestibulo esta decorado
+con exquisitas pinturas y una confortable alfombra. Al norte escuchas 
+unas alegres carcajadas. A ambos lados hay varios pasillos.
+
+
+~
+0 8 1
+D0
+~
+~
+0 -1 48009
+D1
+~
+~
+0 -1 48014
+D2
+~
+~
+0 -1 48007
+D3
+~
+~
+0 -1 48010
+S
+#48009
+Sala del trono.~
+Nada mas entrar en esta habitacion te paras en seco... ante ti esta Zeus,
+en toda su gloria, sentado en un enorme trono dorado. Habias oido hablar de 
+el, pero pensabas que era un mito, sin embargo esta aqui.
+~
+0 8 1
+D0
+~
+~
+0 -1 48022
+D2
+~
+~
+0 -1 48008
+D5
+~
+throne trapdoor~
+3 -1 48017
+E
+throne~
+This huge golden throne looks as if it has been here for ages.  As you study it
+carefully, you notice that it is not firmly attached to the floor ... perhaps
+you could slide it?
+~
+S
+#48010
+Ala oeste~
+Estas en el ala oeste del castillo. Al este esta el vestibulo, al oeste
+el pasillo continua.
+
+~
+0 8 1
+D1
+~
+~
+0 -1 48008
+D3
+~
+~
+0 -1 48011
+S
+#48011
+Ala oeste.~
+Estas en el ala oeste del castillo. Puedes continuar al norte por el pasillo
+o ir al oeste y al sur hacia las habitaciones privados.
+
+~
+0 8 1
+D0
+~
+~
+0 -1 48012
+D1
+~
+~
+0 -1 48010
+D2
+~
+~
+0 -1 48029
+D3
+~
+~
+0 -1 48028
+S
+#48012
+Ala oeste.~
+Estas en el ala oeste del castillo. El pasillo continua hacia el sur.
+Del norte provienen unos golpeteos incesantes.
+
+
+~
+0 8 1
+D0
+~
+~
+0 -1 48013
+D2
+~
+~
+0 -1 48011
+S
+#48013
+Cocina~
+Entras en las cocinas del palacio. Son un verdadero hervidero de
+actividad, con sirvientes yendo de un sitio a otro preparando exquisitos
+manjares para los Dioses del Olimpo.
+
+~
+0 8 1
+D2
+~
+~
+0 -1 48012
+S
+#48014
+Ala este.~
+Estas en el ala este del castillo. Hay mas pasillo al este, y el
+vestibulo esta al oeste.
+
+~
+0 8 1
+D1
+~
+~
+0 -1 48015
+D3
+~
+~
+0 -1 48008
+S
+#48015
+Ala este.~
+Estas en el ala este del castillo. El pasillo gira al norte, al este y
+al sur hay aposentos privados.
+
+~
+0 8 1
+D0
+~
+~
+0 -1 48016
+D1
+~
+~
+0 -1 48030
+D2
+~
+~
+0 -1 48031
+D3
+~
+~
+0 -1 48014
+S
+#48016
+Ala este.~
+Estas en el ala este del castillo. Al norte escuchas el grunyido de
+animales, al sur el pasillo continua.
+
+~
+0 8 1
+D0
+~
+~
+0 -1 48032
+D2
+~
+~
+0 -1 48015
+S
+#48017
+Mazmorras.~
+Has llegado a la Mazmorra de Zeus.  Ves extranyas criaturas tan terribles
+que hasta el mitico Zeus las teme lo suficiente como para encerrarlas aqui
+abajo.
+~
+0 1 0
+D0
+~
+~
+0 -1 48018
+D4
+~
+trapdoor throne~
+1 -1 48009
+S
+#48018
+Mazmorras.~
+Estas en la Mazmorra de Zeus. Hay celdas al norte, este y oeste y norte. 
+De las celdas del este y del oeste provienen guturales ruidos,
+sin embargo de la celda del norte no consigues escuchar nada...
+
+~
+0 1 0
+D0
+~
+~
+39 48027 48019
+D1
+~
+~
+39 48027 48021
+D2
+~
+~
+0 -1 48017
+D3
+~
+~
+39 48027 48020
+S
+#48019
+Celdas~
+Entras en una pequenya, oscura, humeda, sucia y pestilente celda.
+~
+0 1 0
+D2
+~
+~
+39 48027 48018
+S
+#48020
+Celdas~
+Entras en una pequenya, oscura, humeda, sucia y pestilente celda.
+
+~
+0 1 0
+D1
+~
+~
+39 48027 48018
+S
+#48021
+Celdas~
+Entras en una pequenya, oscura, humeda, sucia y pestilente celda.
+~
+0 1 0
+D3
+~
+~
+39 48027 48018
+S
+#48022
+Escaleras.~
+Has conseguido llegar a una gran escalera en espiral que lleva al segundo piso.
+Al sur ves la el trono de Zeus.
+
+~
+0 8 1
+D2
+~
+~
+0 -1 48009
+D4
+~
+~
+0 -1 48038
+S
+#48023
+Panaderia~
+Entras en una pequenya tienda que suministra a toda la ciudad con sus
+productos artesanales. Huele divinamente!
+~
+0 8 1
+D1
+~
+~
+0 -1 48004
+S
+#48024
+Residencia~
+Entras en la residencia de uno de los habitantes de la ciudad.
+Te recuerda a un lugar familiar, pero no sabes exactamente a cual...
+~
+0 8 1
+D3
+~
+~
+0 -1 48005
+S
+#48025
+Residencia~
+Entras en la residencia de uno de los habitantes de la ciudad.
+Te recuerda a un lugar familiar, pero no sabes exactamente a cual...
+~
+0 8 1
+D1
+~
+~
+0 -1 48005
+S
+#48026
+Tienda mistica.~
+En la tienda mistica los ciudadanos compran los objetos arcanos que
+necesiten en sus quehaceres diarios.
+~
+0 8 1
+D1
+~
+~
+0 -1 48006
+S
+#48027
+Calle Ares~
+Caminas por una pequenya calle, ramal de la calle principal.
+En un cartel puedes leer el nombre: Calle de Ares.
+
+~
+0 8 1
+D1
+~
+~
+0 -1 48033
+D3
+~
+~
+0 -1 48007
+S
+#48028
+Sala de invitados.~
+Estas en las habitaciones reservadas a los invitados que se alojan en el
+palacio. El lujo reina en todas estas habitaciones que ocupan los dioses
+de otras culturas cuando estan de visita en el Olimpo.
+Observando atentamente te das cuenta de que estos aposentos estan ocupados
+actualmente por Odin, el Dios patron de Midgaard.
+~
+0 8 1
+D1
+~
+~
+0 -1 48011
+S
+#48029
+Almacen.~
+Entras en el almacen del palacio. Aqui solo encuentras unas pocas cajas 
+vacias apiladas en un ricon.
+~
+0 8 1
+D0
+~
+~
+0 -1 48011
+S
+#48030
+Sala de invitados.~
+Estas en los aposentos reservados a los invitados que se alojan en el
+palacio. El lujo reina en todas estas habitaciones que ocupan las deidades
+de otras culturas cuando estan de visita por el Olimpo. Observando 
+atentamente te das cuenta de que estos aposentos estan ocupados
+actualmente por RA, el Dios Egipcio del Sol.
+
+~
+0 8 1
+D3
+~
+~
+0 -1 48015
+S
+#48031
+Storage Room~
+You are in a storage room of the castle.  There isn't much here, just a lot
+of dust.
+~
+0 8 1
+D0
+~
+~
+0 -1 48015
+S
+#48032
+Establo.~
+Llegas al establo del castillo. En lugar de los pegasos que esperabas
+encontrar, el establo esta lleno de una gran variedad de criaturas miticas.
+
+~
+0 8 1
+D2
+~
+~
+0 -1 48016
+S
+#48033
+Calle Ares.~
+Llegas al final de la Calle de Ares. Hacia el sur ves
+una tienda de armaduras, y al este queda una armeria. Desde el 
+norte llega hasta a ti el repetitivo martilleo de una herreria.
+
+~
+0 8 1
+D0
+~
+~
+0 -1 48036
+D1
+~
+~
+0 -1 48035
+D2
+~
+~
+0 -1 48034
+D3
+~
+~
+0 -1 48027
+S
+#48034
+Tienda.~
+Esta pequenya tienda esta casi vacia. Pese a ello el duenyo no parece tener
+ninguna gana de atenderte.
+
+~
+0 8 1
+D0
+~
+~
+0 -1 48033
+S
+#48035
+Armeria.~
+En esta pequenya armeria hay una gran de armas. Las observas
+ante la impasividad del armero (al cual parece no entusiasmarle tu
+visita lo mas minimo).
+~
+0 8 1
+D3
+~
+~
+0 -1 48033
+S
+#48036
+Herreria.~
+En la herreria hay un continuo ruido ensordecerdor, la fragua, el martillo
+golpeando el yunque... apenas puedes oir tus pensamientos. Los herreros se
+afanan en su trabajo, fabricando y reparando todo tipo de armas y armaduras.
+Hay algo extranyo en la pared oeste, pero no sabes exactamente que.
+
+
+~
+0 8 1
+D2
+~
+~
+0 -1 48033
+D3
+You see a concealed door!
+~
+door concealed~
+1 -1 48037
+S
+#48037
+Una habitacion.~
+Entras en una habitacion dominada por una gran mesa sobre la que esta extendido
+un mapa.  Varios hombres se encuentrar reunidos alrededor de la mesa, 
+estudiando cuidadosamente el mapa. Escuchas ladridos de perros procendetes
+del norte.
+~
+0 1 0
+D0
+~
+~
+0 -1 48049
+D1
+~
+~
+0 -1 48036
+S
+#48038
+Segundo piso.~
+Acabas de llegar al segundo piso del palacio. Todavia estas impresionado con
+tus descubrimientos en la planta baja que apenas puedes imaginarte que
+es lo que oculta esta segunda planta. Los pasillos se extienden por todas
+direcciones, y sobre ti ves una pequenya trampilla.
+
+~
+0 8 1
+D0
+~
+~
+0 -1 48039
+D1
+~
+~
+0 -1 48042
+D2
+~
+~
+0 -1 48040
+D3
+~
+~
+0 -1 48041
+D4
+You see a sign on the hatch.  It reads 'Private Property. No trespassing!'
+~
+hatch~
+3 -1 48047
+D5
+~
+~
+0 -1 48022
+S
+#48039
+Pasillo norte.~
+Caminas por el pasillo norte. Mas al norte estan unas habitaciones privadas.
+Hacia el sur vuelves a las escaleras.
+
+~
+0 8 1
+D0
+~
+~
+0 -1 48046
+D2
+~
+~
+0 -1 48038
+S
+#48040
+Pasillo sur.~
+Caminas por el pasillo sur. Mas al sur hay unas habitaciones privadas.
+Hacia el norte vuelves a las escaleras.
+
+
+~
+0 8 1
+D0
+~
+~
+0 -1 48038
+D2
+~
+~
+0 -1 48043
+S
+#48041
+Pasillo oeste.~
+Caminas por el pasillo oeste. Mas al oeste estan unas habitaciones privadas.
+Por el este vuelves a las escaleras.
+
+
+~
+0 8 1
+D1
+~
+~
+0 -1 48038
+D3
+~
+~
+0 -1 48044
+S
+#48042
+Pasillo este~
+Caminas por el pasillo este. Mas al este estan unas habitaciones privadas.
+Por el oeste vuelves a las escaleras.
+
+~
+0 8 1
+D1
+~
+~
+0 -1 48045
+D3
+~
+~
+0 -1 48038
+S
+#48043
+Dormitorio~
+Dios! Estas en el dormitorio de un Dios! 
+Esta habitacion parece estar vacia.
+~
+0 8 1
+D0
+~
+~
+0 -1 48040
+S
+#48044
+Dormitorio.~
+Dios! Estas en el dormitorio de un Dios!
+
+~
+0 8 1
+D1
+~
+~
+0 -1 48041
+S
+#48045
+Dormitorio~
+Dios! Estas en el dormitorio de un Dios!
+
+~
+0 8 1
+D3
+~
+~
+0 -1 48042
+S
+#48046
+Dormitorio.~
+Dios! Estas en el dormitorio de un Dios!
+
+~
+0 8 1
+D2
+~
+~
+0 -1 48039
+S
+#48047
+Salon de los dioses~
+Acabas de entrar en el lugar mas sagrado de todos, el Salon de los Dioses.
+Si eres un simple mortal seria buena idea abandonar la sala YA!
+Hay una salida hacia el norte.
+
+
+~
+0 8 1
+D0
+~
+~
+0 -1 48048
+D5
+~
+hatch~
+0 -1 48038
+S
+#48048
+El portal~
+Una escritura dice: Cuidado con lo inesperado, 
+y no esperes demasiado.
+~
+0 8 1
+D2
+~
+~
+0 -1 48047
+S
+#48049
+El creedor.~
+Una voz susurra, 'antes de que el tiempo pase, disfruta de tu vida.'
+~
+0 8 1
+D2
+~
+~
+0 -1 48037
+S
+#0
+
+
+#RESETS
+M 1 48022 10 48003
+M 1 48022 10 48004
+M 1 48022 10 48005
+M 1 48022 10 48006
+M 1 48022 10 48007
+M 1 48000 1 48009
+E 1 48000 100 5
+E 1 48001 100 16
+G 1 48026 100
+G 1 48009 5
+D 1 48009 5 1
+M 1 48024 4 48013
+M 1 48024 4 48013
+M 1 48025 1 48017
+G 1 48027 10
+D 1 48018 0 2
+D 1 48018 1 2
+D 1 48018 3 2
+M 1 48001 1 48019
+E 1 48008 100 9
+G 1 48028 20
+D 1 48019 2 2
+M 1 48019 2 48020
+D 1 48020 1 2
+M 1 48019 2 48021
+D 1 48021 3 2
+M 1 48014 1 48023
+G 1 48014 10
+G 1 48018 10
+G 1 48019 10
+G 1 48020 10
+G 1 48021 10
+M 1 48006 1 48024
+E 1 48010 100 3
+E 1 48005 100 17
+G 1 48026 100
+G 1 48009 5
+M 1 48011 4 48024
+E 1 48015 100 17
+G 1 48014 100
+M 1 48011 4 48024
+E 1 48015 100 17
+G 1 48014 100
+M 1 48004 1 48025
+E 1 48007 100 16
+G 1 48026 100
+G 1 48009 5
+M 1 48010 4 48025
+E 1 48016 100 17
+G 1 48021 100
+M 1 48010 4 48025
+E 1 48016 100 17
+G 1 48021 100
+M 1 48015 1 48026
+G 1 48005 1
+G 1 48009 1
+G 1 48010 1
+G 1 48026 1
+M 1 48022 10 48027
+M 1 48013 1 48028
+E 1 48024 100 12
+E 1 48025 100 6
+M 1 48018 1 48030
+E 1 48022 100 3
+E 1 48023 100 16
+M 1 48021 3 48032
+M 1 48021 3 48032
+M 1 48023 3 48032
+M 1 48023 3 48032
+M 1 48022 10 48033
+M 1 48017 1 48034
+G 1 48004 1
+G 1 48008 1
+G 1 48011 1
+M 1 48016 1 48035
+G 1 48007 1
+G 1 48013 1
+M 1 48007 1 48036
+E 1 48012 100 11
+G 1 48026 100
+G 1 48009 5
+M 1 48008 4 48036
+G 1 48017 100
+M 1 48008 4 48036
+G 1 48017 100
+D 1 48036 3 1
+M 1 48005 1 48037
+E 1 48003 100 16
+G 1 48026 100
+G 1 48009 5
+M 1 48009 4 48037
+E 1 48013 100 16
+G 1 48019 100
+M 1 48009 4 48037
+E 1 48013 100 16
+G 1 48019 100
+D 1 48038 4 1
+M 1 48020 1 48044
+E 1 48011 100 1
+G 1 48026 100
+G 1 48009 5
+M 1 48003 1 48045
+E 1 48006 100 16
+G 1 48026 100
+G 1 48009 5
+M 1 48002 1 48046
+E 1 48004 100 8
+E 1 48002 100 6
+G 1 48026 100
+G 1 48009 5
+M 1 48012 5 48049
+M 1 48012 5 48049
+M 1 48012 5 48049
+S
+
+
+#SHOPS
+ 48014    1  8 13 15 19   120  80         0 23    ; Julio el panadero
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  48000 spec_cast_cleric
+M  48001 spec_breath_fire
+M  48002 spec_thief
+M  48003 spec_cast_mage
+M  48004 spec_cast_adept
+M  48006 spec_cast_adept
+M  48007 spec_breath_lightning
+M  48008 spec_guard
+M  48013 spec_breath_any
+M  48018 spec_breath_any
+M  48019 spec_breath_fire
+M  48020 spec_cast_cleric
+M  48021 spec_poison
+M  48022 spec_thief
+M  48025 spec_cast_mage
+S
+
+
+#$

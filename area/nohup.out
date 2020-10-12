@@ -1,0 +1,600 @@
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Rebooteando Base de datos
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando Comandos
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando configuracion del sistema...
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando sociales
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_social: CharNoArg not found
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : fread_word: EOF encountered on read.
+
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Load_socials: bad section.
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : fread_letter: EOF encountered on read.
+
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Load_socials: # not found.
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando tabla de skills
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Sorting skill table...
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Remapping slots to sns
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando Clanes y Clases
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando Razas
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando tabla de hierbas
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando Lenguas
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Creando Wizlist
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Building wizinfo
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Initializando request pipe
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: inicializando generador de numeros aleatorios
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Fijando clima y tiempo
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Assigning gsn's
+ASSIGN_GSN: Skill sting not found.
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Leyendo en el fichero de areas...
+(help.are)
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m ARCHIVO: [1;37mgods.are [0;34m LINEA:[1;37m 834[0m
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Get_room_index: bad vnum 1.
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [*****] BOOT: Load_resets: gods.are (20) 'M': room 1 doesn't exist.
+gods.are      : Rooms:  1200 - 1300  Objs:  1200 - 1303  Mobs:  1200 - 1210
+limbo.are     : Rooms:     1 - 43    Objs:     2 - 247   Mobs:     1 - 99
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21437 Mobs: 21000 - 21434
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+hebdomon.are  : Rooms: 11000 - 11041 Objs: 11000 - 11009 Mobs: 11000 - 11016
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+draconia.are  : Rooms:  2201 - 2245  Objs:  2200 - 2299  Mobs:  2200 - 2243
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2076  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+Quake.are     : Rooms:  5000 - 5057  Objs:  5000 - 5023  Mobs:  5000 - 5020
+cobain.are    : Rooms: 16500 - 16547 Objs: 16500 - 16525 Mobs: 16500 - 16514
+pantano.are   : Rooms:   501 - 523   Objs:   501 - 504   Mobs:   501 - 508
+offspring.are : Rooms: 24000 - 24092 Objs: 24000 - 24013 Mobs: 24000 - 24011
+llanuras.are  : Rooms: 12000 - 12034 Objs:     0 - 0     Mobs: 12000 - 12001
+moria.are     : Rooms: 12500 - 12592 Objs: 12500 - 12511 Mobs: 12500 - 12509
+cairo.are     : Rooms:  4001 - 4183  Objs:  4001 - 4032  Mobs:  4001 - 4030
+lucifer.are   : Rooms: 11700 - 11822 Objs: 11700 - 11733 Mobs: 11700 - 11727
+roma.are      : Rooms:  8701 - 8765  Objs:  8700 - 8746  Mobs:  8700 - 8736
+arashemiah.are: Rooms: 32000 - 32007 Objs: 32000 - 32008 Mobs: 32000 - 32002
+wyrmclaw.are  : Rooms: 25000 - 25006 Objs: 25000 - 25002 Mobs: 25000 - 25003
+nosna.are     : Rooms: 15000 - 15001 Objs: 15000 - 15000 Mobs: 15000 - 15000
+horadragon.are: Rooms: 30001 - 30176 Objs: 30001 - 30173 Mobs: 30001 - 30065
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Fixing exits
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Initializing economy
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Reseteando Areas
+Resetting: gods.are
+Resetting: limbo.are
+Resetting: newacad.are
+Resetting: newdark.are
+Resetting: haon.are
+Resetting: hebdomon.are
+Resetting: midennir.are
+Resetting: sewer.are
+Resetting: redferne.are
+Resetting: grove.are
+Resetting: dwarven.are
+Resetting: daycare.are
+Resetting: draconia.are
+Resetting: grave.are
+Resetting: chapel.are
+Resetting: astral.are
+Resetting: Build.are
+Resetting: pixie.are
+Resetting: export.are
+Resetting: srefuge.are
+Resetting: manor.are
+Resetting: unholy.are
+Resetting: gallery.are
+Resetting: Quake.are
+Resetting: cobain.are
+Resetting: pantano.are
+Resetting: offspring.are
+Resetting: llanuras.are
+Resetting: moria.are
+Resetting: cairo.are
+Resetting: lucifer.are
+Resetting: roma.are
+Resetting: arashemiah.are
+Resetting: wyrmclaw.are
+Resetting: nosna.are
+Resetting: horadragon.are
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Equip_char: already equipped (-1).
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Equip_char: already equipped (-1).
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Equip_char: already equipped (-1).
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando Dioses
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: ../gods/Baali
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: ../gods/Kayser
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: ../gods/Sanguinari
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: ../gods/Sigo
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: ../gods/Somm
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: ../gods/Morgul
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando Correo
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Error writing to: ../notas/../src/smaug
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando familias
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Loading clans...
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: fam_uno.familia
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_number: bad format. (P)
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: ropietario0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Territorio
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: virgen~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Victoria
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Storeroom not found
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: fam_dos.familia
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_number: bad format. (P)
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: ropietario0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Territorio
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: virgen~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Victoria
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Storeroom not found
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: fam_tres.familia
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_number: bad format. (P)
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: ropietario0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Territorio
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: virgen~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Victoria
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Storeroom not found
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: fam_cuatro.familia
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_number: bad format. (P)
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: ropietario0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Territorio
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: virgen~
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Victoria
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Storeroom not found
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: $
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m ::  Done clans 
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando Consejos
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Loading deities...
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: ../deity/potencia
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: $
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m ::  Done deities 
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando deidades
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Loading councils...
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: $
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m ::  Done councils 
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Loading watches
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Loading bans
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Done.
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Loading reserved names
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Loading corpses
+Corpse -> ../corpses/Roile
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Loading Immortal Hosts
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Done.
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Loading Projects
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Loading Morphs
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Optimizing Morphs.
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Done.
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Loading Colors
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando Tabla de Ranking
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Despertando al Questmaster
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando taquillas
+Taquilla -> ../taquillas/Sigo
+Taquilla -> ../taquillas/Sanguinari
+Taquilla -> ../taquillas/Nkari
+Taquilla -> ../taquillas/Kayser
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando Disciplinas...
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Celeridad.vpm
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Auspex.vpm
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: fortaleza.vpm
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Potencia.vpm
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Taumaturgia.vpm
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Protean.vpm
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Animalismo.vpm
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: $
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m ::  Disciplinas Cargadas 
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Cargando Niveles de Disciplinas...
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Celeridad.dnv
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: $
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m ::  Niveles de Disciplina Cargados 
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Initializando el socket
+[0;37m[[0;32m Fri Apr  5 16:24:46 2002 [0m :: Vampiro: Mundo de Tinieblas funcionando en vampiromud 4000.
+[0;37m[[0;32m Fri Apr  5 16:24:54 2002 [0m :: Conexion de:  212.7.57.120, puerto 1061.
+[0;37m[[0;32m Fri Apr  5 16:24:54 2002 [0m :: Conexion de:  212.7.57.120, puerto 1061.
+[0;37m[[0;32m Fri Apr  5 16:24:57 2002 [0m :: Conexion de:  62.42.166.158, puerto 4759.
+[0;37m[[0;32m Fri Apr  5 16:24:57 2002 [0m :: Conexion de:  62.42.166.158, puerto 4759.
+[0;37m[[0;32m Fri Apr  5 16:24:59 2002 [0m :: Preloading player data for: Reivaj (5K)
+[0;37m[[0;32m Fri Apr  5 16:25:00 2002 [0m :: Loading player data for: Reivaj (5K)
+[0;37m[[0;32m Fri Apr  5 16:25:00 2002 [0m :: Reivaj@62.42.166.158((pipe breaking)) se ha conectado.
+[0;37m[[0;32m Fri Apr  5 16:25:01 2002 [0m :: Preloading player data for: Sanguinari (12K)
+[0;37m[[0;32m Fri Apr  5 16:25:07 2002 [0m :: Cerrando conexion a Sanguinari.
+[0;37m[[0;32m Fri Apr  5 16:25:12 2002 [0m :: Conexion de:  212.7.57.120, puerto 1062.
+[0;37m[[0;32m Fri Apr  5 16:25:12 2002 [0m :: Conexion de:  212.7.57.120, puerto 1062.
+[0;37m[[0;32m Fri Apr  5 16:25:12 2002 [0m :: Error de fin de fichero encontrado en la lectura.
+
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Rebooteando Base de datos
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando Comandos
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando configuracion del sistema...
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando sociales
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_social: CharNoArg not found
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : fread_word: EOF encountered on read.
+
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Load_socials: bad section.
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : fread_letter: EOF encountered on read.
+
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Load_socials: # not found.
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando tabla de skills
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_skill: no match: ~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Sorting skill table...
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Remapping slots to sns
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando Clanes y Clases
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando Razas
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando tabla de hierbas
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando Lenguas
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Creando Wizlist
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Building wizinfo
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Initializando request pipe
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: inicializando generador de numeros aleatorios
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Fijando clima y tiempo
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Assigning gsn's
+ASSIGN_GSN: Skill sting not found.
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Leyendo en el fichero de areas...
+(help.are)
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m ARCHIVO: [1;37mgods.are [0;34m LINEA:[1;37m 834[0m
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Get_room_index: bad vnum 1.
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [*****] BOOT: Load_resets: gods.are (20) 'M': room 1 doesn't exist.
+gods.are      : Rooms:  1200 - 1300  Objs:  1200 - 1303  Mobs:  1200 - 1210
+limbo.are     : Rooms:     1 - 43    Objs:     2 - 247   Mobs:     1 - 99
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21437 Mobs: 21000 - 21434
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+hebdomon.are  : Rooms: 11000 - 11041 Objs: 11000 - 11009 Mobs: 11000 - 11016
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+dwarven.are   : Rooms:  6500 - 6554  Objs:  6502 - 6519  Mobs:  6500 - 6517
+daycare.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+draconia.are  : Rooms:  2201 - 2245  Objs:  2200 - 2299  Mobs:  2200 - 2243
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2076  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+srefuge.are   : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+Quake.are     : Rooms:  5000 - 5057  Objs:  5000 - 5023  Mobs:  5000 - 5020
+cobain.are    : Rooms: 16500 - 16547 Objs: 16500 - 16525 Mobs: 16500 - 16514
+pantano.are   : Rooms:   501 - 523   Objs:   501 - 504   Mobs:   501 - 508
+offspring.are : Rooms: 24000 - 24092 Objs: 24000 - 24013 Mobs: 24000 - 24011
+llanuras.are  : Rooms: 12000 - 12034 Objs:     0 - 0     Mobs: 12000 - 12001
+moria.are     : Rooms: 12500 - 12592 Objs: 12500 - 12511 Mobs: 12500 - 12509
+cairo.are     : Rooms:  4001 - 4183  Objs:  4001 - 4032  Mobs:  4001 - 4030
+lucifer.are   : Rooms: 11700 - 11822 Objs: 11700 - 11733 Mobs: 11700 - 11727
+roma.are      : Rooms:  8701 - 8765  Objs:  8700 - 8746  Mobs:  8700 - 8736
+arashemiah.are: Rooms: 32000 - 32007 Objs: 32000 - 32008 Mobs: 32000 - 32002
+wyrmclaw.are  : Rooms: 25000 - 25006 Objs: 25000 - 25002 Mobs: 25000 - 25003
+nosna.are     : Rooms: 15000 - 15001 Objs: 15000 - 15000 Mobs: 15000 - 15000
+horadragon.are: Rooms: 30001 - 30176 Objs: 30001 - 30173 Mobs: 30001 - 30065
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Fixing exits
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Initializing economy
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Reseteando Areas
+Resetting: gods.are
+Resetting: limbo.are
+Resetting: newacad.are
+Resetting: newdark.are
+Resetting: haon.are
+Resetting: hebdomon.are
+Resetting: midennir.are
+Resetting: sewer.are
+Resetting: redferne.are
+Resetting: grove.are
+Resetting: dwarven.are
+Resetting: daycare.are
+Resetting: draconia.are
+Resetting: grave.are
+Resetting: chapel.are
+Resetting: astral.are
+Resetting: Build.are
+Resetting: pixie.are
+Resetting: export.are
+Resetting: srefuge.are
+Resetting: manor.are
+Resetting: unholy.are
+Resetting: gallery.are
+Resetting: Quake.are
+Resetting: cobain.are
+Resetting: pantano.are
+Resetting: offspring.are
+Resetting: llanuras.are
+Resetting: moria.are
+Resetting: cairo.are
+Resetting: lucifer.are
+Resetting: roma.are
+Resetting: arashemiah.are
+Resetting: wyrmclaw.are
+Resetting: nosna.are
+Resetting: horadragon.are
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Equip_char: already equipped (-1).
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Equip_char: already equipped (-1).
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Equip_char: already equipped (-1).
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando Dioses
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: ../gods/Baali
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: ../gods/Kayser
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: ../gods/Sanguinari
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: ../gods/Sigo
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: ../gods/Somm
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: ../gods/Morgul
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando Correo
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Error writing to: ../notas/../src/smaug
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando familias
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Loading clans...
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: fam_uno.familia
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_number: bad format. (P)
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: ropietario0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Territorio
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: virgen~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Victoria
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Storeroom not found
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: fam_dos.familia
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_number: bad format. (P)
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: ropietario0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Territorio
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: virgen~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Victoria
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Storeroom not found
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: fam_tres.familia
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_number: bad format. (P)
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: ropietario0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Territorio
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: virgen~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Victoria
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Storeroom not found
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: fam_cuatro.familia
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_number: bad format. (P)
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: ropietario0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Territorio
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: virgen~
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: Victoria
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: [0;37m[*****][0;31m BUG [0m : Fread_clan: no match: 0
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Storeroom not found
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: $
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m ::  Done clans 
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando Consejos
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Loading deities...
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: ../deity/potencia
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: $
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m ::  Done deities 
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando deidades
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Loading councils...
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: $
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m ::  Done councils 
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Loading watches
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Loading bans
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Done.
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Loading reserved names
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Loading corpses
+Corpse -> ../corpses/Roile
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Loading Immortal Hosts
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Done.
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Loading Projects
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Loading Morphs
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Optimizing Morphs.
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Done.
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Loading Colors
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando Tabla de Ranking
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Despertando al Questmaster
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando taquillas
+Taquilla -> ../taquillas/Sigo
+Taquilla -> ../taquillas/Sanguinari
+Taquilla -> ../taquillas/Nkari
+Taquilla -> ../taquillas/Kayser
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando Disciplinas...
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Celeridad.vpm
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Auspex.vpm
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: fortaleza.vpm
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Potencia.vpm
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Taumaturgia.vpm
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Protean.vpm
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Animalismo.vpm
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: No se pudo abrir disciplina vault
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: $
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m ::  Disciplinas Cargadas 
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Cargando Niveles de Disciplinas...
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Celeridad.dnv
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: $
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m ::  Niveles de Disciplina Cargados 
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Initializando el socket
+[0;37m[[0;32m Fri Apr  5 16:25:37 2002 [0m :: Vampiro: Mundo de Tinieblas funcionando en vampiromud 4000.
+[0;37m[[0;32m Fri Apr  5 16:25:40 2002 [0m :: Conexion de:  195.77.105.136, puerto 20718.
+[0;37m[[0;32m Fri Apr  5 16:25:40 2002 [0m :: Conexion de:  195.77.105.136, puerto 20718.
+[0;37m[[0;32m Fri Apr  5 16:25:42 2002 [0m :: Conexion de:  212.7.57.120, puerto 1063.
+[0;37m[[0;32m Fri Apr  5 16:25:42 2002 [0m :: Conexion de:  212.7.57.120, puerto 1063.
+[0;37m[[0;32m Fri Apr  5 16:25:43 2002 [0m :: Preloading player data for: TxaKo (9K)
+[0;37m[[0;32m Fri Apr  5 16:25:45 2002 [0m :: Loading player data for: TxaKo (9K)
+[0;37m[[0;32m Fri Apr  5 16:25:45 2002 [0m :: TxaKo@195.77.105.136((in progress)) se ha conectado.
+[0;37m[[0;32m Fri Apr  5 16:25:45 2002 [0m :: Preloading player data for: Sanguinari (12K)
+[0;37m[[0;32m Fri Apr  5 16:25:49 2002 [0m :: Loading player data for: Sanguinari (12K)
+[0;37m[[0;32m Fri Apr  5 16:25:49 2002 [0m :: Sanguinari@212.7.57.120((pipe breaking)) se ha conectado.
+[0;37m[[0;32m Fri Apr  5 16:26:00 2002 [0m :: Conexion de:  62.42.166.158, puerto 4765.
+[0;37m[[0;32m Fri Apr  5 16:26:00 2002 [0m :: Conexion de:  62.42.166.158, puerto 4765.
+[0;37m[[0;32m Fri Apr  5 16:26:04 2002 [0m :: Preloading player data for: Reivaj (5K)
+[0;37m[[0;32m Fri Apr  5 16:26:05 2002 [0m :: Log SaNgUiNaRi: load
+[0;37m[[0;32m Fri Apr  5 16:26:05 2002 [0m :: Loading player data for: Reivaj (5K)
+[0;37m[[0;32m Fri Apr  5 16:26:05 2002 [0m :: Reivaj@62.42.166.158((pipe breaking)) se ha conectado.
+[0;37m[[0;32m Fri Apr  5 16:26:13 2002 [0m :: Log SaNgUiNaRi: load drakendor.are
+[0;37m[[0;32m Fri Apr  5 16:26:15 2002 [0m :: Conexion de:  127.0.0.1, puerto 1200.
+[0;37m[[0;32m Fri Apr  5 16:26:15 2002 [0m :: Conexion de:  127.0.0.1, puerto 1200.
+[0;37m[[0;32m Fri Apr  5 16:26:16 2002 [0m :: Preloading player data for: Sigo (13K)
+[0;37m[[0;32m Fri Apr  5 16:26:16 2002 [0m :: Loading player data for: Sigo (13K)
+[0;37m[[0;32m Fri Apr  5 16:26:16 2002 [0m :: Sigo@127.0.0.1(root) se ha conectado.
+Resetting: newacad.are
+[0;37m[[0;32m Fri Apr  5 16:26:59 2002 [0m :: Log SiGo: shutdown mud now
+[0;37m[[0;32m Fri Apr  5 16:27:00 2002 [0m :: Juego finalizado correctamente.

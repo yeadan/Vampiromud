@@ -1,0 +1,3501 @@
+#AREA   New Ofcol~
+
+
+
+#VERSION 1
+#AUTHOR Hatchet~
+
+#RANGES
+5 70 5 115
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 14406408
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#44200
+cityguard guard~
+the Ofcol cityguard~
+An Ofcol cityguard is standing here, making sure there is no trouble.
+~
+This guard is surely a trained and skilled fighter.  He is fully armed and
+armored, and he uses his equipment with a practiced precision.  Luckily for 
+you, this guard will only use his deadly skills for the good of the citizens of
+Ofcol.
+~
+69 8192 1000 C
+19 0 0 3d9+333 2d7+5
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44201
+marshall diana~
+Marshall Diana~
+Diana, the Marshall of Ofcol, stands here proudly.
+~
+Diana is a beautiful, powerfully built woman.  She wears platinum armor for
+three reasons.  The first is to show she is strong enough to withstand the
+weight.  The second is to show her rank of office.  The third is that platinum
+is the hardest metal she can find.  She is willing to defend Ofcol to her 
+death.
+~
+66563 8328 1000 C
+33 0 0 10d10+1100 4d6+10
+250 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44202
+derrick captain guard cityguard~
+Captain Derrick~
+Derrick, Captain of the Guard, is here disciplining his guards.
+~
+Derrick is a very big man.  He has acquired this station, not by brains or
+charm, but by brute strength.  He had fought in three orc wars and is a
+descendent of a surviving cityguard of old Thalos.  He believes that everything
+has to be hard won to be kept, and that laxity is for the weak.
+~
+65601 8328 1000 C
+27 0 0 5d10+650 2d10+7
+250 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44203
+jacklyn captain guard cityguard~
+Captain Jacklyn~
+Jacklyn, Captain of the Citadel Guard, is here raising morale.
+~
+Jacklyn is pale and wiry, but then, so are most other witches.  The fact that
+Jacklyn is a mage and a warrior makes her the perfect captain of the citadel
+guards.  Jacklyn is very beautiful, but whether it is due to her pale softness
+or her magic, no one has ever found out.  She isn't very strong physically, but
+she need not be.
+~
+131075 8200 1000 C
+27 0 0 5d10+600 2d10+6
+250 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44204
+jim blacksmith~
+Jim the Blacksmith~
+Jim the Blacksmith is here, selling his latest works of metal.
+~
+Jim is big and brawny, just like what you'd expect of a blacksmith.  He is
+smiling a very big smile, as he looks at your coins.  You wonder if he likes
+the metals or the value of the coins.
+~
+3 8192 1000 C
+30 0 0 6d12+853 4d6+8
+3750 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44205
+sam~
+Sam~
+Sam is here, selling his leather works.
+~
+Sam is a middle-aged workman.  He looks tired, but never too tired to get that
+last sale from you.  He grins at you slightly.
+~
+3 8192 1000 C
+30 0 0 6d12+853 4d6+8
+750 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44206
+madam tracy~
+Madam Tracy~
+Madam Tracy is here, selling and buying little treasures.
+~
+Madam Tracy is a bit old, but not to the point of senility.  Besides, she knows
+the hard ways of this world and is ready for it.  She spends her time at the
+shop, trading little things (for a wee bit of profit).
+~
+3 8192 1000 C
+20 0 0 3d9+333 2d8+5
+1250 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44207
+marty~
+Marty~
+Marty the meat store owner is here, selling you his choice meats.
+~
+Marty is a big man.  He used to hunt the animals he sells, but now he lets his
+son, Jim, raise and slaughter the animals for him.  Marty still knows how to
+kill, though.
+~
+3 8192 1000 C
+30 0 0 6d12+853 4d6+8
+250 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 47 0 0 0 0 0
+#44208
+elizabeth farmer~
+Farmer Elizabeth~
+Farmer Elizabeth is here, selling the latest crop.
+~
+Elizabeth is a very happy woman.  She can't believe the nice weather here in
+Ofcol, and the great vegetables this land produces is unbelievable to her too.
+Farmer Elizabeth smiles at you nicely, but you bet she is doing that just to
+get a good price off of you!
+~
+67108867 8192 1000 C
+20 0 0 3d9+333 2d8+5
+250 0
+112 112 2
+25 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44209
+granny jenkins~
+Granny Jenkins~
+Granny Jenkins is here, running the still.
+~
+Granny Jenkins is a feeble woman, but she knows her brew.  She might be very
+old, but she is still in charge of the still.  She cackles lightly at herself
+every time she tastes her whiskey, which is quite often!
+Granny Jenkins cackles again.
+~
+3 8192 500 C
+6 0 0 2d7+71 1d7+1
+5 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44210
+jack~
+Jack~
+Jack is here slaughtering away at the animals.
+~
+Jack is the son of Marty, and you can see the family resemblance (especially in
+their shared affinity for slaughtering animals.)  Jack leers at you as you
+enter.  "Came by to watch, eh?", he asks.
+~
+163 0 200 C
+12 0 0 2d10+150 1d10+3
+5 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44211
+Sarah farmer~
+Farmer Sara~
+Farmer Sara is here, milking the cows.
+~
+Farmer Sara is all covered with bits of straw and grime, but underneath all
+that, she doesn't look that bad.  She smiles at you demurely, and goes back to
+her work.
+~
+131 0 800 C
+5 0 0 2d6+60 1d6+1
+5 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44212
+chicken hen~
+a hen~
+A hen is here, squawking at your intrusion.
+~
+The hen has yellow feathers and small wings.  It looks like a chicken, if
+you've ever seen one.
+~
+385 0 0 C
+1 0 0 2d6+10 1d4+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1852392773 1852392773 0
+0 0 8 0 0 0 0 0
+#44213
+cow~
+the cow~
+A cow is here, munching on grass.
+~
+The cow is here happily grazing.  It moos at you and goes back to grazing.
+~
+257 0 0 C
+5 0 0 2d6+60 1d6+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1852392773 1852392773 0
+0 0 61 0 0 0 0 0
+#44214
+cow~
+the cow~
+A cow is here, waiting to be milked.
+~
+The cow is just standing here.  She moos at you and otherwise ignores you.
+~
+259 0 0 C
+5 0 0 2d6+60 1d6+1
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1852392773 1852392773 0
+0 0 61 0 0 0 0 0
+#44215
+horse young~
+the young horse~
+A young horse is here, grazing.
+~
+The horse whinnies at you, then runs around you a few times, then just goes
+back to grazing.
+~
+417 0 0 C
+6 0 0 2d7+71 1d7+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1852392773 1852392773 0
+0 0 65597 0 0 0 0 0
+#44216
+pig~
+the pig~
+A pig is playing here, getting itself and you dirty.
+~
+The pig looks dirty.  It snorts and sniffs at you, then goes back to its slop.
+~
+259 0 0 C
+4 0 0 2d7+46 1d5+1
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1852392773 1852392773 0
+0 0 189 0 0 0 0 0
+#44217
+citizen man~
+the citizen~
+A citizen is here, smiling at you.
+~
+The citizen smiles at you.  He is having a great day, and he wishes the same
+for you.  He looks at you strangely, though, wondering why you are so armed and
+armored.
+~
+129 0 500 C
+5 0 0 2d6+60 1d6+1
+5 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44218
+citizen woman~
+the citizen~
+A citizen is here, smiling at you.
+~
+The citizen smiles at you.  She is having a great day, and she wishes the same
+for you.  She looks at you strangely, though, wondering why you are so armed
+and armored.
+~
+129 0 500 C
+5 0 0 2d6+60 1d6+1
+5 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44219
+child boy~
+the boy~
+A boy is here, playing tag and other kids' games.
+~
+The little boy looks up at you and says, 'Hi.  Can I have a piece of candy?'
+He then smiles and runs away, remembering his game.
+~
+129 0 500 C
+3 0 0 2d6+35 1d6+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44220
+child girl~
+the girl~
+A girl is here, playing jump jacks and other kids' games.
+~
+The little girl looks up at you and says, 'Hi.  Can I have a pretty little
+coin?'  She then smiles and runs away, remembering her game.
+~
+129 0 500 C
+3 0 0 2d6+35 1d6+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44221
+maid woman~
+the maid~
+A maid is here, cleaning the house and preparing the next meal.
+~
+The maid startles at your presence.  'You are ruining my floors!  Wait till
+Master and Mistress come back.  You will get me in trouble!  Shoo!', she says.
+She hits you with her broom.
+~
+129 0 500 C
+5 0 0 2d6+60 1d6+1
+2 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44222
+Nyles~
+Nyles the Bartender~
+Nyles the Bartender is here, ready to serve you up a good brew.
+~
+Nyles is a hefty guy, who looks like he's waiting for the next bar fight to
+join in.  He keeps an eye on you and his glasses, making sure you don't steal
+any.
+~
+3 0 1000 C
+30 0 0 6d12+853 4d6+8
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44223
+cityguard guard~
+the Ofcol cityguard~
+An Ofcol cityguard is posted here to guard the gate.
+~
+This guard is surely a trained and skilled fighter.  He is fully armed and
+armored, and he uses his equipment with a practiced precision.  Luckily for 
+you, this guard will only use his deadly skills for the good of the citizens of
+Ofcol.
+~
+3 8192 1000 C
+19 0 0 3d9+333 2d7+5
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44224
+bard~
+a bard~
+A bard is here, singing of the glories of Ofcol.
+~
+After years of traveling around the world, this bard has decided to stay in the
+peaceful city of Ofcol, and to sing of its unmatched glories.  He smiles at
+you, hinting toward a tip from you in ever a subtle way.
+~
+3 8192 800 C
+13 0 0 2d10+170 2d5+3
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44225
+servant~
+a servant~
+A servant is here, carrying the duties of the Keeper of the Golden Citadel.
+~
+The servant smiles good-naturedly at you, then goes on his duties.
+~
+65 8192 1000 C
+6 0 0 2d7+71 1d7+1
+5 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44226
+squire~
+a squire~
+A squire is here, scurrying from duty to duty.
+~
+This young man smiles at you, but is too busy to chat.
+~
+1 8192 1000 C
+7 0 0 2d6+85 1d8+1
+5 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44227
+page~
+a page~
+A page is here, sending a message to his knight.
+~
+The page smiles for you, asking if he can do you a favor too.
+~
+1 8192 1000 C
+5 0 0 2d6+60 1d6+1
+5 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44228
+priestess~
+the Priestess of Ofcol~
+The Priestess of Ofcol is here, blessing you 
+with her beatific smile.
+~
+The Priestess of Ofcol is an old woman, perfectly at peace with herself and 
+with the world.  She devotes all her time to help teach you the ways of her
+god, Bahamut.  The dragon symbol around her neck looks almost alive.
+~
+1027 8322 1000 C
+30 0 0 6d12+853 4d6+8
+50 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44229
+chaplain Jerrold~
+Chaplain Jerrold~
+Jerrold, the chaplain of this Citadel, is here 
+directing the activities of the people around here.
+~
+He smiles at you, with the enthusiasm of a little kid.  "What're you doing just
+STANDING here, young man?  Go help that other squire there!", he yells.  He
+turns to you and with a consipatory tone, whispers, "Kids!"
+~
+65 8322 1000 C
+20 0 0 4d10+360 2d8+5
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44230
+dragonlord lord dragon~
+a Dragonlord~
+A knight wearing the scales of a dragon stands here.
+~
+This person looks almost like a dragon itself.  His golden scales gleam with
+power.  He smiles at you with a vicious grin.  You're happy that he doesn't
+look upset at your presence.
+~
+3 8322 1000 C
+29 0 0 6d12+778 2d12+8
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44231
+dragon gold~
+The Ancient Gold Dragon~
+An old dragon shimmering with the colors of this 
+cavern peers at you sleepily.
+~
+This dragon's head is taller than you.  He is annoyed at your disturbance, but
+realizing that you're no danger to him, he ignores you.  He waves to one of
+his attendants to escort you away.
+~
+7 8322 1000 C
+42 0 0 25d10+2250 3d12+14
+5000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+36 9 0 0 1869440357 1869440356 0
+0 0 65669 0 0 0 0 0
+#44232
+attendant~
+an attendant of the dragon~
+A person robed in gold is attending to the Keeper of the Citadel.
+~
+This elder servant to the Gold Dragon is very loyal to him, willing to risk
+his life for his liege.
+~
+131075 8194 1000 C
+21 0 0 3d9+333 2d7+4
+250 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44233
+dragonknight knight dragon~
+a Dragonknight~
+A person dressed in the scales of a gold dragon 
+stands here, guarding the Golden Citadel.
+~
+This person looks like a dragon itself.  His golden scales gleam with power.
+He smiles at you, showing very sharp teeth.
+~
+65 8194 1000 C
+21 0 0 4d10+360 4d4+5
+250 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#44234
+cityguard guard~
+the Ofcol cityguard~
+An Ofcol cityguard is posted here to guard the gate.
+~
+This guard is surely a trained and skilled fighter.  He is fully armed and
+armored, and he uses his equipment with a practiced precision.  Luckily for 
+you, this guard will only use his deadly skills for the good of the citizens of
+Ofcol.
+~
+3 8192 1000 C
+19 0 0 3d9+333 2d7+5
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 63 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#44200
+axe hand~
+a hand axe~
+A hand axe is on the floor here.~
+~
+5 0 8193
+0 1 8 0
+100 420 42
+E
+handaxe hand axe~
+You see a finely made axe.  Iron, with a nice wooden shaft, this axe can
+withstand years of use.
+~
+#44201
+meat cleaver~
+a meat cleaver~
+A sharp meat cleaver is just lying on the floor here!~
+~
+5 0 8193
+0 2 5 0
+50 530 53
+E
+meat cleaver~
+This meat cleaver is made of good steel.
+~
+A
+19 1
+#44202
+side meat beef~
+a side of beef~
+A side of beef is here on the floor.~
+~
+19 0 1
+24 24 0 0
+100 50 5
+#44203
+side meat pork~
+a side of pork~
+A side of pork is here on the floor.~
+~
+19 0 1
+23 23 0 0
+100 42 4
+#44204
+side meat horse~
+a side of horse~
+A side of horse is here on the floor.~
+~
+19 0 1
+30 30 0 0
+120 21 2
+#44205
+meat chicken~
+a defeathered chicken~
+A defeathered chicken is here on the floor.~
+~
+19 0 1
+16 16 0 0
+50 10 1
+#44206
+emerald ring~
+an emerald ring~
+An emerald ring is on the floor, gathering dust.~
+~
+12 64 3
+0 0 0 0
+10 1000 100
+#44207
+glass trinket~
+a glass trinket~
+A glass trinket is on the floor, gathering dust.~
+~
+12 0 1
+0 0 0 0
+10 150 15
+A
+20 -1
+#44208
+golden necklace~
+a golden necklace~
+A golden necklace is on the floor, gathering dust.~
+~
+12 0 5
+0 0 0 0
+20 500 50
+A
+4 -1
+#44209
+cabbage~
+a head of cabbage~
+Some fresh cabbage is here, get it while it lasts!~
+~
+19 0 1
+12 12 0 0
+20 2 0
+#44210
+lettuce~
+a head of lettuce~
+Some fresh lettuce is here, get it while it lasts!~
+~
+19 0 1
+12 12 0 0
+20 2 0
+#44211
+milk bottle~
+a bottle of milk~
+A glass bottle of milk is on a shelf here, fresh from the cow.~
+~
+17 0 1
+20 20 10 0
+50 3 0
+#44212
+apple~
+an apple~
+An apple is on the ground.~
+~
+19 0 1
+8 8 0 0
+10 1 0
+#44213
+corn~
+an ear of corn~
+An ear of corn is on the ground.~
+~
+19 0 1
+8 8 0 0
+10 3 0
+#44214
+hay pile~
+a pile of hay~
+There is a big pile of hay here.~
+~
+13 0 1
+0 0 0 0
+200 0 0
+#44215
+pitchfork fork~
+a pitchfork~
+A pitchfork is on the floor.~
+~
+5 0 8193
+0 3 3 2
+100 122 12
+#44216
+vest~
+a leather vest~
+A leather vest is on the floor.~
+~
+9 262144 1025
+1 2 2 0
+100 270 27
+#44217
+sleeves~
+some leather sleeves~
+Some leather sleeves are on the floor.~
+~
+9 262144 257
+1 2 2 0
+50 136 13
+#44218
+leggings~
+some leather leggings~
+Some leather leggings are on the floor.~
+~
+9 262144 33
+1 2 2 0
+50 136 13
+#44219
+boots~
+some leather boots~
+Some leather boots are on the floor.~
+~
+9 262144 65
+1 2 2 0
+50 136 13
+#44220
+signet ring~
+an Ofcol signet ring~
+A shiny ring of gold is in the dirt.~
+~
+9 524352 3
+5 5 0 0
+10 730 73
+A
+17 -2
+A
+13 5
+A
+20 -1
+#44221
+plate brass~
+brass plate~
+A pile of brass plates is against the wall here.~
+~
+9 524352 9
+6 5 6 1
+100 2400 240
+A
+13 10
+A
+20 -1
+#44222
+helm brass~
+a brass helm~
+A brass helm is against the wall here.~
+~
+9 524352 17
+6 5 6 1
+100 1280 128
+A
+13 5
+A
+20 -1
+#44223
+leggings brass~
+brass leggings~
+A pile of brass plates is against the wall here.~
+~
+9 524352 33
+6 5 6 1
+100 1280 128
+A
+13 5
+A
+20 -1
+#44224
+boots brass~
+brass boots~
+Some brass boots are against the wall here.~
+~
+9 524352 65
+6 5 6 1
+100 1280 128
+A
+13 5
+A
+20 -1
+#44225
+gauntlets brass~
+brass gauntlets~
+Some brass gauntlets are against the wall here.~
+~
+9 524352 129
+6 5 6 1
+100 1280 128
+A
+13 5
+A
+20 -1
+#44226
+sleeves brass~
+brass sleeves~
+A pile of brass plates is against the wall here.~
+~
+9 524352 257
+6 5 6 1
+100 1280 128
+A
+13 5
+A
+20 -1
+#44227
+shield brass~
+a brass shield~
+A big plate of brass is against the wall here.~
+~
+9 524352 16385
+6 5 6 2
+100 1850 185
+A
+13 5
+A
+20 -1
+#44228
+girth brass~
+a brass girth~
+A brass girth is against the wall here.~
+~
+9 524352 2049
+6 5 6 1
+100 1280 128
+A
+13 5
+A
+20 -1
+#44229
+bracer brass~
+a brass bracer~
+A brass bracer is against the wall here.~
+~
+9 524352 4097
+4 5 6 1
+100 1040 104
+A
+13 5
+A
+20 -1
+#44230
+claymore sword~
+a claymore~
+A VERY big sword is against the wall here.~
+~
+5 524352 8193
+0 4 4 0
+160 3100 310
+A
+19 5
+A
+18 -2
+#44231
+plate silver~
+silver plate~
+A pile of silver plates and chains is on the floor.~
+~
+9 524352 9
+8 8 8 2
+200 5000 500
+A
+1 1
+A
+12 10
+#44232
+helm silver~
+a silver helm~
+A shiny helm is on the floor.~
+~
+9 524352 17
+8 8 8 2
+200 2900 290
+A
+2 1
+A
+12 5
+#44233
+leggings silver~
+silver leggings~
+Some shiny leggings are on the floor.~
+~
+9 524352 33
+8 8 8 2
+200 2900 290
+A
+3 1
+A
+12 5
+#44234
+boots silver~
+silver boots~
+Some shiny boots are on the floor.~
+~
+9 524352 65
+8 8 8 2
+200 2900 290
+A
+4 1
+A
+12 5
+#44235
+gauntlets silver~
+silver gauntlets~
+Some shiny gauntlets are on the floor.~
+~
+9 524352 129
+8 8 8 2
+200 2900 290
+A
+5 1
+A
+12 5
+#44236
+sleeves silver~
+silver sleeves~
+Some shiny sleeves are on the floor.~
+~
+9 524352 257
+8 8 8 2
+200 2400 240
+A
+18 1
+A
+12 5
+#44237
+shield silver~
+the silver shield~
+A shiny shield is on the floor.~
+~
+9 524352 16385
+8 8 8 3
+200 4200 420
+A
+17 -3
+A
+12 5
+#44238
+girth silver~
+the silver girth~
+A shiny girth is on the floor.~
+~
+9 524352 2049
+8 8 8 2
+200 2400 240
+A
+19 1
+A
+12 5
+#44239
+plate platinum~
+platinum plate~
+A pile of silvery metal is on the floor.~
+~
+9 524352 9
+9 9 9 3
+500 9200 920
+A
+5 2
+A
+13 15
+#44240
+helmet platinum~
+the platinum helmet~
+A silvery helmet is on the floor.~
+~
+9 524352 17
+9 9 9 3
+300 6300 630
+A
+4 2
+A
+12 10
+#44241
+leggings platinum~
+platinum leggings~
+Some silvery leggings are on the floor.~
+~
+9 524352 33
+9 9 9 3
+400 6300 630
+A
+2 2
+A
+13 10
+#44242
+boots platinum~
+platinum boots~
+Some silvery boots are on the floor.~
+~
+9 524352 65
+9 9 9 3
+400 4100 410
+A
+14 25
+A
+13 10
+#44243
+gauntlets platinum~
+platinum gauntlets~
+A pair of silvery gauntlets are on the floor.~
+~
+9 524352 129
+9 9 9 3
+400 4300 430
+A
+18 2
+A
+13 10
+#44244
+sleeves platinum~
+platinum sleeves~
+A pair of silvery sleeves are on the floor.~
+~
+9 524352 257
+9 9 9 3
+400 6300 630
+A
+1 2
+A
+13 10
+#44245
+shield spiked platinum~
+the platinum spiked shield~
+A jagged, silvery shield is on the floor.~
+~
+9 524352 16385
+9 9 9 5
+400 6000 600
+A
+19 2
+A
+13 10
+#44246
+girth platinum~
+the platinum girth~
+A silvery girth is on the floor.~
+~
+9 524352 2049
+9 9 9 3
+400 4000 400
+A
+20 -2
+A
+13 10
+#44247
+avenger holy sword~
+holy Avenger~
+A glowing silvery sword is hovering here, ready to possess an owner.~
+~
+5 524352 8193
+0 4 6 1
+250 5700 570
+A
+19 6
+A
+18 1
+#44248
+whiskey shot~
+a shot of whiskey~
+A shot of whiskey is on the table.~
+~
+17 0 1
+2 2 5 0
+10 12 1
+#44249
+ale quart~
+a quart of ale~
+A quart of ale is on the table.~
+~
+17 0 1
+32 32 3 0
+20 10 1
+#44250
+port brew quart~
+a quart of port brew~
+A quart of port brew is on the table.~
+~
+17 0 1
+32 32 4 0
+20 18 1
+#44251
+key citadel~
+the citadel key~
+A key is on the floor.~
+~
+18 524288 1
+0 0 0 0
+10 0 0
+#44252
+symbol holy~
+the Holy Symbol of Bahamut~
+A very shiny symbol is on the floor.~
+~
+9 64 5
+5 5 0 0
+50 3700 370
+A
+4 2
+A
+12 10
+A
+17 -3
+#44253
+ranseur polearm~
+a ranseur~
+A heavy polearm is against the wall here, ready to inflict damage.~
+~
+5 524352 8193
+0 4 6 0
+200 1460 146
+A
+19 -1
+A
+18 3
+#44254
+torso dragonscale golden~
+a golden dragonscale torso~
+A golden dragonscale torso is on the floor!~
+~
+9 524352 9
+7 7 7 3
+250 6200 620
+A
+18 2
+A
+17 -5
+#44255
+dragonhelm golden~
+a golden dragonhelm~
+A golden dragonhelm is on the floor!~
+~
+9 524352 17
+7 7 7 3
+100 2800 280
+A
+18 1
+A
+17 -3
+#44256
+leggings golden~
+golden dragonscale leggings~
+Some golden dragonscale leggings are on the floor!~
+~
+9 524352 33
+7 7 7 3
+100 2800 280
+A
+18 1
+A
+17 -3
+#44257
+boots golden~
+golden dragonscale boots~
+Some golden dragonscale boots are on the floor!~
+~
+9 524352 65
+7 7 7 3
+100 2800 280
+A
+18 1
+A
+17 -3
+#44258
+gauntlets golden~
+golden dragonscale gauntlets~
+Some golden dragonscale gauntlets are on the floor!~
+~
+9 524352 129
+7 7 7 3
+100 2800 280
+A
+18 1
+A
+17 -3
+#44259
+sleeves golden~
+golden dragonscale sleeves~
+Some golden dragonscale sleeves are on the floor!~
+~
+9 524352 257
+7 7 7 3
+100 2800 280
+A
+18 1
+A
+17 -3
+#44260
+shield golden~
+a golden dragonscale shield~
+A golden dragonscale shield is on the floor!~
+~
+9 524352 16385
+7 7 7 4
+100 3700 370
+A
+18 1
+A
+17 -3
+#44261
+girth golden~
+a golden dragonscale girth~
+A golden dragonscale girth is on the floor!~
+~
+9 524352 2049
+7 7 7 3
+100 2800 280
+A
+18 1
+A
+17 -3
+#44262
+claw golden~
+the golden claw~
+A small golden claw is on the floor~
+~
+5 64 8193
+0 2 10 5
+100 2600 260
+A
+19 2
+#44263
+orb dragonorb~
+the Gold Dragon Orb~
+A very large pearl-like sphere is in the center of this room.~
+~
+4 64 16385
+14 4 4 -1
+300 9000 900
+'heal'
+A
+4 2
+A
+3 1
+#44264
+robe golden~
+a golden robe~
+A golden robe is on the floor.~
+~
+9 262208 9
+6 6 5 2
+100 3800 380
+A
+3 2
+#44265
+house key~
+a house key~
+A house key is on the floor.~
+~
+18 0 1
+0 0 0 0
+10 0 0
+#44266
+broom~
+a broom~
+A broom is against the wall here.~
+~
+5 262144 8193
+0 2 3 0
+80 760 76
+A
+19 -3
+A
+18 3
+#44267
+chest~
+a chest~
+A chest is on the floor here.~
+~
+15 0 1
+100 0 0 10
+100 100 10
+#44268
+claw golden~
+the Golden Claw~
+A huge golden claw is on the floor~
+~
+5 64 8193
+0 6 5 5
+200 7200 720
+A
+19 4
+#44269
+claw golden~
+the golden claw~
+A large golden claw is on the floor~
+~
+5 64 8193
+0 3 8 5
+150 4100 410
+A
+19 3
+#0
+
+
+#ROOMS
+#44200
+Granny's Still Room~
+You are in Granny Jenkins' still room.  The smell of whiskey is heady, and
+the bottles of it on the floor make your mouth water and your mind swirl.  You
+also see a very large still.  So THIS is why there are so many grain fields!
+The exit is to the east.
+~
+0 8 0
+D1
+You see the storage shed.
+~
+door~
+3 -1 44216
+S
+#44201
+The Big Intersection~
+You are in the big intersection between Raff Way and Impy Way.  Crowds 
+of people walk past you as they go on their daily tasks.  Raff Way continues
+east, and Impy Way runs north and south, and the King's Road leads west
+toward a castle in the distance.
+~
+0 0 1
+D0
+Impy Way continues north.
+~
+~
+0 0 44225
+D1
+Raff Way continues east.
+~
+~
+0 0 44266
+D2
+Impy Way continues south.
+~
+~
+0 0 44202
+D3
+~
+~
+0 -1 28032
+S
+#44202
+Impy Way~
+You are on Impy Way.  You can see a leather shop east and a blacksmith
+west.  To the north you see a big intersection, and Impy Way continues south.
+~
+0 0 1
+D0
+You see the big intersection.
+~
+~
+0 0 44201
+D1
+You see the leather shop.
+~
+~
+0 0 44204
+D2
+Impy Way continues south.
+~
+~
+0 0 44205
+D3
+You see the blacksmith.
+~
+~
+0 0 44203
+S
+#44203
+The Blacksmith~
+You are in a black and smelly room.  Pieces of metal are strewn all over
+the floor, and a wave of heat from a big furnace hits you.  An anvil sits on 
+one side of the room, and on the other side is a workbench.  The exit is east.
+~
+0 8 0
+D1
+You see Impy Way.
+~
+~
+0 0 44202
+S
+#44204
+The Leather Shop~
+You are in a brown and smelly room.  Pieces of leather are strewn all over
+the floor.  The smell of burnt hide assaults your nose.  You can tell by the
+looks that the tanning is done VERY CLOSE to here!   A table is near the
+entrance.  The exit is west.
+~
+0 8 0
+D3
+You see Impy Way.
+~
+~
+0 0 44202
+S
+#44205
+Impy Way~
+You are on Impy Way.  To the east is a meat store, and to the west is a
+pawn shop.  Impy Way continues north and south.  People are rushing around you
+to go to these stores.
+~
+0 0 1
+D0
+Impy Way continues North.
+~
+~
+0 0 44202
+D1
+You see the Meat Store.
+~
+~
+0 0 44207
+D2
+Impy Way continues south.
+~
+~
+0 0 44208
+D3
+You see the Pawn Shop.
+~
+~
+0 0 44206
+S
+#44206
+The Pawn Shop.~
+You are in a little shop filled with a lot of knick knacks and semi-
+valuable goods.  There is a display case full of little treasures that you are
+sure that you or any other little kid would like to touch!  The exit is east.
+~
+0 8 0
+D1
+You see Impy Way.
+~
+~
+0 0 44205
+S
+#44207
+The Meat Store~
+You are in a meat store.  Hanging on hooks are meats of many kinds of
+animals.  In the background, you can hear the sound of blade against flesh.
+It smells like meat here (which is not a good smell).  The exit is west.
+~
+0 8 0
+D3
+You see Impy Way.
+~
+~
+0 0 44205
+S
+#44208
+Impy Way~
+You are on Impy Way.  To the east is Farmer's Market, and to the west is
+Nyles' House of Ale.  Impy Way runs north and ends south of here.  You can hear
+the sound of housewives gossiping at the market.
+~
+0 0 1
+D0
+Impy Way continues north.
+~
+~
+0 0 44205
+D1
+You see the Farmer's Market.
+~
+~
+0 0 44210
+D2
+You see the end of Impy Way.
+~
+~
+0 0 44211
+D3
+You see Nyles' House of Ale.
+~
+~
+0 0 44209
+S
+#44209
+Nyles' House of Ale~
+This is a very busy bar, with everyone holding homemade bottles of
+ale.  You see even the more gentile persons here, laughing along with
+Nyles, who offers you a quart of ale too.
+~
+0 8 0
+D1
+You see Impy Way.
+~
+~
+0 0 44208
+S
+#44210
+Farmer's Market~
+You see many carts filled with fruits and vegetables.  Many farmers are
+all trying to sell you their produce, each saying their's is better.  The exit
+is west.
+~
+0 2097160 0
+D3
+You see Impy Way.
+~
+~
+0 0 44208
+S
+#44211
+The End of Impy Way~
+You are at the end of Impy and of the city part of Ofcol.  To the east is
+a dirt road leading toward the farm animals.  West from here are fields.  Impy
+Way continues north.
+~
+0 4 1
+D0
+Impy Way continues north.
+~
+~
+0 0 44208
+D1
+You see the dirt road.
+~
+~
+0 0 44268
+D3
+You see the fields.
+~
+~
+0 0 44212
+S
+#44212
+Fields~
+You are in a corn field.  You can't see far, since the corn stalks are
+taller than you are.  You remember that the end of Impy Way is east of here, 
+and you think you see a building to the north.  The field continues south and 
+west.
+~
+0 0 2
+D0
+You think you see a building north of here.
+~
+~
+0 0 44216
+D1
+You remember that the end of Impy Way is east.
+~
+~
+0 0 44211
+D2
+You can make a path to the fields south.
+~
+~
+0 0 44213
+D3
+You can make a path to the fields west.
+~
+~
+0 0 44215
+S
+#44213
+Fields~
+You are among fruit trees in a field.  You see many apple and orange 
+trees.  You can make out the corn fields north and some vegetable patches west.
+The sight of the fruit makes your mouth water.
+~
+0 0 2
+D0
+You see the corn fields.
+~
+~
+0 0 44212
+D3
+You see the vegetable fields.
+~
+~
+0 0 44214
+S
+#44214
+Fields~
+You are among the vegetable fields.  You see many cabbage and lettuce
+patches, along with tomato bushes and potato plants.  To the east are some
+fruit trees, and north are some wheat fields.
+~
+0 0 2
+D0
+You see the wheat fields.
+~
+~
+0 0 44215
+D1
+~
+~
+0 -1 44213
+D9
+~
+~
+0 -1 28015
+S
+#44215
+Fields~
+You are among the wheat fields.  The gentle caress of the wheat and the
+cool shadow from the tall stalks and scarecrow lulls you to sleep and dream
+of a little girl and little dog from a faraway place.  To the east are the corn
+stalks, and south of you are the vegetable patches.
+~
+0 0 2
+D1
+You see the corn fields.
+~
+~
+0 0 44212
+D2
+You see the vegetable patches.
+~
+~
+0 0 44214
+S
+#44216
+The Shed~
+You are in the storage shed.  Bales of wheat, corn and hay are piled
+against the wall, and some vegetables are in carts.  You see a small door
+to the west.  The main exit is south.
+~
+0 8 0
+D2
+You see the corn fields.
+~
+~
+0 0 44212
+D3
+You see the door.
+~
+door~
+3 -1 44200
+S
+#44217
+Slaughterhouse~
+You are in the slaughterhouse, where all the animals are slaughtered so
+that they can be sold or their skins be tanned.  The scream of dying animals
+makes your stomach churn.  The exit is to the west.
+~
+0 8 0
+D3
+You see the dirt road.
+~
+~
+0 0 44268
+S
+#44218
+Dirt Road~
+You are on a dirt road.  To the east is a barn, and you see a big chicken
+coop south of you.  The dirt road continues north and west.
+~
+0 0 2
+D0
+You see the dirt road.
+~
+~
+0 0 44268
+D1
+You see the barn.
+~
+~
+0 0 44220
+D2
+You see the chicken coop.
+~
+coop~
+3 -1 44219
+D3
+You see the dirt road.
+~
+~
+0 0 44221
+S
+#44219
+Chicken Coop~
+You are in the chicken coop.  The smell of chickens and chicken droppings
+makes you gasp.  The exit is north.
+~
+0 8 0
+D0
+You can sense the fresh air.
+~
+~
+3 -1 44218
+S
+#44220
+Barn~
+You are in a barn.  There are some cows here, munching on mounds of hay.
+Milk is milked and bottled here.  You see the exit west.
+~
+0 8 0
+D3
+You see the dirt road.
+~
+~
+0 0 44218
+S
+#44221
+Dirt Road~
+You are on a dirt road.  To the north and south, you see some grass 
+fields.  There is a pigsty west, and the dirt road continues east.
+~
+0 0 2
+D0
+You see some grass fields.
+~
+~
+0 0 44222
+D1
+You see the dirt road.
+~
+~
+0 0 44218
+D2
+You see some grass fields.
+~
+~
+0 0 44223
+D3
+You see the pigsty.
+~
+~
+0 0 44224
+S
+#44222
+Grass Field~
+You are in a grass field.  Fences block the way north, east, and west.
+The dirt road is to the south.
+~
+0 0 2
+D2
+You see the dirt road.
+~
+~
+0 0 44221
+S
+#44223
+Grass Field~
+You are in a grass field.  Fences block the way south, east, and west.
+The dirt road is to the north.
+~
+0 0 2
+D0
+You see the dirt road.
+~
+~
+0 0 44221
+S
+#44224
+Pig Sty~
+For some reason, you are in a pig sty.  You wonder why you are standing in
+muck.  To realize your senses and notice the dirt road is to the east.
+~
+0 0 2
+D1
+You see the dry dirt road.
+~
+~
+0 0 44221
+S
+#44225
+Impy Way~
+You are on Impy Way.  East and west of you are big houses.  Impy Way
+continues north and reaches a big intersection south.  Children are running to
+from home to home.
+~
+0 0 1
+D0
+Impy Way continues north.
+~
+~
+0 0 44232
+D1
+You see a big house.
+~
+door~
+7 44265 44226
+D2
+You see a big intersection.
+~
+~
+0 0 44201
+D3
+You see a big house.
+~
+door~
+7 44265 44229
+S
+#44226
+Big House~
+You are in a big house.  Evidently, the owners of this house are richer
+than the average citizen, since there is more than one room to this house.  A
+door leads to the kitchen east, and a bedroom is upstairs.  The exit is to the
+west.
+~
+0 8 0
+D1
+You see the kitchen.
+~
+~
+0 0 44228
+D3
+You see Impy Way.
+~
+door~
+7 44265 44225
+D4
+You see the bedroom.
+~
+~
+0 0 44227
+S
+#44227
+Bedroom~
+You are in the bedroom.  There isn't much of interest except for a bed and
+a closet.  The stairs lead back down.
+~
+0 8 0
+D5
+You see the main room of the house.
+~
+~
+0 0 44226
+S
+#44228
+Kitchen~
+You are in a kitchen.  There isn't much of interest here.  The main room
+is west of here.
+~
+0 8 0
+D3
+You see the main room of the house.
+~
+~
+0 0 44226
+S
+#44229
+Big House~
+You are in a big house.  Evidently, the owners of this house are richer
+than the average citizen, since there is more than one room to this house.  A
+door leads to the kitchen west, and a bedroom is upstairs.  The exit is to the
+east.
+~
+0 8 0
+D1
+You see Impy Way.
+~
+door~
+7 44265 44225
+D3
+You see the kitchen.
+~
+~
+0 0 44231
+D4
+You see the bedroom.
+~
+~
+0 0 44230
+S
+#44230
+Bedroom~
+You are in the bedroom.  There isn't much of interest except for a bed and
+a closet.  The stairs lead back down.
+~
+0 8 0
+D5
+You see the main room of the house.
+~
+~
+0 0 44229
+S
+#44231
+Kitchen~
+You are in a kitchen.  There isn't much of interest here.  The main room
+is east of here.
+~
+0 8 0
+D1
+You see the main room of the house.
+~
+~
+0 0 44229
+S
+#44232
+Impy Way~
+You are on Impy Way.  Houses are to the east and west of here.  Impy Way
+continues north and south.  There are many people walking along the streets.
+~
+0 0 1
+D0
+Impy Way continues north.
+~
+~
+0 0 44237
+D1
+You see a house.
+~
+door~
+3 -1 44233
+D2
+Impy Way continues south.
+~
+~
+0 0 44225
+D3
+You see a house.
+~
+door~
+3 -1 44235
+S
+#44233
+House~
+You are in a house.  The living room and kitchen are all bundled into
+this room.  There is a bedroom south of here.  The exit is west.
+~
+0 8 0
+D2
+You see the bedroom.
+~
+~
+0 0 44234
+D3
+You see Impy Way.
+~
+door~
+3 -1 44232
+S
+#44234
+Bedroom~
+You are in a bedroom.  There isn't much of interest here except for a bed
+and a dresser.  The main room of the house is north of here.
+~
+0 8 0
+D0
+You see the main room of the house.
+~
+~
+0 0 44233
+S
+#44235
+House~
+You are in a house.  The living room and kitchen are all bundled into
+this room.  There is a bedroom south of here.  The exit is east.
+~
+0 8 0
+D1
+You see Impy Way.
+~
+door~
+3 -1 44232
+D2
+You see the bedroom.
+~
+~
+0 0 44236
+S
+#44236
+Bedroom~
+You are in a bedroom.  There isn't much of interest here except for a bed
+and a dresser.  The main room of the house is north of here.
+~
+0 8 0
+D0
+You see the main room of the house.
+~
+~
+0 0 44235
+S
+#44237
+Impy Way~
+You are on Impy Way.  Houses are to the east and west of here.  Impy Way
+continues south.  To the north is a big intersection.  There are many people
+walking along the streets.
+~
+0 0 1
+D0
+You see a big intersection.
+~
+~
+0 0 44242
+D1
+You see a house.
+~
+door~
+3 -1 44238
+D2
+Impy Way continues south.
+~
+~
+0 0 44232
+D3
+You see a house.
+~
+door~
+3 -1 44240
+S
+#44238
+House~
+You are in a house.  The living room and kitchen are all bundled into
+this room.  There is a bedroom south of here.  The exit is west.
+~
+0 8 0
+D2
+You see the bedroom.
+~
+~
+0 0 44239
+D3
+You see Impy Way.
+~
+door~
+3 -1 44237
+S
+#44239
+Bedroom~
+You are in a bedroom.  There isn't much of interest here except for a bed
+and a dresser.  The main room of the house is north of here.
+~
+0 8 0
+D0
+You see the main room of the house.
+~
+~
+0 0 44238
+S
+#44240
+House~
+You are in a house.  The living room and kitchen are all bundled into
+this room.  There is a bedroom south of here.  The exit is east.
+~
+0 8 0
+D1
+You see Impy Way.
+~
+door~
+3 -1 44237
+D2
+You see the bedroom.
+~
+~
+0 0 44241
+S
+#44241
+Bedroom~
+You are in a bedroom.  There isn't much of interest here except for a bed
+and a dresser.  The main room of the house is north of here.
+~
+0 8 0
+D0
+You see the main room of the house.
+~
+~
+0 0 44240
+S
+#44242
+The Big Intersection~
+You are on the intersection of Impy Way and Swiftest Way.  To the north of
+you is a big house.  Swiftest Way runs east and west, and Impy way continues
+south.  There are quite a few people on this intersection.
+~
+0 0 1
+D0
+You see the big house.
+~
+door~
+7 44265 44243
+D1
+Swiftest Way continues east.
+~
+~
+0 0 44246
+D2
+Impy Way continues south.
+~
+~
+0 0 44237
+D3
+Swiftest Way continues west.
+~
+~
+0 0 44249
+S
+#44243
+Big House~
+You are in a big house.  Evidently, the owners of this house are richer
+than the average citizen, since there is more than one room to this house.  A
+door leads to the kitchen north, and a bedroom is upstairs.  The exit is to 
+the south.
+~
+0 8 0
+D0
+You see the kitchen.
+~
+~
+0 0 44245
+D2
+You see Impy Way.
+~
+door~
+7 44265 44242
+D4
+You see the bedroom.
+~
+~
+0 0 44244
+S
+#44244
+Bedroom~
+You are in the bedroom.  There isn't much of interest except for a bed 
+and a closet.  The stairs lead back down.
+~
+0 8 0
+D5
+You see the main room of the house.
+~
+~
+0 0 44243
+S
+#44245
+Kitchen~
+You are in a kitchen.  There isn't much of interest here.  The main room
+is east of here.
+~
+0 8 0
+D2
+You see the main room of the house.
+~
+~
+0 0 44243
+S
+#44246
+Swiftest Way~
+You are on Swiftest Way, the commoner's residential area.  Small houses
+are north and south of you.  Swiftest Way continues east, and west is a big
+intersection.
+~
+0 0 1
+D0
+You see a small house.
+~
+~
+0 0 44252
+D1
+Swiftest Way continues east.
+~
+~
+0 0 44247
+D2
+You see a small house.
+~
+~
+0 0 44253
+D3
+You see a big intersection.
+~
+~
+0 0 44242
+S
+#44247
+Swiftest Way~
+You are on Swiftest Way, the commoner's residential area.  Small houses
+are north and south of you.  Swiftest Way continues east and west.
+~
+0 0 1
+D0
+You see a small house.
+~
+~
+0 0 44254
+D1
+You see the end of Swiftest Way.
+~
+~
+0 0 44248
+D2
+You see a small house.
+~
+~
+0 0 44255
+D3
+Swiftest Way continues west.
+~
+~
+0 0 44246
+S
+#44248
+End of Swiftest Way~
+You are on Swiftest Way, just inside the city of Ofcol.
+To the east you see a wooden gate.
+~
+0 0 1
+D0
+You see a small house.
+~
+~
+0 0 44256
+D1
+You see a small house.
+~
+~
+0 0 44257
+D2
+You see a small house.
+~
+~
+0 0 44258
+D3
+Swiftest Way continues west.
+~
+~
+0 0 44247
+S
+#44249
+Swiftest Way~
+You are on Swiftest Way, the commoner's residential area.  Small houses
+are north and south of you.  Swiftest Way continues west, and to the east you
+see a big intersection.
+~
+0 0 1
+D0
+You see a small house.
+~
+~
+0 0 44259
+D1
+You see the big intersection.
+~
+~
+0 0 44242
+D2
+You see a small house.
+~
+~
+0 0 44260
+D3
+Swiftest Way continues west.
+~
+~
+0 0 44250
+S
+#44250
+Swiftest Way~
+You are on Swiftest Way, the commoner's residential area.  Small houses
+are north and south of you.  Swiftest Way continues east and west.
+~
+0 0 1
+D0
+You see a small house.
+~
+~
+0 0 44261
+D1
+Swiftest Way continues east.
+~
+~
+0 0 44249
+D2
+You see a small house.
+~
+~
+0 0 44262
+D3
+You see the end of Swiftest Way.
+~
+~
+0 0 44251
+S
+#44251
+The end of Swiftest Way~
+You are on Swiftest Way, the commoner's residential area.  Small houses
+are north, south, and west of you.  Swiftest Way continues east.
+~
+0 0 1
+D0
+You see a small house.
+~
+~
+0 0 44263
+D1
+Swiftest Way continues east.
+~
+~
+0 0 44250
+D2
+You see a small house.
+~
+~
+0 0 44264
+D3
+You see a small house.
+~
+~
+0 0 44265
+S
+#44252
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the south.
+~
+0 8 0
+D2
+You see Swiftest Way.
+~
+~
+0 0 44246
+S
+#44253
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the north.
+~
+0 8 0
+D0
+You see Swiftest Way.
+~
+~
+0 0 44246
+S
+#44254
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the south.
+~
+0 8 0
+D2
+You see Swiftest Way.
+~
+~
+0 0 44247
+S
+#44255
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the north.
+~
+0 8 0
+D0
+You see Swiftest Way.
+~
+~
+0 0 44247
+S
+#44256
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the south.
+~
+0 8 0
+D2
+You see the end of Swiftest Way.
+~
+~
+0 0 44248
+S
+#44257
+Eastern Entrance to Ofcol~
+~
+0 8 0
+D1
+~
+~
+0 -1 48643
+D3
+You see the end of Swiftest Way.
+~
+~
+0 0 44248
+S
+#44258
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the north.
+~
+0 8 0
+D0
+You see the end of Swiftest Way.
+~
+~
+0 0 44248
+S
+#44259
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the south.
+~
+0 8 0
+D2
+You see Swiftest Way.
+~
+~
+0 0 44249
+S
+#44260
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the north.
+~
+0 8 0
+D0
+You see Swiftest Way.
+~
+~
+0 0 44249
+S
+#44261
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the south.
+~
+0 8 0
+D2
+You see Swiftest Way.
+~
+~
+0 0 44250
+S
+#44262
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the north.
+~
+0 8 0
+D0
+You see Swiftest Way.
+~
+~
+0 0 44250
+S
+#44263
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the south.
+~
+0 8 0
+D2
+You see the end of Swiftest Way.
+~
+~
+0 0 44251
+S
+#44264
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the north.
+~
+0 8 0
+D0
+You see the end of Swiftest Way.
+~
+~
+0 0 44251
+S
+#44265
+Small House~
+You are in a small house, owned by a commoner of Ofcol.  There isn't much
+of value here to you, but you'd bet that the owner really cherishes the pile
+of stuff here.  The exit is to the east.
+~
+0 8 0
+D1
+You see the end of Swiftest Way.
+~
+~
+0 0 44251
+S
+#44266
+Raff Way~
+You are on Raff Way.  To the west, you can see a big intersection.  To 
+the east, you see Raff Way continue toward the Golden Citadel.  There are 
+beautiful flowers growing along the road here, making this more of a garden
+than a road.
+~
+0 0 1
+D0
+~
+~
+0 -1 18000
+D1
+Raff Way continues east.
+~
+~
+0 0 44267
+D3
+You see the big intersection.
+~
+~
+0 0 44201
+S
+#44267
+Raff Way~
+You are on Raff Way.  Raff Way continues west to the city of Ofcol.  To 
+the east, you see Raff Way continue toward the Golden Citadel.  There are 
+beautiful flowers growing along the road here, making this more of a garden
+than a road.
+~
+0 0 1
+D1
+You see the entrance of the Golden Citadel.
+~
+~
+0 0 44299
+D3
+Raff Way continues west.
+~
+~
+0 0 44266
+S
+#44268
+Dirt Road~
+You are on a dirt road.  To the east is a large building with a bad smell
+emanating from it.  To the west is the end of Impy Way, and this road continues
+south.
+~
+0 0 2
+D1
+You see the large building with the bad smell.
+~
+~
+0 0 44217
+D2
+The dirt road continues south.
+~
+~
+0 0 44218
+D3
+You see the end of Impy Way.
+~
+~
+0 0 44211
+S
+#44269
+The Temple of Ofcol~
+You are in the Temple of Ofcol.  Golden tiles cover the floor, and solid
+gold columns reach the twelve foot ceiling of this vast chamber.  Servants in
+golden livery wander this place, making even the raggiest messenger boy look
+richer than you are.  Exits lead to the anterooms in the cardinal directions.
+~
+0 8 0
+D0
+~
+~
+0 0 44270
+D1
+~
+~
+0 0 44272
+D2
+~
+~
+0 0 44273
+D3
+~
+~
+0 0 44271
+S
+#44270
+The Anteroom to the Temple of Ofcol~
+You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
+floor, and servants in golden livery pass you by peaceably.  The temple is to
+the south, and to the north is a hallway.  A stairways leads up.
+~
+0 8 0
+D0
+~
+~
+0 0 44275
+D2
+~
+~
+0 0 44269
+D4
+~
+~
+0 0 44286
+S
+#44271
+The Anteroom to the Temple of Ofcol~
+You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
+floor, and servants in golden livery pass you by peaceably.  The temple is to
+the east, and to the west is a hallway.  A stairways leads up.
+~
+0 8 0
+D1
+~
+~
+0 0 44269
+D3
+~
+~
+0 0 44279
+D4
+~
+~
+0 0 44287
+S
+#44272
+The Anteroom to the Temple of Ofcol~
+You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
+floor, and servants in golden livery pass you by peaceably.  The temple is to
+the west, and to the east is a hallway.  A stairways leads up.
+~
+0 8 0
+D1
+~
+~
+0 0 44280
+D3
+~
+~
+0 0 44269
+D4
+~
+~
+0 0 44289
+S
+#44273
+The Anteroom to the Temple of Ofcol~
+You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
+floor, and servants in golden livery pass you by peaceably.  The temple is to
+the north, and to the south is a hallway.  A stairways leads up.
+~
+0 8 0
+D0
+~
+~
+0 0 44269
+D2
+~
+~
+0 0 44284
+D4
+~
+~
+0 0 44290
+S
+#44274
+A Hallway of the Golden Citadel~
+You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead east and south.
+~
+0 8 0
+D1
+~
+~
+0 0 44275
+D2
+~
+~
+0 0 44277
+S
+#44275
+A Hallway of the Golden Citadel~
+You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead east, west, and south.
+~
+0 8 0
+D1
+~
+~
+0 0 44276
+D2
+~
+~
+0 0 44270
+D3
+~
+~
+0 0 44274
+S
+#44276
+A Hallway of the Golden Citadel~
+You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead west and south.
+~
+0 8 0
+D2
+~
+~
+0 0 44278
+D3
+~
+~
+0 0 44275
+S
+#44277
+A Hallway of the Golden Citadel~
+You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead north and south.
+~
+0 8 0
+D0
+~
+~
+0 0 44274
+D2
+~
+~
+0 0 44279
+S
+#44278
+A Hallway of the Golden Citadel~
+You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead north and south.
+~
+0 8 0
+D0
+~
+~
+0 0 44276
+D2
+~
+~
+0 0 44280
+S
+#44279
+A Hallway of the Golden Citadel~
+You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead to the cardinal directions, with the east leading
+toward the Temple of Ofcol, and west leading toward the City of Ofcol.
+~
+0 8 0
+D0
+~
+~
+0 0 44277
+D1
+~
+~
+0 0 44271
+D2
+~
+~
+0 0 44281
+D3
+~
+~
+0 0 44298
+S
+#44280
+A Hallway of the Golden Citadel~
+You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead west, north and south.
+~
+0 8 0
+D0
+~
+~
+0 0 44278
+D2
+~
+~
+0 0 44282
+D3
+~
+~
+0 0 44272
+S
+#44281
+A Hallway of the Golden Citadel~
+You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead north and south.
+~
+0 8 0
+D0
+~
+~
+0 0 44279
+D2
+~
+~
+0 0 44283
+S
+#44282
+A Hallway of the Golden Citadel~
+You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead north and south.
+~
+0 8 0
+D0
+~
+~
+0 0 44280
+D2
+~
+~
+0 0 44285
+S
+#44283
+A Hallway of the Golden Citadel~
+You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead north and east.
+~
+0 8 0
+D0
+~
+~
+0 0 44281
+D1
+~
+~
+0 0 44284
+S
+#44284
+A Hallway of the Golden Citadel~
+You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead east, west, and north.
+~
+0 8 0
+D0
+~
+~
+0 0 44273
+D1
+~
+~
+0 0 44285
+D3
+~
+~
+0 0 44283
+S
+#44285
+A Hallway of the Golden Citadel~
+You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+and rich golden tapestries drape the walls.  Servants in golden livery pass you
+by peaceably.  Exits lead west and north.
+~
+0 8 0
+D0
+~
+~
+0 0 44282
+D3
+~
+~
+0 0 44284
+S
+#44286
+An Upper Chamber of the Golden Citadel~
+You are in one of the upper chambers of the Golden Citadel.  The decora-
+tions of this place surpass even those of the first floor.  Gold tiles etched
+with platinum cover the floor, walls and the ceiling.  The lights from numerous
+torches reflect from these shimmering planes, giving the illusion that you are
+standing in a gem.  Stairways lead up and down, and the hall leads south.
+~
+0 8 0
+D2
+~
+~
+0 0 44288
+D4
+~
+~
+0 0 44291
+D5
+~
+~
+0 0 44270
+S
+#44287
+An Upper Chamber of the Golden Citadel~
+You are in one of the upper chambers of the Golden Citadel.  The decora-
+tions of this place surpass even those of the first floor.  Gold tiles etched
+with platinum cover the floor, walls and the ceiling.  The lights from numerous
+torches reflect from these shimmering planes, giving the illusion that you are
+standing in a gem.  Stairways lead up and down, and the hall leads east.
+~
+0 8 0
+D1
+~
+~
+0 0 44288
+D4
+~
+~
+0 0 44292
+D5
+~
+~
+0 0 44271
+S
+#44288
+The Hall of the DragonLords~
+You are in a vast hall, filled with the commanders of the Golden Citadel.
+Golden tiles etched with platinum cover the floors, and weapons of all types
+are mounted on the walls of this meeting hall.  Surrounding a solid gold table
+are four sons of the Keeper of the Golden Citadel.  They smile at you and ask 
+you to join them in lunch.  Exits lead to the cardinal directions.
+~
+0 8 0
+D0
+~
+~
+0 0 44286
+D1
+~
+~
+0 0 44289
+D2
+~
+~
+0 0 44290
+D3
+~
+~
+0 0 44287
+S
+#44289
+An Upper Chamber of the Golden Citadel~
+You are in one of the upper chambers of the Golden Citadel.  The decora-
+tions of this place surpass even those of the first floor.  Gold tiles etched
+with platinum cover the floor, walls and the ceiling.  The lights from numerous
+torches reflect from these shimmering planes, giving the illusion that you are
+standing in a gem.  Stairways lead up and down, and the hall leads west.
+~
+0 8 0
+D3
+~
+~
+0 0 44288
+D4
+~
+~
+0 0 44294
+D5
+~
+~
+0 0 44272
+S
+#44290
+An Upper Chamber of the Golden Citadel~
+You are in one of the upper chambers of the Golden Citadel.  The decora-
+tions of this place surpass even those of the first floor.  Gold tiles etched
+with platinum cover the floor, walls and the ceiling.  The lights from numerous
+torches reflect from these shimmering planes, giving the illusion that you are
+standing in a gem.  Stairways lead up and down, and the hall leads north.
+~
+0 8 0
+D0
+~
+~
+0 0 44288
+D4
+~
+~
+0 0 44295
+D5
+~
+~
+0 0 44273
+S
+#44291
+A Top Chamber of the Golden Citadel~
+You are in one of the top chambers of the Golden Citadel.  The decorations
+of this room looks like a dragon's hoard.  The whole room is carved out of pure
+gold, and gems of all types glitter from the walls, ceiling, even the floor.
+It is obvious that this room was not meant for you to intrude upon.  A stair-
+case leads back down, and a doorway leads south.
+~
+0 8 0
+D2
+~
+~
+0 0 44293
+D5
+~
+~
+0 0 44286
+S
+#44292
+A Top Chamber of the Golden Citadel~
+You are in one of the top chambers of the Golden Citadel.  The decorations
+of this room looks like a dragon's hoard.  The whole room is carved out of pure
+gold, and gems of all types glitter from the walls, ceiling, even the floor.
+It is obvious that this room was not meant for you to intrude upon.  A stair-
+case leads back down, and a doorway leads east.
+~
+0 8 0
+D1
+~
+~
+0 0 44293
+D5
+~
+~
+0 0 44287
+S
+#44293
+The Dragon Chamber~
+You are in a vast chamber carved from gold and platinum.  Gems the size of
+a man's fist protrude from the walls, ceiling, and the floor, making your step
+painful.  A vast open sky-light lets fresh air come in from the top.  In the
+center of this chamber, you see a great wealth of coins, and on top of that
+pile of coins, you see a golden dragon squinting at you.  Exits lead to the
+cardinal directions to the anterooms.
+~
+0 8 0
+D0
+~
+~
+0 0 44291
+D1
+~
+~
+0 0 44294
+D2
+~
+~
+0 0 44295
+D3
+~
+~
+0 0 44292
+D4
+~
+~
+0 0 44296
+S
+#44294
+A Top Chamber of the Golden Citadel~
+You are in one of the top chambers of the Golden Citadel.  The decorations
+of this room looks like a dragon's hoard.  The whole room is carved out of pure
+gold, and gems of all types glitter from the walls, ceiling, even the floor.
+It is obvious that this room was not meant for you to intrude upon.  A stair-
+case leads back down, and a doorway leads west.
+~
+0 8 0
+D3
+~
+~
+0 0 44293
+D5
+~
+~
+0 0 44289
+S
+#44295
+A Top Chamber of the Golden Citadel~
+You are in one of the top chambers of the Golden Citadel.  The decorations
+of this room looks like a dragon's hoard.  The whole room is carved out of pure
+gold, and gems of all types glitter from the walls, ceiling, even the floor.
+It is obvious that this room was not meant for you to intrude upon.  A stair-
+case leads back down, and a doorway leads north.
+~
+0 8 0
+D0
+~
+~
+0 0 44293
+D5
+~
+~
+0 0 44290
+S
+#44296
+Above the Dragon Chamber~
+You are above the Dragon Chamber.  You curiously note that this shaft that
+connects the chamber to the sky is wide enough that even a dragon can fit
+through.  This shaft leads up and down.
+~
+0 8 0
+D4
+~
+~
+0 0 44297
+D5
+~
+~
+0 0 44293
+S
+#44297
+In the Shaft from the Dragon Chamber~
+You are in the shaft leading from the Dragon Chamber.  Below you lies the
+Dragon Chamber of the Golden Citadel.  Above you, you see the sky, but 
+currently, the way out is sealed by a layer of diamond that looks impenetrable.
+~
+0 8 0
+D5
+~
+~
+0 0 44296
+S
+#44298
+Inside the Entrance to the Golden Citadel~
+You are inside the entrance to the Golden Citadel.  Rich golden tapestries
+line the walls, and golden tiles cover the floors.  The exit to this citadel is
+to the west, while the citadel itself is to the east.
+~
+0 8 0
+D1
+~
+~
+0 0 44279
+D3
+~
+gate~
+1 44251 44299
+S
+#44299
+Outside the Entrance to the Golden Citadel~
+You are outside the entrance to the Golden Citadel.  A great gate is to
+to the east, marking the entranceway into the citadel.  The road also leads
+back west to Raff Way.
+~
+0 0 2
+D1
+~
+~
+1 44251 44298
+D3
+~
+~
+0 0 44267
+S
+#0
+
+
+#RESETS
+M 1 44209 1 44200
+O 1 44249 99 44200
+D 1 44200 1 1
+M 1 44200 8 44201
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44224 99 8
+M 1 44201 1 44201
+E 1 44220 99 1
+E 1 44239 99 5
+E 1 44240 99 6
+E 1 44241 99 7
+E 1 44242 99 8
+E 1 44243 99 9
+E 1 44244 99 10
+E 1 44245 99 11
+E 1 44246 99 13
+E 1 44247 99 16
+M 1 44217 3 44201
+M 1 44204 1 44203
+G 1 44200 99
+G 1 44201 99
+G 1 44215 99
+G 1 44267 99
+M 1 44200 8 44204
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44223 99 7
+M 1 44205 1 44204
+G 1 44216 99
+G 1 44217 99
+G 1 44218 99
+G 1 44219 99
+M 1 44206 1 44206
+G 1 44206 99
+G 1 44207 99
+G 1 44208 99
+M 1 44207 1 44207
+G 1 44202 99
+G 1 44203 99
+G 1 44204 99
+G 1 44205 99
+M 1 44200 8 44208
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44222 99 6
+M 1 44222 1 44209
+G 1 44248 99
+G 1 44249 99
+G 1 44250 99
+M 1 44224 1 44209
+M 1 44218 3 44211
+D 1 44216 3 1
+M 1 44210 1 44217
+E 1 44201 99 16
+D 1 44218 2 1
+M 1 44212 4 44219
+M 1 44212 4 44219
+M 1 44212 4 44219
+M 1 44212 4 44219
+D 1 44219 0 1
+M 1 44211 1 44220
+E 1 44215 99 16
+O 1 44214 99 44220
+O 1 44211 99 44220
+M 1 44214 2 44220
+M 1 44214 2 44220
+M 1 44215 4 44222
+M 1 44215 4 44222
+M 1 44215 4 44222
+M 1 44215 4 44222
+M 1 44213 3 44223
+M 1 44213 3 44223
+M 1 44213 3 44223
+M 1 44216 4 44224
+M 1 44216 4 44224
+M 1 44216 4 44224
+M 1 44216 4 44224
+D 1 44225 1 2
+D 1 44225 3 2
+D 1 44226 3 2
+M 1 44221 3 44227
+E 1 44266 99 16
+G 1 44265 99
+M 1 44221 3 44229
+E 1 44266 99 16
+G 1 44265 99
+D 1 44229 1 2
+D 1 44232 1 1
+D 1 44232 3 1
+D 1 44233 3 1
+M 1 44220 2 44235
+D 1 44235 1 1
+M 1 44200 8 44237
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44229 99 14
+M 1 44218 3 44237
+D 1 44237 1 1
+D 1 44237 3 1
+D 1 44238 3 1
+D 1 44240 1 1
+M 1 44200 8 44242
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44226 99 10
+D 1 44242 0 2
+M 1 44221 3 44243
+E 1 44266 99 16
+G 1 44265 99
+D 1 44243 2 2
+M 1 44200 8 44247
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44227 99 11
+M 1 44217 3 44248
+M 1 44200 8 44250
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44225 99 9
+M 1 44217 3 44250
+M 1 44220 2 44252
+M 1 44219 2 44255
+M 1 44219 2 44261
+M 1 44218 3 44266
+M 1 44200 8 44267
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44228 99 13
+M 1 44202 1 44269
+E 1 44220 99 1
+E 1 44231 99 5
+E 1 44253 99 16
+E 1 44232 99 6
+E 1 44233 99 7
+E 1 44234 99 8
+E 1 44235 99 9
+E 1 44226 99 10
+E 1 44227 99 11
+E 1 44228 99 13
+M 1 44228 1 44269
+E 1 44220 99 1
+E 1 44264 99 12
+E 1 44252 99 3
+M 1 44225 2 44273
+M 1 44225 2 44274
+M 1 44233 3 44276
+E 1 44220 99 1
+E 1 44254 99 5
+E 1 44260 99 11
+E 1 44262 99 16
+M 1 44227 1 44278
+M 1 44233 3 44281
+E 1 44220 99 1
+E 1 44254 99 5
+E 1 44260 99 11
+E 1 44262 99 16
+M 1 44226 2 44282
+M 1 44226 2 44283
+M 1 44229 1 44288
+E 1 44264 99 12
+M 1 44230 3 44288
+E 1 44220 99 1
+E 1 44254 99 5
+E 1 44260 99 11
+E 1 44269 99 16
+E 1 44256 99 6
+E 1 44257 99 7
+M 1 44230 3 44288
+E 1 44220 99 1
+E 1 44254 99 5
+E 1 44260 99 11
+E 1 44269 99 16
+E 1 44257 99 8
+E 1 44258 99 9
+M 1 44230 3 44288
+E 1 44220 99 1
+E 1 44254 99 5
+E 1 44260 99 11
+E 1 44269 99 16
+E 1 44259 99 10
+E 1 44261 99 13
+M 1 44233 3 44290
+E 1 44220 99 1
+E 1 44254 99 5
+E 1 44260 99 11
+E 1 44262 99 16
+M 1 44231 1 44293
+E 1 44220 99 1
+E 1 44268 99 16
+E 1 44263 99 17
+M 1 44232 2 44293
+E 1 44220 99 1
+E 1 44264 99 12
+M 1 44232 2 44293
+E 1 44220 99 1
+E 1 44264 99 12
+M 1 44234 3 44298
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44227 99 11
+G 1 44251 99
+M 1 44234 3 44298
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44227 99 11
+G 1 44251 99
+M 1 44234 3 44298
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44227 99 11
+G 1 44251 99
+M 1 44203 1 44299
+E 1 44220 99 1
+E 1 44231 99 5
+E 1 44253 99 16
+E 1 44232 99 6
+E 1 44223 99 7
+E 1 44224 99 8
+E 1 44225 99 9
+E 1 44236 99 10
+E 1 44237 99 11
+E 1 44238 99 13
+M 1 44223 3 44299
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44227 99 11
+G 1 44251 99
+M 1 44223 3 44299
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44227 99 11
+G 1 44251 99
+M 1 44223 3 44299
+E 1 44220 99 1
+E 1 44221 99 5
+E 1 44230 99 16
+E 1 44227 99 11
+G 1 44251 99
+M 1 44208 1 44210
+G 1 44211 1
+G 1 28000 1
+G 1 44209 1
+G 1 44210 1
+G 1 44212 1
+G 1 44213 1
+S
+
+
+#SHOPS
+ 44204    5  9 15  0  0   120  80         0 23    ; Jim the Blacksmith
+ 44205    9  0  0  0  0   120  80         0 23    ; Sam
+ 44206    8 12 13  0  0   120  80         0 23    ; Madam Tracy
+ 44207    0 19  0  0  0   120  10         0 23    ; Marty
+ 44208    0 17 19  0  0   120  10         0 23    ; Farmer Elizabeth
+ 44222    0 17  0  0  0   120  10         0 23    ; Nyles the Bartender
+0
+
+
+#REPAIRS
+ 44204    0  0  0         100   1         0 23    ; Jim the Blacksmith
+0
+
+
+#SPECIALS
+M  44200 spec_guard
+M  44201 spec_cast_cleric
+M  44202 spec_cast_cleric
+M  44203 spec_cast_mage
+M  44221 spec_janitor
+M  44223 spec_guard
+M  44228 spec_cast_adept
+M  44229 spec_guard
+M  44230 spec_breath_any
+M  44231 spec_breath_any
+M  44232 spec_cast_mage
+M  44233 spec_breath_any
+M  44234 spec_guard
+S
+
+
+#$

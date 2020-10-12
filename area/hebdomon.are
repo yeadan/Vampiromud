@@ -1,0 +1,1233 @@
+#AREA   Distrito Hebdomon (Constantinopla)~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO Beythor~
+#PUNTOS 1881 1892 1810 2000 0
+#AUTHOR SiGo~
+
+#RANGES
+50 80 0 256
+$
+
+#RESETMSG Escuchas unos extranyos gritos provenientes del Palacio...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 17382389
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#11000
+Guardian Imperial~
+el guardian Imperial~
+Un guardian Imperial te mira y se pregunta que diablos haces tu aqui?
+~
+Los guardianes Imperales destacan por su gran embergadura, ya que han sido
+elejidos especialmente por el Emperador.~
+32835 8320 0 C
+60 -200 -200 50d100+7000 20d1+20
+1000 0
+112 112 1
+18 18 18 18 18 18 18
+-10 -30 -30 -30 -1
+0 3 204 190 262657 262657 3
+130 130 9 0 0 0 16 524288
+#11001
+desartius~
+Desartius el destructor~
+Desartius un quinta generacion de los &RToReaDoR &Wte mira con cara curiosa
+~
+Desatrius solo piensa dos cosas de ti.
+La primera que va a destrozarte
+La segunda que va a destruirte~
+67 0 0 C
+74 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11002
+licantropo lobo lupino~
+un licantropo totalmente desquiciado~
+Un licantropo con cara de ido busca desesperadamente algo que echarse a la boca
+~
+Los guardianes Imperales destacan por si gran embergadura, ya que han sido
+elejidos especialmente por el Emperador.~
+99 0 -1000 C
+58 -200 -200 6000d1+5000 490d2+20
+800000 0
+112 112 1
+18 18 18 18 18 18 18
+-10 -30 -30 -30 -1
+47 3 204 190 262657 262657 3
+130 130 9 0 0 0 16 524288
+#11004
+espiritu emparedado~
+el espiritu del criado emparedado~
+Un fantasma deambula por aqui pidiendo el descanso eterno...
+~
+Es trasnlucido por lo que no llegas a apreciar bien su forma~
+67 1048706 1000 C
+70 -100 -250 4000d1+6500 20d2+0
+100000 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 20~
+'Acaso no era preferible una muerte agonica a la gran herejia Cainita?...~
+|
+#11006
+jardinero espiritu~
+el espiritu del jardin~
+EL espiritu de un jardinero muerto en las cruzadas por la flecha de un Baali...
+~
+Este tipo no se yo que haria en las cruzadas, quizas por eso lo mataron...~
+150995139 0&2 800 C
+75 -190 -190 1000d1+10000 720d3+2
+8000 0
+112 112 0
+12 12 12 12 21 12 18
+0 0 0 0 0
+56 3 190 123 1 1 3
+200 190 9 0 0 0 0 0
+#11007
+shimon~
+shimon~
+El cuidador del jardin esta echando una cabezadita a la solana
+~
+Esfeo como el solo, de aspecto cansado parece que pudiese contarte cualquier
+hostoria que quisieras aprender
+~
+67 1112547456 1000 C
+78 -300 -300 7600d1+7350 89d1+12
+20000 0
+112 112 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 130 90 1 1 3
+200 230 9 0 0 0 2359328 9216
+> rand_prog 20~
+emote ronca como un condenado~
+|
+#11008
+aldeano~
+aldeano~
+Un aldeano perdido suplica tu ayuda
+~
+Este hombre parece desesperado su ropa echa girones y su cara manchada de sangre
+reflejan la deseperacion de u nmortal al comprender que la muerte le reclama...~
+16777411 2 700 C
+55 -100 -100 2000d1+7200 10d1+5
+700000 0
+112 112 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 1 190 189 1 1 2
+100 100 9 0 0 0 536870912 0
+#11009
+lemur~
+lemur~
+Un lemur suspendido en el aire recuerda tiempos mejores
+~
+Es....como todos los lemures...~
+195 8192 200 C
+67 -100 -90 5000d2+5000 100d1+23
+200000 0
+112 112 0
+8 8 8 8 8 8 8
+0 0 0 0 0
+88 6 40 23 1 1 3
+140 150 65545 0 0 0 0 0
+#11010
+ciudador sepulcro cainita~
+cuidador del sepulcro~
+EL cuidador Cainita del Sepulcro brilla en la oscuridad
+~
+EL cuidador del Sepulcro es un joven Cainita posiblemente de 100 a 200 anyos
+Todavia es muy novato y eso le puede llevar al frenesi o incluso a la muerte~
+67 1145045120 -1000 C
+80 -200 -200 16000d1+10 579d3+20
+10000 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11011
+domestica hada~
+hada~
+Un hada domestica te mira con mala cara no le ha gustado nada que entres aqui
+~
+Las Hadas son impredecibles asi que tu mismo...~
+67 128 1000 C
+95 -200 -200 32767d1+30000 100d50+4
+2000 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 4
+85 65 0 0 0 0 416 0
+> fight_prog 45~
+mpechoat $n El hada brilla con una intensidad casi dolorosa...
+mpechoat $n La muerte empieza a envolverte...
+c mascara
+c muerte
+c muerte
+c muerte
+c muerte
+mpechoat $n La muerte deja de envolverte... por ahora.
+~
+|
+#11012
+encargado regaor~
+encargado de los cultivos~
+EL encargado de regar los cultivos te arrea con a regadora nada mas verte llegar!!!
+~
+Este pobre ignorante no ha hecho otra cosa en su vida mas que regar y regar...~
+195&2 41943356 800 C
+9 -100 -100 6200d1+4002 10d1+10
+10000 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 45~
+if ispc ($n)
+mpechoat ($n) El encargado de los campos te arrea en la cabeza con la regadora.
+mpechoat ($n)  _blu OOOUUUCCHHH QUE DOLOR!!!
+endif~
+|
+#11013
+criado~
+un criado de Palacio~
+Un miembro del Servicio de Palacio descansa placidamente
+~
+....~
+67 1073741826 1000 C
+70 -80 -90 8006d1+4356 346d2+13
+200000 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 24 190 123 1 1 2
+100 100 9 0 0 512 0 0
+#11014
+esqueleto muerto~
+esqueleto~
+Un muerto ha resucitado por la magia negra de algun Capdocio!!!
+~
+Es un esqueleto pero aun asi el kabron se mueve!!!~
+150995011 270541442 -1000 C
+90 -350 -350 32767d1+30000 100d1+150
+1000000 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+71 3 230 189 266241 266241 0
+345 354 1 0 0 0 128 16384
+#11015
+aikiris empalador~
+Aikiris el Empalador~
+Aikiris o tambien conocido como el empalador afila su estaca maliciosamente
+~
+Aikiris es uno de los mas poderosos miembros del clan &RToReaDoR &W su
+generacion ( cuarta ) le permite desencadenar un gran poder y destruccion
+yo de ti me largaria ahora que aun estas a tiempo.~
+67&2 302522370 0 C
+5 -100 -100 10d160+15236 15d1+180
+3000 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 120 180 1 1 4
+200 200 0 0 0 0 0 0
+#11016
+cainita neonato~
+un neonato sin Sire~
+Un joven cainita busca por todas partes a su Sire
+~
+Esta mas perdido que un caracol en una olla~
+99 0 -1000 C
+74 -200 -200 6000d1+4500 490d2+20
+800000 0
+112 112 1
+18 18 18 18 18 18 18
+-10 -30 -30 -30 -1
+47 3 204 190 262657 262657 3
+130 130 9 0 0 0 16 524288
+#0
+
+
+#OBJECTS
+#11000
+mancha sangre charco blood~
+&Runa mancha de sangre&G~
+Una gran mancha de sangre esta esparcida por toda la pared sur de la cocina, parece que haya habido una carniceria aqui dentro.~
+~
+27 0 0
+0 0 0 0
+1000 100000 10000
+#11001
+llave~
+una pequenya llave~
+Una pequenya llave plateada esta tirada en el suelo.~
+~
+18 0 1
+31000 0 0 0
+10 10000 1000
+#11002
+artefacto~
+un extranyo artefacto cubierto de runas~
+Un artefacto con extranyos simbolos ha diso aqui olvidado.~
+~
+18 0 1
+11012 0 0 0
+10 10000 1000
+#11003
+despensa llave~
+la llave de la despensa de Palacio~
+La llave de la despensa esta por el suelo tirada.~
+~
+18 0 1
+11004 0 0 0
+1 10000 1000
+#11004
+habito andrajoso~
+un habito andrajoso~
+Un habito andrajoso ha sido abandonado a su suerte.~
+~
+9 524579 9
+25 25 5000 0
+10 10000 1000
+A
+17 -20
+A
+23 -25
+#11005
+cinto toreador~
+el cinto de un &RToReaDoR&G~
+El cinto de un miembro del clan &RToReaDoR &Gesta tirado por el suelo.~
+~
+9 524579 2049
+30 30 5000 0
+20 260000 26000
+A
+1 0
+A
+5 0
+A
+13 0
+A
+24 0
+A
+31 0
+A
+19 0
+A
+13 0
+#11006
+pulseras vampiricas~
+unas pulseras &RVampiricas&G~
+Unas explendidas pulseras &RVampiricas &Gestan esperando ser recojidas.~
+~
+9 524579 4097
+18 17 5000 0
+10 25000 2500
+A
+14 0
+A
+19 0
+A
+18 0
+A
+48 0
+A
+4 0
+A
+2 0
+#11007
+capa antiguo~
+la capa del antiguo &RToReAdOr&G~
+La capa de un Antiguo &RToReAdOr &Gha sido olvidada por alguien aqui.~
+~
+9 524579 1025
+34 34 5000 0
+25 6000 600
+A
+23 0
+A
+22 0
+A
+20 0
+A
+3 0
+A
+18 0
+A
+19 0
+#11008
+pupilas vampiricas~
+unas pupilas de vampiro~
+Unas pupilas de vampiro te observan.~
+~
+9 524579 131073
+10 10 5000 0
+10 1000000 100000
+A
+13 0
+A
+19 0
+A
+23 0
+#11009
+simbolo toreador~
+el simbolo de clan de un &RToReaDoR&G~
+Algun &RToReaDoR &G despistado se ha dejado aqui su simbolo de clan.~
+~
+1 524579 16385
+5000 0 -1 0
+15 10000 1000
+A
+21 0
+A
+24 0
+A
+13 0
+A
+18 0
+#0
+
+
+#ROOMS
+#11000
+Entrada al Palacio de Jucendiae~
+Dejando atras el  camino acondicionado para carruajes, y continuando tu
+camino hacian el Norte hacia los campos de  entrenamiento militar,  has
+llegado a una gran  estructura que parece estar cubierta por  una  capa
+de marmol. Al norte pudes ver la entrada del palacio, parece muy lujoso
+Pudes volver como no hacia el Sur de vuelta al  Camino.  Ves  una  gran
+"PLACA" clavada en un Cipres.
+~
+0 0 3
+D0
+~
+puerta~
+39 11001 11001
+D8
+~
+~
+0 0 11021
+E
+placa cartel~
+&R<&G*&R> &GCuidado, vas a entrar en el Palacio de Jucendiae, niveles 50 a 80
+    &GSi tu nivel es mas bajo, por tu cuenta y riesgo eh?.
+
+&RSiGo &BEl Dios Del Mal Y La Desgracia...~
+S
+#11001
+El recibidor de Palacio~
+Avanzando en  tu marcha, has entrado al recibidor de Palacio, puedes  observar
+una hilera  de columnas, que soportan  un gran balcon y un  explendido  jardin
+elevado. En la columna central distingues a ver una "INSCRIPCION" en el marmol
+Al sur ves la entrada al Palacio.
+~
+0 1 0
+D0
+~
+~
+0 0 11002
+D2
+~
+~
+39 11001 11000
+E
+placa cartel columna~
+Estas en el Palacio de Jucendiae, retiro Imperial durante los meses de verano
+Frecuentemente visitada porla Familia Cainita Micaelita del Clan Toreador.~
+S
+#11002
+Habitacion principal de la planta baja~
+Te encuentras en una gran habitacion, con grandes y lujosas alfombras
+desplegadas por todo el suelo, grandes jarrones, candelabros de oro y
+plateria. Yo de ti no tocaria nada. Al este  hay  un  gran  salon, al
+oeste lo que te parece que es una cocina, tambien  ves  una  escalera
+que sube a un piso superior del emplazamiento.
+~
+0 1 0
+D0
+~
+~
+0 0 11006
+D1
+~
+~
+0 0 11003
+D2
+~
+~
+0 -1 11001
+D3
+~
+~
+0 0 11004
+S
+#11003
+El salon de Palacio~
+Acabas de entrar en una  habitacion espaciosa, hay grandes ventanales que se
+encuentran cubiertos por gruesas telas negras, con lo cual la iluminacion es
+practicamente nula, ves una mesa alargada con multitud de sillas a su alrede
+dor, los demas muebles de la estancia,  estan  cubiertos  por  telas blancas
+protegiendolos asi del polvo.
+~
+0 1 0
+D3
+~
+~
+0 -1 11002
+S
+#11004
+La cocina de Palacio~
+Has entrado a la cocina, a diferencia del resto de la planta baja esta
+realmente limpia, si no fuera por esa enorme mancha de  sangre  en  la
+pared... al norte ves lo que parece una depensa, al este esta la  sala
+principal.
+~
+0 1 0
+D0
+~
+~
+35 -1 11005
+D1
+~
+~
+0 -1 11002
+S
+#11005
+La despensa~
+Estas dentro de una reducida habitacion oscura y humeda, mas que una despensa
+parece un calabozo, notas un hedor putrefacto que te quema los  pulmones.  Al
+sur vuelves a la cocina.
+~
+0 513 0
+D2
+~
+~
+1027 -1 11004
+> entry_prog 30~
+if ispc ($n)
+mpeachoat  $n _red Oh Dios Mio!!! Pero que diablos es eso?!!!
+mpeachoat  $n _red Joder!!! Decenas de cuerpos humanos colgando de ganchos!!!
+endif
+~
+> entry_prog 60~
+if ispc ($n)
+mpechoat $n _blu Te parece ver algo al fondo de la habitacion pero no logras 
+mpechoat $n _blu averiguar que es... 
+mpechoat $n _blu Un dulce olor a sangre coagulada llena tus fosas nasales.
+endif
+
+~
+|
+S
+#11006
+Unas escaleras~
+Las escaleras de Palacio son por supuesto de marmol gris de la mayor calidad
+que se puede encontrar en las canteras drow. Hacia arriba  esta  la  primera
+planta, al sur vuelves a la habitacion principal de Palacio.
+~
+0 1 0
+D2
+~
+~
+0 -1 11002
+D4
+~
+~
+0 0 11007
+S
+#11007
+Rellano del primer piso~
+Has subido al rellano del primer piso en el palacio, esta muy bien decorado
+grandes tapices de las tierras de oriente adornan las paredes.
+Solo hay una salida al sur, puedes subir o bajar a las diferentes plantas.
+~
+0 1 0
+D0
+~
+~
+0 -1 11016
+D2
+~
+~
+0 0 11008
+D5
+~
+~
+0 -1 11006
+S
+#11008
+Habitacion principal de la primera planta~
+Has entrado en una habitacion muy similar a la del piso anterior, la unica
+diferencia que llama tu atencion es que esta  completamente  destrozada, y
+que es ese endiablado olor que invade toda la planta?. Al este puedes  ver
+un dormitorio, al oeste esta la sala de juegos, al norte puedes ir  a  las
+escaleras que dan acceso a las demas plantas.
+~
+0 1 0
+D0
+~
+~
+0 -1 11007
+D1
+~
+~
+0 0 11009
+D2
+~
+~
+0 0 11013
+D3
+~
+~
+0 0 11010
+S
+#11009
+Dormitorio~
+Estas en el dormitorio de Emperador  de Constantinopla aqui tambien estan esas
+odiosas cortinas oscuras que  invaden todos  y  cada  uno  de  los   numerosos
+ventanales de Palacio. En la cabecera de la cama hay una gran mancha de sangre
+derramada de una copa de oro engarzada con esmeraldas que reposa tumbada sobre
+una mesita a un costado del lecho.
+~
+0 1 0
+D3
+~
+~
+0 -1 11008
+S
+#11010
+La sala de juegos~
+La sala de juegos, curioso nombre, ya que la sensacion que te produce estar
+denrtro de ella es mas  que  inquientante,  a  un  lado  ves  un  cojin  de
+proporciones gigantescas, todo seria normal si no fuese  por  ese  precioso
+cadaver empalado que tienes justamente en  frente  de  ti.  Colgado  de  su
+cuello hay una nota manchada de masa cerebral.
+~
+0 1 0
+D0
+~
+~
+0 0 11011
+D1
+~
+~
+0 -1 11008
+E
+nota~
+&RSi puedes leer esto significa que aun no estas muerto, buena senyal...
+&RAun estas a tiempo de escapar de este nido de perdicion basflema.~
+S
+#11011
+Salita de estar de Palacio~
+Estas en un salon mas pequenyo que el que atravesaste en la planta baja, los
+muebles estan carbonizados, como si  alguien  hubiese  intentado  quemar  la
+habitacion y a sus ocupantes. Ves un gran cuadro de la Familia  Imperial  de
+Constantinopla, la unica salida esta al sur.
+~
+0 1 0
+D0
+~
+~
+1 0 11012
+D2
+~
+~
+0 -1 11010
+S
+#11012
+La habitacion Secreta~
+A traves de la pintura del dormitorio has aparecido en una  habitacion oculta
+Parece ser un  sepulcro, puedes ver un ataud tallado en caoba maciza  situado
+justo al centro de la habitacion, eso  te produce  la  extranya  sensacion de
+que ese ataud es el centro de toda la actividad de Palacio. Las paredes estan
+pobladas de numerosas estanterias repletas de libros viejos.  Las  telaranyas
+lo cubren practicamente todo.
+~
+0 40902656 0
+D2
+~
+~
+35 0 11011
+S
+#11013
+Jardin Suspendido~
+Has pasado a un hermoso jardin suspendido a mas de 3 metros de altura,
+soportado por las grandes columnas de marmol  que viste  antes  en  el
+recibidor. Hay una gran variedad de flores y plantas, algunas de ellas
+imposibles de ver en otro lugar de toda Constantinopla. Al  oeste  ves
+un gran balcon, al norte queda la habitacion principal de esta planta.
+~
+0 1024 0
+D0
+~
+~
+0 -1 11008
+D3
+~
+~
+0 0 11014
+S
+#11014
+El balcon~
+Estas en un gran balcon, desde aqui puedes disfrutar de una maravillosa  vista
+de los grandes jardines de Palacio, el campo la muralla de Teodosio y la linea
+costera del Marmara al sureste, la unica salida  hacia  el  este  da  paso  al
+jardin colgante.
+~
+0 0 1
+D1
+~
+~
+0 -1 11013
+S
+#11015
+Pasillo de la segunda planta~
+Estas en un pasillo al este y conduce a un mirador al oeste. Sigues viendo
+telas oscuras por todas partes, todo esta cubierto por una espesa capa  de
+polvo, hay una trampilla en el techo, hacia abajo puedes volver al  primer
+piso de Palacio
+~
+0 1 0
+D1
+~
+~
+0 0 11018
+D3
+~
+~
+0 0 11017
+D4
+~
+~
+0 0 11020
+D5
+~
+~
+0 -1 11016
+S
+#11016
+Unas escaleras~
+Aqui hay unas escaleras que dan acceso a la segunda planta de Palacio, no ves
+que hayan alterado la distribucion de la decoracion si la comparamos  con  el
+tramo anterior de las escaleras.
+~
+0 1 0
+D2
+~
+~
+0 0 11007
+D4
+~
+~
+0 -1 11015
+S
+#11017
+En el mirador de Palacio~
+Te encuentras en el mirador del Palacio, al norte puedes ver una vasta extension
+de tierra destinada al entrenamiento del ejercito de la ciudad, alcanzas incluso
+a ver las murallas de Teodosio Segundo, la unica salida esta al este.
+~
+0 0 0
+D1
+~
+~
+0 -1 11015
+S
+#11018
+El fin del pasillo~
+Has llegado al final del pasillo, al norte hay una gran puerta de metal, las
+paredes del pasillo estan decoradas con friso, hay una salida al oeste.
+~
+0 1 0
+D0
+~
+~
+0 0 11019
+D3
+~
+~
+0 0 11015
+S
+#11019
+El sepulcro de Petronio~
+Has conseguido llegar hasta el sepulcro oculto de Petronio lider de una de
+las familias retonyo de Constantinopla, en estos momentos no se  encuentra
+aqui, pero yo de ti me largaria antes de que volviera.
+~
+0 4 0
+D0
+~
+~
+6 -1 11018
+S
+#11020
+El buhardilla de Palacio~
+Estas en la entrada de la buhardilla de Palacio, aqui se amontonan  los
+trastos viejos que anyo tras anyo va subiendo el servicio de la Familia
+Imperial en los meses de verano en los que ocupan esta sombria casa.
+~
+0 34611201 0
+D5
+~
+~
+35 -1 11015
+S
+#11021
+Sendero al sureste de Palacio~
+Te encuentras al final del camino acondicionado para carruajes, al noroeste
+pudes ver la entrada a lo que parece un gran Palacio, al sur esta el camino
+hacia Constantinopla, hacia el este y el oeste esta el sendero que rodea el
+palacio.
+~
+0 0 3
+D1
+~
+~
+0 -1 11027
+D2
+~
+~
+0 0 11041
+D3
+~
+~
+0 0 11022
+D7
+~
+~
+0 0 11000
+> rand_prog 75~
+mpechoat $n Oyes un extranyo rumor que te inquieta...~
+|
+S
+#11022
+Sendero~
+Estas en la parte que da al sur del Palacio de Jucendiae, notas el fuerte olor
+de excrementos de animales de granja. del establo  que distingues al norte, al
+sur puedes  ver el campo de cultivos que linda con el palacio, realmente mires
+donde mires ves campos de cultivos.
+~
+0 0 2
+D0
+~
+~
+0 0 11023
+D1
+~
+~
+0 0 11021
+S
+#11023
+Los establos del palacio~
+Al noroeste queda el palacio de Jucendiae, puedes ver unas monturas amontonadas
+en un rincon, todo esto esta repleto de mierda de animales. El sendero sigue al
+sur y al oeste.
+~
+0 0 0
+D2
+~
+~
+0 0 11022
+D3
+~
+~
+0 0 11024
+> rand_prog 75~
+mpechoat $n El olor de los excrementos te provoca nauseas...~
+> rand_prog 50~
+mpechoat $n Escuchas a los caballos protestar por algo....~
+|
+S
+#11024
+Siguiendo el Sendero~
+Te encuentras en la parte mas noreste del exterior del Palacio, el camino sigue
+hacia el oeste y hacia el norte.
+~
+0 0 0
+D0
+~
+~
+0 0 11028
+D1
+~
+~
+0 -1 11023
+D3
+~
+~
+0 0 11026
+S
+#11025
+Sendero al Noroeste de Palacio~
+Estas en la parte mas al Noroeste de exterior de Palacio, el camino sigue al
+oeste y al norte.
+~
+0 0 0
+D1
+~
+~
+0 0 11026
+S
+#11026
+Sendero al norte de Palacio~
+Estas en la parte exterior mas al norte del Palacio de Jucendiae, las salidas
+van de este a oeste, hacia el norte  esta  el  camino  hacia  los  campos  de
+entrenamiento militar de la ciudad de Constantinopla.
+~
+0 0 0
+D1
+~
+~
+0 -1 11024
+D3
+~
+~
+0 -1 11025
+S
+#11027
+Sendero al oeste de Palacio~
+Has llegado a la parte mas stuada al oeste de los exteriores de Palacio logras
+advertir que la roca esta enmohecida, parece que aqui hay mas humedad , quizas
+pasen por debajo de este ugar los conductos del alcantarillado de la ciodad de
+Constantinopla. El camino sigue al norte y al este
+~
+0 0 0
+D3
+~
+~
+0 0 11021
+S
+#11028
+Los campos de Cultivo~
+Dejaste atras el sendero para dirigirte a una pequenya casa al norde de Palacio
+parece un mausoleo  quizas  un  cementerio  particular de la  Familia  Imperial
+puedes ir a la pequenya casa o volver al sur
+~
+0 0 0
+D0
+~
+~
+0 0 11029
+D2
+~
+~
+0 -1 11024
+S
+#11029
+Senda a traves de los campos de cultivo~
+Sigues la senda a traves de  los cultivos, pero encuentras una bifurcacion con
+un otra senda que va al oeste, mirando en  esa direccion puedes llegar  a  ver
+infinidad de cipreses desafiando al cielo abierto. El camino continua al norte
+y al sur.
+~
+0 0 3
+D0
+~
+~
+0 0 11031
+D2
+~
+~
+0 -1 11028
+D3
+~
+~
+0 0 11030
+S
+#11030
+Senda oeste a traves de los cultivos~
+Estas en la senda al oeste de la bifurcacion de la senda a traves de los
+cultivos  mirando  al  oeste  ves lo que confirmaba  tus  sospechas,  un
+cementerio  privado apartado del camino  hacia Constantinopla  fuera  de
+las  miradas  de curiosos y saqueadores de tumbas.
+
+~
+0 0 3
+D1
+~
+~
+0 -1 11029
+D3
+~
+~
+0 0 11035
+S
+#11031
+Senda a traves de los campos de cultivo~
+Sigues el la senda que atraviesa los cultivos de la Familia Imperial, puedes ver ya mas cerca
+la pequenya casa, te intriga saber lo que alli encontraras, pero  puedes  volver
+por donde viniste al sur.
+~
+0 0 3
+D0
+~
+~
+35 -1 11032
+D2
+~
+~
+0 -1 11029
+S
+#11032
+Hall de la pequenta casa~
+Al llegar a la pequenya casa que habias visto descubres que no era un pantenon
+si no la casucha donde vive el servicio de la Familia Imperal. Es una pequenya
+casita con dos habitaciones.
+~
+0 0 0
+D0
+~
+~
+0 -1 11033
+D2
+~
+~
+35 -1 11031
+D8
+~
+~
+35 0 11034
+S
+#11033
+Domitorio de los Sirvientes de Palacio~
+Esto si que es una maravilla de la evolucion humana, en un cuartucho de 4 metros
+cuadrados se apelotona todo el servicio de Palacio que no es poco, y  duermen en
+perfecta armonia, increible.
+~
+0 0 0
+D2
+~
+~
+0 -1 11032
+S
+#11034
+La cocina de la casa de los sirvientes~
+Has entrado a la cocina masmugrienta y asquerosamente nauseabunda que  podras
+ver en todos tus anyos de vida o de no-vida, las ratas han construido todo un
+monopolio entre tanta porqueria.
+~
+0 0 0
+D7
+~
+~
+35 -1 11032
+S
+#11035
+Senda hacia el cementerio~
+Te encaminas hacia el cementerio por el sendero que ya te es completamente
+familiar, presientes que algo no va bien, no sabes lo que es  pero  tienes
+una mala sensacion, mejor que estes alerta.
+~
+0 0 3
+D0
+~
+~
+0 0 11036
+D1
+~
+~
+0 -1 11030
+S
+#11036
+Entrada al cementerio~
+Un gran arco de marmol gris da entrada al espectacular cementerio privado de
+la Familia Imperial, puedes ver que el camino esta rodeado por una hilera de
+pivotes de marmol negro. Las salidas estan al oeste y al este.
+~
+0 0 0
+D0
+~
+~
+0 0 11037
+D2
+~
+~
+0 -1 11035
+S
+#11037
+El pantenon de la Familia Imperial~
+Estas a las puertas de pantenon de la Familia Imperial, todo el esta contruido
+de materiales nobles no menos se podria esperar para tratarse de la  tumba  de
+infinidad de generaciones de Imperalistas mortales. Puedes entrar al  pantenon
+hacia el norte o si lo prefieres volver al sendero al sur.
+~
+0 0 1
+D0
+~
+~
+0 0 11038
+D2
+~
+~
+0 -1 11036
+S
+#11038
+El interior del pantenon~
+Has entrado al pantenon donde puedes ver, Dios Santo!!! todos los ataudes
+han sido saqueados y los cadaveres sacados de sus cajas. Yo de ti saldria
+de aqui inmediatamente no vayan a creer ques has sido tu.
+~
+0 0 0
+D2
+~
+~
+0 -1 11037
+S
+#11039
+Camino acondicionado para carruajes~
+Continuas tu camino hacia el &Bnoroeste &Ypor este trankilo camino que
+probablemente lleve a alguna gran ciudad por lo ancho del camino y en el
+buen estado en que se encuentra el firme, has oido hablar  de  una  gran 
+ciudad &rConstantinopla&Y, sabes por oidas que esta  mas  o  menos  por esa
+direccion, pero nunca has ido a visitarla, este es un buen momento para eso
+~
+0 0 3
+D7
+~
+~
+0 0 11040
+D8
+~
+~
+0 0 8920
+S
+#11040
+Camino acondicionado para carruajes~
+Aqui el camino se bifurca para tomar dos direcciones diferentes, una al
+&BOeste &Yy otra al &BNorte&Y, sabiendo que la ciudad de &RConstantinopla &Yesta al
+oeste y que el campo de entrenamiento militar y el &WPalacio de Jucendiae
+&Yestan al norte la decision es ahora solamente tuya.
+~
+0 0 3
+D0
+~
+~
+0 0 11041
+D8
+~
+~
+0 0 11039
+S
+#11041
+Sendero hacia el &WPalacio de Jucendiae~
+Has entrado en un sendero que lleva al gran y majestuoso &WPalacio de Jucendiae
+&Yresidencia de la Familia &yIperial &Y de &RConstantinopla &Y no sabes que encontraras
+alli pero iras de todos modos verdad.
+~
+0 0 3
+D0
+~
+~
+0 0 11021
+D2
+~
+~
+0 0 11040
+S
+#0
+
+
+#RESETS
+M 0 11000 3 11000
+G 0 11001 0
+M 0 11000 3 11000
+D 0 11000 0 2
+M 0 11016 5 11001
+D 0 11001 2 2
+O 0 11000 0 11004
+M 0 11002 5 11004
+G 0 11002 0
+D 0 11004 0 1
+M 0 11016 5 11005
+D 0 11005 2 1
+M 0 11016 5 11007
+M 0 11002 5 11008
+M 0 11002 5 11008
+M 0 11004 1 11009
+M 0 11009 2 11010
+M 0 11002 5 11011
+M 0 11015 1 11012
+E 0 11008 0 20
+E 0 11007 0 12
+E 0 11006 0 15
+E 0 11006 0 14
+E 0 11005 0 13
+E 0 11009 0 0
+D 0 11012 2 1
+M 0 11000 3 11013
+M 0 11006 1 11013
+M 0 11007 1 11014
+M 0 11002 5 11015
+M 0 11016 5 11016
+M 0 11016 5 11016
+M 0 11008 2 11017
+M 0 11008 2 11017
+M 0 11009 2 11018
+M 0 11010 1 11019
+D 0 11020 5 1
+M 0 11012 6 11024
+M 0 11012 6 11025
+M 0 11012 6 11027
+M 0 11012 6 11028
+M 0 11013 76 11028
+M 0 11012 6 11028
+M 0 11012 6 11030
+D 0 11031 0 1
+D 0 11032 2 1
+D 0 11032 8 1
+M 0 11013 6 11033
+M 0 11013 6 11033
+M 0 11013 6 11033
+M 0 11013 6 11033
+M 0 11013 6 11034
+D 0 11034 7 1
+D 0 11034 7 1
+M 0 11014 1 11037
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  11000 spec_guard
+M  11002 spec_fido
+M  11004 spec_cast_undead
+M  11006 spec_janitor
+M  11009 spec_thief
+M  11010 spec_breath_frost
+M  11011 spec_cast_cleric
+M  11012 spec_janitor
+M  11013 spec_thief
+M  11015 spec_breath_gas
+M  11016 spec_fido
+S
+
+
+#$

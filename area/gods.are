@@ -1,0 +1,1043 @@
+#AREA   El Eliseo de Los DioSeS~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 1
+#PROPIETARIO Inconquistable~
+#PUNTOS 0 0 0 0 0
+#AUTHOR SaNgUiNaRi~
+
+#RANGES
+116 131 0 256
+$
+
+#RESETMSG Un extranyo humo invade la habitacion...~
+
+#FLAGS
+0
+
+#ECONOMY 0 31863
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#1200
+mob~
+un mob~
+Un mob esta aqui.
+~
+~
+1073741825 0 0 C
+1 50 0 0d0+0 0d0+0
+100 4000
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+3 0 0 0 131073 1 0
+0 0 0 0 0 0 0 0
+#1201
+sangui dragon~
+SaNgUi~
+Un dragon te mira con cara de cabreado.
+~
+~
+1052227 1190756540 -1000 C
+95 999 -200 10d20+2000 1d1+999
+1000000 99000
+112 112 1
+25 25 25 25 25 25 25
+-999 -999 -999 -999 -999
+31 4 999 999 1048575 1048575 10
+100 50 13076063 0 3162079 0 2147483647 8372223
+#1202
+guardian dioses~
+el Guardian de los dioses~
+Un enorme guardian de hierro te mira con mala cara.
+~
+Es enorme y de hierro negro.~
+1073791015&2 1187029634 0 C
+90 100 -800 1d1+9500 3d1+300
+100000 60000000
+112 112 0
+25 25 25 25 25 25 25
+-99 -99 -99 -85 -98
+31 4 250 250 1 1 6
+250 250 259 0 3073 1048576 895672375 5382422
+#1203
+raketa~
+Alide~
+La NaDa Te InVaDe.
+~
+;P~
+3149377 1123614868 1000 C
+95 999 999 1d1+31900 1d1+999
+1000 99000
+112 112 1
+25 25 25 25 25 25 5
+-999 -999 -999 -999 -999
+31 4 999 999 1048575 1048575 15
+250 250 263762 4194303 4194303 0 2147483647 8372223
+#1204
+lupo~
+SiGo~
+El DiOs DeL MaL y La DeSgRaCiA eStA aQuI pArA lLeVaRsE tU AlMa.
+~
+~
+3411521 1190691006 -1000 C
+95 999 999 1d1+32699 1d1+2000
+10000 99000
+112 112 1
+25 25 25 25 25 25 25
+-999 -999 -999 -999 -999
+31 4 999 999 1048575 1048575 15
+250 250 0 0 3162111 0 2147483647 8372223
+#1205
+pato~
+pato WC~
+El pato mas molon que jamas has visto esta desinfectando el inodoro!!
+~
+Es molon, pero un pato, tio, es un pato.
+RECOMENDACION: Ve al psicoanalista.
+~
+2049 0 0 C
+55 1 1 1d1+1 1d1+320
+1 1
+112 112 0
+1 1 1 1 1 1 1
+-999 -999 -999 -999 -999
+30 1 1 1 1 1 20
+990 990 0 4194303 4194303 0 0 0
+> death_prog 100~
+mpmload 1205
+mpechoat $n El PaTo Se DeSgArRa La CaMiSa Al EsTiLo RaMbO y te dice 'La has cagau manuel!!!'
+mpslay $n~
+|
+#1206
+buho~
+un buho~
+Ves un buho de aproximadamente de 2 metros frente a ti. Joder!
+~
+Te observa fijamente con los ojos muy abiertos.
+El tio va de pasti.
+~
+265793 14682814 1000 C
+55 0 0 1d1+3200 1d1+500
+10000000 1500000
+112 108 1
+20 20 20 20 20 20 20
+-951 -621 -954 -478 -587
+33 12 150 150 257 257 15
+150 150 1146897 265602 3073 14 745248908 2297862
+> rand_prog 10~
+mpecho $n El buho empieza a ulular una cancion 'Arrecogiendo patatas te eh visto el culooooo'
+mpecho $n Joder! Que flipao que va el buho!!
+reir~
+|
+#1207
+cannabinoide~
+un cannabinoide feliz~
+Ves a un cannabinoide que esta por aqui silbando una cancion.
+~
+Es feliz!
+~
+67110977 348234686 1000 C
+55 1 1 1d1+3200 1d1+250
+1 1
+112 112 0
+25 25 25 25 25 25 25
+-99 -99 -999 -99 99
+84 0 1 1 608257 608257 15
+150 150 16 1130634 131240 394241 728233859 8010018
+#1208
+rubia~
+una rubia espectacular~
+Aqui esta tirada encima de la cama una rubia de ojos azules...
+~
+Jurarias que es Cameron Diaz....mmm... si no lo es se le parece :)
+Bueno... Ya sabes quien seria para Kayser la mujer ideal... si no
+tuviera ya la novia perfecta claro :)))
+~
+3139 4718592 1000 C
+2 0 0 1d1+1 1d1+1
+1 0
+106 112 2
+12 12 12 12 12 20 12
+0 0 0 0 0
+1 0 0 0 3 3 1
+0 0 0 0 0 0 0 0
+#1209
+mob~
+&rVaMPiRoMuD~
+&rVaMPiRoMuD
+~
+~
+1073743873&2 128 0 C
+1 50 0 0d0+0 0d0+0
+100 4000
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+3 0 0 0 1 1 0
+0 0 0 0 4194303 0 -454892547 134217723
+#1210
+nuria karkaseta~
+Nuria, la KaRKaSeTa~
+Una karkaseta esta pululando por aqui.
+~
+Si es una karkaseta, y de las wenas, aun no la has mirao y ia tan
+dandote elafits.
+ 
+~
+3139 4718592 1000 C
+2 0 0 1d1+1 1d1+1
+1 0
+106 112 2
+12 12 12 12 12 20 12
+0 0 0 0 0
+1 0 0 0 1 1 1
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1200
+inmortal tablon~
+El tablon de los inmortales~
+El tablon de los inmortales.~
+~
+12 0 0
+0 0 0 0
+1 10 1
+#1201
+sanguinari~
+el espadon de la Fantasia Final~
+Un enorme espadon esta flotando ante ti.~
+~
+5 33821155 8193
+0 550 550 11
+1000 150000 15000
+A
+18 2500
+A
+19 2500
+A
+31 10
+#1202
+rambo gato~
+un gato con cara de mala hostia.~
+Ves un gato de raza raza abisinia.~
+~
+5 33559039 40961
+12 250 275 2
+150 990000000 9900000
+A
+18 1000
+A
+19 1000
+> fight_prog 100~
+mpechoaround $n El gato de Alide se mosquea y te aranya!!!
+mpechoat $n Tu gato te dice 'Lo estamos haciendo divinamente'~
+|
+#1203
+mal~
+el Mal~
+Ves una enorme cantidad de energia negativa. Que mal rollo!!~
+~
+5 34085887 40961
+12 350 375 11
+150 9900 990
+A
+18 1500
+A
+19 1500
+A
+2 10
+> fight_prog 100~
+mpechoaround $n Unas extranyas nubes oscurecen el cielo y ves como los rayos protegen a $n.~
+|
+#1204
+pergamino guapo~
+un pergamino guapo~
+Ves un pergamino en el suelo. Que guapo!!~
+~
+2 -2147483294 1
+350 -1 158 65
+10 9900 990
+'sanctuary' 'restore mana' 'dragonskin'
+#1205
+capa sombras~
+la capa de las sombras~
+Ves como las sombras se arremolinan y forman una capa.~
+~
+9 33558998&4 1025
+99 99 0 0
+250 9900 990
+A
+17 -1000
+A
+5 10
+A
+25 10
+#1206
+soga~
+una soga de ahorcado~
+Aqui esta la soga con la que ahorcaron a Alide. Mhhhh... que morbo!~
+~
+9 168038887 5
+999 999 0 0
+25 9900 990
+A
+17 -1000
+A
+2 10
+A
+25 10
+#1207
+cicatriz~
+una larga cicatriz que lo recorre~
+Parece que al suelo le ha salido una cicatriz.~
+~
+9 33561591 5
+999 999 0 0
+25 9900 990
+A
+17 -1000
+A
+25 10
+A
+1 10
+#1208
+medallon resaca anti~
+el medallon anti-resacas~
+Un medallon usado para eliminar los traumaticos sintomas de la resaca ha sido depositado en el suelo.
+
+
+~
+~
+9 33558692 5
+0 0 0 0
+25 9000 900
+A
+59 110
+A
+3 10
+A
+4 10
+A
+48 101
+A
+40 101
+A
+18 150
+A
+19 150
+#1209
+medallon~
+el medallon del Mal~
+Te sientes inseguro, sientes  que el  miedo se  apodera de ti el medallon 
+
+
+que tienes ante ti te da mucho pero que mucho miedo.
+~
+~
+9 7158 5
+10 0 0 0
+25 9999 999
+A
+48 101
+A
+40 101
+A
+36 101
+#1210
+panyuelo sangre~
+un panyuelo empapado en sangre humana!!!~
+Hay un panyuelo empapado de sangre tirado en el suelo.~
+~
+9 4515 5
+10 0 0 0
+25 9999 999
+A
+59 110
+A
+48 101
+A
+40 101
+#1211
+bombilla luz~
+una bombilla Philips fundida~
+Una bombilla Philips fundida te alumbra por el camino :)~
+~
+1 1074270371 16385
+0 0 -1 0
+25 99000 9900
+A
+31 10
+A
+57 311
+A
+23 -2500
+#1212
+sigo~
+La IrA DeL dIoS dEl MaL~
+La ira del Dios del Mal irradia el poder absoluto del universo.~
+~
+1 1073748983 16385
+0 0 -1 0
+1000 99000 9900
+A
+23 -2500
+A
+57 311
+A
+31 10
+#1213
+daga~
+una daga atravesandosela~
+Ves ...?? Lo ves??~
+~
+9 1073746162 17
+10 0 0 0
+25 99000 9900
+A
+46 101
+A
+49 101
+A
+13 500
+#1214
+nada punto~
+NaDa~
+.~
+~
+9 1073746112 0
+0 0 0 0
+25 99000 9900
+A
+49 101
+A
+46 101
+A
+13 500
+#1215
+ojo~
+su tercer ojo te mira implacable~
+El ojo ke no ves.~
+~
+9 1073748723 17
+0 0 0 0
+25 99000 9900
+A
+13 500
+A
+46 101
+A
+49 101
+#1216
+llama infierno llamarada~
+una llamarada de fuego infernal~
+Una extranya llama de fuego infernal te esta achicharrando.~
+~
+18 4147 129
+1202 0 0 0
+100 10000 1000
+A
+18 -1500
+A
+19 -1500
+A
+17 5000
+#1217
+papel~
+un papel de fumar~
+Ves un Smoking200, mhhhh.... no te apetece fumarte un peta?~
+~
+18 4112 129
+1205 0 0 0
+3 99000 9900
+A
+18 -1500
+A
+19 -1500
+A
+17 3000
+#1218
+litro litrona cerveza~
+una litrona de cerveza~
+Ves un litro de Aguila bien fresquita.~
+~
+17 3 1
+15 15 1 0
+1 200 20
+#1219
+saco~
+un saco lleno de pastillas~
+Ves una bolsita enorme en el suelo.~
+~
+15 35 1
+3 0 -1 0
+15 9000000 9000000
+#1220
+pasti pastilla~
+una mitshubishi~
+Ves una pasti de las Mitshubushis!!!~
+~
+26 0&4 1
+75 -1 161 158 15 0
+1 15000000 15000000
+'solar flight' 'sanctuary' 'restore mana'
+#1221
+pocion~
+una pocion~
+Una pocion creada por Kayser.~
+~
+10 65 1
+500 -1 52 22 132 0
+1 1 1
+'poison' 'curse' 'blindness'
+#1222
+malkav~
+El simbolo del clan Malkavian.~
+Ves un extranyo objeto en el suelo.~
+~
+9 4323 5
+-50 -50 0 0
+1 1820130816 190000000
+A
+18 15
+A
+19 20
+A
+13 250
+A
+14 300
+A
+17 -50
+> wear_prog 100~
+if name ($n) == Malkav
+or isimmort ($n)
+mpechoat _red $n Una sensacion extranya te recorre el cuerpo.
+else
+mpechoat _red Como te atreves a vestirte el sagrado simbolo de los hijos de la luna!!!???
+mpechoat _red No lo vuelvas a intentar o pagaras con tu vida esta afrenta.
+force $n dejar malkav
+force $n sac malkav
+force $n regreso
+endif
+~
+|
+#1223
+taquilla~
+taquilla~
+Una taquilla.~
+~
+15 0 0
+1000 5 -1 0
+1 9000000 9000000
+#1225
+planta marihuana~
+Una planta de MaRiHuaNa~
+Mogollon de plantas de MaRiHuaNa estan debajo de un foco.~
+~
+25 -2147483582 0
+50 50 0 0
+1 3000 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1240
+fuente~
+Una fuente de calimocho~
+Una fuente de calimotxo esta a un lado de la habitacion.~
+~
+25 0 0
+50 50 0 0
+500 3000 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1241
+planta marihuana~
+Una planta de MaRiHuaNa~
+Mogollon de plantas de MaRiHuaNa estan debajo de un foco.~
+~
+25 1073741890 0
+50 50 0 0
+500 3000 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1242
+canuto maria marihuana~
+Un porro de Marihuana~
+Un wen porro de maria.~
+~
+10 66 0
+999 -1 105 93
+1 55555555 300
+'sanctuary' 'haste' 'frenzy'
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1250
+trozo lagrima dragon~
+Un trozo de cristal &z(&BAzUl&z)&w~
+Un trozo de la lagrima del dragon.~
+~
+8 -2147483647&64 1
+50 50 0 0 0 2
+1 2147483647 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1251
+trozo lagrima dragon~
+Un trozo de cristal &z(&RROJO&z)&w~
+Un trozo de la lagrima del dragon.~
+~
+8 -2147483647&64 1
+50 50 0 0 0 2
+1 2147483647 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1252
+trozo lagrima dragon~
+Un trozo de cristal &z(&rSANGRE&z)&w~
+Un trozo de la lagrima del dragon.~
+~
+8 1&64 1
+50 50 0 0 0 3
+1 2147483647 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1253
+trozo lagrima dragon~
+Un trozo de lagrima &z(OSKURO)&w~
+Un trozo de la lagrima del dragon.~
+~
+8 -2147483647&64 1
+50 50 0 0 0 1
+1 2147483647 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1254
+trozo lagrima dragon~
+Un trozo de lagrima &z(&YDORADA&z)&w~
+Un trozo de la lagrima del dragon.~
+~
+8 -2147483647&64 1
+50 50 0 0 0 4
+1 2147483647 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1255
+trozo lagrima dragon~
+Un trozo de lagrima &z(&gVERDE&z)&w~
+Un trozo de la lagrima del dragon.~
+~
+8 -2147483647&64 1
+50 50 0 0 0 145
+1 2147483647 30
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1256
+trozo lagrima dragon~
+Un trozo de lagrima &z(&WBLANKO&z)&w~
+Un trozo de la lagrima del dragon.~
+~
+8 -2147483647&64 1
+50 50 0 0 0 4
+1 2147483647 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1257
+trozo lagrima dragon~
+Un trozo de lagrima &z(&ONARANJA&z)&w~
+Un trozo de la lagrima del dragon.~
+~
+8 -2147483647&64 1
+50 50 0 0 0 12
+1 2147483647 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1258
+trozo lagrima dragon~
+Un trozo de lagrima &z(&CCELESTE&z)&w~
+Un trozo de la lagrima del dragon.~
+~
+8 1&64 1
+50 50 0 0 0 1000
+1 2147483647 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1259
+trozo lagrima dragon~
+Un trozo de lagrima &z(&YS&WA&YG&WR&YA&WD&YO&z)&w~
+Un trozo de la lagrima del dragon.~
+~
+8 -2147483647&64 1
+50 50 0 0 0 1
+1 2147483647 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1260
+trozo lagrima dragon~
+Un trozo de lagrima &z(&zM&rA&zL&rD&zI&rT&zO)&w~
+Un trozo de la lagrima del dragon.~
+~
+8 -2147483647&64 1
+50 50 0 0 0 1
+1 2147483647 300
+E
+fuente~
+It is very nice.  Made from fine white marble.
+~
+#1300
+tablongeneral~
+tablero~
+Tablon para las notas generacles y del Sr Mojon~
+~
+12 0 0
+0 0 0 0
+10000 0 0
+#1301
+tabloninmortal~
+tablero~
+Tablon para las notas de inmortal~
+~
+12 0 0
+0 0 0 0
+10000 0 0
+#1302
+tablonideas~
+tablero~
+Tablon para las notas ideas~
+~
+12 0 0
+0 0 0 0
+10000 0 0
+#1303
+tablero rol~
+El Tablero de Rol~
+Pues eso~
+~
+12 0 0
+0 0 0 0
+1 100000010 1001010
+#0
+
+
+#ROOMS
+#1200
+La sala de los inmortales~
+Estas en la sala de los inmortales, desde aqui es desde donde
+se toman todas las decisiones importantes sobre el mud, Quien
+se la mama a kien? A kien le toka pagar las birras? Etc...
+~
+0 37003340 9
+D0
+~
+~
+0 0 1201
+D4
+~
+~
+0 0 1204
+S
+#1201
+El pasillo a las habitaciones.~
+Estas en un pasillo enorme, las grandes columnas de oro macizo enaltecen
+la magnificencia del lugar. El pasillo sigue al norte y al sur.
+~
+0 8 0
+D1
+~
+puerta~
+7 1216 1202
+D2
+~
+~
+17825792 -1 1200
+D3
+~
+puerta~
+0 0 1200
+S
+#1202
+Los aposentos de SiGo.~
+Acabas de cagarla! Has entrado en los aposentos de SiGo, si te portas
+bien y esperas aqui sentado a que llegue es posible que no te mate alguno
+de sus guardias.
+~
+0 34676808 0
+D3
+El pasillo.~
+puerta~
+7 1216 1201
+D4
+~
+~
+0 0 1203
+S
+#1203
+El W.C. de SiGo~
+Pero pa que t'has movio del sitio MELON!!!!!
+Akabas de entrar en el sitio mas  repungante  del  universo despues de
+la habitacion del Gnorc (Snif! Ke mal huele), ves un gran inodoro del
+cual emergen enormes germenes que quieren matarte y quitarte tus px.
+~
+0 1057480 0
+D5
+~
+puerta~
+7 -1 1202
+> rand_prog 40~
+mpechoat $n Un enorme germen que se parece al Asaku, pasa zumbando por tu lao!!!
+mpechoat $n Konyo!! Viene el SuperPato del W.C.
+mpforce pato .La has cagado $n!! Estas con los germenes!! Vas a morir!!
+mpslay $n~
+|
+S
+#1204
+El nido de Alide?~
+Un gran maremagnum de arboles (Dentro de una casa?), troncos,
+arbustos y demas cosas serriles y dignas del mejor Malkavian.
+Ves plantas de Marihuana!! Muy desarrolladas, por uno de los
+cogollos parece que se puede subir.
+~
+0 0 9
+D4
+El camino del cogollo!! Que fumada!!~
+cogollo~
+71 1217 1205
+D5
+~
+~
+0 0 1200
+S
+#1205
+El interior del cogollo.~
+Un enorme panorama psicotropico se abre ante ti, es un  poco
+pegajoso y aceitoso, pero el aroma que  despiede  te  parece
+maravilloso.
+~
+0 34611208 0
+D5
+~
+puerta~
+7 1217 1204
+> entry_prog 100~
+mpechoat $n Escuchas una cancion de Bob Marley!
+mpechoat $n Te apetece fumarte un par de petas y tomarte unas birras!!
+mpforce canna mpoload 1218 1
+mpforce canna dejar litrona
+mpforce $n coger litrona
+mpforce $n bebe litrona
+mpechoat $n Del buen rollo!!~
+|
+S
+#1206
+Los Aposentos de Kayser y Lyessa~
+Has entrado en los aposentos del Dios Kayser y su novia Lyessa... Te
+recomiendo que salgas por donde has entrado porque si te sorprenden aqui
+recibiras una mas que dolorosa muerte. Una gran cama preside el centro de
+la habitacion.
+~
+0 33824776 0
+D1
+~
+~
+0 0 21001
+E
+cama~
+Aqui esta la cama de Kayser y Lyessa, una gran cama redonda que parece
+muy comoda. Tiene desde musica hasta funcion vibrador! Aqui es donde 
+descansa la pareja mas guapa del mud :)~
+> entry_prog 100~
+mpechoat $n Al entrar descubres un poster del unico y verdadero dios...Kurt Cobain!!
+mpforce $n . AmO a KuRt CoBaIn !!
+mpechoat $n Arf... no podias contenerte :)~
+|
+S
+#1207
+El vacio~
+Estas flotando en el vacio.
+~
+0 1076887564 1
+> speech_prog test~
+say triggered by (name):	$n
+say triggered by (name&title): 	$N
+say triggerer is (he,she,it):	$e
+say triggerer is (him,her,it):	$m
+say triggerer is (his,hers,its):$s
+say random char (name):		$r
+say random char (name&title or short): 	$R
+say random char  (he,she,it):	$J
+say random char (him,her,it):	$K
+say random char (his,hers,its):	$L
+~
+> speech_prog test2~
+say firstname of room:	 	$i
+say short_desc/title of room: 	$I
+say he/she/it of room:	 	$j
+say him/her/it of room:	 	$k
+say his/hers/its of room:	$l
+say firstname of victim: 	$t
+say short_desc/title of victim:	$T
+say he/she/it of victim: 	$E
+say him/her/it of victim: 	$M
+say his/hers/its of victim:	$S
+~
+|
+S
+#1209
+El CoRe De VaMPiRoMuD~
+Estas en el centro neuralgico de Vampiromud mundo de tinieblas...
+Ya te vale no?
+~
+0 3407880 0
+D1
+~
+puerta~
+7 1216 1201
+D2
+~
+~
+17825792 -1 1201
+D3
+~
+puerta~
+0 0 1201
+S
+#1290
+La sala de Iroeld~
+Estas en la sala de Iroeld, el cazador de cazadores, el lugar tiene un hedor
+viciado por los sangrientos trofeos que cuelgan por las paredes, etu cabeza
+empieza a zumbar i extranyas sombras pasan a tu alrededor... O no..
+ 
+En un rincon bastante oscuro puedes ver a Iroeld...
+~
+0 1076887564 1
+D0
+~
+~
+0 -1 21019
+> speech_prog test~
+say triggered by (name):	$n
+say triggered by (name&title): 	$N
+say triggerer is (he,she,it):	$e
+say triggerer is (him,her,it):	$m
+say triggerer is (his,hers,its):$s
+say random char (name):		$r
+say random char (name&title or short): 	$R
+say random char  (he,she,it):	$J
+say random char (him,her,it):	$K
+say random char (his,hers,its):	$L
+~
+> speech_prog test2~
+say firstname of room:	 	$i
+say short_desc/title of room: 	$I
+say he/she/it of room:	 	$j
+say him/her/it of room:	 	$k
+say his/hers/its of room:	$l
+say firstname of victim: 	$t
+say short_desc/title of victim:	$T
+say he/she/it of victim: 	$E
+say him/her/it of victim: 	$M
+say his/hers/its of victim:	$S
+~
+|
+S
+#1299
+&wLa HaBiTaCioN De &rSaNgUiNaRi~
+&zEstas en una habitacion mogollon de desordenada y con trastos
+por todos los lados, las armas y los objetos a medio crear estan
+tirados por ahi, en una pared puedes ver una afoto del ReNFiRe en
+pelotas, y si, la tiene pekenya. Puedes escuchar a gigatron a todo
+volumen desde algun lado de la habitacion, y las plantas de 
+&gMaRiHuaNa&z que estan en el hinvernadero, junto a los &gSaN PeDRoS&z,
+al fondo puedes ver a &gsANgUiNaRi&z rascandose las pelotas viendo
+los dibujos de Shin-Chan.
+~
+0 8196 0
+D0
+~
+Pasillo~
+0 -1 21001
+S
+#1300
+Sala de los tableros~
+La sala de los Tableros
+~
+0 51752580 0
+S
+#0
+
+
+#RESETS
+O 0 1200 1 1200
+M 0 1200 0 1200
+M 0 1202 1 1201
+D 0 1201 1 2
+D 0 1202 3 2
+M 0 1205 1 1203
+D 0 1203 5 2
+M 0 1206 1 1204
+G 0 1219 0
+D 0 1204 4 2
+M 0 1207 1 1205
+D 0 1205 5 2
+O 0 1301 0 1300
+O 0 1302 0 1300
+O 0 1303 0 1300
+O 0 1240 1 1299
+O 0 1241 2 1299
+M 0 1210 1 1299
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1201 spec_breath_any
+M  1202 spec_breath_any
+M  1203 spec_breath_any
+M  1204 spec_breath_any
+M  1205 spec_cast_cleric
+M  1206 spec_guard
+M  1207 spec_breath_any
+S
+
+
+#$
