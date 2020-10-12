@@ -1,0 +1,139 @@
+#AREA   Territorio Beythor~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 1
+#PROPIETARIO Inconquistable~
+#PUNTOS 0 0 0 0 0
+#AUTHOR Santos~
+
+#RANGES
+0 256 0 256
+$
+
+#RESETMSG Un extranyo humo invade la habitacion...~
+
+#FLAGS
+0
+
+#ECONOMY 0 10063018
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#0
+
+
+#OBJECTS
+#34000
+inmortal tablon~
+El tablon de los inmortales~
+El tablon de los inmortales.~
+~
+12 0 0
+0 0 0 0
+1 10 1
+#34199
+sanguinari~
+el espadon de la Fantasia Final~
+Un enorme espadon esta flotando ante ti.~
+~
+5 33821155 8193
+0 550 550 11
+1000 150000 15000
+A
+18 2500
+A
+19 2500
+A
+31 10
+#0
+
+
+#ROOMS
+#34000
+Territorio Beythor~
+Estas en una enorme explanada rodeada de arboles, en medio puedes
+ver a un constructor que espera las ordenes del lider de la familia
+para empezart a construir.
+~
+0 3146772 0
+D1
+~
+~
+0 -1 34001
+D5
+Una caida hasta el ejecutor.
+~
+~
+67108864 -1 21001
+S
+#34001
+Vestuario de la familia BeYTHoR~
+Acabas de entrar al vestuario de la familia BeYTHoR aqui es donde los
+valerosos guerreros de esta gran familia guardan los objetos que no
+tienen pensado usar por el momento.
+~
+0 3146772 0
+D3
+~
+~
+0 -1 34000
+S
+#34198
+El pasillo a las habitaciones.~
+Estas en un pasillo enorme, las grandes columnas de oro macizo enaltecen
+la magnificencia del lugar. El pasillo sigue al norte y al sur.
+~
+0 8 0
+D1
+~
+puerta~
+7 1216 1202
+D2
+~
+~
+17825792 -1 1200
+D3
+~
+puerta~
+0 0 1206
+S
+#34199
+Los aposentos de SiGo.~
+Acabas de cagarla! Has entrado en los aposentos de SiGo, si te portas
+bien y esperas aqui sentado a que llegue es posible que no te mate alguno
+de sus guardias.
+~
+0 34676808 0
+D3
+El pasillo.~
+puerta~
+7 1216 1201
+D4
+~
+~
+0 0 1203
+S
+#0
+
+
+#RESETS
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

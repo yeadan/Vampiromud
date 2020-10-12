@@ -1,0 +1,1882 @@
+#AREA   Ajedrez~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO Beythor~
+#PUNTOS 0 1792 0 2000 0
+#AUTHOR Heinrich~
+
+#RANGES
+40 256 0 256
+$
+
+#RESETMSG Una gigantesca mano vuelve a colocar las piezas en su sitio.~
+
+#FLAGS
+16 15
+
+#ECONOMY 0 2450000
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#30600
+peon blanco~
+el peon blanco~
+Un peon blanco mira a su alrededor buscando piezas negras con miedo.
+~
+Un peon blanco te mira y trata de huir.
+~
+195 32768 750 C
+44 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 0 0 0 0 0 0
+#30601
+peon negro~
+el peon negro~
+Un peon negro mira a su alrededor con miedo buscando piezas blancas.
+~
+Un peon negro te mira y trata de huir.
+~
+227 32768 -750 S
+46 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30602
+rey blanco~
+el rey blanco~
+El rey del ejercito blanco esta aqui mostrando toda su clase.
+~
+Ningun oponente le intimida, solo la reina negra.
+~
+67 8872 1000 S
+56 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+> death_prog 100~
+decir Agh!! Jaque MaTe!!
+mpechoat $n La figura que representa al rey blanco empieza a caerse a trozos.
+mptransfer $n 30665
+~
+|
+#30603
+rey negro~
+el rey negro~
+El rey negro del ejercito negro esta aqui mostrando toda su clase.
+~
+Ningun contrincante le preocupa, excepto la reina blanca.
+~
+67 8872 -1000 S
+57 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+> death_prog 100~
+decir Agh!! Jaque MaTe!!
+mpechoat $n La figura que representa al rey negro empieza a caerse a trozos.
+mptransfer $n 30665
+~
+|
+#30604
+reina blanca~
+la reina blanca~
+Una reina tallada en marmol esta aqui buscando al rey negro.
+~
+Para ser una pieza de roca, la reina es bastante femenina.
+~
+67 41512 750 S
+61 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+#30605
+reina negra~
+la reina negra~
+La reina negra se encuentra aqui buscando al rey blanco.
+~
+Para ser una pieza de roca, tiene unos rasgos muy femeninos.
+~
+67 41512 -750 S
+60 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+#30606
+torre negra~
+la torre negra~
+Una torre negra esta aqui, decidida a hacer cualquier cosa para proteger a su rey..
+~
+La torre es tan fuerte y formidable como para proteger a su rey de cualquier 
+tropa blanca k se mande para asesinarlo.
+~
+67 8744 -600 S
+54 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30607
+torre blanca~
+la torre blanca~
+La torre blanca esta aqui para proteger a su rey.
+~
+La torre blanca es tan fuerte y poderosa como para proteger a su rey de
+cualquier ataque del ejercito blanco.
+~
+67 8744 600 S
+53 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30608
+caballo negro~
+el caballo negro~
+Un caballo mas negro que la noche esta aqui buscando al rey blanco.
+~
+Levantado sobre sus patas traseras, relincha e intenta apartarte con rapidos
+movimientos de sus patas delanteras cuando te acercas.
+~
+67 8744 -350 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30609
+caballo blanco~
+el caballo blanco~
+Un caballo blanco mas brillante que la luz del alba esta aqui buscando al rey negro.
+~
+Levantado sobre sus patas traseras, relincha e intenta apartarte con rapidos
+movimientos de sus patas delanteras cuando te acercas.
+~
+65 8744 350 S
+49 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30610
+alfil negro~
+el alfil negro~
+Un alfil negro esta aqui protegiendo a su rey.
+~
+Un alfil negro se esta preparando para lanzarte un conjuro acojonante!!~
+193 8744 -650 S
+5 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30611
+alfil blanco~
+el alfil blanco~
+El alfil blanco esta aqui protegiendo a su rey.
+~
+Un alfil blanco se esta preparando para lanzarte un conjuro acojonante!!
+~
+195 8744 650 S
+5 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30621
+pulgar~
+dedo pulgar~
+El dedo mas gordo de todos intenta chafarte.
+~
+El dedo mas gordote, el k se komio el poyo, la vaca o lo k kerais
+Aquel sin el kual los autoestopistas tendrian menos futuro
+k el colchon de Jesus Gil.~
+99 371794620 0 C
+0 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+mpechoat $n La mano gigante se derrumba sobre ti.
+mpechoat $n De no ser porque has conseguido meterte por una de las heridas
+mpechoat $n que le has inflingido, estarias mas plano que un sello de diez.
+mpechoat $n Ahora te ves arrastrado por la corriente vital que fluye por las manos
+mpechoat $n del gigante.
+mpechoat $n Solo dios sabe en que parte del cuerpo acabaras.
+mptransfer $n 30671          
+~
+|
+#30622
+indice~
+dedo indice~
+El dedo indice te senyala mientras se lanza contra ti.
+~
+El dedo acusador y el del donut.
+Que seria de nuestras narices sin este util dedo??~
+35 4194494 0 C
+0 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#30623
+corazon~
+dedo corazon~
+El dedo mas largo de todos se erige ante ti con un gesto obsceno.
+~
+Dedo chulo donde los haya. Sirve para todo
+desde mostrar nuestros mas bajos pensamientos
+hasta de lograr k nuestra pareja toke el cielo.
+(aunk pa eso es preferible otros metodos)...
+~
+35 128 0 C
+0 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#30624
+torre negra~
+la torre negra~
+Una torre negra esta aqui, decidida a hacer cualquier cosa para proteger a su rey..
+~
+La torre es tan fuerte y formidable como para proteger a su rey de cualquier 
+tropa blanca k se mande para asesinarlo.
+~
+65 8744 -600 S
+54 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30625
+alfil blanco~
+el alfil blanco~
+El alfil blanco esta aqui protegiendo a su rey.
+~
+Un alfil blanco se esta preparando para lanzarte un conjuro acojonante!!
+~
+193 8744 650 S
+5 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30626
+caballo blanco~
+el caballo blanco~
+Un caballo blanco mas brillante que la luz del alba esta aqui buscando al rey negro.
+~
+Levantado sobre sus patas traseras, relincha e intenta apartarte con rapidos
+movimientos de sus patas delanteras cuando te acercas.
+~
+65 8744 350 S
+49 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30627
+torre blanca~
+la torre blanca~
+La torre blanca esta aqui para proteger a su rey.
+~
+La torre blanca es tan fuerte y poderosa como para proteger a su rey de
+cualquier ataque del ejercito blanco.
+~
+65 8744 600 S
+53 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30635
+caballo negro~
+el caballo negro~
+Un caballo mas negro que la noche esta aqui buscando al rey blanco.
+~
+Levantado sobre sus patas traseras, relincha e intenta apartarte con rapidos
+movimientos de sus patas delanteras cuando te acercas.
+~
+65 8744 -350 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30636
+alfil negro~
+el alfil negro~
+Un alfil negro esta aqui protegiendo a su rey.
+~
+Un alfil negro se esta preparando para lanzarte un conjuro acojonante!!~
+193 8744 -650 S
+5 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+#30637
+anular~
+dedo anular~
+El dedo anular esta aqui, mostrando su anillo de compromiso.
+~
+El dedo por el k se ve si uno esta pillao (o pillaa)
+pa los restos. Es la diferencia entre una vida placentera
+y otra de penurias (eso si, yo no digo cual es cual, k kada
+uno sake sus conclusiones).~
+35 128 0 C
+0 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#30638
+menyique~
+dedo menyique~
+Un dedo menyique esta aki, acomplejado por el tamanyo de sus companyeros.
+~
+~
+35 188 0 C
+0 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#30639
+cerebro~
+cerebro~
+Un gigantesco cerebro parece que va a explotar en cualquier instante.
+~
+El centro de cualquier ser. Su continua excitacion solo puede
+ser debida a la atencion k presta al tablero. Goza vienzo a los
+pj luchar contra sus piezas e idea estrategias contra ellos.~
+35 371829436 0 C
+0 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+mpechoat $n El cerebro revienta en mil pedacitos.
+mpechoat $n La cabeza para no ser menos sigue el mismo camino, dejandote
+mpechoat $n via libre para volver a la entrada del  ajedrez.
+mptransfer $n 30600
+~
+|
+#0
+
+
+#OBJECTS
+#30600
+cetro real~
+un cetro real~
+Un cetro real adornado con una gran perla esta tirado en el suelo.~
+~
+1 1 16385
+0 0 -1 0
+2 0 0
+A
+4 0
+A
+12 0
+A
+13 0
+#30601
+armadura de caballeria~
+armadura de caballeria~
+La armadura de la caballeria esta tirada en el suelo.~
+~
+9 0 9
+4 4 0 0
+5 0 0
+A
+19 0
+#30602
+corona de marmol~
+una corona de marmol~
+Una corona de marmol esta tirada aqui.~
+~
+9 64 17
+4 4 0 0
+5 0 0
+A
+5 0
+A
+19 0
+#30603
+rosario de perlas~
+un rosario de perlas~
+Un rosario de perlas rosadas esta tirado en el suelo.~
+~
+9 1 5
+3 3 0 0
+5 0 0
+A
+12 0
+#0
+
+
+#ROOMS
+#30600
+Entrada al TaBlErO De AjEdReZ~
+Conforme dejas atras la oscuridad del bosque, ves casillas blancas y negras.
+Sobre ellas se encuentran enormes figuras de marmol blancas y negras 
+moviendose y luchando entre si.
+~
+0 4 1
+D3
+~
+~
+0 -1 30605
+S
+#30601
+En una casilla negra.~
+Te encuentras en la esquina sureste del tablero.Solo alcanzas a divisar 
+casillas blancas y negras tan lejos como llega tu vista.
+~
+0 0 1
+D0
+~
+~
+0 -1 30602
+D3
+~
+~
+0 -1 30609
+S
+#30602
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado este del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30603
+D2
+~
+~
+0 -1 30601
+D3
+~
+~
+0 -1 30610
+S
+#30603
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30604
+D2
+~
+~
+0 -1 30602
+D3
+~
+~
+0 -1 30611
+S
+#30604
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado este del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30605
+D2
+~
+~
+0 -1 30603
+D3
+~
+~
+0 -1 30612
+S
+#30605
+En una casilla negra.~
+Te encuentras sobre una casilla negra en el lado este del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30606
+D1
+~
+~
+0 -1 30600
+D2
+~
+~
+0 -1 30604
+D3
+~
+~
+0 -1 30613
+S
+#30606
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado este del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30607
+D2
+~
+~
+0 -1 30605
+D3
+~
+~
+0 -1 30614
+S
+#30607
+En una casilla negra.~
+Te encuentras sobre una casilla negra en el lado este del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30608
+D2
+~
+~
+0 -1 30606
+D3
+~
+~
+0 -1 30615
+S
+#30608
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado noreste del tablero.
+~
+0 0 0
+D2
+~
+~
+0 -1 30607
+D3
+~
+~
+0 -1 30616
+S
+#30609
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado sur del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30610
+D1
+~
+~
+0 -1 30601
+D3
+~
+~
+0 -1 30617
+S
+#30610
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30611
+D1
+~
+~
+0 -1 30602
+D2
+~
+~
+0 -1 30609
+D3
+~
+~
+0 -1 30618
+S
+#30611
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30612
+D1
+~
+~
+0 -1 30603
+D2
+~
+~
+0 -1 30610
+D3
+~
+~
+0 -1 30619
+S
+#30612
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30613
+D1
+~
+~
+0 -1 30604
+D2
+~
+~
+0 -1 30611
+D3
+~
+~
+0 -1 30620
+S
+#30613
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30614
+D1
+~
+~
+0 -1 30605
+D2
+~
+~
+0 -1 30612
+D3
+~
+~
+0 -1 30621
+S
+#30614
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30615
+D1
+~
+~
+0 -1 30606
+D2
+~
+~
+0 -1 30613
+D3
+~
+~
+0 -1 30622
+S
+#30615
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30616
+D1
+~
+~
+0 -1 30607
+D2
+~
+~
+0 -1 30614
+D3
+~
+~
+0 -1 30623
+S
+#30616
+En una casilla negra.~
+Te encuentras sobre una casilla negra en el lado note del tablero.
+~
+0 0 1
+D1
+~
+~
+0 -1 30608
+D2
+~
+~
+0 -1 30615
+D3
+~
+~
+0 -1 30624
+S
+#30617
+En una casilla negra.~
+Te encuentras sobre una casilla negra en el lado norte del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30618
+D1
+~
+~
+0 -1 30609
+D3
+~
+~
+0 -1 30625
+S
+#30618
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30619
+D1
+~
+~
+0 -1 30610
+D2
+~
+~
+0 -1 30617
+D3
+~
+~
+0 -1 30626
+S
+#30619
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30620
+D1
+~
+~
+0 -1 30611
+D2
+~
+~
+0 -1 30618
+D3
+~
+~
+0 -1 30627
+S
+#30620
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30621
+D1
+~
+~
+0 -1 30612
+D2
+~
+~
+0 -1 30619
+D3
+~
+~
+0 -1 30628
+S
+#30621
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30622
+D1
+~
+~
+0 -1 30613
+D2
+~
+~
+0 -1 30620
+D3
+~
+~
+0 -1 30629
+S
+#30622
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30623
+D1
+~
+~
+0 -1 30614
+D2
+~
+~
+0 -1 30621
+D3
+~
+~
+0 -1 30630
+S
+#30623
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30624
+D1
+~
+~
+0 -1 30615
+D2
+~
+~
+0 -1 30622
+D3
+~
+~
+0 -1 30631
+S
+#30624
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado norte del tablero.
+~
+0 0 1
+D1
+~
+~
+0 -1 30616
+D2
+~
+~
+0 -1 30623
+D3
+~
+~
+0 -1 30632
+S
+#30625
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado sur del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30626
+D1
+~
+~
+0 -1 30617
+D3
+~
+~
+0 -1 30633
+S
+#30626
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30627
+D1
+~
+~
+0 -1 30618
+D2
+~
+~
+0 -1 30625
+D3
+~
+~
+0 -1 30634
+S
+#30627
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30628
+D1
+~
+~
+0 -1 30619
+D2
+~
+~
+0 -1 30626
+D3
+~
+~
+0 -1 30635
+S
+#30628
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30629
+D1
+~
+~
+0 -1 30620
+D2
+~
+~
+0 -1 30627
+D3
+~
+~
+0 -1 30636
+S
+#30629
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30630
+D1
+~
+~
+0 -1 30621
+D2
+~
+~
+0 -1 30628
+D3
+~
+~
+0 -1 30637
+S
+#30630
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30631
+D1
+~
+~
+0 -1 30622
+D2
+~
+~
+0 -1 30629
+D3
+~
+~
+0 -1 30638
+S
+#30631
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30632
+D1
+~
+~
+0 -1 30623
+D2
+~
+~
+0 -1 30630
+D3
+~
+~
+0 -1 30639
+S
+#30632
+En una casilla negra.~
+Te encuentras sobre una casilla negra en el lado norte del tablero.
+~
+0 0 1
+D1
+~
+~
+0 -1 30624
+D2
+~
+~
+0 -1 30631
+D3
+~
+~
+0 -1 30640
+S
+#30633
+En una casilla negra.~
+Te encuentras sobre una casilla negra en el lado sur del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30634
+D1
+~
+~
+0 -1 30625
+D3
+~
+~
+0 -1 30641
+S
+#30634
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30635
+D1
+~
+~
+0 -1 30626
+D2
+~
+~
+0 -1 30633
+D3
+~
+~
+0 -1 30642
+S
+#30635
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30636
+D1
+~
+~
+0 -1 30627
+D2
+~
+~
+0 -1 30634
+D3
+~
+~
+0 -1 30643
+S
+#30636
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30637
+D1
+~
+~
+0 -1 30628
+D2
+~
+~
+0 -1 30635
+D3
+~
+~
+0 -1 30644
+S
+#30637
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30638
+D1
+~
+~
+0 -1 30629
+D2
+~
+~
+0 -1 30636
+D3
+~
+~
+0 -1 30645
+S
+#30638
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30639
+D1
+~
+~
+0 -1 30630
+D2
+~
+~
+0 -1 30637
+D3
+~
+~
+0 -1 30646
+S
+#30639
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30640
+D1
+~
+~
+0 -1 30631
+D2
+~
+~
+0 -1 30638
+D3
+~
+~
+0 -1 30647
+S
+#30640
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado norte del tablero.
+~
+0 0 1
+D1
+~
+~
+0 -1 30632
+D2
+~
+~
+0 -1 30639
+D3
+~
+~
+0 -1 30648
+S
+#30641
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado sur del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30642
+D1
+~
+~
+0 -1 30633
+D3
+~
+~
+0 -1 30649
+S
+#30642
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30643
+D1
+~
+~
+0 -1 30634
+D2
+~
+~
+0 -1 30641
+D3
+~
+~
+0 -1 30650
+S
+#30643
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30644
+D1
+~
+~
+0 -1 30635
+D2
+~
+~
+0 -1 30642
+D3
+~
+~
+0 -1 30651
+S
+#30644
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30645
+D1
+~
+~
+0 -1 30636
+D2
+~
+~
+0 -1 30643
+D3
+~
+~
+0 -1 30652
+S
+#30645
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30646
+D1
+~
+~
+0 -1 30637
+D2
+~
+~
+0 -1 30644
+D3
+~
+~
+0 -1 30653
+S
+#30646
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30647
+D1
+~
+~
+0 -1 30638
+D2
+~
+~
+0 -1 30645
+D3
+~
+~
+0 -1 30654
+S
+#30647
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30648
+D1
+~
+~
+0 -1 30639
+D2
+~
+~
+0 -1 30646
+D3
+~
+~
+0 -1 30655
+S
+#30648
+En una casilla negra~
+Te encuentras sobre una casilla negra en el lado norte del tablero.
+~
+0 0 1
+D1
+~
+~
+0 -1 30640
+D2
+~
+~
+0 -1 30647
+D3
+~
+~
+0 -1 30656
+S
+#30649
+En una casilla negra.~
+Te encuentras sobre una casilla negra en el lado sur del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30650
+D1
+~
+~
+0 -1 30641
+D3
+~
+~
+0 -1 30657
+S
+#30650
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30651
+D1
+~
+~
+0 -1 30642
+D2
+~
+~
+0 -1 30649
+D3
+~
+~
+0 -1 30658
+S
+#30651
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30652
+D1
+~
+~
+0 -1 30643
+D2
+~
+~
+0 -1 30650
+D3
+~
+~
+0 -1 30659
+S
+#30652
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30653
+D1
+~
+~
+0 -1 30644
+D2
+~
+~
+0 -1 30651
+D3
+~
+~
+0 -1 30660
+S
+#30653
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30654
+D1
+~
+~
+0 -1 30645
+D2
+~
+~
+0 -1 30652
+D3
+~
+~
+0 -1 30661
+S
+#30654
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca.
+~
+0 0 1
+D0
+~
+~
+0 -1 30655
+D1
+~
+~
+0 -1 30646
+D2
+~
+~
+0 -1 30653
+D3
+~
+~
+0 -1 30662
+S
+#30655
+En una casilla negra.~
+Te encuentras sobre una casilla negra.
+~
+0 0 1
+D0
+~
+~
+0 -1 30656
+D1
+~
+~
+0 -1 30647
+D2
+~
+~
+0 -1 30654
+D3
+~
+~
+0 -1 30663
+S
+#30656
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado norte del tablero.
+~
+0 0 1
+D1
+~
+~
+0 -1 30648
+D2
+~
+~
+0 -1 30655
+D3
+~
+~
+0 -1 30664
+S
+#30657
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado suroeste del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30658
+D1
+~
+~
+0 -1 30649
+S
+#30658
+En una casilla negra.~
+Te encuentras sobre una casilla negra en el lado oeste del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30659
+D1
+~
+~
+0 -1 30650
+D2
+~
+~
+0 -1 30657
+S
+#30659
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado oeste del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30660
+D1
+~
+~
+0 -1 30651
+D2
+~
+~
+0 -1 30658
+S
+#30660
+En una casilla negra.~
+Te encuentras sobre una casilla negra en el lado este del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30661
+D1
+~
+~
+0 -1 30652
+D2
+~
+~
+0 -1 30659
+S
+#30661
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado oeste del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30662
+D1
+~
+~
+0 -1 30653
+D2
+~
+~
+0 -1 30660
+S
+#30662
+En una casilla negra.~
+Te encuentras sobre una casilla negra en el lado oeste del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30663
+D1
+~
+~
+0 -1 30654
+D2
+~
+~
+0 -1 30661
+S
+#30663
+En una casilla blanca.~
+Te encuentras sobre una casilla blanca en el lado oeste del tablero.
+~
+0 0 1
+D0
+~
+~
+0 -1 30664
+D1
+~
+~
+0 -1 30655
+D2
+~
+~
+0 -1 30662
+S
+#30664
+En una casilla negra.~
+Te encuentras sobre una casilla negra en el lado noroeste del tablero.
+~
+0 0 1
+D1
+~
+~
+0 -1 30656
+D2
+~
+~
+0 -1 30663
+S
+#30665
+Sobre el tablero.~
+Te encuentras sobre el tablero de ajedrez. Desde aqui la panoramica
+es estremecedora. Ves las continuas luchas entre el bando blanco y 
+negro.Al norte puedes divisar como una mano mueve con una rapidez pasmosa
+las fichas de un lado a otro.
+~
+0 8192 0
+D0
+~
+~
+0 0 30666
+S
+#30666
+Bajo la mano.~
+Una poderosa mano se cierne sobre ti, intentando atraparte. En esta
+habitacion se encuentra el dedo menyique que intenta aplastarte balanceandose
+de un lado a otro.
+
+~
+0 8192 0
+D0
+~
+~
+0 0 30667
+D2
+~
+~
+0 0 30665
+S
+#30667
+Bajo la mano.~
+Una poderosa mano se cierne sobre ti, intentando atraparte. En esta
+habitacion se encuentra el dedo anular que intenta aplastarte balanceandose
+de un lado a otro.
+~
+0 8192 0
+D0
+~
+~
+0 0 30668
+D2
+~
+~
+0 0 30666
+S
+#30668
+Bajo la mano.~
+Una poderosa mano se cierne sobre ti, intentando atraparte. En esta
+habitacion se encuentra el dedo corazon que intenta aplastarte balanceandose
+de un lado a otro.
+~
+0 8192 0
+D0
+~
+~
+0 0 30669
+D2
+~
+~
+0 0 30667
+S
+#30669
+Bajo la mano.~
+Una poderosa mano se cierne sobre ti, intentando atraparte. En esta
+habitacion se encuentra el dedo indice que intenta aplastarte balanceandose
+de un lado a otro.
+~
+0 8192 0
+D0
+~
+~
+0 0 30670
+D2
+~
+~
+0 0 30668
+S
+#30670
+Bajo la mano.~
+Una poderosa mano se cierne sobre ti, intentando atraparte. En esta
+habitacion se encuentra el dedo pulgar que intenta aplastarte balanceandose
+de un lado a otro.
+~
+0 8192 0
+D2
+~
+~
+0 0 30669
+S
+#30671
+En su cabeza.~
+Has sido teletransportado al interior del craneo del gigante que
+juega en el ajedrez. Ante ti se encuentra su cerebro que parece estar
+trabajando a una potencia maxima. La electricidad que desprende se nota 
+en el ambiente y las arterias y venas parecen ingurgitadas de sangre
+que no da a basto de alimentar a tan tremenda bestia.
+~
+0 8196 0
+S
+#0
+
+
+#RESETS
+M 1 30607 1 30601
+M 1 30609 1 30602
+E 1 30601 100 5
+M 1 30611 1 30603
+E 1 30603 100 3
+M 1 30604 1 30604
+E 1 30602 100 6
+M 1 30602 1 30605
+E 1 30600 100 0
+M 0 30625 0 30606
+M 0 30626 0 30607
+M 0 30627 0 30608
+M 1 30600 8 30609
+M 0 30600 8 30610
+M 0 30600 8 30611
+M 0 30600 8 30612
+M 0 30600 8 30613
+M 0 30600 8 30614
+M 0 30600 8 30615
+M 0 30600 8 30616
+M 1 30601 8 30649
+M 0 30601 8 30650
+M 0 30601 8 30651
+M 0 30601 8 30652
+M 0 30601 8 30653
+M 0 30601 8 30654
+M 0 30601 8 30655
+M 0 30601 8 30656
+M 1 30606 1 30657
+M 1 30608 2 30658
+E 1 30601 100 5
+M 1 30610 1 30659
+E 1 30603 100 3
+M 1 30605 1 30660
+E 1 30602 100 6
+M 1 30603 1 30661
+E 1 30600 100 0
+M 0 30636 0 30662
+M 1 30608 2 30663
+E 1 30601 100 5
+M 0 30635 0 30663
+M 0 30624 0 30664
+M 0 30638 1 30666
+M 0 30637 1 30667
+M 0 30623 1 30668
+M 0 30622 1 30669
+M 0 30621 1 30670
+M 0 30639 1 30671
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  30610 spec_cast_cleric
+M  30611 spec_cast_cleric
+M  30625 spec_cast_cleric
+M  30636 spec_cast_cleric
+M  30639 spec_breath_lightning
+S
+
+
+#$

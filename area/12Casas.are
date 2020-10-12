@@ -1,0 +1,1455 @@
+#AREA   Santuario de Atenea~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 1
+#PROPIETARIO Inconquistable~
+#PUNTOS 0 0 0 0 0
+#AUTHOR Naugrim~
+
+#RANGES
+0 265 0 256
+$
+
+#RESETMSG La paz vuelve a inundar el Santuario.~
+
+#FLAGS
+16 10
+
+#ECONOMY 0 871200000
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#22000
+Atenea~
+Atenea~
+Atenea esta aqui.
+~
+Atenea sostiene un gran cetro y un escudo como armas, el gran cetro
+simboliza a la diosa de la victoria, y con el escudo Atenea es invulnerable
+a los ataques de sus enemigos.
+~
+4194371 0 0 C
+5 0 0 1d10+100 0d0+0
+0 0
+112 112 2
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 4 0 0 0 0 524544
+#22001
+Saori~
+Saori Kido~
+Saori Kido esta aqui.
+~
+Saori Kido es la reencarnación de Atenea, tu deber es salvarla aunque
+para ello debas sacrificar tu vida. Ella esta moribunda.
+~
+67 2176 0 C
+4 0 0 0d0+100 0d0+0
+0 0
+112 112 2
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 50 0 0 0 0 0
+#22002
+Patriarca~
+El Patriarca~
+&YEl Gran Patriarca &Wte habla de sus deseos de dominar el mundo antes
+de aniquilarte.
+~
+El gran Patriarca te mira con desprecio puesto que intentas
+desvaratar sus planes de asesinar a Atenea y asi poder gobernar el
+mundo.
+~
+67 168 0 C
+8 0 0 0d0+500 3d50+100
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 262144 3 0 0 8256 524544
+#22003
+caballero~
+un caballero renegado~
+Un caballero renegado esta por aqui.
+~
+Un caballero renegado es aquel que no ha dado la talla para convertirse
+en caballero de Atenea, son perdedores natos pero no por ello menos
+peligrosos que un caballero de verdad.
+~
+67 32904 0 C
+3 0 0 0d0+100 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 24 135 0 256 32768 524544
+#22004
+soldado~
+soldado de elite~
+Un soldado de elite esta haciendo su ronda por aqui.
+~
+Un soldado de elite es aquel que ha demostrado su valia en el campo
+de batalla pero que no ha conseguido convertirse en caballero,
+todos esperan su oportunidad y te demostraran de que son capaces.
+~
+65 21004296 0 C
+2 0 0 1d10+100 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 24 135 0 256 32768 524544
+#22005
+Seiya~
+Seiya~
+&WSeiya&w, caballero de pegaso prepara sus meteoros al verte venir.
+~
+El caballero de bronce de pegaso Seiya esta aqui intentando salvar
+a su diosa Atenea.
+~
+67 2176 0 C
+9 0 0 0d0+100 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22006
+Shiryu~
+Shiryu~
+Shiryu &Wdescarga la cólera del último dragón sobre tí.
+~
+Puedes ver al caballero del dragon Shiryu defendiendose detras
+de su escudo de las embestidas de sus enemigos.
+~
+67 2176 0 C
+8 0 0 0d0+100 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22007
+Hyoga~
+hyoga~
+&CHyoga&w se ve rodeado de un aire glacial antes de atacarte.
+~
+Hyoga obtubo la armadura del Cisne entrenando en Siberia con su maestro
+Cristal. La Madre de Hyoga murio cuando este era un niño al hundirse el
+barco en el que viajaban en los mares de Siberia por lo que su cuerpo se
+encuentra perfectamente conservado en el fondo del mar y Hyoga con
+frecuencia la visita.
+~
+67 268435584 0 C
+8 0 0 0d0+100 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22008
+shun~
+shun~
+&PShun, caballero de Andromeda &Wsufre ante la idea de destruirte.
+~
+El caballero de Andromeda es el mas pacifico de los caballeros
+y no le gusta pelear aunque tiene un gran poder, utiliza dos
+cadenas una para el ataque y otra para la defenza es capaz
+con su cadena de sentir al enemigo y puede encontrarlo
+aunque se se encuentre a miles de kilometros de distancia.
+~
+67 384 0 C
+9 0 0 0d0+100 0d0+0
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22009
+Ikki~
+ikki~
+&RIkki &Westá rodeado de llamas esperando a un adversario al cual mandar al infierno.
+~
+~
+67 33556608 0 C
+8 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22010
+Mu~
+Mu de Aries~
+&YMu, Caballero de Oro de Aries &Wexamina con gran interés tu armadura
+y sonrie.
+~
+Mu de Aries, tiene grandes poderes de telequinesis y del dominio de la
+mente, es capaz de encontrar personas en otras dimenciones
+y es el unico capaz de reparar armaduras sagradas.
+~
+67 128 0 C
+9 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22011
+aldebaran~
+aldebaran de tauro~
+&YAldebaran de Tauro &Wte desafía con una carcajada.
+~
+Aldebaran de Tauro es el Caballero mas fuerte fisicamente hablando
+mide mas de 2 metros y sus masa muscular es impresionante.
+~
+67 128 0 C
+8 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+20 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 5 0 0 0 0 0 0
+#22012
+mascara de la muerte~
+mascara de la muerte~
+&YMascara de la muerte &Wobserva tu rostro y busca un sitio donde
+ponerlo.
+~
+Mascara de la muerte aparece cuando es enviado a matar al anciano
+maestro a fin de recuperar la armadura de libra, recibe ese nombre ya que
+guarda los rostros de sus victimas como decoracion en su casa, el cuenta con
+el ataque de "las sombras del espiritu" con la cual te manda a la linea
+que separa con el otro mundo en donde se pueden ver a todas las almas
+que estan a punto de morir.
+~
+67 1152 0 C
+6 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22013
+shaka de virgo~
+shaka de virgo~
+&YShaka de Virgo &Westá aquí meditando y no parece poner mucho interés en tu presencia.
+~
+Es considerado como el caballero mas cercano al Gran Patriarca,
+tiene un gran poder y una gran sabiduria, Shaka mantiene los ojos
+cerrados durante el combate, ya que si los abre demostrara su autentico
+poder.~
+67 2097280 0 C
+8 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22014
+aioras de leo~
+aioras de leo~
+&YAioras de Leo &Wprepara su ataque contra tí poseído por un hechizo.
+~
+Aioras por ser el hermano menor de Aioros fue despreciado desde ninyo
+y sufrio de constantes maltratos, asi que cuando se le presento la
+oportunidad
+de matar a los caballeros de bronce y recuperar la armadura de
+Sagitario
+lo vio como una oportunidad de recuperar el honor perdido.~
+67 128 0 C
+7 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22015
+milo escorpio~
+milo de escorpio~
+&YMilo de Escorpio &Wafila sus garras envenenadas y te invita a
+adentrarte más en su casa.
+~
+El caballero de escorpio resulta letal gracias a su veneno,
+que infringe a los que osan adentrarse en el Santuario.~
+67 128 0 C
+7 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22016
+shura capricornio~
+shura de capricornio~
+&YShura de Capricornio &Winvoca a excalibur para cortarte en dos.
+~
+Se dice que Shura de Capricornio es el mas leal de los caballeros
+de Atenea desde la antiguedad, por eso Atenea le obsequio con
+excalibur, la espada capaz de cortar cualquier materia.~
+67 128 0 C
+8 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22017
+camus acuario~
+camus de acuario~
+&YCamus de Acuario &Wposa su mirada helada sobre tí.
+~
+Camus fue el maestro del caballero Crystal que fue a su vez maestro de
+Hyoga.
+Camus se encuentra con Hyoga en la casa de Libra, en donde trata de
+ensenyarle
+a Hyoga como descubrir el septimo sentido, tratando de que olvide los
+sentimientos hacia su madre, pero al no poder hacerlo lo entierra en un
+ataud de hielo para toda la eternidad.
+
+~
+67 268435584 0 C
+8 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22018
+afrodita piscis~
+afrodita de piscis~
+&YAfrodita de Piscis &Wparece deborarte con su mirada...
+~
+Afrodita se dice ser el caballero mas hermoso que existe, y no parece
+muy varonil que digamos, es un amante de la belleza, sus ataques son
+por medio de rosas de diferentes colores roja, negra, blanca.~
+262211 384 0 C
+9 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22019
+armadura geminis~
+armadura de geminis~
+&YLa armadura de Géminis &Wte ataca controlada por alguien en la
+lejania...
+~
+Ves como la armadura se mueve sola sin ser vestida por nadie,
+espera unos instantes y se abalanza sobre ti.~
+67 557184 0 C
+5 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22020
+casios~
+casios~
+Casios está aquí esperando que le demuestres tu valor.
+~
+Casios sale a tu encuentro para probar por el mismo que eres digno
+de la armadura de caballero que vistes.~
+67 128 0 C
+6 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#22021
+caballero plata~
+un caballero de plata~
+Un caballero de plata esta por aqui.
+~
+~
+71 524288 0 C
+4 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#22000
+Cetro~
+Cetro de Atenea~
+El Cetro de Atenea simboliza a la diosa de la victoria que la protege
+
+y le otorga salir siempre victoriosa de sus enfrentamientos.~
+~
+4 -2146942688 16385
+12 0 0 -1
+1 0 0
+'black fist'
+A
+23 0
+A
+19 0
+A
+18 0
+#22001
+Escudo Atenea~
+El Escudo de Atenea~
+El escudo de Atenea le asegura ser inmune a cualquier ataque de sus
+enemigos.~
+~
+9 -2146942720 513
+12 12 0 0
+1 0 0
+A
+18 0
+A
+19 0
+#22002
+saga anillo~
+AniLLo de SaGa~
+Este es el anillo en el que Saga, de Géminis, basa gran parte de su poder.~
+~
+9 -2146959070 3
+12 12 0 0
+1 0 0
+A
+19 0
+A
+18 0
+A
+14 0
+A
+23 0
+A
+24 0
+#22003
+lanza griega~
+lanza griega~
+Una lanza griega es un arma usada por los luchadores de baja categoria
+
+por su facilidad de manejo.~
+~
+5 573728 8193
+12 10 12 1
+1 0 0
+A
+19 0
+#22004
+asta toro~
+AsTa DeL ToRo~
+Esta es el asta que conseguiste arrebatar a aldebaran de tauro,
+
+esto prueba tu valia como caballero.~
+~
+9 524579 17
+20 25 12 0
+1 0 0
+A
+18 15
+A
+19 18
+A
+24 -2
+#22005
+acuario armadura~
+ArMaDuRa De Oro De ACuaRio~
+Esta es la armadura mas resistente de las doce de oro, capaz de 
+
+resistir 
+las temperaturas mas extremas.~
+~
+9 524577 9
+35 26 12 0
+1 0 0
+A
+19 0
+A
+18 0
+A
+17 0
+A
+24 0
+A
+23 0
+#22006
+rosa roja~
+&RRoSa RoJa~
+Esta es la rosa que sostiene Afrodita es sus manos mientras te ataca, 
+
+notas algo raro al ponertela detras de la oreja...~
+~
+9 -1073168126 65537
+0 0 12 0
+1 0 0
+A
+19 20
+A
+18 20
+A
+6 1
+#0
+
+
+#ROOMS
+#22000
+Entrada al Santuario.~
+Estas ante las puertas del santuario, Atenea a sido herida de muerte
+y solo el Patriarca puede salvarla. Tu deber como caballero es llegar
+al Patriarca antes de doce horas...
+~
+0 0 0
+D1
+~
+~
+0 0 22001
+D5
+~
+~
+0 -1 8747
+S
+#22001
+Camino a la Casa De Aries.~
+Subes las escaleras hacia la Casa de Aries, todavia puedes ver abajo
+el cuerpo inerte de Atenea, debes darte prisa si quieres salvarla..
+~
+0 0 0
+D1
+~
+~
+0 0 22002
+D3
+~
+~
+0 0 22000
+S
+#22002
+Ante la Casa de Aries.~
+Estas ante la Casa de Aries, divisas una figura difusa a lo lejos..
+sientes un gran cosmos vigilandote.
+~
+0 0 0
+D2
+~
+~
+0 0 22003
+D3
+~
+~
+0 0 22001
+S
+#22003
+Casa de Aries.~
+Estas en el Templo de Aries, aqui esta Mu, el Caballero de Oro
+que protege esta casa, para tu sorpresa este Caballero no desea
+luchar contigo i se ofrece voluntario para reparar tu armadura...
+~
+0 0 0
+D0
+~
+~
+0 0 22002
+D1
+~
+~
+0 0 22004
+S
+#22004
+Salida de Casa de Aries.~
+Sales del Templo de Aries con tu armadura reforzada gracias a Mu,
+es hora de empezar los combates.
+~
+0 0 0
+D2
+~
+~
+0 0 22005
+D3
+~
+~
+0 0 22003
+S
+#22005
+Llegando a la Casa de Tauro.~
+De camino a la Casa de Tauro, todavía le das vueltas a los consejos
+que te ha dado Mu... 'solo venceras a un Caballero de Oro si despiertas
+tu séptimo sentido...'
+~
+0 0 0
+D0
+~
+~
+0 0 22004
+D6
+~
+~
+0 0 22006
+S
+#22006
+Frente a la Casa de Tauro.~
+Para tu sorpresa no tardas en acercarte a la segunda casa,
+estas seguro de que esta vez sera mas dificil que la anterior
+para conseguir cruzarla.
+~
+0 0 0
+D0
+~
+~
+0 0 22007
+D9
+~
+~
+0 0 22005
+S
+#22007
+Casa De Tauro.~
+Aqui te espera Aldebaran con los brazos 'abiertos', empiezan los 
+verdaderos combates para salvar a Atenea, 'Arde CoSMoS!'
+~
+0 0 0
+D0
+~
+~
+0 0 22008
+D2
+~
+~
+0 0 22006
+S
+#22008
+Salida de la Casa de Tauro~
+Sales un poco magullado de tu primer enfrentamiento con un Caballero de 
+Oro, pero todavia no has perdido la esperanza de llegar a tiempo ante la 
+presencia del gran Patriarca.
+~
+0 0 0
+D1
+~
+~
+0 0 22009
+D2
+~
+~
+0 0 22007
+S
+#22009
+De Camino a la Casa de Géminis.~
+Un aura extranya rodea este lugar, no sabes que es pero sientes a 
+alguien vigilandote a distancia pero no logras sentir que haya ningun 
+Caballero dentro del Templo.
+~
+0 0 0
+D0
+~
+~
+0 0 22010
+D3
+~
+~
+0 0 22008
+S
+#22010
+Acercándote a la Casa de Géminis.~
+Te sientes desorientado, no sabes cuanto tiempo llevarás andando
+pero crees haber pasado por aquí antes, parece que estas dando
+vueltas en circulo que no te conducen a ningun lugar.
+~
+0 0 0
+D2
+~
+~
+0 0 22009
+D7
+~
+~
+0 0 22011
+S
+#22011
+Camino a la Casa de Géminis.~
+Ves la Casa de Géminis a la misma distancia que hace un buen rato,
+por más que avanzas no parece que te estes acercando mucho.
+~
+0 0 0
+D4
+~
+~
+0 0 22012
+D8
+~
+~
+0 0 22010
+S
+#22012
+Escaleras a la Casa de Géminis.~
+Subes por las escaleras que conducen a la Casa de Géminis,
+no ves a nadie por aquí pero te sientes vigilado todo el tiempo.
+~
+0 0 0
+D0
+~
+~
+0 0 22013
+D5
+~
+~
+0 0 22011
+S
+#22013
+Dentro de la Casa de Géminis.~
+Estás dentro de la casa de Géminis, pero ningún Caballero a salido
+a tu encuentro, parece que ésta Casa está vacía.
+~
+0 0 0
+D1
+~
+~
+0 0 22014
+D2
+~
+~
+0 0 22012
+S
+#22014
+Final de la Casa de Géminis.~
+Estás delante de lo que crees ser la salida de la Casa de Géminis,
+pero justo antes de salir sale a tu encuentro la armadura de Géminis 
+que te ataca!
+~
+0 0 0
+D0
+~
+~
+0 0 22015
+D3
+~
+~
+0 0 22013
+S
+#22015
+Salida de la Casa de Géminis.~
+Sales de la tercera casa con un sentimiento inquieto, quien controlaría
+la armadura que te atacó? Una armadura no se puede mover sola..
+~
+0 0 0
+D2
+~
+~
+0 0 22014
+D6
+~
+~
+0 0 22016
+S
+#22016
+De Camino a la Casa de Cáncer.~
+Te pones de camino hacia la 4º casa con la esperanza de no haber 
+perdido mucho tiempo en la casa de Géminis.
+~
+0 0 0
+D3
+~
+~
+0 0 22017
+D9
+~
+~
+0 0 22015
+S
+#22017
+Ante la Casa de Cáncer.~
+Estas ante la casa de Cáncer, un lugar siniestro que no deja de
+producirte una extranya sensación, la muerte esta presente en este 
+lugar.
+~
+0 0 0
+D1
+~
+~
+0 0 22016
+D6
+~
+~
+0 0 22018
+S
+#22018
+En la Casa de Cáncer.~
+Esta es la Casa de Mascara de la Muerte, el único Caballero cruel y 
+despiadado. Miles de rostros decoran el interior del templo, son los rostros
+de sus víctimas, entre los que puedes ver rostros de ninyos que se pusieron 
+en medio por error.
+~
+0 0 0
+D1
+~
+~
+0 0 22019
+D9
+~
+~
+0 0 22017
+S
+#22019
+Salida de la Casa de Cáncer.~
+Sales de la Casa de Cáncer despues de ver como los rostros que 
+decoraban la habitación cobraban vida i devoraban a su asesino, nunca 
+olvidaras tal escena macabra.
+~
+0 0 0
+D0
+~
+~
+0 0 22020
+D3
+~
+~
+0 0 22018
+S
+#22020
+De camino a la Casa de Leo.~
+Emprendes camino hacia la Casa de Leo, uno de los más leales Caballeros
+de Oro al servicio de Atenea. Pero antes de que des un paso más te sale
+al paso Casios, el cual dice que deberas derrotarlo para mostrar tu 
+valía como protector de Atenea.
+~
+0 0 0
+D0
+~
+~
+0 0 22021
+D2
+~
+~
+0 0 22019
+S
+#22021
+En la Casa de Leo.~
+Estás en la 5ª Casa, aquí está el Caballero de Oro de Leo Aioras 
+esperando que te atrevas a atacarle para proseguir tu camino hacia
+el patriarca.
+~
+0 0 0
+D0
+~
+~
+0 0 22022
+D2
+~
+~
+0 0 22020
+S
+#22022
+Salida de la Casa de Leo.~
+Sales de la Casa de Leo y te pones en camino hacia la Casa de Virgo,
+uno de los Caballeros de Oro mas temido y respetado por todos.
+~
+0 0 0
+D2
+~
+~
+0 0 22021
+D6
+~
+~
+0 0 22023
+S
+#22023
+De Camino a la Casa de Virgo.~
+Ves un Templo redondo coronando la cima de esta montanya, posiblemente
+sea la Casa de Virgo, no ves manera de rodearla ni seguir avanzando 
+como no sea cruzandola.
+~
+0 0 0
+D4
+~
+~
+0 0 22024
+D9
+~
+~
+0 0 22022
+S
+#22024
+Casa de Virgo.~
+Aqui está Shaka esperandote con los ojos cerrados, ni siquiera se 
+inmuta ante tu presencia, pareces ser para él un insignificante microbio 
+que no merece atención.
+~
+0 0 0
+D0
+~
+~
+0 0 22025
+D5
+~
+~
+0 0 22023
+S
+#22025
+Salida de la Casa de Virgo.~
+Sales de la Casa de Virgo y puedes ver a la distancia el reloj que 
+marca el tiempo que te queda, las llamas se consumen muy rapido y 
+parece que no te va a dar tiempo a llegar antes de que la última llama
+se extinga...
+~
+0 0 0
+D2
+~
+~
+0 0 22024
+D6
+~
+~
+0 0 22026
+S
+#22026
+Camino a la Casa de Libra.~
+Te pones rumbo a la Casa de Libra, un aire glacial recorre tu cuerpo,
+no debería hacer tanto frío aqui...
+~
+0 0 0
+D0
+~
+~
+0 0 22027
+D9
+~
+~
+0 0 22025
+S
+#22027
+Llegando a la Casa de Libra.~
+Otra vez sientes que la Casa está vacía, no crees que ningún Caballero
+esté guardandola, será facil cruzarla.
+~
+0 0 0
+D0
+~
+~
+0 0 22028
+D2
+~
+~
+0 0 22026
+S
+#22028
+Casa de Libra.~
+Aquí puedes ver un Sarcófago de hielo que ha atrapado para siempre a
+Hyoga, no sabes que hace aquí ni quien a podido hacer esto, pero 
+sientes que alguien te esta observando desde la penumbra.
+~
+0 0 0
+D0
+~
+~
+0 0 22029
+D2
+~
+~
+0 0 22027
+S
+#22029
+Salida de la Casa de Libra.~
+Sales de la Casa de Libra despues de un duro combate, tan sólo 5 Casas
+te separan de tu objetivo final, obligar al Patriarca a que salve a 
+Atenea.
+~
+0 0 0
+D0
+~
+~
+0 0 22030
+D2
+~
+~
+0 0 22028
+S
+#22030
+Camino a la Casa de Escorpio.~
+Emprendes el camino hacia la Casa de Escorpio, cada vez los combates
+se hacen más y más largos y te sientes algo exhausto.
+~
+0 0 0
+D1
+~
+~
+0 0 22031
+D2
+~
+~
+0 0 22029
+S
+#22031
+Hacia la octava Casa.~
+Sigues tu camino hacia la Casa de Escorpio, el tiempo se acaba!
+Date prisa!
+~
+0 0 0
+D3
+~
+~
+0 0 22030
+D6
+~
+~
+0 0 22032
+S
+#22032
+Casa de Escorpio.~
+Aquí esta Milo, Caballero de Oro de Escorpio conocido por sus venenosas
+picaduras de escorpión capaces de dejar fuera de combate a cualquiera
+que se atreva a adentrarse en su Casa.
+~
+0 0 0
+D0
+~
+~
+0 0 22033
+D9
+~
+~
+0 0 22031
+S
+#22033
+Saliendo de la Casa de Escorpio.~
+Sales de la Casa de Escorpio con las picaduras letales de Milo
+recorriendo tu cuerpo, tu vista se vuelve borrosa a causa del
+veneno, pero no tienes más remedio que continuar.
+~
+0 0 0
+D0
+~
+~
+0 0 22034
+D2
+~
+~
+0 0 22032
+S
+#22034
+Camino a la Casa de Sagitario.~
+Emprendes el camino a la Casa de Sagitario, este Caballero fue 
+el más leal a Atenea, pero sabes que está muerto, esperas cruzar 
+su Casa sin dificultades y recuperar un poco de tiempo antes de
+que las llamas del reloj se extingan para siempre.
+~
+0 0 0
+D0
+~
+~
+0 0 22035
+D2
+~
+~
+0 0 22033
+S
+#22035
+Casa de Sagitario.~
+En la Casa de Sagitario no hay nadie, esta vacia desde hace muchos
+anyos, nadie fue digno de reemplazar a Aiorios.
+~
+0 0 0
+D0
+~
+~
+0 0 22036
+D2
+~
+~
+0 0 22034
+S
+#22036
+Salida de la Casa de Sagitario.~
+Sales de la Casa de Sagitario, cada vez te encuentras más inquieto al
+ver como el tiempo vuela y se le escapa a Atenea.
+~
+0 0 0
+D2
+~
+~
+0 0 22035
+D3
+~
+~
+0 0 22037
+S
+#22037
+Camino a la Casa de Capricornio.~
+Emprendes tu camino a la casa de Capricornio, uno de los Caballeros
+más leales que sirven a Atenea, fué el en persona quien persiguió a
+Aioros para darle muerte cuando éste intentó asesinar a Atenea.
+~
+0 0 0
+D1
+~
+~
+0 0 22036
+D6
+~
+~
+0 0 22038
+S
+#22038
+Casa de Capricornio.~
+No ves a nadie en ésta Casa, pero una estatua en medio de la estancia
+llama poderosamente tu atención.
+~
+0 0 0
+D0
+~
+~
+0 0 22039
+D9
+~
+~
+0 0 22037
+S
+#22039
+Afueras de la Casa de Capricornio.~
+Sales de la Casa de Capricornio cuando te ves sorprendido por el
+ataque de Shura y su excalibur cortandolo todo a su paso.
+~
+0 0 0
+D0
+~
+~
+0 0 22040
+D2
+~
+~
+0 0 22038
+S
+#22040
+Camino a la Casa de Acuario.~
+Pones rumbo a la Casa de Acuario, según todos el más poderoso de los
+12 Caballeros, todo un ReTo pero el tiempo apremia y hay que darse
+prisa o Atenea morirá.
+~
+0 0 0
+D0
+~
+~
+0 0 22041
+D2
+~
+~
+0 0 22039
+S
+#22041
+Casa de Acuario.~
+Aquí está Camus dispuesto a dejarte helado y ensenyarte los secretos
+del Cero absoluto que sólo él es capaz de desencadenar.
+~
+0 0 0
+D2
+~
+~
+0 0 22040
+D6
+~
+~
+0 0 22042
+S
+#22042
+Salida de la Casa de Acuario.~
+Sales de la Casa de Acuario en dirección a la última Casa del 
+Santuario, ya casi lo has conseguido pero no queda tiempo ya, debes 
+darte mucha prisa.
+~
+0 0 0
+D0
+~
+~
+0 0 22043
+D9
+~
+~
+0 0 22041
+S
+#22043
+De camino a la 12ª Casa.~
+Un olor a rosas y petalos volando al capricho del viento invaden
+el lugar, te asombra que un lugar así exista dentro de los muros
+del Santuario.
+~
+0 0 0
+D1
+~
+~
+0 0 22044
+D2
+~
+~
+0 0 22042
+S
+#22044
+Casa de Piscis.~
+Estás ante la presencia de Afrodita, el Caballero para el cual la 
+belleza lo es todo, la derrota no es aceptable para el puesto que es algo 
+horrible.
+~
+0 0 0
+D0
+~
+~
+0 0 22045
+D3
+~
+~
+0 0 22043
+S
+#22045
+Salida de la Casa de Piscis.~
+Sales de la Casa de Piscis y te encuentras rodeado de un manto de 
+rosas, miles de ellas cubren cada palmo de escalera y te sera dificil 
+avanzar.
+~
+0 0 10
+D1
+~
+~
+0 0 22046
+D2
+~
+~
+0 0 22044
+S
+#22046
+Subida al Templo del Patriarca.~
+Emprendes la subida desesperada de las escaleras en busca del 
+Patriarca, pero muchos soldados salen a tu paso, debes abrirte camino
+entre ellos.
+~
+0 0 0
+D0
+~
+~
+0 0 22047
+D3
+~
+~
+0 0 22045
+S
+#22047
+Subida al Templo del Patriarca.~
+Debes llegar lo antes posible ante el gran Patriarca para que salve
+la vida de Atenea, date prisa o morirá.
+~
+0 0 0
+D0
+~
+~
+0 0 22048
+D2
+~
+~
+0 0 22046
+S
+#22048
+En busca del Patriarca.~
+Todavía no lo encuentras pero de seguir asi todo habrá sido en vano,
+date prisa Caballero, la vida de Atenea está en tus manos.
+~
+0 0 0
+D1
+~
+~
+0 0 22049
+D2
+~
+~
+0 0 22047
+S
+#22049
+Dentro del Santuario.~
+Te sigues adentrando en el Santuario pero no hay rastro del Patriarca,
+no debe de estar ya lejos.
+~
+0 0 0
+D0
+~
+~
+0 0 22050
+D3
+~
+~
+0 0 22048
+S
+#22050
+Ante el Patriarca.~
+Al fin consigues encontrar al gran Patriarca, pero se niega a ayudarte
+no te deja otra opción que la de luchar con el, te ataca!!!
+~
+0 0 0
+D2
+~
+~
+0 0 22049
+D7
+~
+~
+0 0 22051
+S
+#22051
+Santuario.~
+Aquí está Atenea que te da las gracias por todo lo que has echo por 
+ella, le has salvado la vida, has cumplido con tu deber de caballero, 
+unas largas vacaciones ayudaran a reponer todas tus heridas.
+~
+0 0 0
+D8
+~
+~
+0 0 22050
+S
+#0
+
+
+#RESETS
+M 0 22001 1 22000
+M 0 22003 16 22000
+E 0 22003 0 16
+M 0 22003 16 22000
+E 0 22003 0 16
+M 0 22021 12 22000
+M 0 22021 12 22001
+M 0 22004 19 22001
+E 0 22003 0 16
+M 0 22021 12 22002
+M 0 22010 1 22003
+M 0 22003 16 22004
+M 0 22003 16 22004
+M 0 22021 12 22005
+M 0 22005 1 22006
+M 0 22011 1 22007
+E 0 22004 0 6
+M 0 22004 19 22008
+E 0 22003 0 16
+M 0 22004 19 22009
+E 0 22003 0 16
+M 0 22004 19 22010
+E 0 22003 0 16
+M 0 22021 12 22011
+M 0 22004 19 22012
+E 0 22003 0 16
+M 0 22021 13 22013
+M 0 22019 1 22014
+M 0 22004 19 22015
+E 0 22003 0 16
+M 0 22021 12 22016
+M 0 22003 16 22017
+E 0 22003 0 16
+M 0 22012 1 22018
+M 0 22004 19 22020
+E 0 22003 0 16
+M 0 22020 1 22020
+M 0 22014 1 22021
+M 0 22004 19 22022
+E 0 22003 0 16
+M 0 22021 12 22022
+M 0 22003 16 22023
+E 0 22003 0 16
+M 0 22004 19 22023
+E 0 22003 0 16
+M 0 22009 1 22024
+M 0 22013 1 22024
+M 0 22021 12 22025
+M 0 22004 19 22026
+E 0 22003 0 16
+M 0 22021 12 22027
+M 0 22003 16 22027
+E 0 22003 0 16
+M 0 22003 16 22027
+E 0 22003 0 16
+M 0 22007 1 22028
+M 0 22004 19 22029
+E 0 22003 0 16
+M 0 22004 19 22031
+E 0 22003 0 16
+M 0 22004 19 22031
+E 0 22003 0 16
+M 0 22015 1 22032
+M 0 22004 19 22033
+E 0 22003 0 16
+M 0 22004 19 22033
+E 0 22003 0 16
+M 0 22021 12 22034
+M 0 22003 16 22035
+E 0 22003 0 16
+M 0 22021 12 22036
+M 0 22004 19 22037
+E 0 22003 0 16
+M 0 22006 1 22037
+M 0 22016 1 22039
+M 0 22017 1 22041
+E 0 22005 0 5
+M 0 22004 19 22042
+E 0 22003 0 16
+M 0 22008 1 22043
+M 0 22018 1 22044
+E 0 22006 0 19
+T 6144 12 5 22045
+M 0 22003 16 22046
+E 0 22003 0 16
+M 0 22003 16 22046
+E 0 22003 0 16
+T 3072 0 1 22047
+M 0 22004 19 22047
+E 0 22003 0 16
+M 0 22004 19 22048
+E 0 22003 0 16
+M 0 22003 16 22049
+E 0 22003 0 16
+M 0 22002 1 22050
+E 0 22002 0 1
+M 0 22000 1 22051
+E 0 22001 0 16
+E 0 22000 0 17
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+ 22010    5  9  0           0   0         0  0    ; Mu de Aries
+0
+
+
+#SPECIALS
+M  22002 spec_breath_any
+M  22008 spec_breath_any
+M  22009 spec_breath_fire
+M  22015 spec_poison
+M  22017 spec_breath_any
+S
+
+
+#$

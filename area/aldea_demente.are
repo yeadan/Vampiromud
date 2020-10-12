@@ -1,0 +1,596 @@
+#AREA   Aldea de los dementes~
+
+#AUTHOR SaNgUiNaRi~
+
+#RANGES
+0 97 0 97
+$
+
+#RESETMSG Por todos lados escuchas risas histericas y deskiziadas...~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 0
+
+#MOBILES
+#50000
+mago Minimen~
+El mago Minimen~
+Un extranyo mago esta sentado leyendo un extranyo libro.
+~
+Es viejo y no tiene ojos, entonces... Estara leyendo?? O me la
+esta rallando?? no se, no se~
+1 114328252 0 C
+85 -98 -85 500d20+9800 20d10+150
+25000 0
+6 6 1
+0 0 0 0 0 0 0
+-78 -87 -7 -98 -25
+0 0 54 65 327681 262145 0
+12 85 18 1048576 3216 8192 122880 2097219
+> entry_prog 100~
+'Bienvenido $n, que puedo hacer por ti?
+'Si quieres largarte de aqui solo tienes que pedirlo y pagar 1500 monedas.
+'Lo siento, los negocios son los ~
+> speech_prog irme~
+if level($i) > 50
+if goldamt($i) < 1500
+'Lo siento $n, pero no tienes 1500 monedas. No hay viaje!!
+else
+'Vale tio, asin ke kieres largarte? Ta bien!
+'A la wan, a la chu, a la tri!!!Vete de aki!!
+mptrasnfer $i 21000
+endif
+else
+'Tu?? Miserable moska kojonera te atreves a entrar en estos dominios??
+'Largo!!
+mptransfer $i 21000
+~
+|
+#50001
+tomberi~
+un Tomberi~
+Un pequenyo ser verde esta delante de ti con un farolillo.
+~
+&wEs pequenyito y verde, y lleva una tunica komo de monje.
+~
+16777249 12615870 0 C
+68 0 0 800d10+12500 10d5+150
+1 0
+8 8 0
+25 20 14 18 23 25 32
+-58 -74 -88 -99 -81
+2 0 10 25 5 4 3
+45 55 65536 12176 3464 545 1115947524 524288
+> fight_prog 14~
+mpechoat $n &z[ &R500&z ]&wUn tomberi se acerca a ti con una cuchilla y te &RDESTROZA&w!!!
+mpechoat $n &z[ &R410&z ]&wUn tomberi se acerca a ti con una cuchilla y te &RDESTROZA&w!!!
+mpdamage $n ~
+|
+#50002
+Licia~
+Licia~
+Un hada esta flotando encima del agua.
+~
+Licia es un hada bastante grande, pertenece a la tribu de los
+PooKa.~
+2113 128 0 C
+0 0 0 1d1+9900000 1d1+32000
+0 0
+6 6 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> entry_prog 100~
+if OvnumCarry(50005) == 1
+'Por favor $n dejame esa carta que llevas
+mpforce $n dar rol1 Licia
+, lee la carta para Legold.
+'Aja, Asi que es eso, Vikedd estara por aqui.
+'Por favor, llevale esta carta a Martine, en Dementia
+dej rol0
+else
+'Ke deseas?
+endif~
+> act_prog coge la carta de Licia~
+'Muchas gracias $n, si le entregas la carta a Martine recibiras 1000 Monedas y 50 Puntos quest
+mprestore $n~
+|
+#50003
+mei ling prostituta~
+Mei Ling~
+Una prostituta vietnamita esta aqui.
+~
+Una prostituta vietnamita~
+32769 282067134 0 C
+75 -88 -98 154d80+12547 14d25+36
+150000 0
+8 8 2
+12 12 12 12 12 12 12
+-54 -87 -8 -9 -1
+0 22 25 47 1 1 5
+25 45 65 2945 3328 8194 136343680 7866371
+> rand_prog 14~
+'chupa chupa 5 dolares malinelo!!~
+> fight_prog 4~
+mpechoat $n &RMei Ling te arrea un bokao en tus partes que te ANIKILA!!!
+mpdamage $n 500~
+|
+#50004
+borracho~
+un borracho~
+Un borracho esta aqui pidiendo otra cerveza,
+~
+Huele muy, pero que muy mal...~
+1 0 -102 C
+68 -78 -5 0d0+0 0d0+0
+35 0
+8 8 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 70~
+'cerveeeza
+'kiero cervezaaa~
+> rand_prog 2~
+'KIERO CERVEZA JODER!!
+'Tanto kuesta que me den una cerveza??
+bs $n
+'Tanto te kostaba darme una cerveza $n???
+'MUERE!!~
+|
+#50005
+borracho~
+otro borracho~
+Un borracho esta aqui haciendo el ganso.
+~
+Esta no huele tan mal...~
+16777217 1052802 0 C
+70 0 0 100d100+20000 1d1+500
+12500 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 52 25 0 0 3
+75 65 1540 0 0 0 36048001 524544
+> rand_prog 45~
+mpechoat $n &R[  674  ]&w El backstab de otro borracho te &R<&Y<&G< &PDeJa &GEn EsTaDo &WCriTiCo &G>&Y>&R>&w !  
+mpechoat $n &R[  1003  ]&w El backstab de otro borracho te &R<&Y<&G< &PDeJa &GEn EsTaDo &WCriTiCo &G>&Y>&R>&w !  
+~
+|
+#0
+
+
+#OBJECTS
+#50000
+cuchilla tomberi~
+La cuchilla de un tomberi.~
+Es bastante pequenya, parece ser que pertenecia a un tomberi.~
+~
+5 8260 8193
+12 10 50 11
+3 150000 2500
+A
+56 1
+A
+14 -150
+A
+23 -5
+A
+20 -19
+A
+18 10
+A
+19 7
+A
+30 12
+> fight_prog 23~
+mpechoat $n &wLa cuchilla de un tomberi se vuelve de color rojo...
+mpechoat $n &WDios mio!! Que bestia!! &wLa sangre empieza a salpicarlo todo.
+mpechoat $n &G[ &B200&G]&w La cuchilla de un tomberi &W***aNiKiLa*** &wa $i
+mpechoat $n &G[ &B310&G]&w La cuchilla de un tomberi &W***aNiKiLa*** &wa $i
+mpdamage $i 510
+mpechoat $n &wLa cuchilla de un tomberi vuelve a la ~
+> wear_prog 100~
+mpechoat $n &wNotas como &guna cuchilla de Tomberi&w te absorve un poco de vida.
+mpdamage $n 150
+mpechoat $n Ouch!
+~
+|
+#50001
+farolillo farol~
+El farolillo de un Tomberi~
+Es un farolillo Tomberi, nunka se apagan.~
+~
+1 0 1025
+0 0 -1 0
+1 2510 154
+A
+5 2
+A
+13 200
+A
+12 -110
+A
+56 16
+> wear_prog 100~
+mpechoat $n &wSientes una fuerza extranya en ~
+|
+#50002
+capucha~
+La capucha de un Tomberi~
+Es la capucha de un habito Tomberi.~
+~
+9 64 17
+-12 -58 0 0
+2 1500 100
+A
+17 -150
+A
+2 -2
+A
+19 19
+A
+13 150
+A
+18 10
+A
+12 -150
+#50003
+objeto para uso de descripcion de una room~
+piedra~
+Puedes ver una enorme piedra con algo escrito...~
+~
+12 2 0
+0 0 0 0
+99999999 0 0
+E
+piedra~
+&wAventurero debes saber que te dirijes a &bVilla Demencia&w,
+aquel es un lugar de locos y bastardos, que no te ayudarian
+ni pagandoles, un sitio dominado por la locura colektiva producto
+de dios sabe que drogas y programas televisivos de fin de semana.
+Si aun asi deseas entrar en Villa Demencia, adelante. Es un area
+diferente a las demas por el hecho de que hay una historia dentro
+de la propia ciudad, si eres capaz de llegar al final, obtendras
+un buen objeto... Eso si, tardaras bastante en conseguirlo. Si
+deseas seguir la historia te ayudaremos dandote pistas, eso si
+tienes que encontrar las pistas, en descripciones, dentro de
+objetos, etc... Eno, a ver si sale bien y hago mas.
+                        &RSaNgUiNaRi &w:P~
+#50004
+carta rol0~
+la carta de Licia~
+Una carta para Martine.~
+~
+47 -2147483648 1
+0 0 0 0
+1 0 0
+E
+carta~
+&wTe la dio &gLicia&w para &gMartine&w, no deberias leerla. Ni perderla.~
+#50005
+carta rol1~
+una carta para Legold~
+Ves una carta lacrada.~
+~
+47 0 1
+0 0 0 0
+1 0 0
+E
+carta karta~
+&wEstimado &gLegold&w:
+
+  Nuestros intentos de apoderarnos del poder en &gDementia&w han 
+fracasado, asi pues he tomado la decision de ir a ver lo que sucede
+ por alli, para ver si son posibles los fallos que han cometido, y 
+ver como deberiamos obrar.
+Esos bastardos de la camarilla, nos kieren ver muertos, pero no saben
+lo que les espera... Si tu supieras.
+
+          Bueno espero que no hables con nadie de mi llegada, puesto
+que ire de incognito. Mas adelante recibiras instrucciones mias.
+Haz con el mensajero lo que te plazca, espero poder compartir
+una buena caza contigo.
+
+                                     Atentamente, &gVikked
+                                           Obispo Sabbath&w~
+#0
+
+
+#ROOMS
+#50000
+Un camino hacia el norte~
+&wEntras en un extranyo camino lleno de arbustos a los lados,
+medio tapado por un arbusto puedes ver un &gcartel&w. El bosque
+empieza a hacerse mas oscuro y frio. Puedes oler el mar desde
+aqui.
+Te giras hacia atras y el camino por donde habias llegado ha
+desaparecido.
+~
+0 8193 2
+D0
+Un camino hacia el norte.~
+~
+0 0 50001
+D3
+La caseta del mago~
+~
+0 0 50002
+E
+cartel kartel~
+&wTe dirijes hacia &gla aldea de los dementes&w si no eres mayor
+de nivel &g65&w y eres lo suficientemente estupido para continuar
+adelante, si deseas volver ve hacia el oeste a&g Casa del mago.
+                                     &bEstas advertido, mu ha ha~
+> entry_prog 100~
+mpechoat $n &g[ &wINFOMUD &g] [ &wEste area es un area de tipo rol, busca pistas &g]
+mpechoat $n &g[ &wINFOMUD &g] [ MASTER DE AREA: &w SaNgUiNaRi&g ]
+~
+|
+S
+#50001
+Un camino hacia el norte.~
+&wSigues en el mismo camino lleno de arbustos de antes, solo que
+ahora el bosque lo rodea todo, sus capas son tan espesas que no
+dejan pasar los rayos del sol. El camino sigue al norte, otra vez
+ha desaparecido la salida.
+~
+0 8193 3
+D0
+Un camino hacia el norte.~
+~
+0 0 50003
+> rand_prog 72~
+mpechoat $n &wEscuchas un alarido y despues una risa bastante siniestra.
+mpechoat $n &wSe te revuelve el ~
+|
+S
+#50002
+La caseta del mago.~
+Entras en una especie de cabanya, puedes ver ke todo esta en perfecto
+orden y limpio, en un lado de la ventana puedes ver un extranyo mapa
+y un cartel con precios.
+~
+0 8193 0
+D1
+~
+~
+0 0 50000
+S
+#50003
+Bosque Tomberi~
+Estas en el bosque de los Tomberi, esta bastante oscuro. Y no se
+ve muy bien.
+~
+0 8193 3
+D3
+Bosque Tomberi~
+~
+0 0 50004
+D2
+Bosque Tomberi~
+~
+0 0 50001
+D1
+Bosque Tomberi~
+~
+0 0 50005
+S
+#50004
+Bosque Tomberi~
+Estas en el bosque de los Tomberi, esta bastante oscuro. Y no se
+ve muy bien. Puedes ver un arbol en el que pone algo.
+~
+0 8193 3
+D1
+~
+~
+0 0 50003
+D0
+Bosque Tomberi~
+~
+0 0 50007 2
+E
+arbol~
+&wMarcado en lel arbol puedes ver:
+"
+ &WCUIDADO POR EL CAMINO NO TE CRUCES CON
+ ... &r(Esta demasiado ensangrentado para ver lo siguiente)
+&W SI ATAQUE ES MUY PODEROSO
+&w"
+~
+> rand_prog 80~
+mpechoat $n Escuchas unos alaridos de ~
+|
+S
+#50005
+Bosque Tomberi~
+Estas en el bosque de los Tomberi, esta bastante oscuro. Y no se
+ve muy bien.
+~
+0 8193 3
+D3
+~
+~
+0 0 50003
+D7
+Una fuente~
+~
+8 0 50008
+D2
+Bosque Tomberi~
+~
+0 0 50006
+S
+#50006
+Bosque Tomberi~
+Estas en el bosque de los Tomberi, esta bastante oscuro. Y no se
+ve muy bien.
+~
+0 8193 3
+D0
+~
+~
+0 0 50005
+D3
+Camino de Demencia~
+~
+0 0 50009
+S
+#50007
+Bosque Tomberi~
+Estas en el bosque de los Tomberi, esta bastante oscuro. Y no se
+ve muy bien.
+~
+0 8193 3
+D2
+Bosque Tomberi~
+~
+0 0 50001 3
+S
+#50008
+Una extranya fuente~
+&wEstas en un claro del bosque en el que hay una fuente
+que sale de entre las piedras que tienes enfrente. Puedes
+ver el cielo desde aqui.
+~
+0 9216 3
+D8
+~
+~
+0 0 50005
+S
+#50009
+Camino de Demencia~
+Estas camino de demencia, a un lado y al otro del camino puedes
+ver casas pequenyas, y como a tu paso los habitantes te cierran
+las puertas, es muy duro vivir por aki.
+~
+0 8193 1
+D1
+~
+~
+0 0 50006
+D3
+Camino de demencia~
+~
+0 0 50010
+S
+#50010
+Frente a la Posada.~
+&wEstas frente a la posada &g'la ultima neurona' &wbastante conocido mas
+por la cantidad de estupefacientes que se pasa dentro que por sus comidas
+es un buen sitio pa pasar el bajon, pero no confies en nadie.
+~
+0 8193 1
+D1
+~
+~
+0 0 50009
+D0
+Posada 'La Ultima neurona'~
+~
+0 0 20011
+S
+#20011
+Posada 'La ultima neurona'~
+Estas en el interior de la posada puedes ver varias mesas llenas
+de tipos duros, bastardos sin rencor, sin esperanza, sin verguenza
+y sin nada que perder. Hay gente de toda clase pero aqui quien mas
+y quien menos es camello y pasan buen material. Si necesitas conseguir
+algo ya sabes donde acudir.
+~
+0 8193 0
+D2
+~
+~
+0 0 50010
+D3
+La barra~
+~
+0 0 20012
+> rand_prog 85~
+mpechoat $n &wUna jarra de cerveza pasa por tu lado rozandote la cabeza~
+> rand_prog 15~
+mpechoat $n &wUna jarra va directa hacia tu cabeza... noooo.. joder, como duele!!
+mpforce $n llor
+mpdamage $n 500~
+|
+S
+#20012
+El la barra de la ultima neurona~
+Estas en la barra de la ultima neurona, el jolgorio es impresionante
+la fiesta, se sale. Esto no hay kien lo aguante!! YUJU!! JUERGA!!!
+Hay varias tias haciendo las perras, y varios tios haciendo concursos
+de pulsos. Por doquier tropiezas con los restos de lo que parecen
+personas banyadas en vomitos de alcohol.
+~
+0 8192 0
+D1
+~
+~
+0 0 20011
+> rand_prog 75~
+mpechoat $n &wUn tipo te coge del cuello y empieza a decirte &c'Tio! (hic!) Edes mi mejod amigo.. (Hip!) Te kiedo muso!'
+mpechoat $n Un tipo te besa y se cae al suelo!~
+> rand_prog 45~
+mpechoat $n Alguien vomita encima de ti... Eso son macarrones?? Dios mio! Ke asko!
+mpechoat $n &w-10 &gen apariencia.~
+> rand_prog 71~
+mpechoat $n &gLa gente se coge y empiezan a cantar &w'Viva el kalimotxo!!
+~
+> rand_prog 1~
+mpechoat $n Un tipo con los calzoncillos en la cabeza te dice 'Oscheee... no me pegarias una mamada??
+~
+> rand_prog 15~
+mpechoat $n En una pelea entre borrachos se escapa un navajazo y te DESTROZA!!
+mpdamage $n 500~
+> rand_prog 10~
+mpechoat $n &R[  7236  ]&w El backstab de &WAlguien te &R<&Y<&G< &PDeJa &GEn EsTaDo &WCriTiCo &G>&Y>&R>&w !  
+mpechoat $n &R[  4238  ]&w El backstab de &WAlguien te &R<&Y<&G< &PDeJa &GEn EsTaDo &WCriTiCo &G>&Y>&R>&w !  
+mpechoat $n &R[  10293  ]&w El backstab de &WAlguien te &R<&Y<&G< &PDeJa &GEn EsTaDo &WCriTiCo &G>&Y>&R>&w !  
+mpechoat $n &REstas Muerto!
+~
+|
+S
+#51000
+BS GUAY~
+&R[  10000  ]&w El backstab de &WAlguien te &R<&Y<&G< &PDeJa &GEn EsTaDo &WCriTiCo &G>&Y>&R>&w !
+~
+0 0 0
+S
+#0
+
+
+#RESETS
+M 0 50001 1 50001
+E 0 50000 0 16
+E 0 50001 0 0
+E 0 50002 0 6
+M 0 50000 1 50002
+O 0 50005 0 50006
+O 0 50003 0 50007
+M 0 50002 1 50008
+G 0 50004 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  50000 spec_breath_acid
+M  50002 spec_cast_adept
+S
+
+
+#$

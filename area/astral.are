@@ -1,0 +1,3982 @@
+#AREA   El Plano Astral~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO Beythor~
+#PUNTOS 1875 1928 1697 2000 0
+#AUTHOR SiGo~
+
+#RANGES
+15 35 0 256
+$
+
+#RESETMSG El campo astral brilla con miles de puntos de luz por un momento...~
+
+#FLAGS
+0
+
+#ECONOMY 0 2326588
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#800
+figura guardian astral~
+el guardian astral~
+Una brillante figura gris permanece vigilante detrás de la puerta del cielo.
+~
+Ves una brillante figura gris, apenas humanoide en forma. Su unica caracte-
+ristica agresiva es el objeto que lleva: Una vara del cielo.El guardian astral
+parece darse cuenta de tu presencia.
+~
+3 4202664 0 C
+38 -20 -15 1d1+825 8d12+100
+100000 600000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8193 3
+0 0 32 1048608 2048 0 301989968 524291
+> greet_prog 100~
+if level($n) < 10
+' No debes pasar $n, por que solo encontraras 
+' muerte mas alla de esta puerta.
+else
+if level($n) > 35
+' Tienes demasiado poder, $n. No te permitire
+' pasar y desequilibrar la balanza 
+' del plano astral.
+, aprieta su vara y te apunta....
+else
+' A pesar de que es suicida, si quieres entrar
+' al plano astral, entraras, solo tienes que decirlo pero...
+endif
+endif
+~
+> speech_prog p Quiero entrar en el plano astral.~
+if level($n) < 10
+, El guardian te lanza una mirada irritada pero no se mueve.
+else
+if level($n) > 35
+' $n, Vas a entrar por encima de mi cadaver. Siento hacer esto...
+else
+' Como desees!
+mpecho Un relampago es lanzado hacia la puerta astral y esta se abre!
+desbl n
+abr n
+mpforce $n norte
+cerr n
+desbl n
+endif
+endif
+~
+> fight_prog 40~
+if level($n) < 30
+' No debiste jugar con mis poderes
+c ear
+c fire
+c blind
+else
+mpechoat $n El guardian canta unas extrañas palabras y te apunta...
+mpechoaround $n El guardian canta unas extrañas palabras y apunta a $n...
+mpdamage $n 100
+endif
+~
+> speech_prog p quiero entrar en el plano astral~
+if level($n) < 10
+, El guardian te lanza una mirada irritada pero no se mueve.
+else
+if level($n) > 35
+' $n, Vas a entrar por encima de mi cadaver. Siento hacer esto...
+else
+' Como desees!
+mpecho Un relampago es lanzado hacia la puerta astral y esta se abre!
+desbl  n
+abrir n
+mpforce $n norte
+cerrar n
+bloq  n
+endif
+endif~
+|
+#801
+pesadilla~
+una pesadilla oscura~
+Una pesadilla  oscura esta aqui, dandote patadas con sus llameantes pezuñas.
+~
+La pesadilla es una malvada criatura no muy bien conseguida, enviada por los 
+gobernantes  de los mas bajos planos para atormentar a los mortales.  Se parece
+ un poco como a un caballo,con una piel mas oscura
+que el caballero mas oscuro, y tiene uñas que se inflaman con fuego negro.
+~
+262209 33607252 -950 C
+18 2 -2 18d18+180 5d3+10
+6000 32000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+86 3 0 0 8192 8192 2
+0 0 173 0 0 0 8224 0
+#802
+Bruja nocturna~
+una malvada bruja nocturna~
+Una malvada bruja intenta obtener tu alma.
+~
+Ves una criatura apenas visible con garras afiladas y una sonrisa escalofriante,
+cuyo unico proposito es cazar y matar mortales para asi obtener almas para su 
+maestro atormentado.
+~
+97&2 520 -1000 C
+5 0 -1 24d24+240 5d5+5
+12500 67500
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 239 7168 0 17 35651586 0
+> greet_prog 100~
+dester
+' Ahora tu alma sera mia!
+~
+|
+#803
+stalker invisible~
+un invisible stalker~
+Ves una distorsion en el aire.
+~
+Ves una ligera distorsion en el aire. Intentas tocarla, pero no sientes
+nada, ni siquiera el mas ligero de los movimientos.
+~
+65 117966 200 C
+20 3 0 17d17+170 2d7+6
+0 19000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 1263 0 0 0 134218368 2
+#804
+Vagabundo sin alma~
+un desgraciado vagabundo sin alma~
+El Vagabundo va errante sin conciencia de lo que hace.
+~
+Este desafortunado ser se ha quedado sin alma. Ahora vaga sin rumbosin 
+darse cuenta del mundo que le rodea.
+~
+193 0 0 C
+12 8 5 10d10+100 1d6+2
+250 7500
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 4096 4096 0
+0 0 0 0 8192 0 150994944 0
+#805
+cazador githyanki~
+un cazador githyankir~
+Un githyanki cazador busca algun signo de los githzerai.
+~
+Ves un hombre con piel de cuero tan alto como un humano.
+Como todos los githyanki, sus dientes estan sucios y sus ojos despiden maldad 
+ademas de estar hundidos.
+~
+69 33280 -500 C
+11 6 6 11d11+110 1d5+4
+1000 8000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 1 0
+0 0 1263 0 0 0 144 524288
+> rand_prog 5~
+, examina esta parte del campo astral para encontrar algun signo de los githzerai.
+~
+|
+#806
+guerrero githyanki ~
+un guerrero githyanki ~
+Ves a un humanoide que viste una armadura entablillada.
+~
+Ves un hombre con piel de cuero tan alto como un humano.Como todos los githyanki
+, sus dientes estan sucios y sus ojos despiden maldad ademas de estar hundidos.
+Viste una armadura entablillada, y blande una espada que susurra a traves del 
+viento conforme se desliza hacia tu cuello.
+~
+1073741889 512 -500 C
+15 4 6 15d15+150 1d5+6
+2500 15000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 373419 373419 2
+0 0 1263 0 0 0 32 2
+#807
+guardian githyanki ~
+un guardian githyanki~
+Ves a un humanoide con armadura entablillada que te impide el paso.
+~
+Ves un hombre con piel de cuero tan alto como un humano.Como todos los githyanki
+, sus dientes estan sucios y sus ojos despiden maldad ademas de estar hundidos.
+Viste una armadura entablillada, y blande una espada que susurra a traves del 
+viento conforme se desliza hacia tu cuello.
+
+~
+35 512 -500 C
+15 4 6 15d15+150 1d5+6
+6000 15000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 1 2
+0 0 239 0 0 0 528 525312
+#808
+Caballero githyanki~
+un caballero githyanki~
+Una figura que viste una armadura negra te observa con prudencia.
+~
+Ves un hombre con piel de cuero un poco mas alto que un humano normal.
+Sus rasgos estan ocultos por una entablillada armadura negra-- solo oyes su 
+respiracion y el ruido de su espada a medida que la va desenvainando.
+~
+65 512 -500 C
+25 -2 6 25d25+250 1d5+15
+10000 90000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 8192 1 0
+0 0 1263 0 0 0 4208 1
+#809
+Caballero protector githyanki ~
+un protector githyanki~
+Un caballero negro githyanki protege a su reina.
+~
+Ves un hombre con piel de cuero un poco mas alto que un humano normal.
+Sus rasgos estan ocultos por una entablillada armadura negra-- solo oyes 
+su respiracion y el ruido de su espada a medida que la va desenvainando..
+~
+35 4194856 -500 C
+25 -2 6 25d25+250 1d5+15
+10000 90000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 8192 1 3
+0 0 1199 0 0 0 592 2
+> greet_prog 50~
+' Nadie se puede acercar a la Reina de los Gith!
+, agita su espada y se lanza al ataque!
+~
+|
+#810
+githyanki gish~
+un malvado gish~
+Un pequeño githyanki se rie de ti con sus sucios dientes.
+~
+Ves a un humanoide de cuero tan alto como un humano como todos los normal 
+githyanki, Sus dientes estan sucios y sus ojos hundidos.  los gish son buenos en
+las artes arcanas, no como el resto de los gith. Te das cuenta por el terrible 
+relampago dirigido hacia ti.
+~
+193 512 -500 C
+11 6 6 11d11+110 1d5+2
+3000 12500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 1263 0 0 0 514 0
+#811
+githyanki gish~
+un malvado gish~
+Un gish se rie a medida que las llamas de sus manos se dirigen a tu cara.
+~
+Ves a un humanoide de cuero tan alto como un humano como todos los normal 
+githyanki, Sus dientes estan sucios y sus ojos hundidos.  los gish son buenos en
+las artes arcanas, no como el resto de los gith. Te das cuenta por el terrible 
+relampago dirigido hacia ti.
+~
+101 512 -500 C
+11 6 6 11d11+110 1d5+2
+3000 12500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 1 0
+0 0 235 0 1 2 268435968 0
+#812
+gith githyanki warlock~
+un warlock de los Gith~
+Un humanoide esta aqui, blandiendo una espada plateada.
+~
+Ves a una criatura con piel de cuero, vestida totalmente de negro blandiendo una 
+espada de color plata.como todos los githyanki,Sus dientes estan sucios y sus 
+ojos hundidos.cuando intentas huir , sientes el impacto de una bola de fuego en
+tu espalda.
+~
+97 536 -500 C
+30 0 2 20d20+200 1d5+8
+10000 55000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 -10
+85 3 0 0 8192 1 0
+0 0 1263 0 10240 0 268435968 524290
+> fight_prog 50~
+, reza un mantra a su Reina para recibir ayuda..
+mpechoat $n De repente , ojos flotantes cazadores aparecen y se fijan en ti.  Dos relampagos
+mpechoat $n de ardiente relampago azul salen de los ojos, golpeandote!
+mpechoaround $n De repente dos relampagos salen de los dos ojos cazadores, golpeando a $n!
+c lightning $n
+c lightning $n
+~
+> death_prog 100~
+if rand(60)
+mpecho En un esfuerzo final de destruirte, el warlock corta sus munecas en un
+mpecho nauseabundo ritual.  trozos de energia oscurar comienzan a fluir por el 
+mpecho suelo, formando una pesadilla
+mpmload 801
+mpforce pesadilla c fireball $n
+else
+mpecho En sus ultimas palabras, el warlock recita un poderoso pergamino.
+mpjunk todo.pergamino
+mpdamage $n 100
+endif
+~
+|
+#813
+Reina liche githyanki~
+la reina liche~
+La malvada Reina-liche de los Gith se dirige a ti para destruirte.
+~
+La reina de los githyanki fue una vez humana, pero no por mucho tiempo. Su piel
+se ha encogido alrededor de su calavera, mantenida solamente por la fuerza de la
+ magia negra y los poderes de este plano de existencia. La fria mirada de sus 
+ojos hundidos.Crea miedo hasta en el aire que le rodea.
+~
+35 67109560 -750 C
+30 -8 -8 30d30+300 4d5+20
+100000 475000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 8192 1 4
+0 0 1263 7170 2048 17 266818 524291
+> death_prog 100~
+mptransfer $n 878
+mpgoto 878
+mpecho Tan pronto como el golpe final destruye la forma corporea de la Reina lich, volutas
+mpecho de su espiritu se levantan del suelo.  Una voz evocativa susurra unas palabras en
+mpecho lenguaje spiderico y el piso cruje y se abre.
+mpecho Caes al abismo en un campo giratorio de
+mpecho oscuridad, la risa malvada de una bruja sigue a tu descenso MUAHAHAHAHAHAHAH...
+~
+> fight_prog 100~
+if rand(10)
+, Invoca sus criaturas de los mas bajos planos....
+mpmload 802
+mpmload 809
+else
+if rand(40)
+, su ataque atraviesa las defensas de $n , vapuleandole!
+mpdamage $n 80
+else
+, te desprecia.
+c 'acid blast' $n
+endif
+endif
+~
+> greet_prog 60~
+' Siii!...mas almas para comer en la cena!
+mpecho Mortales llamas salen de los dedos de la Reina-lich!
+c 'burning hands' $n
+~
+|
+#814
+lady gith~
+Lady Gith~
+Lady Gith se forma a traves de una nube de oscuridad, su cara está empapada de lagrimas.
+~
+Una bella doncella esta delante de ti, con lagrimas cayendo de su cara.
+Una vez una gran guerrera, ella condujo a los githyanki hacia la libertad 
+de sus esclavizadores, los desolladores de mentes. ahora esta prisionera en 
+esta prision por la traición de la reina lich que rompio su alianza.  Esta 
+consumida de pena porque su pueblo ha sido transformado en pueblo por su 
+gobernante..
+~
+3 301998760 1000 C
+35 -15 -10 35d35+350 10d3+50
+5000 750000
+112 112 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 8192 8193 0
+0 0 1263 7171 11264 28 1073742512 524291
+> greet_prog 75~
+llorar
+' No hay esperanza para mi pueblo. A pesar de has derrotado a su 
+' horrible lider, ella volvera....
+~
+> rand_prog 3~
+, llora suavemente.
+~
+> rand_prog 2~
+' Si quieres dejar este lugar de desesperanza, solo tienes que decirlo
+' Solo mi "brethren" y yo estamos atados aqui...
+~
+> speech_prog p quiero irme de aqui~
+dester
+' Adios, $n...
+mpechoaround $n Blancas luces fluyen de los dedos de Gith y giran alrededor
+mpechoaround $n de $n.
+mpechoat $n Blancas luces fluyen de los dedos de Gith y giran alrededor
+mpechoat $n de ti.
+mptransfer $n 21000
+if ispkill($n)
+  mptrans 0.$n 3009
+else
+  mptrans 0.$n 21000
+endif
+~
+> speech_prog p Quiero irme de aqui~
+dester
+' Adios, $n...
+mpechoaround $n Blancas luces fluyen de los dedos de Gith y giran alrededor
+mpechoaround $n de $n.
+mpechoat $n Blancas luces fluyen de los dedos de Gith y giran alrededor
+mpechoat $n de ti.
+mptransfer $n 21000
+~
+> fight_prog 50~
+' Si al menos yo pudiera morir!.  Este lugar no me permite nada de mi antigua paz!
+mpecho Con una furia sin precedentes, Lady Gith invoca un descomunal torrente de acido!
+c 'acid blast' $n
+c 'acid blast' $n
+~
+|
+#815
+fantasma~
+un insustancial fantasma~
+Un fantasma deambula por aquí, intentando destruir toda forma de vida.
+~
+El fantasma no se oye.  Es una oscura mezcla de si mismo, condenado a deambular 
+para siempre sin descanso.  La mente de esta criatura ha sido destruida e 
+intenta destruir toda vida que se encuentra a su paso, incluyendote a ti.
+~
+65 1101516 -1000 C
+16 2 0 16d16+160 2d9+2
+0 19000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 2
+0 0 0 7170 8192 17 4096 0
+#816
+prisionero githzerai~
+un githzerai prisionero~
+Un githzerai piensa una manera de escapar.
+~
+Ves a un humanoide descendiente de los humanos que fueron esclavizados por los 
+desolladores de mentes y destinados a los githyanki.  desafortunadamente, las 
+dos razas son un poco enemigas , y este teme ser capturado .  Intenta escapar.~
+65 512 -250 C
+10 8 8 10d10+100 1d4+4
+0 6000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 1 1
+0 0 1263 0 0 0 32 2
+#817
+desollador mentes prisionero~
+un desollador de mentes torturado~
+Un desollador de mentes permanece aqui, destrozado por la tortura de los githyanki.
+~
+Ves un humanoide, con cuatro tentaculos rodeando su cabeza. Esta vacio, torcido 
+y asustado por la tortura infligida por los githyanki.
+Se encoge cuando te acercas.
+~
+3 0 0 C
+8 13 2 8d8+80 3d4+5
+0 3000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 1 2
+0 0 9455 0 3072 0 4096 0
+#818
+Dragon Rojo esclavo~
+el esclavizado Dragon Rojo ~
+Un dragon gigante y rojo esta aqui encadenado, con su aliento calentando el horno.
+~
+La poderosa bestia escamada  ha estado mágicamente limitada dominada por los 
+residentes de la subsistencia.  No obstante, él todavía es una vista 
+impresionante, unos veinte pies, en la longitud con el wingspan mas macizo. 
+Él te mira, fuma flotando con su boca abierta.~
+3 520 -400 C
+28 -3 -6 28d28+280 3d5+25
+100000 350000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 10243 2048 3
+0 0 1343657 1048577 2048 2 8199 0
+#819
+llamarada horno~
+una llamarada masiva~
+Las llamas del horno te quema la piel
+~
+El fuego se alimenta de tu piel como si estuviera vivo...
+~
+99 33554944 0 C
+13 5 5 13d13+130 3d3+3
+0 10000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 373419 373419 1
+0 0 0 1 1 2 268435456 0
+#899
+mob~
+un mob prototipo ~
+Algun dios ha abandonado a un mob aqui.
+~
+~
+1073741825 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#800
+vara perla~
+una vara de perla~
+En el suelo parece haber una vara de perla.~
+blast~
+5 1600 8193
+12 4 8 6
+5 1000000 -31072
+E
+vara de perla~
+una serie de nichos han sido grabados al final de la vara,
+como si fuera una llave de alguna clase...
+~
+A
+12 60
+A
+13 20
+A
+18 5
+A
+19 8
+#801
+pergamino violeta~
+un pergamino violeta~
+Una enrollada pieza de pergamino violeta permanece en el suelo.~
+~
+2 256 1
+15 -1 21 167
+1 2500 250
+'armor' 'bless' 'shield'
+E
+pergamino violeta~
+La escritura esta escrita en un suave papel de pergamino que despide un olor muy
+agradable.~
+#802
+Escritura negra lapidada~
+una escritura negra lapidada~
+En el suelo hay una lapida negra de piedra.~
+~
+2 16 1
+30 -1 116 -1
+5 15000 1500
+'blazebane' 'inner warmth' 'NONE'
+E
+Escritura negra lapidada~
+La lapida es una pieza de piedra negra y rectangular, con extrañas escrituras 
+en su superficie.
+~
+#803
+pergamino githyanki~
+un pergamino con escrituras githyanki.~
+Ves un pergamino escrito en una lengua alien.~
+~
+2 0 1
+24 -1 122 -1
+1 7500 750
+'lightning bolt' 'lightning bolt' 'NONE'
+E
+pergamino githyanki~
+El pergamino tiene escrituras que no puedes comprender.
+~
+#804
+amuleto de demonio ~
+un pequeño amuleto de demonio~
+Un pequeño amuleto de demonio esta aqui entre la suciedad.~
+~
+3 144 16385
+25 5 5 -1
+5 20000 2000
+'energy drain'
+E
+Amuleto de Demonio~
+El amuleto ha sido forjado de un metal desconocido.  Realzadas inscripciones e 
+imagenes de serpientes, victimas torturadas y varios ritos satanicos.Una 
+sensacion de hormigueo pasa  sobre ti cuando apuntas el amuleto hacia otro 
+ser vivo.~
+A
+3 -1
+A
+4 -1
+#805
+talisman malvado~
+un malvado talisman~
+En el suelo hay un amuleto que irradia una tangible maldad.~
+~
+4 144 16385
+25 5 5 -1
+5 21000 2100
+'flamestrike'
+E
+talisman malvado~
+El talisman es una piedra circular roja pegada a una cadena metalica. Parece 
+echar un pulso con una vida suya y te sientes incomodo estando cerca de ella.
+Grabado en el centro hay una palabra. Solo leerlo causa miedo profundo.~
+A
+13 0
+#806
+cuchillo plata~
+cuchillo de plata~
+Un fino cuchillo plateado esta aqui.~
+stab~
+5 64 8193
+0 2 4 2
+3 1000 100
+E
+cuchillo plateado~
+El cuchillo esta forjado de un extraño metal plateado que nunca has visto antes
+en tu mundo.  es increiblemente aspero y duro, aunque se siente mayormente 
+fluido al tocarlo.
+~
+A
+18 1
+A
+19 1
+#807
+daga plateada~
+una daga plateada~
+Una aspera daga plateada permanece aqui.~
+pierce~
+5 64 8193
+0 3 4 11
+3 1500 150
+E
+daga plateada~
+La daga esta forjada de un extraño metal plateado que nunca has visto antes en
+tu mundo.  es increiblemente aspera y dura, aunque se siente mayormente fluida
+al tocarla.
+~
+A
+18 2
+A
+19 1
+#808
+espada fina~
+una afilada espada ~
+El borde de esta afilada espada emite destellos de luz.~
+slice~
+5 64 8193
+0 4 4 1
+3 2000 200
+E
+espada fina~
+La espada esta forjada de un extraño metal plateado.  Apenas mide una pulgada
+en su punto mas ancho, a pesar de que es totalmente inflexible y afilada. seguramente
+podrá cortar la piedra.~
+A
+2 1
+A
+18 1
+A
+19 3
+#809
+Espada fina dos manos~
+una espada afilada a dos manos~
+Una pesada pero fina espada a dos manos esta aqui~
+slash~
+5 64 8193
+0 6 4 3
+16 5000 500
+E
+espada fina a dos manos~
+La espada esta forjada de un extraño metal plateado.  Apenas mide dos pulgadas
+en su punto mas ancho, a pesar de que es totalmente inflexible y afilada. 
+seguramente podra cortar la piedra.
+~
+A
+18 2
+A
+19 4
+#810
+espada plateada~
+una espada plateada~
+Una espada plateada chispea de manera poco natural con una luz alienigena.~
+slash~
+5 65 8193
+0 5 4 3
+13 10000 1000
+E
+espada plateada~
+La espada esta forjada de un extraño metal plateado que nunca has visto antes
+en tu mundo.  es increiblemente aspera y dura, aunque se siente mayormente
+fluida al tocarla.~
+A
+2 2
+A
+18 4
+A
+19 2
+#811
+maza hierro~
+una maza de hierro~
+Aqui tienes una antigua maza de hierro.~
+tear~
+5 18 8193
+0 5 5 5
+14 20000 2000
+A
+18 3
+A
+19 7
+#812
+espada gith~
+la espada sagrada de los githyanki~
+Sientes zarcillos de suave luz emanando de una magnifica espada.~
+slash~
+5 1344 8193
+0 10 3 3
+25 100000 10000
+E
+espada gith~
+La hoja de esta espada esta hecha de puro platinum.  Se cree que esta es la 
+espada que uso Lady Gith al conducir a su gente a la libertad.
+~
+A
+1 2
+A
+18 11
+A
+19 4
+A
+26 8192
+#813
+piedra llameante~
+una brillante piedra en llamas~
+La habitacion esta iluminada por una llama azul que proviene de una piedrecita.~
+~
+1 0 1
+0 0 -1 0
+1 5000 500
+E
+piedra llameante~
+Esta piedra arde con una llama muy potente que emite gran calor, aunque puede ser
+mantenida con facilidad. La llama crea una luz que te permite ver a muchas millas.
+~
+A
+17 -2
+A
+23 -5
+A
+13 15
+> damage_prog 90~
+mpoload 813
+mpecho Tan pronta como la piedra llameante se parte en dos, una mitad se destruye
+mpecho mientras que la otra empieza  a llamear una nueva...
+drop stone
+mpforce $n get stone
+mpforce $n wear stone
+~
+|
+#814
+polvora astral~
+un poco de polvora astral~
+Polvora astral flota delante de tus ojos.~
+~
+26 0 1
+20 -1 -1 -1
+1 5000 500
+'refresh' 'NONE' 'NONE'
+E
+polvora astral~
+Ves los residuos del plano astral.
+~
+#815
+Chaleco entablillado~
+un chaleco entablillado de mallas~
+Un complejo  chaleco entablillado de mallas esta aqui.~
+~
+9 0 9
+7 0 0 0
+45 5000 500
+E
+Chaleco entablillado~
+Este trozo de armadura de mallas ha sido expertamente ornado de la mas alta
+calidad de aceros.
+~
+#816
+falda entablillada~
+una falda entablillada~
+Una compleja y exotica falda entablillada permanece aqui.~
+~
+9 0 33
+7 0 0 0
+20 1000 100
+E
+falda entablillada~
+Este trozo de armadura de mallas ha sido expertamente ornado de la mas alta
+calidad de aceros.
+~
+#817
+mangas entablilladas~
+un par de mangas entablilladas~
+Un par de complejas y exoticas mangas entablilladas permanecen aqui.~
+~
+9 0 257
+7 0 0 0
+15 1000 100
+E
+mangas entablilladas~
+Este trozo de armadura de mallas ha sido expertamente ornado de la mas alta
+calidad de aceros.~
+#818
+guanteletes ornados~
+un par de guanteletes adornados~
+Un par de concienzudos y adornados guantes estan aqui.~
+~
+9 0 129
+7 0 0 0
+5 19000 1900
+E
+guanteletes ornados~
+Estos guanteletes han sido expertamente ornados de la mas alta calidad de aceros.
+~
+A
+1 2
+A
+18 1
+A
+19 1
+#819
+vestido seda~
+un vestido de seda negra~
+Un vestido de seda negra ha sido abandonado aqui.~
+~
+9 64 9
+3 3 0 0
+5 50 5
+E
+vestido de seda negra~
+el vestido parece apoortar una mundana proteccion, a pesar de que brilla con un
+extraño poder magico...
+~
+A
+17 -6
+A
+24 -2
+A
+31 3
+A
+27 2
+A
+13 40
+> damage_prog 100~
+mpecho En cuanto el vestido magico es dañado, poderes misticos se liberan de la seda negra
+mpecho y empiezan a envolver a $n...
+c fires $n
+c ices $n
+c sanc $n
+~
+> repair_prog 100~
+mpecho Aunque el vestido ha sido cosido junto , el hilo magico que le daba vida
+mpecho ha sido roto y decae a la nada
+mpforce $n drop dress
+mpforce $n sac dress
+~
+|
+#820
+pocion violeta~
+una pocion violeta~
+Un frasco de cristal sostiene un liquido violeta transluciente.~
+~
+10 0 1
+18 -1 147 54
+2 1000 100
+'invis' 'protection' 'detect evil'
+E
+pocion violeta~
+el liquido violeta que hay deontro gira y cambia.
+~
+#821
+pocion tenebrosa~
+un frasco de liquido tenebroso~
+Un pequeño frasco contiene una tenebrosa, fangosas sustancia.~
+~
+10 0 1
+15 -1 167 -1
+1 750 75
+'blindness' 'shield' 'NONE'
+E
+pocion tenebrosa~
+El liquido fangoso de dentro parece agua sucia.
+~
+#822
+pocion plateada~
+una pocion de color plateado~
+El frasco octogonal contiene un plateado liquido que brilla en la luz.~
+~
+10 0 1
+20 -1 57 58
+2 1500 150
+'detect invis' 'detect magic' 'detect poison'
+E
+pocion plateada~
+el frasco octogonal contiene un plateado liquido que brilla en la luz.
+~
+#823
+chocolate menta~
+un delicioso chocolate de menta~
+Alguien ha dejado a un precioso y apetecible chocolate de menta.~
+~
+26 0 1
+35 -1 106 -1
+1 1000 100
+'refresh' 'heal' 'NONE'
+E
+chocolate de menta~
+Este caramelo esta hecho del mejor de los of chocolates, envolviendo una suave 
+menta interior que debe ser saboreada no, tragada.
+~
+#824
+pentagrama~
+un pentagrama negro~
+Un pequeño pentagrama negro ha sido dejado aqui.~
+~
+18 32 16385
+0 0 0 0
+10 0 0
+E
+pentagrama~
+El pentagrama es una pequeña argolla circular que envuelve una estrella de cinco
+puntas. hay signos en lengua alien Inscritos en el lazo exterior.
+~
+#825
+bolsa seda~
+una bolsa de fina seda~
+Una bolsa hecha de la mejor seda ha sido dejada aqui.~
+~
+20 0 1
+169372 0 0 0
+100 400000 -25536
+E
+putrefaccion de la bolsa~
+Ves centelleos de metal a traves de los agujeros...
+~
+#826
+frasco eternidad ~
+un frasco de  eternidad~
+Un frasco con vapores esta aqui.~
+~
+10 67 16385
+45 -1 158 158
+2 22600 2260
+'pass door' 'restore mana' 'restore mana'
+#899
+fronterizo~
+un nuevo fronterizo~
+Algun dios ha tirado un objeto fronterizo aqui.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#800
+El fondo del arco iris~
+Estas delante de un hermoso arcoiris arqueando lo mas alto del cielo.
+Te sientes un poco separado del mundo natural, incluso aunque la ciudad del
+CielOscuro esta debajo de ti.
+~
+0 0 9
+D4
+El arco iris se extiende sobre ti, desvaneciendose unos metros mas alla.
+~
+~
+0 -1 801
+D5
+Puedes ver el Templo del Cieloscuro debajo de ti.
+~
+~
+0 -1 21338
+E
+arcoiris~
+El arcoiris brilla suavemente con luces de colores que embellecen la vista.
+~
+S
+#801
+En el arcoiris~
+Estas sobre el arcoiris, envuelto por muchas luces de colores.Mirando en el 
+fondo del arcoiris apenas puedes apreciar la catedral del Cieloscuro.
+~
+0 0 9
+D4
+El arcoiris se extiende lejos de ti, lentamente desvaneciendose en oscuridad.
+~
+~
+0 -1 802
+D5
+El arcoiris se extiende debajo de ti hacia CielOscuro
+~
+~
+0 -1 800
+E
+arcoiris~
+El arcoiris brilla suavemente con luces de colores que embellecen la vista.
+~
+S
+#802
+En el arco iris~
+Estas sobre el arcoiris, envuelto por muchas luces de colores.Mirando en el 
+fondo del arcoiris puedes apreciar la ciudad del Cieloscuro y la isla 
+envolviendole. El inmenso paisaje parece estar a kilometros debajo de ti.
+~
+0 0 9
+D4
+El arcoiris se extiende lejos de ti, lentamente desvaneciendose en oscuridad.
+~
+~
+0 -1 803
+D5
+El arcoiris se extiende debajo de ti a la tierra que una ve fue tu casa.
+~
+~
+0 -1 801
+E
+arcoiris~
+El arcoiris brilla suavemente con luces de colores que embellecen la vista.~
+S
+#803
+En el arcoiris~
+Estas sobre el arcoiris, rodeado de muchas luces de colores. El arcoiris se 
+extiende por encima y por debajo de ti.
+~
+0 0 9
+D4
+El arcoiris se extiende lejos de ti. Ves una blanca luz al final del arcoiris.
+~
+~
+0 -1 804
+D5
+El arcoiris se extiende lejos de ti, lentamente desvaneciendose en oscuridad.~
+~
+0 -1 802
+E
+arcoiris~
+El arcoiris brilla suavemente con luces de colores que embellecen la vista.~
+S
+#804
+En el arcoiris~
+Estas cerca del final del arcoiris. Los destellos de luces coloreadas comienzan
+a fusionarse y solidificarse.  Alredededor empiezas a ver infimas motas de polvo.
+Encima de ti hay un puente flotante.
+~
+0 0 9
+D4
+El arcoiris se extiende sobre ti, fusionandose en un vistoso puente.
+~
+~
+0 -1 805
+D5
+El arcoiris se extiende lejos de ti, lentamente desvaneciendose en oscuridad.~
+~
+0 -1 803
+E
+arcoiris~
+El arcoiris birlla ahora con luz cegadora, en colores se barren unos a otros y 
+se fusionan delante de tus ojos.
+~
+E
+motas de polvo.~
+Estas motas de polvo tienen forma de polvo y danzan delante de tus ojos. Son
+increiblemente hermosas pero intangibles -- tu mano pasa a traves de ellas 
+cuando intentas tocarlas.
+~
+E
+puente~
+Los colores del arcoiris parecen converger en un destacado puente que conduce a
+una gran puerta blanca.~
+S
+#805
+El puente brillante al final del arcoiris~
+Despues de una larga subida has alcanzado el final del arcoiris.  Los colores
+brillantes se han fusionado en un bello puente que conduce a una GRAN puerta por
+el norte. Todo tu alrededor es un suave y pacifico destello interrumpido solo
+por las motas de polvo que pasan delante de tus ojos.
+~
+0 0 1
+D0
+El puente conduce a una GRAN puerta blanca.  Ves una gran figura gris alli.
+~
+~
+0 -1 806
+D5
+Los fragmentos del puente crean un espectaculo de colores cuyo alcance total
+esta fuera de tu vista.
+~
+~
+0 -1 804
+E
+arcoiris~
+El arcoiris parece estar formado directamente de la luz del puente. Continua mas
+alla de tu vista debajo de ti.
+~
+E
+motas de polvo~
+Estas motas de polvo tienen forma de polvo y danzan delante de tus ojos. Son
+increiblemente hermosas pero intangibles -- tu mano pasa a traves de ellas 
+cuando intentas tocarlas.
+~
+E
+puente~
+El puente brilla con una luz jamas vista en la tierra.
+~
+E
+puerta~
+La puerta de eleva diez pies sobre tu cabeza. mas alla hay un campo de absoluta
+oscuridad desde el cual  las motas de luz parecen emitir algo.
+~
+S
+#806
+La Puerta Astral~
+El puente finaliza aqui delante de una masiva puerta de color perla mas alla de
+la cual puedes ver un campo de oscuridad lleno de finos zarcillos plateados en
+forma de serpiente, estrellas, y flases de luz de cuando en cuando.  Una placa
+en el muro de la puerta capta tu atencion.
+~
+0 0 1
+D0
+A traves de la puerta puedes ver un inmenso campo de oscuridad que se extiende
+tan lejos como eres capaz de ver.
+~
+puerta~
+1063 800 807
+D2
+El puente se extiende hacia el arcoiris, cuyo final no puedes ver debajo de ti.
+~
+~
+0 -1 805
+E
+puerta~
+ves una consistente y brillante puerta hecha de un duro y transluciente material.  Each of the intricately carved bars of this mighty gate are about 
+tan gorda como una muneca de hombre, Levantando del piso unos diez pies. Una
+plaqca esta incrustada en el muro cercano a la puerta.
+~
+E
+PLACA~
+La placa dice:
+
+Dejamos esta puerta construida para proteger a los mortales para siempre de los
+peligros de otros planos de la existencia y de las criaturas justas y tontas que
+han entrado en este pozo sin fondo.
+
+(This zone, the Astral Plane and accompanying githyanki keep, was written by
+ Andersen for any standard Merc 2.0 mud.)
+ 
+(This zone was later renovated and spiced up by Lord Rennard for the
+Realms of Despair.) And finally translated al cristiano por Alucard que ha 
+traducido el area 2 veces y esta hasta los cojones. Aprended de mi imbecilidad
+y no volvais a traducir con el notepad NUNCA.¡MALEDICTUS QUO FACIT OPUS WITH 
+NOTEPAD FERRAMENTUM! AMEEEEEEN!
+
+~
+S
+#807
+Dentro del Plano Astral ~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos  de
+luz plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de
+este ambiente es muy desorientadora. Al sur hay una serie de puertas de perla:
+La unica mundana manera de abandonar el Plano Astral.
+~
+0 12 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 808
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 809
+D2
+La puerta astral conduce de vuelta a tu mundo.
+~
+puerta~
+1063 800 806
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 810
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 811
+D5
+El campo astral conduce al infinito.
+~
+~
+0 -1 812
+E
+puerta~
+Desde aqui la puerta perla parece pequena y efimera. A traves de sus barrotes 
+puedes ver al guardian astral, protegiendo Desesperacion de los peligros del 
+Plano Astral.
+~
+S
+#808
+Explorando el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es muy desorientador, y es dificil mantener el rumbo y tus sentidos de
+direccion.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 807
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 810
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 812
+D3
+El campo astral conduce al infinito.
+~
+~
+0 -1 813
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 814
+S
+#809
+Explorando el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es muy desorientador, y es dificil mantener el rumbo y tus sentidos de
+direccion.
+
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 807
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 814
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 810
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 816
+D5
+El campo astral conduce al infinito.
+~
+~
+0 -1 811
+S
+#810
+Explorando el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es muy desorientador, y es dificil mantener el rumbo y tus sentidos de
+direccion.
+~
+0 8 2
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 808
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 807
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 813
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 815
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 809
+S
+#811
+Explorando el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es muy desorientador, y es dificil mantener el rumbo y tus sentidos de
+direccion.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 816
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 812
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 807
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 817
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 809
+S
+#812
+Explorando el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es muy desorientador, y es dificil mantener el rumbo y tus sentidos de
+direccion.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 817
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 808
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 807
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 815
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 811
+S
+#813
+Vagando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de este
+ambiente es muy desorientador. El campo astral esta en todas direcciones.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+~
+~
+0 -1 808
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 820
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 810
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 815
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 814
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 818
+S
+#814
+Vagando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de este
+ambiente es muy desorientador. El campo astral permanece en todas direcciones...
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 809
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 818
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 813
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 817
+D4
+El campo astral conduce al infinito.
+~
+~
+0 -1 819
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 808
+S
+#815
+Vagando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es muy desorientador. a pesar de que tus instintos te dicen que estas
+cerca de lo que buscas. Hay salidas en todas direcciones y todas conducen al
+campo astral.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 812
+D1
+El campo astral conduce al infinito.
+~
+~
+0 -1 813
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 816
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 822
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 810
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 820
+S
+#816
+Vagando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es muy desorientador. a pesar de que tus instintos te dicen que estas
+cerca de lo que buscas. Hay salidas en todas direcciones y todas conducen al
+campo astral.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 817
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 815
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 809
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 821
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 811
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 819
+S
+#817
+Vagando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es muy desorientador. a pesar de que tus instintos te dicen que estas
+cerca de lo que buscas. Hay salidas en todas direcciones y todas conducen al
+campo astral.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 814
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 822
+D2
+El campo astral conduce al infinito.
+~
+~
+0 -1 821
+D3
+El campo astral conduce al infinito.
+~
+~
+0 -1 811
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 812
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 816
+S
+#818
+Rondando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de este
+ambiente es muy desorientador. cerca ves un hilo de luz. Todas menos una de las
+salidas conducen al campo astral
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 819
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 813
+D2
+El campo astral conduce al infinito.
+~
+~
+0 -1 809
+D3
+Ves un tangible hilo de luz
+~
+~
+0 -1 836
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 814
+D5
+El campo astral conduce al infinito.
+~
+~
+0 -1 833
+S
+#819
+Rondando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de este
+ambiente es muy desorientador. cerca ves un hilo de luz. Todas menos una de las
+salidas conducen al campo astral
+~
+0 8 2
+D0
+Ves un tangible hilo de luz
+~
+~
+0 -1 838
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 818
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 816
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 834
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 814
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 810
+S
+#820
+Rondando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de este
+ambiente es muy desorientador. cerca ves un hilo de luz. Todas menos una de las
+salidas conducen al campo astral
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 815
+D1
+Ves un tangible hilo de luz.
+~
+~
+0 -1 840
+D2
+El campo astral conduce al infinito.
+~
+~
+0 -1 821
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 811
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 813
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 835
+S
+#821
+Rondando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de este
+ambiente es muy desorientador. cerca ves un hilo de luz. Todas menos una de las
+salidas conducen al campo astral
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 816
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 817
+D2
+El campo astral conduce al infinito.
+~
+~
+0 -1 812
+D3
+Ves un tangible hilo de luz
+~
+~
+0 -1 842
+D4
+El campo astral conduce al infinito.
+~
+~
+0 -1 833
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 820
+S
+#822
+Rondando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de este
+ambiente es muy desorientador. cerca ves un hilo de luz. Todas menos una de las
+salidas conducen al campo astral
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 812
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 834
+D3
+Ves un tangible hilo de luz
+~
+~
+0 -1 844
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 815
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 817
+S
+#823
+Viajando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de este
+ambiente es muy desorientador. cerca ves un GRAN hilo de luz. Todas menos una
+de las salidas conducen al campo astral.
+~
+0 8 2
+D0
+Ves un tangible hilo de luz.
+~
+~
+0 -1 837
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 832
+D2
+El campo astral conduce al infinito.
+~
+~
+0 -1 826
+D3
+El campo astral conduce al infinito.
+~
+~
+0 -1 824
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 828
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 835
+S
+#824
+Viajando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de este
+ambiente es extremadamente desorientador. cerca ves un GRAN hilo de luz. Todas
+menos una de las salidas conducen al campo astral.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 829
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 830
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 833
+D3
+Ves un tangible hilo de luz
+~
+~
+0 -1 839
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 825
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 823
+S
+#825
+Viajando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de este
+ambiente es extremadamente desorientador. cerca ves un GRAN hilo de luz. Todas
+menos una de las salidas conducen al campo astral.
+
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 824
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 830
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 827
+D3
+Ves un tangible hilo de luz
+~
+~
+0 -1 841
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 834
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 828
+S
+#826
+Viajando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de este
+ambiente es extremadamente desorientador. cerca ves un GRAN hilo de luz. Todas
+menos una de las salidas conducen al campo astral.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 835
+D1
+Ves un tangible hilo de luz
+~
+~
+0 -1 843
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 823
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 829
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 827
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 831
+S
+#827
+Viajando por el Plano Astral~
+Te encuentras flotando en un campo de oscuridad, lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo.  La ligereza de este
+ambiente es extremadamente desorientador. cerca ves un GRAN hilo de luz. Todas
+menos una de las salidas conducen al campo astral.
+~
+0 8 2
+D0
+Ves un tangible hilo de luz
+~
+~
+0 -1 844
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 831
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 826
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 833
+D4
+El campo astral conduce al infinito.
+~
+~
+0 -1 825
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 832
+S
+#828
+Atravesando el Plano Astral~
+Te encuentras profundamente en un campo oscuro lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es extremadamente desorientador, lo que te causa serios problemas para
+mantener el sentido de la direccion. Todas las salidas llevan al campo astral.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 825
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 809
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 834
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 823
+D4
+El campo astral conduce a las profundidades.
+
+~
+~
+0 -1 845
+D5
+El campo astral conduce a las profundidades.
+
+~
+~
+0 -1 847
+S
+#829
+Atravesando el Plano Astral~
+Te encuentras profundamente en un campo oscuro lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es extremadamente desorientador, lo que te causa serios problemas para
+mantener el sentido de la direccion. Todas las salidas llevan al campo astral.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 826
+D1
+El campo astral conduce a las profundidades.
+
+~
+~
+0 -1 846
+D2
+El campo astral conduce a las profundidades.
+
+~
+~
+0 -1 849
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 824
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 830
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 835
+S
+#830
+Atravesando el Plano Astral~
+Te encuentras profundamente en un campo oscuro lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es extremadamente desorientador, lo que te causa serios problemas para
+mantener el sentido de la direccion. Todas las salidas llevan al campo astral.
+~
+0 8 2
+D0
+El campo astral conduce a las profundidades
+
+~
+~
+0 -1 847
+D1
+El campo astral conduce a las profundidades.
+
+~
+~
+0 -1 845
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 833
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 825
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 824
+D5
+El campo astral conduce al infinito.
+~
+~
+0 -1 829
+S
+#831
+Atravesando el Plano Astral~
+Te encuentras profundamente en un campo oscuro lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es extremadamente desorientador, lo que te causa serios problemas para
+mantener el sentido de la direccion. Todas las salidas llevan al campo astral.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 826
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 832
+D2
+El campo astral conduce a las profundidades.
+
+~
+~
+0 -1 848
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 834
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 827
+D5
+El campo astral conduce a las profundidades.
+
+~
+~
+0 -1 846
+S
+#832
+Atravesando el Plano Astral~
+Te encuentras profundamente en un campo oscuro lleno de finos zarcillos de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es extremadamente desorientador, lo que te causa serios problemas para
+mantener el sentido de la direccion. Todas las salidas llevan al campo astral.
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 831
+D1
+El campo astral conduce a las profundidades.
+
+~
+~
+0 -1 848
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 823
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 827
+D4
+El campo astral conduce a las profundidades.
+
+~
+~
+0 -1 849
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 835
+S
+#833
+Perdido en el Plano Astral~
+Te encuentras en un campo de oscuridad, lleno de finos zarcillos  de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es increiblemente desorientadora, y apenas mantienes el rumbo. Todas
+las salidas conducen al campo astral.
+~
+0 8 2
+D1
+El campo astral conduce al infinito.
+~
+~
+0 -1 821
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 824
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 818
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 830
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 827
+S
+#834
+Perdido en el Plano Astral~
+Te encuentras en un campo de oscuridad, lleno de finos zarcillos  de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es increiblemente desorientadora, y apenas mantienes el rumbo. Todas
+las salidas conducen al campo astral.
+~
+0 8 2
+D1
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 819
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 822
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 828
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 825
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 831
+S
+#835
+Perdido en el Plano Astral~
+Te encuentras en un campo de oscuridad, lleno de finos zarcillos  de luz
+plateada  y de insustanciales y brillantes motas de polvo. La ligereza de este
+ambiente es increiblemente desorientadora, y apenas mantienes el rumbo. Todas
+las salidas conducen al campo astral.
+
+~
+0 8 2
+D0
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 820
+D2
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 826
+D3
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 823
+D4
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 832
+D5
+El campo astral conduce al infinito.
+
+~
+~
+0 -1 829
+S
+#836
+Paseando por el Hilo Plateado~
+Estas sobre un Hilo de Luz Plateada que envuelve y se gira sobre el campo astral.
+~
+0 8 2
+D2
+El hilo de luz se enrolla mas alla de tu vista.
+~
+~
+0 -1 837
+D5
+Ves la infinita expansion del campo astral.
+~
+~
+0 -1 818
+S
+#837
+Paseando por el Hilo Plateado~
+Estas sobre un Hilo de Luz Plateada que envuelve y se gira sobre el campo astral.
+~
+0 8 2
+D4
+El hilo de luz se enrolla mas alla de tu vista.
+~
+~
+0 -1 836
+D5
+You see the infinite expanse of the astral field.
+~
+~
+0 -1 823
+S
+#838
+Paseando por el Hilo Plateado~
+Estas sobre un Hilo de Luz Plateada que envuelve y se gira sobre el campo astral.
+~
+0 8 2
+D3
+Ves la infinita expansion del campo astral.
+~
+~
+0 -1 819
+D5
+El hilo de luz se enrolla mas alla de tu vista.~
+~
+0 -1 839
+S
+#839
+Paseando por el Hilo Plateado~
+Estas sobre un Hilo de Luz Plateada que envuelve y se gira sobre el campo astral.
+~
+0 8 2
+D3
+Ves la infinita expansion del campo astral.
+~
+~
+0 -1 824
+D5
+El hilo de luz se enrolla mas alla de tu vista.
+~
+~
+0 -1 838
+S
+#840
+Paseando por el Hilo Plateado~
+Estas sobre un Hilo de Luz Plateada que envuelve y se gira sobre el campo astral.
+~
+0 8 2
+D4
+El hilo de luz se enrolla mas alla de tu vista.
+~
+~
+0 -1 841
+D5
+Ves la infinita expansion del campo astral.
+~
+~
+0 -1 820
+S
+#841
+Paseando por el Hilo Plateado~
+Estas sobre un Hilo de Luz Plateada que envuelve y se gira sobre el campo astral.
+~
+0 8 2
+D2
+Ves la infinita expansion del campo astral.
+~
+~
+0 -1 825
+D4
+El hilo de luz se enrolla mas alla de tu vista.
+~
+~
+0 -1 840
+S
+#842
+Paseando por el Hilo Plateado~
+Estas sobre un Hilo de Luz Plateada que envuelve y se gira sobre el campo astral.
+~
+0 8 2
+D4
+Ves la infinita expansion del campo astral.
+~
+~
+0 -1 821
+D5
+El hilo de luz se enrolla mas alla de tu vista.
+~
+~
+0 -1 843
+S
+#843
+Paseando por el Hilo Plateado~
+Estas sobre un Hilo de Luz Plateada que envuelve y se gira sobre el campo astral.
+~
+0 8 2
+D0
+Ves la infinita expansion del campo astral.
+~
+~
+0 -1 826
+D3
+El hilo de luz se enrolla mas alla de tu vista.
+~
+~
+0 -1 842
+S
+#844
+Paseando por el Hilo Plateado~
+Estas sobre un Hilo de Luz Plateada que envuelve y se gira sobre el campo astral.
+~
+0 8 2
+D1
+Ves la infinita expansion del campo astral.
+~
+~
+0 -1 822
+D2
+Ves la expansion sin final del campo astral.
+~
+~
+0 -1 827
+S
+#845
+Profundamente en el Plano Astral~
+Has viajado muy adentro del campo astral. Aqui esta la fabrica del campo que ha
+sido alterada y deformada debido a la proximidad de otro plano de existencia.
+Algunos de los zarcillos de luz que lineaban el campo astral se han ido a traves
+de portales a otros mundos. No obstante, todas menos una de estas parecen estar
+selladas por fuertes magias.
+~
+0 8 2
+D0
+El campo astral te lleva a las profundidades.
+~
+~
+0 -1 846
+D1
+El campo astral te lleva al infinito.
+~
+~
+0 -1 830
+D3
+El campo astral te lleva a las profundidades.
+~
+~
+0 -1 849
+D4
+A traves de un portal anexial puedes ver una mazmorra de piedra.
+~
+~
+0 -1 850
+D5
+El campo astral te lleva al infinito.
+~
+~
+0 -1 828
+S
+#846
+Profundamente en el Plano Astral~
+Has viajado muy adentro del campo astral. Aqui esta la fabrica del campo que ha
+sido alterada y deformada debido a la proximidad de otro plano de existencia.
+Algunos de los zarcillos de luz que lineaban el campo astral se han ido a traves
+de portales a otros mundos.  No obstante, parecen estar selladas para siempre
+por poderosas magias.
+~
+0 8 2
+D0
+El campo astral te lleva al infinito.
+~
+~
+0 -1 833
+D2
+El campo astral te lleva a las profundidades.
+~
+~
+0 -1 845
+D3
+El campo astral te lleva a las profundidades.
+~
+~
+0 -1 847
+D4
+El campo astral te lleva al infinito.~
+~
+0 -1 829
+D5
+The astral field leads on into infinity.
+~
+~
+0 -1 831
+S
+#847
+Profundamente en el Plano Astral~
+Has viajado muy adentro del campo astral. Aqui esta la fabrica del campo que ha
+sido alterada y deformada debido a la proximidad de otro plano de existencia.
+Algunos de los zarcillos de luz que lineaban el campo astral se han ido a traves
+de portales a otros mundos.  No obstante, parecen estar selladas para siempre
+por poderosas magias.
+
+~
+0 8 2
+D0
+El campo astral te lleva al infinito.
+~
+~
+0 -1 834
+D1
+El campo astral te lleva a las profundidades.
+~
+~
+0 -1 846
+D2
+El campo astral te lleva al infinito.
+~
+~
+0 -1 830
+D3
+El campo astral te lleva al infinito.
+~
+~
+0 -1 828
+D5
+El campo astral te lleva a las profundidades.
+~
+~
+0 -1 848
+S
+#848
+Profundamente en el Plano Astral~
+Has viajado muy adentro del campo astral. Aqui esta la fabrica del campo que ha
+sido alterada y deformada debido a la proximidad de otro plano de existencia.
+Algunos de los zarcillos de luz que lineaban el campo astral se han ido a traves
+de portales a otros mundos.  No obstante, parecen estar selladas para siempre
+por poderosas magias.
+
+~
+0 8 2
+D0
+El campo astral te lleva al infinito.
+~
+~
+0 -1 835
+D1
+El campo astral te lleva al infinito.~
+~
+0 -1 831
+D2
+El campo astral te lleva a las profundidades.
+~
+~
+0 -1 849
+D4
+El campo astral te lleva a las profundidades.
+~
+~
+0 -1 847
+D5
+El campo astral te lleva al infinito.~
+~
+0 -1 832
+S
+#849
+Profundamente en el Plano Astral~
+Has viajado muy adentro del campo astral. Aqui esta la fabrica del campo que ha
+sido alterada y deformada debido a la proximidad de otro plano de existencia.
+Algunos de los zarcillos de luz que lineaban el campo astral se han ido a traves
+de portales a otros mundos.  No obstante, parecen estar selladas para siempre
+por poderosas magias.
+
+~
+0 8 2
+D0
+El campo astral te lleva a las profundidades.
+~
+~
+0 -1 848
+D1
+El campo astral te lleva a las profundidades.
+~
+~
+0 -1 845
+D2
+El campo astral te lleva a las profundidades.
+~
+~
+0 -1 832
+D3
+El campo astral te lleva al infinito.
+~
+~
+0 -1 829
+S
+#850
+Dentro de la Mazmorra Githyanki~
+Estas dentro de un portal anexial que conduce al Plano Astral. Parece que has
+encontrado la guarida de los Githyanki, los una vez humanos seguidores de Lady
+Gith. Delante de ti hay una puerta de acero llevando a comida cortada con piedra.
+~
+0 12 0
+D0
+Ves una oxidada de puerta de acero que conduce a la mazmorra.
+~
+acero~
+3 -1 851
+D5
+Aqui debajo esta el portal anexial que conduce al plano astral.
+~
+~
+0 -1 845
+E
+acero~
+La puerta esta hecha de una serie de oxidados fragmentos de acero profundamente
+fijados en piedra.
+~
+S
+#851
+Una estacion de guardia~
+Esto es una pequeña construccion dentro de la mazorra. Las puertas conducen al
+este y al oeste.  hay pequeñas armas mantenidas en gaefios en los muros, para
+usar en defensa de la mazmorra. Hay puertas en todas direcciones salvo el norte.
+~
+0 8 0
+D1
+Ves una puerta de hierro que conduce a una calzada de piedra gris.
+~
+puerta de hierro~
+3 -1 861
+D2
+Ves una oxidada puerta que conduce afuera al portal anexial.
+~
+acero~
+3 -1 850
+D3
+Ves una puerta de hierro que conduce a una calzada gris de piedra.
+~
+puerta de hierro~
+3 -1 852
+E
+Acero~
+La puerta de hierro esta hecha de una serie de trozos de acero oxidado
+fijados en piedra.
+
+~
+E
+puerta de hierro~
+La puerta de hierro esta hecha de una serie de trozos de hierro 
+fijados en piedra.
+~
+S
+#852
+Una calzada gris~
+La calzada que estas pisando esta hecha de un adoquin gris feo. Un agobiante sol
+rojo esta en el cielo naranja  que hay sobre tu cabeza, extranamente calmado. Tu
+no oyes ningun sonido que pudieras asociar a una ciudad corriente. la calzada de
+adoquin tuerce hacia el norte, mientras que al este hay una consistente puerta de
+hierro.
+~
+0 8 1
+D0
+Continua el adoquin gris
+~
+~
+0 -1 853
+D1
+Ves una puerta de hierro que lleva a una pequena construccion fijada en un muro
+de la mazmorra.
+~
+puerta de hierro~
+3 -1 851
+E
+puerta de hierro~
+La puerta de hierro esta hecha de una serie de trozos de hierro 
+fijados en piedra.
+
+~
+S
+#853
+Una calzada gris~
+La calzada que estas pisando esta hecha de un adoquin gris feo. Un agobiante sol
+rojo esta en el cielo naranja  que hay sobre tu cabeza, extranamente calmado. Tu
+no oyes ningun sonido que pudieras asociar a una ciudad corriente. La calzada de
+adoquin continua al norte y al sur , aunque hay dos edificios al este y al oeste  
+a los cuales puedes entrar por dos puertas de madera y hierro respectivamente.
+~
+0 8 1
+D0
+El adoquin gris continua.
+~
+~
+0 -1 854
+D1
+Ves una pequena construccion en piedra con una puerta de madera.
+~
+madera~
+3 -1 862
+D2
+El adoquin gris continua.
+~
+~
+0 -1 852
+D3
+Una puerta de hierro impide la entrada a un edificio mediano de piedra.
+~
+puerta de hierro~
+3 -1 869
+E
+madera~
+La puerta es gruesa, hecha de una madera  espinosa y gris.
+~
+E
+puerta de hierro~
+La puerta esta decorada con algunos trozos de hierro plateado fijados en piedra.~
+S
+#854
+Una calzada gris~
+La calzada que estas pisando esta hecha de un adoquin gris feo. Un agobiante sol
+rojo esta en el cielo naranja  que hay sobre tu cabeza, extranamente calmado. Tu
+no oyes ningun sonido que pudieras asociar a una ciudad corriente. La calzada de
+adoquin continua al este y al sur
+~
+0 8 1
+D1
+El adoquin gris continua.
+~
+~
+0 -1 855
+D2
+El adoquin gris continua.~
+~
+0 -1 853
+S
+#855
+Una calzada gris~
+La calzada que estas pisando esta hecha de un adoquin gris feo. Un agobiante sol
+rojo esta en el cielo naranja  que hay sobre tu cabeza, extranamente calmado. Tu
+no oyes ningun sonido que pudieras asociar a una ciudad corriente. La calzada de
+adoquin continua al este y al oeste, tambien puedes entrar a las dos puertas
+dobles que te permitiran entrar en un enorme edificio.
+~
+0 8 1
+D0
+Delante de ti hay unas majestuosas puertas de metal
+~
+Puertas de metal~
+3 -1 874
+D1
+El adoquin gris continua.
+~
+~
+0 -1 856
+D3
+El adoquin gris continua.
+~
+~
+0 -1 854
+E
+puertas de metal~
+Las puertas estan hechas de una sustancia plateada que son duras pero a la vez
+resbaladizas al tocarlas. Estan cubiertas de imagenes hechas a modo de diversion
+, escenificando escenas de combate entre humanos y extraños humanoides con 
+tentaculos.
+~
+S
+#856
+Una calzada gris~
+La calzada que estas pisando esta hecha de un adoquin gris feo. Un agobiante sol
+rojo esta en el cielo naranja  que hay sobre tu cabeza, extranamente calmado. Tu
+no oyes ningun sonido que pudieras asociar a una ciudad corriente. La calzada de
+adoquin continua al este y al oeste, aunque hay una puerta al sur que conduce a un
+edificio de piedra.
+~
+0 8 1
+D1
+El adoquin gris continua.
+~
+~
+0 -1 857
+D2
+Ves una alta construccion en piedra con una puerta de madera.
+~
+puerta de madera~
+3 -1 864
+D3
+El adoquin gris continua.
+~
+~
+0 -1 855
+E
+puerta de madera~
+La puerta es gruesa, hecha de una madera  espinosa y gris.
+~
+S
+#857
+Una calzada gris~
+La calzada que estas pisando esta hecha de un adoquin gris feo. Un agobiante sol
+rojo esta en el cielo naranja  que hay sobre tu cabeza, extranamente calmado. Tu
+no oyes ningun sonido que pudieras asociar a una ciudad corriente. La calzada de
+adoquin continua al sur y al oeste, while a door to the north leads
+into a tall stone building.
+~
+0 8 1
+D0
+Ves una alta construccion en piedra con una puerta de madera.
+~
+puerta de madera~
+3 -1 873
+D2
+El adoquin gris continua.
+~
+~
+0 -1 858
+D3
+El adoquin gris continua.~
+~
+0 -1 856
+E
+puerta de madera~
+La puerta es gruesa, hecha de una madera  espinosa y gris.
+~
+S
+#858
+Una calzada gris~
+La calzada que estas pisando esta hecha de un adoquin gris feo. Un agobiante sol
+rojo esta en el cielo naranja  que hay sobre tu cabeza, extranamente calmado. Tu
+no oyes ningun sonido que pudieras asociar a una ciudad corriente. La calzada de
+adoquin continua al sur y al norte--hay una puerta de hierro fijada con grandes
+piedras al este.
+~
+0 8 1
+D0
+El adoquin gris continua.
+~
+~
+0 -1 857
+D1
+Una puerta de hierro bloquea tu camino a la entrada al edificio.
+~
+puerta  de hierro~
+3 -1 867
+D2
+El adoquin gris continua.
+~
+~
+0 -1 859
+E
+puerta de hierro~
+La puerta esta hecha con trozos de hierro trabajados con martillo, fijados 
+profundamente en el muro de piedra.
+~
+S
+#859
+Una calzada gris~
+La calzada que estas pisando esta hecha de un adoquin gris feo. Un agobiante sol
+rojo esta en el cielo naranja  que hay sobre tu cabeza, extranamente calmado. Tu
+no oyes ningun sonido que pudieras asociar a una ciudad corriente. La calzada de
+adoquin continua al sur y al norte.
+~
+0 8 1
+D0
+El adoquin gris continua.
+~
+~
+0 -1 858
+D2
+El adoquin gris continua.
+~
+~
+0 -1 860
+S
+#860
+Una calzada gris~
+La calzada que estas pisando esta hecha de un adoquin gris feo. Un agobiante sol
+rojo esta en el cielo naranja  que hay sobre tu cabeza, extranamente calmado. Tu
+no oyes ningun sonido que pudieras asociar a una ciudad corriente. La calzada de
+adoquin continua al oeste y al norte, al este hay una puerta que conduce a un
+GRAN edificio.
+~
+0 8 1
+D0
+El adoquin gris continua.
+~
+~
+0 -1 859
+D1
+Una puerta de hierro bloquea el paso a un edificio grande.
+~
+puerta de hierro~
+3 -1 865
+D3
+El adoquin gris continua.
+~
+~
+0 -1 861
+E
+puerta de hierro~
+La puerta esta hecha con trozos de hierro trabajados con martillo, fijados 
+profundamente en el muro de piedra.
+
+~
+S
+#861
+Una calzada gris~
+La calzada que estas pisando esta hecha de un adoquin gris feo. Un agobiante sol
+rojo esta en el cielo naranja  que hay sobre tu cabeza, extranamente calmado. Tu
+no oyes ningun sonido que pudieras asociar a una ciudad corriente. La calzada de adoquin
+se alarga por el este, mientras que hay puertas al norte y al oeste que habria
+que investigar...
+~
+0 8 1
+D0
+Ves un pequeno edificio con una puerta de madera.
+~
+puerta de madera~
+3 -1 863
+D1
+El adoquin gris continua.
+~
+~
+0 -1 860
+D3
+Ves una puerta de hierro que conduce a un edificio dentro de la mazmorra...
+~
+puerta de hierro~
+3 -1 851
+E
+puerta de madera~
+La puerta es gruesa, hecha de una madera  espinosa y gris.
+~
+E
+puerta de hierro~
+La puerta de hierro esta hecha con una serie de trozos fijados en piedra.
+~
+S
+#862
+Un pequeno edificio~
+Has entrado en un edificio poco iluminado, que aparentemente sirve de cuartel
+para algunos gish. Los muros son enormes bloques de piedra, cubiertos de madera
+espinosa y gris.  Un par de velas llamean debilmente de vez en cuando.
+~
+0 8 0
+D3
+La puerta de madera conduce de vuelta a la calzada gris..
+~
+puerta de madera~
+3 -1 853
+E
+puerta de madera~
+La puerta es gruesa, hecha de una madera  espinosa y gris.
+~
+S
+#863
+Un pequeno edificio~
+Has entrado en un edificio poco iluminado, que aparentemente sirve de cuartel
+para algunos gish. Los muros son enormes bloques de piedra, cubiertos de madera
+espinosa y gris.  Un par de velas llamean debilmente de vez en cuando.
+
+~
+0 8 0
+D2
+La puerta de madera conduce de vuelta a la calzada gris.
+~
+puerta de madera~
+3 -1 861
+E
+puerta de madera~
+La puerta es gruesa, hecha de una madera  espinosa y gris.
+
+~
+S
+#864
+Una gran vivienda~
+Has entrado en una vivienda poco iluminada con techos abovedados y ventanas altas
+Los muros son enormes bloques de piedra que se elevan diez pies sobre tu cabeza
+Cubiertos de la misteriosa madera espinosa y gris. En el suelo hay plantillas de
+carbon, pentagramas y varios siniestros sigils.
+~
+0 8 0
+D0
+La puerta de madera conduce de vuelta a la calzada gris.
+~
+puerta de madera~
+3 -1 856
+E
+puerta de madera~
+La puerta es gruesa, hecha de una madera  espinosa y gris.
+
+~
+S
+#865
+La Armeria Githyanki~
+Has etrado en una gran recamara llena de harmas en varios estados de conclusion
+Extraños bloques brillantes de metal plateado estan siendo golpeados y 
+desenrollados en mortales y afilados cuchillos dagas y espadas.  Los sonidos del
+martilleo y las fieras olas de calor emergen del norte. Al oeste esta la puerta
+de hierro para volver a la calzada gris.
+~
+0 8 0
+D0
+Ves una fragua iluminada por un GRAN horno
+~
+~
+0 -1 866
+D3
+La puerta de hierro conduce de vuelta de a la calzada gris
+~
+puerta de hierro~
+3 -1 860
+E
+puerta de hierro~
+Ves una puerta de hierro hecha a base de martillo con trozos de hierro fijados
+en piedra.
+~
+S
+#866
+La Fragua~
+En el centro de la habitacion esta el gran horno que emite  las olas de calor.
+El horno tambien emite  un extrano olor del metal plateado que usan los githyanki
+. Un gran abrevadero de agua muy fria esta al oeste, usado para enfriar metal al
+rojo vivo. Hay pasajes al norte y al sur,mientras que la puerta del horno
+conduce al este.
+~
+0 8 0
+D0
+Ves la habitacion de las armaduras.
+~
+~
+0 -1 867
+D1
+Solo puedes ver llamas a traves de la puerta.
+~
+puerta del horno~
+3 -1 868
+D2
+Ves la armeria.
+~
+~
+0 -1 865
+E
+puerta del horno~
+El horno esta caliente aun antes de tocarlo. Va a ser dificil siquiera abrirlo.
+~
+S
+#867
+La habitacion de las armaduras.~
+Has etrado en una gran recamara llena de armaduras en varios estados de conclusion
+Extraños bloques brillantes de metal plateado estan siendo golpeados y 
+formados en exoticas armaduras de malla.  Los sonidos del
+martilleo y las fieras olas de calor emergen del sur. Al oeste esta la puerta
+de hierro para volver a la calzada gris.
+~
+0 8 0
+D2
+Ves la habitacion en la que hay una fragua iluminada por un horno.
+~
+~
+0 -1 866
+D3
+La puerta de hierro conduce de vuelta a la calzada gris.
+~
+puerta de hierro~
+3 -1 858
+E
+puerta de hierro~
+esta puerta esta hecha a base de golpes de martillo con trozos de hierro fijados
+en piedra.
+~
+S
+#868
+Dentro del Horno~
+Jadeas para respirar debido al azufre y el brimstone, que son toxicos. El sudor
+de tu frente es instantaneamente vaporizada por las llamas que te envuelven. Te
+empiezas a sentir debil y mareado por tanto calor...
+~
+0 2097160 0
+D3
+Las llamas te ciegan y obstruyen tu vision
+~
+puerta del horno~
+3 -1 866
+E
+e east~
+Las llamas te ciegan y obstruyen tu vision
+~
+S
+#869
+Una estacion de guardia~
+Estas dentro de una pequena construccion medio vacia debido a que sirve como
+prision de la mazmorra. la talla de la construccion es pequena porque los 
+githyanki no hacen habitualmente prisioneros y aquellos que lo son no duran mucho
+. Las celdas estan al oeste, mientras que la calzda gris esta atravesando una 
+puerta al este.
+~
+0 8 0
+D1
+Ves una puerta de hierro que conduce de vuelta a la calzada gris.
+~
+puerta de hierro~
+3 -1 853
+D3
+Ves la celda
+~
+~
+0 -1 870
+E
+puerta de hierro~
+La puerta esta adornada con trozos de hierro fijados profundamente en el muro
+de piedra.
+~
+S
+#870
+La Celda~
+Una antorcha firmemente sujeta en el muro del oeste ilumina este corredor.
+Hay argollas cadenas y demas utensilios de tortura recientemente usados ya que
+puedes apreciar los tipos diferentes de sangre que hay en ellos. Puertas de las
+Celdas estan al norte y al sur, se vuelve a la estacion de guardia por el este.
+~
+0 8 0
+D0
+Ves una pequena celda
+~
+puerta de celda~
+3 -1 871
+D1
+Ves la estacion de guardia
+~
+~
+0 -1 869
+D2
+Ves una pequena celda
+~
+puerta de celda~
+3 -1 872
+E
+puerta de la celda~
+La puerta de la celda es de madera y tiene una ranura en el fondo para pasar 
+comida al prisionero.
+~
+S
+#871
+Una estrecha celda~
+Ves una poco solida y oscura celda. El helado aire te da un escalofrio lo cual te
+hace pensar cuanto tiempo esperan los githyanki que el ocupante de la celda 
+sobreviva. La unica salida es la puerta por la que has entrado.
+~
+0 8 0
+D2
+Ves la Celda
+~
+puerta de la celda~
+3 -1 870
+E
+puerta de la celda~
+La puerta de la celda es de madera y tiene una ranura en el fondo para pasar 
+comida al prisionero.
+
+~
+S
+#872
+Una estrecha celda~
+Ves una poco solida y oscura celda. El helado aire te da un escalofrio lo cual te
+hace pensar cuanto tiempo esperan los githyanki que el ocupante de la celda 
+sobreviva. La unica salida es la puerta por la que has entrado.
+~
+0 8 0
+D0
+Ves la Celda
+~
+puerta de celda~
+3 -1 870
+E
+puerta de la celda~
+La puerta de la celda es de madera y tiene una ranura en el fondo para pasar 
+comida al prisionero.
+~
+S
+#873
+Una gran vivienda~
+Has entrado en una vivienda poco iluminada con techos abovedados y ventanas altas.
+Los muros son enormes bloques de piedra que se elevan diez pies sobre tu cabeza
+Cubiertos de la misteriosa madera espinosa y gris. En el suelo hay plantillas de
+carbon, pentagramas y varios siniestros sigils.
+
+~
+0 8 0
+D2
+La puerta vonduce de vuelta a la calzada gris.
+~
+puerta de madera~
+3 -1 857
+E
+puerta de madera~
+La puerta es gruesa, hecha de una madera  espinosa y gris.~
+S
+#874
+Final del Vestibulo al sur~
+Estas en un masivo vestibulo de piedra, iluminado por llamas azules insertadas
+en los muros. Grandes armaduras adornan los muros, sin menospreciar las exoticas
+armas hechas de un extrano metal plateado. El Gran vestibulo continua al norte
+y finaliza en un par de vastas puertas de metal al sur.
+~
+0 8 0
+D0
+El gran vestibulo continua al norte
+~
+~
+0 -1 875
+D2
+Las puertas de metal te llevan fuera a la calzada gris
+~
+doors metal~
+3 -1 855
+E
+armaduras~
+Las armaduras estan complejamente forjados en malla entablillada.
+~
+E
+armas~
+grandes palos, lanzas, grandes espadas, toda clase de utensilios mortales.
+~
+E
+puertas de metal~
+Las puertas estan hechas de una sustancia plateada que son duras pero a la vez
+resbaladizas al tocarlas. Estan cubiertas de imagenes hechas a modo de diversion
+, escenificando escenas de combate entre humanos y extraños humanoides con 
+tentaculos.
+
+~
+S
+#875
+Final del Vestibulo al norte~
+Estas en un masivo vestibulo de piedra, iluminado por llamas azules insertadas
+en los muros. Grandes armaduras adornan los muros, sin menospreciar las exoticas
+armas hechas de un extrano metal plateado. El gran vestibulo continua al sur
+, mientras gruesas nieblas al norte previenen esa direccion.
+~
+0 8 0
+D0
+Puedes ver alguien dando pasos hacia el altar...
+~
+puerta mistica~
+3 -1 876
+D2
+El gran vestibulo continua al norte~
+~
+0 -1 874
+E
+armaduras~
+Las armaduras estan complejamente forjados en malla entablillada..
+~
+E
+armas~
+grandes palos, lanzas, grandes espadas, toda clase de utensilios mortales.
+~
+E
+puertas arqueadas~
+El pasaje esta rodeado de una niebla negra que impide toda vision.
+~
+S
+#876
+El Altar~
+Tus ojos se ajustan con dificultad a la debil luz. Todo lo que te rodea son 
+estatuas de los githyanki que miran siempre hacia el altar, este se encuentra
+en lo mas alto de esta gran recamara, solo hya que dar unos pasitos al norte...
+~
+0 9 0
+D0
+Al norte se encuentra El Gran Altar del Sacrificio
+~
+~
+0 -1 877
+D2
+Crees ver el vestibulo
+~
+puerta mistica ~
+3 -1 875
+E
+puertas arqueadas~
+El pasaje esta rodeado de una niebla negra que impide toda vision.~
+S
+#877
+Delante del Altar~
+Has subiso las vastas escaleras de la recamara del altar, ahora estas delante del
+altar que se uso para pagar tributo a Lady Gith, La largamente muerta gobernante
+de los githyanki.  El altar esta cubierto de sangre e irradia un indescriptible
+poder que es absorbido por la horrible presencia que hay delante de ti.
+~
+0 3145737 0
+D2
+Al sur lleva de vuelta a la recamara del altar
+~
+~
+0 -1 876
+E
+altar~
+El altar es grande y esta cubierto de sangre
+~
+E
+sangre~
+Los chorros de sngre se caen del altar y llegan a tus pies...
+~
+E
+agujeros~
+Por los agujeros han pasado incontables rios de angre que caian del altar.
+~
+S
+#878
+Una puerta al mundo subterraneo~
+Caminas a traves del fino agujero en el altar, y estas delante de un campo oscuro
+A Traves del campo puedes escuchar los lamentos de las almas de los habitantes y
+de los largamente muertos alli.
+~
+0 2097161 1
+D5
+Miras abajo en el campo de oscuridad, y sientes una sensacion de maldad sobre ti.
+Seguir hacia el campo seria una mala idea.~
+puerta~
+1031 824 879
+E
+sangre~
+La sangre cae de por encima de tu cabeza y va por el campo...
+~
+E
+campo de puerta~
+El campo se alimenta de la sangre de abajo.
+
+Una ola de odio cae sobre ti , causando miedo en lo mas profundo de tu alma.
+~
+S
+#879
+Absoluta oscuridad y desespero~
+Una gran oscuridad  pesa sobre este inmenso territorio, reduciendo tu visión a  
+los pies no más.  Pequeñas formas parecen surgir entonces de la oscuridad 
+entonces vuelven a las sombras por el miedo a la luz.  Aunque no hay peligro 
+claro, las olas de miedo pasan a través de su cuerpo y tu permaneces en guardia...
+~
+0 2105357 9
+S
+#880
+Entrada al Limbo~
+~
+0 1073741824 1
+D3
+~
+~
+0 -1 881
+S
+#881
+puerta hacia la mazmorra githzerai~
+~
+0 1073741824 1
+D1
+~
+~
+0 -1 880
+D7
+~
+~
+0 -1 882
+D9
+~
+~
+0 -1 898
+S
+#882
+Camino~
+~
+0 1073741824 1
+D0
+~
+~
+0 -1 883
+D8
+~
+~
+0 -1 881
+S
+#883
+camino~
+~
+0 1073741824 1
+D2
+~
+~
+0 -1 882
+D7
+~
+~
+0 -1 884
+S
+#884
+camino~
+~
+0 1073741824 1
+D7
+~
+~
+0 -1 885
+D8
+~
+~
+0 -1 883
+S
+#885
+camino~
+~
+0 1073741824 1
+D3
+~
+~
+0 -1 886
+D8
+~
+~
+0 -1 884
+S
+#886
+camino~
+~
+0 1073741824 1
+D1
+~
+~
+0 -1 885
+D9
+~
+~
+0 -1 887
+S
+#887
+camino~
+~
+0 1073741824 1
+D6
+~
+~
+0 -1 886
+D9
+~
+~
+0 -1 888
+S
+#888
+camino~
+~
+0 1073741824 1
+D2
+~
+~
+0 -1 889
+D6
+~
+~
+0 -1 887
+S
+#889
+camino~
+~
+0 1073741824 1
+D0
+~
+~
+0 -1 888
+D9
+~
+~
+0 -1 890
+S
+#890
+camino~
+~
+0 1073741824 1
+D6
+~
+~
+0 -1 889
+D8
+~
+~
+0 -1 891
+S
+#891
+camino~
+~
+0 1073741824 1
+D2
+~
+~
+0 -1 892
+D7
+~
+~
+0 -1 890
+S
+#892
+camino~
+~
+0 1073741824 1
+D0
+~
+~
+0 -1 891
+D8
+~
+~
+0 -1 893
+S
+#893
+camino~
+~
+0 1073741824 1
+D7
+~
+~
+0 -1 892
+D8
+~
+~
+0 -1 894
+S
+#894
+camino~
+~
+0 1073741824 1
+D1
+~
+~
+0 -1 895
+D7
+~
+~
+0 -1 893
+S
+#895
+camino~
+~
+0 1073741824 1
+D3
+~
+~
+0 -1 894
+D6
+~
+~
+0 -1 896
+S
+#896
+camino~
+~
+0 1073741824 1
+D6
+~
+~
+0 -1 897
+D9
+~
+~
+0 -1 895
+S
+#897
+camino~
+~
+0 1073741824 1
+D0
+~
+~
+0 -1 898
+D9
+~
+~
+0 -1 896
+S
+#898
+camino~
+~
+0 1073741824 1
+D2
+~
+~
+0 -1 897
+D6
+~
+~
+0 -1 881
+S
+#899
+Flotando en la nada~
+~
+0 1073741828 1
+S
+#0
+
+
+#RESETS
+M 0 800 1 806
+E 0 800 0 16
+G 1 826 1
+D 0 806 0 2
+D 0 807 2 2
+R 0 808 6
+R 0 809 6
+R 0 810 6
+R 0 811 6
+R 0 812 6
+R 0 813 6
+M 0 804 10 813
+R 0 814 6
+R 0 815 6
+R 0 816 6
+R 0 817 6
+R 0 818 6
+M 0 805 8 818
+E 0 807 0 16
+R 0 819 6
+R 0 820 6
+M 0 803 4 820
+G 0 814 0
+M 0 805 8 820
+E 0 807 0 16
+R 0 821 6
+R 0 822 6
+M 0 805 8 822
+E 0 807 0 16
+R 0 823 6
+M 0 806 6 823
+E 0 809 0 16
+E 0 815 0 5
+R 0 824 6
+M 0 803 4 824
+G 0 814 0
+M 0 805 8 824
+E 0 807 0 16
+R 0 825 6
+R 0 826 6
+M 0 803 4 826
+G 0 814 0
+R 0 827 6
+M 0 806 6 827
+E 0 809 0 16
+E 0 815 0 5
+R 0 828 6
+R 0 829 6
+M 0 810 6 829
+E 0 806 0 16
+R 0 830 6
+M 0 803 4 830
+G 0 814 0
+M 0 808 3 830
+E 0 809 0 16
+E 0 815 0 5
+E 0 816 0 7
+E 0 817 0 10
+R 0 831 6
+M 0 810 6 831
+E 0 806 0 16
+R 0 832 6
+R 0 833 6
+M 0 801 2 833
+G 0 804 0
+R 0 834 6
+M 0 801 2 834
+G 0 804 0
+R 0 835 6
+R 0 836 6
+R 0 837 6
+R 0 838 6
+R 0 839 6
+R 0 840 6
+R 0 841 6
+R 0 842 6
+R 0 843 6
+R 0 844 6
+M 0 815 3 845
+G 0 821 0
+M 0 802 1 846
+G 0 805 0
+M 0 815 3 847
+G 0 821 0
+M 0 815 3 849
+G 0 821 0
+D 0 850 0 1
+M 0 807 8 851
+E 0 808 0 16
+E 0 815 0 5
+M 0 807 8 851
+E 0 808 0 16
+E 0 815 0 5
+D 0 851 2 1
+D 0 851 1 1
+D 0 851 3 1
+D 0 852 1 1
+M 0 811 6 853
+E 0 806 0 16
+D 0 853 1 1
+D 0 853 3 1
+M 0 808 3 855
+E 0 809 0 16
+E 0 815 0 5
+E 0 816 0 7
+E 0 817 0 10
+D 0 855 0 1
+D 0 856 2 1
+D 0 857 0 1
+D 0 858 1 1
+M 0 811 6 859
+E 0 806 0 16
+D 0 860 1 1
+D 0 861 0 1
+D 0 861 3 1
+M 0 811 6 862
+E 0 806 0 16
+M 0 811 6 862
+E 0 806 0 16
+G 0 822 0
+D 0 862 3 1
+M 0 811 6 863
+E 0 806 0 16
+M 0 811 6 863
+E 0 806 0 16
+G 0 822 0
+D 0 863 2 1
+M 0 812 4 864
+E 0 810 0 16
+G 0 803 0
+D 0 864 0 1
+M 0 807 8 865
+E 0 808 0 16
+E 0 815 0 5
+M 0 807 8 865
+E 0 808 0 16
+E 0 815 0 5
+D 0 865 3 1
+D 0 866 1 1
+M 0 807 8 867
+E 0 808 0 16
+E 0 815 0 5
+M 0 807 8 867
+E 0 808 0 16
+E 0 815 0 5
+D 0 867 3 1
+M 0 818 1 868
+E 0 813 0 0
+M 0 819 6 868
+M 0 819 6 868
+M 0 819 6 868
+M 0 819 6 868
+M 0 819 6 868
+M 0 819 6 868
+D 0 868 3 1
+M 0 807 8 869
+E 0 808 0 16
+E 0 815 0 5
+M 0 807 8 869
+E 0 808 0 16
+E 0 815 0 5
+D 0 869 1 1
+D 0 870 0 1
+D 0 870 2 1
+M 0 817 1 871
+D 0 871 2 1
+M 0 816 1 872
+D 0 872 0 1
+M 0 812 4 873
+E 0 810 0 16
+G 0 803 0
+D 0 873 2 1
+M 0 812 4 874
+E 0 810 0 16
+G 0 803 0
+M 0 812 4 874
+E 0 810 0 16
+G 0 803 0
+D 0 874 2 1
+D 0 875 0 1
+M 0 809 2 876
+E 0 809 0 16
+E 0 815 0 5
+E 0 816 0 7
+E 0 817 0 10
+E 0 818 0 9
+M 0 809 2 876
+E 0 809 0 16
+E 0 815 0 5
+E 0 816 0 7
+E 0 817 0 10
+E 0 818 0 9
+D 0 876 2 1
+M 0 813 1 877
+E 0 811 0 16
+G 1 824 1
+G 0 802 0
+D 0 878 5 2
+M 0 814 1 879
+E 0 812 0 16
+E 0 819 0 5
+G 0 825 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  802 spec_cast_mage
+M  805 spec_thief
+M  810 spec_cast_mage
+M  811 spec_cast_mage
+M  812 spec_cast_mage
+M  813 spec_cast_undead
+M  815 spec_cast_undead
+M  817 spec_cast_mage
+M  818 spec_cast_mage
+M  819 spec_breath_fire
+S
+
+
+#$

@@ -1,0 +1,876 @@
+Name        Licantropo~
+Class       6
+DisciClass1         0
+DisciClass2        0
+DisciClass3         0
+AttrPrime   1
+AttrSecond   0
+AttrDeficient   0
+Weapon      10313
+Guild       3039
+Skilladept  90
+Thac0       18
+Thac32      6
+Hpmin       21
+Hpmax       35
+Mana        1
+Expbase     1125
+Affected    0
+Resist	 0
+Suscept	 0
+Skill 'acid breath' 110 95
+Skill 'armor' 60 85
+Skill 'blindness' 120 65
+Skill 'charm person' 110 85
+Skill 'create food' 108 85
+Skill 'create spring' 96 90
+Skill 'cure blindness' 54 90
+Skill 'cure critical' 155 85
+Skill 'cure light' 54 85
+Skill 'cure poison' 54 85
+Skill 'cure serious' 143 80
+Skill 'detect evil' 105 90
+Skill 'detect hidden' 128 90
+Skill 'detect invis' 75 85
+Skill 'detect poison' 120 90
+Skill 'draining breath' 194 95
+Skill 'ethereal shield' 50 95
+Skill 'faerie fire' 105 90
+Skill 'fire breath' 209 90
+Skill 'frenzy' 180 95
+Skill 'giant strength' 145 95
+Skill 'habilidad' 149 95
+Skill 'heal' 194 85
+Skill 'identify' 72 75
+Skill 'infravision' 30 65
+Skill 'invis' 16 80
+Skill 'kindred strength' 90 90
+Skill 'know alignment' 146 90
+Skill 'locate object' 149 90
+Skill 'poison' 56 85
+Skill 'refresh' 63 60
+Skill 'shield' 87 90
+Skill 'sleep' 143 70
+Skill 'stone skin' 117 80
+Skill 'transport' 120 95
+Skill 'aggressive style' 60 90
+Skill 'asistir' 42 90
+Skill 'backstab' 15 70
+Skill 'berserk' 75 95
+Skill 'berserk style' 25 55
+Skill 'cavar' 6 95
+Skill 'cazar' 18 90
+Skill 'cocinar' 3 95
+Skill 'defensive style' 84 60
+Skill 'detrap' 123 90
+Skill 'disarm' 72 90
+Skill 'dual wield' 30 90
+Skill 'enhanced damage' 90 75
+Skill 'esquivar' 72 85
+Skill 'evasive style' 36 70
+Skill 'fifth attack' 172 95
+Skill 'fourth attack' 120 70
+Skill 'grip' 96 75
+Skill 'hide' 48 90
+Skill 'hitall' 60 95
+Skill 'kick' 9 90
+Skill 'montar' 6 90
+Skill 'otear' 45 95
+Skill 'parry' 69 90
+Skill 'punyetazo' 125 60
+Skill 'rescue' 45 95
+Skill 'search' 12 90
+Skill 'second attack' 69 90
+Skill 'sneak' 48 90
+Skill 'standard style' 3 90
+Skill 'tangana' 161 95
+Skill 'third attack' 90 90
+Skill 'trepar' 9 90
+Skill 'bludgeons' 1 95
+Skill 'flexible arms' 1 35
+Skill 'long blades' 1 95
+Skill 'pugilism' 1 60
+Skill 'short blades' 1 60
+Skill 'talonous arms' 1 50
+Skill 'common' 1 99
+Skill 'dwarven' 1 99
+Skill 'elvish' 1 99
+Skill 'gith' 1 99
+Skill 'goblin' 1 99
+Skill 'halfling' 1 99
+Skill 'ogre' 1 99
+Skill 'orcish' 1 99
+Skill 'pixie' 1 99
+Skill 'trollese' 1 99
+Title
+Man~
+Woman~
+Title
+Runner~
+Runner~
+Title
+Strider~
+Strider~
+Title
+Scout~
+Scout~
+Title
+Scout Master~
+Scout Master~
+Title
+Courser~
+Courser~
+Title
+Tracker~
+Tracker~
+Title
+Guide~
+Guidess~
+Title
+Pathfinder~
+Pathfinder~
+Title
+Explorer~
+Explorer~
+Title
+Hunter~
+Huntess~
+Title
+Beastmaster~
+Beastmistress~
+Title
+Falconer~
+Falconess~
+Title
+Feralan~
+Feralan~
+Title
+Guardian~
+Guardian~
+Title
+Justifier~
+Justifier~
+Title
+Stalker~
+Stalker~
+Title
+Warden~
+Warden~
+Title
+Herbalist~
+Herbalist~
+Title
+Enviromentalist~
+Enviromentalist~
+Title
+Journeyman~
+Journeywoman~
+Title
+Traveller~
+Traveller~
+Title
+Wanderer~
+Wanderer~
+Title
+Ranger Squire~
+Ranger Squiress~
+Title
+Ranger Knight~
+Ranger Knight~
+Title
+Ranger Lord~
+Ranger Lady~
+Title
+Goblin Slayer~
+Goblin Slayer~
+Title
+Gnoll Slayer~
+Gnoll Slayer~
+Title
+Ogre Slayer~
+Ogre Slayer~
+Title
+Minotaur Slayer~
+Minotaur Slayer~
+Title
+Giant Slayer~
+Giant Slayer~
+Title
+Skylord~
+Skylady~
+Title
+Waterlord~
+Waterlady~
+Title
+Treelord~
+Treelady~
+Title
+Friend of Dryads~
+Friend of Dryads~
+Title
+Friend of Pixies~
+Friend of Pixies~
+Title
+Friend of Elves~
+Friend of Elves~
+Title
+Swamp Master~
+Swamp Mistress~
+Title
+Desert Master~
+Desert Mistress~
+Title
+Mountain Master~
+Mountain Mistress~
+Title
+Forest Master~
+Forest Mistress~
+Title
+Defender of Plants~
+Defender of Plants~
+Title
+Defender of Animals~
+Defender of Animals~
+Title
+Defender of the Earth~
+Defender of the Earth~
+Title
+Defender of Nature~
+Defender of Nature~
+Title
+Defender of the Realms~
+Defender of the Realms~
+Title
+Lord of the Plants~
+Lady of the Plants~
+Title
+Lord of the Animals~
+Lady of the Animals~
+Title
+Lord of the Earth~
+Lady of the Earth~
+Title
+Lord of Nature~
+Lady of Nature~
+Title
+Avatar~
+Avatar~
+Title
+Neophyte~
+Neophyte~
+Title
+Acolyte~
+Acolyte~
+Title
+Creator~
+Creator~
+Title
+Savior~
+Savior~
+Title
+Demi God~
+Demi Goddess~
+Title
+Immortal~
+Immortal~
+Title
+Lesser God~
+Lesser Goddess~
+Title
+God~
+Goddess~
+Title
+Greater God~
+Greater Goddess~
+Title
+Ascendant God~
+Acendant Goddess~
+Title
+Exalted God~
+Exalted Goddess~
+Title
+Ancient One~
+Ancient One~
+Title
+Eternal One~
+Eternal One~
+Title
+Infinite One~
+Infinite One~
+Title
+Supreme Entity~
+Supreme Entity~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+End

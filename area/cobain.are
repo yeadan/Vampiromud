@@ -1,0 +1,1737 @@
+#AREA   Santuario de Kurt Cobain~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO Beythor~
+#PUNTOS 1819 1900 1697 2000 0
+#AUTHOR Kayser~
+
+#RANGES
+20 65 0 256
+$
+
+#RESETMSG Una musica angelical resuena en el templo :"Hello, Hello, Hello..."~
+
+#FLAGS
+0 15
+
+#ECONOMY 99999 983629476
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#16500
+Dexter Holland Offspring cantante~
+Dexter Holland~
+Dexter Holland, el cantante de Offspring, esta aqui.
+~
+Ante ti tienes a Dexter Holland, el fabuloso cantante de Offspring. Dexter es
+un fan declarado de Kurt Cobain y en definitiva de Nirvana. Parece que este
+santuario le inspira para poder escribir sus canciones.
+~
+67 6332544 1000 C
+40 -25 -50 2d2+5000 10d10+100
+5000 100
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 5
+0 0 0 1048576 3076 1 65921 2097159
+#16501
+James Hetfield cantante Metallica~
+James Hetfield~
+James Hetfield, el cantante de Metallica, esta aqui.
+~
+Ante ti tienes a James Hetfield, el cantante de uno de los mejores grupos
+de todos los tiempos, MeTaLLiCa! James es considerado en la actualidad como
+el mejor vocalista del mundo. En un santuario como este no podia faltar
+alguien como el.
+~
+67 6334594 1000 C
+45 -25 -75 2d5+5000 10d10+100
+5000 100
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 6
+0 0 0 1048576 3073 4 385 2097159
+#16502
+guitarrista Kirk Hammett Metallica~
+Kirk Hammett~
+Kirk Hammett, guitarrista de Metallica, esta aqui.
+~
+Ante ti tienes a Kirk Hammett, otro de los componentes de Metallica.
+Se ve que Kirk ha acompanyado a James a visitar este santuario... 
+aunque cualquier escusa es buena para adorar a Dios :)=
+~
+67 6332544 1000 C
+39 -25 -50 1d2+4000 10d9+100
+5000 100
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 5
+0 0 0 2097408 3072 2 536871041 2097157
+#16503
+Marilyn Manson cantante~
+Marilyn Manson~
+Marilyn Manson esta aqui medio dogrado.
+~
+Ante ti tienes a Marilyn Manson. Marilyn Manson debe su nombre a los dos
+grandes mitos de America... la actriz Marilyn Monroe y al asesino en serie
+Charles Manson.
+~
+67 274735232 1000 C
+39 -25 -60 1d2+4200 10d9+90
+5000 100
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 4
+0 0 0 2097216 3074 0 16513 2097157
+#16504
+bateria nirvana David Grohl Dave~
+David Grohl~
+David Grohl, el ex-bateria de Nirvana, esta aqui.
+~
+Aqui tienes a David Grohl, el ex-bateria de Nirvana y el actual cantante
+del grupo Foo Fighters. David esta aqui recordando los momentos de gloria
+pasados.
+~
+67 6333056 1000 C
+40 -25 -30 2d5+5000 13d10+100
+50000 100
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 5
+0 0 0 14 3073 0 335552512 7
+#16505
+bajo nirvana Chris Novoselic~
+Chris Novoselic~
+Chris Novoselic, el ex-bajo de Nirvana, esta aqui.
+~
+Aqui tienes a Chris Novoselic, el ex-bajo de Nirvana, y, como Dave, tambien
+toca en otro grupo, aunque sin tener tanta fama como este ultimo. Chris esta
+por aqui sacando brillo a su bajo.
+~
+67 6299776 1000 C
+40 -25 -50 2d5+5000 10d10+100
+5000 100
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 5
+0 0 0 0 2100224 0 136314960 7
+#16506
+Courtney Love Hole cantante~
+Courtney Love~
+Courtney Love, viuda de Kurt Cobain, esta aqui cagandose en tus muertos.
+~
+Al entrar en la habitacion despubres a una mujer rubia, con los ojos azules 
+y semidesnuda. Cuando te ve entrar no se molesta en taparse en absoluto, eso
+si... jurarias que se esta cagando en toda tu familia. Es sin duda Courtney 
+Love, viuda de Kurt Cobain y cantante del grupo Hole.
+
+Hole. Courtney esta aqui arropando a su unica hija que tuvieron Kurt 
+y ella. ~
+262211 -1830248318 -1000 C
+50 -50 -250 10d20+8000 8d20+120
+74500 1000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 -50 -50
+0 0 0 0 1 1 7
+0 0 0 1048576 2100228 2 4768 524295
+> entry_prog 100~
+' Bueno que $n, no has visto que estoy casi desnuda? Anda y largate de aqui antes de que me cabree.~
+|
+#16507
+espiritu Kurt Cobain cantante Nirvana~
+Kurt Cobain~
+El espiritu de Kurt Cobain flota majestuosamente en esta habitacion.
+~
+Anti ti tienes al espiritu de Kurt Cobain, el lider de Nirvana hasta
+que decidio quitarse la vida de un tiro en la boca. No intentes matar
+a este mob porque no podras... y si eso llegase a pasar, preparate para
+caer bajo la ira de los dioses!
+~
+67 -2132237696 1000 C
+55 -100 -500 15d10+25000 5d20+150
+96000 100
+112 112 1
+13 13 13 13 3 13 13
+0 0 0 0 0
+90 1 0 0 65537 65537 7
+0 0 0 8288 3149711 0 57728 524295
+> fight_prog 30~
+ca heal
+ca heal
+ca heal 
+~
+> fight_prog 30~
+sonreir $n
+ca 'acid breath'
+ca 'acid breath'
+ca 'acid breath'
+~
+> death_prog 100~
+mpechoat $n Has matado al espiritu de Kurt Cobain
+mpechoat $n Preparate para sufrir la ira de los dioses!
+mpforce $n desvestir todo
+mpforce $n dejar todo
+mpslay $n
+. Que la ira de los dioses recaiga sobre ti $n!
+~
+|
+#16508
+Guardia guarda~
+Un guardia~
+Un guardia esta aqui vigilando que todo siga tranquilo.
+~
+Aqui tienes a un guardia de seguridad del santuario de Kurt Cobain. Portate 
+bien y no tendras problemas.
+
+~
+67 8352 1000 C
+30 0 0 5d10+850 5d10+75
+1000 100
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+50 20 0 3072 0 0 224 524289
+#16509
+miembro seguridad~
+Un miembro de seguridad~
+Un miembro de seguridad esta aqui.
+~
+Aqui tienes a un miembro de seguridad del santuario de Kurt Cobain. Portate 
+bien y no tendras problemas.
+
+~
+65 8224 1000 C
+30 0 0 5d10+950 6d10+75
+1000 100
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+50 20 0 3072 0 0 736 2621441
+#16510
+senyora limpieza~
+La senyora de la limpieza~
+Una senyora de la limpieza esta aqui.
+~
+Es una eficiente senyora de la limpieza. La han contratadp para mantener
+este santuario limpio y reluciente. Esta muy atareada asi que no la molestes.
+~
+65 512 0 C
+25 5 0 20d20+150 3d5+25
+10 100
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 -10 0
+0 2 0 0 1 1 0
+0 0 0 0 2048 1 256 2
+#16511
+fan~
+Un fan~
+Aqui hay un fan de nirvana.
+~
+Aqui tienes a un fan. Lleva unos pantalones vaqueros rotos y una camiseta 
+de nirvana. El fan esta observando entusiasmado todo lo que le rodea.
+~
+193 8398336 0 C
+20 3 0 15d20+175 3d10+5
+100 100
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 3 2048 1280 65 524288
+#16512
+vendedora~
+Una vendedora~
+Una vendedora te sonrie desde la otra parte del mostrador.
+~
+Aqui tienes a una chica con sonrisa profident a la que han contratado
+como vendedora. Parece increible lo amable y simpatica que es con la gente, 
+aunque ya te estas cansando de esa sonrisa...
+~
+2115 4194432 0 C
+20 0 0 5d10+200 1d20+150
+100 100
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 35 1 0
+0 0 0 0 2100224 32 256 16384
+> entry_prog 100~
+sonreir ~
+|
+#16513
+fan~
+Una fan~
+Aqui hay una fan de nirvana.
+~
+Aqui tienes a una fan. Lleva unos pantalones vaqueros rotos y una camiseta 
+de nirvana. La fan esta observando entusiasmada todo lo que le rodea.
+~
+195 8398336 0 C
+20 3 0 15d18+175 3d10+6
+100 100
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 3 2048 1280 65 2
+#16514
+vendedora~
+Una vendedora~
+Una vendedora te sonrie desde la otra parte del mostrador.
+~
+Aqui tienes a una chica con sonrisa profident a la que han contratado
+como vendedora. Parece increible lo amable y simpatica que es con la gente, 
+aunque ya te estas cansando de esa sonrisa...
+~
+2115 4194432 0 C
+20 0 0 5d10+200 1d20+150
+100 100
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 35 1 0
+0 0 0 0 2100224 32 256 16384
+#0
+
+
+#OBJECTS
+#16500
+gafas sol~
+Unas gafas de sol~
+Aqui tienes unas gafas de sol para el verano.~
+~
+9 0 131073
+10 0 0 0
+2 1000 100
+A
+12 75
+A
+17 -25
+A
+19 4
+A
+25 1
+#16501
+camiseta offspring~
+Una camiseta de Offspring~
+Una camiseta de Offspring esta aqui tirada.~
+~
+9 64 9
+20 0 0 0
+10 50000 5000
+A
+19 5
+A
+18 5
+A
+17 -10
+A
+3 1
+A
+2 2
+#16502
+camiseta metallica~
+Una camiseta de Metallica~
+Una camiseta de Metallica esta aqui tirada.~
+~
+9 64 9
+20 0 0 0
+10 50000 5000
+A
+17 -10
+A
+19 5
+A
+18 5
+A
+5 2
+A
+4 2
+#16503
+camiseta marilyn manson~
+Una camiseta de Marilyn Manson~
+Una camiseta de Marilyn Manson esta aqui tirada.~
+~
+9 64 9
+20 0 0 0
+10 50000 5000
+A
+17 -10
+A
+18 5
+A
+19 5
+A
+31 2
+A
+2 1
+#16504
+camiseta nirvana~
+Una camiseta de Nirvana~
+Una camiseta de nirvana esta aqui tirada.~
+~
+9 64 9
+20 0 0 0
+10 50000 5000
+A
+17 -10
+A
+19 5
+A
+18 5
+A
+1 2
+A
+25 1
+#16505
+guitarra electrica~
+Una guitarra electrica~
+Una guitarra electrica... y de las caras, esta aqui apoyada.~
+~
+9 65 129
+15 0 0 0
+10 25000 2500
+A
+23 -25
+A
+13 65
+A
+1 3
+A
+18 -7
+#16506
+careta marilyn manson~
+La careta de Marilyn Manson~
+En el suelo puede ver lo que parece una replica de la cara de Marilyn Manson.~
+~
+9 4098 65537
+15 0 0 0
+3 25000 2500
+A
+1 3
+A
+2 3
+A
+13 -35
+A
+31 4
+> wear_prog ~
+mpforce $n war SWeeT DReaMS aRe MaDe oF THiS~
+|
+#16507
+vaqueros rotos~
+Unos vaqueros rotos~
+En el suelo puedes ver unos vaqueros todos rotos.~
+~
+9 320 33
+10 0 0 0
+15 5000 500
+A
+17 -10
+A
+18 10
+A
+19 -5
+A
+12 150
+#16508
+traje segurata~
+Un traje de segurata~
+Arrugado en el suelo tienes un traje de segurata.~
+~
+9 64 9
+15 0 0 0
+20 1000 100
+A
+19 2
+A
+14 150
+A
+25 -3
+A
+3 -3
+A
+1 2
+#16509
+carrito de la limpieza~
+Un carrito de la limpieza~
+Aqui tienes un carrito de la senyora de la limpieza.~
+~
+15 1 1
+500 0 0 0
+10 2500 250
+#16510
+nevermind~
+El Nevermind~
+El Nevermind de Nirvana esta aqui en el suelo.~
+~
+9 64 16385
+30 0 0 0
+5 3000 300
+E
+nevermind~
+El Nevermind contiene la mejor cancion de los 90: "Smells Like Teen Spirit"
+~
+A
+25 5
+A
+17 -50
+A
+23 -25
+A
+24 -15
+#16511
+MTV unplugged~
+El MTV Unplugged~
+El MTV Unplugged de Nirvana esta aqui en el suelo.~
+~
+9 64 16385
+30 0 0 0
+5 3000 300
+A
+17 -50
+A
+25 5
+A
+20 -25
+A
+24 -15
+#16512
+espada sonica~
+La espada sonica~
+Una espada muy ruidosa esta aqui en el suelo.~
+tajo~
+5 1 8193
+15 3 20 3
+10 10000 1000
+A
+19 5
+A
+18 5
+A
+2 2
+#16513
+cadena sonica~
+La cadena sonica~
+Una cadena muy ruidosa esta aqui en el suelo.~
+golpe~
+5 1 8193
+15 3 20 6
+10 10000 1000
+A
+19 5
+A
+18 5
+A
+1 2
+#16514
+maza sonica~
+La maza sonica~
+Una maza muy ruidosa esta aqui en el suelo.~
+aplastamiento~
+5 1 8193
+15 3 20 8
+10 10000 1000
+A
+19 5
+A
+18 5
+A
+13 15
+#16515
+daga sonica~
+La daga sonica~
+Una daga muy ruidosa esta aqui en el suelo.~
+navajazo~
+5 1 8193
+15 3 20 2
+10 10000 1000
+A
+19 5
+A
+18 5
+A
+32 0
+A
+25 1
+#16516
+porra segurata~
+La porra de segurata~
+Una porra perteneciente a algun segurata esta aqui olvidada.~
+golpe~
+5 1 8193
+15 3 10 7
+10 10000 1000
+A
+13 65
+A
+18 3
+#16517
+escoba limpieza~
+La escoba~
+Una vieja escoba esta en el suelo.~
+escobazo~
+5 4097 8193
+15 3 10 7
+10 1000 100
+A
+3 -5
+A
+19 3
+A
+2 -5
+#16518
+llave santuario~
+La llave del santuario~
+Aqui tirada hay una llave.~
+~
+18 2 1
+6001 6002 0 0
+2 10 1
+#16519
+cd nirvana recopilatorio~
+Unos CDs de Nirvana~
+En estos CDs puedes encontrar todos los trabajos de estudio de Nirvana:
+
+"Bleach, Nevermind y In Utero".~
+~
+13 0 1
+0 0 0 0
+5 100 10
+#16520
+incesticide~
+El incesticide, un CD de rare B-sides de Nirvana~
+Rare B-sides, BBC sessiones, Original Demo recordings, Outtakes, Stuff
+
+Never Before Avaliable.~
+~
+13 0 1
+0 0 0 0
+3 30 3
+#16521
+cds directo nivana~
+Unos CDs de Nirvana en directo~
+Aqui tienes dos de los mejores CDs de directos de Nirvana publicados 
+
+oficialmente: "MTV Unplugged y From The Muddy Banks Of The Wiskah".~
+~
+13 0 1
+0 0 0 0
+5 60 6
+#16522
+costo~
+Costo~
+Joder... esto es costo... y del bueno!~
+~
+10 2 1
+65 -1 33 91
+5 250 25
+'bless' 'change sex' 'fly'
+#16523
+maria~
+Maria~
+Joder... esto es maria... y de la buena!~
+~
+10 2 1
+65 -1 114 91
+5 350 35
+'cure critical' 'infravision' 'fly'
+#16524
+coca~
+Coca~
+Joder... esto es coca... y de la buena!~
+~
+10 2 1
+65 -1 158 159
+5 900 90
+'pass door' 'restoration' 'restore mana'
+#16525
+super tripi~
+Super Tripi~
+Joder... esto es un super-tripi... laa ostia!~
+~
+10 2 1
+65 -1 162 171
+5 1500 150
+'remove curse' 'sanctuary' 'slink'
+#0
+
+
+#ROOMS
+#16500
+Entrada al santuario~
+Te encuentras justo en frente de lo que parece ser un templo. Mientras 
+te vas acercando sentir algo en el ambiento que te pone en contacto 
+con dios.
+
+~
+0 0 3
+D0
+Al norte puedes ver la puerta del santuario.
+~
+norte~
+0 0 16501
+D2
+Al sur puedes ver un camino.
+~
+sur~
+0 0 6151
+S
+#16501
+La puerta del santuario~
+Has llegado al santuario de Kurt Cobain, amado por unos y adorado por
+otros :)=. Delante de la puerta puedes ver dos guardias que no parecen
+muy amigables.
+~
+0 0 3
+D0
+La puerta del santuario hacia el norte.~
+norte puerta~
+7 16518 16502
+D2
+al sur esta la entrada al santuario.
+~
+sur~
+0 0 16500
+S
+#16502
+El recibidor del santuario.~
+Acabas de entrar al santuario de Kurt Cobain. Te envuelve un sentimiento 
+de paz y tranquilidad. Oyes algo de ruido proveniente del final del pasillo
+del norte. Puedes ver dos carteles colocados al este y al oeste en los que 
+pone: "Privado".
+~
+0 8 0
+D0
+Al norte esta el pasillo~
+norte~
+0 0 16503
+D1
+Hacia el este ves el pasillo este.~
+este~
+0 0 16508
+D2
+La puerta del santuario hacia el sur.~
+sur puerta~
+7 16518 16501
+D3
+Hacia el oeste tienes el pasillo oeste.
+~
+oeste~
+0 0 16512
+S
+#16503
+Pasillo del santuario~
+Este pasillo lleva de norte a sur, desde la puerta del santuario hasta 
+la sala de exposiciones. Al oeste tienes la tienda de recuerdos y al
+este esta el banyo publico del santuario.
+~
+0 8 0
+D0
+Al norte ves mas pasillo.~
+norte~
+0 0 16504
+D1
+al este esta el banyo del santuario.~
+este~
+0 0 16516
+D2
+Hacie el sur puedes distinguir el recibidor.~
+sur~
+0 0 16502
+D3
+Al oeste tienes la tienda de recuerdos.~
+oeste~
+0 0 16517
+S
+#16504
+Pasillo del santuario~
+Este pasillo lleva de norte a sur, desde la puerta del santuario hasta 
+la sala de exposiciones.
+~
+0 8 0
+D0
+Al norte puedes ver mas pasillo.~
+norte~
+0 0 16505
+D2
+Hacia el sur ves el pasillo.
+~
+sur~
+0 0 16503
+S
+#16505
+Pasillo del santuario~
+Este pasillo lleva de norte a sur, desde la puerta del santuario hasta 
+la sala de exposiciones.
+~
+0 8 0
+D0
+Al norte puedes ver mas pasillo.~
+norte~
+0 0 16506
+D2
+Al sur puedes ver mas pasillo.
+~
+sur~
+0 0 16504
+S
+#16506
+Pasillo del santuario~
+Este pasillo lleva de norte a sur, desde la puerta del santuario hasta 
+la sala de exposiciones.
+~
+0 8 0
+D0
+Al norte puedes ver mas pasillo.~
+norte~
+0 0 16507
+D2
+Al sur puedes ver mas pasillo.
+~
+sur~
+0 0 16505
+S
+#16507
+Pasillo del santuario~
+Este pasillo lleva de norte a sur, desde la puerta del santuario hasta 
+la sala de exposiciones. Al norte tienes la puerta que conduce hacia la
+sala de exposiciones.
+~
+0 8 0
+D0
+Al norte ves la puerta que lleva a la sala de exposiciones.
+~
+norte~
+3 0 16518
+D2
+Al sur ves mas pasillo.
+~
+sur~
+0 0 16506
+S
+#16508
+Pasillo este~
+Estas en un pasillo que lleva de oeste a este.
+~
+0 8 0
+D1
+Al este sigue el pasillo.
+~
+este~
+0 0 16509
+D3
+Al oeste ves el recibidor del santuario.~
+oeste~
+0 0 16502
+S
+#16509
+Pasillo este~
+El pasillo sigue de oeste a este.
+~
+0 8 0
+D1
+Al este sigue el pasillo.
+~
+este~
+0 0 16510
+D3
+Al oeste ves el principio de este pasillo.~
+oeste~
+0 0 16508
+S
+#16510
+Pasillo este~
+El pasillo este acaba aqui y continua hacia el norte.
+~
+0 8 0
+D0
+Al norte termina el pasillo.
+~
+norte~
+0 0 16511
+D3
+Al oeste sigue el pasillo.~
+oeste~
+0 0 16509
+S
+#16511
+Final del pasillo este~
+Has llegado al final del pasillo. Ante ti tienes una puerta que conduce 
+a la casa de huespedes.
+~
+0 8 0
+D0
+Al norte tienes una puerta.
+~
+norte puerta~
+3 0 16544
+D2
+Al sur tienes el pasillo este~
+sur~
+0 0 16510
+S
+#16512
+Pasillo oeste~
+Estas en un pasillo que lleva de este a oeste.
+~
+0 8 0
+D1
+Al este esta el recibidor del santuario.
+~
+este~
+0 0 16502
+D3
+Al oeste sigue el pasillo.~
+oeste~
+0 0 16513
+S
+#16513
+Pasillo oeste~
+Sigues en el pasillo oeste. Las unicas salidas son este y oeste.
+~
+0 8 0
+D1
+Al este sigue el pasillo.
+~
+este~
+0 0 16512
+D3
+Al oeste sigue el pasillo~
+oeste~
+0 0 16514
+S
+#16514
+Pasillo oeste.~
+Estas en el pasillo oeste. Puedes ver como el pasillo finaliza hacia el norte.
+~
+0 8 0
+D0
+Al norte finaliza el pasillo oeste.~
+norte~
+0 0 16515
+D1
+Hacia el este tienes el pasillo.
+~
+este~
+0 0 16513
+S
+#16515
+Final del pasillo oeste~
+Has llegado al final del pasillo. Hacia el norte puedes ver una puerta que
+conduce hacia la casa de huespedes.
+~
+0 8 0
+D0
+Al norte ves una puerta.
+~
+norte~
+3 0 16533
+D2
+Al sur continua el pasillo.~
+sur~
+0 0 16514
+S
+#16516
+Banyo publico~
+Acabas de entrar en el banyo del santuario. Puedes ver en frente del espejo
+restos de rallas de cocaina... como deberia ser. Al lado de un retrete ves
+lo que parece una inscripcion.
+~
+0 8 0
+D3
+Al oeste tienes el pasillo~
+oeste~
+0 0 16503
+E
+inscripcion~
+phanta: dsl.upc.es 6969
+medina: nescafab.upc.es 4000
+demon: dsl.upc.es 4000
+bastard: em...y a quien conyo le importa la dire del mud de una babosa?
+
+P.D.: SeReN aPo
+~
+S
+#16517
+Tienda de recuerdos~
+Acabas de entrar en la tienda de recuerdos del santuario. Puedes ver a
+una hermosa joven como dependienta.
+~
+0 1032 0
+D1
+Al este estas de vuelta al pasillo.
+~
+este~
+0 0 16503
+S
+#16518
+La sala de exposiciones~
+Has llegado a lo que parece un museo. Cuadros con fotos de Nirvana, 
+guitarras, partituras, ropa... aqui hay de todo.
+~
+0 8 0
+D0
+Al norte ves mas museo.
+~
+norte~
+0 0 16519
+D1
+Al este ves mas museo.
+~
+este~
+0 0 16520
+D2
+Al sur ves una puerta.
+~
+sur~
+3 0 16507
+D3
+Al oeste ves mas museo.~
+oeste~
+0 0 16524
+S
+#16519
+La sala de exposiciones~
+Has llegado a lo que parece un museo. Cuadros con fotos de Nirvana, 
+guitarras, partituras, ropa... aqui hay de todo.
+~
+0 8 0
+D0
+Al norte ves una puerta~
+puerta norte~
+3 0 16528
+D1
+Al este ves mas museo.
+~
+este~
+0 0 16523
+D2
+Al sur ves mas museo.~
+sur~
+0 0 16518
+D3
+Al oeste ves mas museo.~
+oeste~
+0 0 16527
+S
+#16520
+La sala de exposiciones.~
+Has llegado a lo que parece un museo. Cuadros con fotos de Nirvana, 
+guitarras, partituras, ropa... aqui hay de todo.
+~
+0 8 0
+D0
+Al norte ves mas museo.
+~
+norte~
+0 0 16523
+D1
+Al este ves mas msueo.
+~
+este~
+0 0 16521
+D3
+Al oeste ves mas museo.~
+oeste~
+0 0 16518
+S
+#16521
+La sala de exposiciones~
+Has llegado a lo que parece un museo. Cuadros con fotos de Nirvana, 
+guitarras, partituras, ropa... aqui hay de todo.
+~
+0 8 0
+D0
+Al norte ves mas museo.
+~
+norte~
+0 0 16522
+D3
+Al oeste ves mas museo.
+~
+oeste~
+0 0 16520
+S
+#16522
+La sala de exposiciones~
+Has llegado a lo que parece un museo. Cuadros con fotos de Nirvana, 
+guitarras, partituras, ropa... aqui hay de todo.
+~
+0 8 0
+D2
+Al sur ves mas museo.~
+sur~
+0 0 16521
+D3
+Al oeste ves mas museo.~
+oeste~
+0 0 16523
+S
+#16523
+La sala de exposiciones~
+Has llegado a lo que parece un museo. Cuadros con fotos de Nirvana, 
+guitarras, partituras, ropa... aqui hay de todo.
+~
+0 8 0
+D1
+Al este ves mas museo.
+~
+este~
+0 0 16522
+D2
+Al sur ves mas museo.
+~
+sur~
+0 0 16520
+D3
+Al oeste ves mas museo.
+~
+oeste~
+0 0 16519
+S
+#16524
+La sala de exposiciones~
+Has llegado a lo que parece un museo. Cuadros con fotos de Nirvana, 
+guitarras, partituras, ropa... aqui hay de todo.
+~
+0 8 0
+D0
+Al norte ves mas museo.~
+norte~
+0 0 16527
+D1
+Al este puedes ver mas museo.
+~
+este~
+0 0 16518
+D3
+Al oeste ves mas museo.
+~
+oeste~
+0 0 16525
+S
+#16525
+La sala de exposiciones~
+Has llegado a lo que parece un museo. Cuadros con fotos de Nirvana, 
+guitarras, partituras, ropa... aqui hay de todo.
+~
+0 8 0
+D0
+Al norte ves mas museo.
+~
+norte~
+0 0 16526
+D1
+Al este puedes ver mas museo.
+~
+este~
+0 0 16524
+S
+#16526
+La sala de exposiciones~
+Has llegado a lo que parece un museo. Cuadros con fotos de Nirvana, 
+guitarras, partituras, ropa... aqui hay de todo.
+~
+0 8 0
+D1
+Al este ves mas museo.
+~
+este~
+0 0 16527
+D2
+Al sur ves mas museo.
+~
+sur~
+0 0 16525
+S
+#16527
+La sala de exposiciones~
+Has llegado a lo que parece un museo. Cuadros con fotos de Nirvana, 
+guitarras, partituras, ropa... aqui hay de todo.
+~
+0 8 0
+D1
+Al este ves mas museo.
+~
+este~
+0 0 16519
+D2
+Al sur ves mas museo.
+~
+sur~
+0 0 16524
+D3
+Al oeste ves mas museo.
+~
+oeste~
+0 0 16526
+S
+#16528
+Pasillo a la tumba~
+Te encuentras en un corto pasillo que conduce hasta una puerta al norte. Te
+estas empezando a poner nervioso.
+~
+0 8 0
+D0
+El pasillo de la tumba continua al norte.
+~
+norte~
+0 0 16530
+D1
+Al este ves una puerta.
+~
+este~
+3 0 16529
+D2
+Al sur ves una puerta que lleva a la sala de exposiciones.
+~
+puerta sur~
+3 0 16519
+S
+#16529
+Cuarto de Seguridad~
+Acabas de entrar en el cuarto de seguridad. De aqui se cordina la seguridad 
+del santuario. Puedes ver montones de monitores con cada una de las 
+habitaciones del santuario... incluido el banyo! Por cierto... a traves de
+uno de los monitores distingues una inscripcion en el banyo... igual deberias 
+leerla, si aun no lo has hecho X).
+~
+0 8 0
+D3
+Al oeste ves una puerta.~
+oeste~
+3 0 16528
+S
+#16530
+Pasillo a la tumba~
+El pasillo acaba aqui. Puedes ver una puerta hacia el norte, en la cual
+distingues una placa. Mmmm tambien distingues un olorcillo del oeste que 
+ahora mismo no sabrias localizar.
+~
+0 8 0
+D0
+Al norte ves una puerta.
+~
+norte~
+3 0 16532
+D2
+El pasillo de la tumba continua al sur.
+~
+sur~
+0 0 16528
+D3
+Al oeste ves una puerta.
+~
+oeste~
+3 0 16531
+E
+placa~
+En la placa esta escrito:"Tumba de Kurt Cobain, no toques NADA!"
+~
+S
+#16531
+DrOgAs!!~
+Acabas de entrar en la habitacion de las drogas! Esta habitacion esta llena 
+de cajas y bidones cerrados. El olor proveniente de ellos delata lo que hay
+dentro... DrOgAs!! Puedes ver a una joven que te sonrie desde detras de lo 
+parece ser un mostrador... cooonyo pero si es una tienda!
+~
+0 8 0
+D1
+Al este ves una puerta.
+~
+este~
+3 0 16530
+S
+#16532
+La tumba de Kurt Cobain~
+Acabas de entrar en una habitacion espectacularmente grande y hermosa. 
+Es una habitacion muy bien iluminada llena hasta arriba de flores. En el
+centro puedes distinguir una grandiosa tumba... y justo justo al lado esta
+el espiritu de Kurt Cobain! Benditos tus ojos! Por supuesto ni se te ocurra 
+atacarle.
+~
+0 33562632 0
+D2
+Al sur distingues una puerta.
+~
+sur~
+3 0 16530
+E
+tumba~
+En la tumba pone: "Kurt Cobain, 1967-1994".
+~
+S
+#16533
+Entrada a la casa de huespedes~
+Atraviesas la puerta y llegas a un pasillo que conduce a la casa destinada
+para los visitantes importantes del santuario. Al norte puedes ver el final 
+del pasillo y al sur tienes la puerta de vuelta al pasillo oeste.
+~
+0 8 0
+D0
+Al norte esta el pasillo de la casa e huespedes.
+~
+norte~
+0 0 16534
+D2
+Al sur ves una puerta.
+~
+puerta sur~
+3 0 16515
+S
+#16534
+Pasillo de la casa de huespedes~
+Sigues el pasillo desde la entrada de la casa. Puedes ver como el pasillo
+se ramifica al este hacia la sala de estar o al oeste hacia el pasillo que 
+conduce a las habitaciones.
+~
+0 8 0
+D1
+Al este esta la sala de estar.
+~
+este~
+0 0 16535
+D2
+Al sur esta la entrada a la casa de huespedes.
+~
+sur~
+0 0 16533
+D3
+Al oeste esta el pasillo que lleva a las habitaciones.
+~
+oeste~
+0 0 16537
+S
+#16535
+Sala de estar~
+Acabas de entrar en la sala de estar de la casa de huespedes. Es una sala 
+no muy grande pero muy acogedora, con comodos sofas y una enorme tele. La 
+sala continua hacia el norte.
+~
+0 8 0
+D0
+Al norte esta sigue la sala de estar.
+~
+norte~
+0 0 16536
+D3
+Al oeste esta el pasillo.
+~
+oeste~
+0 0 16534
+S
+#16536
+Sala de estar~
+Has llegado al final de la sala de estar. En esta parte de la sala encuentras 
+uno de los equipos de musica mas grandes y modernos que habias visto en toda 
+tu vida. Al sur estas de vuelta en la sala.
+~
+0 8 0
+D2
+Al sur esta la sala de estar.
+~
+sur~
+0 0 16535
+S
+#16537
+Pasillo de las habitciones~
+Acabas de entrar en el pasillo que lleva hacia las habitaciones de la casa 
+de huespedes. El pasillo continua hacia el oeste mientras que puedes ver dos 
+habitaciones al norte y al sur.
+~
+0 8 0
+D0
+Hacia el norte tienes una puerta.
+~
+norte puerta~
+3 0 16542
+D1
+Al este esta el pasillo de la casa de huespedes.
+~
+este~
+0 0 16534
+D2
+Hacia el sur tienes una puerta.
+~
+sur puerta~
+3 0 16543
+D3
+Hacia el oeste tienes el pasillo.
+~
+oeste~
+0 0 16538
+S
+#16538
+Pasillo de las habitaciones~
+Has llegado al final del pasillo que conduce a las habitaciones de los 
+huespedes. Puedes ver habitaciones al norte, sur y oeste.
+~
+0 8 0
+D0
+Havia el norte tienes una puerta.
+~
+puerta norte~
+3 0 16540
+D1
+Hacia el este tienes el pasillo.
+~
+este~
+0 0 16537
+D2
+Hacia el sur tienes una puerta.
+~
+puerta sur~
+3 0 16541
+D3
+Hacia el oeste tienes una puerta.
+~
+oeste puerta~
+3 0 16539
+S
+#16539
+Habitacion de huespedes~
+Acabas de entrar en una de las habitaciones de huespedes. La habitacion 
+es bastante grande y esta acomodada con grandes lujos. Mejor seria que no 
+tocases nada para no alertar a los guardas.
+~
+0 8 0
+D1
+Hacia el este hay una puerta.
+~
+este puerta~
+3 0 16538
+S
+#16540
+Habitacion de huespedes~
+Acabas de entrar en una de las habitaciones de huespedes. La habitacion 
+es bastante grande y esta acomodada con grandes lujos. Mejor seria que no 
+tocases nada para no alertar a los guardas.
+~
+0 8 0
+D2
+Hacia el sur tienes una puerta.
+~
+sur puerta~
+3 0 16538
+S
+#16541
+Habitacion de huespedes~
+Acabas de entrar en una de las habitaciones de huespedes. La habitacion 
+es bastante grande y esta acomodada con grandes lujos. Mejor seria que no 
+tocases nada para no alertar a los guardas.
+~
+0 8 0
+D0
+Hacia el norte tienes una puerta.~
+norte puerta~
+3 0 16538
+S
+#16542
+Habitacion de huespedes~
+Acabas de entrar en una de las habitaciones de huespedes. La habitacion 
+es bastante grande y esta acomodada con grandes lujos. Mejor seria que no 
+tocases nada para no alertar a los guardas.
+~
+0 8 0
+D2
+Al sur tienes una puerta.
+~
+puerta sur~
+3 0 16537
+S
+#16543
+Habitacion de huespedes~
+Acabas de entrar en una de las habitaciones de huespedes. La habitacion 
+es bastante grande y esta acomodada con grandes lujos. Mejor seria que no 
+tocases nada para no alertar a los guardas.
+~
+0 8 0
+D0
+Hacia el norte tienes una puerta.
+~
+norte puerta~
+3 0 16537
+S
+#16544
+Entrada a la casa principal~
+Acabas de entrar en la casa principal. En realidad en esta casa solo hay 
+tres habitaciones, al norte al este y al oeste.
+
+~
+0 8 0
+D0
+~
+~
+3 0 16545
+D1
+Al este ves una puerta.
+~
+este puerta~
+3 0 16547
+D2
+Al sur hay una puerta.
+~
+sur puerta ~
+3 0 16511
+D3
+Al oeste puedes ver una puerta.
+~
+oeste puerta~
+3 0 16546
+S
+#16545
+Habitacion~
+Acabas de entrar en una habitacion completamente vacia si no fuera por una 
+cama y una lampara. La unica salida esta al sur.
+~
+0 8 0
+D2
+Al sur hay una puerta.
+~
+sur puerta~
+3 0 16544
+S
+#16546
+Habitacion~
+Acabas de entrar en una habitacion muy poco limuninada. Al entrar puedes 
+ver a la mismisima Courtney Love, completamente desnuda si no fuese por esa 
+toalla que lleva en la cintura... no parece muy amigable, mejor largate de 
+aqui no?
+~
+0 8200 0
+D1
+Al este puedes ver una puerta.
+~
+este puerta~
+3 0 16544
+S
+#16547
+Habitacion~
+Acabas de entrar en una habitacion completamente vacia si no fuera por una 
+cama y una lampara. La unica salida esta al oeste.
+~
+0 8 0
+D3
+Al oeste hay una puerta.
+~
+oeste puetra~
+3 0 16544
+S
+#0
+
+
+#RESETS
+M 0 16513 7 16500
+E 0 16511 0 17
+M 0 16508 4 16501
+E 0 16508 0 5
+E 0 16516 0 16
+G 0 16518 0
+M 0 16508 4 16501
+E 0 16516 0 16
+E 0 16508 0 5
+D 0 16501 0 2
+M 0 16513 7 16502
+E 0 16511 0 17
+D 0 16502 2 2
+M 0 16510 7 16503
+E 0 16517 0 16
+G 0 16509 0
+M 0 16511 10 16504
+E 0 16510 0 17
+M 0 16510 7 16505
+G 0 16509 0
+E 0 16517 0 16
+M 0 16509 7 16505
+E 0 16516 0 16
+E 0 16508 0 5
+D 0 16507 0 1
+M 0 16511 10 16508
+E 0 16510 0 17
+M 0 16509 7 16509
+E 0 16516 0 16
+E 0 16508 0 5
+M 0 16510 7 16510
+E 0 16517 0 16
+G 0 16509 0
+M 0 16509 7 16511
+E 0 16516 0 16
+E 0 16508 0 5
+D 0 16511 0 1
+M 0 16510 7 16512
+G 0 16509 0
+E 0 16517 0 16
+M 0 16509 7 16513
+E 0 16516 0 16
+E 0 16508 0 5
+M 0 16511 10 16514
+E 0 16510 0 17
+D 0 16515 0 1
+M 0 16514 1 16517
+G 0 16521 0
+G 0 16520 0
+G 0 16519 0
+M 0 16511 10 16518
+E 0 16510 0 17
+D 0 16518 2 1
+M 0 16511 10 16519
+E 0 16510 0 17
+M 0 16508 4 16519
+E 0 16516 0 16
+E 0 16508 0 5
+M 0 16508 4 16519
+E 0 16508 0 5
+E 0 16516 0 16
+D 0 16519 0 1
+M 0 16511 10 16520
+E 0 16510 0 17
+M 0 16510 7 16520
+E 0 16517 0 16
+G 0 16509 0
+M 0 16513 7 16521
+E 0 16511 0 17
+M 0 16513 7 16522
+E 0 16511 0 17
+M 0 16511 10 16523
+E 0 16510 0 17
+M 0 16509 7 16523
+E 0 16516 0 16
+E 0 16508 0 5
+M 0 16511 10 16524
+E 0 16510 0 17
+M 0 16513 7 16525
+E 0 16511 0 17
+M 0 16513 7 16526
+E 0 16511 0 17
+M 0 16511 10 16527
+E 0 16510 0 17
+M 0 16510 7 16527
+G 0 16509 0
+E 0 16517 0 16
+M 0 16511 10 16528
+E 0 16510 0 17
+M 0 16509 7 16528
+E 0 16516 0 16
+E 0 16508 0 5
+D 0 16528 2 1
+D 0 16528 1 1
+M 0 16509 7 16529
+E 0 16508 0 5
+E 0 16516 0 16
+E 0 16516 0 18
+D 0 16529 3 1
+M 0 16510 7 16530
+E 0 16517 0 16
+G 0 16509 0
+D 0 16530 3 1
+D 0 16530 0 1
+M 0 16512 1 16531
+G 0 16522 0
+G 0 16523 0
+G 0 16524 0
+G 0 16525 0
+M 0 16513 7 16531
+E 0 16511 0 17
+D 0 16531 1 1
+M 0 16507 1 16532
+E 0 16504 0 5
+E 0 16507 0 7
+E 0 16512 0 16
+E 0 16505 0 9
+D 0 16532 2 1
+D 0 16533 2 1
+M 0 16501 1 16536
+E 0 16502 0 5
+E 0 16505 0 9
+E 0 16513 0 16
+E 0 16513 0 18
+D 0 16537 0 1
+D 0 16537 2 1
+D 0 16538 3 1
+D 0 16538 0 1
+D 0 16538 2 1
+M 0 16500 1 16539
+E 0 16501 0 5
+E 0 16500 0 20
+E 0 16512 0 16
+E 0 16505 0 9
+D 0 16539 1 1
+D 0 16540 2 1
+M 0 16502 1 16541
+E 0 16502 0 5
+E 0 16513 0 16
+E 0 16505 0 9
+D 0 16541 0 1
+M 0 16503 1 16542
+E 0 16503 0 5
+E 0 16506 0 19
+E 0 16514 0 16
+D 0 16542 2 1
+D 0 16543 0 1
+M 0 16505 1 16544
+E 0 16504 0 5
+E 0 16507 0 7
+E 0 16505 0 9
+E 0 16512 0 16
+D 0 16544 2 1
+D 0 16544 0 1
+D 0 16544 3 1
+D 0 16544 1 1
+M 0 16504 1 16545
+E 0 16512 0 16
+E 0 16504 0 5
+E 0 16507 0 7
+D 0 16545 2 1
+M 0 16506 1 16546
+E 0 16515 0 16
+E 0 16515 0 18
+D 0 16546 1 1
+D 0 16547 3 1
+S
+
+
+#SHOPS
+ 16512   10 10 10 10  0   100  50         6 22    ; Una vendedora
+ 16514   13 13 13  0  0   100  50         6 22    ; Una vendedora
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  16500 spec_cast_mage
+M  16501 spec_breath_fire
+M  16502 spec_cast_mage
+M  16503 spec_breath_frost
+M  16504 spec_breath_fire
+M  16505 spec_cast_mage
+M  16506 spec_breath_frost
+M  16507 spec_cast_cleric
+M  16508 spec_guard
+M  16509 spec_guard
+M  16510 spec_thief
+M  16511 spec_thief
+M  16513 spec_thief
+S
+
+
+#$

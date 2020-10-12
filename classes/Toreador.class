@@ -1,0 +1,872 @@
+Name        Toreador~
+Class       14
+DisciClass1         2
+DisciClass2        4
+DisciClass3         20
+AttrPrime   1
+AttrSecond   0
+AttrDeficient   0
+Weapon      10312
+Guild       3036
+Skilladept  85
+Thac0       18
+Thac32      7
+Hpmin       19
+Hpmax       29
+Mana        0
+Expbase     1110
+Affected    0
+Resist	 0
+Suscept	 0
+Skill 'chill touch' 3 95
+Skill 'control weather' 18 95
+Skill 'cure blindness' 15 85
+Skill 'cure poison' 15 85
+Skill 'cure serious' 10 95
+Skill 'detect magic' 20 85
+Skill 'detect traps' 20 90
+Skill 'dispel magic' 25 95
+Skill 'enchant weapon' 40 85
+Skill 'energy drain' 17 95
+Skill 'float' 1 95
+Skill 'fly' 10 95
+Skill 'harm' 13 95
+Skill 'heal' 65 80
+Skill 'identify' 15 95
+Skill 'infravision' 1 95
+Skill 'invis' 10 95
+Skill 'kindred strength' 15 95
+Skill 'know alignment' 6 95
+Skill 'lightning bolt' 17 95
+Skill 'locate object' 20 95
+Skill 'poison' 6 95
+Skill 'scry' 29 95
+Skill 'shield' 27 95
+Skill 'shocking grasp' 12 95
+Skill 'sleep' 12 95
+Skill 'stone skin' 30 95
+Skill 'teleport' 11 95
+Skill 'transport' 45 40
+Skill 'ventriloquate' 9 95
+Skill 'weaken' 6 95
+Skill 'word of recall' 30 95
+Skill 'aggressive style' 4 95
+Skill 'asistir' 21 60
+Skill 'backstab' 50 75
+Skill 'berserk style' 12 80
+Skill 'bloodlet' 11 95
+Skill 'broach' 41 60
+Skill 'cavar' 2 95
+Skill 'defensive style' 16 90
+Skill 'disarm' 25 95
+Skill 'dual wield' 35 95
+Skill 'enhanced damage' 5 95
+Skill 'esquivar' 22 95
+Skill 'evasive style' 12 90
+Skill 'feed' 3 95
+Skill 'fourth attack' 38 65
+Skill 'grasp suspiria' 50 95
+Skill 'hide' 3 95
+Skill 'mistform' 18 95
+Skill 'mistwalk' 31 90
+Skill 'montar' 16 95
+Skill 'mordisco' 11 95
+Skill 'otear' 15 95
+Skill 'parry' 11 95
+Skill 'peek' 16 95
+Skill 'robar' 6 95
+Skill 'search' 9 95
+Skill 'second attack' 11 95
+Skill 'sneak' 3 95
+Skill 'standard style' 1 90
+Skill 'third attack' 23 75
+Skill 'trepar' 8 95
+Skill 'vomica pravus' 13 45
+Skill 'bludgeons' 1 50
+Skill 'flexible arms' 1 40
+Skill 'long blades' 1 85
+Skill 'pugilism' 1 95
+Skill 'short blades' 1 95
+Skill 'talonous arms' 1 95
+Skill 'common' 1 99
+Skill 'dwarven' 1 99
+Skill 'elvish' 1 99
+Skill 'gith' 1 99
+Skill 'goblin' 1 99
+Skill 'halfling' 1 99
+Skill 'ogre' 1 99
+Skill 'orcish' 1 99
+Skill 'pixie' 1 99
+Skill 'trollese' 1 99
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Toreador~
+Toreador~
+Title
+Sire Toreador~
+Sire Toreador~
+Title
+Semi Avatar Toreador~
+Semi Avatar Toreador~
+Title
+Avatar Toreador~
+Avatar Toreador~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+End

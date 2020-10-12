@@ -1,0 +1,859 @@
+Name        Hada~
+Class       8
+DisciClass1         0
+DisciClass2        0
+DisciClass3         0
+AttrPrime   2
+AttrSecond   0
+AttrDeficient   0
+Weapon      10313
+Guild       3013
+Skilladept  90
+Thac0       18
+Thac32      6
+Hpmin       22
+Hpmax       25
+Mana        12
+Expbase     1500
+Affected    0
+Resist	 0
+Suscept	 0
+Skill 'aqua breath' 15 85
+Skill 'armor' 3 90
+Skill 'bless' 15 90
+Skill 'continual light' 15 85
+Skill 'create food' 6 80
+Skill 'create water' 6 80
+Skill 'cure light' 12 90
+Skill 'detect evil' 21 60
+Skill 'detect hidden' 25 75
+Skill 'detect invis' 30 95
+Skill 'detect poison' 21 60
+Skill 'dispel evil' 45 90
+Skill 'earthquake' 60 95
+Skill 'fire breath' 170 90
+Skill 'fireshield' 96 95
+Skill 'float' 36 75
+Skill 'fortify' 40 75
+Skill 'heal' 80 85
+Skill 'identify' 45 75
+Skill 'know alignment' 40 50
+Skill 'lethargy' 40 95
+Skill 'lightning breath' 160 95
+Skill 'pass door' 25 95
+Skill 'plant pass' 80 95
+Skill 'refresh' 9 80
+Skill 'remove curse' 30 85
+Skill 'resilience' 100 70
+Skill 'restore mana' 70 95
+Skill 'sanctuary' 180 95
+Skill 'shield' 50 85
+Skill 'sleep' 15 95
+Skill 'slink' 40 95
+Skill 'solar flight' 70 95
+Skill 'spiral blast' 190 95
+Skill 'stone skin' 100 75
+Skill 'teleport' 40 95
+Skill 'torrent' 30 95
+Skill 'transport' 140 95
+Skill 'aggressive style' 50 95
+Skill 'asistir' 30 80
+Skill 'cavar' 12 85
+Skill 'defensive style' 33 70
+Skill 'esquivar' 15 95
+Skill 'evasive style' 42 70
+Skill 'montar' 9 90
+Skill 'otear' 50 95
+Skill 'rescue' 27 80
+Skill 'search' 20 95
+Skill 'second attack' 30 90
+Skill 'standard style' 1 95
+Skill 'third attack' 90 90
+Skill 'bludgeons' 1 95
+Skill 'flexible arms' 1 35
+Skill 'long blades' 1 95
+Skill 'pugilism' 1 60
+Skill 'short blades' 1 60
+Skill 'talonous arms' 1 50
+Skill 'common' 1 99
+Skill 'dwarven' 1 99
+Skill 'elvish' 1 99
+Skill 'gith' 1 99
+Skill 'goblin' 1 99
+Skill 'halfling' 1 99
+Skill 'ogre' 1 99
+Skill 'orcish' 1 99
+Skill 'pixie' 1 99
+Skill 'trollese' 1 99
+Title
+Man~
+Woman~
+Title
+Keeper~
+Keeper~
+Title
+Keeper of Purity~
+Keeper of Purity~
+Title
+Keeper of Valor~
+Keeper of Valor~
+Title
+Keeper of Loyalty~
+Keeper of Loyalty~
+Title
+Keeper of Truth~
+Keeper of Truth~
+Title
+Keeper of Justice~
+Keeper of Justice~
+Title
+Keeper of the Faith~
+Keeper of the Faith~
+Title
+Protector of Purity~
+Protector of Purity~
+Title
+Protector of Valor~
+Protector of Valor~
+Title
+Protector of Loyalty~
+Protector of Loyalty~
+Title
+Protector of Truth~
+Protector of Truth~
+Title
+Protector of Justice~
+Protector of Justice~
+Title
+Protector of the Faith~
+Protector of the Faith~
+Title
+Defender of Purity~
+Defender of Purity~
+Title
+Defender of Valor~
+Defender of Valor~
+Title
+Defender of Loyalty~
+Defender of Loyalty~
+Title
+Defender of Truth~
+Defender of Truth~
+Title
+Defender of Justice~
+Defender of Justice~
+Title
+Defender of the Faith~
+Defender of the Faith~
+Title
+Warder of Purity~
+Warder of Purity~
+Title
+Warder of Valor~
+Warder of Valor~
+Title
+Warder of Loyalty~
+Warder of Loyalty~
+Title
+Warder of Truth~
+Warder of Truth~
+Title
+Warder of Justice~
+Warder of Justice~
+Title
+Warder of the Faith~
+Warder of the Faith~
+Title
+Justiciar of Purity~
+Justiciar of Purity~
+Title
+Justiciar of Valor~
+Justiciar of Valor~
+Title
+Justiciar of Loyalty~
+Justiciar of Loyalty~
+Title
+Justiciar of Truth~
+Justiciar of Truth~
+Title
+Justiciar of Justice~
+Justiciar of Justice~
+Title
+Justiciar of the Faith~
+Justiciar of the Faith~
+Title
+Chevalier of Purity~
+Chevalier of Purity~
+Title
+Chevalier of Valor~
+Chevalier of Valor~
+Title
+Chevalier of Loyalty~
+Chevalier of Loyalty~
+Title
+Chevalier of Truth~
+Chevalier of Truth~
+Title
+Chevalier of Justice~
+Chevalier of Justice~
+Title
+Chevalier of the Faith~
+Chevalier of the Faith~
+Title
+Guardian of Purity~
+Guardian of Purity~
+Title
+Guardian of Valor~
+Guardian of Valor~
+Title
+Guardian of Loyalty~
+Guardian of Loyalty~
+Title
+Guardian of Truth~
+Guardian of Truth~
+Title
+Guardian of Justice~
+Guardian of Justice~
+Title
+Guardian of the Faith~
+Guardian of the Faith~
+Title
+Knight Templar~
+Knight Templar~
+Title
+Neophyte~
+Neophyte~
+Title
+Acolyte~
+Acolyte~
+Title
+Creator~
+Creator~
+Title
+Savior~
+Savior~
+Title
+Demi God~
+Demi Goddess~
+Title
+Immortal~
+Immortal~
+Title
+Lesser God~
+Lesser Goddess~
+Title
+God~
+Goddess~
+Title
+Greater God~
+Greater Goddess~
+Title
+Ascendant God~
+Ascendant Goddess~
+Title
+Exalted God~
+Exalted Goddess~
+Title
+Ancient One~
+Ancient One~
+Title
+Eternal One~
+Eternal One~
+Title
+Infinite One~
+Infinite One~
+Title
+Supreme Entity~
+Supreme Entity~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+End

@@ -1,0 +1,4055 @@
+#AREA   El Cairo (1848)~
+
+
+
+#VERSION 1
+#REVISADA 0
+#CONQUISTABLE 0
+#PROPIETARIO Beythor~
+#PUNTOS 925 1940 1337 2000 0
+#AUTHOR OnE~
+
+#RANGES
+45 70 0 256
+$
+
+#RESETMSG La oscuridad y el silencio se apoderan de El Cairo al caer la noche.~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 289281
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#4001
+marinero~
+un marinero~
+Un marinero esta aqui amarrando un pesquero.
+~
+Un corpulento y musculoso marinero hace su trabajo amarrando los barcos 
+del puerto.~
+67 552 0 C
+40 0 -10 10d50+4500 5d1+60
+1000 0
+112 112 1
+15 0 0 0 0 0 0
+0 0 0 0 0
+0 0 100 100 1 1 3
+35 60 0 2 0 0 1 3
+#4002
+segurata~
+un segurata del almacen~
+Un segurata del almacen vigila por aqui.
+~
+Es el tipico segurata grande y feo.~
+67 0 0 C
+45 0 -15 10d50+6000 5d1+60
+200 0
+112 112 1
+16 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+30 100 0 0 0 0 17 524291
+#4003
+trabajador~
+el trabajador del almacen~
+Aqui ves un trabajor del almacen haciendo su turno.
+~
+~
+65 0 0 C
+40 0 -10 10d50+4500 5d1+50
+300 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+20 40 0 0 0 0 17 3
+#4004
+guardia~
+un guardia de la ciudad~
+Un corpulento guardia vigila las puertas de la ciudad.
+~
+~
+67 0 0 C
+45 0 -20 10d50+6000 5d1+80
+1000 0
+112 112 0
+17 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+80 80 0 0 0 0 17 524291
+#4005
+vigilante~
+un vigilante del campamento~
+Un vigilante del campamento pasea por aqui.
+~
+~
+67 256 0 C
+40 0 -15 10d50+5000 5d1+50
+500 0
+112 112 0
+17 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+40 60 0 0 0 0 17 3
+#4006
+guardia torre~
+un guardia de la torre~
+Un guardia de la torre vigila el horizonte.
+~
+~
+67 16779816 0 C
+45 0 -25 10d50+6000 5d1+80
+1000 0
+112 112 0
+18 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 4
+100 80 0 0 0 0 16433 526339
+#4007
+ciudadano~
+un ciudadano~
+Un ciudadano de la zona pasea a tu alrededor.
+~
+~
+65 0 0 C
+40 0 -15 10d50+4500 5d1+50
+500 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+60 50 0 0 0 0 17 3
+#4008
+guardia~
+un guardia de la mansion~
+Ves un guardia de la mansion cuidando la entrada.
+~
+~
+71 8224 0 C
+60 0 -45 50d50+8000 5d1+90
+1000 0
+112 112 0
+18 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 4
+100 90 0 0 0 0 1073790993 539139
+#4009
+wraith~
+wraith~
+Un wraith ronda a tu alrededor.
+~
+~
+99 2162728 0 C
+42 0 -15 30d50+4000 5d1+40
+0 0
+112 112 0
+0 18 18 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+60 40 0 0 0 0 1075838977 524288
+#4010
+jardinero~
+un jardinero~
+Un jardinero de la mansion trabaja por aqui.
+~
+~
+67 256 0 C
+43 0 -10 10d50+5500 5d1+60
+500 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+60 60 0 0 0 0 1074003985 3
+#4011
+guarda~
+un guarda de la puerta~
+Un guarda de la puerta vigila atentamente.
+~
+~
+67 552 0 C
+60 0 -45 40d50+8000 5d1+90
+1200 0
+112 112 0
+18 18 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+100 90 0 0 0 0 163857 524803
+#4012
+guarda~
+un guarda cansado~
+Un guarda descansa en esta sala.
+~
+~
+67 40 0 C
+48 0 -20 10d50+7000 5d1+80
+300 0
+112 112 0
+17 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+70 80 0 0 0 0 17 532483
+#4013
+coleccionista~
+un coleccionista~
+Un coleccionista ordena unos cuadros.
+~
+~
+67 40 0 C
+45 0 -15 10d50+6500 5d1+70
+100 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+100 70 0 0 0 0 536870929 8707
+#4014
+sirviente~
+un sirviente~
+Un sirviente esta limpiando la sala.
+~
+~
+199 33064 0 C
+45 0 -10 10d50+6000 5d1+70
+100 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+110 70 0 0 0 0 49 526339
+#4015
+guarda escaleras~
+el guarda de las escaleras~
+Ves a un guarda vigilando las escaleras.
+~
+~
+67 66090 0 C
+55 0 -35 10d50+7500 5d1+80
+300 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+90 80 0 0 0 0 2097169 528387
+#4016
+huesped~
+un huesped~
+Un huesped deshace aqui sus maletas.
+~
+~
+67 0 0 C
+40 0 -10 10d50+8000 5d1+80
+500 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 4
+100 80 0 0 0 0 49 524291
+#4017
+ayudante~
+el ayudante del principe~
+Un ayudante del principe esta trabajando aqui.
+~
+~
+67 268436008 0 C
+60 0 -15 10d50+8000 5d1+80
+1000 0
+112 112 0
+16 16 0 0 17 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+70 80 0 0 0 0 49153 515
+#4018
+principe~
+el principe de El Cairo~
+El principe de El Cairo reposa en esta habitacion.
+~
+~
+67 66094 0 C
+65 0 -50 60d50+9000 5d1+100
+3000 0
+112 112 0
+18 18 0 18 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 4
+100 100 0 0 0 0 147473 1573123
+> greet_prog 100~
+if isimmort($n)
+
+      decir Me has servido bien $n, estoy a tu disposicion
+
+else
+
+      decir No pretenderas traicionar a tu principe?
+      
+endif
+~
+|
+#4019
+miembro~
+un miembro del rebanyo~
+Un miembro del rebanyo del principe descansa justo aqui.
+~
+~
+71 65792 0 C
+48 0 -5 5d10+6000 5d1+50
+100 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 2
+40 50 0 0 0 0 4097 3
+#4020
+giovanni william sorath~
+Giovanni William Sorath~
+El Giovanni William Sorath realiza unos conjuros en lengua antigua.
+~
+~
+67 270076606 0 C
+70 0 -55 50d10+11000 5d1+110
+500000 0
+112 112 0
+20 20 15 18 18 0 0
+0 0 0 0 0
+0 0 0 0 1 1 4
+130 110 0 1 0 0 147473 1048851
+#4021
+viajante~
+un viajante~
+Un viajante acamapa cerca tuyo.
+~
+~
+71 65536 0 C
+40 0 -10 10d10+5500 5d1+60
+100 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+50 60 0 0 0 0 49 524291
+#4022
+vagabundo~
+un vagabundo~
+Un vagabundo se acerca y te huele.
+~
+~
+197 0 0 C
+40 0 -10 10d10+5000 5d1+50
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+50 50 0 0 0 0 17 3
+#4023
+lamia~
+una lamia~
+Una lamia se abalanza sobre ti.
+~
+~
+99 2097192 0 C
+40 0 -5 10d10+4000 5d1+50
+0 0
+112 112 0
+0 20 20 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+40 50 0 0 0 0 1074003969 3
+#4024
+vieja lamia sabia~
+una vieja lamia~
+Una lamia vieja y sabia se abalanza sobre ti.
+~
+~
+99 0 0 C
+46 0 -10 10d10+5500 5d1+70
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+70 70 0 0 0 0 16385 524803
+#4025
+vigilante sorath~
+un vigilante de los Sorath~
+Un vigilante de los Sorath pasea a tu alrededor.
+~
+~
+99&2 42 0 C
+2 0 -10 10d10+7500 5d1+70
+100 0
+112 112 0
+15 15 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+90 70 0 0 0 0 1025 3
+#4026
+victima~
+una victima~
+Aqui pasa sus ultimas horas una victima de los Sorath.
+~
+~
+71 65536 0 C
+50 0 -10 10d10+7000 5d1+70
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+40 70 0 0 0 0 16 524291
+#4027
+miembro sorath~
+un miembro de la familia~
+Un miembro de la familia Sorath observa lo que haces.
+~
+~
+67 42 0 C
+60 0 -10 10d10+8000 5d1+90
+1000 0
+112 112 0
+18 18 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+80 90 0 0 0 0 16401 515
+#4028
+giovanni thomas sorath~
+Giovanni Thomas Sorath~
+El Giovanni Thomas Sorath descansa en sus aposentos.
+~
+~
+67 269028026 0 C
+70 0 -25 80d10+10500 5d1+120
+50000 0
+112 112 0
+15 15 15 15 15 13 13
+0 0 0 0 0
+0 0 0 0 1 1 4
+100 120 0 0 0 8 180225 1048851
+> greet_prog 100~
+if isimmort($n)
+emo te mira fijamente, has conseguido inquietarle...
+else
+emo piensa en como aniquilarte...
+decir Osas molestarme?
+char Todo mi poder oscuro caera sobre ti, $n!!
+matar $n
+endif
+~
+|
+#4029
+duenyo taberna~
+el duenyo de la taberna~
+El duenyo de la taberna te mira con cara amenazante...MARCHATE!!
+~
+~
+71 0 0 C
+60 0 0 10d10+8500 5d1+80
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 3
+90 80 0 0 0 0 65553 3
+#4030
+figura estatua~
+una figura~
+Una figura en forma de estatua se alza exhultante ante ti.
+~
+~
+8388675 302582462 0 C
+80 0 -500 10d10+1000 5d1+350
+0 0
+112 112 0
+20 20 20 20 20 20 20
+0 0 0 0 0
+0 0 0 0 1 1 5
+350 350 0 0 0 0 131072 1587719
+#0
+
+
+#OBJECTS
+#4001
+camiseta marinero~
+una camiseta de marinero~
+Esta es la tipica camiseta de los marineros...blanca a rallas azules.~
+~
+9 1024 9
+5 5 0 0
+10 100 10
+A
+1 1
+#4002
+anillo rubi~
+un anillo de rubi~
+Lujoso y resplandeciente anillo de rubi.Esta hecho para tu dedo.~
+~
+9 2 3
+5 5 0 0
+1 100 10
+E
+~
+~
+A
+14 50
+A
+18 4
+A
+19 5
+#4003
+cinturon negro~
+un cinturon negro~
+Un cinturon negro y robusto esta en el suelo.~
+~
+9 0 2049
+5 5 0 0
+10 100 10
+A
+14 30
+A
+19 4
+A
+13 20
+#4004
+chaleco cuero~
+un chaleco de cuero~
+Aqui hay un chaleco negro.~
+~
+9 0 9
+3 3 0 0
+10 100 10
+A
+25 -2
+A
+2 2
+A
+18 10
+A
+17 -25
+#4005
+daga egipcia~
+una daga egipcia~
+Una daga egipcia esta tirada aqui.~
+~
+5 2 8193
+12 5 10 2
+1 0 0
+A
+18 10
+A
+19 10
+#4006
+panyuelo blanco~
+un panyuelo blanco~
+Un panyuela blanco esta aqui.~
+~
+9 0 5
+4 4 0 0
+10 500 50
+A
+3 1
+A
+18 5
+A
+19 3
+#4007
+brazal platino~
+un brazal de platino~
+Aqui hay un brazal de platino.~
+~
+9 2 257
+25 25 0 0
+1 0 0
+A
+1 -1
+A
+18 8
+A
+19 10
+A
+17 -25
+#4008
+brazalete platino~
+un brazalete de platino~
+Aqui hay un brazalete de platino.~
+~
+9 1 4097
+4 4 0 0
+1 0 0
+A
+3 -3
+A
+18 6
+A
+19 6
+A
+13 15
+#4009
+anillo platino~
+un anillo de platino~
+Aqui hay un anillo de platino.~
+~
+9 1 3
+3 3 0 0
+1 0 0
+A
+13 -30
+A
+18 12
+A
+19 4
+#4010
+cinturon platino~
+un cinturon de platino~
+Aqui hay tirado un cinturon de platino.~
+~
+9 1 2049
+4 4 0 0
+1 0 0
+A
+2 4
+A
+14 20
+#4011
+perneras platino~
+unas perneras de platino~
+Unas perneras de platino yacen aqui.~
+~
+9 3 33
+30 30 0 0
+1 0 0
+A
+18 7
+A
+19 8
+A
+17 -20
+A
+13 20
+#4012
+hacha punyo blanco~
+el Hacha de Punyo Blanco~
+Un enorme punyo blanco te llama la atencion.~
+~
+5 34 8193
+12 10 10 8
+1 0 0
+A
+19 12
+A
+18 5
+#4013
+libro conocimiento~
+el Libro del Conocimiento~
+Un libro extranyo esta en el suelo.~
+~
+9 33554560 129
+0 0 0 0
+1 0 0
+A
+12 25
+A
+3 3
+A
+13 80
+A
+14 20
+#4014
+tunica negra~
+una tunica negra~
+Aqui hay tirada una tunica.~
+~
+9 33554563 1025
+7 7 0 0
+1 0 0
+A
+25 -3
+A
+19 6
+A
+18 5
+A
+23 -20
+A
+1 1
+#4015
+cetro egipcio~
+el cetro egipcio~
+En cetro egipcio yace aqui.~
+~
+9 1 16385
+0 0 0 0
+10 10 1
+A
+3 3
+A
+13 100
+A
+1 -2
+A
+17 -30
+#4016
+colmillos sangre~
+Colmillos de Sangre~
+Unos colmillos ensangrentados yacen aqui.~
+~
+9 35 5
+30 30 0 0
+10 500 50
+A
+18 7
+A
+19 9
+A
+25 -1
+A
+17 -30
+A
+13 25
+#4017
+estirpe plata~
+Estirpe de Plata~
+Una estirpe de plata reluce ante ti.~
+~
+5 3 8193
+12 12 10 3
+10 100 10
+A
+3 3
+A
+18 25
+A
+23 -30
+#4018
+anillo sorath~
+un Anillo Sorath~
+Un anillo con un simbolo yace aqui.~
+~
+9 33 3
+5 5 0 0
+10 10 1
+A
+18 8
+A
+19 6
+A
+23 -25
+A
+17 30
+#4019
+llave almacen~
+llave del almacen~
+~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#4020
+llave mansion~
+llave de la mansion~
+~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#4021
+llave puerta~
+llave de la puerta~
+~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#4022
+llave puerta trasera~
+llave de la puerta trasera~
+~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#4023
+llave platino~
+llave de platino~
+~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#4024
+llave sorath~
+llave sorath~
+~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#4025
+llave sangre~
+llave de sangre~
+~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#4026
+corona espinas~
+la Corona de Espinas~
+Una especie de corona de espinas yace aqui.~
+~
+9 99 17
+50 50 0 0
+1 0 0
+A
+66 20
+A
+5 2
+A
+19 10
+A
+18 7
+A
+2 -1
+A
+3 -1
+A
+17 30
+A
+25 -1
+#4027
+ataud antiguo~
+ataud antiguo~
+En el suelo......un ataud de la edad antigua.~
+Viejo y desgastado ataud.~
+15 33554464 0
+10000 13 4028 0
+16960 0 0
+#4028
+llave antigua~
+llave antigua~
+Aqui hay una llave antigua.~
+~
+18 33554432 16385
+0 0 0 0
+1 0 0
+#4029
+armadura dorada~
+una armadura dorada~
+Aqui reluce una armadura.~
+~
+9 0 9
+6 6 0 0
+1 0 0
+A
+13 25
+A
+18 5
+#4030
+casco dorado~
+un casco dorado~
+Aqui reluce un casco.~
+~
+9 0 17
+3 3 0 0
+1 0 0
+A
+19 4
+A
+2 1
+#4031
+catalejo antiguo~
+un catalejo antiguo~
+Aqui hay un antiguo catalejo.~
+~
+9 33554464 131073
+7 7 0 0
+1 0 0
+A
+2 1
+A
+5 1
+A
+4 1
+#4032
+guantes negros~
+unos guantes negros~
+Aqui hay unos guantes oscuros.~
+~
+9 0 129
+4 4 0 0
+1 0 0
+A
+19 5
+#0
+
+
+#ROOMS
+#4001
+Mar.~
+Te adentras en el mar. No consigues ver costa alguna a tus alrededores.
+Todo lo que ves es agua, agua, y mas agua.
+~
+0 0 6
+D2
+~
+~
+0 0 12034
+D3
+~
+~
+0 0 4002
+S
+#4002
+En medio del mar.~
+Sigues adentrandote en el mar.Aun no dislumbras tierra.Puede que estes 
+perdido.
+
+~
+0 0 6
+D1
+~
+~
+0 0 4001
+D3
+~
+~
+0 0 4003
+S
+#4003
+En medio del mar.~
+Mas y mas, te adentras en la majestuosidad del oceano.Sigues sin ver la 
+costa.
+Ahora si, parece ser que estas perdido.
+~
+0 0 0
+D1
+~
+~
+0 0 4002
+D3
+~
+~
+0 0 4004
+S
+#4004
+Arribando a la costa.~
+Por fin parece que llegas a algun sitio.No estas muy seguro de donde 
+estas, 
+pero almenos respiras hondo....tierra a la vista.
+~
+0 0 6
+D1
+~
+~
+0 0 4003
+D2
+~
+~
+0 0 4005
+S
+#4005
+Puerto de El Cairo.~
+Acabas de llegar al puerto de una ciudad bastante grande.Parece un 
+puerto en 
+pleno auge y moderno.Este sitio te suena de algo, tal vez hayas estado 
+aqui 
+antes.Haciendo memoria, recuerdas que te encuentras en el puerto del El 
+Cairo.
+~
+0 0 0
+D0
+~
+~
+0 0 4004
+D2
+~
+~
+0 0 4006
+S
+#4006
+Muelle.~
+Caminas por el muelle del puerto.Todo parece estar bastante desolado, 
+no
+parece haber mucha actividad por aqui.
+~
+0 0 1
+D0
+~
+~
+0 0 4005
+D1
+~
+~
+0 0 4008
+D2
+~
+~
+0 0 4017
+D3
+~
+~
+0 0 4007
+S
+#4007
+Muelle.~
+Caminas por el muelle del puerto.Ves barcos atracados por todas partes.
+~
+0 0 1
+D1
+~
+~
+0 0 4006
+D3
+~
+~
+0 0 4009
+S
+#4008
+Muelle.~
+Caminas por el muelle.Hay barcos atracados por todas partes.Parece un 
+sitio 
+bastante comercializado.
+~
+0 0 1
+D1
+~
+~
+0 0 4010
+D3
+~
+~
+0 0 4006
+S
+#4009
+Muelle.~
+Sigues por caminando por el muelle y a lo lejos distingues algo 
+parecido
+a un almacen.
+~
+0 0 1
+D1
+~
+~
+0 0 4007
+D3
+~
+~
+7 4019 4011
+S
+#4010
+Muelle.~
+Sigues avanzando por el muelle. Mas adelante te parece ver una especie 
+de
+almacen, tal vez encuentres alli a alguien que te guie.
+~
+0 0 1
+D1
+~
+~
+7 4019 4014
+D3
+~
+~
+0 0 4008
+S
+#4011
+Almacen del muelle.~
+Entras en un almacen cerca del muelle.Esta abarrotado de mercancias 
+para el 
+comercio.Puedes ver dos puertas, una a cada lado del almacen.
+~
+0 0 0
+D0
+~
+~
+33 0 4012
+D1
+~
+~
+3 4019 4009
+D2
+~
+~
+33 0 4013
+S
+#4012
+Ala norte del almacen.~
+Te encuentras en la parte norte del almacen. Aqui hay como un pequenyo 
+despacho lleno de papeles y carpetas con el inventario de todas las 
+mercancias con las que trabajan.
+~
+0 8 0
+D2
+~
+~
+0 0 4011
+S
+#4013
+Ala sur del almacen.~
+Estas en la parte sur del almacen.Aqui hay un despacho lleno de 
+papeles.
+~
+0 0 0
+D0
+~
+~
+0 0 4011
+S
+#4014
+Almacen del muelle.~
+Acabas de entrar en un almacen del muelle.Es bastante grande y esta 
+completamente lleno de toda clase de productos para comerciar.Entre 
+todos
+esos productos puedes distinguir dos puertas, una a cada lado de la 
+habitacion.
+~
+0 0 0
+D0
+~
+~
+0 0 4015
+D2
+~
+~
+0 0 4016
+D3
+~
+~
+3 4019 4010
+S
+#4015
+Ala norte del almacen.~
+Estas en la parte norte del almacen.Te encuentras en lo que parece un 
+despacho
+desde donde se controlan todas las mercancias que pasan por el almacen.
+~
+0 0 0
+D2
+~
+~
+0 0 4014
+S
+#4016
+Ala sur del almacen.~
+Te encuentras en la parte sur del almacen.Es un despacho desde donde
+se controla gran parte de los movimientos de las mercancias.Ves una 
+gran mesa
+con muchos papeles sobre ella.
+~
+0 0 0
+D0
+~
+~
+0 0 4014
+S
+#4017
+Camino del desierto.~
+Dejas atras el muelle del puerto y sigues un camino hacia el sur.
+Parece ser que te adentras en un desierto.Hace mucho calor y de momento
+todo lo que puedes ver es tierra en todas partes.
+~
+0 0 1
+D0
+~
+~
+0 0 4006
+D2
+~
+~
+0 0 4018
+S
+#4018
+Desierto.~
+Todo lo que ves es arena, arena y mas arena.El sol pega de una forma 
+impresionante y hace un calor insoportable.
+~
+0 0 10
+D0
+~
+~
+0 0 4017
+D2
+~
+~
+0 0 4019
+S
+#4019
+Desierto.~
+Sigues caminando por el largo desierto.El sol cada vez pica mas.Lo 
+unico
+que ves por aqui son unas cuantas plantas secas y alguna que otra
+serpiente.
+~
+0 0 10
+D0
+~
+~
+0 0 4018
+D2
+~
+~
+0 0 4020
+S
+#4020
+Entrada a la ciudad.~
+Por fin llegas a lo que parece una ciudad, dejando atras el 
+desierto.Delante
+de ti se alzan una enorme puerta incrustada en unas impresionantes 
+murallas.
+Parece que alguin vigila la puerta.
+~
+0 0 1
+D0
+~
+~
+0 0 4019
+D2
+~
+~
+3 0 4021
+S
+#4021
+El Cairo (1848)~
+Entras en la ciudad de El Cairo.Ronda el anyo 1848 y la ciudad se 
+encuentra
+en pleno apogeo y modernizacion.Las calles estan repletas de gente, de
+viajantes, ciudadanos y vendedores ambulantes.Si buscas bien, tal vez
+puedas sacar algo de provecho de este lugar.
+~
+0 0 1
+D0
+~
+~
+3 0 4020
+D1
+~
+~
+0 0 4025
+D2
+~
+~
+0 0 4028
+D3
+~
+~
+0 0 4022
+S
+#4022
+Alrededores de la ciudad.~
+Caminas por los alrededores de la ciudad de El Cairo.Esta es una zona 
+muy
+transitada.
+~
+0 0 1
+D1
+~
+~
+0 0 4021
+D3
+~
+~
+0 0 4023
+S
+#4023
+Alrededores de la ciudad.~
+Sigues por los alrededores de la ciudad.Parece ser que estas en un 
+camino
+que rodea toda la ciudad.
+~
+0 0 1
+D1
+~
+~
+0 0 4022
+D3
+~
+~
+0 0 4024
+S
+#4024
+Paseo oeste de la ciudad.~
+Este es el paseo oeste de la ciudad.Si continuas por aqui rodearas
+la ciudad por el oeste.
+~
+0 0 1
+D1
+~
+~
+0 0 4023
+D2
+~
+~
+0 0 4040
+D7
+~
+~
+0 0 4054
+S
+#4025
+Alrededores de la ciudad.~
+Caminas por los alrededores de la ciudad de El Cairo.Esta es una zona 
+muy
+transitada.
+~
+0 0 1
+D1
+~
+~
+0 0 4026
+D3
+~
+~
+0 0 4021
+S
+#4026
+Alrededores de la ciudad.~
+Camino por los alrededores de la ciudad que conducen al paseo este.
+~
+0 0 1
+D1
+~
+~
+0 0 4027
+D3
+~
+~
+0 0 4025
+S
+#4027
+Paseo este de la ciudad.~
+Este es el paseo este de la ciudad, si continuas por el rodearas la
+toda la ciudad.
+~
+0 0 1
+D2
+~
+~
+0 0 4034
+D3
+~
+~
+0 0 4026
+D6
+~
+~
+0 0 4056
+S
+#4028
+Calle central.~
+Esta es la calle central de la ciudad.Todo esta lleno de vendedores 
+ambulantes y paraditas en las que venden productos de todo tipo.
+~
+0 0 1
+D0
+~
+~
+0 0 4021
+D2
+~
+~
+0 0 4029
+S
+#4029
+Calle central de la ciudad.~
+~
+0 0 1
+D0
+~
+~
+0 0 4028
+D2
+~
+~
+0 0 4030
+S
+#4030
+Centro de El Cairo.~
+Estas justamente en el centro de la ciudad de El Cairo.
+Esta es la interseccion entre la calle central t la calle transversal
+de la ciudad.Es un sitio muy muy concurrido el centro de la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4029
+D1
+~
+~
+0 0 4051
+D2
+~
+~
+0 0 4031
+D3
+~
+~
+0 0 4052
+S
+#4031
+Calle central de la ciudad.~
+Caminas por la calle central de la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4030
+D2
+~
+~
+0 0 4032
+S
+#4032
+Calle central de la ciudad.~
+Continuas avanzando por la calle central de la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4031
+D2
+~
+~
+0 0 4033
+S
+#4033
+Salida de la ciudad.~
+Esta es la salida de la ciudad de El Cairo.Es el cruce entre la calle 
+central y la calle sur.Al sur puedes distinguir un camino hacia la 
+montanya.
+~
+0 0 1
+D0
+~
+~
+0 0 4032
+D1
+~
+~
+0 0 4047
+D2
+~
+~
+0 0 4062
+D3
+~
+~
+0 0 4048
+S
+#4034
+Paseo este de la ciudad.~
+Caminas a lo largo del paseo este de la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4027
+D2
+~
+~
+0 0 4035
+S
+#4035
+Paseo este de la ciudad.~
+Continuas por el paseo este en los alrededores de la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4034
+D2
+~
+~
+0 0 4036
+S
+#4036
+Paseo este de la ciudad.~
+Esta es la interseccion entre la calle transversal y el paseo este
+de la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4035
+D2
+~
+~
+0 0 4037
+D3
+~
+~
+0 0 4050
+S
+#4037
+Paseo este de la ciudad.~
+Te encuentras en el paseo este de la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4036
+D2
+~
+~
+0 0 4038
+S
+#4038
+Paseo este de la ciudad.~
+Caminas a lo largo del paseo este de la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4037
+D2
+~
+~
+0 0 4039
+S
+#4039
+Final del paseo este de la ciudad.~
+Te encuentras en la interseccion entre el paseo este y la calle
+sur.
+~
+0 0 1
+D0
+~
+~
+0 0 4038
+D3
+~
+~
+0 0 4046
+D8
+~
+~
+0 0 4060
+S
+#4040
+Paseo oeste de la ciudad.~
+Continuas caminando por el paseo oeste de la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4024
+D2
+~
+~
+0 0 4041
+S
+#4041
+Paseo oeste de la ciudad.~
+Continuas por el camino del oeste de la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4040
+D2
+~
+~
+0 0 4042
+S
+#4042
+Paseo oeste de la ciudad.~
+Te encuentras en el cruce entre el paseo oeste y la calle transversal
+ que cruza la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4041
+D1
+~
+~
+0 0 4053
+D2
+~
+~
+0 0 4043
+S
+#4043
+Paseo oeste de la ciudad.~
+Continuas caminando por el paseo oeste de la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4042
+D2
+~
+~
+0 0 4044
+S
+#4044
+Paseo oeste de la ciudad.~
+Sigues caminando a lo largo del paseo oeste de la ciudad.
+~
+0 0 1
+D0
+~
+~
+0 0 4043
+D2
+~
+~
+0 0 4045
+S
+#4045
+Final del paseo oeste de la ciudad.~
+Aqui acaba el paseo oeste de la ciudad.Si quieres continuar...deberas
+volver atras o seguir por la calle sur.
+~
+0 0 1
+D0
+~
+~
+0 0 4044
+D1
+~
+~
+0 0 4049
+D9
+~
+~
+0 0 4058
+S
+#4046
+Calle sur de la ciudad.~
+Caminas por un tramo de la calle sur en los alrededores de la
+ciudad.
+~
+0 0 1
+D1
+~
+~
+0 0 4039
+D3
+~
+~
+0 0 4047
+S
+#4047
+Calle sur de la ciudad.~
+Esta es la calle sur de los alrededores de la ciudad.
+~
+0 0 1
+D1
+~
+~
+0 0 4046
+D3
+~
+~
+0 0 4033
+S
+#4048
+Calle sur de la ciudad.~
+Caminas por la parte sur de la ciudad, por sus alrededores.
+~
+0 0 1
+D1
+~
+~
+0 0 4033
+D3
+~
+~
+0 0 4049
+S
+#4049
+Calle sur de la ciudad.~
+Esta es la calle mas al sur de la ciudad.De ahi su nombre.Digamos que 
+es
+la parte de la ciudad orientada al sur.
+~
+0 0 1
+D1
+~
+~
+0 0 4048
+D3
+~
+~
+0 0 4045
+S
+#4050
+Transversal este.~
+Estas en la calle trasnversal del este que cruza la ciudad.
+~
+0 0 1
+D1
+~
+~
+0 0 4036
+D3
+~
+~
+0 0 4051
+S
+#4051
+Transversal este.~
+Estas en la calle que cruza transversalmente la ciudad.
+~
+0 0 1
+D1
+~
+~
+0 0 4050
+D3
+~
+~
+0 0 4030
+S
+#4052
+Transversal oeste.~
+Estas en la calle transversal oeste de la ciudad.
+~
+0 0 1
+D1
+~
+~
+0 0 4030
+D3
+~
+~
+0 0 4053
+S
+#4053
+Transversal oeste.~
+Estas en la calle transversal oeste de la ciudad.
+~
+0 0 1
+D1
+~
+~
+0 0 4052
+D3
+~
+~
+0 0 4042
+S
+#4054
+Campamento noroeste.~
+Acabas de llegar a lo que parece un campamento de vigilancia de la 
+ciudad.
+~
+0 0 1
+D7
+~
+~
+0 0 4055
+D8
+~
+~
+0 0 4024
+S
+#4055
+Torre de vigilancia del noroeste.~
+Esta es la torre desde donde los guardias de la ciudad vigilan y 
+protegen a los ciudadanos.
+~
+0 0 0
+D8
+~
+~
+0 0 4054
+S
+#4056
+Campamento de vigilancia noreste.~
+Entras en lo que parece un campamento de vigilancia.
+~
+0 0 1
+D6
+~
+~
+0 0 4057
+D9
+~
+~
+0 0 4027
+S
+#4057
+Torre de vigilancia del noreste.~
+Estas dentro de una de las torres de vigilancia de la ciudad.
+~
+0 0 0
+D9
+~
+~
+0 0 4056
+S
+#4058
+Campamento de vigilancia del suroeste.~
+Entras en lo que parece un campamento de vigilancia.A lo lejos, puedes
+distinguir una especie de torre.
+~
+0 0 1
+D6
+~
+~
+0 0 4045
+D9
+~
+~
+0 0 4059
+S
+#4059
+Torre de vigilancia del suroeste.~
+Entras en la torre de vigilancia del suroeste.
+~
+0 0 0
+D6
+~
+~
+0 0 4058
+S
+#4060
+Campamento de vigilancia sureste.~
+Entras en lo que parece un campamento de vigilancia.
+~
+0 0 1
+D7
+~
+~
+0 0 4039
+D8
+~
+~
+0 0 4061
+S
+#4061
+Torre de vigilancia del sureste.~
+Estas dentro de la torre de vigilancia del sureste. 
+~
+0 0 0
+D7
+~
+~
+0 0 4060
+S
+#4062
+Camino montanyoso.~
+Caminas por un camino montanyoso.Parece ser que es bastante largo y 
+estrecho.
+A lo lejos observas una pequenya colina y algo parecido a un castillo 
+en 
+su cima.
+~
+0 0 5
+D0
+~
+~
+0 0 4033
+D2
+~
+~
+0 0 4063
+S
+#4063
+Camino montanyoso.~
+Continuas a lo largo del pequenyo y estrecho camino.Es un camino de 
+tierra
+y piedras que parece conducir a la pequenya montanya que tienes
+delante.
+~
+0 0 5
+D0
+~
+~
+0 0 4062
+D2
+~
+~
+0 0 4064
+S
+#4064
+Sendero de la colina.~
+Ahora lo ves mas claro.Este sendero lleva hacia la cima de la 
+colina.Parece
+haber una especie de castillo o mansion en lo alto de ella.
+~
+0 0 5
+D0
+~
+~
+0 0 4063
+D2
+~
+~
+0 0 4065
+S
+#4065
+Sendero de la colina.~
+Continuas a lo largo del estrecho y sinuoso sendero que te conduce
+a lo alto de la colina.
+~
+0 0 5
+D0
+~
+~
+0 0 4064
+D2
+~
+~
+0 0 4066
+S
+#4066
+Final del sendero.~
+Llegas a lo que parece el final del sendero.Un poco mas adelante puedes
+distinguir una especie de muralla.
+~
+0 0 5
+D0
+~
+~
+0 0 4065
+D2
+~
+~
+0 0 4067
+S
+#4067
+Puerta de la Mansion.~
+Te encuentras delante de la enorme puerta que da paso a la gigantesca
+mansion, que aun, no sabes a quien pertenece.Unas altas murallas 
+flanquean
+la puerta y rodean la mansion.
+~
+0 0 5
+D0
+~
+~
+0 0 4066
+D1
+~
+tunel~
+8393771 0 4068
+D2
+~
+~
+7 4020 4071
+S
+#4068
+Paseo subterraneo.~
+Acabas de entrar en un pequenyo paseo subterraneo.Todo esta muy oscuro
+y no sabes si tiene salida alguna.Hay mucha humedad y se deslizan 
+pequenyas 
+gotas de agua por las paredes.
+~
+0 1 13
+D1
+~
+~
+0 0 4069
+S
+#4069
+Paseo subterraneo.~
+Continuas por el paseo subterraneo.Todo sigue muy oscuro.
+~
+0 1 13
+D1
+~
+~
+0 0 4070
+D3
+~
+~
+0 0 4068
+S
+#4070
+Paseo subterraneo.~
+Avanzas por el pequenyo tunel subterraneo.Te parece escuchar algun que
+otro sonido de respiraciones profundas, y no son las tuyas.
+~
+0 1 13
+D1
+~
+~
+0 0 4117
+D3
+~
+~
+0 0 4069
+S
+#4071
+Jardin.~
+Avanzas por el lujoso jardin de la entrada a la mansion.Todo parece 
+bastante bien cuidado, debe de ser por el trabajo de los varios
+jardineros que estan por aqui.
+~
+0 0 1
+D0
+~
+~
+3 4020 4067
+D2
+~
+~
+0 0 4072
+S
+#4072
+Jardin de la mansion.~
+Continuas por el lujoso jardin.Mas al sur puedes ver las puertas 
+de la mansion.
+~
+0 0 1
+D0
+~
+~
+0 0 4071
+D2
+~
+~
+0 0 4073
+S
+#4073
+Puerta de entrada a la casa.~
+Estas ante la puerta de entrada a la casa.Ten cuidado, puede que este 
+vigilada y si no te conocen no te dejaran pasar.A no ser que tomes  las
+medidas que creas convenientes.
+~
+0 0 1
+D0
+~
+~
+0 0 4072
+D2
+~
+~
+7 4021 4074
+S
+#4074
+Enorme salon.~
+Este es el salon de la mansion del principe.Es un salon enorme y esta 
+cuidadosamente decorado y cuidado.Puedes ver grandes cuadros colgados
+de las paredes y largas lujosas alfombras posadas sobre el suelo.
+~
+0 0 0
+D0
+~
+~
+3 4021 4073
+D1
+~
+~
+0 0 4076
+D2
+~
+~
+0 0 4077
+D3
+~
+~
+0 0 4075
+S
+#4075
+Sala de la guardia.~
+Esta es una sala donde los guardias de la mansion reposan y esperan su
+turno de vigilancia.
+~
+0 0 0
+D1
+~
+~
+0 0 4074
+S
+#4076
+Sala de la guardia.~
+Esta es la habitacion donde los guardias se relajan y esperan que
+les llegue el turno de vigilancia.
+~
+0 0 0
+D3
+~
+~
+0 0 4074
+S
+#4077
+Enorme salon.~
+Estas en el gran salon de la mansion.Ademas de los grandes cuadros, 
+puedes
+ver unas enorme cristaleras que dan a los jardines.
+~
+0 0 0
+D0
+~
+~
+0 0 4074
+D1
+~
+~
+0 0 4079
+D2
+~
+~
+0 0 4082
+D3
+~
+~
+0 0 4078
+S
+#4078
+Corredor.~
+Caminas a lo largo de un corredor.
+~
+0 0 0
+D1
+~
+~
+0 0 4077
+D3
+~
+~
+0 0 4080
+S
+#4079
+Corredor.~
+Caminas a lo largo de un largo corredor.
+~
+0 0 0
+D1
+~
+~
+0 0 4081
+D3
+~
+~
+0 0 4077
+S
+#4080
+Corredor.~
+Sigues avanzando por un largo corredor que no sabes donde se dirige.
+~
+0 0 0
+D1
+~
+~
+0 0 4078
+D2
+~
+~
+0 0 4083
+S
+#4081
+Corredor.~
+Caminas a lo largo de un corredor.
+~
+0 0 0
+D2
+~
+~
+0 0 4085
+D3
+~
+~
+0 0 4079
+S
+#4082
+Enorme salon.~
+Continuas dentro del gran salon de la mansion.Parece que no termine 
+nunca.
+~
+0 0 0
+D0
+~
+~
+0 0 4077
+D2
+~
+~
+0 0 4087
+S
+#4083
+Coleccion privada.~
+Estas en una de las habitaciones privadas del principe, donde guarda
+muchos de sus objetos valiosos.
+~
+0 0 0
+D0
+~
+~
+0 0 4080
+D2
+~
+~
+0 0 4084
+S
+#4084
+Coleccion privada.~
+Esta es una de las habitaciones donde el principe guarda sus objetos
+mas valiosos.
+~
+0 0 0
+D0
+~
+~
+0 0 4083
+S
+#4085
+Coleccion privada.~
+Estas en una habitacion donde el principe guarda su coleccion privada 
+de
+objetos.La mayoria son valiosos.
+~
+0 0 0
+D0
+~
+~
+0 0 4081
+D2
+~
+~
+0 0 4086
+S
+#4086
+Coleccion privada.~
+Te encuentras en una de las salas donde el principe tiene guardada su
+principal coleccion de objetos.
+~
+0 0 0
+D0
+~
+~
+0 0 4085
+S
+#4087
+Enorme salon.~
+Continuas dentro del gran salon de la mansion.Es interminable.
+~
+0 0 0
+D0
+~
+~
+0 0 4082
+D2
+~
+~
+0 0 4088
+S
+#4088
+Escaleras.~
+Aqui puedes ver dos escaleras.Unas van hacia arriba y las otras bajan 
+en forma de caracol.
+~
+0 0 0
+D0
+~
+~
+0 0 4087
+D2
+~
+~
+0 0 4114
+D4
+~
+~
+0 0 4089
+D5
+~
+~
+0 0 4104
+S
+#4089
+Primer piso.~
+Subes hasta el primer piso de la mansion.Ante ti, un largo pasillo 
+avanza 
+hasta no sabes donde.
+~
+0 0 0
+D2
+~
+~
+0 0 4090
+D5
+~
+~
+0 0 4088
+S
+#4090
+Pasillo del primer piso.~
+Avanzas por el pasillo del primer piso.Puedes ver una serie de
+puertas a lo largo de el.
+~
+0 0 0
+D0
+~
+~
+0 0 4089
+D1
+~
+~
+0 0 4093
+D2
+~
+~
+0 0 4091
+D3
+~
+~
+0 0 4092
+S
+#4091
+Pasillo del primer piso.~
+Estas en el pasillo del primer piso.El corredor continua hacia el sur.
+~
+0 0 0
+D0
+~
+~
+0 0 4090
+D2
+~
+~
+0 0 4094
+S
+#4092
+Habitacion de huespedes.~
+Esta es una de las habitaciones que el principe habilita para sus
+posibles huespedes.
+~
+0 0 0
+D1
+~
+~
+0 0 4090
+S
+#4093
+Habitacion de huespedes.~
+Esta es una habitacion que el principe tiene habilitada para posibles
+huespedes.Ahora mismo, puedes ver a uno deshaciendo sus maletas.
+~
+0 0 0
+D3
+~
+~
+0 0 4090
+S
+#4094
+Pasillo del primer piso.~
+Aqui el pasillo continua y vuelves a ver un par de puertas a los lados.
+El pasillo continua al sur.
+~
+0 0 0
+D0
+~
+~
+0 0 4091
+D1
+~
+~
+0 0 4097
+D2
+~
+~
+0 0 4095
+D3
+~
+~
+0 0 4096
+S
+#4095
+Escaleras al segundo piso.~
+Aqui empiezan unas escaleras que suben directamente hasta el
+segundo piso de la mansion.
+~
+0 0 0
+D0
+~
+~
+0 0 4094
+D4
+~
+~
+0 0 4098
+S
+#4096
+Habitacion de huespedes.~
+Esta es una habitacion que el principe habilita para recibir
+posibles huespedes.
+~
+0 0 0
+D1
+~
+~
+0 0 4094
+S
+#4097
+Habitacion de huespedes.~
+Esta es una habitacion que el principe habilita para recibir
+posibles huespedes.
+~
+0 0 0
+D3
+~
+~
+0 0 4094
+S
+#4098
+Pasillo del segundo piso.~
+Este es el pasillo del segundo piso.Puedes observar una serie de 
+puertas en el.Pero tal vez sean salas privadas del principe.
+~
+0 0 0
+D2
+~
+~
+0 0 4099
+D5
+~
+~
+0 0 4095
+S
+#4099
+Pasillo del segundo piso.~
+Sigues por el pasillo del segundo piso.
+~
+0 0 0
+D0
+~
+~
+0 0 4098
+D2
+~
+~
+0 0 4101
+D3
+~
+~
+0 0 4100
+S
+#4100
+Dormitorio del Principe.~
+Este es el gran dormitorio del principe.A muy poca gente se le permite
+la entrada en esta habitacion puesto que es una de las salas donde el
+pasa mas tiempo.Cuando se encuentra aqui, no quiere ser molestado
+por nadie.
+~
+0 0 0
+D1
+~
+~
+0 0 4099
+S
+#4101
+Pasillo del segundo piso.~
+Continuas por el pasillo del segundo piso.
+~
+0 0 0
+D0
+~
+~
+0 0 4099
+D2
+~
+~
+0 0 4102
+S
+#4102
+Despacho del Principe.~
+Acabas de entrar en el despacho del principe de la ciudad.Todo parece
+estar muy bien ordenado y no parece que hayan cosas de valor a simple
+vista.
+~
+0 0 0
+D0
+~
+~
+0 0 4101
+D2
+~
+~
+8389671 4023 4103
+S
+#4103
+Sala privada del Principe.~
+Esta es la sala privada del principe de la ciudad.Nadie entra aqui mas 
+que el principe.Aqui es donde guarda sus objetos mas personales y es 
+donde
+pasa mas horas.
+~
+0 0 0
+D0
+~
+~
+3 4023 4102
+S
+#4104
+Sotano.~
+Has bajado hasta el sotano de la mansion del principe de la ciudad.Todo
+esta bastante oscuro, pero tambien puedes ver como esta todo restaurado
+y muy bien cuidado y limpio.
+~
+0 0 0
+D2
+~
+~
+0 0 4105
+D4
+~
+~
+0 0 4088
+S
+#4105
+Sotano.~
+Te encuentras en el sotano de la mansion del principe de la ciudad.
+~
+0 0 0
+D0
+~
+~
+0 0 4104
+D1
+~
+~
+0 0 4107
+D2
+~
+~
+0 0 4108
+D3
+~
+~
+0 0 4106
+S
+#4106
+Sala.~
+Entras en una pequenya sala del sotano.No parece haber nada que te 
+llame
+la atencion, a simple vista.
+~
+0 0 0
+D1
+~
+~
+0 0 4105
+S
+#4107
+Sala.~
+Entras en una pequenya sala del sotano.Aqui parece que hay un poco mas
+de luz y puedes ver que todo esta bastante bien cuidado.
+~
+0 0 0
+D3
+~
+~
+0 0 4105
+S
+#4108
+Sotano.~
+Estas en el sotano de la mansion del principe de la ciudad.
+~
+0 0 0
+D0
+~
+~
+0 0 4105
+D2
+~
+~
+0 0 4109
+S
+#4109
+Sotano.~
+Te encuentras en el sotano de la mansion del principe de la ciudad.
+~
+0 0 0
+D0
+~
+~
+0 0 4108
+D1
+~
+~
+0 0 4111
+D2
+~
+~
+0 0 4112
+D3
+~
+~
+0 0 4110
+S
+#4110
+Habitacion de recuerdos.~
+Esta es una de las habitaciones del sotano de la mansion donde el
+principe guarda muchos de sus recuerdos.Aqui puedes ver objetos
+de todas clases y epocas.
+~
+0 0 0
+D1
+~
+~
+0 0 4109
+S
+#4111
+Habitacion de recuerdos.~
+Estas dentro de una de las habitaciones donde el principe guarda
+todo tipo de recuerdos.Aqui puedes ver objetos muy diversos y de
+epocas diferentes.
+~
+0 0 0
+D3
+~
+~
+0 0 4109
+S
+#4112
+Sotano.~
+Estas en el sotano de la mansion del principe.
+~
+0 0 0
+D0
+~
+~
+0 0 4109
+D5
+~
+~
+3 0 4113
+S
+#4113
+RuNaS.~
+Estas en una de las habitaciones principales de la mansion.Parece ser
+una habitacion privada del Principe de la ciudad de El Cairo.Puedes 
+observar una runas, una especie de portal, decorado con simbolos e 
+inscripciones en una lengua antigua y que no eres capaz de reconocer.
+Flanquean la puerta dos enormes pilares blancos con figuras dibujadas
+en ellas.
+~
+0 8192 0
+D0
+~
+runas~
+11 0 4183
+D1
+~
+~
+3 0 4123
+D4
+~
+~
+3 0 4112
+S
+#4114
+Enorme salon.~
+Pasadas las escaleras, continuas caminando y admirando el enrome salon
+de la cassa del principe.
+~
+0 0 0
+D0
+~
+~
+0 0 4088
+D2
+~
+~
+0 0 4115
+S
+#4115
+Salida del salon.~
+Por fin parece que aqui acaba el largo salon.Parece que mas adelante
+hay una pequenya salita.
+~
+0 0 0
+D0
+~
+~
+0 0 4114
+D2
+~
+~
+0 0 4116
+S
+#4116
+Puerta trasera de la mansion.~
+Esta es la puerta de la parte de atras de la mansion.Parece que has
+cruzado toda la casa y la otra salida esta aqui.
+~
+0 0 0
+D0
+~
+~
+0 0 4115
+D2
+~
+~
+3 4022 4126
+S
+#4117
+Paseo subterraneo.~
+Avanzas por el tunel subterraneo.
+~
+0 1 13
+D2
+~
+~
+0 0 4118
+D3
+~
+~
+0 0 4070
+S
+#4118
+Paseo subterraneo.~
+Continuas por el tunel subterraneo.
+~
+0 1 13
+D0
+~
+~
+0 0 4117
+D2
+~
+~
+0 0 4119
+S
+#4119
+Paseo subterraneo.~
+Avanzas por el tunel subterraneo.
+~
+0 1 13
+D0
+~
+~
+0 0 4118
+D2
+~
+~
+0 0 4120
+S
+#4120
+Paseo subterraneo.~
+Continuas por el tunel subterraneo.
+~
+0 1 13
+D0
+~
+~
+0 0 4119
+D2
+~
+~
+0 0 4121
+S
+#4121
+Paseo subterraneo.~
+Continuas avanzando por el oscuro tunel subterraneo.
+~
+0 1 13
+D0
+~
+~
+0 0 4120
+D2
+~
+~
+0 0 4122
+S
+#4122
+Paseo subterraneo.~
+Sigues por el tunel subterraneo.
+~
+0 1 13
+D0
+~
+~
+0 0 4121
+D2
+~
+~
+0 0 4123
+S
+#4123
+Paseo subterraneo.~
+Continuas por el tunel subterraneo.
+~
+0 1 13
+D0
+~
+~
+0 0 4122
+D2
+~
+~
+3 0 4124
+D3
+~
+~
+3 0 4113
+S
+#4124
+Paseo subterraneo.~
+Sigues por el tunel subterraneo.
+~
+0 1 13
+D0
+~
+~
+3 0 4123
+D2
+~
+~
+0 0 4125
+S
+#4125
+Paseo subterraneo.~
+Continuas por el tunel subterraneo.Parece que por fin se puede ver
+una pequenya luz al fondo.Sera la salida?
+~
+0 1 13
+D0
+~
+~
+0 0 4124
+D3
+~
+~
+0 0 4126
+S
+#4126
+Camino hacia Alejandria.~
+Aqui empieza un largo camino que conduce a la ciudad de Alejandria, 
+ciudad muy proxima a El Cairo y que posee una serie de recursos y 
+comercio
+muy similares.Si sientes curiosidad por conocer esta pequenya ciudad, 
+avanza a lo largo del pequenyo camino.
+~
+0 0 10
+D0
+~
+~
+8389671 4022 4116
+D1
+~
+~
+0 0 4125
+D2
+~
+~
+0 0 4127
+S
+#4127
+Largo camino.~
+Estas en lo que parece un largo camino que no sabes adonde lleva.
+~
+0 0 10
+D0
+~
+~
+0 0 4126
+D1
+~
+~
+0 0 4128
+S
+#4128
+Largo camino.~
+Avanzas por un largo camino.
+~
+0 0 10
+D0
+~
+~
+0 0 4129
+D3
+~
+~
+0 0 4127
+S
+#4129
+Largo camino.~
+Avanzas a lo largo del camino.
+~
+0 0 10
+D0
+~
+~
+0 0 4130
+D2
+~
+~
+0 0 4128
+S
+#4130
+Largo camino.~
+Avanzas por un largo camino.
+~
+0 0 10
+D1
+~
+~
+0 0 4131
+D2
+~
+~
+0 0 4129
+S
+#4131
+Largo camino.~
+Avanzas por un largo camino.
+~
+0 0 10
+D1
+~
+~
+0 0 4132
+D3
+~
+~
+0 0 4130
+S
+#4132
+Largo camino.~
+Avanzas por un largo camino.
+~
+0 0 10
+D3
+~
+~
+0 0 4131
+D6
+~
+~
+0 0 4133
+S
+#4133
+Largo camino.~
+Avanzas por un largo camino.
+~
+0 0 10
+D1
+~
+~
+0 0 4134
+D9
+~
+~
+0 0 4132
+S
+#4134
+Largo camino.~
+Avanzas por un largo camino.Al final puedes distinguir algo diferente a 
+la
+arena del desierto que has estado viendo hasta ahora.
+~
+0 0 10
+D1
+~
+~
+0 0 4135
+D3
+~
+~
+0 0 4133
+S
+#4135
+Entrada a Alejandria.~
+Por fin llegas a algun sitio.Estas en la puerta de entrada a la
+ciudad de Alejandria.Es un poco mas pequenya que la ciudad que has 
+visitado
+anteriormente pero tambien se encuentra en pleno auge.Dentro de 
+Alejandria
+se distinguen dos zonas:la zona de los suburbios y la zona del refugio.
+~
+0 0 1
+D3
+~
+~
+0 0 4134
+D6
+~
+~
+0 0 4137
+D8
+~
+~
+0 0 4136
+S
+#4136
+Sur de Alejandria.~
+Por este camino podras llegar sin dificultades a la parte sur de la
+ciudad.Es la que tiene menos recursos economicos y eso ya lo puedes
+notar en la enorme cantidad de vagabundos que deambulan por aqui.
+~
+0 0 1
+D1
+~
+~
+0 0 4138
+D7
+~
+~
+0 0 4135
+S
+#4137
+Norte de Alejandria.~
+Por aqui podras ir a la parte norte de la ciudad.Por lo que hasta ahora
+puedes ver, parece que es la zona de mas recursos economicos.
+~
+0 0 1
+D6
+~
+~
+0 0 4157
+D9
+~
+~
+0 0 4135
+S
+#4138
+Suburbios.~
+Estas en los suburbios, en la zona sur de Alejandria.
+~
+0 0 1
+D1
+~
+~
+0 0 4139
+D2
+~
+~
+0 0 4141
+D3
+~
+~
+0 0 4136
+S
+#4139
+Suburbios.~
+Estas en los suburbios, zona sur de Alejandria.
+~
+0 0 1
+D1
+~
+~
+0 0 4140
+D2
+~
+~
+0 0 4142
+D3
+~
+~
+0 0 4138
+S
+#4140
+Suburbios.~
+Estas en los suburbios, en la zona sur de Alejandria.
+~
+0 0 1
+D1
+~
+~
+0 0 4145
+D3
+~
+~
+0 0 4139
+S
+#4141
+Taberna de los suburbios.~
+Entras en una taberna de los suburbios.Es un sitio muy pequenyo y ya
+te puedes imaginar la clase de gente que merodea por aqui.
+~
+0 0 0
+D0
+~
+~
+0 0 4138
+D9
+~
+~
+0 0 4143
+S
+#4142
+Taberna de los suburbios.~
+Entras en una taberna de la zona de los suburbios.Casi no hay luz y 
+todo
+esta por ahi tirado.Apesar de ello, parece estar bastante llena.
+~
+0 0 0
+D0
+~
+~
+0 0 4139
+D8
+~
+~
+0 0 4144
+S
+#4143
+Sala privada de la taberna.~
+Esta es la parte de atras de la taberna.Esta lleno de cajas con 
+botellas
+y en el medio una mesa con una especie de tapiz y sillas a su 
+alrededor.
+Que raro.
+~
+0 0 0
+D6
+~
+~
+0 0 4141
+S
+#4144
+Sala privada de la taberna.~
+Esta es la parte de atras de la taberna.Una cortina la separa de la 
+sala
+principal.Aqui puedes ver un monton de cajas llenas de botellas y 
+vasos.
+En el medio, una mesa redonda con un tapiz y sillas a su alrededor.
+~
+0 0 0
+D7
+~
+~
+0 0 4142
+S
+#4145
+Suburbios.~
+Sigues adentrandote en los suburbios de la ciudad.Todo esta bastante
+asqueroso.
+~
+0 0 1
+D1
+~
+~
+0 0 4146
+D3
+~
+~
+0 0 4140
+S
+#4146
+Suburbios.~
+Sigues por los suburbios de la ciudad.
+~
+0 0 1
+D2
+~
+~
+0 0 4147
+D3
+~
+~
+0 0 4145
+S
+#4147
+Barrio de las Lamias.~
+Acabas de llegar al barrio de las lamias.Parece que estan por todas 
+partes.
+Mas vale que les caigas bien, de lo contrario.....
+~
+0 0 1
+D0
+~
+~
+0 0 4146
+D2
+~
+~
+0 0 4148
+S
+#4148
+Calle de las lamias.~
+Esta es una de las calles del barrio de las lamias.Ten cuidado, las 
+lamias
+son muy reservadas y en cuanto ven a algun extranjero...
+~
+0 0 1
+D0
+~
+~
+0 0 4147
+D1
+~
+~
+0 0 4149
+D2
+~
+~
+0 0 4151
+D3
+~
+~
+0 0 4150
+S
+#4149
+Calle de las lamias.~
+Esta es una de las calles del barrio de las lamias.Ten cuidado, las 
+lamias
+son muy reservadas y en cuanto ven a algun extranjero...
+~
+0 0 1
+D2
+~
+~
+0 0 4153
+D3
+~
+~
+0 0 4148
+S
+#4150
+Calle de las lamias.~
+Esta es una de las calles del barrio de las lamias.Ten cuidado, las 
+lamias
+son muy reservadas y en cuanto ven a algun extranjero...
+~
+0 0 1
+D1
+~
+~
+0 0 4148
+D2
+~
+~
+0 0 4152
+S
+#4151
+Calle de las lamias.~
+Esta es una de las calles del barrio de las lamias.Ten cuidado, las 
+lamias
+son muy reservadas y en cuanto ven a algun extranjero...
+~
+0 0 1
+D0
+~
+~
+0 0 4148
+D1
+~
+~
+0 0 4153
+D2
+~
+~
+0 0 4154
+D3
+~
+~
+0 0 4152
+S
+#4152
+Calle de las lamias.~
+Esta es una de las calles del barrio de las lamias.Ten cuidado, las 
+lamias
+son muy reservadas y en cuanto ven a algun extranjero...
+~
+0 0 1
+D0
+~
+~
+0 0 4150
+D1
+~
+~
+0 0 4151
+D2
+~
+~
+0 0 4155
+S
+#4153
+Calle de las lamias.~
+Esta es una de las calles del barrio de las lamias.Ten cuidado, las 
+lamias
+son muy reservadas y en cuanto ven a algun extranjero...
+~
+0 0 1
+D0
+~
+~
+0 0 4149
+D2
+~
+~
+0 0 4156
+D3
+~
+~
+0 0 4151
+S
+#4154
+Calle de las lamias.~
+Esta es una de las calles del barrio de las lamias.Ten cuidado, las 
+lamias
+son muy reservadas y en cuanto ven a algun extranjero...
+~
+0 0 1
+D0
+~
+~
+0 0 4151
+D1
+~
+~
+0 0 4156
+D3
+~
+~
+0 0 4155
+S
+#4155
+Calle de las lamias.~
+Esta es una de las calles del barrio de las lamias.Ten cuidado, las 
+lamias
+son muy reservadas y en cuanto ven a algun extranjero...
+~
+0 0 1
+D0
+~
+~
+0 0 4152
+D1
+~
+~
+0 0 4154
+S
+#4156
+Calle de las lamias.~
+Esta es una de las calles del barrio de las lamias.Ten cuidado, las 
+lamias
+son muy reservadas y en cuanto ven a algun extranjero...
+~
+0 0 1
+D0
+~
+~
+0 0 4153
+D3
+~
+~
+0 0 4154
+S
+#4157
+Camino al Refugio.~
+Caminas por un sendero de la zona norte de la ciudad.Segun parece 
+conduce
+a algun refugio.
+~
+0 0 1
+D6
+~
+~
+0 0 4158
+D9
+~
+~
+0 0 4137
+S
+#4158
+Camino al refugio.~
+Vas por el camino que te llevara al refugio de la zona.
+~
+0 0 1
+D1
+~
+~
+0 0 4159
+D9
+~
+~
+0 0 4157
+S
+#4159
+Refugio de los Sorath.~
+Llegas a las puertas del refugio de la zona norte de la ciudad de
+Alejandria.Este es el refugio de la familia Sorath.La familia Sorath
+pertenece al clan de los giovanni y la componen varios hermanos.Yo de 
+ti
+iria con mucho cuidadito.
+~
+0 0 1
+D1
+~
+~
+7 4024 4160
+D3
+~
+~
+0 0 4158
+S
+#4160
+Sala Central.~
+Entras en la sala central del refugio.Esta sala parece bastante
+grande y puedes observar varias puertas a lo largo de ella.
+~
+0 0 0
+D0
+~
+~
+0 0 4161
+D1
+~
+~
+0 0 4163
+D2
+~
+~
+0 0 4162
+D3
+~
+~
+3 4024 4159
+S
+#4161
+Dormitorio.~
+Estas en lo que parece un dormitorio.Hay muy poca luz, pero te fijas
+bastante bien y puedes ver una gran cama y una pequenya mesita a uno
+de los lados.La habitacion esta bastante limpia y parece que todo ha 
+sido
+bien recogido.
+~
+0 0 0
+D2
+~
+~
+0 0 4160
+S
+#4162
+Dormitorio.~
+Estas en lo que parece un dormitorio.Hay muy poca luz, pero te fijas
+bastante bien y puedes ver una gran cama y una pequenya mesita a uno
+de los lados.La habitacion esta bastante limpia y parece que todo ha 
+sido
+bien recogido.
+~
+0 0 0
+D0
+~
+~
+0 0 4160
+S
+#4163
+Sala central.~
+Sigues por la sala central del refugio.Todo esta bastante oscuro y el
+silencio se apodera de toda la casa.
+~
+0 0 0
+D0
+~
+~
+0 0 4165
+D1
+~
+~
+0 0 4166
+D2
+~
+~
+0 0 4164
+D3
+~
+~
+0 0 4160
+S
+#4164
+Dormitorio.~
+Estas en lo que parece un dormitorio.Hay muy poca luz, pero te fijas
+bastante bien y puedes ver una gran cama y una pequenya mesita a uno
+de los lados.La habitacion esta bastante limpia y parece que todo ha 
+sido
+bien recogido.
+~
+0 0 0
+D0
+~
+~
+0 0 4163
+S
+#4165
+Dormitorio.~
+Estas en lo que parece un dormitorio.Hay muy poca luz, pero te fijas
+bastante bien y puedes ver una gran cama y una pequenya mesita a uno
+de los lados.La habitacion esta bastante limpia y parece que todo ha 
+sido
+bien recogido.
+~
+0 0 0
+D2
+~
+~
+0 0 4163
+S
+#4166
+Sala central.~
+Aqui termina la sala central del refugio.A simple vista parece que no 
+hay salida.Pero.....fijate bien.
+~
+0 0 0
+D0
+~
+~
+3 0 4167
+D2
+~
+~
+3 0 4168
+D3
+~
+~
+0 0 4163
+S
+#4167
+Escaleras abajo.~
+Te encuentras ante unas escaleras en forma de caracol, bastante poco
+estables a simple vista y que parece que se dirigen hacia abajo.
+~
+0 0 0
+D2
+~
+~
+3 0 4166
+D5
+~
+~
+0 0 4169
+S
+#4168
+Escaleras arriba.~
+Te encuentras ante unas escaleras en forma de caracol que no parecen
+estar en muy buen estado y por lo que parece se dirigen hacia arriba.
+~
+0 0 0
+D0
+~
+~
+3 0 4166
+D4
+~
+~
+0 0 4174
+S
+#4169
+Sotano del refugio.~
+Una vez has bajado por las escaleras en forma de caracol, llegas hasta
+esta pequenya habitacion de la que no llegas a sacar ninguna conclusion
+coherente.Mas al norte ves otra sala.
+~
+0 0 0
+D0
+~
+~
+0 0 4170
+D4
+~
+~
+0 0 4167
+S
+#4170
+Sotano del refugio.~
+Estas justo en el centro del sotano.Te quedas aqui parado por un 
+momento
+y puedes comprobar como esta rodeada por otras habitaciones 
+aparentemente
+vacias.
+~
+0 0 0
+D0
+~
+~
+0 0 4173
+D1
+~
+~
+0 0 4172
+D2
+~
+~
+0 0 4169
+D3
+~
+~
+0 0 4171
+S
+#4171
+Sala cerrada.~
+Estas en una sala que por el olor que hace y lo oscura que esta parece
+haber estado cerrada durante mucho tiempo.
+~
+0 0 0
+D1
+~
+~
+0 0 4170
+S
+#4172
+Sala cerrada.~
+Estas en una sala que por el olor que hace y lo oscura que esta parece
+haber estado cerrada durante mucho tiempo.
+~
+0 0 0
+D3
+~
+~
+0 0 4170
+S
+#4173
+Sala cerrada.~
+Estas en una sala que por el olor que hace y lo oscura que esta parece
+haber estado cerrada durante mucho tiempo.
+~
+0 0 0
+D2
+~
+~
+0 0 4170
+S
+#4174
+Piso de arriba.~
+Subes por las escaleras en forma de caracol y llegas hasta esta 
+habitacion
+que al parecer es la antesala de unas habitaciones privadas del 
+refugio.
+~
+0 0 0
+D1
+~
+~
+0 0 4175
+D5
+~
+~
+0 0 4168
+S
+#4175
+Pasillo del piso de arriba.~
+Avanzas por el unico pasillo que hay en este piso.Todo es bastante 
+tetrico 
+y no oyes mas que silencio.Al final del pasillo se oyen algunos 
+murmullos.
+~
+0 0 0
+D0
+~
+~
+0 0 4177
+D1
+~
+~
+0 0 4178
+D2
+~
+~
+0 0 4176
+D3
+~
+~
+0 0 4174
+S
+#4176
+Cuarto vacio.~
+Este es un cuarto aparentemente vacio y que no se usa para 
+practicamente
+nada.
+~
+0 0 0
+D0
+~
+~
+0 0 4175
+S
+#4177
+Cuarto vacio.~
+Este es un cuarto aparentemente vacio y que no se usa para 
+practicamente
+nada.
+~
+0 0 0
+D2
+~
+~
+0 0 4175
+S
+#4178
+Pasillo del piso de arriba.~
+Continuas por el pasillo del piso de arriba.Mas adelante puedes ver una 
+serie
+de puertas cerradas.Tal vez escondan algo.
+~
+0 0 0
+D1
+~
+~
+0 0 4179
+D3
+~
+~
+0 0 4175
+S
+#4179
+Sala privada.~
+Estas en una de las salas privadas del refugio de los Sorath.Entrando
+en esta sala solo te puede traer problemas, mas vale que no aparezca 
+algun 
+miembro de la familia.
+~
+0 0 0
+D0
+~
+~
+0 0 4180
+D1
+~
+~
+8389671 4025 4182
+D2
+~
+~
+0 0 4181
+D3
+~
+~
+0 0 4178
+S
+#4180
+Sala privada.~
+Esta es una sala privada del refugio.En ella los miembros de la 
+familia Sorath reposan.Ten cuidado no vayas a molestar a alguno que 
+este descansando apaciblemente.
+~
+0 0 0
+D2
+~
+~
+0 0 4179
+S
+#4181
+Sala privada.~
+Esta es una sala privada del refugio.En ella los miembros de la 
+familia Sorath reposan.Ten cuidado no vayas a molestar a alguno que 
+este descansando apaciblemente.
+~
+0 0 0
+D0
+~
+~
+0 0 4179
+S
+#4182
+Sala Secreta de los Sorath.~
+Entras en la habitacion secreta de la familia de los Sorath.En esta
+sala solo ellos pueden entrar y tienen guardados objetos y documentos 
+que revelan muchos enigmas del pasado.Ve con cuidado, probablemente
+haya algun miembro de la familia por aqui.
+~
+0 0 0
+D3
+~
+~
+3 4025 4179
+S
+#4183
+Dentro de las RuNaS.~
+Has conseguido pronunciar el conjuro correcto y las runas del principe 
+se
+han abierto ante ti.Puede que aqui encuentres alguna cosa de gran
+utilidad y valor.
+~
+0 1377792 0
+D2
+~
+~
+0 0 4113
+S
+#0
+
+
+#RESETS
+M 0 4016 8 4096
+M 0 4016 8 4097
+M 0 4014 5 4100
+M 0 4017 3 4102
+E 0 4023 0 17
+M 0 4017 3 4102
+E 0 4023 0 17
+M 0 4017 3 4102
+E 0 4023 0 17
+D 0 4102 2 2
+M 0 4018 1 4103
+E 0 4012 0 16
+E 0 4011 0 7
+E 0 4010 0 13
+E 0 4009 0 2
+E 0 4009 0 1
+E 0 4008 0 14
+E 0 4007 0 10
+E 0 4006 0 3
+D 0 4103 0 1
+M 0 4019 12 4106
+M 0 4019 12 4106
+M 0 4019 12 4106
+M 0 4019 12 4106
+M 0 4019 12 4107
+M 0 4019 12 4107
+M 0 4019 12 4107
+M 0 4019 12 4107
+M 0 4019 12 4110
+M 0 4019 12 4110
+M 0 4019 12 4111
+M 0 4019 12 4111
+D 0 4112 5 1
+M 0 4020 1 4113
+E 0 4017 0 16
+E 0 4018 0 1
+E 0 4014 0 12
+E 0 4013 0 9
+E 0 4028 0 17
+D 0 4113 4 1
+D 0 4113 1 1
+D 0 4113 0 1
+M 0 4014 5 4114
+M 0 4014 5 4114
+D 0 4116 2 1
+M 0 4009 15 4117
+M 0 4009 15 4117
+M 0 4009 15 4117
+M 0 4009 15 4119
+M 0 4009 15 4119
+M 0 4009 15 4119
+M 0 4009 15 4120
+M 0 4009 15 4122
+M 0 4009 15 4122
+M 0 4009 15 4122
+M 0 4009 15 4123
+M 0 4009 15 4123
+D 0 4123 2 1
+D 0 4123 3 1
+D 0 4124 0 1
+M 0 4009 15 4125
+M 0 4009 15 4125
+M 0 4008 4 4126
+E 0 4005 0 16
+E 0 4004 0 5
+E 0 4003 0 13
+E 0 4002 0 1
+E 0 4022 0 17
+M 0 4008 4 4126
+E 0 4005 0 16
+E 0 4004 0 5
+E 0 4003 0 13
+E 0 4002 0 1
+D 0 4126 0 2
+M 0 4021 13 4129
+M 0 4021 13 4131
+M 0 4021 13 4131
+M 0 4021 13 4133
+M 0 4021 13 4133
+M 0 4021 13 4134
+M 0 4004 4 4135
+E 0 4030 0 6
+E 0 4029 0 5
+M 0 4004 4 4135
+E 0 4030 0 6
+E 0 4029 0 5
+M 0 4022 3 4138
+M 0 4022 3 4140
+M 0 4029 2 4141
+M 0 4029 2 4142
+M 0 4022 3 4146
+M 0 4023 10 4148
+M 0 4023 10 4148
+M 0 4023 10 4151
+M 0 4023 10 4151
+M 0 4024 1 4154
+M 0 4023 10 4154
+M 0 4023 10 4154
+M 0 4023 10 4155
+M 0 4023 10 4155
+M 0 4023 10 4156
+M 0 4023 10 4156
+M 0 4025 4 4159
+E 0 4024 0 17
+M 0 4025 4 4159
+E 0 4024 0 17
+D 0 4159 1 2
+D 0 4160 3 1
+M 0 4016 8 4161
+M 0 4016 8 4162
+M 0 4016 8 4164
+M 0 4016 8 4165
+D 0 4166 0 1
+D 0 4166 2 1
+M 0 4025 4 4167
+D 0 4167 2 1
+M 0 4025 4 4168
+D 0 4168 0 1
+M 0 4026 6 4171
+M 0 4026 6 4171
+M 0 4026 6 4172
+M 0 4026 6 4172
+M 0 4026 6 4173
+M 0 4026 6 4173
+D 0 4179 1 2
+M 0 4027 6 4180
+E 0 4025 0 17
+M 0 4027 6 4180
+M 0 4027 6 4181
+E 0 4025 0 17
+M 0 4027 6 4181
+M 0 4028 1 4182
+E 0 4017 0 16
+E 0 4016 0 4
+E 0 4016 0 3
+E 0 4018 0 2
+E 0 4018 0 1
+E 0 4015 0 17
+D 0 4182 3 1
+O 0 4027 0 4183
+P 0 4026 0 4027
+M 0 4030 1 4183
+M 0 4001 2 4005
+E 0 4001 0 5
+M 0 4001 2 4005
+E 0 4001 0 5
+M 0 4002 4 4009
+E 0 4019 0 17
+M 0 4002 4 4009
+E 0 4019 0 17
+D 0 4009 3 2
+M 0 4002 4 4010
+E 0 4019 0 17
+M 0 4002 4 4010
+E 0 4019 0 17
+D 0 4010 1 2
+D 0 4011 1 1
+M 0 4003 8 4012
+M 0 4003 8 4012
+M 0 4003 8 4013
+M 0 4003 8 4013
+D 0 4014 3 1
+M 0 4003 8 4015
+M 0 4003 8 4015
+M 0 4003 8 4016
+M 0 4003 8 4016
+M 0 4004 4 4020
+E 0 4030 0 6
+E 0 4029 0 5
+M 0 4004 4 4020
+E 0 4030 0 6
+E 0 4029 0 5
+D 0 4020 2 1
+D 0 4021 0 1
+M 0 4021 13 4022
+M 0 4007 11 4023
+M 0 4021 13 4024
+M 0 4021 13 4025
+M 0 4007 11 4026
+M 0 4021 13 4027
+M 0 4021 13 4029
+M 0 4007 11 4030
+M 0 4007 11 4034
+M 0 4021 13 4035
+M 0 4021 13 4037
+M 0 4007 11 4038
+M 0 4007 11 4040
+M 0 4007 11 4042
+M 0 4007 11 4043
+M 0 4007 11 4046
+M 0 4007 11 4049
+M 0 4007 11 4050
+M 0 4005 8 4054
+M 0 4005 8 4054
+M 0 4006 4 4055
+E 0 4031 0 20
+M 0 4005 8 4056
+M 0 4005 8 4056
+M 0 4006 4 4057
+E 0 4031 0 20
+M 0 4005 8 4058
+M 0 4005 8 4058
+M 0 4006 4 4059
+E 0 4031 0 20
+M 0 4005 8 4060
+M 0 4005 8 4060
+M 0 4006 4 4061
+E 0 4031 0 20
+M 0 4008 4 4067
+E 0 4005 0 16
+E 0 4004 0 5
+E 0 4003 0 13
+E 0 4002 0 1
+E 0 4020 0 17
+M 0 4008 4 4067
+E 0 4005 0 16
+E 0 4004 0 5
+E 0 4003 0 13
+E 0 4002 0 1
+D 0 4067 2 2
+D 0 4067 1 1
+M 0 4009 15 4069
+M 0 4010 4 4071
+M 0 4010 4 4071
+D 0 4071 0 1
+M 0 4010 4 4072
+M 0 4010 4 4072
+M 0 4011 2 4073
+E 0 4005 0 16
+E 0 4004 0 5
+E 0 4003 0 13
+E 0 4002 0 1
+E 0 4021 0 0
+M 0 4011 2 4073
+E 0 4005 0 16
+E 0 4004 0 5
+E 0 4003 0 13
+E 0 4002 0 1
+D 0 4073 2 2
+D 0 4074 0 1
+M 0 4012 4 4075
+E 0 4005 0 16
+M 0 4012 4 4075
+E 0 4005 0 16
+M 0 4012 4 4076
+E 0 4005 0 16
+M 0 4012 4 4076
+E 0 4005 0 16
+M 0 4013 4 4084
+M 0 4013 4 4084
+M 0 4013 4 4086
+M 0 4013 4 4086
+M 0 4014 5 4087
+M 0 4014 5 4087
+M 0 4015 4 4088
+E 0 4032 0 9
+M 0 4015 4 4088
+E 0 4032 0 9
+M 0 4016 8 4092
+M 0 4016 8 4093
+M 0 4015 4 4095
+E 0 4032 0 9
+M 0 4015 4 4095
+E 0 4032 0 9
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$
