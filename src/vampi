@@ -1,0 +1,31 @@
+#alias {adeuadeu} {mensa todos vampiro SiGo ha decidido volver al mundo real;invis}
+#alias {almo} {camu uNa aLMoRRaNa SaNGRaNTe Te SoNRie...}
+#alias {colinota} {mset sigo nombre CoLiKoTRoN; nota para todos}
+#alias {grep} {#sys grep -n "%0" *}
+#alias {grepc} {#sys grep -n "%0" *.c}
+#alias {greph} {#sys grep -n "%0" *.h}
+#alias {kill} {#sys kill -9 %1}
+#alias {make} {#sys make}
+#alias {mierda} {#ses mierda localhost 4005}
+#alias {mrel} {mensa todos reload Reload en &w%1 &gminutos}
+#alias {mt} {mensa todos trivial %0}
+#alias {pp} {quest anular;mset sigo tquest 1;reload;quest pedir}
+#alias {ps} {#sys ps aux}
+#alias {qq} {quest pedir}
+#alias {remortstat} {gt Skarn dice 'car 16,des 43,int 69,sab 67,fue 70,con 70}
+#alias {restall} {for all restore #}
+#alias {sanguiname} {mset colikotron nombre SaNgUiNaRi}
+#alias {srel} {mensa todos reload Reload en &w%1 &gsegundos}
+#alias {subevnum} {aset %1 hi_mob %2; aset %1 hi_obj %2; aset %1 hi_room %2}
+#alias {usu} {usuarios}
+#alias {vampi} {#ses vampiro localhost 4000}
+#alias {vampi2} {#ses vampiro localhost 4040}
+#alias {vampi3} {#ses vampiro localhost 6969}
+#alias {º} {vampi}
+#action {Ahh... el poder de un dios... que hacer ahora...} {mi} {5}
+#action {Cual es tu nombre, poderoso cainita} {sigo} {5}
+#action {Es todo un suenyo... o es real?} {mi} {5}
+#alias {todo %1} {c armor %0;c shield %0;c 'minor invocation' %0;c 'dragon wit' %0;c sagacity %0;c 'detect invis'%0;c 'detect magic' %0;c 'detect traps' %0;c 'detect evil' %0;c 'kindred strength' %0;c slink %0;c valiance %0;c 'inner warmth' %0;c blazeward %0;c 'ethereal shield' %0;c 'stone skin' %0;c 'trollish vigor' %0;c 'elven beauty' %0;c 'dragonskin' %0;c demonskin %0;c scry %0;c 'vision verdadera' %0;c fly %0;c float %0;c shadowform %0;c infravision %0;c 'escudo baali' %0;c bless %0;c alertness %0;c grounding %0;c invis %0;c fireshield %0;c iceshield %0;c frenzy %0;c indignation %0;c 'major invocation' %0;c benediction %0;c 'aqua breath' %0;c shockshield %0;c 'eldritch sphere' %0;c quickening %0}
+
+#action {Password:} {sepul} {5}
+#variable {ip} {0.0.0.0}

@@ -1,0 +1,23 @@
+#alias {adeuadeu} {mensa todos vampiro SiGo ha decidido volver al mundo real;invis}
+#alias {almo} {camu uNa aLMoRRaNa SaNGRaNTe Te SoNRie...}
+#alias {colinota} {mset sigo nombre CoLiKoTRoN; nota para todos}
+#alias {grep} {#sys grep -n "%0" *}
+#alias {grepc} {#sys grep -n "%0" *.c}
+#alias {greph} {#sys grep -n "%0" *.h}
+#alias {kill} {#sys kill -9 %1}
+#alias {make} {#sys make}
+#alias {pp} {quest anular;mset sigo tquest 1;reload;quest pedir}
+#alias {ps} {#sys ps aux}
+#alias {qq} {quest pedir}
+#alias {restall} {for all restore #}
+#alias {sanguiname} {mset colikotron nombre SaNgUiNaRi}
+#alias {subevnum} {aset %1 hi_mob %2; aset %1 hi_obj %2; aset %1 hi_room %2}
+#alias {usu} {usuarios}
+#alias {vampi} {#ses vampiro localhost 4000}
+#alias {vampi2} {#ses vampiro localhost 4040}
+#alias {º} {vampi}
+#action {Ahh... el poder de un dios... que hacer ahora...} {mi} {5}
+#action {Cual es tu nombre, poderoso cainita} {sigo} {5}
+#action {Es todo un suenyo... o es real?} {mi} {5}
+#action {Password:} {sepul} {5}
+#variable {ip} {0.0.0.0}
