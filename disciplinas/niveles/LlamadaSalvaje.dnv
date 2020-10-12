@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Llamada Salvaje~
+Tipo              0
+Funcion           do_llamadasalvaje
+Descripcion       Llamada Salvaje invoca a un mob y lo controla.~
+Filename          LlamadaSalvaje.dnv~
+Disciplina        1
+Clan              Gangrel~
+Nivel             2
+Dnivel            102
+Wait              12
+Sangre            28
+Dammes            ~
+GoMes             ~
+ExitoCh           Enlazas una comunicacion empatica con tu victima.~
+ExitoVict         ~
+ExitoRoom         $n acude a la llamada de un cainita.~
+ExitoMud          ~
+FalloCh           Nadie acude a tu llamada.~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

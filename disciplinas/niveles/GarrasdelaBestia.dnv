@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Garras de la Bestia~
+Tipo              1
+Funcion           do_garrasdelabestia
+Descripcion       Descripcion no fijada~
+Filename          GarrasdelaBestia.dnv~
+Disciplina        22
+Clan              Gangrel~
+Nivel             2 
+Dnivel		  2202
+Wait              24 
+Sangre            10 
+Dammes            Zarpazo.~ 
+GoMes             Tus garras desaparecen y tus dedos vuelven a la normalidad.~ 
+ExitoCh           Tus dedos se transforman en mortiferas garras~
+ExitoVict         ~
+ExitoRoom         Los dedos de $n se vuelven mortiferas garras.~
+ExitoMud          ~
+FalloCh           No consigues sacar las garras.~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

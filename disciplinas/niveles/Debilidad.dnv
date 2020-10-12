@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Debilidad~
+Tipo              0
+Funcion           do_debilidad
+Descripcion       La Debilidad infecta a la victima haciendo que sus resistencias bajen ante cualquier tipo de danyo.~
+Filename          Debilidad.dnv~
+Disciplina        9
+Clan              Assamita~
+Nivel             2
+Dnivel            902
+Wait              8
+Sangre            13
+Dammes            Debilidad~
+GoMes             La Debilidad abandona tu cuerpo, te sientes mucho mejor.~
+ExitoCh           El poder de tu sangre golpea a $N!~
+ExitoVict         El poder de la sangre de $n te hiere!~
+ExitoRoom         El poder de la sangre de $N golpea a $n~
+ExitoMud          ~
+FalloCh           No consigues concentrar tu sangre y fallas!~
+FalloVict         $n no consigue concentrar su sangre y su debilidad te falla!~
+FalloRoom         $n no consigue concentrar su sangre y falla a $N!~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

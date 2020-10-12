@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Oleada Demente~
+Tipo              1
+Funcion           do_oleadademente
+Descripcion       Este poderoso saber de los MalKaViaN absorve la energia de su victima causando danyos a su vez~
+Filename          Oleada_Demente.dnv~
+Disciplina        7
+Clan              MalKaViaN~
+Nivel             4
+Dnivel            704
+Wait              7
+Sangre            9
+Dammes            ~
+GoMes             ~
+ExitoCh           Tu oLeaDa DeMeNTe absorve la energia a $N!~
+ExitoVict         La oLeaDa DeMeNTe de $n te absorve la energia!~
+ExitoRoom         La oLeaDa DeMeNTe de $n absorve la energia a $N!~
+ExitoMud          ~
+FalloCh           ~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

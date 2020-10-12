@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Cancion Serena~
+Tipo              10
+Funcion           do_cancionserena
+Descripcion       Descripcion no fijada~
+Filename          CancionSerena.dnv~
+Disciplina        7
+Clan              Malkavian~
+Nivel             3
+Dnivel            703
+Wait              10
+Sangre            12
+Dammes            ~
+GoMes             ~
+ExitoCh           ~
+ExitoVict         ~
+ExitoRoom         ~
+ExitoMud          ~
+FalloCh           Fallaste!~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

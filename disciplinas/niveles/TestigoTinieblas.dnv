@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Testigo de las Tinieblasados~
+Tipo              4
+Funcion           do_testigodelastinieblas
+Descripcion       Descripcion no fijada~
+Filename          TestigoTinieblas.dnv~
+Disciplina        22
+Clan              Gangrel~
+Nivel             1
+Dnivel            2201
+Wait              10
+Sangre            12
+Dammes            ~
+GoMes             ~
+ExitoCh           La bestia se manifiesta en tus pupilas pigmentandolas de un tono rojizo.~
+ExitoVict         ~
+ExitoRoom         Las pupilas de $N adquieren un tono rojizo.~
+ExitoMud          ~
+FalloCh           Fallaste!~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Memoria del Juerguista~
+Tipo              10
+Funcion           do_memoria_del_juerguista
+Descripcion       Te permite "convencer" a otros para que se muevan.~
+Filename          MemoriaDelJuerguista.dnv~
+Disciplina        8
+Clan              Lasombra~
+Nivel             3
+Dnivel            803
+Wait              18
+Sangre            16
+Dammes            Mesmerismo!~
+GoMes             ~
+ExitoCh           Hecho.~
+ExitoVict         $n parece taan amablee...~
+ExitoRoom         ~
+ExitoMud          ~
+FalloCh           ~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

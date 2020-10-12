@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Fortaleza~
+Tipo              0
+Funcion           do_fortaleza
+Descripcion       La Fortaleza utiliza tu sangre para incrementar tu resistencia y fuerza.~
+Filename          Fortaleza.dnv~
+Disciplina        11
+Clan              Ninguno~
+Nivel             1
+Dnivel            1105
+Wait              8
+Sangre            13
+Dammes            ~
+GoMes             El poder de la Fortaleza abandona tu cuerpo.~
+ExitoCh           El Poder de la Fortaleza recorre todo tu ser.~
+ExitoVict         ~
+ExitoRoom         Un vigor antinatural recorre el cuerpo de $n.~
+ExitoMud          ~
+FalloCh           No logras concentrar tu Fortaleza.~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

@@ -1,0 +1,20 @@
+#DISCIPLINA
+Nombre           Potencia~
+Descripcion      Los vastagos afectados por este poder poseen una fuerza destructora sobrenatural~
+Filename         Potencia.vpm~
+Disciplina       21
+Clan             Brujah~
+Nivel1           potencia : Aumenta tu damrolll y hitroll con una posibilidad baja~
+Nivel2           potencia : Aumenta tu damrolll y hitroll con una posibilidad normal~
+Nivel3           potencia : Aumenta tu damrolll y hitroll con una posibilidad media~
+Nivel4           potencia : Aumenta tu damrolll y hitroll con una posibilidad alta~
+Nivel5           potencia : Aumenta tu damrolll y hitroll con una posibilidad elevada~
+Nivel6           Desconocido por el momento~
+Nivel7           Desconocido por el momento~
+Nivel8           Desconocido por el momento~
+Nivel9           Desconocido por el momento~
+Nivel10          Desconocido por el momento~
+
+End
+
+#END

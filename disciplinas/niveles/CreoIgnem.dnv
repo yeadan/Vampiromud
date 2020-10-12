@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Creo Ignem~
+Tipo              9
+Funcion           do_creo
+Descripcion       No fijada aun~
+Filename          CreoIgnem.dnv~
+Disciplina        29
+Clan              Ninguno~
+Nivel             1
+Dnivel            2901
+Wait              10
+Sangre            12
+Dammes            Creo Ignem~
+GoMes             ~
+ExitoCh           Tu Creo Ignem carboniza a $N|~
+ExitoVict         El Creo Ignem de $n te carboniza!~
+ExitoRoom         El Creo Ignem  de $n carboniza a $N!~
+ExitoMud          ~
+FalloCh           Tu Creo Ignem se devia en su trayectoria~
+FalloVict         El Creo Ignem de $n se desvia!~
+FalloRoom         El Creo Ignem de $n falla a $N!~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

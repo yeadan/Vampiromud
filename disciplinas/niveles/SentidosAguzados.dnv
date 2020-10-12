@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Sentidos Aguzados~
+Tipo              4
+Funcion           do_sentidosaguzados
+Descripcion       Descripcion no fijada~
+Filename          SentidosAguzados.dnv~
+Disciplina        2
+Clan              Capadocio~
+Nivel             1
+Dnivel            201
+Wait              10
+Sangre            12
+Dammes            ~
+GoMes             ~
+ExitoCh           Tus ojos ven lo intangible y detectan lo indetectable.~
+ExitoVict         ~
+ExitoRoom         Los ojos de $N adquieren un color peculiar debido a Auspex.~
+ExitoMud          ~
+FalloCh           Fallaste!~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

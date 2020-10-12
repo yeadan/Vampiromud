@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Dominio~
+Tipo              10
+Funcion           do_dominio
+Descripcion       Hacer decir a otros frases simples~
+Filename          dominio.dnv~
+Disciplina        8
+Clan              Lasombra~
+Nivel             1
+Dnivel            801
+Wait              12
+Sangre            10
+Dammes            Dominio!~
+GoMes             ~
+ExitoCh           Hecho.~
+ExitoVict         $n parece taan amablee...~
+ExitoRoom         ~
+ExitoMud          ~
+FalloCh           ~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

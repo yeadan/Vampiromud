@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Mirada Aterradora~
+Tipo              10
+Funcion           do_mirada
+Descripcion       Sacando los colmillos aterras a tu enemigo con una feroz mirada.~
+Filename          MiradaAterradora.dnv~
+Disciplina        20
+Clan              Comun~
+Nivel             2
+Dnivel            2002
+Wait              12
+Sangre            15
+Dammes            ~
+GoMes             Te sientes menos aterrado!. ~
+ExitoCh           Sacas las garras y colmillos y $N parece aterrarse!~
+ExitoVict         $n saca sus garras mientras te mira ferozmente y te sientes aterrado!.~
+ExitoRoom         $n saca sus garras y colmillos y $N parece aterrado! ~
+ExitoMud          ~
+FalloCh           Fallaste!~
+FalloVict         $n te muestra sus garras y colmillos peor no consigue aterrarte!.~
+FalloRoom         $n no consigue aterrar a $N!~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

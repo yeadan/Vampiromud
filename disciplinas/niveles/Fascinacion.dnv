@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Fascinacion~
+Tipo              4
+Funcion           do_fascinacion
+Descripcion       Un cainita con este poder resultara fascinante para los demas,que se sentiran atraidos por el.~
+Filename          Fascinacion.dnv~
+Disciplina        20
+Clan              Comun~
+Nivel             1
+Dnivel            2001
+Wait              12
+Sangre            13
+Dammes            ~
+GoMes             ~
+ExitoCh           A partir de ahora resultas mucho mas fascinante para los demas.~
+ExitoVict         ~
+ExitoRoom         $N resulta realmente Fascinante!.~
+ExitoMud          ~
+FalloCh           Intentas parecer fascinante pero no lo consigues.!~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

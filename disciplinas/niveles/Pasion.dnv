@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Pasion~
+Tipo              10
+Funcion           do_pasion
+Descripcion       Descripcion no fijada~
+Filename          Pasion.dnv~
+Disciplina        7
+Clan              Malkavian~
+Nivel             1
+Dnivel            701
+Wait              12
+Sangre            20
+Dammes            Pasion!~
+GoMes             Dejas de sentirte inquieto.~
+ExitoCh           Creas un trauma en la mente de $N.~
+ExitoVict         Te repente te notas algo inquieto.~
+ExitoRoom         ~
+ExitoMud          ~
+FalloCh           Fallaste!~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Susurros Amables~
+Tipo              0
+Funcion           do_susurrosamables
+Descripcion       Los Gangrel suelen dominar a muchas criaturas usando este poder...~
+Filename          SusurrosAmables.dnv~
+Disciplina        1
+Clan              Gangrel~
+Nivel             1
+Dnivel            101
+Wait              8
+Sangre            26
+Dammes            ~
+GoMes             Te sientes mucho mas duenyo de tus actos.~
+ExitoCh           Enlazas una comunicacion empatica con tu victima.~
+ExitoVict         De repente $n te parece maravilloso!~
+ExitoRoom         Los ojos de $N se tornan blancos...~
+ExitoMud          ~
+FalloCh           ~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

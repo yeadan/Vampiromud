@@ -1,0 +1,20 @@
+#DISCIPLINA
+Nombre           Extincion~
+Descripcion      Con esta secreta disciplina el cainita domina la muerte silenciosa y el poder de la sangre~
+Filename         Extincion.vpm~
+Disciplina       9 
+Clan             Assamita~
+Nivel1           Silencio de la Muerte : Haces menos ruido al moverte.~
+Nivel2           Debilidad : Reduces la resistencia al danyo de tu oponente.~
+Nivel3           Enfermedad : Reduces la recuperacion de tu oponente.~
+Nivel4           Tormento de la Sangre : Desangras a tu oponente.~
+Nivel5           Desconocido por el momento~
+Nivel6           Desconocido por el momento~
+Nivel7           Desconocido por el momento~
+Nivel8           Desconocido por el momento~
+Nivel9           Desconocido por el momento~
+Nivel10          Desconocido por el momento~
+
+End
+
+#END

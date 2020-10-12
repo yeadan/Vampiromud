@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Vision del Alma~
+Tipo              10
+Funcion           do_visiondelalma
+Descripcion       Ves los affects de un jugador~
+Filename          VisionDelAlma.dnv~
+Disciplina        2
+Clan              Capadocio~
+Nivel             2
+Dnivel            202
+Wait              10
+Sangre            12
+Dammes            ~
+GoMes             ~
+ExitoCh           Consigues ver a traves del alma de $N.~
+ExitoVict         $N ve a traves de tu alma.~
+ExitoRoom         ~
+ExitoMud          ~
+FalloCh           No consigues ver a traves de su alma.~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

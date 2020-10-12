@@ -1,0 +1,20 @@
+#DISCIPLINA
+Nombre           Fortaleza~
+Descripcion      Un cainita con esta disciplina es capaz de enfrentarse a castigos fisicos devastadores sin vacilar~
+Filename         Fortaleza.vpm~
+Disciplina       11
+Clan             Comun~
+Nivel1           fortaleza : aumenta tu vida con una probabilidad baja~
+Nivel2           fortaleza : aumenta tu vida con una probabilidad normal~
+Nivel3           fortaleza : aumenta tu vida con una probabilidad media~
+Nivel4           fortaleza : aumenta tu vida con una probabilidad alta~
+Nivel5           fortaleza : aumenta tu vida con una probabilidad elevada~
+Nivel6           Desconocido por el momento~
+Nivel7           Desconocido por el momento~
+Nivel8           Desconocido por el momento~
+Nivel9           Desconocido por el momento~
+Nivel10          Desconocido por el momento~
+
+End
+
+#END

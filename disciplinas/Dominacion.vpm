@@ -1,0 +1,20 @@
+#DISCIPLINA
+Nombre    Dominacion~
+Descripcion        Esta disciplina se emplea para controlar las acciones y pensamientos de los demas~
+Filename          Dominacion.vpm~
+Disciplina        8
+Clan              Lasombra~
+Nivel1           Dominio : Te permite "convencer" a otros para que digan frases simples.~
+Nivel2           Mesmerismo : Te permite "convencer" a otros para que hagan cosas simples.~
+Nivel3           Memoria del Juerguista : Te permite "convencer" a otros para que se muevan~
+Nivel4           Desconocido por el momento~
+Nivel5           Desconocido por el momento~
+Nivel6           Desconocido por el momento~
+Nivel7           Desconocido por el momento~
+Nivel8           Desconocido por el momento~
+Nivel9           Desconocido por el momento~
+Nivel10           Desconocido por el momento~
+
+End
+
+#END

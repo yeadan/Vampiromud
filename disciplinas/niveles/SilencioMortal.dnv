@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Silencio Mortal~
+Tipo              4
+Funcion           do_silenciodelamuerte
+Descripcion       Descripcion no fijada~
+Filename          SilencioMortal.dnv~
+Disciplina        9
+Clan              Assamita~
+Nivel             1
+Dnivel            901
+Wait              8
+Sangre            12
+Dammes            ~
+GoMes             De repente haces mucho mas ruido al moverte.~
+ExitoCh           Un silencio aterrador te rodea haciendote letal.~
+ExitoVict         ~
+ExitoRoom         El silencio rodea a $n ocultandole totalmente.~
+ExitoMud          ~
+FalloCh           Fallaste!~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

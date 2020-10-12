@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Potencia~
+Tipo              4
+Funcion           do_potencia
+Descripcion       La Potencia otorga una habilidad de combate sobrenatural.~
+Filename          Potencia.dnv~
+Disciplina        21
+Clan              Ninguno~
+Nivel             1
+Dnivel            2105
+Wait              12
+Sangre            13
+Dammes            ~
+GoMes             Tu potencia sobrenatural desaparece~
+ExitoCh           El poder de tu sangre aumenta tu habilidad.~
+ExitoVict         ~
+ExitoRoom         La habilidad de $n aumenta en proporciones desmesuradas.~
+ExitoMud          ~
+FalloCh           No consigues aumentar tu potencia.~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

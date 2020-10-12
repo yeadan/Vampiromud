@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Capa Sombria~
+Tipo              5
+Funcion           do_capasombria
+Descripcion       Descripcion no fijada~
+Filename          Capasombria.dnv~
+Disciplina        19
+Clan              Lasombra~
+Nivel             1
+Dnivel            1901
+Wait              12
+Sangre            10
+Dammes            ~
+GoMes             Tu capa de sombras te abandona~
+ExitoCh           Consigues rodearte de las sombras~
+ExitoVict         ~
+ExitoRoom         Las sombras rodean a $n y desaparece.~
+ExitoMud          ~
+FalloCh           No consigues rodearte de las sombras~
+FalloVict         ~
+FalloRoom         $n intenta rodearse de sombras pero no lo consigue~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

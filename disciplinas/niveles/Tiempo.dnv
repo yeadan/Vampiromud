@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Tiempo~
+Tipo              0
+Funcion           do_conjurar
+Descripcion       Reduce wait y otorga mas de un cast.~
+Filename          Tiempo.dnv~
+Disciplina        7
+Clan              Ninguno~
+Nivel             1
+Dnivel            701
+Wait              1
+Sangre            0
+Dammes            ~
+GoMes             Te mueves mas despacio.~
+ExitoCh           El tiempo se para ante ti, eres mucho mas rapido que antes.~
+ExitoVict         ~
+ExitoRoom         El tiempo se detiene para $n.~
+ExitoMud          ~
+FalloCh           ~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

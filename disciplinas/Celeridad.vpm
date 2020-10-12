@@ -1,0 +1,20 @@
+#DISCIPLINA
+Nombre           Celeridad~
+Descripcion      La Celeridad otorga al vastago una velocidad sobrenatural~
+Filename         Celeridad.vpm~
+Disciplina       4
+Clan             Comun~
+Nivel1           celeridad : reduce el tiempo de espera entre acciones en un 10%~
+Nivel2           celeridad : reduce el tiempo de espera entre acciones en un 20%~
+Nivel3           celeridad : reduce el tiempo de espera entre acciones en un 30%~
+Nivel4           celeridad : reduce el tiempo de espera entre acciones en un 40%~
+Nivel5           celeridad : reduce el tiempo de espera entre acciones en un 50%~
+Nivel6           automatico: te otorga dos cast en ciertos conjuros.~
+Nivel7           Desconocido por el momento~
+Nivel8           Desconocido por el momento~
+Nivel9           Desconocido por el momento~
+Nivel10          Desconocido por el momento~
+
+End
+
+#END

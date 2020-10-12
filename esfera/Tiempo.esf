@@ -1,0 +1,32 @@
+#ESFERA
+Nombre            Tiempo~
+Tipo              0
+Funcion           do_tiempo
+Descripcion       Tiempo hace que el tiempo casi se detenga para los que gozan de su poder.~
+Filename          Tiempo.esf~
+Cabala            Comun~
+Esfera            7
+Enivel            0
+Wait              18
+Mana              250
+Dammes            ~
+GoMes             Todo a tu alrededor se acelera, o seras tu que vas mas lento?~
+ExitoCh           El mundo a tu alrededor casi se para, tu eres mucho mas rapido.~
+ExitoVict         ~
+ExitoRoom         El tiempo parece detenerse para $n~
+ExitoMud          ~
+FalloCh           ~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

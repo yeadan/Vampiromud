@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Corazon Petreo~
+Tipo              9
+Funcion           do_petrificarse
+Descripcion       El vastago petrificado es inmune a los ataques tipo empalamiento.~
+Filename          Petrificarse.dnv~
+Disciplina        29
+Clan              Ninguno~
+Nivel             4
+Dnivel            2904
+Wait              8
+Sangre            16
+Dammes            ~
+GoMes             Tu corazon vuelve a ser vulnerable.~
+ExitoCh           Realizas un ritual de Taumaturgia y tu corazon se hace duro como la roca.~
+ExitoVict         ~
+ExitoRoom         $n realiza un extranyo ritual de taumaturgia, parece muy invulnerable!~
+ExitoMud          ~
+FalloCh           ~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

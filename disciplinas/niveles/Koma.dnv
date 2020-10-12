@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Koma~
+Tipo              10
+Funcion           do_coma
+Descripcion       Descripcion no fijada~
+Filename          Koma.dnv~
+Disciplina        7
+Clan              Malkavian~
+Nivel             5
+Dnivel            705
+Wait              12
+Sangre            20
+Dammes            Koma!~
+GoMes             Dejas de estar en estado comatoso.~
+ExitoCh           Sumes a $N en un coma profundo.~
+ExitoVict         El poder de un MaLKaViaN se apodera de ti, tu cerebro se colapsa, entras en coma!!!~
+ExitoRoom         $N ha entrado en coma.~
+ExitoMud          ~
+FalloCh           ~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

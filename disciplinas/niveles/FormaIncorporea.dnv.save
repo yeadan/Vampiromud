@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Forma Incorporea~
+Tipo              4
+Funcion           do_forma_incorporea
+Descripcion       No fijada aun~
+Filename          FormaIncorporea.dnv~
+Disciplina        29
+Clan              Tremere~
+Nivel             1
+Dnivel            2901
+Wait              10
+Sangre            12
+Dammes            Forma Incorporea~
+GoMes             ~
+ExitoCh           ~
+ExitoVict         ~
+ExitoRoom         ~
+ExitoMud          ~
+FalloCh           Fallaste!~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

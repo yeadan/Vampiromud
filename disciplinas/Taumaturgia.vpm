@@ -1,0 +1,20 @@
+#DISCIPLINA
+Nombre    Taumaturgia~
+Descripcion        La Taumaturgia es posiblemente la mas mortifera de las disciplinas Cainitas~
+Filename          Taumaturgia.vpm~
+Disciplina        29
+Clan              Tremere~
+Nivel1           Creo Ignem : Causa danyo tipo fuego, dependiendo de la vida del que lo realiza~
+Nivel2           Caldero Sanguineo : Crea danyo tipo indefinido, dependiendo de vida y move del que lo realiza~
+Nivel3           Forma Incorporea : Convierte tu cuerpo en niebla reduciendo los danyos recibidos y permitiendote pasar por los rincones mas insospechados~
+Nivel4           Corazon Petreo : Te hace inmune a los Empalamientos~
+Nivel5           Desconocido por el momento~
+Nivel6           Desconocido por el momento~
+Nivel7           Desconocido por el momento~
+Nivel8           Desconocido por el momento~
+Nivel9           Desconocido por el momento~
+Nivel10           Desconocido por el momento~
+
+End
+
+#END

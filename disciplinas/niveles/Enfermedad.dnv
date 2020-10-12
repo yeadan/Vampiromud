@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            enfermedad~
+Tipo              0
+Funcion           do_enfermedad
+Descripcion       La Enfermedad reduce la recuperacion de la victima.~
+Filename          Enfermedad.dnv~
+Disciplina        9
+Clan              Assamita~
+Nivel             3
+Dnivel            903
+Wait              10
+Sangre            15
+Dammes            Enfermedad~
+GoMes             La Enfermedad abandona tu cuerpo, te sientes mucho mejor.~
+ExitoCh           Tu enfermedad golpea a $N!~
+ExitoVict         La enfermedad de $n te hiere!~
+ExitoRoom         La enfermedad de $N golpea a $n~
+ExitoMud          ~
+FalloCh           Fallaste!~
+FalloVict         ~
+FalloRoom         ~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

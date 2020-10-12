@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            MascaraDeMuerte~
+Tipo              10
+Funcion           do_mascara
+Descripcion       Tu enemigo parece arrugasrse y marchitarse hasta adquirir la apariencia de un cadaver.~
+Filename          MascaraDeMuerte.dnv~
+Disciplina        13
+Clan              Capadocio~
+Nivel             1
+Dnivel            1301
+Wait              12
+Sangre            13
+Dammes            ~
+GoMes             La mascara de la muerte abandona tu cuerpo,vuelves a parecer vivo. ~
+ExitoCh           $N comienza a marchitarse hasta parecer un putrido cadaver.!~
+ExitoVict         La mascara de muerte de $n te marchita hasta hacerte parecer un cadaver!.~
+ExitoRoom         $N comienza a marchitarse hasta parecer un putrido cadaver.! ~
+ExitoMud          ~
+FalloCh           ~
+FalloVict         $n no consigue concentrar su sangre y su mascara de muerte te falla!~
+FalloRoom         $n no consigue marchitar a $N!~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Celeridad~
+Tipo              4
+Funcion           do_celeridad
+Descripcion       La Celeridad otorga al vastago de una velocidad que le permite realizar mas acciones en un mismo round~
+Filename          Celeridad.dnv~
+Disciplina        4
+Clan              Ninguno~
+Nivel             1
+Dnivel            405
+Wait              8
+Sangre            13
+Dammes            ~
+GoMes             La celeridad abandona tu cuerpo.~
+ExitoCh           Tus movimientos se aceleran~
+ExitoVict         ~
+ExitoRoom         Los movimientos de $n se ven acelerados.~
+ExitoMud          ~
+FalloCh           No consigues moverte mas rapido.~
+FalloVict         ~
+FalloRoom         $N no consigue moverse mas rapido.~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

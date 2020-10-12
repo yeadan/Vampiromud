@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Caldero Sanguineo~
+Tipo              1
+Funcion           do_caldero
+Descripcion       Descripcion no fijada~
+Filename          Caldero_sanguineo.dnv~
+Disciplina        29
+Clan              Tremere~
+Nivel             2
+Dnivel            2902
+Wait              10
+Sangre            10
+Dammes            CalDeRo SaNGuiNeo~
+GoMes             ~
+ExitoCh           Tu Caldero hace que la sangre de $N hierva!~
+ExitoVict         El Caldero de $n te hace hervir la sangre!~
+ExitoRoom         $N grita de dolor mientras le hierve la sangre mientras los ojos de $n brillan! ~
+ExitoMud          ~
+FalloCh           ~
+FalloVict         El Caldero de $n no consigue hacerte hervir la sangre.~
+FalloRoom         La sangre de $N burbujea levemente!~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

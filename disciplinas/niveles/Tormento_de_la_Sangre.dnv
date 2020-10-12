@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Tormento_de_la_Sangre~
+Tipo              0
+Funcion           do_tormento
+Descripcion       ~
+Filename          Tormento_de_la_Sangre.dnv~
+Disciplina        9
+Clan              Assamita~
+Nivel             4 
+Dnivel             904
+Wait             12 
+Sangre            13
+Dammes            Tormento~
+GoMes             ~
+ExitoCh           Tu Tormento de sangre golpea a $N!~
+ExitoVict         El Tormento de sangre de $n te hiere!~
+ExitoRoom         El Tormento de sangre de $N golpea a $n~
+ExitoMud          ~
+FalloCh           No consigues concentrar tu sangre y fallas!~
+FalloVict         $n no consigue concentrar su sangre y su Tormento de sangre te falla!~
+FalloRoom         $n no consigue concentrar su sangre y su Tormento de sangre falla a $N!~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END

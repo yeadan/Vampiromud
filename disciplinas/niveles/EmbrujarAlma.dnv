@@ -1,0 +1,33 @@
+#NIVEL
+Nombre            Embrujar Alma~
+Tipo              5
+Funcion           do_embrujar
+Descripcion       Embrujas a tu enemigo elevando sus probabilidades de fallo~
+Filename          EmbrujarAlma.dnv~
+Disciplina        7
+Clan              Malkavian~
+Nivel             2
+Dnivel            702
+Wait              18
+Sangre            12
+Dammes            ~
+GoMes             Te vuelves a sentir cuerdo cuando tu embrujo desaparece.~
+ExitoCh           Consigues embrujarle!~
+ExitoVict         $n te ha embrujado!. Te sietes menos cuerdo.~
+ExitoRoom         ~
+ExitoMud          ~
+FalloCh           No consigues embrujarle!~
+FalloVict         $n no consigue embrujarte!~
+FalloRoom         $n intenta embrujar a $N pero no lo consigue!~
+FalloMud          ~
+MuerteCh          ~
+MuerteVict        ~
+MuerteRoom        ~
+MuerteMud         ~
+InmuneCh          ~
+InmuneVict        ~
+InmuneRoom        ~
+InmuneMud         ~
+End
+
+#END
