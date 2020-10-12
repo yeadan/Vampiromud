@@ -1,0 +1,6309 @@
+#COMMAND
+Name        '~
+Code        do_say
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        ,~
+Code        do_emote
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        -~
+Code        do_avtalk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       239
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        .~
+Code        do_chat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       1
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        :~
+Code        do_immtalk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        ;~
+Code        do_gtell
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        ?~
+Code        do_avtalk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       239
+Log         0
+End
+
+#COMMAND
+Name        ar~
+Code        do_up
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        autorizar~
+Code        do_authorize
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         1
+End
+
+#COMMAND
+Name        at~
+Code        do_at
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        afectado~
+Code        do_affected
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        ansi~
+Code        do_ansi
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        asignar~
+Code        do_aassign
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         1
+End
+
+#COMMAND
+Name        advance~
+Code        do_advance
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       255
+Log         1
+End
+
+#COMMAND
+Name        areas~
+Code        do_areas
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        aset~
+Code        do_aset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       246
+Log         1
+End
+
+#COMMAND
+Name        astatus~
+Code        do_astat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       248
+Log         0
+End
+
+#COMMAND
+Name        aplicar~
+Code        do_apply
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        atobj~
+Code        do_atobj
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        agitar~
+Code        do_zap
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    108
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        abajo~
+Code        do_down
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        ayuda~
+Code        do_help
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        abandonar~
+Code        do_leave
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        asesina~
+Code        do_murde
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    109
+Level       5
+Log         0
+End
+
+#COMMAND
+Name        asesinar~
+Code        do_murder
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    109
+Level       5
+Log         0
+End
+
+#COMMAND
+Name        abrir~
+Code        do_open
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        alquilar~
+Code        do_rent
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        arriba~
+Code        do_up
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        arrastrar~
+Code        do_drag
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        aventura~
+Code        do_quest
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    103
+Level       10
+Log         0
+Flags       3
+End
+
+#COMMAND
+Name        admitir~
+Code        do_induct
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       50
+Log         1
+End
+
+#COMMAND
+Name        aceptar~
+Code        do_accept
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        apostar~
+Code        do_bet
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        animalismo~
+Code        (0x81baa8c)
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        adquirir~
+Code        do_adquirir
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        asimilar~
+Code        do_asimilar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        abrazar~
+Code        do_abrazar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       40
+Log         0
+End
+
+#COMMAND
+Name        adiestrar~
+Code        do_adiestrar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       40
+Log         0
+End
+
+#COMMAND
+Name        ascender~
+Code        do_ascender
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         1
+End
+
+#COMMAND
+Name        abdicar~
+Code        do_abdicar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         1
+End
+
+#COMMAND
+Name        apartados~
+Code        do_apartados
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        aff~
+Code        do_affected
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        aprender~
+Code        do_aprender
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        aquien~
+Code        do_awho
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        b~
+Code        do_down
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        bs~
+Code        do_backstab
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        balzhur~
+Code        do_balzhur
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    108
+Level       248
+Log         1
+Flags       4
+End
+
+#COMMAND
+Name        bamfin~
+Code        do_bamfin
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         0
+End
+
+#COMMAND
+Name        bamfout~
+Code        do_bamfout
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         0
+End
+
+#COMMAND
+Name        ban~
+Code        do_ban
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         1
+End
+
+#COMMAND
+Name        bestow~
+Code        do_bestow
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       253
+Log         1
+End
+
+#COMMAND
+Name        bio~
+Code        do_bio
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        bodybag~
+Code        do_bodybag
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         1
+End
+
+#COMMAND
+Name        bset~
+Code        do_bset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        bstatus~
+Code        do_bstat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         0
+End
+
+#COMMAND
+Name        bug~
+Code        do_bug
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        bestowarea~
+Code        do_bestowarea
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       248
+Log         1
+End
+
+#COMMAND
+Name        beber~
+Code        do_drink
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        buscanota~
+Code        do_findnote
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        bloquear~
+Code        do_lock
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        blandir~
+Code        do_wear
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    107
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        buzon~
+Code        do_apartados
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        c~
+Code        do_cast
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        conjurar~
+Code        do_conjurar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       15
+Log         0
+End
+
+#COMMAND
+Name        cast~
+Code        do_cast
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        cerrar~
+Code        do_close
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        considerar~
+Code        do_consider
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        canales~
+Code        do_channels
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        charlar~
+Code        do_chat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    103
+Level       1
+Log         0
+Flags       3
+End
+
+#COMMAND
+Name        checkvnums~
+Code        do_check_vnums
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         0
+End
+
+#COMMAND
+Name        cmenu~
+Code        do_cmenu
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        cedit~
+Code        do_cedit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        consejoinducir~
+Code        do_council_induct
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        comparar~
+Code        do_compare
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        comandos~
+Code        do_commands
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        comer~
+Code        do_eat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        comentar~
+Code        do_comment
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       242
+Log         0
+End
+
+#COMMAND
+Name        configurar~
+Code        do_config
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        cooutcast~
+Code        do_council_outcast
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        consejodecir~
+Code        do_counciltalk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        consejos~
+Code        do_councils
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        creditos~
+Code        do_credits
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        creadores~
+Code        do_credits
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        comprar~
+Code        do_buy
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        cset~
+Code        do_cset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        cmdtable~
+Code        do_cmdtable
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       246
+Log         0
+End
+
+#COMMAND
+Name        clima~
+Code        do_climate
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         0
+End
+
+#COMMAND
+Name        cocinar~
+Code        do_cook
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        cavar~
+Code        do_dig
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       3
+Log         0
+End
+
+#COMMAND
+Name        coger~
+Code        do_get
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        correos~
+Code        do_mailroom
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        crear~
+Code        do_make
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       50
+Log         1
+Flags       4
+End
+
+#COMMAND
+Name        creartablon~
+Code        do_makeboard
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         1
+End
+
+#COMMAND
+Name        crearclan~
+Code        do_makeclan
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         1
+End
+
+#COMMAND
+Name        crearconsejo~
+Code        do_makecouncil
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         1
+End
+
+#COMMAND
+Name        crearreparacion~
+Code        do_makerepair
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       252
+Log         3
+End
+
+#COMMAND
+Name        creartienda~
+Code        do_makeshop
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         3
+End
+
+#COMMAND
+Name        crearwizlist~
+Code        do_makewizlist
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        cantar~
+Code        do_music
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        creardeidad~
+Code        do_makedeity
+Desactivado    1
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       253
+Log         1
+End
+
+#COMMAND
+Name        coger~
+Code        do_get
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        clima~
+Code        do_weather
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        cobardia~
+Code        do_wimpy
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        contestar~
+Code        do_answer
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        curar~
+Code        do_heal
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        clantalk~
+Code        do_clantalk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       4
+End
+
+#COMMAND
+Name        ct~
+Code        do_clantalk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       4
+End
+
+#COMMAND
+Name        colorear~
+Code        do_colorize
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         0
+End
+
+#COMMAND
+Name        colocar~
+Code        do_tamp
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        claseset~
+Code        do_setclass
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         1
+End
+
+#COMMAND
+Name        canear~
+Code        do_mortality
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        camuflaje~
+Code        do_camuflaje
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       239
+Log         0
+End
+
+#COMMAND
+Name        critico~
+Code        do_critico
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        creardisci~
+Code        do_creardisciplina
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         1
+End
+
+#COMMAND
+Name        crearnivel~
+Code        do_crearnivel
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         1
+End
+
+#COMMAND
+Name        concentrar~
+Code        do_concentrar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       15
+Log         0
+End
+
+#COMMAND
+Name        crearesfera~
+Code        do_crearesfera
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         1
+End
+
+#COMMAND
+Name        castigar~
+Code        do_nuisance
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        conquistas~
+Code        do_conquistas
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        down~
+Code        do_down
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        descansar~
+Code        do_rest
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        dejar~
+Code        do_drop
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        deny~
+Code        do_deny
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         1
+Flags       4
+End
+
+#COMMAND
+Name        descripcion~
+Code        do_description
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        destru~
+Code        do_destro
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       254
+Log         0
+End
+
+#COMMAND
+Name        destruir~
+Code        do_destroy
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       254
+Log         1
+Flags       4
+End
+
+#COMMAND
+Name        desconectar~
+Code        do_disconnect
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         1
+End
+
+#COMMAND
+Name        dmensaje~
+Code        do_dmesg
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         1
+End
+
+#COMMAND
+Name        dedicar~
+Code        do_devote
+Desactivado    1
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       5
+Log         0
+End
+
+#COMMAND
+Name        deidades~
+Code        do_deities
+Desactivado    1
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        desmontar~
+Code        do_dismount
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        diagnostico~
+Code        do_diagnose
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       251
+Log         0
+End
+
+#COMMAND
+Name        dismiss~
+Code        do_dismiss
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        despedir~
+Code        do_dismiss
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        delay~
+Code        do_delay
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         0
+End
+
+#COMMAND
+Name        delete~
+Code        do_delete
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        dar~
+Code        do_give
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        desvestir~
+Code        do_remove
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    107
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        decir~
+Code        do_say
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        dormir~
+Code        do_sleep
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        desbloquear~
+Code        do_unlock
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        donde~
+Code        do_where
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        dignidad~
+Code        do_worth
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        desvestir~
+Code        do_remove
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    107
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        disciplinas~
+Code        do_disciplinas
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        donar~
+Code        do_donate
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        disciprac~
+Code        (0x81baa8c)
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        diablerizar~
+Code        do_diablerizar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       70
+Log         0
+End
+
+#COMMAND
+Name        decapitar~
+Code        do_decapitar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       70
+Log         0
+End
+
+#COMMAND
+Name        degradar~
+Code        do_degradar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         1
+End
+
+#COMMAND
+Name        declarar~
+Code        do_declarar
+Desactivado    1
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       239
+Log         0
+End
+
+#COMMAND
+Name        dset~
+Code        do_dset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         1
+End
+
+#COMMAND
+Name        dver~
+Code        do_dver
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       15
+Log         0
+End
+
+#COMMAND
+Name        dmesg~
+Code        do_dmesg
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        e~
+Code        do_east
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        elp~
+Code        do_afk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        evaluar~
+Code        do_appraise
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        empunyar~
+Code        do_brandish
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    108
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        enterrar~
+Code        do_bury
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        este~
+Code        do_east
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        emote~
+Code        do_emote
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        examinar~
+Code        do_examine
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        equipo~
+Code        do_equipment
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        echo~
+Code        do_echo
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        entrar~
+Code        do_enter
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        elevar~
+Code        do_elevate
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         0
+End
+
+#COMMAND
+Name        encender~
+Code        do_light
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    108
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        empezartorneo~
+Code        (0x81baa8c)
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         1
+End
+
+#COMMAND
+Name        estirar~
+Code        do_pull
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        empujar~
+Code        do_push
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        estilo~
+Code        do_style
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    105
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        entrenar~
+Code        do_train
+Desactivado    2
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        expulsar~
+Code        do_outcast
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       50
+Log         1
+End
+
+#COMMAND
+Name        empujar~
+Code        do_shove
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        empanar~
+Code        do_afk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        estudiar~
+Code        do_study
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        email~
+Code        do_email
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        esferas~
+Code        do_esferas
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        eset~
+Code        do_eset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         1
+End
+
+#COMMAND
+Name        ever~
+Code        do_ever
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       15
+Log         0
+End
+
+#COMMAND
+Name        finger~
+Code        do_finger
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        ficha~
+Code        do_vficha
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        fecha~
+Code        do_time
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        fixchar~
+Code        do_fixchar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       251
+Log         1
+End
+
+#COMMAND
+Name        foldarea~
+Code        do_foldarea
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         1
+End
+
+#COMMAND
+Name        for~
+Code        do_for
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         1
+End
+
+#COMMAND
+Name        force~
+Code        do_force
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         1
+End
+
+#COMMAND
+Name        forceclose~
+Code        do_forceclose
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         1
+End
+
+#COMMAND
+Name        formpass~
+Code        do_form_password
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        freeze~
+Code        do_freeze
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         1
+End
+
+#COMMAND
+Name        fquit~
+Code        do_fquit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         1
+End
+
+#COMMAND
+Name        fixed~
+Code        do_fixed
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        fprompt~
+Code        do_fprompt
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        fuego~
+Code        do_fire
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       5
+Log         0
+End
+
+#COMMAND
+Name        fver~
+Code        do_fshow
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         0
+End
+
+#COMMAND
+Name        fumar~
+Code        do_smoke
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        familias~
+Code        do_familia
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        fcrear~
+Code        do_fcrear
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        feditar~
+Code        do_feditar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        ftest~
+Code        do_famtest
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        gtell~
+Code        do_gtell
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        grupo~
+Code        do_group
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        gremiodecir~
+Code        do_guildtalk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        glance~
+Code        do_glance
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        goto~
+Code        do_goto
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         0
+End
+
+#COMMAND
+Name        gremios~
+Code        do_guilds
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        grub~
+Code        do_grub
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        gluchando~
+Code        do_gfighting
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         0
+End
+
+#COMMAND
+Name        gdonde~
+Code        do_gwhere
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       252
+Log         0
+End
+
+#COMMAND
+Name        golpear~
+Code        do_rap
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         0
+End
+
+#COMMAND
+Name        gritar~
+Code        do_shout
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       3
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        guerradecir~
+Code        do_wartalk
+Desactivado    1
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       2
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        geneup~
+Code        do_generacionup
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         1
+End
+
+#COMMAND
+Name        huir~
+Code        do_flee
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    107
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        help~
+Code        do_help
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        hedit~
+Code        do_hedit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         1
+End
+
+#COMMAND
+Name        hell~
+Code        do_hell
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         4
+End
+
+#COMMAND
+Name        hl~
+Code        do_hl
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        hlista~
+Code        do_hlist
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        holylight~
+Code        do_holylight
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       239
+Log         0
+End
+
+#COMMAND
+Name        homepage~
+Code        do_homepage
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       10
+Log         0
+End
+
+#COMMAND
+Name        hset~
+Code        do_hset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         1
+End
+
+#COMMAND
+Name        hablar~
+Code        do_speak
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        hora~
+Code        do_time
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        inventario~
+Code        do_inventory
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        ide~
+Code        do_ide
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        idea~
+Code        do_idea
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        immdecir~
+Code        do_immtalk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        immdecir~
+Code        do_avtalk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       239
+Log         0
+End
+
+#COMMAND
+Name        inmortalizar~
+Code        do_immortalize
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       248
+Log         1
+End
+
+#COMMAND
+Name        instalararea~
+Code        do_installarea
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         1
+End
+
+#COMMAND
+Name        instalarzona~
+Code        do_instazone
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         3
+End
+
+#COMMAND
+Name        invis~
+Code        do_invis
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        instalarroom~
+Code        do_instaroom
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         3
+End
+
+#COMMAND
+Name        ignorar~
+Code        do_ignore
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        immhost~
+Code        do_add_imm_host
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         0
+End
+
+#COMMAND
+Name        ipcomparar~
+Code        do_ipcompare
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         0
+End
+
+#COMMAND
+Name        info~
+Code        do_report
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        idioma~
+Code        do_speak
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        idiomas~
+Code        do_languages
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        inscribir~
+Code        do_arena
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        ingreso~
+Code        do_ingreso
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        infofamilias~
+Code        do_clans
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       5
+Log         0
+End
+
+#COMMAND
+Name        icq~
+Code        do_icq_number
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        infoarea~
+Code        do_infoarea
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        instruir~
+Code        do_adiestrar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       40
+Log         0
+End
+
+#COMMAND
+Name        joderequipo~
+Code        do_strip
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       248
+Log         1
+End
+
+#COMMAND
+Name        lev~
+Code        do_wake
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        llenar~
+Code        do_fill
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        lista~
+Code        do_list
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        litterbug~
+Code        do_litterbug
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         1
+End
+
+#COMMAND
+Name        loadarea~
+Code        do_loadarea
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        log~
+Code        do_log
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         1
+End
+
+#COMMAND
+Name        leyes~
+Code        do_laws
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        levantarse~
+Code        do_wake
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        matar~
+Code        do_kill
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    109
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        mana~
+Code        do_mana
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        mhistorial~
+Code        do_khistory
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         0
+End
+
+#COMMAND
+Name        mirar~
+Code        do_look
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        mpecho~
+Code        do_mpecho
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpechoat~
+Code        do_mpechoat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        mea~
+Code        do_mpechoat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        mpat~
+Code        do_mpat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       5
+End
+
+#COMMAND
+Name        mpforce~
+Code        do_mpforce
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpechoaround~
+Code        do_mpechoaround
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        mer~
+Code        do_mpechoaround
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        mpasound~
+Code        do_mpasound
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpoload~
+Code        do_mpoload
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpjunk~
+Code        do_mpjunk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpgoto~
+Code        do_mpgoto
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpdamage~
+Code        do_mp_damage
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpdelay~
+Code        do_mpdelay
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpdeposit~
+Code        do_mp_deposit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mprestore~
+Code        do_mp_restore
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpkill~
+Code        do_mpkill
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mptransfer~
+Code        do_mptransfer
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpmload~
+Code        do_mpmload
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpnothing~
+Code        do_mpnothing
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mppurge~
+Code        do_mppurge
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpinvis~
+Code        do_mpinvis
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpadvance~
+Code        do_mpadvance
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         1
+Flags       1
+End
+
+#COMMAND
+Name        mpapply~
+Code        do_mpapply
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpapplyb~
+Code        do_mpapplyb
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mppkset~
+Code        do_mppkset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpclosepassage~
+Code        do_mp_close_passage
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpopenpassage~
+Code        do_mp_open_passage
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpdream~
+Code        do_mpdream
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpslay~
+Code        do_mp_slay
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mppractice~
+Code        do_mp_practice
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpwithdraw~
+Code        do_mp_withdraw
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mapa~
+Code        do_mapper
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        mapout~
+Code        do_mapout
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       246
+Log         0
+End
+
+#COMMAND
+Name        masignar~
+Code        do_massign
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        mcrear~
+Code        do_mcreate
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         3
+End
+
+#COMMAND
+Name        mborrar~
+Code        do_mdelete
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        memoria~
+Code        do_memory
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       246
+Log         1
+End
+
+#COMMAND
+Name        mbuscar~
+Code        do_mfind
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         0
+End
+
+#COMMAND
+Name        mload~
+Code        do_minvoke
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        mlista~
+Code        do_mlist
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        mmenu~
+Code        do_mmenu
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        mpeditar~
+Code        do_mpedit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         3
+Flags       1
+End
+
+#COMMAND
+Name        mpstatus~
+Code        do_mpstat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mrango~
+Code        do_mrange
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        mset~
+Code        do_mset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         3
+End
+
+#COMMAND
+Name        mstat~
+Code        do_mstat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        mdonde~
+Code        do_mwhere
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        mpfavor~
+Code        do_mpfavor
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mposet~
+Code        do_mposet
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpmset~
+Code        do_mpmset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mortalizar~
+Code        do_mortalize
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         1
+End
+
+#COMMAND
+Name        mpperdon~
+Code        do_mppardon
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         1
+Flags       1
+End
+
+#COMMAND
+Name        mpscatter~
+Code        do_mpscatter
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mppeace~
+Code        do_mppeace
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpechozone~
+Code        do_mpechozone
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mez~
+Code        do_mpechozone
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        mplog~
+Code        do_mp_log
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpasupress~
+Code        do_mpasupress
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpmorph~
+Code        do_mpmorph
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpunmorph~
+Code        do_mpunmorph
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpunnuisance~
+Code        do_mpunnuisance
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        mpnuisance~
+Code        do_nuisance
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        mpbodybag~
+Code        do_mpbodybag
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        molestar~
+Code        do_nuisance
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         1
+End
+
+#COMMAND
+Name        misericordia~
+Code        do_misericordia
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         0
+End
+
+#COMMAND
+Name        morphset~
+Code        do_morphset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         0
+End
+
+#COMMAND
+Name        morphstat~
+Code        do_morphstat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         0
+End
+
+#COMMAND
+Name        morfocrear~
+Code        do_morphcreate
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         0
+End
+
+#COMMAND
+Name        morfoserar~
+Code        do_imm_morph
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         0
+End
+
+#COMMAND
+Name        mision~
+Code        do_aquest
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        mensaje~
+Code        do_mensaje
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        mejorar~
+Code        do_mejorar
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        medit~
+Code        do_omedit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         0
+End
+
+#COMMAND
+Name        mcopy~
+Code        do_mcopy
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         0
+End
+
+#COMMAND
+Name        miembros~
+Code        do_miembros
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       10
+Log         0
+End
+
+#COMMAND
+Name        n~
+Code        do_north
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        ne~
+Code        do_northeast
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        no~
+Code        do_northwest
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        nivel~
+Code        do_level
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        norte~
+Code        do_north
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        nombre~
+Code        do_name
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        nota~
+Code        do_nota
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        nuevaszonas~
+Code        do_newzones
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        noemote~
+Code        do_noemote
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        noresolve~
+Code        do_noresolve
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        noreste~
+Code        do_northeast
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        noroeste~
+Code        do_northwest
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        notell~
+Code        do_notell
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        notitle~
+Code        do_notitle
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         1
+End
+
+#COMMAND
+Name        noticias~
+Code        do_news
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        noinfierno~
+Code        do_unhell
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         4
+End
+
+#COMMAND
+Name        newcharlar~
+Code        do_newbiechat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        nset~
+Code        do_nset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         1
+End
+
+#COMMAND
+Name        nver~
+Code        do_nver
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       15
+Log         0
+End
+
+#COMMAND
+Name        noaffects~
+Code        do_noaffects
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         0
+End
+
+#COMMAND
+Name        nuissance~
+Code        (0x81baa8c)
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        o~
+Code        do_west
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        oro~
+Code        do_gold
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        ordenar~
+Code        do_order
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        oasignar~
+Code        do_oassign
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        ocrear~
+Code        do_ocreate
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         3
+End
+
+#COMMAND
+Name        oborrar~
+Code        do_odelete
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        obuscar~
+Code        do_ofind
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        oload~
+Code        do_oinvoke
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        olc~
+Code        do_oldscore
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        olista~
+Code        do_olist
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         0
+End
+
+#COMMAND
+Name        omenu~
+Code        do_omenu
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        opedit~
+Code        do_opedit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         3
+End
+
+#COMMAND
+Name        opstat~
+Code        do_opstat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        orango~
+Code        do_orange
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        ordenes~
+Code        do_orders
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        ordendecir~
+Code        do_ordertalk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        ostat~
+Code        do_ostat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         0
+End
+
+#COMMAND
+Name        od~
+Code        do_ordertalk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        owhere~
+Code        do_owhere
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         0
+End
+
+#COMMAND
+Name        oset~
+Code        do_oset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         3
+End
+
+#COMMAND
+Name        ogrub~
+Code        do_ogrub
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         0
+End
+
+#COMMAND
+Name        oeste~
+Code        do_west
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        oedit~
+Code        do_ooedit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         0
+End
+
+#COMMAND
+Name        ocopy~
+Code        do_ocopy
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         0
+End
+
+#COMMAND
+Name        permitir~
+Code        do_allow
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         1
+End
+
+#COMMAND
+Name        practicar~
+Code        do_practice
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        preguntar~
+Code        do_ask
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        pload~
+Code        do_loadup
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       253
+Log         1
+End
+
+#COMMAND
+Name        poner~
+Code        do_put
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        password~
+Code        do_password
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         2
+End
+
+#COMMAND
+Name        pagelength~
+Code        do_pagelen
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         0
+End
+
+#COMMAND
+Name        perdonar~
+Code        do_pardon
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         1
+End
+
+#COMMAND
+Name        pxset~
+Code        do_pxset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         1
+End
+
+#COMMAND
+Name        paz~
+Code        do_peace
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        purge~
+Code        do_purge
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       246
+Log         0
+End
+
+#COMMAND
+Name        purgar~
+Code        do_low_purge
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        prompt~
+Code        do_prompt
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        pager~
+Code        do_pager
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        proyecto~
+Code        do_project
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        permanecer~
+Code        do_stand
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        pensar~
+Code        do_think
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        pertenecer~
+Code        do_pertenecer
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        patear~
+Code        do_scatter
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        privado~
+Code        do_privacy
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        quien~
+Code        do_who
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        quit~
+Code        do_quit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        qpset~
+Code        do_qpset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         1
+End
+
+#COMMAND
+Name        qpstat~
+Code        do_qpstat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        quienes~
+Code        do_whois
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        quest~
+Code        do_aquest
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       10
+Log         0
+End
+
+#COMMAND
+Name        qtorneo~
+Code        do_awho
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        queststat~
+Code        do_queststat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        qstat~
+Code        do_qstat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        renombrar~
+Code        do_pcrename
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       251
+Log         0
+End
+
+#COMMAND
+Name        reservar~
+Code        do_reserve
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       248
+Log         1
+End
+
+#COMMAND
+Name        reflexionar~
+Code        do_muse
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        report~
+Code        do_report
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        reparar~
+Code        do_repair
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        responder~
+Code        do_reply
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        rango~
+Code        do_rank
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        rassign~
+Code        do_rassign
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        rat~
+Code        do_rat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        rborrar~
+Code        do_rdelete
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         1
+End
+
+#COMMAND
+Name        reboo~
+Code        do_reboo
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         0
+End
+
+#COMMAND
+Name        reload~
+Code        do_copyover
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         1
+End
+
+#COMMAND
+Name        reboot~
+Code        do_reboot
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         1
+End
+
+#COMMAND
+Name        recitar~
+Code        do_recite
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        recho~
+Code        do_recho
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         1
+End
+
+#COMMAND
+Name        roomedit~
+Code        do_redit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         3
+End
+
+#COMMAND
+Name        redibujar~
+Code        do_redraw_page
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         0
+End
+
+#COMMAND
+Name        refrescar~
+Code        do_refresh_page
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         0
+End
+
+#COMMAND
+Name        regoto~
+Code        do_regoto
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         0
+End
+
+#COMMAND
+Name        repairset~
+Code        do_repairset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         3
+End
+
+#COMMAND
+Name        repairshops~
+Code        do_repairshops
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         0
+End
+
+#COMMAND
+Name        repairstat~
+Code        do_repairstat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         0
+End
+
+#COMMAND
+Name        reset~
+Code        do_reset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         3
+End
+
+#COMMAND
+Name        restore~
+Code        do_restore
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        restoretime~
+Code        do_restoretime
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        restringir~
+Code        do_restrict
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       246
+Log         0
+End
+
+#COMMAND
+Name        return~
+Code        do_return
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        retran~
+Code        do_retran
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        retirar~
+Code        do_retire
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       248
+Log         1
+End
+
+#COMMAND
+Name        rip~
+Code        do_rip
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        rlist~
+Code        do_rlist
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        rpedit~
+Code        do_rpedit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         3
+End
+
+#COMMAND
+Name        rpstat~
+Code        do_rpstat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         0
+End
+
+#COMMAND
+Name        rset~
+Code        do_rset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         3
+End
+
+#COMMAND
+Name        rstat~
+Code        do_rstat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        rreset~
+Code        do_rreset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         3
+End
+
+#COMMAND
+Name        rgrub~
+Code        do_rgrub
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        razadecir~
+Code        do_racetalk
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        remains~
+Code        do_remains
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       5
+Log         0
+End
+
+#COMMAND
+Name        retell~
+Code        do_retell
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        repetir~
+Code        do_repeat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         0
+End
+
+#COMMAND
+Name        repartir~
+Code        do_split
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        regreso~
+Code        do_regreso
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        rechazar~
+Code        do_decline
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        retar~
+Code        do_challenge
+Desactivado    1
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       70
+Log         0
+End
+
+#COMMAND
+Name        reintegro~
+Code        do_reintegro
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        ranking~
+Code        do_hiscore
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        renacer~
+Code        do_renacer
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        robar~
+Code        do_steal
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         2
+End
+
+#COMMAND
+Name        redit~
+Code        do_oredit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         0
+End
+
+#COMMAND
+Name        rcopy~
+Code        do_rcopy
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         0
+End
+
+#COMMAND
+Name        reclamar~
+Code        (0x81baa8c)
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        sur~
+Code        do_south
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        score~
+Code        do_vficha
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        s~
+Code        do_south
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        sla~
+Code        do_sla
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       246
+Log         0
+End
+
+#COMMAND
+Name        so~
+Code        do_southwest
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        se~
+Code        do_southeast
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        subastar~
+Code        do_auction
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       5
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        salidas~
+Code        do_exits
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        sangre~
+Code        do_mana
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        seguir~
+Code        do_follow
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        setnovato~
+Code        do_newbieset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         0
+End
+
+#COMMAND
+Name        sali~
+Code        do_qui
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        salir~
+Code        do_leave
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        save~
+Code        do_save
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        sacrificar~
+Code        do_sacrifice
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        stat~
+Code        do_stat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       50
+Log         0
+End
+
+#COMMAND
+Name        statinfo~
+Code        do_statreport
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       50
+Log         0
+End
+
+#COMMAND
+Name        savearea~
+Code        do_savearea
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         3
+End
+
+#COMMAND
+Name        sedit~
+Code        do_sedit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         1
+End
+
+#COMMAND
+Name        setboot~
+Code        do_set_boot_time
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         1
+End
+
+#COMMAND
+Name        setfamilias~
+Code        do_setclan
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        setconsejo~
+Code        do_setcouncil
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        shopset~
+Code        do_shopset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        shopstat~
+Code        do_shopstat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         0
+End
+
+#COMMAND
+Name        shutdow~
+Code        do_shutdow
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         0
+End
+
+#COMMAND
+Name        shutdown~
+Code        do_shutdown
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         1
+End
+
+#COMMAND
+Name        sentarse~
+Code        do_sit
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        silence~
+Code        do_silence
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         1
+End
+
+#COMMAND
+Name        slay~
+Code        do_slay
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       246
+Log         1
+End
+
+#COMMAND
+Name        slist~
+Code        do_slist
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        slookup~
+Code        do_slookup
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        snoop~
+Code        do_snoop
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         4
+Flags       4
+End
+
+#COMMAND
+Name        sobrio~
+Code        do_sober
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         4
+End
+
+#COMMAND
+Name        sociales~
+Code        do_socials
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        sureste~
+Code        do_southeast
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        suroeste~
+Code        do_southwest
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    112
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        sset~
+Code        do_sset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        switch~
+Code        do_switch
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+Flags       4
+End
+
+#COMMAND
+Name        setdeidad~
+Code        do_setdeity
+Desactivado    1
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         1
+End
+
+#COMMAND
+Name        suplicar~
+Code        do_supplicate
+Desactivado    1
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       5
+Log         0
+End
+
+#COMMAND
+Name        style~
+Code        do_style
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    105
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        setweather~
+Code        do_setweather
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       248
+Log         0
+End
+
+#COMMAND
+Name        strew~
+Code        do_strew
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       252
+Log         1
+End
+
+#COMMAND
+Name        showorder~
+Code        do_showclan
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        showguild~
+Code        do_showclan
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        setrace~
+Code        do_setrace
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         0
+End
+
+#COMMAND
+Name        showlayers~
+Code        do_showlayers
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       251
+Log         0
+End
+
+#COMMAND
+Name        susurrar~
+Code        do_whisper
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        sostener~
+Code        do_wear
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    107
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        setmorfo~
+Code        do_morphset
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         0
+End
+
+#COMMAND
+Name        statmorfo~
+Code        do_morphstat
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         0
+End
+
+#COMMAND
+Name        saldo~
+Code        do_saldo
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       2
+Log         0
+End
+
+#COMMAND
+Name        soledad~
+Code        do_dnd
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       248
+Log         0
+End
+
+#COMMAND
+Name        setquest~
+Code        do_setquest
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         1
+End
+
+#COMMAND
+Name        socket~
+Code        do_users
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         0
+End
+
+#COMMAND
+Name        setclass~
+Code        do_setclass
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        tablero~
+Code        do_board
+Desactivado    2
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        tablones~
+Code        do_boards
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         0
+End
+
+#COMMAND
+Name        tomar~
+Code        do_quaff
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    105
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        tiendas~
+Code        do_shops
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       243
+Log         3
+End
+
+#COMMAND
+Name        telepatia~
+Code        do_tell
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        tel~
+Code        do_tell
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        titulo~
+Code        do_title
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        transferir~
+Code        do_transfer
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        trust~
+Code        do_trust
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         1
+End
+
+#COMMAND
+Name        typo~
+Code        do_typo
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        timecmd~
+Code        do_timecmd
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         0
+End
+
+#COMMAND
+Name        tiempo~
+Code        do_weather
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        tableros~
+Code        do_board
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        torneo~
+Code        do_chaos
+Desactivado    1
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       20
+Log         0
+End
+
+#COMMAND
+Name        truco~
+Code        do_trucos_del_almendruco
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         0
+End
+
+#COMMAND
+Name        taquilla~
+Code        do_crear_taquilla
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         0
+End
+
+#COMMAND
+Name        topten~
+Code        do_topten
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       1
+Log         0
+End
+
+#COMMAND
+Name        up~
+Code        do_up
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        ultima~
+Code        do_last
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        unfoldarea~
+Code        do_unfoldarea
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       254
+Log         1
+End
+
+#COMMAND
+Name        usuarios~
+Code        do_users
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        unsilence~
+Code        do_unsilence
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         1
+End
+
+#COMMAND
+Name        unnuisance~
+Code        do_unnuisance
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        vaciar~
+Code        do_empty
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    108
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        volver~
+Code        do_return
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         1
+End
+
+#COMMAND
+Name        verclase~
+Code        do_showclass
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        vender~
+Code        do_sell
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        verfamilia~
+Code        do_showclan
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        verconsejo~
+Code        do_showcouncil
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       245
+Log         0
+End
+
+#COMMAND
+Name        verdeidades~
+Code        do_showdeity
+Desactivado    1
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        valorar~
+Code        do_value
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        visible~
+Code        do_visible
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        vnums~
+Code        do_vnums
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        vsearch~
+Code        do_vsearch
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         0
+End
+
+#COMMAND
+Name        victorias~
+Code        do_victories
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       10
+Log         0
+End
+
+#COMMAND
+Name        vestir~
+Code        do_wear
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    107
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        vocear~
+Code        do_yell
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        vigilar~
+Code        do_watch
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        version~
+Code        do_version
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        verraza~
+Code        do_showrace
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       244
+Log         0
+End
+
+#COMMAND
+Name        verclima~
+Code        do_showweather
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       250
+Log         0
+End
+
+#COMMAND
+Name        viejaficha~
+Code        do_newscore
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       256
+Log         0
+End
+
+#COMMAND
+Name        west~
+Code        do_west
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        wartalk~
+Code        do_west
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       2
+Log         0
+Flags       1
+End
+
+#COMMAND
+Name        wimpy~
+Code        do_wimpy
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        wizlist~
+Code        do_wizlist
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    104
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        wizhelp~
+Code        do_wizhelp
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       239
+Log         0
+End
+
+#COMMAND
+Name        wizlock~
+Code        do_wizlock
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       249
+Log         1
+End
+
+#COMMAND
+Name        warn~
+Code        do_warn
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       247
+Log         0
+End
+
+#COMMAND
+Name        zap~
+Code        do_zap
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    106
+Level       0
+Log         0
+End
+
+#COMMAND
+Name        zonas~
+Code        do_zones
+Desactivado    0
+Disciplina     0
+Disciplinalevel        0
+Position    100
+Level       242
+Log         0
+End
+
+#END
