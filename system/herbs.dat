@@ -1,0 +1,84 @@
+#HERB
+Name         pipeweed~
+Type         Herb
+Flags        0
+Rounds       5
+Dammsg       smoke~
+End
+
+#HERB
+Name         black gwyvel~
+Type         Herb
+Flags        0
+Target       1
+Minpos       7
+Slot         1
+Rounds       12
+Code         spell_smaug
+Dammsg       smoke~
+Hitvict      Empiezas a toser y atragantarte!~
+Affect       '' 13 '-10' 0
+End
+
+#HERB
+Name         vermeir~
+Type         Herb
+Flags        0
+Target       3
+Minpos       5
+Slot         2
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Hitchar      .~
+Hitvict      Sientes un chispeante calor fluyendo a traves de tus labios.~
+Hitroom      $N se inclina hacia atras, disfrutando del sabor del vermeir.~
+Affect       '' 14 '20' 0
+End
+
+#HERB
+Name         nooracht~
+Type         Herb
+Flags        2097152
+Target       3
+Minpos       5
+Slot         3
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Tus pies suavemente se posan en el suelo.~
+Hitvict      El raro sabor del humo del nooracht despierta tus sentidos. Te sientes iluminado.~
+Hitroom      $N pone una cara rara por el sabor de el nooracht.~
+Affect       '' 12 '20' 0
+Affect       '30' 0 '' 2097152
+End
+
+#HERB
+Name         occadaal~
+Type         Herb
+Flags        0
+Target       3
+Slot         4
+Code         spell_smaug
+Dammsg       ~
+Hitvict      El seco sabor del humo te hace sentir una gran sensacion de calor a traves de tu cuerpo.~
+Hitroom      Los ojos de $N son del mismo color que el humo de su alrededor.~
+Affect       '' 13 '20' 0
+End
+
+#HERB
+Name         breadl~
+Type         Herb
+Flags        0
+Target       3
+Minpos       5
+Slot         5
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Todo a tu alrededor vuelve a su monotona realidad.~
+Hitvict      Tu vida cobra sentido cuando pruebas este delicioso manjar.~
+Hitroom      $N sonrie y disfruta del sabor del breadl.~
+Affect       '10' 0 '' 4194304
+End
+
+#END
