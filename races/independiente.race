@@ -1,0 +1,61 @@
+Name        Independiente~
+Race        3
+Classes     463
+Str_Plus    1
+Dex_Plus    -2
+Wis_Plus    0
+Int_Plus    1
+Con_Plus    2
+Cha_Plus    -2
+Lck_Plus    1
+Hit         2
+Mana        10
+Affected    0
+Resist      0
+Suscept     0
+Language    2
+Align       0
+Min_Align  -1000
+Max_Align	1000
+AC_Plus    10
+Exp_Mult   120
+Attacks    0
+Defenses   0
+Height     63
+Weight     110
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  2
+HP_Regen    5
+Race_Recall 0
+WhereName  &w<Como luz>&w         ~
+WhereName  &w<En el dedo>&w       ~
+WhereName  &w<En el dedo>&w       ~
+WhereName  &w<En el cuello>&w     ~
+WhereName  &w<En el cuello>&w     ~
+WhereName  &w<En el torso>&w      ~
+WhereName  &w<En la cabeza>&w     ~
+WhereName  &w<En las piernas>&w   ~
+WhereName  &w<En los pies>&w      ~
+WhereName  &w<En las manos>&w     ~
+WhereName  &w<En los brazos>&w    ~
+WhereName  &w<Como escudo>&w      ~
+WhereName  &w<Por encima>&w       ~
+WhereName  &w<En la cintura>&w    ~
+WhereName  &w<En la munyeca>&w    ~
+WhereName  &w<En la munyeca>&w    ~
+WhereName  &w<Blandiendo>&w       ~
+WhereName  &w<Cogido>&w           ~
+WhereName  &w<Blandiendo sec>&w   ~
+WhereName  &w<En las orejas>&w    ~
+WhereName  &w<En los ojos>&w      ~
+WhereName  &w<Como proyectil>&w   ~
+WhereName  &w<En la Espalda>&w    ~
+WhereName  &w<Sobre la cara>&w    ~
+WhereName  &w<En el tobillo>&w    ~
+WhereName  &w<En el tobillo>&w    ~
+WhereName  &w<Flotando al lado>&w ~
+WhereName  &w<BUG Inform Nivek>&w ~
+WhereName  &w<BUG Inform Nivek>&w ~
+WhereName  (null)~
+End

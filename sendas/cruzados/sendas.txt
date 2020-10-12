@@ -1,0 +1,534 @@
+1 -SENDA FISICA
+2 -SENDA DE INVOCACION
+3 -SENDA GUERRERA
+4 -SENDA DE PROTECCION
+5 -SENDA DE CORRUPCION
+6 -SENDA FUEGO
+7 -SENDA INFERNAL
+8 -SENDA VIGOR INFERNAL
+9 -SENDA VELOCIDAD INFERNAL
+10-SENDA FORTALEZA INFERNAL
+11-SENDA DEL DOLOR
+12-SENDA DE LA MALDICION
+13-SENDA DEL CONOCIMIENTO
+14-SENDA MALIGNA
+15-SENDA ARCANA
+16-SENDA BRUJA
+17-SENDA DE MAGIA INFERNAL
+18-SENDA NEGRA
+19-SENDA DE LA PESTILENCIA
+20-SENDA IMPIA
+21-SENDA DE LA NIGROMANCIA
+22-SENDA DE DOMINIO
+23-SENDA DE LA REGENERACION
+24-SENDA OSCURA
+25-SENDA MALEFIX
+26-SENDA DE L AMUERTE
+27-SENDA PROHIBIDA
+28-SENDA SATANICA
+29-SENDA DEL DESTINO
+30-SENDA CRUEL
+31-SENDA DIABOLICA
+
+NOTAS-------------------------------------------------------------------------------------
+
+1.-El funcionamiento es el siguiente,un cruzado oscuro puede escoger 10 de
+entre todas las sendas_oscuras.
+Cuando adquiere la senda,habra de adquirir cada una de las 10 habilidades de
+la misma forma q un vampiro una disciplina
+o un mago una esfera,es decir con puntos y un contador.No importa la
+generacion en este punto,una vez coja una senda,tendra
+la posibilidad de adquirir las 10 habildades de la senda,sea generacion 13 o
+3.Para cada habilidad dentro de la senda necesitara un nivel minimo antes de
+poderla adquirir.
+2.-La generacion afectara en todas o casi todas las
+habilidades,danyo,duracion,etc.
+3.-Los puntos de mana son sustituidos por los "puntos de fe" o "fe",el mana
+es sustituido por el "adorar",pa regeneran puntos de fe.
+Yo pondria q hubiera un maximo de puntos de fe denpendiendo de la generacion
+del cruzado.
+4.-Los danyos son SIN SANCTUARY,es decir son los maximos.
+5.-El wait esta contado SIN tener en cuenta la senda del vigor(q reduce el
+wait parecido al celeridad).
+
+IDEA---------------------------------------------------------------------------------
+Mi idea del cruzado oscuro es q sea lo contrario que el cruzado normal,es
+decir una especie de
+paladin demoniaco consagrado al mal,la destruccion,la lucha y la
+corrupcion,en pokas palabras,
+pega pinyos especialmente.
+Los alientos denominados "video XXXXX" deben de ser muy poderosos,y muy
+costosos(en fe y wait).
+No tendran sanctuary,el BS en un principio habia pensado q tampoco,pero se
+puede cambiar.
+
+
+
+SENDA
+FISICA********************************************************************************
+
+Esta senda afecta al cuerpo del cruzado,dandole poderes en forma de
+mutaciones pero deformandolo(cada mutacion tiene
+una perdida de puntos de carisma).Hay que tener presente que los cambios son
+PERMANENTES una vez adquiridos.
+Si el carisma se reduce a 0,logicamente no seguira decreciendo.
+
+nv 1- COLA
+El cruzado es recompensado con una Enorme y espinosa cola.
+La cola le proporciona un ataque adicional en cada round.
+Perdida de 3 puntos de carisma permanentes.
+
+nv 2- ALAS
+El cruzado es recompensado con unas enormes alas negras de murcielago.
+Las alas le proporcionan spell "fly" permanente.
+Perdidad de 1 punto de carisma permanente.
+
+nv 3- PIEL DEMONIACA
+El cruzado recibe una dura y quitinosa piel de color oscuro.
+Afecta a -50 AC permanente.
+Perdida de 1 puntos de carisma permanentes.
+
+nv 4- ESPINAS
+El cruzado recibe puas negras de acero que surgen de los poros de su cuerpo.
+Cualquier impacto de combate fisico recibido por el cruzado,hace que el otro
+reciba un golpe de danyo (40,80)
+Perdida de 4 puntos de carisma permanentes.
+
+nv 5- SANGRE VENENOSA
+La sangre del cruzado se vuelve virulenta y venenosa.
+El Cruzado puede realizar un ataque con su "aliento venenoso".Hace danyo
+fijo (200,300).4 de wait.
+No hay perdida de puntos de carisma.
+
+nv 6- OJOS DEL INFRAMUNDO
+El cruzado recibe una vision propia de cualquier criatura demoniaca.
+El Cruzado tiene "detect evil,invis y hidden".el cruzado podra ademas ver
+los camuflajes y la disciplina "capa de sombras".
+Perdida de 1 punto de carisma permanente.
+
+nv 7- FUERZA INFERNAL
+El cruzado recibe una fuerza demoniaca.
++4 FUE.
+no hay perdida de carisma
+
+nv 8- GARRAS
+El cruzado recibe garras demoniacas.Estas garras no son permanentes y son
+retractiles,es decir el cruzado puede elegir si sacarlas o no.
+Mientras lleve las garras no podra sostener ni blandir ningun arma u objeto.
+El cruzado con las garras hace un plus de 5% mas de daño con cada ataque.
+Perdida de 1 punto de carisma permanente.
+
+nv 9- RESISTENCIA INFERNAL
+El cruzado recibe una resistencia demoniaca.
++4 CON
+Perdida de 1 punto de carisma.
+
+nv 10- DESTREZ INFERNAL
+El cruzado recibe una habilidad demoniaca.
++4 DES
+No hay perdida de carisma.
+
+
+
+SENDA DE
+INVOCACION*************************************************************************
+
+Con esta senda el cruzado oscuro puede invocar una criatura infernal a la
+tierra.
+Si el cruzado esta luchando,la criatura atacara al adversario.
+Si el cruzado no lucha,la criatura tendra un % de atacar a su
+invocador,dependiendo
+del nivel de la invocacion.
+La criatura invocada,consume una cantidad de puntos de mana/fe cada round
+para permanecer
+en la "tierra",si el cruzado se queda sin puntos de mana/fe esta volvera
+inmediatamente
+al infierno de donde ha venido.
+La invocacion es "revocable",es decir,MIENTRAS la critura NO ataque al
+invocador,este podra decidir si la
+manda de nuevo al inframundo rompiando el enlace del demonio con la
+tierra.si la criatura ataca
+al invocador,este no podra "revocarla",hasta q no se pare el combate pk el
+cruzado muere o huye.si acaba con la criatura
+pues no hara falta q la revoque.
+Otra cosa a notar es que sera de vital importancia la generacion del
+invocador,ya que un generacion 13
+no podra invocar un 1 jerarquia infernal,es decir las invocaciknes iran en
+funcion de la generacion del
+cruzado.
+
+nv 1- INVOCAR DEMONIO MENOR(nivel invocador+2,MAX 230). Invocar cuesta 20
+puntos de fe.12 de wait.
+El cruzado invoca un demonio de poco poder.Generacion necesaria 13.
+caracteristicas del demonio: 1000pv/-/1000mv hit=50 dam=100(+10d6).1
+ataque.Coste por round 10 fe.
+% de ataque al invocador si este no lucha:
+invocador generacion 13 -- 5%
+		     12 -- 3%
+		     11 -- 1%
+		     las demas 0%
+% exito en la invocacion:
+		gene invocador  13 -- 90%
+				12 -- 95%
+				las demas 100%.
+
+nv 2- INVOCAR DEMONIO(nivel invocador+3,MAX 231).Invocar cuesta 30 puntos de
+fe.12 de wait.
+El cruzado invoca un demonio corriente del inframundo.Generacion necesaria
+13.
+caracteristicas: 2000pv/-/2000mv hit 100 dam=125(+15d6).1 ataque.Coste por
+round 20 de fe.
+% de ataque del demonio al invocador:
+Invocador generacion 13 -- 7%
+		     12 -- 5%
+		     11 -- 3%
+		     10 -- 1%
+		     las demas 0%
+% exito en la invocacion:
+		gene invocador	13 -- 85%
+				12 -- 90%
+				11 -- 95%
+				las demas 100%
+
+
+nv 3- INVOCAR DEMONIO MAYOR(nivel invocador+4,MAX 232).Invocar cuesta 40
+puntos de fe.12 de wait.
+El cruzado invoca un demonio de un poder algo considerable.generacion
+necesaria 12.
+caracteristicas: 3000pv/-/3000mv hit=150 dam=150(+20d6).2 ataques.Coste por
+round 40 de fe.
+% de ataque al invocador:
+Invocador generacion 12 -- 10%
+		     11 --  8%
+		     10 --  6%
+		      9 --  4%
+		      8 --  1%
+		     las demas 0%
+%exito en la invocacion:
+		gene invocador	12 -- 80%
+				11 -- 90%
+				10 -- 95%
+				las demas 100%
+
+
+nv 4-INVOCAR SABUESO INFERNAL(nivel invocador +6,MAX 234).Invocar cuesta 50
+puntos de fe.12 de wait.
+El cruzado invoca un "sabueso infernal".Es un enorma mastin de guerra del
+infierno.generacion necesaria 11.
+caracteristicas: 4000pv/-/4000mv hit=200 dam=175(+25d6).2 ataques+50% de
+mordisco(200,300)danyo.coste por round 60 de fe.
+% de ataque al invocador:
+Invocador Generacion: 13 -- no puede invocarlo
+		      12 -- no puede invocarlo
+		      11 -- 30%
+		      10 -- 20%
+		       9 -- 10%
+		       8 -- 5%
+		      las demas 0%
+%exito en la invocacion:
+		gene invocador	11 -- 75%
+				10 -- 85%
+				 9 -- 95%
+				las demas 100%.
+
+nv 5-INVOCAR DOPPLEGANGER(nivel invocador +7,MAX 235).Invocar cuesta 75
+puntos de fe.24 de wait.
+El cruzado invoca un doppleganger,un demonio con alas y cola de poder
+cosiderable.Generacion necesaria 10.
+caracteristicas: 5000pv/-/5000mv hit=250 dam=200(+30d6).3 ataques+50% de
+ataque cola(250,350)danyo.coste por round 80 de fe.
+% de ataque al invocador:
+Invocador generacion:   13 -- no puede invocarlo
+			12 -- no puede invocarlo
+			11 -- no puede invocarlo
+			10 -- 40%
+			 9 -- 30%
+			 8 -- 20%
+			 7 -- 10%
+			 6 --  5%
+			 5 --  4%
+			 4 --  3%
+			 3 --  2%
+%exito en la invoccion :
+		gene invocador:	10 -- 70%
+				 9 -- 80%
+				 8 -- 90%
+				 las demas 100%
+
+
+nv 6-INVOCAR SERVIDOR GUERRERO(nivel invocador +8,MAX 236).Invocar cuesta
+100 puntos de fe.24 de wait.
+El cruzado invoca un Servidor guerrero,las tropas de choque del
+infierno.Generacion necesaria 9.
+caracteristicas : 7000pv/-/7000mv hit=300 dam=225(+35d6).3 ataques+50% de
+golpe demoledor(300,400).coste por round 100 de fe.
+% de ataque al invocador:
+Invocador generacion:    9 -- 50%
+			 8 -- 40%
+			 7 -- 30%
+			 6 -- 20%
+			 5 -- 10%
+			 4 --  5%
+			 3 --  4%
+%exito en la invocacion:
+		gene invocador	9 -- 65%
+				8 -- 75%
+				7 -- 85%
+				6 -- 95%
+				las demas 100%
+
+
+nv 7-INVOCAR SUCUBO(nivel invocador +9,MAX 237).Invocar cuesta 150 de fe.24
+de wait.
+El cruzado invoca un sucubo,un guerrero de gran poder q dirige las huestes
+de servidores.Generacion necesaria 8.
+caracteristicas : 8000pv/-/8000mv hit=350 dam=250(+40d6).3 ataques+75% de
+golpe demoledor(350,450).coste por round 200.
+% de ataque al invocador:
+Invocador generacion:	8 -- 50%
+			7 -- 40%
+			6 -- 30%
+			5 -- 20%
+			4 -- 10%
+			3 --  5%
+%exito en la invocacion:
+		gene invocador	8 -- 60%
+				7 -- 75%
+				6 -- 90%
+				las demas 100%
+
+nv 8-INVOCAR 3 JERARQUIA(NV 240).Invocar cuesta 200 de fe.24 de wait.
+El cruzado ruega por la aparicion de un 3 jerarquia infernal,una criatura de
+gran poder.Generacion necesaria 6.
+caracteristicas : 10000pv/-/10000mv hit=400 dam=275(+45d6).4 ataques.coste
+por round 300 de fe.
+% de ataque al invocador:
+Invocador generacion:	  6 -- 100%
+			  5 --  75%
+			  4 --  50%
+			  3 --  25%
+%exito en la invocacion
+		gene invocador	6 -- 55%
+				5 -- 65%
+				4 -- 75%
+				3 -- 85%
+
+nv 9-INVOCAR 2 JERARQUIA(NV 245)Invocar cuesta 250 de fe.24 de wait.
+El cruzado invoca a la tierra a un 2 generacion,un querubin,demonio enorme
+poder,mejor que no le molestes :P.gene necesaria 5.
+caracteristicas: 12000pv/-/12000mv hit=450 dam=300(+50d6).4 ataques.coste
+por round 400  de fe.
+% de ataque al invocador :
+Invocador generacion:	  5 -- 100%
+			  4 --  75%
+			  3 --  50%
+%exito en la invocacion:
+		gene invocador	5 -- 50%
+				4 -- 60%
+				3 -- 70%
+
+nv 10-INVOCAR 1 JERARQUIA(NV 250)Invocar cuesta 300 de fe.24 de wait.
+El cruzado invoca a la tierra a uno de los mayores poderes del infierno,un
+serafin o angel caido,geenrales del infierno y solo
+superados en poder por Satan y su lugarteniente Lucifer.Mejor rezar....Gene
+necesaria 4.
+caracteristicas : 15000pv/-/15000mv hit=500 dam=350(+55d6).4 ataques.coste
+de mantenimiento 600 de fe.
+% de ataque al invocador:
+Invocador generacion:     4 -- 100%
+			  3 -- 100%
+%exito en la invocacion:
+		gene invocador	4 -- 45%
+				3 -- 55%
+
+SENDA
+GUERRERA******************************************************************************
+
+En esta senda el cruzado adquiere habilidades marciales.
+
+nv 1-DUAL
+nv 2-3rd attack
+nv 3-parry
+nv 4-disarm
+nv 5-4th attack
+nv 6-dodge
+nv 7-tangana
+nv 8-5th attack
+nv 9-critical(golpe q hace un 25% mas de danyo).%exito=(100/generacion)+5.
+nv 10-DESJARRETAR(este es un ataque especial,el cruzado golpea con su arma o
+garra el brazo del
+adversario que sostiene el arma,intentando cercenar el tendon y dejar el
+brazo inutil.si tiene exito
+el oponente dejara caer su arma y no podra volver a vestirla durante
+100/generacion horas.
+wait=12.
+%exito=(100/generacion)+25.----si entra danyo*1,5.
+
+SENDA
+PROTECCION****************************************************************************
+
+Esta senda le sirve al cruzado para protegerse de los ataques.El coste en fe
+es el mismo al de mana,menos el heal.
+
+nv 1-cure poison
+nv 2-armor
+nv 3-cure blindness
+nv 4-remove curse
+nv 5-shield
+nv 6-bendicion oscura(equivale a un bless)
+nv 7-stone skin
+nv 8-protection good
+nv 9-heal(5% mas de gasto de mana/fe)y cura un 25% menos(en lugar de 500
+cura 375)
+nv 10-Escudo Impio(10% menos de danyo recibido de mobs con alignment
+ >=250).fallo 25%.
+
+SENDA DE LA
+CORRUPCION*******************************************************************************************************
+
+Esta senda ofensiva proporciona al cruzado poderes para invocar
+enfermedades.
+
+nv 1-poison
+nv 2-blindness
+nv 3-curse
+nv 4-weaken
+nv 5-maldicion:Maldice al oponente,kien se vera incapaz de huir a partir de
+ese momento.20 fe.12 de wait.
+nv 6-putrefaccion:Este hechizo invoca a la podredumbre,la victima se llenara
+de pustulas y yagas abiertas y sangrantes.Solo
+puede lanzarse una vez a la misma victima,danyo(50-100),pero actua cada
+round.25 fe,12 wait.
+nv 7-plaga
+nv 8-corrupcion:con este poder el cruzado invoca torrentes de corrupcion
+sobre la victima.danyo fijo(200,300).20 fe,8 wait.
+nv 9-vomito de corrupcion:El cruzado adquiere el poder de lanzar vomitos
+corrosivos sobre la victima.danyo (400,500).25 fe,8 wait.
+nv 10-aliento putrefacto:con este poder el cruzado puede lanzar vocanadas de
+acido extremadamente letal.El danyo es del tipo ACID,y hace un 10% dela vida
+del cruzado.triple cast.
+30 fe,12 de wait.Ademas,una vez lanzado,una nube de gas rodea a la victima
+haciendole perder entre(40,80) de danyo cada round por los gases,este efecto
+no es acumulativo.fallo=15%.
+
+SENDA DEL
+FUEGO**************************************************************************************************************
+
+Esta senda otorga al cruzado oscuro poderes sobre el fuego,tanto natural
+como infernal.
+
+nv 1-create fire
+nv 2-burning hands(+10% de danyo,fe=mana del cast +5)
+nv 3-flamestrike(+15% de danyo,fe=mana del cast +10)
+nv 4-bola de fuego(El cruzado adquiera la habilidad de crear bolas de
+fuego,fe=30,danyo=((nivel del
+cruzado*10)/generacion)+(900/generacion).wait=6.1 cast.fallo=10%.
+nv 5-Abrasar(El cruzado adquiera la habilidad de concentrar el calor sobre
+una victima,fe=35,danyo de tipo FIRE,fijo(1000,1500).wait=8.fallo=5%.1cast.
+nv 6-critical fire:el ataque fisico del cruzado se ve envuelto de llamas
+infernales al impactar,este ataque hace danyo de tipo FIRE,plus de 10% extra
+de danyo.Posibilidad
+de que el ataque sea critico de fuego de un 10%.Esta habilidad es automatica
+una vez adquirida.
+nv 7-firebreath(plus de +5% danyo,fe=mana+20)
+nv 8-Escudo de fuego(fireshield)
+nv 9-Resistir Fuego(el cruzado adquiere RESIST al FIRE).No es
+permanente,wait=16,fe=100,1cast.Duracion=50/generacion.
+nv 10-Erupcion(el cruzado con este devastador poder puede agrietar el
+suelo,abriendo una brecha por donde saldra un torrente de fuego
+que arrasara con todo lo que encuentre.Spell zonal,si solo hay 1 mob en la
+room afecta tb al cruzado,pero solo le hace la mitad de
+danyo.fe=40.wait=12.danyo=(vida/10)+(fe/10)+(900/generacion)
+
+SENDA
+INFERNAL***************************************************************************************************************
+
+nv 1-Toque del inframundo(Danyo fijo(100,200),fe=5,wait=6,triple cast)
+nv 2-Habilidad Infernal(el cruzado recibe ayuda infernal en sus ataques,+50
+Hit,fe=15,wait=12,duracion=100/generacion).
+nv 3-locate object
+nv 4-Zahori(El cruzado puede localizar el area donde se encuentra cualquier
+mob NO jugador,es decir no funciona con PJ,solo
+con mobs,con este poder el cruzado sabra en que area se encuentra el mob
+mencionado.Wait=16,fe=40,fallo=10%)
+nv 5-Energy drain(drena un 5% mas de lo
+normal,fallo=15%,fe=40,wait=12,1cast)
+nv 6-Fuerza Infernal(+20 al
+Dam,wait=12,1cast,fallo=10%,fe=50,duracion=50/generacion)
+nv 7-Llamarada infernal(danyo tipo
+FIRE=(250,1000/generacion),wait=6,2cast,fallo=10%,fe=25)
+nv 8-Toque de maldad(Solo afecta a mobs/PJ con ali neutral(danyo la mitad) o
+bueno(danyo completo).Danyo tipo
+DRAIN=(500,(vida+fe)/100)*5+(900/generacion))).wait=12,fe=50,fallo=10%.
+Este poder solo puede ser utilizado si el ali del cruzado es maligno.
+nv 9-Recompensa del mal(el cruzado gana un 50% mas de px cuando mata mobs
+con ali bueno y un 25% mas de px si son de ali neutral).
+nv 10-Exterminatus(Con este poder el cruzado puede exterminar a cualquier
+criatura enemiga del mal,este poder solo afecta a criaturas con ali bueno o
+neutral(danyo a la mitad).Solo
+puede ser empleado si el cruzado tiene ali maligno.Danyo tipo
+DRAIN=(2000,(vida/20+fe/15+move/15)*(13/generacion).wait=12,fe=300,fallo=15%.
+
+SENDA DEL FORTALEZA
+INFERNAL*************************************************************************************************
+
+nv 1-Proporciona extra de vida de 1% de tu vida
+actual+(1000/generacion).duracion=10000/generacion.fe=100.wait=24.
+nv 2-proporciona extra de vida de 2% de tu vida
+actual+(1000/generacion).duracion=10000/generacion.fe=100.wait=24.
+nv 3-proporciona extra de vida de 3% de tu vida
+actual+(1000/generacion).duracion=10000/generacion.fe=100.wait=24.
+nv 4-proporciona extra de vida de 4% de tu vida
+actual+(1000/generacion).duracion=10000/generacion.fe=100.wait=24.
+nv 5-proporciona extra de vida de 5% de tu vida
+actual+(1000/generacion).duracion=10000/generacion.fe=100.wait=24.
+nv 6-proporciona extra de vida de 6% de tu vida
+actual+(1000/generacion).duracion=10000/generacion.fe=100.wait=24.
+nv 7-proporciona extra de vida de 7% de tu vida
+actual+(1000/generacion).duracion=10000/generacion.fe=100.wait=24.
+nv 8-proporciona extra de vida de 8% de tu vida
+actual+(1000/generacion).duracion=10000/generacion.fe=100.wait=24.
+nv 9-proporciona extra de vida de 9% de tu vida
+actual+(1000/generacion).duracion=10000/generacion.fe=100.wait=24.
+nv 10-proporciona extra de vida de 10% de tu vida
+actual+(1000/generacion).duracion=10000/generacion.fe=100.wait=24.
+
+SENDA DE LA VELOCIDAD
+INFERNAL***********************************************************************************************
+
+nv 1-reduce wait en un 10%.duracion=1000/generacion.wait=24.fe=50.
+nv 2-reduce wait en un 20%.
+nv 3-reduce wait en 25%.
+nv 3-reduce wait en 30%.
+nv 4-reduce wait en 40%.
+nv 5-reduce wait en 50%
+nv 6-+1 ataque
+nv 7-+2 ataques
+nv 8-+3 ataques
+nv 9-second cast.-2 ataque.(representa que el cruzado se concentra mas en la
+parte magica de la senda que en la parte guerrera)
+nv 10-third cast.-3 ataques.(lo mismo que arriba).
+
+SENDA DEL VIGOR
+INFERNAL*****************************************************************************************************
+
+nv 1- +10 dam.duracion=10000/generacion.fe=100.wait=24.
+nv 2- +20 dam.
+nv 3- +30 dam.
+nv 4- +40 dam.
+nv 5- +50 dam.
+nv 6- +60 dam.
+nv 7- +70 dam.
+nv 8- +80 dam.
+nv 9- +90 dam.
+nv 10- +100 dam.
+
+SENDA DE LA
+REGENERACION*****************************************************************************************************
+
+Esta senda varia con la generacion y no con el nivel.
+El cruzado obtiene la habilidad de poder regenerar (10000/generacion+2) cada
+tick,NO cada round.Wait=24.fe=250.
+
+
+
