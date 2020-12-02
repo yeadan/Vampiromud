@@ -9,3 +9,5 @@ Esta versión es del año 2004, poco antes de que dejáramos el proyecto. La pá
 <a href="https://www.buymeacoffee.com/yeadan" target="_blank">
 <img src="https://github.com/yeadan/blockenergy/blob/master/public/default-orange.png" alt="Buy Me A Coffee" style="height: 26px !important;width: 109px !important;" >
 </a>   
+   
+BTC: 32kZW9Z381DDPn54Sho8U5jQ53UhLC8rTv
